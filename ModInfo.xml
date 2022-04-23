@@ -1,0 +1,9 @@
+﻿<xml>
+    <ModInfo>
+        <Name value="GMO Farming" />
+        <Description value="Genetically modify seeds to grow plants with new properties" />
+        <Author value="Shavick and Kanaverum" />
+        <Version value="0.1.0" />
+        <Website value="https://github.com/jonathan-robertson/gmo-farming" />
+    </ModInfo>
+</xml>
