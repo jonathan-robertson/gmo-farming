@@ -1,0 +1,6 @@
+Key,File,Type,english
+
+plantedAloe1T2U,blocks,Farming,[00FF00]T2 Aloe Vera (Seed)
+plantedAloe2T2U,blocks,Farming,[00FF00]T2 Aloe Vera (Growing)
+plantedAloe3T2U,blocks,Farming,[00FF00]T2 Aloe Vera Plant
+

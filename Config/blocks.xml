@@ -1,0 +1,35 @@
+<config>
+    <!-- Legend
+        U = Underground
+        F = Fast
+        B = Bomb
+        R = Renewable
+        T = Thorny
+        S = Sweet
+    -->
+
+    <append xpath="/blocks">
+        <block name="plantedAloe1T2U" stage="1" gmo="seedUnderground">
+            <property name="Extends" value="plantedAloe1" />
+            <property name="CustomIcon" value="plantedAloe1" />
+            <property name="PlantGrowing.Next" value="plantedAloe2T2U" />
+            <drop event="Destroy" name="plantedAloe1T2U" count="1" />
+        </block>
+        <block name="plantedAloe2T2U" stage="2" gmo="seedUnderground">
+            <property name="Extends" value="plantedAloe1T2U" />
+            <!-- <property name="DisplayInfo" value="plantedAloe2T2" /> -->
+            <property name="PlantGrowing.Next" value="plantedAloe3T2U" />
+            <drop event="Destroy" name="plantedAloe2T2U" count="1" />
+        </block>
+        <block name="plantedAloe3T2U" stage="3" gmo="seedUnderground">
+            <property name="Extends" value="plantedAloe3HarvestPlayer" />
+            <drop event="Destroy" name="plantedAloe1T2U" count="1" prob="0.5" />
+            <!-- <property name="DowngradeBlock" value="plantedAloe1"/> -->
+        </block>
+    </append>
+    <append xpath="/blocks/block[@gmo='seedUnderground' and @stage='1']">
+        <property name="PlantGrowing.LightLevelGrow" value="0" />
+        <property name="PlantGrowing.LightLevelStay" value="0" />
+        <!-- <property name="PlantGrowing.FertileLevel" value="0" /> -->
+    </append>
+</config>
