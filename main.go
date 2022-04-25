@@ -117,7 +117,7 @@ func produceModifications(c chan string) {
     </append>`
 
 	// {code: 'F', name: "Fast"},
-	c <- `    <append xpath="/blocks/block[contains(@traits, 'F') and @stage='1' and not (@traits, 'FF')]">
+	c <- `    <append xpath="/blocks/block[contains(@traits, 'F') and (@stage='1') and not (@traits, 'FF')]">
         <property name="PlantGrowing.GrowthRate" value="31.5" />
     </append>`
 	c <- `    <append xpath="/blocks/block[@traits='FF' and @stage='1']">
@@ -126,7 +126,7 @@ func produceModifications(c chan string) {
 
 	// {code: 'E', name: "Explosive", incompatible: []rune{'E'}},
 	// based off of mineCookingPot
-	c <- `    <append xpath="/blocks/block[contains(@traits, 'E') and @stage='3' and not (@traits, 'EE')]">
+	c <- `    <append xpath="/blocks/block[contains(@traits, 'E') and (@stage='3') and not (@traits, 'EE')]">
         <property name="Class" value="Mine" /> <!-- a mine destroyed by an *explosion* only has a 33 percent chance to detonate -->
         <property name="Tags" value="Mine" />
         <property name="Material" value="MLandMine" />
@@ -187,7 +187,7 @@ func getFile(filename string) (*os.File, error) {
 }
 
 func writeBlocks() error {
-	file, err := getFile("blocks-example.xml")
+	file, err := getFile("Config/blocks.xml")
 	if err != nil {
 		return err
 	}
@@ -207,6 +207,7 @@ func main() {
 	// printVariantStages()
 	// writeBlocksFile()
 
-	writeBlocks()
-
+	if err := writeBlocks(); err != nil {
+		panic(err)
+	}
 }
