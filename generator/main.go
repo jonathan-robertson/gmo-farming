@@ -79,40 +79,40 @@ func init() {
 }
 
 // Write all 3 stages to file
-func produceBlock(c chan string, p plant, tier int, gmos ...rune) (err error) {
+func produceBlock(c chan string, p plant, tier int, traits ...rune) (err error) {
 	for n, stage := range variantStages {
-		var gmoSuffix, gmoTag string
-		switch len(gmos) {
+		var traitSuffix, traitTag string
+		switch len(traits) {
 		case 0:
-			gmoSuffix = ""
-			gmoTag = ""
+			traitSuffix = ""
+			traitTag = ""
 		case 1:
-			gmoSuffix = fmt.Sprintf("%c", gmos[0])
-			gmoTag = fmt.Sprintf("%c", gmos[0])
+			traitSuffix = fmt.Sprintf("%c", traits[0])
+			traitTag = fmt.Sprintf("%c", traits[0])
 		case 2:
-			gmoSuffix = fmt.Sprintf("%c%c", gmos[0], gmos[1])
-			gmoTag = fmt.Sprintf("%c,%c", gmos[0], gmos[1])
+			traitSuffix = fmt.Sprintf("%c%c", traits[0], traits[1])
+			traitTag = fmt.Sprintf("%c,%c", traits[0], traits[1])
 		default:
-			return fmt.Errorf("received too many GMOs")
+			return fmt.Errorf("received too many traits")
 		}
-		c <- fmt.Sprintf(`        <block name="%s%sT%d%s" stage="%s" gmo="%s">`, p.name, stage, tier, gmoSuffix, stage, gmoTag)
+		c <- fmt.Sprintf(`        <block name="%s%sT%d%s" stage="%s" trait="%s">`, p.name, stage, tier, traitSuffix, stage, traitTag)
 		switch stage {
 		case "1":
 			c <- fmt.Sprintf(`            <property name="Extends" value="%s%s" />`, p.name, vanillaStages[n])
 			c <- fmt.Sprintf(`            <property name="CustomIcon" value="%s%s" />`, p.name, vanillaStages[n])
-			c <- fmt.Sprintf(`            <property name="PlantGrowing.Next" value="%s%sT%d%s" />`, p.name, variantStages[n+1], tier, gmoSuffix)
-			c <- fmt.Sprintf(`            <drop event="Destroy" name="%s%sT%d%s" count="1" />`, p.name, stage, tier, gmoSuffix)
+			c <- fmt.Sprintf(`            <property name="PlantGrowing.Next" value="%s%sT%d%s" />`, p.name, variantStages[n+1], tier, traitSuffix)
+			c <- fmt.Sprintf(`            <drop event="Destroy" name="%s%sT%d%s" count="1" />`, p.name, stage, tier, traitSuffix)
 		case "2":
-			c <- fmt.Sprintf(`            <property name="Extends" value="%s%sT%d%s" />`, p.name, stage, tier, gmoSuffix)
-			c <- fmt.Sprintf(`            <property name="PlantGrowing.Next" value="%s%sT%d%s" />`, p.name, variantStages[n+1], tier, gmoSuffix)
-			c <- fmt.Sprintf(`            <drop event="Destroy" name="%s%sT%d%s" count="1" />`, p.name, stage, tier, gmoSuffix)
+			c <- fmt.Sprintf(`            <property name="Extends" value="%s%sT%d%s" />`, p.name, stage, tier, traitSuffix)
+			c <- fmt.Sprintf(`            <property name="PlantGrowing.Next" value="%s%sT%d%s" />`, p.name, variantStages[n+1], tier, traitSuffix)
+			c <- fmt.Sprintf(`            <drop event="Destroy" name="%s%sT%d%s" count="1" />`, p.name, stage, tier, traitSuffix)
 		case "3":
 			c <- fmt.Sprintf(`            <property name="Extends" value="%s%s" />`, p.name, vanillaStages[n])
 			c <- fmt.Sprintf(`            <drop event="Harvest" name="%s" count="4" tag="cropHarvest" />`, p.crop)
 			c <- fmt.Sprintf(`            <drop event="Harvest" name="%s" prob="0.5" count="2" tag="bonusCropHarvest" />`, p.crop)
-			c <- fmt.Sprintf(`            <drop event="Destroy" name="%s1T%d%s" count="1" prob="0.5" />`, p.name, tier, gmoSuffix)
-			if strings.ContainsRune(gmoSuffix, 'R') {
-				c <- fmt.Sprintf(`            <property name="DowngradeBlock" value="%s1T%d%s" />`, p.name, tier, gmoSuffix)
+			c <- fmt.Sprintf(`            <drop event="Destroy" name="%s1T%d%s" count="1" prob="0.5" />`, p.name, tier, traitSuffix)
+			if strings.ContainsRune(traitSuffix, 'R') {
+				c <- fmt.Sprintf(`            <property name="DowngradeBlock" value="%s1T%d%s" />`, p.name, tier, traitSuffix)
 			}
 		}
 		c <- "        </block>"
@@ -122,16 +122,16 @@ func produceBlock(c chan string, p plant, tier int, gmos ...rune) (err error) {
 
 func produceModifications(c chan string) {
 	// {code: 'U', name: "Underground", incompatible: []rune{'U', 'S'}},
-	c <- `    <append xpath="/blocks/block[contains(@gmo, 'U') and @stage='1']">
+	c <- `    <append xpath="/blocks/block[contains(@trait, 'U') and @stage='1']">
         <property name="PlantGrowing.LightLevelGrow" value="0" />
         <property name="PlantGrowing.LightLevelStay" value="0" />
     </append>`
 
 	// {code: 'F', name: "Fast"},
-	c <- `    <append xpath="/blocks/block[contains(@gmo, 'F') and @stage='1' and not @gmo='F,F']">
+	c <- `    <append xpath="/blocks/block[contains(@trait, 'F') and @stage='1' and not @trait='F,F']">
         <property name="PlantGrowing.GrowthRate" value="31.5" />
     </append>`
-	c <- `    <append xpath="/blocks/block[@gmo='F,F' and @stage='1']">
+	c <- `    <append xpath="/blocks/block[@trait='F,F' and @stage='1']">
         <property name="PlantGrowing.GrowthRate" value="15.75" />
     </append>`
 	/*
