@@ -223,10 +223,11 @@ func produceBlockModifications(c chan string) {
         <property name="CanPickup" value="false" />
     </append>`
 
-	// {code: 'B', name: "Bonus", incompatible: []rune{'B'}},
 	// {code: 'T', name: "Thorny"},
 	// {code: 'S', name: "Sweet", incompatible: []rune{'U'}},
 
+	// LOCALIZED: {code: 'B', name: "Bonus", incompatible: []rune{'B'}},
+	// LOCALIZED: {code: 'R', name: "Renewable", incompatible: []rune{'R'}},
 }
 
 func producePlantBlocks(c chan string) {

@@ -1,6 +1,6 @@
 <config>
 <append xpath="/blocks">
-<block name="plantedMushroom1T2">
+<block name="plantedMushroom1T2" stage="1" traits="">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -24,7 +24,7 @@
 	<property name="Group" value="Food/Cooking"/>
 	<property name="PickupJournalEntry" value="farmingTip"/>
 </block>
-<block name="plantedMushroom2T2">
+<block name="plantedMushroom2T2" stage="2" traits="">
 	<property name="Extends" value="plantedMushroom1T2"/>
 	<property name="CustomIcon" value="plantedMushroom1"/>
 	<property name="CreativeMode" value="None"/>
@@ -32,7 +32,7 @@
 	<property name="PlantGrowing.Next" value="plantedMushroom3T2"/>
 	<property name="Collide" value="melee"/>
 </block>
-<block name="plantedMushroom3T2">
+<block name="plantedMushroom3T2 stage="3" traits=""">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="DisplayInfo" value="Description"/>
@@ -58,7 +58,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T2" count="1" prob="0.5"/>
 </block>
-<block name="plantedMushroom1T2B">
+<block name="plantedMushroom1T2B" stage="1" traits="B">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -82,7 +82,7 @@
 	<property name="Group" value="Food/Cooking"/>
 	<property name="PickupJournalEntry" value="farmingTip"/>
 </block>
-<block name="plantedMushroom2T2B">
+<block name="plantedMushroom2T2B" stage="2" traits="B">
 	<property name="Extends" value="plantedMushroom1T2B"/>
 	<property name="CustomIcon" value="plantedMushroom1"/>
 	<property name="CreativeMode" value="None"/>
@@ -90,7 +90,7 @@
 	<property name="PlantGrowing.Next" value="plantedMushroom3T2B"/>
 	<property name="Collide" value="melee"/>
 </block>
-<block name="plantedMushroom3T2B">
+<block name="plantedMushroom3T2B stage="3" traits="B"">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="DisplayInfo" value="Description"/>
@@ -116,7 +116,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="3" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T2B" count="1" prob="0.5"/>
 </block>
-<block name="plantedMushroom1T2U">
+<block name="plantedMushroom1T2U" stage="1" traits="U">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -140,7 +140,7 @@
 	<property name="Group" value="Food/Cooking"/>
 	<property name="PickupJournalEntry" value="farmingTip"/>
 </block>
-<block name="plantedMushroom2T2U">
+<block name="plantedMushroom2T2U" stage="2" traits="U">
 	<property name="Extends" value="plantedMushroom1T2U"/>
 	<property name="CustomIcon" value="plantedMushroom1"/>
 	<property name="CreativeMode" value="None"/>
@@ -148,7 +148,7 @@
 	<property name="PlantGrowing.Next" value="plantedMushroom3T2U"/>
 	<property name="Collide" value="melee"/>
 </block>
-<block name="plantedMushroom3T2U">
+<block name="plantedMushroom3T2U stage="3" traits="U"">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="DisplayInfo" value="Description"/>
@@ -174,7 +174,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T2U" count="1" prob="0.5"/>
 </block>
-<block name="plantedMushroom1T2F">
+<block name="plantedMushroom1T2F" stage="1" traits="F">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -198,7 +198,7 @@
 	<property name="Group" value="Food/Cooking"/>
 	<property name="PickupJournalEntry" value="farmingTip"/>
 </block>
-<block name="plantedMushroom2T2F">
+<block name="plantedMushroom2T2F" stage="2" traits="F">
 	<property name="Extends" value="plantedMushroom1T2F"/>
 	<property name="CustomIcon" value="plantedMushroom1"/>
 	<property name="CreativeMode" value="None"/>
@@ -206,7 +206,7 @@
 	<property name="PlantGrowing.Next" value="plantedMushroom3T2F"/>
 	<property name="Collide" value="melee"/>
 </block>
-<block name="plantedMushroom3T2F">
+<block name="plantedMushroom3T2F stage="3" traits="F"">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="DisplayInfo" value="Description"/>
@@ -232,7 +232,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T2F" count="1" prob="0.5"/>
 </block>
-<block name="plantedMushroom1T2E">
+<block name="plantedMushroom1T2E" stage="1" traits="E">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -256,7 +256,7 @@
 	<property name="Group" value="Food/Cooking"/>
 	<property name="PickupJournalEntry" value="farmingTip"/>
 </block>
-<block name="plantedMushroom2T2E">
+<block name="plantedMushroom2T2E" stage="2" traits="E">
 	<property name="Extends" value="plantedMushroom1T2E"/>
 	<property name="CustomIcon" value="plantedMushroom1"/>
 	<property name="CreativeMode" value="None"/>
@@ -264,7 +264,7 @@
 	<property name="PlantGrowing.Next" value="plantedMushroom3T2E"/>
 	<property name="Collide" value="melee"/>
 </block>
-<block name="plantedMushroom3T2E">
+<block name="plantedMushroom3T2E stage="3" traits="E"">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="DisplayInfo" value="Description"/>
@@ -290,7 +290,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T2E" count="1" prob="0.5"/>
 </block>
-<block name="plantedMushroom1T2R">
+<block name="plantedMushroom1T2R" stage="1" traits="R">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -314,7 +314,7 @@
 	<property name="Group" value="Food/Cooking"/>
 	<property name="PickupJournalEntry" value="farmingTip"/>
 </block>
-<block name="plantedMushroom2T2R">
+<block name="plantedMushroom2T2R" stage="2" traits="R">
 	<property name="Extends" value="plantedMushroom1T2R"/>
 	<property name="CustomIcon" value="plantedMushroom1"/>
 	<property name="CreativeMode" value="None"/>
@@ -322,7 +322,7 @@
 	<property name="PlantGrowing.Next" value="plantedMushroom3T2R"/>
 	<property name="Collide" value="melee"/>
 </block>
-<block name="plantedMushroom3T2R">
+<block name="plantedMushroom3T2R stage="3" traits="R"">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="DisplayInfo" value="Description"/>
@@ -348,7 +348,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T2R" count="1" prob="0.5"/>
 </block>
-<block name="plantedMushroom1T2T">
+<block name="plantedMushroom1T2T" stage="1" traits="T">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -372,7 +372,7 @@
 	<property name="Group" value="Food/Cooking"/>
 	<property name="PickupJournalEntry" value="farmingTip"/>
 </block>
-<block name="plantedMushroom2T2T">
+<block name="plantedMushroom2T2T" stage="2" traits="T">
 	<property name="Extends" value="plantedMushroom1T2T"/>
 	<property name="CustomIcon" value="plantedMushroom1"/>
 	<property name="CreativeMode" value="None"/>
@@ -380,7 +380,7 @@
 	<property name="PlantGrowing.Next" value="plantedMushroom3T2T"/>
 	<property name="Collide" value="melee"/>
 </block>
-<block name="plantedMushroom3T2T">
+<block name="plantedMushroom3T2T stage="3" traits="T"">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="DisplayInfo" value="Description"/>
@@ -406,7 +406,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T2T" count="1" prob="0.5"/>
 </block>
-<block name="plantedMushroom1T2S">
+<block name="plantedMushroom1T2S" stage="1" traits="S">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -430,7 +430,7 @@
 	<property name="Group" value="Food/Cooking"/>
 	<property name="PickupJournalEntry" value="farmingTip"/>
 </block>
-<block name="plantedMushroom2T2S">
+<block name="plantedMushroom2T2S" stage="2" traits="S">
 	<property name="Extends" value="plantedMushroom1T2S"/>
 	<property name="CustomIcon" value="plantedMushroom1"/>
 	<property name="CreativeMode" value="None"/>
@@ -438,7 +438,7 @@
 	<property name="PlantGrowing.Next" value="plantedMushroom3T2S"/>
 	<property name="Collide" value="melee"/>
 </block>
-<block name="plantedMushroom3T2S">
+<block name="plantedMushroom3T2S stage="3" traits="S"">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="DisplayInfo" value="Description"/>
@@ -464,7 +464,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T2S" count="1" prob="0.5"/>
 </block>
-<block name="plantedMushroom1T3">
+<block name="plantedMushroom1T3" stage="1" traits="">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -488,7 +488,7 @@
 	<property name="Group" value="Food/Cooking"/>
 	<property name="PickupJournalEntry" value="farmingTip"/>
 </block>
-<block name="plantedMushroom2T3">
+<block name="plantedMushroom2T3" stage="2" traits="">
 	<property name="Extends" value="plantedMushroom1T3"/>
 	<property name="CustomIcon" value="plantedMushroom1"/>
 	<property name="CreativeMode" value="None"/>
@@ -496,7 +496,7 @@
 	<property name="PlantGrowing.Next" value="plantedMushroom3T3"/>
 	<property name="Collide" value="melee"/>
 </block>
-<block name="plantedMushroom3T3">
+<block name="plantedMushroom3T3 stage="3" traits=""">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="DisplayInfo" value="Description"/>
@@ -522,7 +522,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T3" count="1" prob="0.5"/>
 </block>
-<block name="plantedMushroom1T3BB">
+<block name="plantedMushroom1T3BB" stage="1" traits="BB">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -546,7 +546,7 @@
 	<property name="Group" value="Food/Cooking"/>
 	<property name="PickupJournalEntry" value="farmingTip"/>
 </block>
-<block name="plantedMushroom2T3BB">
+<block name="plantedMushroom2T3BB" stage="2" traits="BB">
 	<property name="Extends" value="plantedMushroom1T3BB"/>
 	<property name="CustomIcon" value="plantedMushroom1"/>
 	<property name="CreativeMode" value="None"/>
@@ -554,7 +554,7 @@
 	<property name="PlantGrowing.Next" value="plantedMushroom3T3BB"/>
 	<property name="Collide" value="melee"/>
 </block>
-<block name="plantedMushroom3T3BB">
+<block name="plantedMushroom3T3BB stage="3" traits="BB"">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="DisplayInfo" value="Description"/>
@@ -580,7 +580,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="8" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T3BB" count="1" prob="0.5"/>
 </block>
-<block name="plantedMushroom1T3BU">
+<block name="plantedMushroom1T3BU" stage="1" traits="BU">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -604,7 +604,7 @@
 	<property name="Group" value="Food/Cooking"/>
 	<property name="PickupJournalEntry" value="farmingTip"/>
 </block>
-<block name="plantedMushroom2T3BU">
+<block name="plantedMushroom2T3BU" stage="2" traits="BU">
 	<property name="Extends" value="plantedMushroom1T3BU"/>
 	<property name="CustomIcon" value="plantedMushroom1"/>
 	<property name="CreativeMode" value="None"/>
@@ -612,7 +612,7 @@
 	<property name="PlantGrowing.Next" value="plantedMushroom3T3BU"/>
 	<property name="Collide" value="melee"/>
 </block>
-<block name="plantedMushroom3T3BU">
+<block name="plantedMushroom3T3BU stage="3" traits="BU"">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="DisplayInfo" value="Description"/>
@@ -638,7 +638,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="6" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T3BU" count="1" prob="0.5"/>
 </block>
-<block name="plantedMushroom1T3BF">
+<block name="plantedMushroom1T3BF" stage="1" traits="BF">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -662,7 +662,7 @@
 	<property name="Group" value="Food/Cooking"/>
 	<property name="PickupJournalEntry" value="farmingTip"/>
 </block>
-<block name="plantedMushroom2T3BF">
+<block name="plantedMushroom2T3BF" stage="2" traits="BF">
 	<property name="Extends" value="plantedMushroom1T3BF"/>
 	<property name="CustomIcon" value="plantedMushroom1"/>
 	<property name="CreativeMode" value="None"/>
@@ -670,7 +670,7 @@
 	<property name="PlantGrowing.Next" value="plantedMushroom3T3BF"/>
 	<property name="Collide" value="melee"/>
 </block>
-<block name="plantedMushroom3T3BF">
+<block name="plantedMushroom3T3BF stage="3" traits="BF"">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="DisplayInfo" value="Description"/>
@@ -696,7 +696,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="6" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T3BF" count="1" prob="0.5"/>
 </block>
-<block name="plantedMushroom1T3BR">
+<block name="plantedMushroom1T3BR" stage="1" traits="BR">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -720,7 +720,7 @@
 	<property name="Group" value="Food/Cooking"/>
 	<property name="PickupJournalEntry" value="farmingTip"/>
 </block>
-<block name="plantedMushroom2T3BR">
+<block name="plantedMushroom2T3BR" stage="2" traits="BR">
 	<property name="Extends" value="plantedMushroom1T3BR"/>
 	<property name="CustomIcon" value="plantedMushroom1"/>
 	<property name="CreativeMode" value="None"/>
@@ -728,7 +728,7 @@
 	<property name="PlantGrowing.Next" value="plantedMushroom3T3BR"/>
 	<property name="Collide" value="melee"/>
 </block>
-<block name="plantedMushroom3T3BR">
+<block name="plantedMushroom3T3BR stage="3" traits="BR"">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="DisplayInfo" value="Description"/>
@@ -754,7 +754,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="6" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T3BR" count="1" prob="0.5"/>
 </block>
-<block name="plantedMushroom1T3BT">
+<block name="plantedMushroom1T3BT" stage="1" traits="BT">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -778,7 +778,7 @@
 	<property name="Group" value="Food/Cooking"/>
 	<property name="PickupJournalEntry" value="farmingTip"/>
 </block>
-<block name="plantedMushroom2T3BT">
+<block name="plantedMushroom2T3BT" stage="2" traits="BT">
 	<property name="Extends" value="plantedMushroom1T3BT"/>
 	<property name="CustomIcon" value="plantedMushroom1"/>
 	<property name="CreativeMode" value="None"/>
@@ -786,7 +786,7 @@
 	<property name="PlantGrowing.Next" value="plantedMushroom3T3BT"/>
 	<property name="Collide" value="melee"/>
 </block>
-<block name="plantedMushroom3T3BT">
+<block name="plantedMushroom3T3BT stage="3" traits="BT"">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="DisplayInfo" value="Description"/>
@@ -812,7 +812,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="6" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T3BT" count="1" prob="0.5"/>
 </block>
-<block name="plantedMushroom1T3BS">
+<block name="plantedMushroom1T3BS" stage="1" traits="BS">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -836,7 +836,7 @@
 	<property name="Group" value="Food/Cooking"/>
 	<property name="PickupJournalEntry" value="farmingTip"/>
 </block>
-<block name="plantedMushroom2T3BS">
+<block name="plantedMushroom2T3BS" stage="2" traits="BS">
 	<property name="Extends" value="plantedMushroom1T3BS"/>
 	<property name="CustomIcon" value="plantedMushroom1"/>
 	<property name="CreativeMode" value="None"/>
@@ -844,7 +844,7 @@
 	<property name="PlantGrowing.Next" value="plantedMushroom3T3BS"/>
 	<property name="Collide" value="melee"/>
 </block>
-<block name="plantedMushroom3T3BS">
+<block name="plantedMushroom3T3BS stage="3" traits="BS"">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="DisplayInfo" value="Description"/>
@@ -870,7 +870,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="6" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T3BS" count="1" prob="0.5"/>
 </block>
-<block name="plantedMushroom1T3UF">
+<block name="plantedMushroom1T3UF" stage="1" traits="UF">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -894,7 +894,7 @@
 	<property name="Group" value="Food/Cooking"/>
 	<property name="PickupJournalEntry" value="farmingTip"/>
 </block>
-<block name="plantedMushroom2T3UF">
+<block name="plantedMushroom2T3UF" stage="2" traits="UF">
 	<property name="Extends" value="plantedMushroom1T3UF"/>
 	<property name="CustomIcon" value="plantedMushroom1"/>
 	<property name="CreativeMode" value="None"/>
@@ -902,7 +902,7 @@
 	<property name="PlantGrowing.Next" value="plantedMushroom3T3UF"/>
 	<property name="Collide" value="melee"/>
 </block>
-<block name="plantedMushroom3T3UF">
+<block name="plantedMushroom3T3UF stage="3" traits="UF"">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="DisplayInfo" value="Description"/>
@@ -928,7 +928,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T3UF" count="1" prob="0.5"/>
 </block>
-<block name="plantedMushroom1T3UE">
+<block name="plantedMushroom1T3UE" stage="1" traits="UE">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -952,7 +952,7 @@
 	<property name="Group" value="Food/Cooking"/>
 	<property name="PickupJournalEntry" value="farmingTip"/>
 </block>
-<block name="plantedMushroom2T3UE">
+<block name="plantedMushroom2T3UE" stage="2" traits="UE">
 	<property name="Extends" value="plantedMushroom1T3UE"/>
 	<property name="CustomIcon" value="plantedMushroom1"/>
 	<property name="CreativeMode" value="None"/>
@@ -960,7 +960,7 @@
 	<property name="PlantGrowing.Next" value="plantedMushroom3T3UE"/>
 	<property name="Collide" value="melee"/>
 </block>
-<block name="plantedMushroom3T3UE">
+<block name="plantedMushroom3T3UE stage="3" traits="UE"">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="DisplayInfo" value="Description"/>
@@ -986,7 +986,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T3UE" count="1" prob="0.5"/>
 </block>
-<block name="plantedMushroom1T3UR">
+<block name="plantedMushroom1T3UR" stage="1" traits="UR">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -1010,7 +1010,7 @@
 	<property name="Group" value="Food/Cooking"/>
 	<property name="PickupJournalEntry" value="farmingTip"/>
 </block>
-<block name="plantedMushroom2T3UR">
+<block name="plantedMushroom2T3UR" stage="2" traits="UR">
 	<property name="Extends" value="plantedMushroom1T3UR"/>
 	<property name="CustomIcon" value="plantedMushroom1"/>
 	<property name="CreativeMode" value="None"/>
@@ -1018,7 +1018,7 @@
 	<property name="PlantGrowing.Next" value="plantedMushroom3T3UR"/>
 	<property name="Collide" value="melee"/>
 </block>
-<block name="plantedMushroom3T3UR">
+<block name="plantedMushroom3T3UR stage="3" traits="UR"">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="DisplayInfo" value="Description"/>
@@ -1044,7 +1044,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T3UR" count="1" prob="0.5"/>
 </block>
-<block name="plantedMushroom1T3UT">
+<block name="plantedMushroom1T3UT" stage="1" traits="UT">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -1068,7 +1068,7 @@
 	<property name="Group" value="Food/Cooking"/>
 	<property name="PickupJournalEntry" value="farmingTip"/>
 </block>
-<block name="plantedMushroom2T3UT">
+<block name="plantedMushroom2T3UT" stage="2" traits="UT">
 	<property name="Extends" value="plantedMushroom1T3UT"/>
 	<property name="CustomIcon" value="plantedMushroom1"/>
 	<property name="CreativeMode" value="None"/>
@@ -1076,7 +1076,7 @@
 	<property name="PlantGrowing.Next" value="plantedMushroom3T3UT"/>
 	<property name="Collide" value="melee"/>
 </block>
-<block name="plantedMushroom3T3UT">
+<block name="plantedMushroom3T3UT stage="3" traits="UT"">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="DisplayInfo" value="Description"/>
@@ -1102,7 +1102,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T3UT" count="1" prob="0.5"/>
 </block>
-<block name="plantedMushroom1T3FF">
+<block name="plantedMushroom1T3FF" stage="1" traits="FF">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -1126,7 +1126,7 @@
 	<property name="Group" value="Food/Cooking"/>
 	<property name="PickupJournalEntry" value="farmingTip"/>
 </block>
-<block name="plantedMushroom2T3FF">
+<block name="plantedMushroom2T3FF" stage="2" traits="FF">
 	<property name="Extends" value="plantedMushroom1T3FF"/>
 	<property name="CustomIcon" value="plantedMushroom1"/>
 	<property name="CreativeMode" value="None"/>
@@ -1134,7 +1134,7 @@
 	<property name="PlantGrowing.Next" value="plantedMushroom3T3FF"/>
 	<property name="Collide" value="melee"/>
 </block>
-<block name="plantedMushroom3T3FF">
+<block name="plantedMushroom3T3FF stage="3" traits="FF"">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="DisplayInfo" value="Description"/>
@@ -1160,7 +1160,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T3FF" count="1" prob="0.5"/>
 </block>
-<block name="plantedMushroom1T3FE">
+<block name="plantedMushroom1T3FE" stage="1" traits="FE">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -1184,7 +1184,7 @@
 	<property name="Group" value="Food/Cooking"/>
 	<property name="PickupJournalEntry" value="farmingTip"/>
 </block>
-<block name="plantedMushroom2T3FE">
+<block name="plantedMushroom2T3FE" stage="2" traits="FE">
 	<property name="Extends" value="plantedMushroom1T3FE"/>
 	<property name="CustomIcon" value="plantedMushroom1"/>
 	<property name="CreativeMode" value="None"/>
@@ -1192,7 +1192,7 @@
 	<property name="PlantGrowing.Next" value="plantedMushroom3T3FE"/>
 	<property name="Collide" value="melee"/>
 </block>
-<block name="plantedMushroom3T3FE">
+<block name="plantedMushroom3T3FE stage="3" traits="FE"">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="DisplayInfo" value="Description"/>
@@ -1218,7 +1218,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T3FE" count="1" prob="0.5"/>
 </block>
-<block name="plantedMushroom1T3FR">
+<block name="plantedMushroom1T3FR" stage="1" traits="FR">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -1242,7 +1242,7 @@
 	<property name="Group" value="Food/Cooking"/>
 	<property name="PickupJournalEntry" value="farmingTip"/>
 </block>
-<block name="plantedMushroom2T3FR">
+<block name="plantedMushroom2T3FR" stage="2" traits="FR">
 	<property name="Extends" value="plantedMushroom1T3FR"/>
 	<property name="CustomIcon" value="plantedMushroom1"/>
 	<property name="CreativeMode" value="None"/>
@@ -1250,7 +1250,7 @@
 	<property name="PlantGrowing.Next" value="plantedMushroom3T3FR"/>
 	<property name="Collide" value="melee"/>
 </block>
-<block name="plantedMushroom3T3FR">
+<block name="plantedMushroom3T3FR stage="3" traits="FR"">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="DisplayInfo" value="Description"/>
@@ -1276,7 +1276,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T3FR" count="1" prob="0.5"/>
 </block>
-<block name="plantedMushroom1T3FT">
+<block name="plantedMushroom1T3FT" stage="1" traits="FT">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -1300,7 +1300,7 @@
 	<property name="Group" value="Food/Cooking"/>
 	<property name="PickupJournalEntry" value="farmingTip"/>
 </block>
-<block name="plantedMushroom2T3FT">
+<block name="plantedMushroom2T3FT" stage="2" traits="FT">
 	<property name="Extends" value="plantedMushroom1T3FT"/>
 	<property name="CustomIcon" value="plantedMushroom1"/>
 	<property name="CreativeMode" value="None"/>
@@ -1308,7 +1308,7 @@
 	<property name="PlantGrowing.Next" value="plantedMushroom3T3FT"/>
 	<property name="Collide" value="melee"/>
 </block>
-<block name="plantedMushroom3T3FT">
+<block name="plantedMushroom3T3FT stage="3" traits="FT"">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="DisplayInfo" value="Description"/>
@@ -1334,7 +1334,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T3FT" count="1" prob="0.5"/>
 </block>
-<block name="plantedMushroom1T3FS">
+<block name="plantedMushroom1T3FS" stage="1" traits="FS">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -1358,7 +1358,7 @@
 	<property name="Group" value="Food/Cooking"/>
 	<property name="PickupJournalEntry" value="farmingTip"/>
 </block>
-<block name="plantedMushroom2T3FS">
+<block name="plantedMushroom2T3FS" stage="2" traits="FS">
 	<property name="Extends" value="plantedMushroom1T3FS"/>
 	<property name="CustomIcon" value="plantedMushroom1"/>
 	<property name="CreativeMode" value="None"/>
@@ -1366,7 +1366,7 @@
 	<property name="PlantGrowing.Next" value="plantedMushroom3T3FS"/>
 	<property name="Collide" value="melee"/>
 </block>
-<block name="plantedMushroom3T3FS">
+<block name="plantedMushroom3T3FS stage="3" traits="FS"">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="DisplayInfo" value="Description"/>
@@ -1392,7 +1392,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T3FS" count="1" prob="0.5"/>
 </block>
-<block name="plantedMushroom1T3EE">
+<block name="plantedMushroom1T3EE" stage="1" traits="EE">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -1416,7 +1416,7 @@
 	<property name="Group" value="Food/Cooking"/>
 	<property name="PickupJournalEntry" value="farmingTip"/>
 </block>
-<block name="plantedMushroom2T3EE">
+<block name="plantedMushroom2T3EE" stage="2" traits="EE">
 	<property name="Extends" value="plantedMushroom1T3EE"/>
 	<property name="CustomIcon" value="plantedMushroom1"/>
 	<property name="CreativeMode" value="None"/>
@@ -1424,7 +1424,7 @@
 	<property name="PlantGrowing.Next" value="plantedMushroom3T3EE"/>
 	<property name="Collide" value="melee"/>
 </block>
-<block name="plantedMushroom3T3EE">
+<block name="plantedMushroom3T3EE stage="3" traits="EE"">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="DisplayInfo" value="Description"/>
@@ -1450,7 +1450,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T3EE" count="1" prob="0.5"/>
 </block>
-<block name="plantedMushroom1T3ER">
+<block name="plantedMushroom1T3ER" stage="1" traits="ER">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -1474,7 +1474,7 @@
 	<property name="Group" value="Food/Cooking"/>
 	<property name="PickupJournalEntry" value="farmingTip"/>
 </block>
-<block name="plantedMushroom2T3ER">
+<block name="plantedMushroom2T3ER" stage="2" traits="ER">
 	<property name="Extends" value="plantedMushroom1T3ER"/>
 	<property name="CustomIcon" value="plantedMushroom1"/>
 	<property name="CreativeMode" value="None"/>
@@ -1482,7 +1482,7 @@
 	<property name="PlantGrowing.Next" value="plantedMushroom3T3ER"/>
 	<property name="Collide" value="melee"/>
 </block>
-<block name="plantedMushroom3T3ER">
+<block name="plantedMushroom3T3ER stage="3" traits="ER"">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="DisplayInfo" value="Description"/>
@@ -1508,7 +1508,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T3ER" count="1" prob="0.5"/>
 </block>
-<block name="plantedMushroom1T3ET">
+<block name="plantedMushroom1T3ET" stage="1" traits="ET">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -1532,7 +1532,7 @@
 	<property name="Group" value="Food/Cooking"/>
 	<property name="PickupJournalEntry" value="farmingTip"/>
 </block>
-<block name="plantedMushroom2T3ET">
+<block name="plantedMushroom2T3ET" stage="2" traits="ET">
 	<property name="Extends" value="plantedMushroom1T3ET"/>
 	<property name="CustomIcon" value="plantedMushroom1"/>
 	<property name="CreativeMode" value="None"/>
@@ -1540,7 +1540,7 @@
 	<property name="PlantGrowing.Next" value="plantedMushroom3T3ET"/>
 	<property name="Collide" value="melee"/>
 </block>
-<block name="plantedMushroom3T3ET">
+<block name="plantedMushroom3T3ET stage="3" traits="ET"">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="DisplayInfo" value="Description"/>
@@ -1566,7 +1566,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T3ET" count="1" prob="0.5"/>
 </block>
-<block name="plantedMushroom1T3ES">
+<block name="plantedMushroom1T3ES" stage="1" traits="ES">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -1590,7 +1590,7 @@
 	<property name="Group" value="Food/Cooking"/>
 	<property name="PickupJournalEntry" value="farmingTip"/>
 </block>
-<block name="plantedMushroom2T3ES">
+<block name="plantedMushroom2T3ES" stage="2" traits="ES">
 	<property name="Extends" value="plantedMushroom1T3ES"/>
 	<property name="CustomIcon" value="plantedMushroom1"/>
 	<property name="CreativeMode" value="None"/>
@@ -1598,7 +1598,7 @@
 	<property name="PlantGrowing.Next" value="plantedMushroom3T3ES"/>
 	<property name="Collide" value="melee"/>
 </block>
-<block name="plantedMushroom3T3ES">
+<block name="plantedMushroom3T3ES stage="3" traits="ES"">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="DisplayInfo" value="Description"/>
@@ -1624,7 +1624,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T3ES" count="1" prob="0.5"/>
 </block>
-<block name="plantedMushroom1T3RT">
+<block name="plantedMushroom1T3RT" stage="1" traits="RT">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -1648,7 +1648,7 @@
 	<property name="Group" value="Food/Cooking"/>
 	<property name="PickupJournalEntry" value="farmingTip"/>
 </block>
-<block name="plantedMushroom2T3RT">
+<block name="plantedMushroom2T3RT" stage="2" traits="RT">
 	<property name="Extends" value="plantedMushroom1T3RT"/>
 	<property name="CustomIcon" value="plantedMushroom1"/>
 	<property name="CreativeMode" value="None"/>
@@ -1656,7 +1656,7 @@
 	<property name="PlantGrowing.Next" value="plantedMushroom3T3RT"/>
 	<property name="Collide" value="melee"/>
 </block>
-<block name="plantedMushroom3T3RT">
+<block name="plantedMushroom3T3RT stage="3" traits="RT"">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="DisplayInfo" value="Description"/>
@@ -1682,7 +1682,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T3RT" count="1" prob="0.5"/>
 </block>
-<block name="plantedMushroom1T3RS">
+<block name="plantedMushroom1T3RS" stage="1" traits="RS">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -1706,7 +1706,7 @@
 	<property name="Group" value="Food/Cooking"/>
 	<property name="PickupJournalEntry" value="farmingTip"/>
 </block>
-<block name="plantedMushroom2T3RS">
+<block name="plantedMushroom2T3RS" stage="2" traits="RS">
 	<property name="Extends" value="plantedMushroom1T3RS"/>
 	<property name="CustomIcon" value="plantedMushroom1"/>
 	<property name="CreativeMode" value="None"/>
@@ -1714,7 +1714,7 @@
 	<property name="PlantGrowing.Next" value="plantedMushroom3T3RS"/>
 	<property name="Collide" value="melee"/>
 </block>
-<block name="plantedMushroom3T3RS">
+<block name="plantedMushroom3T3RS stage="3" traits="RS"">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="DisplayInfo" value="Description"/>
@@ -1740,7 +1740,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T3RS" count="1" prob="0.5"/>
 </block>
-<block name="plantedMushroom1T3TT">
+<block name="plantedMushroom1T3TT" stage="1" traits="TT">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -1764,7 +1764,7 @@
 	<property name="Group" value="Food/Cooking"/>
 	<property name="PickupJournalEntry" value="farmingTip"/>
 </block>
-<block name="plantedMushroom2T3TT">
+<block name="plantedMushroom2T3TT" stage="2" traits="TT">
 	<property name="Extends" value="plantedMushroom1T3TT"/>
 	<property name="CustomIcon" value="plantedMushroom1"/>
 	<property name="CreativeMode" value="None"/>
@@ -1772,7 +1772,7 @@
 	<property name="PlantGrowing.Next" value="plantedMushroom3T3TT"/>
 	<property name="Collide" value="melee"/>
 </block>
-<block name="plantedMushroom3T3TT">
+<block name="plantedMushroom3T3TT stage="3" traits="TT"">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="DisplayInfo" value="Description"/>
@@ -1798,7 +1798,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T3TT" count="1" prob="0.5"/>
 </block>
-<block name="plantedMushroom1T3TS">
+<block name="plantedMushroom1T3TS" stage="1" traits="TS">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -1822,7 +1822,7 @@
 	<property name="Group" value="Food/Cooking"/>
 	<property name="PickupJournalEntry" value="farmingTip"/>
 </block>
-<block name="plantedMushroom2T3TS">
+<block name="plantedMushroom2T3TS" stage="2" traits="TS">
 	<property name="Extends" value="plantedMushroom1T3TS"/>
 	<property name="CustomIcon" value="plantedMushroom1"/>
 	<property name="CreativeMode" value="None"/>
@@ -1830,7 +1830,7 @@
 	<property name="PlantGrowing.Next" value="plantedMushroom3T3TS"/>
 	<property name="Collide" value="melee"/>
 </block>
-<block name="plantedMushroom3T3TS">
+<block name="plantedMushroom3T3TS stage="3" traits="TS"">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="DisplayInfo" value="Description"/>
@@ -1856,7 +1856,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T3TS" count="1" prob="0.5"/>
 </block>
-<block name="plantedMushroom1T3SS">
+<block name="plantedMushroom1T3SS" stage="1" traits="SS">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -1880,7 +1880,7 @@
 	<property name="Group" value="Food/Cooking"/>
 	<property name="PickupJournalEntry" value="farmingTip"/>
 </block>
-<block name="plantedMushroom2T3SS">
+<block name="plantedMushroom2T3SS" stage="2" traits="SS">
 	<property name="Extends" value="plantedMushroom1T3SS"/>
 	<property name="CustomIcon" value="plantedMushroom1"/>
 	<property name="CreativeMode" value="None"/>
@@ -1888,7 +1888,7 @@
 	<property name="PlantGrowing.Next" value="plantedMushroom3T3SS"/>
 	<property name="Collide" value="melee"/>
 </block>
-<block name="plantedMushroom3T3SS">
+<block name="plantedMushroom3T3SS stage="3" traits="SS"">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="DisplayInfo" value="Description"/>
