@@ -22885,13 +22885,13 @@
         <property name="PlantGrowing.LightLevelGrow" value="0" />
         <property name="PlantGrowing.LightLevelStay" value="0" />
     </append>
-    <append xpath="/blocks/block[contains(@traits, 'F') and (@stage='1') and not (@traits, 'FF')]">
+    <append xpath="/blocks/block[contains(@traits, 'F') and @stage='1' and not (@traits='FF')]">
         <property name="PlantGrowing.GrowthRate" value="31.5" />
     </append>
     <append xpath="/blocks/block[@traits='FF' and @stage='1']">
         <property name="PlantGrowing.GrowthRate" value="15.75" />
     </append>
-    <append xpath="/blocks/block[contains(@traits, 'E') and (@stage='3') and not (@traits, 'EE')]">
+    <append xpath="/blocks/block[contains(@traits, 'E') and @stage='1' and not (@traits='EE')]">
         <property name="Class" value="Mine" /> <!-- a mine destroyed by an *explosion* only has a 33 percent chance to detonate -->
         <property name="Tags" value="Mine" />
         <property name="Material" value="MLandMine" />
@@ -22904,7 +22904,7 @@
         <property name="Explosion.EntityDamage" value="300" /> <!-- damage for entities in the center of the explosion. -->
         <property name="CanPickup" value="false" />
     </append>
-    <append xpath="/blocks/block[contains(@traits='EE') and @stage='3']">
+    <append xpath="/blocks/block[contains(@traits, 'EE') and @stage='3']">
         <property name="Class" value="Mine" /> <!-- a mine destroyed by an *explosion* only has a 33 percent chance to detonate -->
         <property name="Tags" value="Mine" />
         <property name="Material" value="MLandMine" />
