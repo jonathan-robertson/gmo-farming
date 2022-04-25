@@ -242,12 +242,16 @@ func producePlantBlocks(c chan string) {
 				switch tier {
 				case 2:
 					traits := fmt.Sprintf("%c", variants[i1].code)
-					plant.WriteStages(c, tier, traits)
+					if plant.IsCompatibleWith(traits) {
+						plant.WriteStages(c, tier, traits)
+					}
 				case 3:
 					for i2 := i1; i2 < len(variants); i2++ {
 						if variants[i1].isCompatibleWith(variants[i2]) {
 							traits := fmt.Sprintf("%c%c", variants[i1].code, variants[i2].code)
-							plant.WriteStages(c, tier, traits)
+							if plant.IsCompatibleWith(traits) {
+								plant.WriteStages(c, tier, traits)
+							}
 						}
 					}
 				}
