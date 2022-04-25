@@ -8,6 +8,7 @@ import (
 
 type plant struct {
 	name string
+	crop string
 }
 type stage struct {
 	text string
@@ -23,7 +24,7 @@ type variant struct {
 	doubleEffect string
 }
 
-var vanillaPlants []plant
+var plants []plant
 var vanillaStages []stage
 
 var variantStages []stage
@@ -40,21 +41,26 @@ func (v *variant) isCompatibleWith(v2 variant) bool {
 }
 
 func init() {
-	vanillaPlants = []plant{
-		{name: "plantedMushroom"},
-		{name: "plantedYucca"},
-		{name: "plantedCotton"},
-		{name: "plantedCoffee"},
-		{name: "plantedGoldenrod"},
-		{name: "plantedAloe"},
-		{name: "plantedBlueberry"},
-		{name: "plantedPotato"},
-		{name: "plantedChrysanthemum"},
-		{name: "plantedCorn"},
-		{name: "plantedGraceCorn"},
-		{name: "plantedHop"},
-		{name: "plantedPumpkin"},
+	names := []string{
+		"Mushroom",
+		"Yucca",
+		"Cotton",
+		"Coffee",
+		"Goldenrod",
+		"Aloe",
+		"Blueberry",
+		"Potato",
+		"Chrysanthemum",
+		"Corn",
+		"GraceCorn",
+		"Hop",
+		"Pumpkin",
 	}
+
+	for _, name := range names {
+		plants = append(plants, plant{name: "planted" + name, crop: "foodCrop" + name})
+	}
+
 	vanillaStages = []stage{
 		{text: "1"},
 		{text: "2"},
@@ -86,7 +92,7 @@ func init() {
 func printVanillaStages() {
 	fmt.Println("Vanilla Stages")
 	count := 0
-	for _, plant := range vanillaPlants {
+	for _, plant := range plants {
 		for _, stage := range vanillaStages {
 			count++
 			fmt.Printf("|%02d| %s%s\n", count, plant.name, stage.text)
@@ -97,7 +103,7 @@ func printVanillaStages() {
 func printVariantStages() {
 	fmt.Println("Variant Stages")
 	count := 0
-	for _, p := range vanillaPlants {
+	for _, p := range plants {
 		for sNum, s := range variantStages {
 			count++
 			fmt.Printf("|%03d|. %s%s\n", count, p.name, vanillaStages[sNum].text)
@@ -118,7 +124,7 @@ func printVariantStages() {
 func writeVariantBlocks(file *os.File) {
 	fmt.Println("Variant Stages")
 	count := 0
-	for _, p := range vanillaPlants {
+	for _, p := range plants {
 		for stageNum, s := range variantStages {
 			count++
 			fmt.Printf("|%03d|. %s%s\n", count, p.name, vanillaStages[stageNum].text)
@@ -138,6 +144,8 @@ func writeVariantBlocks(file *os.File) {
 					lines = append(lines, fmt.Sprintf(`<drop event="Destroy" name="%s%s%s%c" count="1" />`, p.name, s.text, variantTiers[1].text, v1.code))
 				}
 				if "3" == s.text {
+					lines = append(lines, fmt.Sprintf(`<drop event="Harvest" name="%s" count="4" tag="cropHarvest"/>`, p.crop))
+					lines = append(lines, fmt.Sprintf(`<drop event="Harvest" name="%s" prob="0.5" count="2" tag="bonusCropHarvest"/>`, p.crop))
 					lines = append(lines, fmt.Sprintf(`<drop event="Destroy" name="%s1%s%c" count="1" prob="0.5" />`, p.name, variantTiers[1].text, v1.code))
 				}
 				lines = append(lines, `</block>`)

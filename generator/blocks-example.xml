@@ -79,30 +79,44 @@
         </block>
         <block name="plantedMushroom3T2B" stage="3" gmo="B">
             <property name="Extends" value="plantedMushroom3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropMushroom" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropMushroom" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedMushroom1T2B" count="1" prob="0.5" />
         </block>
         <block name="plantedMushroom3T2U" stage="3" gmo="U">
             <property name="Extends" value="plantedMushroom3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropMushroom" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropMushroom" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedMushroom1T2U" count="1" prob="0.5" />
         </block>
         <block name="plantedMushroom3T2F" stage="3" gmo="F">
             <property name="Extends" value="plantedMushroom3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropMushroom" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropMushroom" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedMushroom1T2F" count="1" prob="0.5" />
         </block>
         <block name="plantedMushroom3T2E" stage="3" gmo="E">
             <property name="Extends" value="plantedMushroom3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropMushroom" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropMushroom" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedMushroom1T2E" count="1" prob="0.5" />
         </block>
         <block name="plantedMushroom3T2R" stage="3" gmo="R">
             <property name="Extends" value="plantedMushroom3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropMushroom" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropMushroom" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedMushroom1T2R" count="1" prob="0.5" />
         </block>
         <block name="plantedMushroom3T2T" stage="3" gmo="T">
             <property name="Extends" value="plantedMushroom3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropMushroom" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropMushroom" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedMushroom1T2T" count="1" prob="0.5" />
         </block>
         <block name="plantedMushroom3T2S" stage="3" gmo="S">
             <property name="Extends" value="plantedMushroom3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropMushroom" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropMushroom" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedMushroom1T2S" count="1" prob="0.5" />
         </block>
         <block name="plantedYucca1T2B" stage="1" gmo="B">
@@ -184,30 +198,44 @@
         </block>
         <block name="plantedYucca3T2B" stage="3" gmo="B">
             <property name="Extends" value="plantedYucca3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropYucca" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropYucca" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedYucca1T2B" count="1" prob="0.5" />
         </block>
         <block name="plantedYucca3T2U" stage="3" gmo="U">
             <property name="Extends" value="plantedYucca3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropYucca" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropYucca" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedYucca1T2U" count="1" prob="0.5" />
         </block>
         <block name="plantedYucca3T2F" stage="3" gmo="F">
             <property name="Extends" value="plantedYucca3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropYucca" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropYucca" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedYucca1T2F" count="1" prob="0.5" />
         </block>
         <block name="plantedYucca3T2E" stage="3" gmo="E">
             <property name="Extends" value="plantedYucca3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropYucca" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropYucca" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedYucca1T2E" count="1" prob="0.5" />
         </block>
         <block name="plantedYucca3T2R" stage="3" gmo="R">
             <property name="Extends" value="plantedYucca3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropYucca" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropYucca" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedYucca1T2R" count="1" prob="0.5" />
         </block>
         <block name="plantedYucca3T2T" stage="3" gmo="T">
             <property name="Extends" value="plantedYucca3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropYucca" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropYucca" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedYucca1T2T" count="1" prob="0.5" />
         </block>
         <block name="plantedYucca3T2S" stage="3" gmo="S">
             <property name="Extends" value="plantedYucca3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropYucca" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropYucca" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedYucca1T2S" count="1" prob="0.5" />
         </block>
         <block name="plantedCotton1T2B" stage="1" gmo="B">
@@ -289,30 +317,44 @@
         </block>
         <block name="plantedCotton3T2B" stage="3" gmo="B">
             <property name="Extends" value="plantedCotton3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropCotton" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropCotton" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedCotton1T2B" count="1" prob="0.5" />
         </block>
         <block name="plantedCotton3T2U" stage="3" gmo="U">
             <property name="Extends" value="plantedCotton3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropCotton" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropCotton" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedCotton1T2U" count="1" prob="0.5" />
         </block>
         <block name="plantedCotton3T2F" stage="3" gmo="F">
             <property name="Extends" value="plantedCotton3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropCotton" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropCotton" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedCotton1T2F" count="1" prob="0.5" />
         </block>
         <block name="plantedCotton3T2E" stage="3" gmo="E">
             <property name="Extends" value="plantedCotton3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropCotton" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropCotton" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedCotton1T2E" count="1" prob="0.5" />
         </block>
         <block name="plantedCotton3T2R" stage="3" gmo="R">
             <property name="Extends" value="plantedCotton3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropCotton" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropCotton" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedCotton1T2R" count="1" prob="0.5" />
         </block>
         <block name="plantedCotton3T2T" stage="3" gmo="T">
             <property name="Extends" value="plantedCotton3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropCotton" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropCotton" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedCotton1T2T" count="1" prob="0.5" />
         </block>
         <block name="plantedCotton3T2S" stage="3" gmo="S">
             <property name="Extends" value="plantedCotton3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropCotton" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropCotton" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedCotton1T2S" count="1" prob="0.5" />
         </block>
         <block name="plantedCoffee1T2B" stage="1" gmo="B">
@@ -394,30 +436,44 @@
         </block>
         <block name="plantedCoffee3T2B" stage="3" gmo="B">
             <property name="Extends" value="plantedCoffee3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropCoffee" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropCoffee" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedCoffee1T2B" count="1" prob="0.5" />
         </block>
         <block name="plantedCoffee3T2U" stage="3" gmo="U">
             <property name="Extends" value="plantedCoffee3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropCoffee" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropCoffee" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedCoffee1T2U" count="1" prob="0.5" />
         </block>
         <block name="plantedCoffee3T2F" stage="3" gmo="F">
             <property name="Extends" value="plantedCoffee3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropCoffee" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropCoffee" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedCoffee1T2F" count="1" prob="0.5" />
         </block>
         <block name="plantedCoffee3T2E" stage="3" gmo="E">
             <property name="Extends" value="plantedCoffee3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropCoffee" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropCoffee" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedCoffee1T2E" count="1" prob="0.5" />
         </block>
         <block name="plantedCoffee3T2R" stage="3" gmo="R">
             <property name="Extends" value="plantedCoffee3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropCoffee" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropCoffee" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedCoffee1T2R" count="1" prob="0.5" />
         </block>
         <block name="plantedCoffee3T2T" stage="3" gmo="T">
             <property name="Extends" value="plantedCoffee3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropCoffee" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropCoffee" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedCoffee1T2T" count="1" prob="0.5" />
         </block>
         <block name="plantedCoffee3T2S" stage="3" gmo="S">
             <property name="Extends" value="plantedCoffee3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropCoffee" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropCoffee" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedCoffee1T2S" count="1" prob="0.5" />
         </block>
         <block name="plantedGoldenrod1T2B" stage="1" gmo="B">
@@ -499,30 +555,44 @@
         </block>
         <block name="plantedGoldenrod3T2B" stage="3" gmo="B">
             <property name="Extends" value="plantedGoldenrod3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropGoldenrod" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropGoldenrod" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedGoldenrod1T2B" count="1" prob="0.5" />
         </block>
         <block name="plantedGoldenrod3T2U" stage="3" gmo="U">
             <property name="Extends" value="plantedGoldenrod3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropGoldenrod" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropGoldenrod" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedGoldenrod1T2U" count="1" prob="0.5" />
         </block>
         <block name="plantedGoldenrod3T2F" stage="3" gmo="F">
             <property name="Extends" value="plantedGoldenrod3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropGoldenrod" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropGoldenrod" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedGoldenrod1T2F" count="1" prob="0.5" />
         </block>
         <block name="plantedGoldenrod3T2E" stage="3" gmo="E">
             <property name="Extends" value="plantedGoldenrod3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropGoldenrod" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropGoldenrod" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedGoldenrod1T2E" count="1" prob="0.5" />
         </block>
         <block name="plantedGoldenrod3T2R" stage="3" gmo="R">
             <property name="Extends" value="plantedGoldenrod3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropGoldenrod" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropGoldenrod" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedGoldenrod1T2R" count="1" prob="0.5" />
         </block>
         <block name="plantedGoldenrod3T2T" stage="3" gmo="T">
             <property name="Extends" value="plantedGoldenrod3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropGoldenrod" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropGoldenrod" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedGoldenrod1T2T" count="1" prob="0.5" />
         </block>
         <block name="plantedGoldenrod3T2S" stage="3" gmo="S">
             <property name="Extends" value="plantedGoldenrod3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropGoldenrod" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropGoldenrod" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedGoldenrod1T2S" count="1" prob="0.5" />
         </block>
         <block name="plantedAloe1T2B" stage="1" gmo="B">
@@ -604,30 +674,44 @@
         </block>
         <block name="plantedAloe3T2B" stage="3" gmo="B">
             <property name="Extends" value="plantedAloe3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropAloe" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropAloe" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedAloe1T2B" count="1" prob="0.5" />
         </block>
         <block name="plantedAloe3T2U" stage="3" gmo="U">
             <property name="Extends" value="plantedAloe3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropAloe" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropAloe" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedAloe1T2U" count="1" prob="0.5" />
         </block>
         <block name="plantedAloe3T2F" stage="3" gmo="F">
             <property name="Extends" value="plantedAloe3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropAloe" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropAloe" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedAloe1T2F" count="1" prob="0.5" />
         </block>
         <block name="plantedAloe3T2E" stage="3" gmo="E">
             <property name="Extends" value="plantedAloe3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropAloe" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropAloe" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedAloe1T2E" count="1" prob="0.5" />
         </block>
         <block name="plantedAloe3T2R" stage="3" gmo="R">
             <property name="Extends" value="plantedAloe3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropAloe" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropAloe" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedAloe1T2R" count="1" prob="0.5" />
         </block>
         <block name="plantedAloe3T2T" stage="3" gmo="T">
             <property name="Extends" value="plantedAloe3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropAloe" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropAloe" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedAloe1T2T" count="1" prob="0.5" />
         </block>
         <block name="plantedAloe3T2S" stage="3" gmo="S">
             <property name="Extends" value="plantedAloe3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropAloe" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropAloe" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedAloe1T2S" count="1" prob="0.5" />
         </block>
         <block name="plantedBlueberry1T2B" stage="1" gmo="B">
@@ -709,30 +793,44 @@
         </block>
         <block name="plantedBlueberry3T2B" stage="3" gmo="B">
             <property name="Extends" value="plantedBlueberry3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropBlueberry" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropBlueberry" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedBlueberry1T2B" count="1" prob="0.5" />
         </block>
         <block name="plantedBlueberry3T2U" stage="3" gmo="U">
             <property name="Extends" value="plantedBlueberry3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropBlueberry" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropBlueberry" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedBlueberry1T2U" count="1" prob="0.5" />
         </block>
         <block name="plantedBlueberry3T2F" stage="3" gmo="F">
             <property name="Extends" value="plantedBlueberry3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropBlueberry" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropBlueberry" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedBlueberry1T2F" count="1" prob="0.5" />
         </block>
         <block name="plantedBlueberry3T2E" stage="3" gmo="E">
             <property name="Extends" value="plantedBlueberry3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropBlueberry" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropBlueberry" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedBlueberry1T2E" count="1" prob="0.5" />
         </block>
         <block name="plantedBlueberry3T2R" stage="3" gmo="R">
             <property name="Extends" value="plantedBlueberry3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropBlueberry" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropBlueberry" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedBlueberry1T2R" count="1" prob="0.5" />
         </block>
         <block name="plantedBlueberry3T2T" stage="3" gmo="T">
             <property name="Extends" value="plantedBlueberry3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropBlueberry" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropBlueberry" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedBlueberry1T2T" count="1" prob="0.5" />
         </block>
         <block name="plantedBlueberry3T2S" stage="3" gmo="S">
             <property name="Extends" value="plantedBlueberry3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropBlueberry" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropBlueberry" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedBlueberry1T2S" count="1" prob="0.5" />
         </block>
         <block name="plantedPotato1T2B" stage="1" gmo="B">
@@ -814,30 +912,44 @@
         </block>
         <block name="plantedPotato3T2B" stage="3" gmo="B">
             <property name="Extends" value="plantedPotato3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropPotato" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropPotato" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedPotato1T2B" count="1" prob="0.5" />
         </block>
         <block name="plantedPotato3T2U" stage="3" gmo="U">
             <property name="Extends" value="plantedPotato3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropPotato" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropPotato" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedPotato1T2U" count="1" prob="0.5" />
         </block>
         <block name="plantedPotato3T2F" stage="3" gmo="F">
             <property name="Extends" value="plantedPotato3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropPotato" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropPotato" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedPotato1T2F" count="1" prob="0.5" />
         </block>
         <block name="plantedPotato3T2E" stage="3" gmo="E">
             <property name="Extends" value="plantedPotato3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropPotato" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropPotato" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedPotato1T2E" count="1" prob="0.5" />
         </block>
         <block name="plantedPotato3T2R" stage="3" gmo="R">
             <property name="Extends" value="plantedPotato3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropPotato" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropPotato" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedPotato1T2R" count="1" prob="0.5" />
         </block>
         <block name="plantedPotato3T2T" stage="3" gmo="T">
             <property name="Extends" value="plantedPotato3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropPotato" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropPotato" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedPotato1T2T" count="1" prob="0.5" />
         </block>
         <block name="plantedPotato3T2S" stage="3" gmo="S">
             <property name="Extends" value="plantedPotato3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropPotato" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropPotato" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedPotato1T2S" count="1" prob="0.5" />
         </block>
         <block name="plantedChrysanthemum1T2B" stage="1" gmo="B">
@@ -919,30 +1031,44 @@
         </block>
         <block name="plantedChrysanthemum3T2B" stage="3" gmo="B">
             <property name="Extends" value="plantedChrysanthemum3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropChrysanthemum" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropChrysanthemum" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedChrysanthemum1T2B" count="1" prob="0.5" />
         </block>
         <block name="plantedChrysanthemum3T2U" stage="3" gmo="U">
             <property name="Extends" value="plantedChrysanthemum3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropChrysanthemum" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropChrysanthemum" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedChrysanthemum1T2U" count="1" prob="0.5" />
         </block>
         <block name="plantedChrysanthemum3T2F" stage="3" gmo="F">
             <property name="Extends" value="plantedChrysanthemum3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropChrysanthemum" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropChrysanthemum" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedChrysanthemum1T2F" count="1" prob="0.5" />
         </block>
         <block name="plantedChrysanthemum3T2E" stage="3" gmo="E">
             <property name="Extends" value="plantedChrysanthemum3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropChrysanthemum" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropChrysanthemum" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedChrysanthemum1T2E" count="1" prob="0.5" />
         </block>
         <block name="plantedChrysanthemum3T2R" stage="3" gmo="R">
             <property name="Extends" value="plantedChrysanthemum3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropChrysanthemum" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropChrysanthemum" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedChrysanthemum1T2R" count="1" prob="0.5" />
         </block>
         <block name="plantedChrysanthemum3T2T" stage="3" gmo="T">
             <property name="Extends" value="plantedChrysanthemum3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropChrysanthemum" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropChrysanthemum" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedChrysanthemum1T2T" count="1" prob="0.5" />
         </block>
         <block name="plantedChrysanthemum3T2S" stage="3" gmo="S">
             <property name="Extends" value="plantedChrysanthemum3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropChrysanthemum" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropChrysanthemum" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedChrysanthemum1T2S" count="1" prob="0.5" />
         </block>
         <block name="plantedCorn1T2B" stage="1" gmo="B">
@@ -1024,30 +1150,44 @@
         </block>
         <block name="plantedCorn3T2B" stage="3" gmo="B">
             <property name="Extends" value="plantedCorn3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropCorn" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropCorn" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedCorn1T2B" count="1" prob="0.5" />
         </block>
         <block name="plantedCorn3T2U" stage="3" gmo="U">
             <property name="Extends" value="plantedCorn3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropCorn" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropCorn" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedCorn1T2U" count="1" prob="0.5" />
         </block>
         <block name="plantedCorn3T2F" stage="3" gmo="F">
             <property name="Extends" value="plantedCorn3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropCorn" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropCorn" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedCorn1T2F" count="1" prob="0.5" />
         </block>
         <block name="plantedCorn3T2E" stage="3" gmo="E">
             <property name="Extends" value="plantedCorn3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropCorn" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropCorn" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedCorn1T2E" count="1" prob="0.5" />
         </block>
         <block name="plantedCorn3T2R" stage="3" gmo="R">
             <property name="Extends" value="plantedCorn3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropCorn" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropCorn" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedCorn1T2R" count="1" prob="0.5" />
         </block>
         <block name="plantedCorn3T2T" stage="3" gmo="T">
             <property name="Extends" value="plantedCorn3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropCorn" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropCorn" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedCorn1T2T" count="1" prob="0.5" />
         </block>
         <block name="plantedCorn3T2S" stage="3" gmo="S">
             <property name="Extends" value="plantedCorn3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropCorn" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropCorn" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedCorn1T2S" count="1" prob="0.5" />
         </block>
         <block name="plantedGraceCorn1T2B" stage="1" gmo="B">
@@ -1129,30 +1269,44 @@
         </block>
         <block name="plantedGraceCorn3T2B" stage="3" gmo="B">
             <property name="Extends" value="plantedGraceCorn3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropGraceCorn" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropGraceCorn" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedGraceCorn1T2B" count="1" prob="0.5" />
         </block>
         <block name="plantedGraceCorn3T2U" stage="3" gmo="U">
             <property name="Extends" value="plantedGraceCorn3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropGraceCorn" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropGraceCorn" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedGraceCorn1T2U" count="1" prob="0.5" />
         </block>
         <block name="plantedGraceCorn3T2F" stage="3" gmo="F">
             <property name="Extends" value="plantedGraceCorn3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropGraceCorn" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropGraceCorn" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedGraceCorn1T2F" count="1" prob="0.5" />
         </block>
         <block name="plantedGraceCorn3T2E" stage="3" gmo="E">
             <property name="Extends" value="plantedGraceCorn3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropGraceCorn" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropGraceCorn" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedGraceCorn1T2E" count="1" prob="0.5" />
         </block>
         <block name="plantedGraceCorn3T2R" stage="3" gmo="R">
             <property name="Extends" value="plantedGraceCorn3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropGraceCorn" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropGraceCorn" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedGraceCorn1T2R" count="1" prob="0.5" />
         </block>
         <block name="plantedGraceCorn3T2T" stage="3" gmo="T">
             <property name="Extends" value="plantedGraceCorn3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropGraceCorn" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropGraceCorn" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedGraceCorn1T2T" count="1" prob="0.5" />
         </block>
         <block name="plantedGraceCorn3T2S" stage="3" gmo="S">
             <property name="Extends" value="plantedGraceCorn3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropGraceCorn" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropGraceCorn" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedGraceCorn1T2S" count="1" prob="0.5" />
         </block>
         <block name="plantedHop1T2B" stage="1" gmo="B">
@@ -1234,30 +1388,44 @@
         </block>
         <block name="plantedHop3T2B" stage="3" gmo="B">
             <property name="Extends" value="plantedHop3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropHop" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropHop" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedHop1T2B" count="1" prob="0.5" />
         </block>
         <block name="plantedHop3T2U" stage="3" gmo="U">
             <property name="Extends" value="plantedHop3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropHop" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropHop" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedHop1T2U" count="1" prob="0.5" />
         </block>
         <block name="plantedHop3T2F" stage="3" gmo="F">
             <property name="Extends" value="plantedHop3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropHop" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropHop" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedHop1T2F" count="1" prob="0.5" />
         </block>
         <block name="plantedHop3T2E" stage="3" gmo="E">
             <property name="Extends" value="plantedHop3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropHop" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropHop" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedHop1T2E" count="1" prob="0.5" />
         </block>
         <block name="plantedHop3T2R" stage="3" gmo="R">
             <property name="Extends" value="plantedHop3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropHop" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropHop" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedHop1T2R" count="1" prob="0.5" />
         </block>
         <block name="plantedHop3T2T" stage="3" gmo="T">
             <property name="Extends" value="plantedHop3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropHop" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropHop" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedHop1T2T" count="1" prob="0.5" />
         </block>
         <block name="plantedHop3T2S" stage="3" gmo="S">
             <property name="Extends" value="plantedHop3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropHop" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropHop" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedHop1T2S" count="1" prob="0.5" />
         </block>
         <block name="plantedPumpkin1T2B" stage="1" gmo="B">
@@ -1339,30 +1507,44 @@
         </block>
         <block name="plantedPumpkin3T2B" stage="3" gmo="B">
             <property name="Extends" value="plantedPumpkin3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropPumpkin" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropPumpkin" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedPumpkin1T2B" count="1" prob="0.5" />
         </block>
         <block name="plantedPumpkin3T2U" stage="3" gmo="U">
             <property name="Extends" value="plantedPumpkin3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropPumpkin" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropPumpkin" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedPumpkin1T2U" count="1" prob="0.5" />
         </block>
         <block name="plantedPumpkin3T2F" stage="3" gmo="F">
             <property name="Extends" value="plantedPumpkin3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropPumpkin" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropPumpkin" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedPumpkin1T2F" count="1" prob="0.5" />
         </block>
         <block name="plantedPumpkin3T2E" stage="3" gmo="E">
             <property name="Extends" value="plantedPumpkin3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropPumpkin" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropPumpkin" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedPumpkin1T2E" count="1" prob="0.5" />
         </block>
         <block name="plantedPumpkin3T2R" stage="3" gmo="R">
             <property name="Extends" value="plantedPumpkin3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropPumpkin" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropPumpkin" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedPumpkin1T2R" count="1" prob="0.5" />
         </block>
         <block name="plantedPumpkin3T2T" stage="3" gmo="T">
             <property name="Extends" value="plantedPumpkin3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropPumpkin" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropPumpkin" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedPumpkin1T2T" count="1" prob="0.5" />
         </block>
         <block name="plantedPumpkin3T2S" stage="3" gmo="S">
             <property name="Extends" value="plantedPumpkin3HarvestPlayer" />
+            <drop event="Harvest" name="foodCropPumpkin" count="4" tag="cropHarvest" />
+            <drop event="Harvest" name="foodCropPumpkin" prob="0.5" count="2" tag="bonusCropHarvest" />
             <drop event="Destroy" name="plantedPumpkin1T2S" count="1" prob="0.5" />
         </block>
     </append>
