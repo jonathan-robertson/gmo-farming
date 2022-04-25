@@ -73,38 +73,35 @@ func init() {
 // Write all 3 stages to file
 func produceBlock(c chan string, p plant, tier int, traits ...rune) (err error) {
 	for n, stage := range variantStages {
-		var traitSuffix, traitTag string
+		var traitTag string
 		switch len(traits) {
 		case 0:
-			traitSuffix = ""
 			traitTag = ""
 		case 1:
-			traitSuffix = fmt.Sprintf("%c", traits[0])
 			traitTag = fmt.Sprintf("%c", traits[0])
 		case 2:
-			traitSuffix = fmt.Sprintf("%c%c", traits[0], traits[1])
-			traitTag = fmt.Sprintf("%c,%c", traits[0], traits[1])
+			traitTag = fmt.Sprintf("%c%c", traits[0], traits[1])
 		default:
 			return fmt.Errorf("received too many traits")
 		}
-		c <- fmt.Sprintf(`        <block name="%s%sT%d%s" stage="%s" trait="%s">`, p.name, stage, tier, traitSuffix, stage, traitTag)
+		c <- fmt.Sprintf(`        <block name="%s%sT%d%s" stage="%s" traits="%s">`, p.name, stage, tier, traitTag, stage, traitTag)
 		switch stage {
 		case "1":
 			c <- fmt.Sprintf(`            <property name="Extends" value="%s%s" />`, p.name, vanillaStages[n])
 			c <- fmt.Sprintf(`            <property name="CustomIcon" value="%s%s" />`, p.name, vanillaStages[n])
-			c <- fmt.Sprintf(`            <property name="PlantGrowing.Next" value="%s%sT%d%s" />`, p.name, variantStages[n+1], tier, traitSuffix)
-			c <- fmt.Sprintf(`            <drop event="Destroy" name="%s%sT%d%s" count="1" />`, p.name, stage, tier, traitSuffix)
+			c <- fmt.Sprintf(`            <property name="PlantGrowing.Next" value="%s%sT%d%s" />`, p.name, variantStages[n+1], tier, traitTag)
+			c <- fmt.Sprintf(`            <drop event="Destroy" name="%s%sT%d%s" count="1" />`, p.name, stage, tier, traitTag)
 		case "2":
-			c <- fmt.Sprintf(`            <property name="Extends" value="%s%sT%d%s" />`, p.name, stage, tier, traitSuffix)
-			c <- fmt.Sprintf(`            <property name="PlantGrowing.Next" value="%s%sT%d%s" />`, p.name, variantStages[n+1], tier, traitSuffix)
-			c <- fmt.Sprintf(`            <drop event="Destroy" name="%s%sT%d%s" count="1" />`, p.name, stage, tier, traitSuffix)
+			c <- fmt.Sprintf(`            <property name="Extends" value="%s1T%d%s" />`, p.name, tier, traitTag)
+			c <- fmt.Sprintf(`            <property name="PlantGrowing.Next" value="%s%sT%d%s" />`, p.name, variantStages[n+1], tier, traitTag)
+			c <- fmt.Sprintf(`            <drop event="Destroy" name="%s%sT%d%s" count="1" />`, p.name, stage, tier, traitTag)
 		case "3":
 			c <- fmt.Sprintf(`            <property name="Extends" value="%s%s" />`, p.name, vanillaStages[n])
 			c <- fmt.Sprintf(`            <drop event="Harvest" name="%s" count="4" tag="cropHarvest" />`, p.crop)
 			c <- fmt.Sprintf(`            <drop event="Harvest" name="%s" prob="0.5" count="2" tag="bonusCropHarvest" />`, p.crop)
-			c <- fmt.Sprintf(`            <drop event="Destroy" name="%s1T%d%s" count="1" prob="0.5" />`, p.name, tier, traitSuffix)
-			if strings.ContainsRune(traitSuffix, 'R') {
-				c <- fmt.Sprintf(`            <property name="DowngradeBlock" value="%s1T%d%s" />`, p.name, tier, traitSuffix)
+			c <- fmt.Sprintf(`            <drop event="Destroy" name="%s1T%d%s" count="1" prob="0.5" />`, p.name, tier, traitTag)
+			if strings.ContainsRune(traitTag, 'R') {
+				c <- fmt.Sprintf(`            <property name="DowngradeBlock" value="%s1T%d%s" />`, p.name, tier, traitTag)
 			}
 		}
 		c <- "        </block>"
@@ -114,22 +111,22 @@ func produceBlock(c chan string, p plant, tier int, traits ...rune) (err error) 
 
 func produceModifications(c chan string) {
 	// {code: 'U', name: "Underground", incompatible: []rune{'U', 'S'}},
-	c <- `    <append xpath="/blocks/block[contains(@trait, 'U') and @stage='1']">
+	c <- `    <append xpath="/blocks/block[contains(@traits, 'U') and @stage='1']">
         <property name="PlantGrowing.LightLevelGrow" value="0" />
         <property name="PlantGrowing.LightLevelStay" value="0" />
     </append>`
 
 	// {code: 'F', name: "Fast"},
-	c <- `    <append xpath="/blocks/block[contains(@trait, 'F') and @stage='1' and not (@trait, 'F,F')]">
+	c <- `    <append xpath="/blocks/block[contains(@traits, 'F') and @stage='1' and not (@traits, 'FF')]">
         <property name="PlantGrowing.GrowthRate" value="31.5" />
     </append>`
-	c <- `    <append xpath="/blocks/block[@trait='F,F' and @stage='1']">
+	c <- `    <append xpath="/blocks/block[@traits='FF' and @stage='1']">
         <property name="PlantGrowing.GrowthRate" value="15.75" />
     </append>`
 
 	// {code: 'E', name: "Explosive", incompatible: []rune{'E'}},
 	// based off of mineCookingPot
-	c <- `    <append xpath="/blocks/block[contains(@trait, 'E') and @stage='3' and not (@trait, 'E,E')]">
+	c <- `    <append xpath="/blocks/block[contains(@traits, 'E') and @stage='3' and not (@traits, 'EE')]">
         <property name="Class" value="Mine" /> <!-- a mine destroyed by an *explosion* only has a 33 percent chance to detonate -->
         <property name="Tags" value="Mine" />
         <property name="Material" value="MLandMine" />
@@ -143,7 +140,7 @@ func produceModifications(c chan string) {
         <property name="CanPickup" value="false" />
     </append>`
 	// based off of mineHubcap
-	c <- `    <append xpath="/blocks/block[contains(@trait='E,E') and @stage='3']">
+	c <- `    <append xpath="/blocks/block[contains(@traits='EE') and @stage='3']">
         <property name="Class" value="Mine" /> <!-- a mine destroyed by an *explosion* only has a 33 percent chance to detonate -->
         <property name="Tags" value="Mine" />
         <property name="Material" value="MLandMine" />
