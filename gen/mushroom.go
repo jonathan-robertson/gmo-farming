@@ -84,7 +84,7 @@ func (m *Mushroom) WriteStage3(c chan string, tier int, traits string) {
 		bonusYield = int(float64(bonusYield) * 1.5)
 	}
 
-	c <- fmt.Sprintf(`<block name="plantedMushroom3%s stage="3" traits="%s"">
+	c <- fmt.Sprintf(`<block name="plantedMushroom3%s" stage="3" traits="%s">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="DisplayInfo" value="Description"/>

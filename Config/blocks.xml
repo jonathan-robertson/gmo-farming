@@ -32,7 +32,7 @@
 	<property name="PlantGrowing.Next" value="plantedMushroom3T2"/>
 	<property name="Collide" value="melee"/>
 </block>
-<block name="plantedMushroom3T2 stage="3" traits=""">
+<block name="plantedMushroom3T2" stage="3" traits="">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="DisplayInfo" value="Description"/>
@@ -90,7 +90,7 @@
 	<property name="PlantGrowing.Next" value="plantedMushroom3T2B"/>
 	<property name="Collide" value="melee"/>
 </block>
-<block name="plantedMushroom3T2B stage="3" traits="B"">
+<block name="plantedMushroom3T2B" stage="3" traits="B">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="DisplayInfo" value="Description"/>
@@ -148,7 +148,7 @@
 	<property name="PlantGrowing.Next" value="plantedMushroom3T2U"/>
 	<property name="Collide" value="melee"/>
 </block>
-<block name="plantedMushroom3T2U stage="3" traits="U"">
+<block name="plantedMushroom3T2U" stage="3" traits="U">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="DisplayInfo" value="Description"/>
@@ -206,7 +206,7 @@
 	<property name="PlantGrowing.Next" value="plantedMushroom3T2F"/>
 	<property name="Collide" value="melee"/>
 </block>
-<block name="plantedMushroom3T2F stage="3" traits="F"">
+<block name="plantedMushroom3T2F" stage="3" traits="F">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="DisplayInfo" value="Description"/>
@@ -264,7 +264,7 @@
 	<property name="PlantGrowing.Next" value="plantedMushroom3T2E"/>
 	<property name="Collide" value="melee"/>
 </block>
-<block name="plantedMushroom3T2E stage="3" traits="E"">
+<block name="plantedMushroom3T2E" stage="3" traits="E">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="DisplayInfo" value="Description"/>
@@ -322,7 +322,7 @@
 	<property name="PlantGrowing.Next" value="plantedMushroom3T2R"/>
 	<property name="Collide" value="melee"/>
 </block>
-<block name="plantedMushroom3T2R stage="3" traits="R"">
+<block name="plantedMushroom3T2R" stage="3" traits="R">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="DisplayInfo" value="Description"/>
@@ -380,7 +380,7 @@
 	<property name="PlantGrowing.Next" value="plantedMushroom3T2T"/>
 	<property name="Collide" value="melee"/>
 </block>
-<block name="plantedMushroom3T2T stage="3" traits="T"">
+<block name="plantedMushroom3T2T" stage="3" traits="T">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="DisplayInfo" value="Description"/>
@@ -438,7 +438,7 @@
 	<property name="PlantGrowing.Next" value="plantedMushroom3T2S"/>
 	<property name="Collide" value="melee"/>
 </block>
-<block name="plantedMushroom3T2S stage="3" traits="S"">
+<block name="plantedMushroom3T2S" stage="3" traits="S">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="DisplayInfo" value="Description"/>
@@ -496,7 +496,7 @@
 	<property name="PlantGrowing.Next" value="plantedMushroom3T3"/>
 	<property name="Collide" value="melee"/>
 </block>
-<block name="plantedMushroom3T3 stage="3" traits=""">
+<block name="plantedMushroom3T3" stage="3" traits="">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="DisplayInfo" value="Description"/>
@@ -554,7 +554,7 @@
 	<property name="PlantGrowing.Next" value="plantedMushroom3T3BB"/>
 	<property name="Collide" value="melee"/>
 </block>
-<block name="plantedMushroom3T3BB stage="3" traits="BB"">
+<block name="plantedMushroom3T3BB" stage="3" traits="BB">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="DisplayInfo" value="Description"/>
@@ -612,7 +612,7 @@
 	<property name="PlantGrowing.Next" value="plantedMushroom3T3BU"/>
 	<property name="Collide" value="melee"/>
 </block>
-<block name="plantedMushroom3T3BU stage="3" traits="BU"">
+<block name="plantedMushroom3T3BU" stage="3" traits="BU">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="DisplayInfo" value="Description"/>
@@ -670,7 +670,7 @@
 	<property name="PlantGrowing.Next" value="plantedMushroom3T3BF"/>
 	<property name="Collide" value="melee"/>
 </block>
-<block name="plantedMushroom3T3BF stage="3" traits="BF"">
+<block name="plantedMushroom3T3BF" stage="3" traits="BF">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="DisplayInfo" value="Description"/>
@@ -728,7 +728,7 @@
 	<property name="PlantGrowing.Next" value="plantedMushroom3T3BR"/>
 	<property name="Collide" value="melee"/>
 </block>
-<block name="plantedMushroom3T3BR stage="3" traits="BR"">
+<block name="plantedMushroom3T3BR" stage="3" traits="BR">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="DisplayInfo" value="Description"/>
@@ -786,7 +786,7 @@
 	<property name="PlantGrowing.Next" value="plantedMushroom3T3BT"/>
 	<property name="Collide" value="melee"/>
 </block>
-<block name="plantedMushroom3T3BT stage="3" traits="BT"">
+<block name="plantedMushroom3T3BT" stage="3" traits="BT">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="DisplayInfo" value="Description"/>
@@ -844,7 +844,7 @@
 	<property name="PlantGrowing.Next" value="plantedMushroom3T3BS"/>
 	<property name="Collide" value="melee"/>
 </block>
-<block name="plantedMushroom3T3BS stage="3" traits="BS"">
+<block name="plantedMushroom3T3BS" stage="3" traits="BS">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="DisplayInfo" value="Description"/>
@@ -902,7 +902,7 @@
 	<property name="PlantGrowing.Next" value="plantedMushroom3T3UF"/>
 	<property name="Collide" value="melee"/>
 </block>
-<block name="plantedMushroom3T3UF stage="3" traits="UF"">
+<block name="plantedMushroom3T3UF" stage="3" traits="UF">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="DisplayInfo" value="Description"/>
@@ -960,7 +960,7 @@
 	<property name="PlantGrowing.Next" value="plantedMushroom3T3UE"/>
 	<property name="Collide" value="melee"/>
 </block>
-<block name="plantedMushroom3T3UE stage="3" traits="UE"">
+<block name="plantedMushroom3T3UE" stage="3" traits="UE">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="DisplayInfo" value="Description"/>
@@ -1018,7 +1018,7 @@
 	<property name="PlantGrowing.Next" value="plantedMushroom3T3UR"/>
 	<property name="Collide" value="melee"/>
 </block>
-<block name="plantedMushroom3T3UR stage="3" traits="UR"">
+<block name="plantedMushroom3T3UR" stage="3" traits="UR">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="DisplayInfo" value="Description"/>
@@ -1076,7 +1076,7 @@
 	<property name="PlantGrowing.Next" value="plantedMushroom3T3UT"/>
 	<property name="Collide" value="melee"/>
 </block>
-<block name="plantedMushroom3T3UT stage="3" traits="UT"">
+<block name="plantedMushroom3T3UT" stage="3" traits="UT">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="DisplayInfo" value="Description"/>
@@ -1134,7 +1134,7 @@
 	<property name="PlantGrowing.Next" value="plantedMushroom3T3FF"/>
 	<property name="Collide" value="melee"/>
 </block>
-<block name="plantedMushroom3T3FF stage="3" traits="FF"">
+<block name="plantedMushroom3T3FF" stage="3" traits="FF">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="DisplayInfo" value="Description"/>
@@ -1192,7 +1192,7 @@
 	<property name="PlantGrowing.Next" value="plantedMushroom3T3FE"/>
 	<property name="Collide" value="melee"/>
 </block>
-<block name="plantedMushroom3T3FE stage="3" traits="FE"">
+<block name="plantedMushroom3T3FE" stage="3" traits="FE">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="DisplayInfo" value="Description"/>
@@ -1250,7 +1250,7 @@
 	<property name="PlantGrowing.Next" value="plantedMushroom3T3FR"/>
 	<property name="Collide" value="melee"/>
 </block>
-<block name="plantedMushroom3T3FR stage="3" traits="FR"">
+<block name="plantedMushroom3T3FR" stage="3" traits="FR">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="DisplayInfo" value="Description"/>
@@ -1308,7 +1308,7 @@
 	<property name="PlantGrowing.Next" value="plantedMushroom3T3FT"/>
 	<property name="Collide" value="melee"/>
 </block>
-<block name="plantedMushroom3T3FT stage="3" traits="FT"">
+<block name="plantedMushroom3T3FT" stage="3" traits="FT">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="DisplayInfo" value="Description"/>
@@ -1366,7 +1366,7 @@
 	<property name="PlantGrowing.Next" value="plantedMushroom3T3FS"/>
 	<property name="Collide" value="melee"/>
 </block>
-<block name="plantedMushroom3T3FS stage="3" traits="FS"">
+<block name="plantedMushroom3T3FS" stage="3" traits="FS">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="DisplayInfo" value="Description"/>
@@ -1424,7 +1424,7 @@
 	<property name="PlantGrowing.Next" value="plantedMushroom3T3EE"/>
 	<property name="Collide" value="melee"/>
 </block>
-<block name="plantedMushroom3T3EE stage="3" traits="EE"">
+<block name="plantedMushroom3T3EE" stage="3" traits="EE">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="DisplayInfo" value="Description"/>
@@ -1482,7 +1482,7 @@
 	<property name="PlantGrowing.Next" value="plantedMushroom3T3ER"/>
 	<property name="Collide" value="melee"/>
 </block>
-<block name="plantedMushroom3T3ER stage="3" traits="ER"">
+<block name="plantedMushroom3T3ER" stage="3" traits="ER">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="DisplayInfo" value="Description"/>
@@ -1540,7 +1540,7 @@
 	<property name="PlantGrowing.Next" value="plantedMushroom3T3ET"/>
 	<property name="Collide" value="melee"/>
 </block>
-<block name="plantedMushroom3T3ET stage="3" traits="ET"">
+<block name="plantedMushroom3T3ET" stage="3" traits="ET">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="DisplayInfo" value="Description"/>
@@ -1598,7 +1598,7 @@
 	<property name="PlantGrowing.Next" value="plantedMushroom3T3ES"/>
 	<property name="Collide" value="melee"/>
 </block>
-<block name="plantedMushroom3T3ES stage="3" traits="ES"">
+<block name="plantedMushroom3T3ES" stage="3" traits="ES">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="DisplayInfo" value="Description"/>
@@ -1656,7 +1656,7 @@
 	<property name="PlantGrowing.Next" value="plantedMushroom3T3RT"/>
 	<property name="Collide" value="melee"/>
 </block>
-<block name="plantedMushroom3T3RT stage="3" traits="RT"">
+<block name="plantedMushroom3T3RT" stage="3" traits="RT">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="DisplayInfo" value="Description"/>
@@ -1714,7 +1714,7 @@
 	<property name="PlantGrowing.Next" value="plantedMushroom3T3RS"/>
 	<property name="Collide" value="melee"/>
 </block>
-<block name="plantedMushroom3T3RS stage="3" traits="RS"">
+<block name="plantedMushroom3T3RS" stage="3" traits="RS">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="DisplayInfo" value="Description"/>
@@ -1772,7 +1772,7 @@
 	<property name="PlantGrowing.Next" value="plantedMushroom3T3TT"/>
 	<property name="Collide" value="melee"/>
 </block>
-<block name="plantedMushroom3T3TT stage="3" traits="TT"">
+<block name="plantedMushroom3T3TT" stage="3" traits="TT">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="DisplayInfo" value="Description"/>
@@ -1830,7 +1830,7 @@
 	<property name="PlantGrowing.Next" value="plantedMushroom3T3TS"/>
 	<property name="Collide" value="melee"/>
 </block>
-<block name="plantedMushroom3T3TS stage="3" traits="TS"">
+<block name="plantedMushroom3T3TS" stage="3" traits="TS">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="DisplayInfo" value="Description"/>
@@ -1888,7 +1888,7 @@
 	<property name="PlantGrowing.Next" value="plantedMushroom3T3SS"/>
 	<property name="Collide" value="melee"/>
 </block>
-<block name="plantedMushroom3T3SS stage="3" traits="SS"">
+<block name="plantedMushroom3T3SS" stage="3" traits="SS">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="DisplayInfo" value="Description"/>
