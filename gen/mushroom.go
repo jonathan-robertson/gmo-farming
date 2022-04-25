@@ -53,7 +53,6 @@ func (m *Mushroom) WriteStage2(c chan string, tier int, traits string) {
 
 	c <- fmt.Sprintf(`<block name="plantedMushroom2%s" stage="2" traits="%s">
 	<property name="Extends" value="plantedMushroom1%s"/>
-	<property name="CustomIcon" value="plantedMushroom1"/>
 	
 	<property name="Model" value="OutdoorDecor/mushroom_growth" param1="main_mesh"/>
 	<property name="PlantGrowing.Next" value="plantedMushroom3%s"/>

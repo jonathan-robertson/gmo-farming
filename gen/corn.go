@@ -35,6 +35,8 @@ func (p *Corn) WriteStage1(c chan string, tier int, traits string) {
 	<property name="PlantGrowing.Next" value="plantedCorn2%s"/>
 	<property name="Group" value="Food/Cooking"/>
 	<drop event="Destroy" name="plantedCorn1%s" count="1"/>
+	
+	<property name="CustomIcon" value="plantedCorn1"/>
 </block>`, suffix, traits, suffix, suffix)
 }
 
