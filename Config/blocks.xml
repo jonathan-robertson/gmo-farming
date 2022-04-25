@@ -59,6 +59,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" count="4" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T2" count="1" prob="0.5"/>
+	
 </block>
 <block name="plantedMushroom1T2B" stage="1" traits="B">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
@@ -119,6 +120,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" count="6" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="3" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T2B" count="1" prob="0.5"/>
+	
 </block>
 <block name="plantedMushroom1T2U" stage="1" traits="U">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
@@ -179,6 +181,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" count="4" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T2U" count="1" prob="0.5"/>
+	
 </block>
 <block name="plantedMushroom1T2F" stage="1" traits="F">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
@@ -239,6 +242,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" count="4" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T2F" count="1" prob="0.5"/>
+	
 </block>
 <block name="plantedMushroom1T2E" stage="1" traits="E">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
@@ -299,6 +303,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" count="4" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T2E" count="1" prob="0.5"/>
+	
 </block>
 <block name="plantedMushroom1T2R" stage="1" traits="R">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
@@ -359,6 +364,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" count="4" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T2R" count="1" prob="0.5"/>
+	<property name="DowngradeBlock" value="plantedMushroom1T2R" />
 </block>
 <block name="plantedMushroom1T2T" stage="1" traits="T">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
@@ -419,6 +425,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" count="4" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T2T" count="1" prob="0.5"/>
+	
 </block>
 <block name="plantedMushroom1T2S" stage="1" traits="S">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
@@ -479,6 +486,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" count="4" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T2S" count="1" prob="0.5"/>
+	
 </block>
 <block name="plantedMushroom1T3" stage="1" traits="">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
@@ -539,6 +547,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" count="8" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T3" count="1" prob="0.5"/>
+	
 </block>
 <block name="plantedMushroom1T3BB" stage="1" traits="BB">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
@@ -599,6 +608,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" count="16" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="8" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T3BB" count="1" prob="0.5"/>
+	
 </block>
 <block name="plantedMushroom1T3BU" stage="1" traits="BU">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
@@ -659,6 +669,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" count="12" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="6" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T3BU" count="1" prob="0.5"/>
+	
 </block>
 <block name="plantedMushroom1T3BF" stage="1" traits="BF">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
@@ -719,6 +730,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" count="12" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="6" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T3BF" count="1" prob="0.5"/>
+	
 </block>
 <block name="plantedMushroom1T3BR" stage="1" traits="BR">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
@@ -779,6 +791,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" count="12" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="6" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T3BR" count="1" prob="0.5"/>
+	<property name="DowngradeBlock" value="plantedMushroom1T3BR" />
 </block>
 <block name="plantedMushroom1T3BT" stage="1" traits="BT">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
@@ -839,6 +852,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" count="12" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="6" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T3BT" count="1" prob="0.5"/>
+	
 </block>
 <block name="plantedMushroom1T3BS" stage="1" traits="BS">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
@@ -899,6 +913,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" count="12" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="6" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T3BS" count="1" prob="0.5"/>
+	
 </block>
 <block name="plantedMushroom1T3UF" stage="1" traits="UF">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
@@ -959,6 +974,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" count="8" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T3UF" count="1" prob="0.5"/>
+	
 </block>
 <block name="plantedMushroom1T3UE" stage="1" traits="UE">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
@@ -1019,6 +1035,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" count="8" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T3UE" count="1" prob="0.5"/>
+	
 </block>
 <block name="plantedMushroom1T3UR" stage="1" traits="UR">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
@@ -1079,6 +1096,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" count="8" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T3UR" count="1" prob="0.5"/>
+	<property name="DowngradeBlock" value="plantedMushroom1T3UR" />
 </block>
 <block name="plantedMushroom1T3UT" stage="1" traits="UT">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
@@ -1139,6 +1157,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" count="8" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T3UT" count="1" prob="0.5"/>
+	
 </block>
 <block name="plantedMushroom1T3FF" stage="1" traits="FF">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
@@ -1199,6 +1218,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" count="8" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T3FF" count="1" prob="0.5"/>
+	
 </block>
 <block name="plantedMushroom1T3FE" stage="1" traits="FE">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
@@ -1259,6 +1279,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" count="8" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T3FE" count="1" prob="0.5"/>
+	
 </block>
 <block name="plantedMushroom1T3FR" stage="1" traits="FR">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
@@ -1319,6 +1340,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" count="8" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T3FR" count="1" prob="0.5"/>
+	<property name="DowngradeBlock" value="plantedMushroom1T3FR" />
 </block>
 <block name="plantedMushroom1T3FT" stage="1" traits="FT">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
@@ -1379,6 +1401,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" count="8" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T3FT" count="1" prob="0.5"/>
+	
 </block>
 <block name="plantedMushroom1T3FS" stage="1" traits="FS">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
@@ -1439,6 +1462,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" count="8" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T3FS" count="1" prob="0.5"/>
+	
 </block>
 <block name="plantedMushroom1T3EE" stage="1" traits="EE">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
@@ -1499,6 +1523,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" count="8" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T3EE" count="1" prob="0.5"/>
+	
 </block>
 <block name="plantedMushroom1T3ER" stage="1" traits="ER">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
@@ -1559,6 +1584,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" count="8" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T3ER" count="1" prob="0.5"/>
+	<property name="DowngradeBlock" value="plantedMushroom1T3ER" />
 </block>
 <block name="plantedMushroom1T3ET" stage="1" traits="ET">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
@@ -1619,6 +1645,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" count="8" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T3ET" count="1" prob="0.5"/>
+	
 </block>
 <block name="plantedMushroom1T3ES" stage="1" traits="ES">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
@@ -1679,6 +1706,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" count="8" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T3ES" count="1" prob="0.5"/>
+	
 </block>
 <block name="plantedMushroom1T3RT" stage="1" traits="RT">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
@@ -1739,6 +1767,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" count="8" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T3RT" count="1" prob="0.5"/>
+	<property name="DowngradeBlock" value="plantedMushroom1T3RT" />
 </block>
 <block name="plantedMushroom1T3RS" stage="1" traits="RS">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
@@ -1799,6 +1828,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" count="8" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T3RS" count="1" prob="0.5"/>
+	<property name="DowngradeBlock" value="plantedMushroom1T3RS" />
 </block>
 <block name="plantedMushroom1T3TT" stage="1" traits="TT">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
@@ -1859,6 +1889,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" count="8" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T3TT" count="1" prob="0.5"/>
+	
 </block>
 <block name="plantedMushroom1T3TS" stage="1" traits="TS">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
@@ -1919,6 +1950,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" count="8" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T3TS" count="1" prob="0.5"/>
+	
 </block>
 <block name="plantedMushroom1T3SS" stage="1" traits="SS">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
@@ -1979,6 +2011,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" count="8" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T3SS" count="1" prob="0.5"/>
+	
 </block>
 </append>
     <append xpath="/blocks/block[contains(@traits, 'U') and @stage='1']">

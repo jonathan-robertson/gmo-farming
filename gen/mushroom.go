@@ -88,6 +88,12 @@ func (m *Mushroom) WriteStage3(c chan string, tier int, traits string) {
 		bonusYield = int(float64(bonusYield) * 1.5)
 	}
 
+	// Apply Renewable Trait
+	var renewableLine string
+	if strings.Contains(traits, "R") {
+		renewableLine = fmt.Sprintf(`<property name="DowngradeBlock" value="plantedMushroom1%s" />`, suffix)
+	}
+
 	c <- fmt.Sprintf(`<block name="plantedMushroom3%s" stage="3" traits="%s">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -113,6 +119,7 @@ func (m *Mushroom) WriteStage3(c chan string, tier int, traits string) {
 	<drop event="Harvest" name="foodCropMushrooms" count="%d" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="%d" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1%s" count="1" prob="0.5"/>
-</block>`, suffix, traits, suffix, yield, bonusYield, suffix)
+	%s
+</block>`, suffix, traits, suffix, yield, bonusYield, suffix, renewableLine)
 	// TODO: <property name="CreativeMode" value="None"/>
 }
