@@ -166,11 +166,13 @@ func produceBlocks(c chan string) {
 	for _, plant := range plants {
 		for _, tier := range []int{2, 3} {
 			produceBlock(c, plant, tier)
-			for _, variant1 := range variants {
-				produceBlock(c, plant, tier, variant1.code)
-				for _, variant2 := range variants {
-					if variant1.isCompatibleWith(variant2) {
-						produceBlock(c, plant, tier, variant1.code, variant2.code)
+			for i1 := 0; i1 < len(variants); i1++ {
+				produceBlock(c, plant, tier, variants[i1].code)
+				if tier == 3 {
+					for i2 := i1; i2 < len(variants); i2++ {
+						if variants[i1].isCompatibleWith(variants[i2]) {
+							produceBlock(c, plant, tier, variants[i1].code, variants[i2].code)
+						}
 					}
 				}
 			}
