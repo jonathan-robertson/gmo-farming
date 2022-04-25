@@ -45,19 +45,23 @@ func (m *Mushroom) WriteStage1(c chan string, tier int, traits string) {
 	<property name="EconomicBundleSize" value="5"/>
 	<property name="Group" value="Food/Cooking"/>
 	<property name="PickupJournalEntry" value="farmingTip"/>
+
+	<property name="CustomIcon" value="plantedMushroom1"/>
 </block>`, suffix, traits, suffix, suffix)
 }
 
 func (m *Mushroom) WriteStage2(c chan string, tier int, traits string) {
 	suffix := fmt.Sprintf("T%d%s", tier, traits)
+
 	c <- fmt.Sprintf(`<block name="plantedMushroom2%s" stage="2" traits="%s">
 	<property name="Extends" value="plantedMushroom1%s"/>
 	<property name="CustomIcon" value="plantedMushroom1"/>
-	<property name="CreativeMode" value="None"/>
+	
 	<property name="Model" value="OutdoorDecor/mushroom_growth" param1="main_mesh"/>
 	<property name="PlantGrowing.Next" value="plantedMushroom3%s"/>
 	<property name="Collide" value="melee"/>
 </block>`, suffix, traits, suffix, suffix)
+	// TODO: <property name="CreativeMode" value="None"/>
 }
 
 func (m *Mushroom) WriteStage3(c chan string, tier int, traits string) {
@@ -105,9 +109,10 @@ func (m *Mushroom) WriteStage3(c chan string, tier int, traits string) {
 
 	<property name="DescriptionKey" value="plantedMushroom3%s"/>
 	<property name="CustomIcon" value="plantedMushroom3Harvest"/>
-	<property name="CreativeMode" value="None"/>
+	
 	<drop event="Harvest" name="foodCropMushrooms" count="%d" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="%d" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1%s" count="1" prob="0.5"/>
 </block>`, suffix, traits, suffix, yield, bonusYield, suffix)
+	// TODO: <property name="CreativeMode" value="None"/>
 }
