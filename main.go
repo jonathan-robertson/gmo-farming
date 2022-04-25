@@ -70,35 +70,7 @@ func init() {
 	}
 }
 
-// Write all 3 stages to file
-func produceBlocks(c chan string, p plant, tier int, traits string) (err error) {
-	for n, stage := range variantStages {
-		c <- fmt.Sprintf(`        <block name="%s%sT%d%s" stage="%s" traits="%s">`, p.name, stage, tier, traits, stage, traits)
-		switch stage {
-		case "1":
-			c <- fmt.Sprintf(`            <property name="Extends" value="%s%s" />`, p.name, vanillaStages[n])
-			c <- fmt.Sprintf(`            <property name="CustomIcon" value="%s%s" />`, p.name, vanillaStages[n])
-			c <- fmt.Sprintf(`            <property name="PlantGrowing.Next" value="%s%sT%d%s" />`, p.name, variantStages[n+1], tier, traits)
-			c <- fmt.Sprintf(`            <drop event="Destroy" name="%s%sT%d%s" count="1" />`, p.name, stage, tier, traits)
-		case "2":
-			c <- fmt.Sprintf(`            <property name="Extends" value="%s1T%d%s" />`, p.name, tier, traits)
-			c <- fmt.Sprintf(`            <property name="PlantGrowing.Next" value="%s%sT%d%s" />`, p.name, variantStages[n+1], tier, traits)
-			c <- fmt.Sprintf(`            <drop event="Destroy" name="%s%sT%d%s" count="1" />`, p.name, stage, tier, traits)
-		case "3":
-			c <- fmt.Sprintf(`            <property name="Extends" value="%s%s" />`, p.name, vanillaStages[n])
-			c <- fmt.Sprintf(`            <drop event="Harvest" name="%s" count="4" tag="cropHarvest" />`, p.crop)
-			c <- fmt.Sprintf(`            <drop event="Harvest" name="%s" prob="0.5" count="2" tag="bonusCropHarvest" />`, p.crop)
-			c <- fmt.Sprintf(`            <drop event="Destroy" name="%s1T%d%s" count="1" prob="0.5" />`, p.name, tier, traits)
-			if strings.ContainsRune(traits, 'R') {
-				c <- fmt.Sprintf(`            <property name="DowngradeBlock" value="%s1T%d%s" />`, p.name, tier, traits)
-			}
-		}
-		c <- "        </block>"
-	}
-	return
-}
-
-func produceModifications(c chan string) {
+func produceBlockModifications(c chan string) {
 	// {code: 'U', name: "Underground", incompatible: []rune{'U', 'S'}},
 	c <- `    <append xpath="/blocks/block[contains(@traits, 'U') and @stage='1']">
         <property name="PlantGrowing.LightLevelGrow" value="0" />
@@ -149,6 +121,34 @@ func produceModifications(c chan string) {
 
 }
 
+// Write all 3 stages to file
+func produceBlocks(c chan string, p plant, tier int, traits string) (err error) {
+	for n, stage := range variantStages {
+		c <- fmt.Sprintf(`        <block name="%s%sT%d%s" stage="%s" traits="%s">`, p.name, stage, tier, traits, stage, traits)
+		switch stage {
+		case "1":
+			c <- fmt.Sprintf(`            <property name="Extends" value="%s%s" />`, p.name, vanillaStages[n])
+			c <- fmt.Sprintf(`            <property name="CustomIcon" value="%s%s" />`, p.name, vanillaStages[n])
+			c <- fmt.Sprintf(`            <property name="PlantGrowing.Next" value="%s%sT%d%s" />`, p.name, variantStages[n+1], tier, traits)
+			c <- fmt.Sprintf(`            <drop event="Destroy" name="%s%sT%d%s" count="1" />`, p.name, stage, tier, traits)
+		case "2":
+			c <- fmt.Sprintf(`            <property name="Extends" value="%s1T%d%s" />`, p.name, tier, traits)
+			c <- fmt.Sprintf(`            <property name="PlantGrowing.Next" value="%s%sT%d%s" />`, p.name, variantStages[n+1], tier, traits)
+			c <- fmt.Sprintf(`            <drop event="Destroy" name="%s1T%d%s" count="1" />`, p.name, tier, traits)
+		case "3":
+			c <- fmt.Sprintf(`            <property name="Extends" value="%s%s" />`, p.name, vanillaStages[n])
+			c <- fmt.Sprintf(`            <drop event="Harvest" name="%s" count="4" tag="cropHarvest" />`, p.crop)
+			c <- fmt.Sprintf(`            <drop event="Harvest" name="%s" prob="0.5" count="2" tag="bonusCropHarvest" />`, p.crop)
+			c <- fmt.Sprintf(`            <drop event="Destroy" name="%s1T%d%s" count="1" prob="0.5" />`, p.name, tier, traits)
+			if strings.ContainsRune(traits, 'R') {
+				c <- fmt.Sprintf(`            <property name="DowngradeBlock" value="%s1T%d%s" />`, p.name, tier, traits)
+			}
+		}
+		c <- "        </block>"
+	}
+	return
+}
+
 func produceVariant(c chan string, p plant, tier int, traits string) (err error) {
 	if err := produceBlocks(c, p, tier, traits); err != nil {
 		return err
@@ -179,7 +179,7 @@ func produceVariants(c chan string) {
 		}
 	}
 	c <- "    </append>"
-	produceModifications(c)
+	produceBlockModifications(c)
 	c <- "</config>"
 }
 
