@@ -134,17 +134,41 @@ func produceModifications(c chan string) {
 	c <- `    <append xpath="/blocks/block[@trait='F,F' and @stage='1']">
         <property name="PlantGrowing.GrowthRate" value="15.75" />
     </append>`
-	/*
-	   	c <- `    <append xpath="">
-	           <property name="" value="" />
-	       </append>`*/
-	/*
-		{code: 'B', name: "Bonus", incompatible: []rune{'E'}},
-		{code: 'E', name: "Explosive", incompatible: []rune{'B'}},
 
-		{code: 'T', name: "Thorny"},
-		{code: 'S', name: "Sweet", incompatible: []rune{'U'}},
-	*/
+	// {code: 'E', name: "Explosive", incompatible: []rune{'E'}},
+	// based off of mineCookingPot
+	c <- `    <append xpath="/blocks/block[contains(@trait, 'E') and @stage='3' and not @trait='E,E']">
+        <property name="Class" value="Mine" /> <!-- a mine destroyed by an *explosion* only has a 33 percent chance to detonate -->
+        <property name="Tags" value="Mine" />
+        <property name="Material" value="MLandMine" />
+        <property name="Collide" value="movement,melee,arrow" />
+        <property name="MaxDamage" value="4" />
+        <property name="TriggerDelay" value="0.5" />
+        <property name="TriggerSound" value="landmine_trigger" />
+        <property name="Explosion.ParticleIndex" value="11" />
+        <property name="Explosion.RadiusEntities" value="3" />
+        <property name="Explosion.EntityDamage" value="300" /> <!-- damage for entities in the center of the explosion. -->
+        <property name="CanPickup" value="false" />
+    </append>`
+	// based off of mineHubcap
+	c <- `    <append xpath="/blocks/block[contains(@trait='E,E') and @stage='3']">
+        <property name="Class" value="Mine" /> <!-- a mine destroyed by an *explosion* only has a 33 percent chance to detonate -->
+        <property name="Tags" value="Mine" />
+        <property name="Material" value="MLandMine" />
+        <property name="Collide" value="movement,melee,arrow" />
+        <property name="MaxDamage" value="4" />
+        <property name="TriggerDelay" value="0.5" />
+        <property name="TriggerSound" value="landmine_trigger" />
+        <property name="Explosion.ParticleIndex" value="11" />
+        <property name="Explosion.RadiusEntities" value="5" />
+        <property name="Explosion.EntityDamage" value="450" /> <!-- damage for entities in the center of the explosion. -->
+        <property name="CanPickup" value="false" />
+    </append>`
+
+	// {code: 'B', name: "Bonus", incompatible: []rune{'B'}},
+	// {code: 'T', name: "Thorny"},
+	// {code: 'S', name: "Sweet", incompatible: []rune{'U'}},
+
 }
 
 func produceBlocks(c chan string) {
