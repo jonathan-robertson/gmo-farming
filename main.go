@@ -2,16 +2,9 @@ package main
 
 import (
 	"fmt"
-	"os"
-	"strings"
-
 	"gen"
+	"os"
 )
-
-type Plant interface {
-	IsCompatibleWith(string) bool
-	WriteStages(chan string, int, string)
-}
 
 type variant struct {
 	code         rune
@@ -19,6 +12,7 @@ type variant struct {
 	incompatible []rune
 }
 
+/*
 var vanillaStages []string = []string{
 	"1",
 	"2",
@@ -30,6 +24,7 @@ var variantStages []string = []string{
 	"2",
 	"3",
 }
+*/
 var variants []variant = []variant{
 	{code: 'B', name: "Bonus", incompatible: []rune{'E'}},
 	{code: 'U', name: "Underground", incompatible: []rune{'U', 'S'}},
@@ -49,6 +44,21 @@ func (v *variant) isCompatibleWith(v2 variant) bool {
 	return true
 }
 
+type Plant interface {
+	IsCompatibleWith(string) bool
+	WriteStages(chan string, int, string)
+}
+
+var plants []Plant
+
+func init() {
+	var mush *gen.Mushroom
+	plants = []Plant{
+		mush,
+	}
+}
+
+/*
 func produceBlockModifications(c chan string) {
 	// {code: 'U', name: "Underground", incompatible: []rune{'U', 'S'}},
 	c <- `    <append xpath="/blocks/block[contains(@traits, 'U') and @stage='1']">
@@ -162,11 +172,6 @@ func produceVariants(c chan string) {
 	c <- "</config>"
 }
 
-func getFile(filename string) (*os.File, error) {
-	os.Remove(filename)
-	return os.OpenFile(filename, os.O_APPEND|os.O_WRONLY|os.O_CREATE, 0755)
-}
-
 func writeBlocks() error {
 	file, err := getFile("Config/blocks.xml")
 	if err != nil {
@@ -182,13 +187,104 @@ func writeBlocks() error {
 	}
 	return nil
 }
+*/
+
+/*
+func producePlantLocalization(c chan string) {
+
+}
+func writePlantLocalization() error {
+	file, err := getFile("Config/localization.txt")
+	if err != nil {
+		return err
+	}
+	defer file.Close()
+	c := make(chan string, 10)
+	go producePlantRecipes(c)
+	for line := range c {
+		if _, err = file.WriteString(line + "\n"); err != nil {
+			return err
+		}
+	}
+	return nil
+}
+
+func producePlantRecipes(c chan string) {
+
+}
+func writePlantRecipes() error {
+	file, err := getFile("Config/recipes.xml")
+	if err != nil {
+		return err
+	}
+	defer file.Close()
+	c := make(chan string, 10)
+	go producePlantRecipes(c)
+	for line := range c {
+		if _, err = file.WriteString(line + "\n"); err != nil {
+			return err
+		}
+	}
+	return nil
+}
+*/
+
+func producePlantBlocks(c chan string) {
+	defer close(c)
+	c <- `<config>`
+	c <- `<append xpath="/blocks">`
+	for _, plant := range plants {
+		for _, tier := range []int{2, 3} {
+			// produce T2, T3 with no traits
+			plant.WriteStages(c, tier, "")
+			for i1 := 0; i1 < len(variants); i1++ {
+				switch tier {
+				case 2:
+					traits := fmt.Sprintf("%c", variants[i1].code)
+					plant.WriteStages(c, tier, traits)
+				case 3:
+					for i2 := i1; i2 < len(variants); i2++ {
+						if variants[i1].isCompatibleWith(variants[i2]) {
+							traits := fmt.Sprintf("%c%c", variants[i1].code, variants[i2].code)
+							plant.WriteStages(c, tier, traits)
+						}
+					}
+				}
+			}
+		}
+	}
+	c <- `</append>`
+	// TODO: add mods?
+	c <- `</config>`
+}
+
+func writePlantBlocks() error {
+	file, err := getFile("Config/blocks.xml")
+	if err != nil {
+		return err
+	}
+	defer file.Close()
+	c := make(chan string, 10)
+	go producePlantBlocks(c)
+	for line := range c {
+		if _, err = file.WriteString(line + "\n"); err != nil {
+			return err
+		}
+	}
+	return nil
+}
+
+func getFile(filename string) (*os.File, error) {
+	os.Remove(filename)
+	return os.OpenFile(filename, os.O_APPEND|os.O_WRONLY|os.O_CREATE, 0755)
+}
 
 func main() {
 	// printVanillaStages()
 	// printVariantStages()
 	// writeBlocksFile()
 
-	if err := writeBlocks(); err != nil {
+	if err := writePlantBlocks(); err != nil {
 		panic(err)
 	}
 }
