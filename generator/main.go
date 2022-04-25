@@ -10,9 +10,6 @@ type plant struct {
 	name string
 	crop string
 }
-type tier struct {
-	text string
-}
 type variant struct {
 	code         rune
 	name         string
@@ -30,11 +27,6 @@ var variantStages []string = []string{
 	"1",
 	"2",
 	"3",
-}
-var variantTiers []string = []string{
-	"T1",
-	"T2",
-	"T3",
 }
 var variants []variant
 
@@ -128,7 +120,7 @@ func produceModifications(c chan string) {
     </append>`
 
 	// {code: 'F', name: "Fast"},
-	c <- `    <append xpath="/blocks/block[contains(@trait, 'F') and @stage='1' and not @trait='F,F']">
+	c <- `    <append xpath="/blocks/block[contains(@trait, 'F') and @stage='1' and not (@trait, 'F,F')]">
         <property name="PlantGrowing.GrowthRate" value="31.5" />
     </append>`
 	c <- `    <append xpath="/blocks/block[@trait='F,F' and @stage='1']">
@@ -137,7 +129,7 @@ func produceModifications(c chan string) {
 
 	// {code: 'E', name: "Explosive", incompatible: []rune{'E'}},
 	// based off of mineCookingPot
-	c <- `    <append xpath="/blocks/block[contains(@trait, 'E') and @stage='3' and not @trait='E,E']">
+	c <- `    <append xpath="/blocks/block[contains(@trait, 'E') and @stage='3' and not (@trait, 'E,E')]">
         <property name="Class" value="Mine" /> <!-- a mine destroyed by an *explosion* only has a 33 percent chance to detonate -->
         <property name="Tags" value="Mine" />
         <property name="Material" value="MLandMine" />

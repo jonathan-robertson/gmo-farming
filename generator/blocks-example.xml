@@ -22885,13 +22885,13 @@
         <property name="PlantGrowing.LightLevelGrow" value="0" />
         <property name="PlantGrowing.LightLevelStay" value="0" />
     </append>
-    <append xpath="/blocks/block[contains(@trait, 'F') and @stage='1' and not @trait='F,F']">
+    <append xpath="/blocks/block[contains(@trait, 'F') and @stage='1' and not (@trait, 'F,F')]">
         <property name="PlantGrowing.GrowthRate" value="31.5" />
     </append>
     <append xpath="/blocks/block[@trait='F,F' and @stage='1']">
         <property name="PlantGrowing.GrowthRate" value="15.75" />
     </append>
-    <append xpath="/blocks/block[contains(@trait, 'E') and @stage='3' and not @trait='E,E']">
+    <append xpath="/blocks/block[contains(@trait, 'E') and @stage='3' and not (@trait, 'E,E')]">
         <property name="Class" value="Mine" /> <!-- a mine destroyed by an *explosion* only has a 33 percent chance to detonate -->
         <property name="Tags" value="Mine" />
         <property name="Material" value="MLandMine" />
