@@ -1647,6 +1647,1953 @@
 	<drop event="Destroy" name="plantedMushroom1T3SS" count="1" prob="0.5"/>
 	
 </block>
+<block name="plantedCorn1T2" stage="1" traits="">
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="UnlockedBy" value="perkLivingOffTheLand"/>
+	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_sprout_shape"/>
+	<property name="Place" value="Door"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+	<property name="PlantGrowing.Next" value="plantedCorn2T2"/>
+	<property name="Group" value="Food/Cooking"/>
+	<drop event="Destroy" name="plantedCorn1T2" count="1"/>
+</block>
+<block name="plantedCorn2T2" stage="2" traits="">
+	<property name="Extends" value="plantedCorn1T2"/>
+	
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_growth_shape"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+	<property name="PlantGrowing.Next" value="plantedCorn3HarvestPlayer"/>
+	<drop event="Destroy" name="plantedCorn1T2" count="1"/>
+</block>
+<block name="plantedCorn3T2" stage="3" traits="">
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="Collide" value="melee"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+
+	<property name="Material" value="Mcorn"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_harvest_shape"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+
+	<property name="DescriptionKey" value="plantedCorn3T2"/>
+	<property name="CustomIcon" value="plantedCorn3Harvest"/>
+
+	<drop event="Harvest" name="foodCropCorn" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<drop event="Destroy" name="plantedCorn1T2" count="1" prob="0.5"/>
+	
+</block>
+<block name="plantedCorn1T2B" stage="1" traits="B">
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="UnlockedBy" value="perkLivingOffTheLand"/>
+	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_sprout_shape"/>
+	<property name="Place" value="Door"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+	<property name="PlantGrowing.Next" value="plantedCorn2T2B"/>
+	<property name="Group" value="Food/Cooking"/>
+	<drop event="Destroy" name="plantedCorn1T2B" count="1"/>
+</block>
+<block name="plantedCorn2T2B" stage="2" traits="B">
+	<property name="Extends" value="plantedCorn1T2B"/>
+	
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_growth_shape"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+	<property name="PlantGrowing.Next" value="plantedCorn3HarvestPlayer"/>
+	<drop event="Destroy" name="plantedCorn1T2B" count="1"/>
+</block>
+<block name="plantedCorn3T2B" stage="3" traits="B">
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="Collide" value="melee"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+
+	<property name="Material" value="Mcorn"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_harvest_shape"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+
+	<property name="DescriptionKey" value="plantedCorn3T2B"/>
+	<property name="CustomIcon" value="plantedCorn3Harvest"/>
+
+	<drop event="Harvest" name="foodCropCorn" count="6" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="3" tag="bonusCropHarvest"/>
+	<drop event="Destroy" name="plantedCorn1T2B" count="1" prob="0.5"/>
+	
+</block>
+<block name="plantedCorn1T2U" stage="1" traits="U">
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="UnlockedBy" value="perkLivingOffTheLand"/>
+	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_sprout_shape"/>
+	<property name="Place" value="Door"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+	<property name="PlantGrowing.Next" value="plantedCorn2T2U"/>
+	<property name="Group" value="Food/Cooking"/>
+	<drop event="Destroy" name="plantedCorn1T2U" count="1"/>
+</block>
+<block name="plantedCorn2T2U" stage="2" traits="U">
+	<property name="Extends" value="plantedCorn1T2U"/>
+	
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_growth_shape"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+	<property name="PlantGrowing.Next" value="plantedCorn3HarvestPlayer"/>
+	<drop event="Destroy" name="plantedCorn1T2U" count="1"/>
+</block>
+<block name="plantedCorn3T2U" stage="3" traits="U">
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="Collide" value="melee"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+
+	<property name="Material" value="Mcorn"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_harvest_shape"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+
+	<property name="DescriptionKey" value="plantedCorn3T2U"/>
+	<property name="CustomIcon" value="plantedCorn3Harvest"/>
+
+	<drop event="Harvest" name="foodCropCorn" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<drop event="Destroy" name="plantedCorn1T2U" count="1" prob="0.5"/>
+	
+</block>
+<block name="plantedCorn1T2F" stage="1" traits="F">
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="UnlockedBy" value="perkLivingOffTheLand"/>
+	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_sprout_shape"/>
+	<property name="Place" value="Door"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+	<property name="PlantGrowing.Next" value="plantedCorn2T2F"/>
+	<property name="Group" value="Food/Cooking"/>
+	<drop event="Destroy" name="plantedCorn1T2F" count="1"/>
+</block>
+<block name="plantedCorn2T2F" stage="2" traits="F">
+	<property name="Extends" value="plantedCorn1T2F"/>
+	
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_growth_shape"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+	<property name="PlantGrowing.Next" value="plantedCorn3HarvestPlayer"/>
+	<drop event="Destroy" name="plantedCorn1T2F" count="1"/>
+</block>
+<block name="plantedCorn3T2F" stage="3" traits="F">
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="Collide" value="melee"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+
+	<property name="Material" value="Mcorn"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_harvest_shape"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+
+	<property name="DescriptionKey" value="plantedCorn3T2F"/>
+	<property name="CustomIcon" value="plantedCorn3Harvest"/>
+
+	<drop event="Harvest" name="foodCropCorn" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<drop event="Destroy" name="plantedCorn1T2F" count="1" prob="0.5"/>
+	
+</block>
+<block name="plantedCorn1T2E" stage="1" traits="E">
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="UnlockedBy" value="perkLivingOffTheLand"/>
+	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_sprout_shape"/>
+	<property name="Place" value="Door"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+	<property name="PlantGrowing.Next" value="plantedCorn2T2E"/>
+	<property name="Group" value="Food/Cooking"/>
+	<drop event="Destroy" name="plantedCorn1T2E" count="1"/>
+</block>
+<block name="plantedCorn2T2E" stage="2" traits="E">
+	<property name="Extends" value="plantedCorn1T2E"/>
+	
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_growth_shape"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+	<property name="PlantGrowing.Next" value="plantedCorn3HarvestPlayer"/>
+	<drop event="Destroy" name="plantedCorn1T2E" count="1"/>
+</block>
+<block name="plantedCorn3T2E" stage="3" traits="E">
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="Collide" value="melee"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+
+	<property name="Material" value="Mcorn"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_harvest_shape"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+
+	<property name="DescriptionKey" value="plantedCorn3T2E"/>
+	<property name="CustomIcon" value="plantedCorn3Harvest"/>
+
+	<drop event="Harvest" name="foodCropCorn" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<drop event="Destroy" name="plantedCorn1T2E" count="1" prob="0.5"/>
+	
+</block>
+<block name="plantedCorn1T2R" stage="1" traits="R">
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="UnlockedBy" value="perkLivingOffTheLand"/>
+	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_sprout_shape"/>
+	<property name="Place" value="Door"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+	<property name="PlantGrowing.Next" value="plantedCorn2T2R"/>
+	<property name="Group" value="Food/Cooking"/>
+	<drop event="Destroy" name="plantedCorn1T2R" count="1"/>
+</block>
+<block name="plantedCorn2T2R" stage="2" traits="R">
+	<property name="Extends" value="plantedCorn1T2R"/>
+	
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_growth_shape"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+	<property name="PlantGrowing.Next" value="plantedCorn3HarvestPlayer"/>
+	<drop event="Destroy" name="plantedCorn1T2R" count="1"/>
+</block>
+<block name="plantedCorn3T2R" stage="3" traits="R">
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="Collide" value="melee"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+
+	<property name="Material" value="Mcorn"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_harvest_shape"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+
+	<property name="DescriptionKey" value="plantedCorn3T2R"/>
+	<property name="CustomIcon" value="plantedCorn3Harvest"/>
+
+	<drop event="Harvest" name="foodCropCorn" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<drop event="Destroy" name="plantedCorn1T2R" count="1" prob="0.5"/>
+	<property name="DowngradeBlock" value="plantedCorn1T2R" />
+</block>
+<block name="plantedCorn1T2T" stage="1" traits="T">
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="UnlockedBy" value="perkLivingOffTheLand"/>
+	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_sprout_shape"/>
+	<property name="Place" value="Door"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+	<property name="PlantGrowing.Next" value="plantedCorn2T2T"/>
+	<property name="Group" value="Food/Cooking"/>
+	<drop event="Destroy" name="plantedCorn1T2T" count="1"/>
+</block>
+<block name="plantedCorn2T2T" stage="2" traits="T">
+	<property name="Extends" value="plantedCorn1T2T"/>
+	
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_growth_shape"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+	<property name="PlantGrowing.Next" value="plantedCorn3HarvestPlayer"/>
+	<drop event="Destroy" name="plantedCorn1T2T" count="1"/>
+</block>
+<block name="plantedCorn3T2T" stage="3" traits="T">
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="Collide" value="melee"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+
+	<property name="Material" value="Mcorn"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_harvest_shape"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+
+	<property name="DescriptionKey" value="plantedCorn3T2T"/>
+	<property name="CustomIcon" value="plantedCorn3Harvest"/>
+
+	<drop event="Harvest" name="foodCropCorn" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<drop event="Destroy" name="plantedCorn1T2T" count="1" prob="0.5"/>
+	
+</block>
+<block name="plantedCorn1T2S" stage="1" traits="S">
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="UnlockedBy" value="perkLivingOffTheLand"/>
+	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_sprout_shape"/>
+	<property name="Place" value="Door"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+	<property name="PlantGrowing.Next" value="plantedCorn2T2S"/>
+	<property name="Group" value="Food/Cooking"/>
+	<drop event="Destroy" name="plantedCorn1T2S" count="1"/>
+</block>
+<block name="plantedCorn2T2S" stage="2" traits="S">
+	<property name="Extends" value="plantedCorn1T2S"/>
+	
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_growth_shape"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+	<property name="PlantGrowing.Next" value="plantedCorn3HarvestPlayer"/>
+	<drop event="Destroy" name="plantedCorn1T2S" count="1"/>
+</block>
+<block name="plantedCorn3T2S" stage="3" traits="S">
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="Collide" value="melee"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+
+	<property name="Material" value="Mcorn"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_harvest_shape"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+
+	<property name="DescriptionKey" value="plantedCorn3T2S"/>
+	<property name="CustomIcon" value="plantedCorn3Harvest"/>
+
+	<drop event="Harvest" name="foodCropCorn" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<drop event="Destroy" name="plantedCorn1T2S" count="1" prob="0.5"/>
+	
+</block>
+<block name="plantedCorn1T3" stage="1" traits="">
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="UnlockedBy" value="perkLivingOffTheLand"/>
+	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_sprout_shape"/>
+	<property name="Place" value="Door"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+	<property name="PlantGrowing.Next" value="plantedCorn2T3"/>
+	<property name="Group" value="Food/Cooking"/>
+	<drop event="Destroy" name="plantedCorn1T3" count="1"/>
+</block>
+<block name="plantedCorn2T3" stage="2" traits="">
+	<property name="Extends" value="plantedCorn1T3"/>
+	
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_growth_shape"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+	<property name="PlantGrowing.Next" value="plantedCorn3HarvestPlayer"/>
+	<drop event="Destroy" name="plantedCorn1T3" count="1"/>
+</block>
+<block name="plantedCorn3T3" stage="3" traits="">
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="Collide" value="melee"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+
+	<property name="Material" value="Mcorn"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_harvest_shape"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+
+	<property name="DescriptionKey" value="plantedCorn3T3"/>
+	<property name="CustomIcon" value="plantedCorn3Harvest"/>
+
+	<drop event="Harvest" name="foodCropCorn" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="4" tag="bonusCropHarvest"/>
+	<drop event="Destroy" name="plantedCorn1T3" count="1" prob="0.5"/>
+	
+</block>
+<block name="plantedCorn1T3BB" stage="1" traits="BB">
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="UnlockedBy" value="perkLivingOffTheLand"/>
+	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_sprout_shape"/>
+	<property name="Place" value="Door"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+	<property name="PlantGrowing.Next" value="plantedCorn2T3BB"/>
+	<property name="Group" value="Food/Cooking"/>
+	<drop event="Destroy" name="plantedCorn1T3BB" count="1"/>
+</block>
+<block name="plantedCorn2T3BB" stage="2" traits="BB">
+	<property name="Extends" value="plantedCorn1T3BB"/>
+	
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_growth_shape"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+	<property name="PlantGrowing.Next" value="plantedCorn3HarvestPlayer"/>
+	<drop event="Destroy" name="plantedCorn1T3BB" count="1"/>
+</block>
+<block name="plantedCorn3T3BB" stage="3" traits="BB">
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="Collide" value="melee"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+
+	<property name="Material" value="Mcorn"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_harvest_shape"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+
+	<property name="DescriptionKey" value="plantedCorn3T3BB"/>
+	<property name="CustomIcon" value="plantedCorn3Harvest"/>
+
+	<drop event="Harvest" name="foodCropCorn" count="16" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="8" tag="bonusCropHarvest"/>
+	<drop event="Destroy" name="plantedCorn1T3BB" count="1" prob="0.5"/>
+	
+</block>
+<block name="plantedCorn1T3BU" stage="1" traits="BU">
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="UnlockedBy" value="perkLivingOffTheLand"/>
+	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_sprout_shape"/>
+	<property name="Place" value="Door"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+	<property name="PlantGrowing.Next" value="plantedCorn2T3BU"/>
+	<property name="Group" value="Food/Cooking"/>
+	<drop event="Destroy" name="plantedCorn1T3BU" count="1"/>
+</block>
+<block name="plantedCorn2T3BU" stage="2" traits="BU">
+	<property name="Extends" value="plantedCorn1T3BU"/>
+	
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_growth_shape"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+	<property name="PlantGrowing.Next" value="plantedCorn3HarvestPlayer"/>
+	<drop event="Destroy" name="plantedCorn1T3BU" count="1"/>
+</block>
+<block name="plantedCorn3T3BU" stage="3" traits="BU">
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="Collide" value="melee"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+
+	<property name="Material" value="Mcorn"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_harvest_shape"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+
+	<property name="DescriptionKey" value="plantedCorn3T3BU"/>
+	<property name="CustomIcon" value="plantedCorn3Harvest"/>
+
+	<drop event="Harvest" name="foodCropCorn" count="12" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="6" tag="bonusCropHarvest"/>
+	<drop event="Destroy" name="plantedCorn1T3BU" count="1" prob="0.5"/>
+	
+</block>
+<block name="plantedCorn1T3BF" stage="1" traits="BF">
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="UnlockedBy" value="perkLivingOffTheLand"/>
+	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_sprout_shape"/>
+	<property name="Place" value="Door"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+	<property name="PlantGrowing.Next" value="plantedCorn2T3BF"/>
+	<property name="Group" value="Food/Cooking"/>
+	<drop event="Destroy" name="plantedCorn1T3BF" count="1"/>
+</block>
+<block name="plantedCorn2T3BF" stage="2" traits="BF">
+	<property name="Extends" value="plantedCorn1T3BF"/>
+	
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_growth_shape"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+	<property name="PlantGrowing.Next" value="plantedCorn3HarvestPlayer"/>
+	<drop event="Destroy" name="plantedCorn1T3BF" count="1"/>
+</block>
+<block name="plantedCorn3T3BF" stage="3" traits="BF">
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="Collide" value="melee"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+
+	<property name="Material" value="Mcorn"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_harvest_shape"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+
+	<property name="DescriptionKey" value="plantedCorn3T3BF"/>
+	<property name="CustomIcon" value="plantedCorn3Harvest"/>
+
+	<drop event="Harvest" name="foodCropCorn" count="12" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="6" tag="bonusCropHarvest"/>
+	<drop event="Destroy" name="plantedCorn1T3BF" count="1" prob="0.5"/>
+	
+</block>
+<block name="plantedCorn1T3BR" stage="1" traits="BR">
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="UnlockedBy" value="perkLivingOffTheLand"/>
+	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_sprout_shape"/>
+	<property name="Place" value="Door"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+	<property name="PlantGrowing.Next" value="plantedCorn2T3BR"/>
+	<property name="Group" value="Food/Cooking"/>
+	<drop event="Destroy" name="plantedCorn1T3BR" count="1"/>
+</block>
+<block name="plantedCorn2T3BR" stage="2" traits="BR">
+	<property name="Extends" value="plantedCorn1T3BR"/>
+	
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_growth_shape"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+	<property name="PlantGrowing.Next" value="plantedCorn3HarvestPlayer"/>
+	<drop event="Destroy" name="plantedCorn1T3BR" count="1"/>
+</block>
+<block name="plantedCorn3T3BR" stage="3" traits="BR">
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="Collide" value="melee"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+
+	<property name="Material" value="Mcorn"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_harvest_shape"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+
+	<property name="DescriptionKey" value="plantedCorn3T3BR"/>
+	<property name="CustomIcon" value="plantedCorn3Harvest"/>
+
+	<drop event="Harvest" name="foodCropCorn" count="12" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="6" tag="bonusCropHarvest"/>
+	<drop event="Destroy" name="plantedCorn1T3BR" count="1" prob="0.5"/>
+	<property name="DowngradeBlock" value="plantedCorn1T3BR" />
+</block>
+<block name="plantedCorn1T3BT" stage="1" traits="BT">
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="UnlockedBy" value="perkLivingOffTheLand"/>
+	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_sprout_shape"/>
+	<property name="Place" value="Door"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+	<property name="PlantGrowing.Next" value="plantedCorn2T3BT"/>
+	<property name="Group" value="Food/Cooking"/>
+	<drop event="Destroy" name="plantedCorn1T3BT" count="1"/>
+</block>
+<block name="plantedCorn2T3BT" stage="2" traits="BT">
+	<property name="Extends" value="plantedCorn1T3BT"/>
+	
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_growth_shape"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+	<property name="PlantGrowing.Next" value="plantedCorn3HarvestPlayer"/>
+	<drop event="Destroy" name="plantedCorn1T3BT" count="1"/>
+</block>
+<block name="plantedCorn3T3BT" stage="3" traits="BT">
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="Collide" value="melee"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+
+	<property name="Material" value="Mcorn"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_harvest_shape"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+
+	<property name="DescriptionKey" value="plantedCorn3T3BT"/>
+	<property name="CustomIcon" value="plantedCorn3Harvest"/>
+
+	<drop event="Harvest" name="foodCropCorn" count="12" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="6" tag="bonusCropHarvest"/>
+	<drop event="Destroy" name="plantedCorn1T3BT" count="1" prob="0.5"/>
+	
+</block>
+<block name="plantedCorn1T3BS" stage="1" traits="BS">
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="UnlockedBy" value="perkLivingOffTheLand"/>
+	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_sprout_shape"/>
+	<property name="Place" value="Door"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+	<property name="PlantGrowing.Next" value="plantedCorn2T3BS"/>
+	<property name="Group" value="Food/Cooking"/>
+	<drop event="Destroy" name="plantedCorn1T3BS" count="1"/>
+</block>
+<block name="plantedCorn2T3BS" stage="2" traits="BS">
+	<property name="Extends" value="plantedCorn1T3BS"/>
+	
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_growth_shape"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+	<property name="PlantGrowing.Next" value="plantedCorn3HarvestPlayer"/>
+	<drop event="Destroy" name="plantedCorn1T3BS" count="1"/>
+</block>
+<block name="plantedCorn3T3BS" stage="3" traits="BS">
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="Collide" value="melee"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+
+	<property name="Material" value="Mcorn"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_harvest_shape"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+
+	<property name="DescriptionKey" value="plantedCorn3T3BS"/>
+	<property name="CustomIcon" value="plantedCorn3Harvest"/>
+
+	<drop event="Harvest" name="foodCropCorn" count="12" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="6" tag="bonusCropHarvest"/>
+	<drop event="Destroy" name="plantedCorn1T3BS" count="1" prob="0.5"/>
+	
+</block>
+<block name="plantedCorn1T3UF" stage="1" traits="UF">
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="UnlockedBy" value="perkLivingOffTheLand"/>
+	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_sprout_shape"/>
+	<property name="Place" value="Door"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+	<property name="PlantGrowing.Next" value="plantedCorn2T3UF"/>
+	<property name="Group" value="Food/Cooking"/>
+	<drop event="Destroy" name="plantedCorn1T3UF" count="1"/>
+</block>
+<block name="plantedCorn2T3UF" stage="2" traits="UF">
+	<property name="Extends" value="plantedCorn1T3UF"/>
+	
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_growth_shape"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+	<property name="PlantGrowing.Next" value="plantedCorn3HarvestPlayer"/>
+	<drop event="Destroy" name="plantedCorn1T3UF" count="1"/>
+</block>
+<block name="plantedCorn3T3UF" stage="3" traits="UF">
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="Collide" value="melee"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+
+	<property name="Material" value="Mcorn"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_harvest_shape"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+
+	<property name="DescriptionKey" value="plantedCorn3T3UF"/>
+	<property name="CustomIcon" value="plantedCorn3Harvest"/>
+
+	<drop event="Harvest" name="foodCropCorn" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="4" tag="bonusCropHarvest"/>
+	<drop event="Destroy" name="plantedCorn1T3UF" count="1" prob="0.5"/>
+	
+</block>
+<block name="plantedCorn1T3UE" stage="1" traits="UE">
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="UnlockedBy" value="perkLivingOffTheLand"/>
+	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_sprout_shape"/>
+	<property name="Place" value="Door"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+	<property name="PlantGrowing.Next" value="plantedCorn2T3UE"/>
+	<property name="Group" value="Food/Cooking"/>
+	<drop event="Destroy" name="plantedCorn1T3UE" count="1"/>
+</block>
+<block name="plantedCorn2T3UE" stage="2" traits="UE">
+	<property name="Extends" value="plantedCorn1T3UE"/>
+	
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_growth_shape"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+	<property name="PlantGrowing.Next" value="plantedCorn3HarvestPlayer"/>
+	<drop event="Destroy" name="plantedCorn1T3UE" count="1"/>
+</block>
+<block name="plantedCorn3T3UE" stage="3" traits="UE">
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="Collide" value="melee"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+
+	<property name="Material" value="Mcorn"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_harvest_shape"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+
+	<property name="DescriptionKey" value="plantedCorn3T3UE"/>
+	<property name="CustomIcon" value="plantedCorn3Harvest"/>
+
+	<drop event="Harvest" name="foodCropCorn" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="4" tag="bonusCropHarvest"/>
+	<drop event="Destroy" name="plantedCorn1T3UE" count="1" prob="0.5"/>
+	
+</block>
+<block name="plantedCorn1T3UR" stage="1" traits="UR">
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="UnlockedBy" value="perkLivingOffTheLand"/>
+	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_sprout_shape"/>
+	<property name="Place" value="Door"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+	<property name="PlantGrowing.Next" value="plantedCorn2T3UR"/>
+	<property name="Group" value="Food/Cooking"/>
+	<drop event="Destroy" name="plantedCorn1T3UR" count="1"/>
+</block>
+<block name="plantedCorn2T3UR" stage="2" traits="UR">
+	<property name="Extends" value="plantedCorn1T3UR"/>
+	
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_growth_shape"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+	<property name="PlantGrowing.Next" value="plantedCorn3HarvestPlayer"/>
+	<drop event="Destroy" name="plantedCorn1T3UR" count="1"/>
+</block>
+<block name="plantedCorn3T3UR" stage="3" traits="UR">
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="Collide" value="melee"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+
+	<property name="Material" value="Mcorn"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_harvest_shape"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+
+	<property name="DescriptionKey" value="plantedCorn3T3UR"/>
+	<property name="CustomIcon" value="plantedCorn3Harvest"/>
+
+	<drop event="Harvest" name="foodCropCorn" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="4" tag="bonusCropHarvest"/>
+	<drop event="Destroy" name="plantedCorn1T3UR" count="1" prob="0.5"/>
+	<property name="DowngradeBlock" value="plantedCorn1T3UR" />
+</block>
+<block name="plantedCorn1T3UT" stage="1" traits="UT">
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="UnlockedBy" value="perkLivingOffTheLand"/>
+	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_sprout_shape"/>
+	<property name="Place" value="Door"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+	<property name="PlantGrowing.Next" value="plantedCorn2T3UT"/>
+	<property name="Group" value="Food/Cooking"/>
+	<drop event="Destroy" name="plantedCorn1T3UT" count="1"/>
+</block>
+<block name="plantedCorn2T3UT" stage="2" traits="UT">
+	<property name="Extends" value="plantedCorn1T3UT"/>
+	
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_growth_shape"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+	<property name="PlantGrowing.Next" value="plantedCorn3HarvestPlayer"/>
+	<drop event="Destroy" name="plantedCorn1T3UT" count="1"/>
+</block>
+<block name="plantedCorn3T3UT" stage="3" traits="UT">
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="Collide" value="melee"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+
+	<property name="Material" value="Mcorn"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_harvest_shape"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+
+	<property name="DescriptionKey" value="plantedCorn3T3UT"/>
+	<property name="CustomIcon" value="plantedCorn3Harvest"/>
+
+	<drop event="Harvest" name="foodCropCorn" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="4" tag="bonusCropHarvest"/>
+	<drop event="Destroy" name="plantedCorn1T3UT" count="1" prob="0.5"/>
+	
+</block>
+<block name="plantedCorn1T3FF" stage="1" traits="FF">
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="UnlockedBy" value="perkLivingOffTheLand"/>
+	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_sprout_shape"/>
+	<property name="Place" value="Door"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+	<property name="PlantGrowing.Next" value="plantedCorn2T3FF"/>
+	<property name="Group" value="Food/Cooking"/>
+	<drop event="Destroy" name="plantedCorn1T3FF" count="1"/>
+</block>
+<block name="plantedCorn2T3FF" stage="2" traits="FF">
+	<property name="Extends" value="plantedCorn1T3FF"/>
+	
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_growth_shape"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+	<property name="PlantGrowing.Next" value="plantedCorn3HarvestPlayer"/>
+	<drop event="Destroy" name="plantedCorn1T3FF" count="1"/>
+</block>
+<block name="plantedCorn3T3FF" stage="3" traits="FF">
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="Collide" value="melee"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+
+	<property name="Material" value="Mcorn"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_harvest_shape"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+
+	<property name="DescriptionKey" value="plantedCorn3T3FF"/>
+	<property name="CustomIcon" value="plantedCorn3Harvest"/>
+
+	<drop event="Harvest" name="foodCropCorn" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="4" tag="bonusCropHarvest"/>
+	<drop event="Destroy" name="plantedCorn1T3FF" count="1" prob="0.5"/>
+	
+</block>
+<block name="plantedCorn1T3FE" stage="1" traits="FE">
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="UnlockedBy" value="perkLivingOffTheLand"/>
+	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_sprout_shape"/>
+	<property name="Place" value="Door"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+	<property name="PlantGrowing.Next" value="plantedCorn2T3FE"/>
+	<property name="Group" value="Food/Cooking"/>
+	<drop event="Destroy" name="plantedCorn1T3FE" count="1"/>
+</block>
+<block name="plantedCorn2T3FE" stage="2" traits="FE">
+	<property name="Extends" value="plantedCorn1T3FE"/>
+	
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_growth_shape"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+	<property name="PlantGrowing.Next" value="plantedCorn3HarvestPlayer"/>
+	<drop event="Destroy" name="plantedCorn1T3FE" count="1"/>
+</block>
+<block name="plantedCorn3T3FE" stage="3" traits="FE">
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="Collide" value="melee"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+
+	<property name="Material" value="Mcorn"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_harvest_shape"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+
+	<property name="DescriptionKey" value="plantedCorn3T3FE"/>
+	<property name="CustomIcon" value="plantedCorn3Harvest"/>
+
+	<drop event="Harvest" name="foodCropCorn" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="4" tag="bonusCropHarvest"/>
+	<drop event="Destroy" name="plantedCorn1T3FE" count="1" prob="0.5"/>
+	
+</block>
+<block name="plantedCorn1T3FR" stage="1" traits="FR">
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="UnlockedBy" value="perkLivingOffTheLand"/>
+	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_sprout_shape"/>
+	<property name="Place" value="Door"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+	<property name="PlantGrowing.Next" value="plantedCorn2T3FR"/>
+	<property name="Group" value="Food/Cooking"/>
+	<drop event="Destroy" name="plantedCorn1T3FR" count="1"/>
+</block>
+<block name="plantedCorn2T3FR" stage="2" traits="FR">
+	<property name="Extends" value="plantedCorn1T3FR"/>
+	
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_growth_shape"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+	<property name="PlantGrowing.Next" value="plantedCorn3HarvestPlayer"/>
+	<drop event="Destroy" name="plantedCorn1T3FR" count="1"/>
+</block>
+<block name="plantedCorn3T3FR" stage="3" traits="FR">
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="Collide" value="melee"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+
+	<property name="Material" value="Mcorn"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_harvest_shape"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+
+	<property name="DescriptionKey" value="plantedCorn3T3FR"/>
+	<property name="CustomIcon" value="plantedCorn3Harvest"/>
+
+	<drop event="Harvest" name="foodCropCorn" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="4" tag="bonusCropHarvest"/>
+	<drop event="Destroy" name="plantedCorn1T3FR" count="1" prob="0.5"/>
+	<property name="DowngradeBlock" value="plantedCorn1T3FR" />
+</block>
+<block name="plantedCorn1T3FT" stage="1" traits="FT">
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="UnlockedBy" value="perkLivingOffTheLand"/>
+	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_sprout_shape"/>
+	<property name="Place" value="Door"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+	<property name="PlantGrowing.Next" value="plantedCorn2T3FT"/>
+	<property name="Group" value="Food/Cooking"/>
+	<drop event="Destroy" name="plantedCorn1T3FT" count="1"/>
+</block>
+<block name="plantedCorn2T3FT" stage="2" traits="FT">
+	<property name="Extends" value="plantedCorn1T3FT"/>
+	
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_growth_shape"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+	<property name="PlantGrowing.Next" value="plantedCorn3HarvestPlayer"/>
+	<drop event="Destroy" name="plantedCorn1T3FT" count="1"/>
+</block>
+<block name="plantedCorn3T3FT" stage="3" traits="FT">
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="Collide" value="melee"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+
+	<property name="Material" value="Mcorn"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_harvest_shape"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+
+	<property name="DescriptionKey" value="plantedCorn3T3FT"/>
+	<property name="CustomIcon" value="plantedCorn3Harvest"/>
+
+	<drop event="Harvest" name="foodCropCorn" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="4" tag="bonusCropHarvest"/>
+	<drop event="Destroy" name="plantedCorn1T3FT" count="1" prob="0.5"/>
+	
+</block>
+<block name="plantedCorn1T3FS" stage="1" traits="FS">
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="UnlockedBy" value="perkLivingOffTheLand"/>
+	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_sprout_shape"/>
+	<property name="Place" value="Door"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+	<property name="PlantGrowing.Next" value="plantedCorn2T3FS"/>
+	<property name="Group" value="Food/Cooking"/>
+	<drop event="Destroy" name="plantedCorn1T3FS" count="1"/>
+</block>
+<block name="plantedCorn2T3FS" stage="2" traits="FS">
+	<property name="Extends" value="plantedCorn1T3FS"/>
+	
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_growth_shape"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+	<property name="PlantGrowing.Next" value="plantedCorn3HarvestPlayer"/>
+	<drop event="Destroy" name="plantedCorn1T3FS" count="1"/>
+</block>
+<block name="plantedCorn3T3FS" stage="3" traits="FS">
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="Collide" value="melee"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+
+	<property name="Material" value="Mcorn"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_harvest_shape"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+
+	<property name="DescriptionKey" value="plantedCorn3T3FS"/>
+	<property name="CustomIcon" value="plantedCorn3Harvest"/>
+
+	<drop event="Harvest" name="foodCropCorn" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="4" tag="bonusCropHarvest"/>
+	<drop event="Destroy" name="plantedCorn1T3FS" count="1" prob="0.5"/>
+	
+</block>
+<block name="plantedCorn1T3EE" stage="1" traits="EE">
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="UnlockedBy" value="perkLivingOffTheLand"/>
+	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_sprout_shape"/>
+	<property name="Place" value="Door"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+	<property name="PlantGrowing.Next" value="plantedCorn2T3EE"/>
+	<property name="Group" value="Food/Cooking"/>
+	<drop event="Destroy" name="plantedCorn1T3EE" count="1"/>
+</block>
+<block name="plantedCorn2T3EE" stage="2" traits="EE">
+	<property name="Extends" value="plantedCorn1T3EE"/>
+	
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_growth_shape"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+	<property name="PlantGrowing.Next" value="plantedCorn3HarvestPlayer"/>
+	<drop event="Destroy" name="plantedCorn1T3EE" count="1"/>
+</block>
+<block name="plantedCorn3T3EE" stage="3" traits="EE">
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="Collide" value="melee"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+
+	<property name="Material" value="Mcorn"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_harvest_shape"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+
+	<property name="DescriptionKey" value="plantedCorn3T3EE"/>
+	<property name="CustomIcon" value="plantedCorn3Harvest"/>
+
+	<drop event="Harvest" name="foodCropCorn" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="4" tag="bonusCropHarvest"/>
+	<drop event="Destroy" name="plantedCorn1T3EE" count="1" prob="0.5"/>
+	
+</block>
+<block name="plantedCorn1T3ER" stage="1" traits="ER">
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="UnlockedBy" value="perkLivingOffTheLand"/>
+	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_sprout_shape"/>
+	<property name="Place" value="Door"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+	<property name="PlantGrowing.Next" value="plantedCorn2T3ER"/>
+	<property name="Group" value="Food/Cooking"/>
+	<drop event="Destroy" name="plantedCorn1T3ER" count="1"/>
+</block>
+<block name="plantedCorn2T3ER" stage="2" traits="ER">
+	<property name="Extends" value="plantedCorn1T3ER"/>
+	
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_growth_shape"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+	<property name="PlantGrowing.Next" value="plantedCorn3HarvestPlayer"/>
+	<drop event="Destroy" name="plantedCorn1T3ER" count="1"/>
+</block>
+<block name="plantedCorn3T3ER" stage="3" traits="ER">
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="Collide" value="melee"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+
+	<property name="Material" value="Mcorn"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_harvest_shape"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+
+	<property name="DescriptionKey" value="plantedCorn3T3ER"/>
+	<property name="CustomIcon" value="plantedCorn3Harvest"/>
+
+	<drop event="Harvest" name="foodCropCorn" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="4" tag="bonusCropHarvest"/>
+	<drop event="Destroy" name="plantedCorn1T3ER" count="1" prob="0.5"/>
+	<property name="DowngradeBlock" value="plantedCorn1T3ER" />
+</block>
+<block name="plantedCorn1T3ET" stage="1" traits="ET">
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="UnlockedBy" value="perkLivingOffTheLand"/>
+	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_sprout_shape"/>
+	<property name="Place" value="Door"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+	<property name="PlantGrowing.Next" value="plantedCorn2T3ET"/>
+	<property name="Group" value="Food/Cooking"/>
+	<drop event="Destroy" name="plantedCorn1T3ET" count="1"/>
+</block>
+<block name="plantedCorn2T3ET" stage="2" traits="ET">
+	<property name="Extends" value="plantedCorn1T3ET"/>
+	
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_growth_shape"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+	<property name="PlantGrowing.Next" value="plantedCorn3HarvestPlayer"/>
+	<drop event="Destroy" name="plantedCorn1T3ET" count="1"/>
+</block>
+<block name="plantedCorn3T3ET" stage="3" traits="ET">
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="Collide" value="melee"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+
+	<property name="Material" value="Mcorn"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_harvest_shape"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+
+	<property name="DescriptionKey" value="plantedCorn3T3ET"/>
+	<property name="CustomIcon" value="plantedCorn3Harvest"/>
+
+	<drop event="Harvest" name="foodCropCorn" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="4" tag="bonusCropHarvest"/>
+	<drop event="Destroy" name="plantedCorn1T3ET" count="1" prob="0.5"/>
+	
+</block>
+<block name="plantedCorn1T3ES" stage="1" traits="ES">
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="UnlockedBy" value="perkLivingOffTheLand"/>
+	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_sprout_shape"/>
+	<property name="Place" value="Door"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+	<property name="PlantGrowing.Next" value="plantedCorn2T3ES"/>
+	<property name="Group" value="Food/Cooking"/>
+	<drop event="Destroy" name="plantedCorn1T3ES" count="1"/>
+</block>
+<block name="plantedCorn2T3ES" stage="2" traits="ES">
+	<property name="Extends" value="plantedCorn1T3ES"/>
+	
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_growth_shape"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+	<property name="PlantGrowing.Next" value="plantedCorn3HarvestPlayer"/>
+	<drop event="Destroy" name="plantedCorn1T3ES" count="1"/>
+</block>
+<block name="plantedCorn3T3ES" stage="3" traits="ES">
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="Collide" value="melee"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+
+	<property name="Material" value="Mcorn"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_harvest_shape"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+
+	<property name="DescriptionKey" value="plantedCorn3T3ES"/>
+	<property name="CustomIcon" value="plantedCorn3Harvest"/>
+
+	<drop event="Harvest" name="foodCropCorn" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="4" tag="bonusCropHarvest"/>
+	<drop event="Destroy" name="plantedCorn1T3ES" count="1" prob="0.5"/>
+	
+</block>
+<block name="plantedCorn1T3RT" stage="1" traits="RT">
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="UnlockedBy" value="perkLivingOffTheLand"/>
+	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_sprout_shape"/>
+	<property name="Place" value="Door"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+	<property name="PlantGrowing.Next" value="plantedCorn2T3RT"/>
+	<property name="Group" value="Food/Cooking"/>
+	<drop event="Destroy" name="plantedCorn1T3RT" count="1"/>
+</block>
+<block name="plantedCorn2T3RT" stage="2" traits="RT">
+	<property name="Extends" value="plantedCorn1T3RT"/>
+	
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_growth_shape"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+	<property name="PlantGrowing.Next" value="plantedCorn3HarvestPlayer"/>
+	<drop event="Destroy" name="plantedCorn1T3RT" count="1"/>
+</block>
+<block name="plantedCorn3T3RT" stage="3" traits="RT">
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="Collide" value="melee"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+
+	<property name="Material" value="Mcorn"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_harvest_shape"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+
+	<property name="DescriptionKey" value="plantedCorn3T3RT"/>
+	<property name="CustomIcon" value="plantedCorn3Harvest"/>
+
+	<drop event="Harvest" name="foodCropCorn" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="4" tag="bonusCropHarvest"/>
+	<drop event="Destroy" name="plantedCorn1T3RT" count="1" prob="0.5"/>
+	<property name="DowngradeBlock" value="plantedCorn1T3RT" />
+</block>
+<block name="plantedCorn1T3RS" stage="1" traits="RS">
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="UnlockedBy" value="perkLivingOffTheLand"/>
+	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_sprout_shape"/>
+	<property name="Place" value="Door"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+	<property name="PlantGrowing.Next" value="plantedCorn2T3RS"/>
+	<property name="Group" value="Food/Cooking"/>
+	<drop event="Destroy" name="plantedCorn1T3RS" count="1"/>
+</block>
+<block name="plantedCorn2T3RS" stage="2" traits="RS">
+	<property name="Extends" value="plantedCorn1T3RS"/>
+	
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_growth_shape"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+	<property name="PlantGrowing.Next" value="plantedCorn3HarvestPlayer"/>
+	<drop event="Destroy" name="plantedCorn1T3RS" count="1"/>
+</block>
+<block name="plantedCorn3T3RS" stage="3" traits="RS">
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="Collide" value="melee"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+
+	<property name="Material" value="Mcorn"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_harvest_shape"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+
+	<property name="DescriptionKey" value="plantedCorn3T3RS"/>
+	<property name="CustomIcon" value="plantedCorn3Harvest"/>
+
+	<drop event="Harvest" name="foodCropCorn" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="4" tag="bonusCropHarvest"/>
+	<drop event="Destroy" name="plantedCorn1T3RS" count="1" prob="0.5"/>
+	<property name="DowngradeBlock" value="plantedCorn1T3RS" />
+</block>
+<block name="plantedCorn1T3TT" stage="1" traits="TT">
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="UnlockedBy" value="perkLivingOffTheLand"/>
+	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_sprout_shape"/>
+	<property name="Place" value="Door"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+	<property name="PlantGrowing.Next" value="plantedCorn2T3TT"/>
+	<property name="Group" value="Food/Cooking"/>
+	<drop event="Destroy" name="plantedCorn1T3TT" count="1"/>
+</block>
+<block name="plantedCorn2T3TT" stage="2" traits="TT">
+	<property name="Extends" value="plantedCorn1T3TT"/>
+	
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_growth_shape"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+	<property name="PlantGrowing.Next" value="plantedCorn3HarvestPlayer"/>
+	<drop event="Destroy" name="plantedCorn1T3TT" count="1"/>
+</block>
+<block name="plantedCorn3T3TT" stage="3" traits="TT">
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="Collide" value="melee"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+
+	<property name="Material" value="Mcorn"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_harvest_shape"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+
+	<property name="DescriptionKey" value="plantedCorn3T3TT"/>
+	<property name="CustomIcon" value="plantedCorn3Harvest"/>
+
+	<drop event="Harvest" name="foodCropCorn" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="4" tag="bonusCropHarvest"/>
+	<drop event="Destroy" name="plantedCorn1T3TT" count="1" prob="0.5"/>
+	
+</block>
+<block name="plantedCorn1T3TS" stage="1" traits="TS">
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="UnlockedBy" value="perkLivingOffTheLand"/>
+	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_sprout_shape"/>
+	<property name="Place" value="Door"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+	<property name="PlantGrowing.Next" value="plantedCorn2T3TS"/>
+	<property name="Group" value="Food/Cooking"/>
+	<drop event="Destroy" name="plantedCorn1T3TS" count="1"/>
+</block>
+<block name="plantedCorn2T3TS" stage="2" traits="TS">
+	<property name="Extends" value="plantedCorn1T3TS"/>
+	
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_growth_shape"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+	<property name="PlantGrowing.Next" value="plantedCorn3HarvestPlayer"/>
+	<drop event="Destroy" name="plantedCorn1T3TS" count="1"/>
+</block>
+<block name="plantedCorn3T3TS" stage="3" traits="TS">
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="Collide" value="melee"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+
+	<property name="Material" value="Mcorn"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_harvest_shape"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+
+	<property name="DescriptionKey" value="plantedCorn3T3TS"/>
+	<property name="CustomIcon" value="plantedCorn3Harvest"/>
+
+	<drop event="Harvest" name="foodCropCorn" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="4" tag="bonusCropHarvest"/>
+	<drop event="Destroy" name="plantedCorn1T3TS" count="1" prob="0.5"/>
+	
+</block>
+<block name="plantedCorn1T3SS" stage="1" traits="SS">
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="UnlockedBy" value="perkLivingOffTheLand"/>
+	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_sprout_shape"/>
+	<property name="Place" value="Door"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+	<property name="PlantGrowing.Next" value="plantedCorn2T3SS"/>
+	<property name="Group" value="Food/Cooking"/>
+	<drop event="Destroy" name="plantedCorn1T3SS" count="1"/>
+</block>
+<block name="plantedCorn2T3SS" stage="2" traits="SS">
+	<property name="Extends" value="plantedCorn1T3SS"/>
+	
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_growth_shape"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+	<property name="PlantGrowing.Next" value="plantedCorn3HarvestPlayer"/>
+	<drop event="Destroy" name="plantedCorn1T3SS" count="1"/>
+</block>
+<block name="plantedCorn3T3SS" stage="3" traits="SS">
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="Collide" value="melee"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+
+	<property name="Material" value="Mcorn"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_harvest_shape"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+
+	<property name="DescriptionKey" value="plantedCorn3T3SS"/>
+	<property name="CustomIcon" value="plantedCorn3Harvest"/>
+
+	<drop event="Harvest" name="foodCropCorn" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="4" tag="bonusCropHarvest"/>
+	<drop event="Destroy" name="plantedCorn1T3SS" count="1" prob="0.5"/>
+	
+</block>
 </append>
     <append xpath="/blocks/block[contains(@traits, 'U') and @stage='1']">
         <property name="PlantGrowing.LightLevelGrow" value="0" />
@@ -1661,10 +3608,9 @@
     <append xpath="/blocks/block[contains(@traits, 'E') and @stage='3' and not (@traits='EE')]">
         <property name="Class" value="Mine" /> <!-- a mine destroyed by an *explosion* only has a 33 percent chance to detonate -->
         <property name="Tags" value="Mine" />
-        <property name="Material" value="MLandMine" />
         <property name="Collide" value="movement,melee,arrow" />
-        <property name="MaxDamage" value="4" />
-        <property name="TriggerDelay" value="0.5" />
+		<property name="MaxDamage" value="1" /> <!-- reduced from 4 -->
+        <property name="TriggerDelay" value="0.1" /> <!-- reduced from 0.5 -->
         <property name="TriggerSound" value="landmine_trigger" />
         <property name="Explosion.ParticleIndex" value="11" />
         <property name="Explosion.RadiusEntities" value="3" />
@@ -1674,10 +3620,9 @@
     <append xpath="/blocks/block[contains(@traits, 'EE') and @stage='3']">
         <property name="Class" value="Mine" /> <!-- a mine destroyed by an *explosion* only has a 33 percent chance to detonate -->
         <property name="Tags" value="Mine" />
-        <property name="Material" value="MLandMine" />
         <property name="Collide" value="movement,melee,arrow" />
-        <property name="MaxDamage" value="4" />
-        <property name="TriggerDelay" value="0.5" />
+		<property name="MaxDamage" value="1" /> <!-- reduced from 4 -->
+        <property name="TriggerDelay" value="0.1" /> <!-- reduced from 0.5 -->
         <property name="TriggerSound" value="landmine_trigger" />
         <property name="Explosion.ParticleIndex" value="11" />
         <property name="Explosion.RadiusEntities" value="5" />

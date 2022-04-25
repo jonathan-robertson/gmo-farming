@@ -5,21 +5,19 @@ import (
 	"strings"
 )
 
-// TODO: suffix := fmt.Sprintf("T%d%s", tier, traits)
-// TODO: <property name="UnlockedBy" value="perkLivingOffTheLand,plantedMushroom1Schematic"/>
-
 type Mushroom struct{}
 
-func (m *Mushroom) IsCompatibleWith(traits string) bool {
+func (p *Mushroom) IsCompatibleWith(traits string) bool {
 	return !strings.ContainsRune(traits, 'U')
 }
 
-func (m *Mushroom) WriteStages(c chan string, tier int, traits string) {
-	m.WriteStage1(c, tier, traits)
-	m.WriteStage2(c, tier, traits)
-	m.WriteStage3(c, tier, traits)
+func (p *Mushroom) WriteStages(c chan string, tier int, traits string) {
+	p.WriteStage1(c, tier, traits)
+	p.WriteStage2(c, tier, traits)
+	p.WriteStage3(c, tier, traits)
 }
 
+// TODO: <property name="UnlockedBy" value="perkLivingOffTheLand,plantedMushroom1Schematic"/>
 func (m *Mushroom) WriteStage1(c chan string, tier int, traits string) {
 	suffix := fmt.Sprintf("T%d%s", tier, traits)
 	c <- fmt.Sprintf(`<block name="plantedMushroom1%s" stage="1" traits="%s">

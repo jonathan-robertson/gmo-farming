@@ -53,8 +53,10 @@ var plants []Plant
 
 func init() {
 	var mush *gen.Mushroom
+	var corn *gen.Corn
 	plants = []Plant{
 		mush,
+		corn,
 	}
 }
 
@@ -194,28 +196,28 @@ func produceBlockModifications(c chan string) {
     </append>`
 
 	// {code: 'E', name: "Explosive", incompatible: []rune{'E'}},
-	// based off of mineCookingPot
+	// based off of mineCookingPot with reduced trigger delay from .5 to .1
+	// TODO: <property name="Material" value="MLandMine" />
 	c <- `    <append xpath="/blocks/block[contains(@traits, 'E') and @stage='3' and not (@traits='EE')]">
         <property name="Class" value="Mine" /> <!-- a mine destroyed by an *explosion* only has a 33 percent chance to detonate -->
         <property name="Tags" value="Mine" />
-        <property name="Material" value="MLandMine" />
         <property name="Collide" value="movement,melee,arrow" />
-        <property name="MaxDamage" value="4" />
-        <property name="TriggerDelay" value="0.5" />
+		<property name="MaxDamage" value="1" /> <!-- reduced from 4 -->
+        <property name="TriggerDelay" value="0.1" /> <!-- reduced from 0.5 -->
         <property name="TriggerSound" value="landmine_trigger" />
         <property name="Explosion.ParticleIndex" value="11" />
         <property name="Explosion.RadiusEntities" value="3" />
         <property name="Explosion.EntityDamage" value="300" /> <!-- damage for entities in the center of the explosion. -->
         <property name="CanPickup" value="false" />
     </append>`
-	// based off of mineHubcap
+	// based off of mineHubcap with reduced trigger delay from .5 to .1
+	// TODO: <property name="Material" value="MLandMine" />
 	c <- `    <append xpath="/blocks/block[contains(@traits, 'EE') and @stage='3']">
         <property name="Class" value="Mine" /> <!-- a mine destroyed by an *explosion* only has a 33 percent chance to detonate -->
         <property name="Tags" value="Mine" />
-        <property name="Material" value="MLandMine" />
         <property name="Collide" value="movement,melee,arrow" />
-        <property name="MaxDamage" value="4" />
-        <property name="TriggerDelay" value="0.5" />
+		<property name="MaxDamage" value="1" /> <!-- reduced from 4 -->
+        <property name="TriggerDelay" value="0.1" /> <!-- reduced from 0.5 -->
         <property name="TriggerSound" value="landmine_trigger" />
         <property name="Explosion.ParticleIndex" value="11" />
         <property name="Explosion.RadiusEntities" value="5" />
