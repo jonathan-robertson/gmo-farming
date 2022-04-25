@@ -59,57 +59,6 @@ func init() {
 }
 
 /*
-func produceBlockModifications(c chan string) {
-	// {code: 'U', name: "Underground", incompatible: []rune{'U', 'S'}},
-	c <- `    <append xpath="/blocks/block[contains(@traits, 'U') and @stage='1']">
-        <property name="PlantGrowing.LightLevelGrow" value="0" />
-        <property name="PlantGrowing.LightLevelStay" value="0" />
-    </append>`
-
-	// {code: 'F', name: "Fast"},
-	c <- `    <append xpath="/blocks/block[contains(@traits, 'F') and @stage='1' and not (@traits='FF')]">
-        <property name="PlantGrowing.GrowthRate" value="31.5" />
-    </append>`
-	c <- `    <append xpath="/blocks/block[@traits='FF' and @stage='1']">
-        <property name="PlantGrowing.GrowthRate" value="15.75" />
-    </append>`
-
-	// {code: 'E', name: "Explosive", incompatible: []rune{'E'}},
-	// based off of mineCookingPot
-	c <- `    <append xpath="/blocks/block[contains(@traits, 'E') and @stage='1' and not (@traits='EE')]">
-        <property name="Class" value="Mine" /> <!-- a mine destroyed by an *explosion* only has a 33 percent chance to detonate -->
-        <property name="Tags" value="Mine" />
-        <property name="Material" value="MLandMine" />
-        <property name="Collide" value="movement,melee,arrow" />
-        <property name="MaxDamage" value="4" />
-        <property name="TriggerDelay" value="0.5" />
-        <property name="TriggerSound" value="landmine_trigger" />
-        <property name="Explosion.ParticleIndex" value="11" />
-        <property name="Explosion.RadiusEntities" value="3" />
-        <property name="Explosion.EntityDamage" value="300" /> <!-- damage for entities in the center of the explosion. -->
-        <property name="CanPickup" value="false" />
-    </append>`
-	// based off of mineHubcap
-	c <- `    <append xpath="/blocks/block[contains(@traits, 'EE') and @stage='3']">
-        <property name="Class" value="Mine" /> <!-- a mine destroyed by an *explosion* only has a 33 percent chance to detonate -->
-        <property name="Tags" value="Mine" />
-        <property name="Material" value="MLandMine" />
-        <property name="Collide" value="movement,melee,arrow" />
-        <property name="MaxDamage" value="4" />
-        <property name="TriggerDelay" value="0.5" />
-        <property name="TriggerSound" value="landmine_trigger" />
-        <property name="Explosion.ParticleIndex" value="11" />
-        <property name="Explosion.RadiusEntities" value="5" />
-        <property name="Explosion.EntityDamage" value="450" /> <!-- damage for entities in the center of the explosion. -->
-        <property name="CanPickup" value="false" />
-    </append>`
-
-	// {code: 'B', name: "Bonus", incompatible: []rune{'B'}},
-	// {code: 'T', name: "Thorny"},
-	// {code: 'S', name: "Sweet", incompatible: []rune{'U'}},
-
-}
-
 // Write all 3 stages to file
 func produceBlocks(c chan string, b gen.Block, tier int, traits string) (err error) {
 	for n, stage := range variantStages {
@@ -229,6 +178,57 @@ func writePlantRecipes() error {
 }
 */
 
+func produceBlockModifications(c chan string) {
+	// {code: 'U', name: "Underground", incompatible: []rune{'U', 'S'}},
+	c <- `    <append xpath="/blocks/block[contains(@traits, 'U') and @stage='1']">
+        <property name="PlantGrowing.LightLevelGrow" value="0" />
+        <property name="PlantGrowing.LightLevelStay" value="0" />
+    </append>`
+
+	// {code: 'F', name: "Fast"},
+	c <- `    <append xpath="/blocks/block[contains(@traits, 'F') and @stage='1' and not (@traits='FF')]">
+        <property name="PlantGrowing.GrowthRate" value="31.5" />
+    </append>`
+	c <- `    <append xpath="/blocks/block[@traits='FF' and @stage='1']">
+        <property name="PlantGrowing.GrowthRate" value="15.75" />
+    </append>`
+
+	// {code: 'E', name: "Explosive", incompatible: []rune{'E'}},
+	// based off of mineCookingPot
+	c <- `    <append xpath="/blocks/block[contains(@traits, 'E') and @stage='3' and not (@traits='EE')]">
+        <property name="Class" value="Mine" /> <!-- a mine destroyed by an *explosion* only has a 33 percent chance to detonate -->
+        <property name="Tags" value="Mine" />
+        <property name="Material" value="MLandMine" />
+        <property name="Collide" value="movement,melee,arrow" />
+        <property name="MaxDamage" value="4" />
+        <property name="TriggerDelay" value="0.5" />
+        <property name="TriggerSound" value="landmine_trigger" />
+        <property name="Explosion.ParticleIndex" value="11" />
+        <property name="Explosion.RadiusEntities" value="3" />
+        <property name="Explosion.EntityDamage" value="300" /> <!-- damage for entities in the center of the explosion. -->
+        <property name="CanPickup" value="false" />
+    </append>`
+	// based off of mineHubcap
+	c <- `    <append xpath="/blocks/block[contains(@traits, 'EE') and @stage='3']">
+        <property name="Class" value="Mine" /> <!-- a mine destroyed by an *explosion* only has a 33 percent chance to detonate -->
+        <property name="Tags" value="Mine" />
+        <property name="Material" value="MLandMine" />
+        <property name="Collide" value="movement,melee,arrow" />
+        <property name="MaxDamage" value="4" />
+        <property name="TriggerDelay" value="0.5" />
+        <property name="TriggerSound" value="landmine_trigger" />
+        <property name="Explosion.ParticleIndex" value="11" />
+        <property name="Explosion.RadiusEntities" value="5" />
+        <property name="Explosion.EntityDamage" value="450" /> <!-- damage for entities in the center of the explosion. -->
+        <property name="CanPickup" value="false" />
+    </append>`
+
+	// {code: 'B', name: "Bonus", incompatible: []rune{'B'}},
+	// {code: 'T', name: "Thorny"},
+	// {code: 'S', name: "Sweet", incompatible: []rune{'U'}},
+
+}
+
 func producePlantBlocks(c chan string) {
 	defer close(c)
 	c <- `<config>`
@@ -254,7 +254,7 @@ func producePlantBlocks(c chan string) {
 		}
 	}
 	c <- `</append>`
-	// TODO: add mods?
+	produceBlockModifications(c)
 	c <- `</config>`
 }
 
