@@ -54,8 +54,8 @@
 	<property name="DescriptionKey" value="plantedMushroom3T2"/>
 	<property name="CustomIcon" value="plantedMushroom3Harvest"/>
 	<property name="CreativeMode" value="None"/>
-	<drop event="Harvest" name="foodCropMushrooms" count="2" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T2" count="1" prob="0.5"/>
 </block>
 <block name="plantedMushroom1T2B">
@@ -112,8 +112,8 @@
 	<property name="DescriptionKey" value="plantedMushroom3T2B"/>
 	<property name="CustomIcon" value="plantedMushroom3Harvest"/>
 	<property name="CreativeMode" value="None"/>
-	<drop event="Harvest" name="foodCropMushrooms" count="2" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" count="6" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="3" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T2B" count="1" prob="0.5"/>
 </block>
 <block name="plantedMushroom1T2U">
@@ -170,8 +170,8 @@
 	<property name="DescriptionKey" value="plantedMushroom3T2U"/>
 	<property name="CustomIcon" value="plantedMushroom3Harvest"/>
 	<property name="CreativeMode" value="None"/>
-	<drop event="Harvest" name="foodCropMushrooms" count="2" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T2U" count="1" prob="0.5"/>
 </block>
 <block name="plantedMushroom1T2F">
@@ -228,8 +228,8 @@
 	<property name="DescriptionKey" value="plantedMushroom3T2F"/>
 	<property name="CustomIcon" value="plantedMushroom3Harvest"/>
 	<property name="CreativeMode" value="None"/>
-	<drop event="Harvest" name="foodCropMushrooms" count="2" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T2F" count="1" prob="0.5"/>
 </block>
 <block name="plantedMushroom1T2E">
@@ -286,8 +286,8 @@
 	<property name="DescriptionKey" value="plantedMushroom3T2E"/>
 	<property name="CustomIcon" value="plantedMushroom3Harvest"/>
 	<property name="CreativeMode" value="None"/>
-	<drop event="Harvest" name="foodCropMushrooms" count="2" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T2E" count="1" prob="0.5"/>
 </block>
 <block name="plantedMushroom1T2R">
@@ -344,8 +344,8 @@
 	<property name="DescriptionKey" value="plantedMushroom3T2R"/>
 	<property name="CustomIcon" value="plantedMushroom3Harvest"/>
 	<property name="CreativeMode" value="None"/>
-	<drop event="Harvest" name="foodCropMushrooms" count="2" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T2R" count="1" prob="0.5"/>
 </block>
 <block name="plantedMushroom1T2T">
@@ -402,8 +402,8 @@
 	<property name="DescriptionKey" value="plantedMushroom3T2T"/>
 	<property name="CustomIcon" value="plantedMushroom3Harvest"/>
 	<property name="CreativeMode" value="None"/>
-	<drop event="Harvest" name="foodCropMushrooms" count="2" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T2T" count="1" prob="0.5"/>
 </block>
 <block name="plantedMushroom1T2S">
@@ -460,8 +460,8 @@
 	<property name="DescriptionKey" value="plantedMushroom3T2S"/>
 	<property name="CustomIcon" value="plantedMushroom3Harvest"/>
 	<property name="CreativeMode" value="None"/>
-	<drop event="Harvest" name="foodCropMushrooms" count="2" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T2S" count="1" prob="0.5"/>
 </block>
 <block name="plantedMushroom1T3">
@@ -518,8 +518,8 @@
 	<property name="DescriptionKey" value="plantedMushroom3T3"/>
 	<property name="CustomIcon" value="plantedMushroom3Harvest"/>
 	<property name="CreativeMode" value="None"/>
-	<drop event="Harvest" name="foodCropMushrooms" count="2" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T3" count="1" prob="0.5"/>
 </block>
 <block name="plantedMushroom1T3BB">
@@ -576,8 +576,8 @@
 	<property name="DescriptionKey" value="plantedMushroom3T3BB"/>
 	<property name="CustomIcon" value="plantedMushroom3Harvest"/>
 	<property name="CreativeMode" value="None"/>
-	<drop event="Harvest" name="foodCropMushrooms" count="2" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" count="16" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="8" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T3BB" count="1" prob="0.5"/>
 </block>
 <block name="plantedMushroom1T3BU">
@@ -634,8 +634,8 @@
 	<property name="DescriptionKey" value="plantedMushroom3T3BU"/>
 	<property name="CustomIcon" value="plantedMushroom3Harvest"/>
 	<property name="CreativeMode" value="None"/>
-	<drop event="Harvest" name="foodCropMushrooms" count="2" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" count="12" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="6" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T3BU" count="1" prob="0.5"/>
 </block>
 <block name="plantedMushroom1T3BF">
@@ -692,8 +692,8 @@
 	<property name="DescriptionKey" value="plantedMushroom3T3BF"/>
 	<property name="CustomIcon" value="plantedMushroom3Harvest"/>
 	<property name="CreativeMode" value="None"/>
-	<drop event="Harvest" name="foodCropMushrooms" count="2" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" count="12" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="6" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T3BF" count="1" prob="0.5"/>
 </block>
 <block name="plantedMushroom1T3BR">
@@ -750,8 +750,8 @@
 	<property name="DescriptionKey" value="plantedMushroom3T3BR"/>
 	<property name="CustomIcon" value="plantedMushroom3Harvest"/>
 	<property name="CreativeMode" value="None"/>
-	<drop event="Harvest" name="foodCropMushrooms" count="2" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" count="12" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="6" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T3BR" count="1" prob="0.5"/>
 </block>
 <block name="plantedMushroom1T3BT">
@@ -808,8 +808,8 @@
 	<property name="DescriptionKey" value="plantedMushroom3T3BT"/>
 	<property name="CustomIcon" value="plantedMushroom3Harvest"/>
 	<property name="CreativeMode" value="None"/>
-	<drop event="Harvest" name="foodCropMushrooms" count="2" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" count="12" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="6" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T3BT" count="1" prob="0.5"/>
 </block>
 <block name="plantedMushroom1T3BS">
@@ -866,8 +866,8 @@
 	<property name="DescriptionKey" value="plantedMushroom3T3BS"/>
 	<property name="CustomIcon" value="plantedMushroom3Harvest"/>
 	<property name="CreativeMode" value="None"/>
-	<drop event="Harvest" name="foodCropMushrooms" count="2" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" count="12" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="6" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T3BS" count="1" prob="0.5"/>
 </block>
 <block name="plantedMushroom1T3UF">
@@ -924,8 +924,8 @@
 	<property name="DescriptionKey" value="plantedMushroom3T3UF"/>
 	<property name="CustomIcon" value="plantedMushroom3Harvest"/>
 	<property name="CreativeMode" value="None"/>
-	<drop event="Harvest" name="foodCropMushrooms" count="2" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T3UF" count="1" prob="0.5"/>
 </block>
 <block name="plantedMushroom1T3UE">
@@ -982,8 +982,8 @@
 	<property name="DescriptionKey" value="plantedMushroom3T3UE"/>
 	<property name="CustomIcon" value="plantedMushroom3Harvest"/>
 	<property name="CreativeMode" value="None"/>
-	<drop event="Harvest" name="foodCropMushrooms" count="2" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T3UE" count="1" prob="0.5"/>
 </block>
 <block name="plantedMushroom1T3UR">
@@ -1040,8 +1040,8 @@
 	<property name="DescriptionKey" value="plantedMushroom3T3UR"/>
 	<property name="CustomIcon" value="plantedMushroom3Harvest"/>
 	<property name="CreativeMode" value="None"/>
-	<drop event="Harvest" name="foodCropMushrooms" count="2" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T3UR" count="1" prob="0.5"/>
 </block>
 <block name="plantedMushroom1T3UT">
@@ -1098,8 +1098,8 @@
 	<property name="DescriptionKey" value="plantedMushroom3T3UT"/>
 	<property name="CustomIcon" value="plantedMushroom3Harvest"/>
 	<property name="CreativeMode" value="None"/>
-	<drop event="Harvest" name="foodCropMushrooms" count="2" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T3UT" count="1" prob="0.5"/>
 </block>
 <block name="plantedMushroom1T3FF">
@@ -1156,8 +1156,8 @@
 	<property name="DescriptionKey" value="plantedMushroom3T3FF"/>
 	<property name="CustomIcon" value="plantedMushroom3Harvest"/>
 	<property name="CreativeMode" value="None"/>
-	<drop event="Harvest" name="foodCropMushrooms" count="2" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T3FF" count="1" prob="0.5"/>
 </block>
 <block name="plantedMushroom1T3FE">
@@ -1214,8 +1214,8 @@
 	<property name="DescriptionKey" value="plantedMushroom3T3FE"/>
 	<property name="CustomIcon" value="plantedMushroom3Harvest"/>
 	<property name="CreativeMode" value="None"/>
-	<drop event="Harvest" name="foodCropMushrooms" count="2" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T3FE" count="1" prob="0.5"/>
 </block>
 <block name="plantedMushroom1T3FR">
@@ -1272,8 +1272,8 @@
 	<property name="DescriptionKey" value="plantedMushroom3T3FR"/>
 	<property name="CustomIcon" value="plantedMushroom3Harvest"/>
 	<property name="CreativeMode" value="None"/>
-	<drop event="Harvest" name="foodCropMushrooms" count="2" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T3FR" count="1" prob="0.5"/>
 </block>
 <block name="plantedMushroom1T3FT">
@@ -1330,8 +1330,8 @@
 	<property name="DescriptionKey" value="plantedMushroom3T3FT"/>
 	<property name="CustomIcon" value="plantedMushroom3Harvest"/>
 	<property name="CreativeMode" value="None"/>
-	<drop event="Harvest" name="foodCropMushrooms" count="2" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T3FT" count="1" prob="0.5"/>
 </block>
 <block name="plantedMushroom1T3FS">
@@ -1388,8 +1388,8 @@
 	<property name="DescriptionKey" value="plantedMushroom3T3FS"/>
 	<property name="CustomIcon" value="plantedMushroom3Harvest"/>
 	<property name="CreativeMode" value="None"/>
-	<drop event="Harvest" name="foodCropMushrooms" count="2" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T3FS" count="1" prob="0.5"/>
 </block>
 <block name="plantedMushroom1T3EE">
@@ -1446,8 +1446,8 @@
 	<property name="DescriptionKey" value="plantedMushroom3T3EE"/>
 	<property name="CustomIcon" value="plantedMushroom3Harvest"/>
 	<property name="CreativeMode" value="None"/>
-	<drop event="Harvest" name="foodCropMushrooms" count="2" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T3EE" count="1" prob="0.5"/>
 </block>
 <block name="plantedMushroom1T3ER">
@@ -1504,8 +1504,8 @@
 	<property name="DescriptionKey" value="plantedMushroom3T3ER"/>
 	<property name="CustomIcon" value="plantedMushroom3Harvest"/>
 	<property name="CreativeMode" value="None"/>
-	<drop event="Harvest" name="foodCropMushrooms" count="2" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T3ER" count="1" prob="0.5"/>
 </block>
 <block name="plantedMushroom1T3ET">
@@ -1562,8 +1562,8 @@
 	<property name="DescriptionKey" value="plantedMushroom3T3ET"/>
 	<property name="CustomIcon" value="plantedMushroom3Harvest"/>
 	<property name="CreativeMode" value="None"/>
-	<drop event="Harvest" name="foodCropMushrooms" count="2" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T3ET" count="1" prob="0.5"/>
 </block>
 <block name="plantedMushroom1T3ES">
@@ -1620,8 +1620,8 @@
 	<property name="DescriptionKey" value="plantedMushroom3T3ES"/>
 	<property name="CustomIcon" value="plantedMushroom3Harvest"/>
 	<property name="CreativeMode" value="None"/>
-	<drop event="Harvest" name="foodCropMushrooms" count="2" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T3ES" count="1" prob="0.5"/>
 </block>
 <block name="plantedMushroom1T3RT">
@@ -1678,8 +1678,8 @@
 	<property name="DescriptionKey" value="plantedMushroom3T3RT"/>
 	<property name="CustomIcon" value="plantedMushroom3Harvest"/>
 	<property name="CreativeMode" value="None"/>
-	<drop event="Harvest" name="foodCropMushrooms" count="2" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T3RT" count="1" prob="0.5"/>
 </block>
 <block name="plantedMushroom1T3RS">
@@ -1736,8 +1736,8 @@
 	<property name="DescriptionKey" value="plantedMushroom3T3RS"/>
 	<property name="CustomIcon" value="plantedMushroom3Harvest"/>
 	<property name="CreativeMode" value="None"/>
-	<drop event="Harvest" name="foodCropMushrooms" count="2" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T3RS" count="1" prob="0.5"/>
 </block>
 <block name="plantedMushroom1T3TT">
@@ -1794,8 +1794,8 @@
 	<property name="DescriptionKey" value="plantedMushroom3T3TT"/>
 	<property name="CustomIcon" value="plantedMushroom3Harvest"/>
 	<property name="CreativeMode" value="None"/>
-	<drop event="Harvest" name="foodCropMushrooms" count="2" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T3TT" count="1" prob="0.5"/>
 </block>
 <block name="plantedMushroom1T3TS">
@@ -1852,8 +1852,8 @@
 	<property name="DescriptionKey" value="plantedMushroom3T3TS"/>
 	<property name="CustomIcon" value="plantedMushroom3Harvest"/>
 	<property name="CreativeMode" value="None"/>
-	<drop event="Harvest" name="foodCropMushrooms" count="2" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T3TS" count="1" prob="0.5"/>
 </block>
 <block name="plantedMushroom1T3SS">
@@ -1910,8 +1910,8 @@
 	<property name="DescriptionKey" value="plantedMushroom3T3SS"/>
 	<property name="CustomIcon" value="plantedMushroom3Harvest"/>
 	<property name="CreativeMode" value="None"/>
-	<drop event="Harvest" name="foodCropMushrooms" count="2" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1T3SS" count="1" prob="0.5"/>
 </block>
 </append>
