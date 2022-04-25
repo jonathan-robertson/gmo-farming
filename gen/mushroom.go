@@ -2,13 +2,27 @@ package gen
 
 import (
 	"fmt"
+	"strings"
 )
 
 // TODO: suffix := fmt.Sprintf("T%d%s", tier, traits)
 // TODO: <property name="UnlockedBy" value="perkLivingOffTheLand,plantedMushroom1Schematic"/>
 
-func GetMushroomStage1(suffix string) string {
-	return fmt.Sprintf(`<block name="plantedMushroom1%s">
+type Mushroom struct{}
+
+func (m *Mushroom) IsCompatibleWith(traits string) bool {
+	return !strings.ContainsRune(traits, 'U')
+}
+
+func (m *Mushroom) WriteStages(c chan string, tier int, traits string) {
+	suffix := fmt.Sprintf("T%d%s", tier, traits)
+	m.WriteStage1(c, suffix)
+	m.WriteStage2(c, suffix)
+	m.WriteStage3(c, suffix)
+}
+
+func (m *Mushroom) WriteStage1(c chan string, suffix string) {
+	c <- fmt.Sprintf(`<block name="plantedMushroom1%s">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -34,8 +48,8 @@ func GetMushroomStage1(suffix string) string {
 </block>`, suffix, suffix, suffix)
 }
 
-func GetMushroomStage2(suffix string) string {
-	return fmt.Sprintf(`<block name="plantedMushroom2%s">
+func (m *Mushroom) WriteStage2(c chan string, suffix string) {
+	c <- fmt.Sprintf(`<block name="plantedMushroom2%s">
 	<property name="Extends" value="plantedMushroom1%s"/>
 	<property name="CustomIcon" value="plantedMushroom1"/>
 	<property name="CreativeMode" value="None"/>
@@ -45,8 +59,8 @@ func GetMushroomStage2(suffix string) string {
 </block>`, suffix, suffix, suffix)
 }
 
-func GetMushroomStage3(suffix string) string {
-	return fmt.Sprintf(`<block name="plantedMushroom3%s">
+func (m *Mushroom) WriteStage3(c chan string, suffix string) {
+	c <- fmt.Sprintf(`<block name="plantedMushroom3%s">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="DisplayInfo" value="Description"/>

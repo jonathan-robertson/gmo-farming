@@ -4,19 +4,21 @@ import (
 	"fmt"
 	"os"
 	"strings"
+
+	"gen"
 )
 
-type plant struct {
-	name string
-	crop string
+type Plant interface {
+	IsCompatibleWith(string) bool
+	WriteStages(chan string, int, string)
 }
+
 type variant struct {
 	code         rune
 	name         string
 	incompatible []rune
 }
 
-var plants []plant
 var vanillaStages []string = []string{
 	"1",
 	"2",
@@ -28,7 +30,15 @@ var variantStages []string = []string{
 	"2",
 	"3",
 }
-var variants []variant
+var variants []variant = []variant{
+	{code: 'B', name: "Bonus", incompatible: []rune{'E'}},
+	{code: 'U', name: "Underground", incompatible: []rune{'U', 'S'}},
+	{code: 'F', name: "Fast"},
+	{code: 'E', name: "Explosive", incompatible: []rune{'B'}},
+	{code: 'R', name: "Renewable", incompatible: []rune{'R'}},
+	{code: 'T', name: "Thorny"},
+	{code: 'S', name: "Sweet", incompatible: []rune{'U'}},
+}
 
 func (v *variant) isCompatibleWith(v2 variant) bool {
 	for _, r := range v2.incompatible {
@@ -37,37 +47,6 @@ func (v *variant) isCompatibleWith(v2 variant) bool {
 		}
 	}
 	return true
-}
-
-func init() {
-	names := []string{
-		"Mushroom",
-		"Yucca",
-		"Cotton",
-		"Coffee",
-		"Goldenrod",
-		"Aloe",
-		"Blueberry",
-		"Potato",
-		"Chrysanthemum",
-		"Corn",
-		"GraceCorn",
-		"Hop",
-		"Pumpkin",
-	}
-	for _, name := range names {
-		plants = append(plants, plant{name: "planted" + name, crop: "foodCrop" + name})
-	}
-
-	variants = []variant{
-		{code: 'B', name: "Bonus", incompatible: []rune{'E'}},
-		{code: 'U', name: "Underground", incompatible: []rune{'U', 'S'}},
-		{code: 'F', name: "Fast"},
-		{code: 'E', name: "Explosive", incompatible: []rune{'B'}},
-		{code: 'R', name: "Renewable", incompatible: []rune{'R'}},
-		{code: 'T', name: "Thorny"},
-		{code: 'S', name: "Sweet", incompatible: []rune{'U'}},
-	}
 }
 
 func produceBlockModifications(c chan string) {
@@ -122,26 +101,26 @@ func produceBlockModifications(c chan string) {
 }
 
 // Write all 3 stages to file
-func produceBlocks(c chan string, p plant, tier int, traits string) (err error) {
+func produceBlocks(c chan string, b gen.Block, tier int, traits string) (err error) {
 	for n, stage := range variantStages {
-		c <- fmt.Sprintf(`        <block name="%s%sT%d%s" stage="%s" traits="%s">`, p.name, stage, tier, traits, stage, traits)
+		c <- fmt.Sprintf(`        <block name="%s%sT%d%s" stage="%s" traits="%s">`, b.name, stage, tier, traits, stage, traits)
 		switch stage {
 		case "1":
-			c <- fmt.Sprintf(`            <property name="Extends" value="%s%s" />`, p.name, vanillaStages[n])
-			c <- fmt.Sprintf(`            <property name="CustomIcon" value="%s%s" />`, p.name, vanillaStages[n])
-			c <- fmt.Sprintf(`            <property name="PlantGrowing.Next" value="%s%sT%d%s" />`, p.name, variantStages[n+1], tier, traits)
-			c <- fmt.Sprintf(`            <drop event="Destroy" name="%s%sT%d%s" count="1" />`, p.name, stage, tier, traits)
+			c <- fmt.Sprintf(`            <property name="Extends" value="%s%s" />`, b.name, vanillaStages[n])
+			c <- fmt.Sprintf(`            <property name="CustomIcon" value="%s%s" />`, b.name, vanillaStages[n])
+			c <- fmt.Sprintf(`            <property name="PlantGrowing.Next" value="%s%sT%d%s" />`, b.name, variantStages[n+1], tier, traits)
+			c <- fmt.Sprintf(`            <drop event="Destroy" name="%s%sT%d%s" count="1" />`, b.name, stage, tier, traits)
 		case "2":
-			c <- fmt.Sprintf(`            <property name="Extends" value="%s1T%d%s" />`, p.name, tier, traits)
-			c <- fmt.Sprintf(`            <property name="PlantGrowing.Next" value="%s%sT%d%s" />`, p.name, variantStages[n+1], tier, traits)
-			c <- fmt.Sprintf(`            <drop event="Destroy" name="%s1T%d%s" count="1" />`, p.name, tier, traits)
+			c <- fmt.Sprintf(`            <property name="Extends" value="%s1T%d%s" />`, b.name, tier, traits)
+			c <- fmt.Sprintf(`            <property name="PlantGrowing.Next" value="%s%sT%d%s" />`, b.name, variantStages[n+1], tier, traits)
+			c <- fmt.Sprintf(`            <drop event="Destroy" name="%s1T%d%s" count="1" />`, b.name, tier, traits)
 		case "3":
-			c <- fmt.Sprintf(`            <property name="Extends" value="%s%s" />`, p.name, vanillaStages[n])
-			c <- fmt.Sprintf(`            <drop event="Harvest" name="%s" count="4" tag="cropHarvest" />`, p.crop)
-			c <- fmt.Sprintf(`            <drop event="Harvest" name="%s" prob="0.5" count="2" tag="bonusCropHarvest" />`, p.crop)
-			c <- fmt.Sprintf(`            <drop event="Destroy" name="%s1T%d%s" count="1" prob="0.5" />`, p.name, tier, traits)
+			c <- fmt.Sprintf(`            <property name="Extends" value="%s%s" />`, b.name, vanillaStages[n])
+			c <- fmt.Sprintf(`            <drop event="Harvest" name="%s" count="4" tag="cropHarvest" />`, b.crop)
+			c <- fmt.Sprintf(`            <drop event="Harvest" name="%s" prob="0.5" count="2" tag="bonusCropHarvest" />`, b.crop)
+			c <- fmt.Sprintf(`            <drop event="Destroy" name="%s1T%d%s" count="1" prob="0.5" />`, b.name, tier, traits)
 			if strings.ContainsRune(traits, 'R') {
-				c <- fmt.Sprintf(`            <property name="DowngradeBlock" value="%s1T%d%s" />`, p.name, tier, traits)
+				c <- fmt.Sprintf(`            <property name="DowngradeBlock" value="%s1T%d%s" />`, b.name, tier, traits)
 			}
 		}
 		c <- "        </block>"
