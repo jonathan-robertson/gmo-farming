@@ -71,37 +71,26 @@ func init() {
 }
 
 // Write all 3 stages to file
-func produceBlock(c chan string, p plant, tier int, traits ...rune) (err error) {
+func produceBlocks(c chan string, p plant, tier int, traits string) (err error) {
 	for n, stage := range variantStages {
-		var traitTag string
-		switch len(traits) {
-		case 0:
-			traitTag = ""
-		case 1:
-			traitTag = fmt.Sprintf("%c", traits[0])
-		case 2:
-			traitTag = fmt.Sprintf("%c%c", traits[0], traits[1])
-		default:
-			return fmt.Errorf("received too many traits")
-		}
-		c <- fmt.Sprintf(`        <block name="%s%sT%d%s" stage="%s" traits="%s">`, p.name, stage, tier, traitTag, stage, traitTag)
+		c <- fmt.Sprintf(`        <block name="%s%sT%d%s" stage="%s" traits="%s">`, p.name, stage, tier, traits, stage, traits)
 		switch stage {
 		case "1":
 			c <- fmt.Sprintf(`            <property name="Extends" value="%s%s" />`, p.name, vanillaStages[n])
 			c <- fmt.Sprintf(`            <property name="CustomIcon" value="%s%s" />`, p.name, vanillaStages[n])
-			c <- fmt.Sprintf(`            <property name="PlantGrowing.Next" value="%s%sT%d%s" />`, p.name, variantStages[n+1], tier, traitTag)
-			c <- fmt.Sprintf(`            <drop event="Destroy" name="%s%sT%d%s" count="1" />`, p.name, stage, tier, traitTag)
+			c <- fmt.Sprintf(`            <property name="PlantGrowing.Next" value="%s%sT%d%s" />`, p.name, variantStages[n+1], tier, traits)
+			c <- fmt.Sprintf(`            <drop event="Destroy" name="%s%sT%d%s" count="1" />`, p.name, stage, tier, traits)
 		case "2":
-			c <- fmt.Sprintf(`            <property name="Extends" value="%s1T%d%s" />`, p.name, tier, traitTag)
-			c <- fmt.Sprintf(`            <property name="PlantGrowing.Next" value="%s%sT%d%s" />`, p.name, variantStages[n+1], tier, traitTag)
-			c <- fmt.Sprintf(`            <drop event="Destroy" name="%s%sT%d%s" count="1" />`, p.name, stage, tier, traitTag)
+			c <- fmt.Sprintf(`            <property name="Extends" value="%s1T%d%s" />`, p.name, tier, traits)
+			c <- fmt.Sprintf(`            <property name="PlantGrowing.Next" value="%s%sT%d%s" />`, p.name, variantStages[n+1], tier, traits)
+			c <- fmt.Sprintf(`            <drop event="Destroy" name="%s%sT%d%s" count="1" />`, p.name, stage, tier, traits)
 		case "3":
 			c <- fmt.Sprintf(`            <property name="Extends" value="%s%s" />`, p.name, vanillaStages[n])
 			c <- fmt.Sprintf(`            <drop event="Harvest" name="%s" count="4" tag="cropHarvest" />`, p.crop)
 			c <- fmt.Sprintf(`            <drop event="Harvest" name="%s" prob="0.5" count="2" tag="bonusCropHarvest" />`, p.crop)
-			c <- fmt.Sprintf(`            <drop event="Destroy" name="%s1T%d%s" count="1" prob="0.5" />`, p.name, tier, traitTag)
-			if strings.ContainsRune(traitTag, 'R') {
-				c <- fmt.Sprintf(`            <property name="DowngradeBlock" value="%s1T%d%s" />`, p.name, tier, traitTag)
+			c <- fmt.Sprintf(`            <drop event="Destroy" name="%s1T%d%s" count="1" prob="0.5" />`, p.name, tier, traits)
+			if strings.ContainsRune(traits, 'R') {
+				c <- fmt.Sprintf(`            <property name="DowngradeBlock" value="%s1T%d%s" />`, p.name, tier, traits)
 			}
 		}
 		c <- "        </block>"
@@ -160,18 +149,29 @@ func produceModifications(c chan string) {
 
 }
 
-func produceBlocks(c chan string) {
+func produceVariant(c chan string, p plant, tier int, traits string) (err error) {
+	if err := produceBlocks(c, p, tier, traits); err != nil {
+		return err
+	}
+	// TODO: produce recipe
+	// TODO: produce localization
+	return nil
+}
+
+func produceVariants(c chan string) {
 	defer close(c)
 	c <- "<config>\n    <append xpath=\"/blocks\">"
 	for _, plant := range plants {
 		for _, tier := range []int{2, 3} {
-			produceBlock(c, plant, tier)
+			produceVariant(c, plant, tier, "")
 			for i1 := 0; i1 < len(variants); i1++ {
-				produceBlock(c, plant, tier, variants[i1].code)
+				traits := fmt.Sprintf("%c", variants[i1].code)
+				produceVariant(c, plant, tier, traits)
 				if tier == 3 {
 					for i2 := i1; i2 < len(variants); i2++ {
 						if variants[i1].isCompatibleWith(variants[i2]) {
-							produceBlock(c, plant, tier, variants[i1].code, variants[i2].code)
+							traits = fmt.Sprintf("%s%c", traits, variants[i2].code)
+							produceVariant(c, plant, tier, traits)
 						}
 					}
 				}
@@ -195,7 +195,7 @@ func writeBlocks() error {
 	}
 	defer file.Close()
 	c := make(chan string, 10)
-	go produceBlocks(c)
+	go produceVariants(c)
 	for line := range c {
 		if _, err = file.WriteString(line + "\n"); err != nil {
 			return err
