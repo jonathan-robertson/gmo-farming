@@ -23,18 +23,21 @@ func (*Mushroom) IsCompatibleWith(traits string) bool {
 	return !strings.ContainsRune(traits, 'U')
 }
 
-func (mushroom *Mushroom) WriteRecipe(c chan string, tier int, traits string) {
-	suffix := fmt.Sprintf("T%d%s", tier, traits)
+func (mushroom *Mushroom) WriteLocalization(c chan string, tier int, traits string) {
+	// TODO
+}
 
-	c <- fmt.Sprintf(`<recipe name="plantedMushroom1%s" count="1" craft_time="%d" tags="learnable">`,
-		suffix,
-		calculateCraftTime(mushroom.CraftTime, tier, traits))
-	c <- `<ingredient name="plantedMushroom1" count="1"/>`
-	// TODO:
-	// <ingredient name="foodCropMushrooms" count="5"/>
-	// <ingredient name="resourceClayLump" count="2"/>
-
-	c <- `</recipe>`
+// TODO: still need to call this and dump mods for extra recipe ingredients
+func (mushroom *Mushroom) WriteRecipeStubs(c chan string, tier int, traits string) {
+	c <- fmt.Sprintf(`<recipe name="plantedMushroom1T%d%s" count="1" craft_time="%d" tier="%d" traits="%s" tags="learnable">
+    <ingredient name="plantedMushroom1T%d" count="1"/>
+</recipe>`,
+		tier,
+		traits,
+		calculateCraftTime(mushroom.CraftTime, tier, traits),
+		tier,
+		traits,
+		tier-1)
 }
 
 func (mushroom *Mushroom) WriteStages(c chan string, tier int, traits string) {
