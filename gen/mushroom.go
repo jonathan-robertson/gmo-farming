@@ -5,21 +5,47 @@ import (
 	"strings"
 )
 
-type Mushroom struct{}
+type Mushroom struct {
+	CropYield  int
+	BonusYield int
+	CraftTime  int
+}
 
-func (p *Mushroom) IsCompatibleWith(traits string) bool {
+func CreateMushroom() *Mushroom {
+	return &Mushroom{
+		CropYield:  2,
+		BonusYield: 1,
+		CraftTime:  2,
+	}
+}
+
+func (*Mushroom) IsCompatibleWith(traits string) bool {
 	return !strings.ContainsRune(traits, 'U')
 }
 
-func (p *Mushroom) WriteStages(c chan string, tier int, traits string) {
-	p.WriteStage1(c, tier, traits)
-	p.WriteStage2(c, tier, traits)
-	p.WriteStage3(c, tier, traits)
+func (mushroom *Mushroom) WriteRecipe(c chan string, tier int, traits string) {
+	suffix := fmt.Sprintf("T%d%s", tier, traits)
+
+	c <- fmt.Sprintf(`<recipe name="plantedMushroom1%s" count="1" craft_time="%d" tags="learnable">`,
+		suffix,
+		calculateCraftTime(mushroom.CraftTime, tier, traits))
+	c <- `<ingredient name="plantedMushroom1" count="1"/>`
+	// TODO:
+	// <ingredient name="foodCropMushrooms" count="5"/>
+	// <ingredient name="resourceClayLump" count="2"/>
+
+	c <- `</recipe>`
+}
+
+func (mushroom *Mushroom) WriteStages(c chan string, tier int, traits string) {
+	suffix := fmt.Sprintf("T%d%s", tier, traits)
+	mushroom.WriteStage1(c, tier, traits, suffix)
+	mushroom.WriteStage2(c, tier, traits, suffix)
+	mushroom.WriteStage3(c, tier, traits, suffix)
 }
 
 // TODO: <property name="UnlockedBy" value="perkLivingOffTheLand,plantedMushroom1Schematic"/>
-func (m *Mushroom) WriteStage1(c chan string, tier int, traits string) {
-	suffix := fmt.Sprintf("T%d%s", tier, traits)
+func (*Mushroom) WriteStage1(c chan string, tier int, traits, suffix string) {
 	c <- fmt.Sprintf(`<block name="plantedMushroom1%s" stage="1" traits="%s">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
 	<property name="CreativeMode" value="Player"/>
@@ -45,12 +71,14 @@ func (m *Mushroom) WriteStage1(c chan string, tier int, traits string) {
 	<property name="PickupJournalEntry" value="farmingTip"/>
 
 	<property name="CustomIcon" value="plantedMushroom1"/>
-</block>`, suffix, traits, suffix, suffix)
+</block>`,
+		suffix,
+		traits,
+		suffix,
+		suffix)
 }
 
-func (m *Mushroom) WriteStage2(c chan string, tier int, traits string) {
-	suffix := fmt.Sprintf("T%d%s", tier, traits)
-
+func (*Mushroom) WriteStage2(c chan string, tier int, traits, suffix string) {
 	c <- fmt.Sprintf(`<block name="plantedMushroom2%s" stage="2" traits="%s">
 	<property name="Extends" value="plantedMushroom1%s"/>
 	
@@ -61,36 +89,7 @@ func (m *Mushroom) WriteStage2(c chan string, tier int, traits string) {
 	// TODO: <property name="CreativeMode" value="None"/>
 }
 
-func (m *Mushroom) WriteStage3(c chan string, tier int, traits string) {
-	suffix := fmt.Sprintf("T%d%s", tier, traits)
-
-	// Apply tier bonus to yield
-	yield := 2
-	bonusYield := 1
-	switch tier {
-	case 2:
-		yield *= 2
-		bonusYield *= 2
-	case 3:
-		yield *= 4
-		bonusYield *= 4
-	}
-
-	// Apply Bonus trait to yield
-	if strings.Contains(traits, "BB") {
-		yield *= 2
-		bonusYield *= 2
-	} else if strings.Contains(traits, "B") {
-		yield = int(float64(yield) * 1.5)
-		bonusYield = int(float64(bonusYield) * 1.5)
-	}
-
-	// Apply Renewable Trait
-	var renewableLine string
-	if strings.Contains(traits, "R") {
-		renewableLine = fmt.Sprintf(`<property name="DowngradeBlock" value="plantedMushroom1%s" />`, suffix)
-	}
-
+func (mushroom *Mushroom) WriteStage3(c chan string, tier int, traits, suffix string) {
 	c <- fmt.Sprintf(`<block name="plantedMushroom3%s" stage="3" traits="%s">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -117,6 +116,13 @@ func (m *Mushroom) WriteStage3(c chan string, tier int, traits string) {
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="%d" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedMushroom1%s" count="1" prob="0.5"/>
 	%s
-</block>`, suffix, traits, suffix, yield, bonusYield, suffix, renewableLine)
+</block>`,
+		suffix,
+		traits,
+		suffix,
+		calculateCropYield(mushroom.CropYield, tier, traits),
+		calculateBonusYield(mushroom.BonusYield, tier, traits),
+		suffix,
+		optionallyAddRenewable(traits, "plantedMushroom1", suffix))
 	// TODO: <property name="CreativeMode" value="None"/>
 }

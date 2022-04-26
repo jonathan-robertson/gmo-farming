@@ -44,22 +44,6 @@ func (v *variant) isCompatibleWith(v2 variant) bool {
 	return true
 }
 
-type Plant interface {
-	IsCompatibleWith(string) bool
-	WriteStages(chan string, int, string)
-}
-
-var plants []Plant
-
-func init() {
-	var mush *gen.Mushroom
-	var corn *gen.Corn
-	plants = []Plant{
-		mush,
-		corn,
-	}
-}
-
 /*
 // Write all 3 stages to file
 func produceBlocks(c chan string, b gen.Block, tier int, traits string) (err error) {
@@ -236,7 +220,7 @@ func producePlantBlocks(c chan string) {
 	defer close(c)
 	c <- `<config>`
 	c <- `<append xpath="/blocks">`
-	for _, plant := range plants {
+	for _, plant := range gen.Plants {
 		for _, tier := range []int{2, 3} {
 			// produce T2, T3 with no traits
 			plant.WriteStages(c, tier, "")

@@ -2,24 +2,33 @@ package gen
 
 import (
 	"fmt"
-	"strings"
 )
 
-type Corn struct{}
+type Corn struct {
+	CropYield  int
+	BonusYield int
+}
 
-func (p *Corn) IsCompatibleWith(traits string) bool {
+func CreateCorn() *Corn {
+	return &Corn{
+		CropYield:  2,
+		BonusYield: 1,
+	}
+}
+
+func (*Corn) IsCompatibleWith(traits string) bool {
 	return true
 }
 
-func (p *Corn) WriteStages(c chan string, tier int, traits string) {
-	p.WriteStage1(c, tier, traits)
-	p.WriteStage2(c, tier, traits)
-	p.WriteStage3(c, tier, traits)
+func (corn *Corn) WriteStages(c chan string, tier int, traits string) {
+	suffix := calculateStandardNameSuffix(tier, traits)
+	corn.WriteStage1(c, tier, traits, suffix)
+	corn.WriteStage2(c, tier, traits, suffix)
+	corn.WriteStage3(c, tier, traits, suffix)
 }
 
 // TODO: <property name="UnlockedBy" value="perkLivingOffTheLand,plantedCorn1Schematic"/>
-func (p *Corn) WriteStage1(c chan string, tier int, traits string) {
-	suffix := fmt.Sprintf("T%d%s", tier, traits)
+func (*Corn) WriteStage1(c chan string, tier int, traits, suffix string) {
 	c <- fmt.Sprintf(`<block name="plantedCorn1%s" stage="1" traits="%s">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="CreativeMode" value="Player"/>
@@ -37,11 +46,14 @@ func (p *Corn) WriteStage1(c chan string, tier int, traits string) {
 	<drop event="Destroy" name="plantedCorn1%s" count="1"/>
 	
 	<property name="CustomIcon" value="plantedCorn1"/>
-</block>`, suffix, traits, suffix, suffix)
+</block>`,
+		suffix,
+		traits,
+		suffix,
+		suffix)
 }
 
-func (p *Corn) WriteStage2(c chan string, tier int, traits string) {
-	suffix := fmt.Sprintf("T%d%s", tier, traits)
+func (*Corn) WriteStage2(c chan string, tier int, traits, suffix string) {
 	c <- fmt.Sprintf(`<block name="plantedCorn2%s" stage="2" traits="%s">
 	<property name="Extends" value="plantedCorn1%s"/>
 	
@@ -52,40 +64,15 @@ func (p *Corn) WriteStage2(c chan string, tier int, traits string) {
 	<property name="Texture" value="529"/>
 	<property name="PlantGrowing.Next" value="plantedCorn3HarvestPlayer"/>
 	<drop event="Destroy" name="plantedCorn1%s" count="1"/>
-</block>`, suffix, traits, suffix, suffix)
+</block>`,
+		suffix,
+		traits,
+		suffix,
+		suffix)
 	// TODO: <property name="CreativeMode" value="None"/>
 }
 
-func (p *Corn) WriteStage3(c chan string, tier int, traits string) {
-	suffix := fmt.Sprintf("T%d%s", tier, traits)
-
-	// Apply tier bonus to yield
-	yield := 2
-	bonusYield := 1
-	switch tier {
-	case 2:
-		yield *= 2
-		bonusYield *= 2
-	case 3:
-		yield *= 4
-		bonusYield *= 4
-	}
-
-	// Apply Bonus trait to yield
-	if strings.Contains(traits, "BB") {
-		yield *= 2
-		bonusYield *= 2
-	} else if strings.Contains(traits, "B") {
-		yield = int(float64(yield) * 1.5)
-		bonusYield = int(float64(bonusYield) * 1.5)
-	}
-
-	// Apply Renewable Trait
-	var renewableLine string
-	if strings.Contains(traits, "R") {
-		renewableLine = fmt.Sprintf(`<property name="DowngradeBlock" value="plantedCorn1%s" />`, suffix)
-	}
-
+func (corn *Corn) WriteStage3(c chan string, tier int, traits, suffix string) {
 	c <- fmt.Sprintf(`<block name="plantedCorn3%s" stage="3" traits="%s">
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
@@ -117,6 +104,13 @@ func (p *Corn) WriteStage3(c chan string, tier int, traits string) {
 	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="%d" tag="bonusCropHarvest"/>
 	<drop event="Destroy" name="plantedCorn1%s" count="1" prob="0.5"/>
 	%s
-</block>`, suffix, traits, suffix, yield, bonusYield, suffix, renewableLine)
+</block>`,
+		suffix,
+		traits,
+		suffix,
+		calculateCropYield(corn.CropYield, tier, traits),
+		calculateBonusYield(corn.BonusYield, tier, traits),
+		suffix,
+		optionallyAddRenewable(traits, "plantedCorn1", suffix))
 	// TODO: <property name="CreativeMode" value="None"/>
 }
