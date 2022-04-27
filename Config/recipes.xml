@@ -1,0 +1,236 @@
+<config>
+<append xpath="/recipes">
+<recipe name="plantedMushroom1T2" count="1" craft_time="200" tier="2" traits="">
+    <ingredient name="plantedMushroom1" count="1"/>
+</recipe>
+<recipe name="plantedMushroom1T2B" count="1" craft_time="2" tier="2" traits="B">
+    <ingredient name="plantedMushroom1T2" count="1"/>
+</recipe>
+<recipe name="plantedMushroom1T2F" count="1" craft_time="2" tier="2" traits="F">
+    <ingredient name="plantedMushroom1T2" count="1"/>
+</recipe>
+<recipe name="plantedMushroom1T2E" count="1" craft_time="2" tier="2" traits="E">
+    <ingredient name="plantedMushroom1T2" count="1"/>
+</recipe>
+<recipe name="plantedMushroom1T2R" count="1" craft_time="2" tier="2" traits="R">
+    <ingredient name="plantedMushroom1T2" count="1"/>
+</recipe>
+<recipe name="plantedMushroom1T2T" count="1" craft_time="2" tier="2" traits="T">
+    <ingredient name="plantedMushroom1T2" count="1"/>
+</recipe>
+<recipe name="plantedMushroom1T2S" count="1" craft_time="2" tier="2" traits="S">
+    <ingredient name="plantedMushroom1T2" count="1"/>
+</recipe>
+<recipe name="plantedMushroom1T3" count="1" craft_time="200" tier="3" traits="">
+    <ingredient name="plantedMushroom1T2" count="1"/>
+</recipe>
+<recipe name="plantedMushroom1T3BB" count="1" craft_time="2" tier="3" traits="BB">
+    <ingredient name="plantedMushroom1T3" count="1"/>
+</recipe>
+<recipe name="plantedMushroom1T3BF" count="1" craft_time="2" tier="3" traits="BF">
+    <ingredient name="plantedMushroom1T3" count="1"/>
+</recipe>
+<recipe name="plantedMushroom1T3BR" count="1" craft_time="2" tier="3" traits="BR">
+    <ingredient name="plantedMushroom1T3" count="1"/>
+</recipe>
+<recipe name="plantedMushroom1T3BT" count="1" craft_time="2" tier="3" traits="BT">
+    <ingredient name="plantedMushroom1T3" count="1"/>
+</recipe>
+<recipe name="plantedMushroom1T3BS" count="1" craft_time="2" tier="3" traits="BS">
+    <ingredient name="plantedMushroom1T3" count="1"/>
+</recipe>
+<recipe name="plantedMushroom1T3FF" count="1" craft_time="2" tier="3" traits="FF">
+    <ingredient name="plantedMushroom1T3" count="1"/>
+</recipe>
+<recipe name="plantedMushroom1T3FE" count="1" craft_time="2" tier="3" traits="FE">
+    <ingredient name="plantedMushroom1T3" count="1"/>
+</recipe>
+<recipe name="plantedMushroom1T3FR" count="1" craft_time="2" tier="3" traits="FR">
+    <ingredient name="plantedMushroom1T3" count="1"/>
+</recipe>
+<recipe name="plantedMushroom1T3FT" count="1" craft_time="2" tier="3" traits="FT">
+    <ingredient name="plantedMushroom1T3" count="1"/>
+</recipe>
+<recipe name="plantedMushroom1T3FS" count="1" craft_time="2" tier="3" traits="FS">
+    <ingredient name="plantedMushroom1T3" count="1"/>
+</recipe>
+<recipe name="plantedMushroom1T3EE" count="1" craft_time="2" tier="3" traits="EE">
+    <ingredient name="plantedMushroom1T3" count="1"/>
+</recipe>
+<recipe name="plantedMushroom1T3ER" count="1" craft_time="2" tier="3" traits="ER">
+    <ingredient name="plantedMushroom1T3" count="1"/>
+</recipe>
+<recipe name="plantedMushroom1T3ET" count="1" craft_time="2" tier="3" traits="ET">
+    <ingredient name="plantedMushroom1T3" count="1"/>
+</recipe>
+<recipe name="plantedMushroom1T3ES" count="1" craft_time="2" tier="3" traits="ES">
+    <ingredient name="plantedMushroom1T3" count="1"/>
+</recipe>
+<recipe name="plantedMushroom1T3RT" count="1" craft_time="2" tier="3" traits="RT">
+    <ingredient name="plantedMushroom1T3" count="1"/>
+</recipe>
+<recipe name="plantedMushroom1T3RS" count="1" craft_time="2" tier="3" traits="RS">
+    <ingredient name="plantedMushroom1T3" count="1"/>
+</recipe>
+<recipe name="plantedMushroom1T3TT" count="1" craft_time="2" tier="3" traits="TT">
+    <ingredient name="plantedMushroom1T3" count="1"/>
+</recipe>
+<recipe name="plantedMushroom1T3TS" count="1" craft_time="2" tier="3" traits="TS">
+    <ingredient name="plantedMushroom1T3" count="1"/>
+</recipe>
+<recipe name="plantedMushroom1T3SS" count="1" craft_time="2" tier="3" traits="SS">
+    <ingredient name="plantedMushroom1T3" count="1"/>
+</recipe>
+<recipe name="plantedCorn1T2" count="1" craft_time="200" tier="2" traits="">
+    <ingredient name="plantedCorn1" count="1"/>
+</recipe>
+<recipe name="plantedCorn1T2B" count="1" craft_time="2" tier="2" traits="B">
+    <ingredient name="plantedCorn1T2" count="1"/>
+</recipe>
+<recipe name="plantedCorn1T2U" count="1" craft_time="2" tier="2" traits="U">
+    <ingredient name="plantedCorn1T2" count="1"/>
+</recipe>
+<recipe name="plantedCorn1T2F" count="1" craft_time="2" tier="2" traits="F">
+    <ingredient name="plantedCorn1T2" count="1"/>
+</recipe>
+<recipe name="plantedCorn1T2E" count="1" craft_time="2" tier="2" traits="E">
+    <ingredient name="plantedCorn1T2" count="1"/>
+</recipe>
+<recipe name="plantedCorn1T2R" count="1" craft_time="2" tier="2" traits="R">
+    <ingredient name="plantedCorn1T2" count="1"/>
+</recipe>
+<recipe name="plantedCorn1T2T" count="1" craft_time="2" tier="2" traits="T">
+    <ingredient name="plantedCorn1T2" count="1"/>
+</recipe>
+<recipe name="plantedCorn1T2S" count="1" craft_time="2" tier="2" traits="S">
+    <ingredient name="plantedCorn1T2" count="1"/>
+</recipe>
+<recipe name="plantedCorn1T3" count="1" craft_time="200" tier="3" traits="">
+    <ingredient name="plantedCorn1T2" count="1"/>
+</recipe>
+<recipe name="plantedCorn1T3BB" count="1" craft_time="2" tier="3" traits="BB">
+    <ingredient name="plantedCorn1T3" count="1"/>
+</recipe>
+<recipe name="plantedCorn1T3BU" count="1" craft_time="2" tier="3" traits="BU">
+    <ingredient name="plantedCorn1T3" count="1"/>
+</recipe>
+<recipe name="plantedCorn1T3BF" count="1" craft_time="2" tier="3" traits="BF">
+    <ingredient name="plantedCorn1T3" count="1"/>
+</recipe>
+<recipe name="plantedCorn1T3BR" count="1" craft_time="2" tier="3" traits="BR">
+    <ingredient name="plantedCorn1T3" count="1"/>
+</recipe>
+<recipe name="plantedCorn1T3BT" count="1" craft_time="2" tier="3" traits="BT">
+    <ingredient name="plantedCorn1T3" count="1"/>
+</recipe>
+<recipe name="plantedCorn1T3BS" count="1" craft_time="2" tier="3" traits="BS">
+    <ingredient name="plantedCorn1T3" count="1"/>
+</recipe>
+<recipe name="plantedCorn1T3UF" count="1" craft_time="2" tier="3" traits="UF">
+    <ingredient name="plantedCorn1T3" count="1"/>
+</recipe>
+<recipe name="plantedCorn1T3UE" count="1" craft_time="2" tier="3" traits="UE">
+    <ingredient name="plantedCorn1T3" count="1"/>
+</recipe>
+<recipe name="plantedCorn1T3UR" count="1" craft_time="2" tier="3" traits="UR">
+    <ingredient name="plantedCorn1T3" count="1"/>
+</recipe>
+<recipe name="plantedCorn1T3UT" count="1" craft_time="2" tier="3" traits="UT">
+    <ingredient name="plantedCorn1T3" count="1"/>
+</recipe>
+<recipe name="plantedCorn1T3FF" count="1" craft_time="2" tier="3" traits="FF">
+    <ingredient name="plantedCorn1T3" count="1"/>
+</recipe>
+<recipe name="plantedCorn1T3FE" count="1" craft_time="2" tier="3" traits="FE">
+    <ingredient name="plantedCorn1T3" count="1"/>
+</recipe>
+<recipe name="plantedCorn1T3FR" count="1" craft_time="2" tier="3" traits="FR">
+    <ingredient name="plantedCorn1T3" count="1"/>
+</recipe>
+<recipe name="plantedCorn1T3FT" count="1" craft_time="2" tier="3" traits="FT">
+    <ingredient name="plantedCorn1T3" count="1"/>
+</recipe>
+<recipe name="plantedCorn1T3FS" count="1" craft_time="2" tier="3" traits="FS">
+    <ingredient name="plantedCorn1T3" count="1"/>
+</recipe>
+<recipe name="plantedCorn1T3EE" count="1" craft_time="2" tier="3" traits="EE">
+    <ingredient name="plantedCorn1T3" count="1"/>
+</recipe>
+<recipe name="plantedCorn1T3ER" count="1" craft_time="2" tier="3" traits="ER">
+    <ingredient name="plantedCorn1T3" count="1"/>
+</recipe>
+<recipe name="plantedCorn1T3ET" count="1" craft_time="2" tier="3" traits="ET">
+    <ingredient name="plantedCorn1T3" count="1"/>
+</recipe>
+<recipe name="plantedCorn1T3ES" count="1" craft_time="2" tier="3" traits="ES">
+    <ingredient name="plantedCorn1T3" count="1"/>
+</recipe>
+<recipe name="plantedCorn1T3RT" count="1" craft_time="2" tier="3" traits="RT">
+    <ingredient name="plantedCorn1T3" count="1"/>
+</recipe>
+<recipe name="plantedCorn1T3RS" count="1" craft_time="2" tier="3" traits="RS">
+    <ingredient name="plantedCorn1T3" count="1"/>
+</recipe>
+<recipe name="plantedCorn1T3TT" count="1" craft_time="2" tier="3" traits="TT">
+    <ingredient name="plantedCorn1T3" count="1"/>
+</recipe>
+<recipe name="plantedCorn1T3TS" count="1" craft_time="2" tier="3" traits="TS">
+    <ingredient name="plantedCorn1T3" count="1"/>
+</recipe>
+<recipe name="plantedCorn1T3SS" count="1" craft_time="2" tier="3" traits="SS">
+    <ingredient name="plantedCorn1T3" count="1"/>
+</recipe>
+</append>
+    <append xpath="/recipes/recipe[@tier='2' and @traits='']">
+        <ingredient name="foodRottingFlesh" count="10"/>
+    </append>
+    <append xpath="/recipes/recipe[@tier='3' and @traits='']">
+        <ingredient name="foodRottingFlesh" count="20"/>
+    </append>
+    <append xpath="/recipes/recipe[contains(@traits, 'B') and not (@traits='BB')]">
+        <ingredient name="foodRottingFlesh" count="5"/>
+        <ingredient name="medicalBloodBag" count="2"/>
+    </append>
+    <append xpath="/recipes/recipe[@traits='BB']">
+        <ingredient name="foodRottingFlesh" count="7"/>
+        <ingredient name="medicalBloodBag" count="3"/>
+    </append>
+    <append xpath="/recipes/recipe[contains(@traits, 'U')]">
+        <ingredient name="plantedMushroom1" count="1"/>
+    </append>
+    <append xpath="/recipes/recipe[contains(@traits, 'F') and not (@traits='FF')]">
+        <ingredient name="drinkCanMegaCrush" count="2"/>
+    </append>
+    <append xpath="/recipes/recipe[@traits='FF']">
+        <ingredient name="drinkCanMegaCrush" count="3"/>
+    </append>
+    <append xpath="/recipes/recipe[contains(@traits, 'E') and not (@traits='EE')]">
+		<ingredient name="resourceScrapIron" count="4"/>
+		<ingredient name="resourceGunPowder" count="4"/>
+		<ingredient name="resourceNail" count="1"/>
+		<ingredient name="resourceDuctTape" count="1"/>
+    </append>
+    <append xpath="/recipes/recipe[@traits='EE']">
+        <ingredient name="resourceForgedIron" count="1" />
+		<ingredient name="resourceGunPowder" count="12"/>
+		<ingredient name="resourceNail" count="1"/>
+		<ingredient name="resourceDuctTape" count="1"/>
+    </append>
+    <append xpath="/recipes/recipe[contains(@traits, 'R')]">
+        <ingredient name="drinkJarPureMineralWater" count="10"/>
+    </append>
+    <append xpath="/recipes/recipe[contains(@traits, 'T') and not (@traits='TT')]">
+        <ingredient name="resourceScrapIron" count="10" />
+        <ingredient name="resourceNail" count="10" />
+    </append>
+    <append xpath="/recipes/recipe[@traits='TT']">
+        <ingredient name="resourceScrapIron" count="15" />
+        <ingredient name="resourceNail" count="15" />
+    </append>
+    <append xpath="/recipes/recipe[contains(@traits, 'S') and not (@traits='SS')]">
+        <ingredient name="resourceTestosteroneExtract" count="2"/>
+    </append>
+    <append xpath="/recipes/recipe[@traits='SS']">
+        <ingredient name="resourceTestosteroneExtract" count="3"/>
+    </append>
+</config>

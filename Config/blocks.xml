@@ -25,6 +25,7 @@
 	<property name="PickupJournalEntry" value="farmingTip"/>
 
 	<property name="CustomIcon" value="plantedMushroom1"/>
+	<property name="DescriptionKey" value="plantedMushroom1T2Desc"/>
 </block>
 <block name="plantedMushroom2T2" stage="2" traits="">
 	<property name="Extends" value="plantedMushroom1T2"/>
@@ -36,7 +37,6 @@
 <block name="plantedMushroom3T2" stage="3" traits="">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
-	<property name="DisplayInfo" value="Description"/>
 	<property name="Shape" value="Ext3dModel"/>
 	<property name="Texture" value="293"/>
 	<property name="Mesh" value="models"/>
@@ -85,6 +85,7 @@
 	<property name="PickupJournalEntry" value="farmingTip"/>
 
 	<property name="CustomIcon" value="plantedMushroom1"/>
+	<property name="DescriptionKey" value="plantedMushroom1T2BDesc"/>
 </block>
 <block name="plantedMushroom2T2B" stage="2" traits="B">
 	<property name="Extends" value="plantedMushroom1T2B"/>
@@ -96,7 +97,6 @@
 <block name="plantedMushroom3T2B" stage="3" traits="B">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
-	<property name="DisplayInfo" value="Description"/>
 	<property name="Shape" value="Ext3dModel"/>
 	<property name="Texture" value="293"/>
 	<property name="Mesh" value="models"/>
@@ -145,6 +145,7 @@
 	<property name="PickupJournalEntry" value="farmingTip"/>
 
 	<property name="CustomIcon" value="plantedMushroom1"/>
+	<property name="DescriptionKey" value="plantedMushroom1T2FDesc"/>
 </block>
 <block name="plantedMushroom2T2F" stage="2" traits="F">
 	<property name="Extends" value="plantedMushroom1T2F"/>
@@ -156,7 +157,6 @@
 <block name="plantedMushroom3T2F" stage="3" traits="F">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
-	<property name="DisplayInfo" value="Description"/>
 	<property name="Shape" value="Ext3dModel"/>
 	<property name="Texture" value="293"/>
 	<property name="Mesh" value="models"/>
@@ -205,6 +205,7 @@
 	<property name="PickupJournalEntry" value="farmingTip"/>
 
 	<property name="CustomIcon" value="plantedMushroom1"/>
+	<property name="DescriptionKey" value="plantedMushroom1T2EDesc"/>
 </block>
 <block name="plantedMushroom2T2E" stage="2" traits="E">
 	<property name="Extends" value="plantedMushroom1T2E"/>
@@ -216,7 +217,6 @@
 <block name="plantedMushroom3T2E" stage="3" traits="E">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
-	<property name="DisplayInfo" value="Description"/>
 	<property name="Shape" value="Ext3dModel"/>
 	<property name="Texture" value="293"/>
 	<property name="Mesh" value="models"/>
@@ -265,6 +265,7 @@
 	<property name="PickupJournalEntry" value="farmingTip"/>
 
 	<property name="CustomIcon" value="plantedMushroom1"/>
+	<property name="DescriptionKey" value="plantedMushroom1T2RDesc"/>
 </block>
 <block name="plantedMushroom2T2R" stage="2" traits="R">
 	<property name="Extends" value="plantedMushroom1T2R"/>
@@ -276,7 +277,6 @@
 <block name="plantedMushroom3T2R" stage="3" traits="R">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
-	<property name="DisplayInfo" value="Description"/>
 	<property name="Shape" value="Ext3dModel"/>
 	<property name="Texture" value="293"/>
 	<property name="Mesh" value="models"/>
@@ -325,6 +325,7 @@
 	<property name="PickupJournalEntry" value="farmingTip"/>
 
 	<property name="CustomIcon" value="plantedMushroom1"/>
+	<property name="DescriptionKey" value="plantedMushroom1T2TDesc"/>
 </block>
 <block name="plantedMushroom2T2T" stage="2" traits="T">
 	<property name="Extends" value="plantedMushroom1T2T"/>
@@ -336,7 +337,6 @@
 <block name="plantedMushroom3T2T" stage="3" traits="T">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
-	<property name="DisplayInfo" value="Description"/>
 	<property name="Shape" value="Ext3dModel"/>
 	<property name="Texture" value="293"/>
 	<property name="Mesh" value="models"/>
@@ -385,6 +385,7 @@
 	<property name="PickupJournalEntry" value="farmingTip"/>
 
 	<property name="CustomIcon" value="plantedMushroom1"/>
+	<property name="DescriptionKey" value="plantedMushroom1T2SDesc"/>
 </block>
 <block name="plantedMushroom2T2S" stage="2" traits="S">
 	<property name="Extends" value="plantedMushroom1T2S"/>
@@ -396,7 +397,6 @@
 <block name="plantedMushroom3T2S" stage="3" traits="S">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
-	<property name="DisplayInfo" value="Description"/>
 	<property name="Shape" value="Ext3dModel"/>
 	<property name="Texture" value="293"/>
 	<property name="Mesh" value="models"/>
@@ -445,6 +445,7 @@
 	<property name="PickupJournalEntry" value="farmingTip"/>
 
 	<property name="CustomIcon" value="plantedMushroom1"/>
+	<property name="DescriptionKey" value="plantedMushroom1T3Desc"/>
 </block>
 <block name="plantedMushroom2T3" stage="2" traits="">
 	<property name="Extends" value="plantedMushroom1T3"/>
@@ -456,7 +457,6 @@
 <block name="plantedMushroom3T3" stage="3" traits="">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
-	<property name="DisplayInfo" value="Description"/>
 	<property name="Shape" value="Ext3dModel"/>
 	<property name="Texture" value="293"/>
 	<property name="Mesh" value="models"/>
@@ -505,6 +505,7 @@
 	<property name="PickupJournalEntry" value="farmingTip"/>
 
 	<property name="CustomIcon" value="plantedMushroom1"/>
+	<property name="DescriptionKey" value="plantedMushroom1T3BBDesc"/>
 </block>
 <block name="plantedMushroom2T3BB" stage="2" traits="BB">
 	<property name="Extends" value="plantedMushroom1T3BB"/>
@@ -516,7 +517,6 @@
 <block name="plantedMushroom3T3BB" stage="3" traits="BB">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
-	<property name="DisplayInfo" value="Description"/>
 	<property name="Shape" value="Ext3dModel"/>
 	<property name="Texture" value="293"/>
 	<property name="Mesh" value="models"/>
@@ -565,6 +565,7 @@
 	<property name="PickupJournalEntry" value="farmingTip"/>
 
 	<property name="CustomIcon" value="plantedMushroom1"/>
+	<property name="DescriptionKey" value="plantedMushroom1T3BFDesc"/>
 </block>
 <block name="plantedMushroom2T3BF" stage="2" traits="BF">
 	<property name="Extends" value="plantedMushroom1T3BF"/>
@@ -576,7 +577,6 @@
 <block name="plantedMushroom3T3BF" stage="3" traits="BF">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
-	<property name="DisplayInfo" value="Description"/>
 	<property name="Shape" value="Ext3dModel"/>
 	<property name="Texture" value="293"/>
 	<property name="Mesh" value="models"/>
@@ -625,6 +625,7 @@
 	<property name="PickupJournalEntry" value="farmingTip"/>
 
 	<property name="CustomIcon" value="plantedMushroom1"/>
+	<property name="DescriptionKey" value="plantedMushroom1T3BRDesc"/>
 </block>
 <block name="plantedMushroom2T3BR" stage="2" traits="BR">
 	<property name="Extends" value="plantedMushroom1T3BR"/>
@@ -636,7 +637,6 @@
 <block name="plantedMushroom3T3BR" stage="3" traits="BR">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
-	<property name="DisplayInfo" value="Description"/>
 	<property name="Shape" value="Ext3dModel"/>
 	<property name="Texture" value="293"/>
 	<property name="Mesh" value="models"/>
@@ -685,6 +685,7 @@
 	<property name="PickupJournalEntry" value="farmingTip"/>
 
 	<property name="CustomIcon" value="plantedMushroom1"/>
+	<property name="DescriptionKey" value="plantedMushroom1T3BTDesc"/>
 </block>
 <block name="plantedMushroom2T3BT" stage="2" traits="BT">
 	<property name="Extends" value="plantedMushroom1T3BT"/>
@@ -696,7 +697,6 @@
 <block name="plantedMushroom3T3BT" stage="3" traits="BT">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
-	<property name="DisplayInfo" value="Description"/>
 	<property name="Shape" value="Ext3dModel"/>
 	<property name="Texture" value="293"/>
 	<property name="Mesh" value="models"/>
@@ -745,6 +745,7 @@
 	<property name="PickupJournalEntry" value="farmingTip"/>
 
 	<property name="CustomIcon" value="plantedMushroom1"/>
+	<property name="DescriptionKey" value="plantedMushroom1T3BSDesc"/>
 </block>
 <block name="plantedMushroom2T3BS" stage="2" traits="BS">
 	<property name="Extends" value="plantedMushroom1T3BS"/>
@@ -756,7 +757,6 @@
 <block name="plantedMushroom3T3BS" stage="3" traits="BS">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
-	<property name="DisplayInfo" value="Description"/>
 	<property name="Shape" value="Ext3dModel"/>
 	<property name="Texture" value="293"/>
 	<property name="Mesh" value="models"/>
@@ -805,6 +805,7 @@
 	<property name="PickupJournalEntry" value="farmingTip"/>
 
 	<property name="CustomIcon" value="plantedMushroom1"/>
+	<property name="DescriptionKey" value="plantedMushroom1T3FFDesc"/>
 </block>
 <block name="plantedMushroom2T3FF" stage="2" traits="FF">
 	<property name="Extends" value="plantedMushroom1T3FF"/>
@@ -816,7 +817,6 @@
 <block name="plantedMushroom3T3FF" stage="3" traits="FF">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
-	<property name="DisplayInfo" value="Description"/>
 	<property name="Shape" value="Ext3dModel"/>
 	<property name="Texture" value="293"/>
 	<property name="Mesh" value="models"/>
@@ -865,6 +865,7 @@
 	<property name="PickupJournalEntry" value="farmingTip"/>
 
 	<property name="CustomIcon" value="plantedMushroom1"/>
+	<property name="DescriptionKey" value="plantedMushroom1T3FEDesc"/>
 </block>
 <block name="plantedMushroom2T3FE" stage="2" traits="FE">
 	<property name="Extends" value="plantedMushroom1T3FE"/>
@@ -876,7 +877,6 @@
 <block name="plantedMushroom3T3FE" stage="3" traits="FE">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
-	<property name="DisplayInfo" value="Description"/>
 	<property name="Shape" value="Ext3dModel"/>
 	<property name="Texture" value="293"/>
 	<property name="Mesh" value="models"/>
@@ -925,6 +925,7 @@
 	<property name="PickupJournalEntry" value="farmingTip"/>
 
 	<property name="CustomIcon" value="plantedMushroom1"/>
+	<property name="DescriptionKey" value="plantedMushroom1T3FRDesc"/>
 </block>
 <block name="plantedMushroom2T3FR" stage="2" traits="FR">
 	<property name="Extends" value="plantedMushroom1T3FR"/>
@@ -936,7 +937,6 @@
 <block name="plantedMushroom3T3FR" stage="3" traits="FR">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
-	<property name="DisplayInfo" value="Description"/>
 	<property name="Shape" value="Ext3dModel"/>
 	<property name="Texture" value="293"/>
 	<property name="Mesh" value="models"/>
@@ -985,6 +985,7 @@
 	<property name="PickupJournalEntry" value="farmingTip"/>
 
 	<property name="CustomIcon" value="plantedMushroom1"/>
+	<property name="DescriptionKey" value="plantedMushroom1T3FTDesc"/>
 </block>
 <block name="plantedMushroom2T3FT" stage="2" traits="FT">
 	<property name="Extends" value="plantedMushroom1T3FT"/>
@@ -996,7 +997,6 @@
 <block name="plantedMushroom3T3FT" stage="3" traits="FT">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
-	<property name="DisplayInfo" value="Description"/>
 	<property name="Shape" value="Ext3dModel"/>
 	<property name="Texture" value="293"/>
 	<property name="Mesh" value="models"/>
@@ -1045,6 +1045,7 @@
 	<property name="PickupJournalEntry" value="farmingTip"/>
 
 	<property name="CustomIcon" value="plantedMushroom1"/>
+	<property name="DescriptionKey" value="plantedMushroom1T3FSDesc"/>
 </block>
 <block name="plantedMushroom2T3FS" stage="2" traits="FS">
 	<property name="Extends" value="plantedMushroom1T3FS"/>
@@ -1056,7 +1057,6 @@
 <block name="plantedMushroom3T3FS" stage="3" traits="FS">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
-	<property name="DisplayInfo" value="Description"/>
 	<property name="Shape" value="Ext3dModel"/>
 	<property name="Texture" value="293"/>
 	<property name="Mesh" value="models"/>
@@ -1105,6 +1105,7 @@
 	<property name="PickupJournalEntry" value="farmingTip"/>
 
 	<property name="CustomIcon" value="plantedMushroom1"/>
+	<property name="DescriptionKey" value="plantedMushroom1T3EEDesc"/>
 </block>
 <block name="plantedMushroom2T3EE" stage="2" traits="EE">
 	<property name="Extends" value="plantedMushroom1T3EE"/>
@@ -1116,7 +1117,6 @@
 <block name="plantedMushroom3T3EE" stage="3" traits="EE">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
-	<property name="DisplayInfo" value="Description"/>
 	<property name="Shape" value="Ext3dModel"/>
 	<property name="Texture" value="293"/>
 	<property name="Mesh" value="models"/>
@@ -1165,6 +1165,7 @@
 	<property name="PickupJournalEntry" value="farmingTip"/>
 
 	<property name="CustomIcon" value="plantedMushroom1"/>
+	<property name="DescriptionKey" value="plantedMushroom1T3ERDesc"/>
 </block>
 <block name="plantedMushroom2T3ER" stage="2" traits="ER">
 	<property name="Extends" value="plantedMushroom1T3ER"/>
@@ -1176,7 +1177,6 @@
 <block name="plantedMushroom3T3ER" stage="3" traits="ER">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
-	<property name="DisplayInfo" value="Description"/>
 	<property name="Shape" value="Ext3dModel"/>
 	<property name="Texture" value="293"/>
 	<property name="Mesh" value="models"/>
@@ -1225,6 +1225,7 @@
 	<property name="PickupJournalEntry" value="farmingTip"/>
 
 	<property name="CustomIcon" value="plantedMushroom1"/>
+	<property name="DescriptionKey" value="plantedMushroom1T3ETDesc"/>
 </block>
 <block name="plantedMushroom2T3ET" stage="2" traits="ET">
 	<property name="Extends" value="plantedMushroom1T3ET"/>
@@ -1236,7 +1237,6 @@
 <block name="plantedMushroom3T3ET" stage="3" traits="ET">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
-	<property name="DisplayInfo" value="Description"/>
 	<property name="Shape" value="Ext3dModel"/>
 	<property name="Texture" value="293"/>
 	<property name="Mesh" value="models"/>
@@ -1285,6 +1285,7 @@
 	<property name="PickupJournalEntry" value="farmingTip"/>
 
 	<property name="CustomIcon" value="plantedMushroom1"/>
+	<property name="DescriptionKey" value="plantedMushroom1T3ESDesc"/>
 </block>
 <block name="plantedMushroom2T3ES" stage="2" traits="ES">
 	<property name="Extends" value="plantedMushroom1T3ES"/>
@@ -1296,7 +1297,6 @@
 <block name="plantedMushroom3T3ES" stage="3" traits="ES">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
-	<property name="DisplayInfo" value="Description"/>
 	<property name="Shape" value="Ext3dModel"/>
 	<property name="Texture" value="293"/>
 	<property name="Mesh" value="models"/>
@@ -1345,6 +1345,7 @@
 	<property name="PickupJournalEntry" value="farmingTip"/>
 
 	<property name="CustomIcon" value="plantedMushroom1"/>
+	<property name="DescriptionKey" value="plantedMushroom1T3RTDesc"/>
 </block>
 <block name="plantedMushroom2T3RT" stage="2" traits="RT">
 	<property name="Extends" value="plantedMushroom1T3RT"/>
@@ -1356,7 +1357,6 @@
 <block name="plantedMushroom3T3RT" stage="3" traits="RT">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
-	<property name="DisplayInfo" value="Description"/>
 	<property name="Shape" value="Ext3dModel"/>
 	<property name="Texture" value="293"/>
 	<property name="Mesh" value="models"/>
@@ -1405,6 +1405,7 @@
 	<property name="PickupJournalEntry" value="farmingTip"/>
 
 	<property name="CustomIcon" value="plantedMushroom1"/>
+	<property name="DescriptionKey" value="plantedMushroom1T3RSDesc"/>
 </block>
 <block name="plantedMushroom2T3RS" stage="2" traits="RS">
 	<property name="Extends" value="plantedMushroom1T3RS"/>
@@ -1416,7 +1417,6 @@
 <block name="plantedMushroom3T3RS" stage="3" traits="RS">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
-	<property name="DisplayInfo" value="Description"/>
 	<property name="Shape" value="Ext3dModel"/>
 	<property name="Texture" value="293"/>
 	<property name="Mesh" value="models"/>
@@ -1465,6 +1465,7 @@
 	<property name="PickupJournalEntry" value="farmingTip"/>
 
 	<property name="CustomIcon" value="plantedMushroom1"/>
+	<property name="DescriptionKey" value="plantedMushroom1T3TTDesc"/>
 </block>
 <block name="plantedMushroom2T3TT" stage="2" traits="TT">
 	<property name="Extends" value="plantedMushroom1T3TT"/>
@@ -1476,7 +1477,6 @@
 <block name="plantedMushroom3T3TT" stage="3" traits="TT">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
-	<property name="DisplayInfo" value="Description"/>
 	<property name="Shape" value="Ext3dModel"/>
 	<property name="Texture" value="293"/>
 	<property name="Mesh" value="models"/>
@@ -1525,6 +1525,7 @@
 	<property name="PickupJournalEntry" value="farmingTip"/>
 
 	<property name="CustomIcon" value="plantedMushroom1"/>
+	<property name="DescriptionKey" value="plantedMushroom1T3TSDesc"/>
 </block>
 <block name="plantedMushroom2T3TS" stage="2" traits="TS">
 	<property name="Extends" value="plantedMushroom1T3TS"/>
@@ -1536,7 +1537,6 @@
 <block name="plantedMushroom3T3TS" stage="3" traits="TS">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
-	<property name="DisplayInfo" value="Description"/>
 	<property name="Shape" value="Ext3dModel"/>
 	<property name="Texture" value="293"/>
 	<property name="Mesh" value="models"/>
@@ -1585,6 +1585,7 @@
 	<property name="PickupJournalEntry" value="farmingTip"/>
 
 	<property name="CustomIcon" value="plantedMushroom1"/>
+	<property name="DescriptionKey" value="plantedMushroom1T3SSDesc"/>
 </block>
 <block name="plantedMushroom2T3SS" stage="2" traits="SS">
 	<property name="Extends" value="plantedMushroom1T3SS"/>
@@ -1596,7 +1597,6 @@
 <block name="plantedMushroom3T3SS" stage="3" traits="SS">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
-	<property name="DisplayInfo" value="Description"/>
 	<property name="Shape" value="Ext3dModel"/>
 	<property name="Texture" value="293"/>
 	<property name="Mesh" value="models"/>
@@ -1623,7 +1623,7 @@
 <block name="plantedCorn1T2" stage="1" traits="">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="UnlockedBy" value="perkLivingOffTheLand"/>
+	
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Shape" value="New"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -1637,6 +1637,7 @@
 	<drop event="Destroy" name="plantedCorn1T2" count="1"/>
 	
 	<property name="CustomIcon" value="plantedCorn1"/>
+	<property name="DescriptionKey" value="plantedCorn1T2Desc"/>
 </block>
 <block name="plantedCorn2T2" stage="2" traits="">
 	<property name="Extends" value="plantedCorn1T2"/>
@@ -1650,7 +1651,6 @@
 	<drop event="Destroy" name="plantedCorn1T2" count="1"/>
 </block>
 <block name="plantedCorn3T2" stage="3" traits="">
-	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="LightOpacity" value="0"/>
 	<property name="ImposterDontBlock" value="true"/>
@@ -1684,7 +1684,7 @@
 <block name="plantedCorn1T2B" stage="1" traits="B">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="UnlockedBy" value="perkLivingOffTheLand"/>
+	
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Shape" value="New"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -1698,6 +1698,7 @@
 	<drop event="Destroy" name="plantedCorn1T2B" count="1"/>
 	
 	<property name="CustomIcon" value="plantedCorn1"/>
+	<property name="DescriptionKey" value="plantedCorn1T2BDesc"/>
 </block>
 <block name="plantedCorn2T2B" stage="2" traits="B">
 	<property name="Extends" value="plantedCorn1T2B"/>
@@ -1711,7 +1712,6 @@
 	<drop event="Destroy" name="plantedCorn1T2B" count="1"/>
 </block>
 <block name="plantedCorn3T2B" stage="3" traits="B">
-	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="LightOpacity" value="0"/>
 	<property name="ImposterDontBlock" value="true"/>
@@ -1745,7 +1745,7 @@
 <block name="plantedCorn1T2U" stage="1" traits="U">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="UnlockedBy" value="perkLivingOffTheLand"/>
+	
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Shape" value="New"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -1759,6 +1759,7 @@
 	<drop event="Destroy" name="plantedCorn1T2U" count="1"/>
 	
 	<property name="CustomIcon" value="plantedCorn1"/>
+	<property name="DescriptionKey" value="plantedCorn1T2UDesc"/>
 </block>
 <block name="plantedCorn2T2U" stage="2" traits="U">
 	<property name="Extends" value="plantedCorn1T2U"/>
@@ -1772,7 +1773,6 @@
 	<drop event="Destroy" name="plantedCorn1T2U" count="1"/>
 </block>
 <block name="plantedCorn3T2U" stage="3" traits="U">
-	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="LightOpacity" value="0"/>
 	<property name="ImposterDontBlock" value="true"/>
@@ -1806,7 +1806,7 @@
 <block name="plantedCorn1T2F" stage="1" traits="F">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="UnlockedBy" value="perkLivingOffTheLand"/>
+	
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Shape" value="New"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -1820,6 +1820,7 @@
 	<drop event="Destroy" name="plantedCorn1T2F" count="1"/>
 	
 	<property name="CustomIcon" value="plantedCorn1"/>
+	<property name="DescriptionKey" value="plantedCorn1T2FDesc"/>
 </block>
 <block name="plantedCorn2T2F" stage="2" traits="F">
 	<property name="Extends" value="plantedCorn1T2F"/>
@@ -1833,7 +1834,6 @@
 	<drop event="Destroy" name="plantedCorn1T2F" count="1"/>
 </block>
 <block name="plantedCorn3T2F" stage="3" traits="F">
-	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="LightOpacity" value="0"/>
 	<property name="ImposterDontBlock" value="true"/>
@@ -1867,7 +1867,7 @@
 <block name="plantedCorn1T2E" stage="1" traits="E">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="UnlockedBy" value="perkLivingOffTheLand"/>
+	
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Shape" value="New"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -1881,6 +1881,7 @@
 	<drop event="Destroy" name="plantedCorn1T2E" count="1"/>
 	
 	<property name="CustomIcon" value="plantedCorn1"/>
+	<property name="DescriptionKey" value="plantedCorn1T2EDesc"/>
 </block>
 <block name="plantedCorn2T2E" stage="2" traits="E">
 	<property name="Extends" value="plantedCorn1T2E"/>
@@ -1894,7 +1895,6 @@
 	<drop event="Destroy" name="plantedCorn1T2E" count="1"/>
 </block>
 <block name="plantedCorn3T2E" stage="3" traits="E">
-	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="LightOpacity" value="0"/>
 	<property name="ImposterDontBlock" value="true"/>
@@ -1928,7 +1928,7 @@
 <block name="plantedCorn1T2R" stage="1" traits="R">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="UnlockedBy" value="perkLivingOffTheLand"/>
+	
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Shape" value="New"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -1942,6 +1942,7 @@
 	<drop event="Destroy" name="plantedCorn1T2R" count="1"/>
 	
 	<property name="CustomIcon" value="plantedCorn1"/>
+	<property name="DescriptionKey" value="plantedCorn1T2RDesc"/>
 </block>
 <block name="plantedCorn2T2R" stage="2" traits="R">
 	<property name="Extends" value="plantedCorn1T2R"/>
@@ -1955,7 +1956,6 @@
 	<drop event="Destroy" name="plantedCorn1T2R" count="1"/>
 </block>
 <block name="plantedCorn3T2R" stage="3" traits="R">
-	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="LightOpacity" value="0"/>
 	<property name="ImposterDontBlock" value="true"/>
@@ -1989,7 +1989,7 @@
 <block name="plantedCorn1T2T" stage="1" traits="T">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="UnlockedBy" value="perkLivingOffTheLand"/>
+	
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Shape" value="New"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -2003,6 +2003,7 @@
 	<drop event="Destroy" name="plantedCorn1T2T" count="1"/>
 	
 	<property name="CustomIcon" value="plantedCorn1"/>
+	<property name="DescriptionKey" value="plantedCorn1T2TDesc"/>
 </block>
 <block name="plantedCorn2T2T" stage="2" traits="T">
 	<property name="Extends" value="plantedCorn1T2T"/>
@@ -2016,7 +2017,6 @@
 	<drop event="Destroy" name="plantedCorn1T2T" count="1"/>
 </block>
 <block name="plantedCorn3T2T" stage="3" traits="T">
-	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="LightOpacity" value="0"/>
 	<property name="ImposterDontBlock" value="true"/>
@@ -2050,7 +2050,7 @@
 <block name="plantedCorn1T2S" stage="1" traits="S">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="UnlockedBy" value="perkLivingOffTheLand"/>
+	
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Shape" value="New"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -2064,6 +2064,7 @@
 	<drop event="Destroy" name="plantedCorn1T2S" count="1"/>
 	
 	<property name="CustomIcon" value="plantedCorn1"/>
+	<property name="DescriptionKey" value="plantedCorn1T2SDesc"/>
 </block>
 <block name="plantedCorn2T2S" stage="2" traits="S">
 	<property name="Extends" value="plantedCorn1T2S"/>
@@ -2077,7 +2078,6 @@
 	<drop event="Destroy" name="plantedCorn1T2S" count="1"/>
 </block>
 <block name="plantedCorn3T2S" stage="3" traits="S">
-	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="LightOpacity" value="0"/>
 	<property name="ImposterDontBlock" value="true"/>
@@ -2111,7 +2111,7 @@
 <block name="plantedCorn1T3" stage="1" traits="">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="UnlockedBy" value="perkLivingOffTheLand"/>
+	
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Shape" value="New"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -2125,6 +2125,7 @@
 	<drop event="Destroy" name="plantedCorn1T3" count="1"/>
 	
 	<property name="CustomIcon" value="plantedCorn1"/>
+	<property name="DescriptionKey" value="plantedCorn1T3Desc"/>
 </block>
 <block name="plantedCorn2T3" stage="2" traits="">
 	<property name="Extends" value="plantedCorn1T3"/>
@@ -2138,7 +2139,6 @@
 	<drop event="Destroy" name="plantedCorn1T3" count="1"/>
 </block>
 <block name="plantedCorn3T3" stage="3" traits="">
-	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="LightOpacity" value="0"/>
 	<property name="ImposterDontBlock" value="true"/>
@@ -2172,7 +2172,7 @@
 <block name="plantedCorn1T3BB" stage="1" traits="BB">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="UnlockedBy" value="perkLivingOffTheLand"/>
+	
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Shape" value="New"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -2186,6 +2186,7 @@
 	<drop event="Destroy" name="plantedCorn1T3BB" count="1"/>
 	
 	<property name="CustomIcon" value="plantedCorn1"/>
+	<property name="DescriptionKey" value="plantedCorn1T3BBDesc"/>
 </block>
 <block name="plantedCorn2T3BB" stage="2" traits="BB">
 	<property name="Extends" value="plantedCorn1T3BB"/>
@@ -2199,7 +2200,6 @@
 	<drop event="Destroy" name="plantedCorn1T3BB" count="1"/>
 </block>
 <block name="plantedCorn3T3BB" stage="3" traits="BB">
-	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="LightOpacity" value="0"/>
 	<property name="ImposterDontBlock" value="true"/>
@@ -2233,7 +2233,7 @@
 <block name="plantedCorn1T3BU" stage="1" traits="BU">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="UnlockedBy" value="perkLivingOffTheLand"/>
+	
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Shape" value="New"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -2247,6 +2247,7 @@
 	<drop event="Destroy" name="plantedCorn1T3BU" count="1"/>
 	
 	<property name="CustomIcon" value="plantedCorn1"/>
+	<property name="DescriptionKey" value="plantedCorn1T3BUDesc"/>
 </block>
 <block name="plantedCorn2T3BU" stage="2" traits="BU">
 	<property name="Extends" value="plantedCorn1T3BU"/>
@@ -2260,7 +2261,6 @@
 	<drop event="Destroy" name="plantedCorn1T3BU" count="1"/>
 </block>
 <block name="plantedCorn3T3BU" stage="3" traits="BU">
-	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="LightOpacity" value="0"/>
 	<property name="ImposterDontBlock" value="true"/>
@@ -2294,7 +2294,7 @@
 <block name="plantedCorn1T3BF" stage="1" traits="BF">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="UnlockedBy" value="perkLivingOffTheLand"/>
+	
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Shape" value="New"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -2308,6 +2308,7 @@
 	<drop event="Destroy" name="plantedCorn1T3BF" count="1"/>
 	
 	<property name="CustomIcon" value="plantedCorn1"/>
+	<property name="DescriptionKey" value="plantedCorn1T3BFDesc"/>
 </block>
 <block name="plantedCorn2T3BF" stage="2" traits="BF">
 	<property name="Extends" value="plantedCorn1T3BF"/>
@@ -2321,7 +2322,6 @@
 	<drop event="Destroy" name="plantedCorn1T3BF" count="1"/>
 </block>
 <block name="plantedCorn3T3BF" stage="3" traits="BF">
-	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="LightOpacity" value="0"/>
 	<property name="ImposterDontBlock" value="true"/>
@@ -2355,7 +2355,7 @@
 <block name="plantedCorn1T3BR" stage="1" traits="BR">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="UnlockedBy" value="perkLivingOffTheLand"/>
+	
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Shape" value="New"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -2369,6 +2369,7 @@
 	<drop event="Destroy" name="plantedCorn1T3BR" count="1"/>
 	
 	<property name="CustomIcon" value="plantedCorn1"/>
+	<property name="DescriptionKey" value="plantedCorn1T3BRDesc"/>
 </block>
 <block name="plantedCorn2T3BR" stage="2" traits="BR">
 	<property name="Extends" value="plantedCorn1T3BR"/>
@@ -2382,7 +2383,6 @@
 	<drop event="Destroy" name="plantedCorn1T3BR" count="1"/>
 </block>
 <block name="plantedCorn3T3BR" stage="3" traits="BR">
-	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="LightOpacity" value="0"/>
 	<property name="ImposterDontBlock" value="true"/>
@@ -2416,7 +2416,7 @@
 <block name="plantedCorn1T3BT" stage="1" traits="BT">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="UnlockedBy" value="perkLivingOffTheLand"/>
+	
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Shape" value="New"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -2430,6 +2430,7 @@
 	<drop event="Destroy" name="plantedCorn1T3BT" count="1"/>
 	
 	<property name="CustomIcon" value="plantedCorn1"/>
+	<property name="DescriptionKey" value="plantedCorn1T3BTDesc"/>
 </block>
 <block name="plantedCorn2T3BT" stage="2" traits="BT">
 	<property name="Extends" value="plantedCorn1T3BT"/>
@@ -2443,7 +2444,6 @@
 	<drop event="Destroy" name="plantedCorn1T3BT" count="1"/>
 </block>
 <block name="plantedCorn3T3BT" stage="3" traits="BT">
-	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="LightOpacity" value="0"/>
 	<property name="ImposterDontBlock" value="true"/>
@@ -2477,7 +2477,7 @@
 <block name="plantedCorn1T3BS" stage="1" traits="BS">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="UnlockedBy" value="perkLivingOffTheLand"/>
+	
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Shape" value="New"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -2491,6 +2491,7 @@
 	<drop event="Destroy" name="plantedCorn1T3BS" count="1"/>
 	
 	<property name="CustomIcon" value="plantedCorn1"/>
+	<property name="DescriptionKey" value="plantedCorn1T3BSDesc"/>
 </block>
 <block name="plantedCorn2T3BS" stage="2" traits="BS">
 	<property name="Extends" value="plantedCorn1T3BS"/>
@@ -2504,7 +2505,6 @@
 	<drop event="Destroy" name="plantedCorn1T3BS" count="1"/>
 </block>
 <block name="plantedCorn3T3BS" stage="3" traits="BS">
-	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="LightOpacity" value="0"/>
 	<property name="ImposterDontBlock" value="true"/>
@@ -2538,7 +2538,7 @@
 <block name="plantedCorn1T3UF" stage="1" traits="UF">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="UnlockedBy" value="perkLivingOffTheLand"/>
+	
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Shape" value="New"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -2552,6 +2552,7 @@
 	<drop event="Destroy" name="plantedCorn1T3UF" count="1"/>
 	
 	<property name="CustomIcon" value="plantedCorn1"/>
+	<property name="DescriptionKey" value="plantedCorn1T3UFDesc"/>
 </block>
 <block name="plantedCorn2T3UF" stage="2" traits="UF">
 	<property name="Extends" value="plantedCorn1T3UF"/>
@@ -2565,7 +2566,6 @@
 	<drop event="Destroy" name="plantedCorn1T3UF" count="1"/>
 </block>
 <block name="plantedCorn3T3UF" stage="3" traits="UF">
-	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="LightOpacity" value="0"/>
 	<property name="ImposterDontBlock" value="true"/>
@@ -2599,7 +2599,7 @@
 <block name="plantedCorn1T3UE" stage="1" traits="UE">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="UnlockedBy" value="perkLivingOffTheLand"/>
+	
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Shape" value="New"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -2613,6 +2613,7 @@
 	<drop event="Destroy" name="plantedCorn1T3UE" count="1"/>
 	
 	<property name="CustomIcon" value="plantedCorn1"/>
+	<property name="DescriptionKey" value="plantedCorn1T3UEDesc"/>
 </block>
 <block name="plantedCorn2T3UE" stage="2" traits="UE">
 	<property name="Extends" value="plantedCorn1T3UE"/>
@@ -2626,7 +2627,6 @@
 	<drop event="Destroy" name="plantedCorn1T3UE" count="1"/>
 </block>
 <block name="plantedCorn3T3UE" stage="3" traits="UE">
-	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="LightOpacity" value="0"/>
 	<property name="ImposterDontBlock" value="true"/>
@@ -2660,7 +2660,7 @@
 <block name="plantedCorn1T3UR" stage="1" traits="UR">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="UnlockedBy" value="perkLivingOffTheLand"/>
+	
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Shape" value="New"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -2674,6 +2674,7 @@
 	<drop event="Destroy" name="plantedCorn1T3UR" count="1"/>
 	
 	<property name="CustomIcon" value="plantedCorn1"/>
+	<property name="DescriptionKey" value="plantedCorn1T3URDesc"/>
 </block>
 <block name="plantedCorn2T3UR" stage="2" traits="UR">
 	<property name="Extends" value="plantedCorn1T3UR"/>
@@ -2687,7 +2688,6 @@
 	<drop event="Destroy" name="plantedCorn1T3UR" count="1"/>
 </block>
 <block name="plantedCorn3T3UR" stage="3" traits="UR">
-	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="LightOpacity" value="0"/>
 	<property name="ImposterDontBlock" value="true"/>
@@ -2721,7 +2721,7 @@
 <block name="plantedCorn1T3UT" stage="1" traits="UT">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="UnlockedBy" value="perkLivingOffTheLand"/>
+	
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Shape" value="New"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -2735,6 +2735,7 @@
 	<drop event="Destroy" name="plantedCorn1T3UT" count="1"/>
 	
 	<property name="CustomIcon" value="plantedCorn1"/>
+	<property name="DescriptionKey" value="plantedCorn1T3UTDesc"/>
 </block>
 <block name="plantedCorn2T3UT" stage="2" traits="UT">
 	<property name="Extends" value="plantedCorn1T3UT"/>
@@ -2748,7 +2749,6 @@
 	<drop event="Destroy" name="plantedCorn1T3UT" count="1"/>
 </block>
 <block name="plantedCorn3T3UT" stage="3" traits="UT">
-	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="LightOpacity" value="0"/>
 	<property name="ImposterDontBlock" value="true"/>
@@ -2782,7 +2782,7 @@
 <block name="plantedCorn1T3FF" stage="1" traits="FF">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="UnlockedBy" value="perkLivingOffTheLand"/>
+	
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Shape" value="New"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -2796,6 +2796,7 @@
 	<drop event="Destroy" name="plantedCorn1T3FF" count="1"/>
 	
 	<property name="CustomIcon" value="plantedCorn1"/>
+	<property name="DescriptionKey" value="plantedCorn1T3FFDesc"/>
 </block>
 <block name="plantedCorn2T3FF" stage="2" traits="FF">
 	<property name="Extends" value="plantedCorn1T3FF"/>
@@ -2809,7 +2810,6 @@
 	<drop event="Destroy" name="plantedCorn1T3FF" count="1"/>
 </block>
 <block name="plantedCorn3T3FF" stage="3" traits="FF">
-	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="LightOpacity" value="0"/>
 	<property name="ImposterDontBlock" value="true"/>
@@ -2843,7 +2843,7 @@
 <block name="plantedCorn1T3FE" stage="1" traits="FE">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="UnlockedBy" value="perkLivingOffTheLand"/>
+	
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Shape" value="New"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -2857,6 +2857,7 @@
 	<drop event="Destroy" name="plantedCorn1T3FE" count="1"/>
 	
 	<property name="CustomIcon" value="plantedCorn1"/>
+	<property name="DescriptionKey" value="plantedCorn1T3FEDesc"/>
 </block>
 <block name="plantedCorn2T3FE" stage="2" traits="FE">
 	<property name="Extends" value="plantedCorn1T3FE"/>
@@ -2870,7 +2871,6 @@
 	<drop event="Destroy" name="plantedCorn1T3FE" count="1"/>
 </block>
 <block name="plantedCorn3T3FE" stage="3" traits="FE">
-	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="LightOpacity" value="0"/>
 	<property name="ImposterDontBlock" value="true"/>
@@ -2904,7 +2904,7 @@
 <block name="plantedCorn1T3FR" stage="1" traits="FR">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="UnlockedBy" value="perkLivingOffTheLand"/>
+	
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Shape" value="New"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -2918,6 +2918,7 @@
 	<drop event="Destroy" name="plantedCorn1T3FR" count="1"/>
 	
 	<property name="CustomIcon" value="plantedCorn1"/>
+	<property name="DescriptionKey" value="plantedCorn1T3FRDesc"/>
 </block>
 <block name="plantedCorn2T3FR" stage="2" traits="FR">
 	<property name="Extends" value="plantedCorn1T3FR"/>
@@ -2931,7 +2932,6 @@
 	<drop event="Destroy" name="plantedCorn1T3FR" count="1"/>
 </block>
 <block name="plantedCorn3T3FR" stage="3" traits="FR">
-	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="LightOpacity" value="0"/>
 	<property name="ImposterDontBlock" value="true"/>
@@ -2965,7 +2965,7 @@
 <block name="plantedCorn1T3FT" stage="1" traits="FT">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="UnlockedBy" value="perkLivingOffTheLand"/>
+	
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Shape" value="New"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -2979,6 +2979,7 @@
 	<drop event="Destroy" name="plantedCorn1T3FT" count="1"/>
 	
 	<property name="CustomIcon" value="plantedCorn1"/>
+	<property name="DescriptionKey" value="plantedCorn1T3FTDesc"/>
 </block>
 <block name="plantedCorn2T3FT" stage="2" traits="FT">
 	<property name="Extends" value="plantedCorn1T3FT"/>
@@ -2992,7 +2993,6 @@
 	<drop event="Destroy" name="plantedCorn1T3FT" count="1"/>
 </block>
 <block name="plantedCorn3T3FT" stage="3" traits="FT">
-	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="LightOpacity" value="0"/>
 	<property name="ImposterDontBlock" value="true"/>
@@ -3026,7 +3026,7 @@
 <block name="plantedCorn1T3FS" stage="1" traits="FS">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="UnlockedBy" value="perkLivingOffTheLand"/>
+	
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Shape" value="New"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -3040,6 +3040,7 @@
 	<drop event="Destroy" name="plantedCorn1T3FS" count="1"/>
 	
 	<property name="CustomIcon" value="plantedCorn1"/>
+	<property name="DescriptionKey" value="plantedCorn1T3FSDesc"/>
 </block>
 <block name="plantedCorn2T3FS" stage="2" traits="FS">
 	<property name="Extends" value="plantedCorn1T3FS"/>
@@ -3053,7 +3054,6 @@
 	<drop event="Destroy" name="plantedCorn1T3FS" count="1"/>
 </block>
 <block name="plantedCorn3T3FS" stage="3" traits="FS">
-	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="LightOpacity" value="0"/>
 	<property name="ImposterDontBlock" value="true"/>
@@ -3087,7 +3087,7 @@
 <block name="plantedCorn1T3EE" stage="1" traits="EE">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="UnlockedBy" value="perkLivingOffTheLand"/>
+	
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Shape" value="New"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -3101,6 +3101,7 @@
 	<drop event="Destroy" name="plantedCorn1T3EE" count="1"/>
 	
 	<property name="CustomIcon" value="plantedCorn1"/>
+	<property name="DescriptionKey" value="plantedCorn1T3EEDesc"/>
 </block>
 <block name="plantedCorn2T3EE" stage="2" traits="EE">
 	<property name="Extends" value="plantedCorn1T3EE"/>
@@ -3114,7 +3115,6 @@
 	<drop event="Destroy" name="plantedCorn1T3EE" count="1"/>
 </block>
 <block name="plantedCorn3T3EE" stage="3" traits="EE">
-	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="LightOpacity" value="0"/>
 	<property name="ImposterDontBlock" value="true"/>
@@ -3148,7 +3148,7 @@
 <block name="plantedCorn1T3ER" stage="1" traits="ER">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="UnlockedBy" value="perkLivingOffTheLand"/>
+	
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Shape" value="New"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -3162,6 +3162,7 @@
 	<drop event="Destroy" name="plantedCorn1T3ER" count="1"/>
 	
 	<property name="CustomIcon" value="plantedCorn1"/>
+	<property name="DescriptionKey" value="plantedCorn1T3ERDesc"/>
 </block>
 <block name="plantedCorn2T3ER" stage="2" traits="ER">
 	<property name="Extends" value="plantedCorn1T3ER"/>
@@ -3175,7 +3176,6 @@
 	<drop event="Destroy" name="plantedCorn1T3ER" count="1"/>
 </block>
 <block name="plantedCorn3T3ER" stage="3" traits="ER">
-	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="LightOpacity" value="0"/>
 	<property name="ImposterDontBlock" value="true"/>
@@ -3209,7 +3209,7 @@
 <block name="plantedCorn1T3ET" stage="1" traits="ET">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="UnlockedBy" value="perkLivingOffTheLand"/>
+	
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Shape" value="New"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -3223,6 +3223,7 @@
 	<drop event="Destroy" name="plantedCorn1T3ET" count="1"/>
 	
 	<property name="CustomIcon" value="plantedCorn1"/>
+	<property name="DescriptionKey" value="plantedCorn1T3ETDesc"/>
 </block>
 <block name="plantedCorn2T3ET" stage="2" traits="ET">
 	<property name="Extends" value="plantedCorn1T3ET"/>
@@ -3236,7 +3237,6 @@
 	<drop event="Destroy" name="plantedCorn1T3ET" count="1"/>
 </block>
 <block name="plantedCorn3T3ET" stage="3" traits="ET">
-	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="LightOpacity" value="0"/>
 	<property name="ImposterDontBlock" value="true"/>
@@ -3270,7 +3270,7 @@
 <block name="plantedCorn1T3ES" stage="1" traits="ES">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="UnlockedBy" value="perkLivingOffTheLand"/>
+	
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Shape" value="New"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -3284,6 +3284,7 @@
 	<drop event="Destroy" name="plantedCorn1T3ES" count="1"/>
 	
 	<property name="CustomIcon" value="plantedCorn1"/>
+	<property name="DescriptionKey" value="plantedCorn1T3ESDesc"/>
 </block>
 <block name="plantedCorn2T3ES" stage="2" traits="ES">
 	<property name="Extends" value="plantedCorn1T3ES"/>
@@ -3297,7 +3298,6 @@
 	<drop event="Destroy" name="plantedCorn1T3ES" count="1"/>
 </block>
 <block name="plantedCorn3T3ES" stage="3" traits="ES">
-	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="LightOpacity" value="0"/>
 	<property name="ImposterDontBlock" value="true"/>
@@ -3331,7 +3331,7 @@
 <block name="plantedCorn1T3RT" stage="1" traits="RT">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="UnlockedBy" value="perkLivingOffTheLand"/>
+	
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Shape" value="New"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -3345,6 +3345,7 @@
 	<drop event="Destroy" name="plantedCorn1T3RT" count="1"/>
 	
 	<property name="CustomIcon" value="plantedCorn1"/>
+	<property name="DescriptionKey" value="plantedCorn1T3RTDesc"/>
 </block>
 <block name="plantedCorn2T3RT" stage="2" traits="RT">
 	<property name="Extends" value="plantedCorn1T3RT"/>
@@ -3358,7 +3359,6 @@
 	<drop event="Destroy" name="plantedCorn1T3RT" count="1"/>
 </block>
 <block name="plantedCorn3T3RT" stage="3" traits="RT">
-	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="LightOpacity" value="0"/>
 	<property name="ImposterDontBlock" value="true"/>
@@ -3392,7 +3392,7 @@
 <block name="plantedCorn1T3RS" stage="1" traits="RS">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="UnlockedBy" value="perkLivingOffTheLand"/>
+	
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Shape" value="New"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -3406,6 +3406,7 @@
 	<drop event="Destroy" name="plantedCorn1T3RS" count="1"/>
 	
 	<property name="CustomIcon" value="plantedCorn1"/>
+	<property name="DescriptionKey" value="plantedCorn1T3RSDesc"/>
 </block>
 <block name="plantedCorn2T3RS" stage="2" traits="RS">
 	<property name="Extends" value="plantedCorn1T3RS"/>
@@ -3419,7 +3420,6 @@
 	<drop event="Destroy" name="plantedCorn1T3RS" count="1"/>
 </block>
 <block name="plantedCorn3T3RS" stage="3" traits="RS">
-	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="LightOpacity" value="0"/>
 	<property name="ImposterDontBlock" value="true"/>
@@ -3453,7 +3453,7 @@
 <block name="plantedCorn1T3TT" stage="1" traits="TT">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="UnlockedBy" value="perkLivingOffTheLand"/>
+	
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Shape" value="New"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -3467,6 +3467,7 @@
 	<drop event="Destroy" name="plantedCorn1T3TT" count="1"/>
 	
 	<property name="CustomIcon" value="plantedCorn1"/>
+	<property name="DescriptionKey" value="plantedCorn1T3TTDesc"/>
 </block>
 <block name="plantedCorn2T3TT" stage="2" traits="TT">
 	<property name="Extends" value="plantedCorn1T3TT"/>
@@ -3480,7 +3481,6 @@
 	<drop event="Destroy" name="plantedCorn1T3TT" count="1"/>
 </block>
 <block name="plantedCorn3T3TT" stage="3" traits="TT">
-	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="LightOpacity" value="0"/>
 	<property name="ImposterDontBlock" value="true"/>
@@ -3514,7 +3514,7 @@
 <block name="plantedCorn1T3TS" stage="1" traits="TS">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="UnlockedBy" value="perkLivingOffTheLand"/>
+	
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Shape" value="New"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -3528,6 +3528,7 @@
 	<drop event="Destroy" name="plantedCorn1T3TS" count="1"/>
 	
 	<property name="CustomIcon" value="plantedCorn1"/>
+	<property name="DescriptionKey" value="plantedCorn1T3TSDesc"/>
 </block>
 <block name="plantedCorn2T3TS" stage="2" traits="TS">
 	<property name="Extends" value="plantedCorn1T3TS"/>
@@ -3541,7 +3542,6 @@
 	<drop event="Destroy" name="plantedCorn1T3TS" count="1"/>
 </block>
 <block name="plantedCorn3T3TS" stage="3" traits="TS">
-	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="LightOpacity" value="0"/>
 	<property name="ImposterDontBlock" value="true"/>
@@ -3575,7 +3575,7 @@
 <block name="plantedCorn1T3SS" stage="1" traits="SS">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="UnlockedBy" value="perkLivingOffTheLand"/>
+	
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Shape" value="New"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -3589,6 +3589,7 @@
 	<drop event="Destroy" name="plantedCorn1T3SS" count="1"/>
 	
 	<property name="CustomIcon" value="plantedCorn1"/>
+	<property name="DescriptionKey" value="plantedCorn1T3SSDesc"/>
 </block>
 <block name="plantedCorn2T3SS" stage="2" traits="SS">
 	<property name="Extends" value="plantedCorn1T3SS"/>
@@ -3602,7 +3603,6 @@
 	<drop event="Destroy" name="plantedCorn1T3SS" count="1"/>
 </block>
 <block name="plantedCorn3T3SS" stage="3" traits="SS">
-	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="LightOpacity" value="0"/>
 	<property name="ImposterDontBlock" value="true"/>

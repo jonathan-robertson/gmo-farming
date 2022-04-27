@@ -6,41 +6,57 @@ import (
 )
 
 type Mushroom struct {
-	CropYield  int
-	BonusYield int
-	CraftTime  int
+	Name              string
+	NamePlural        string
+	DisplayName       string
+	PreferredConsumer string
+	Description       string
+	CropYield         int
+	BonusYield        int
+	CraftTime         int
 }
 
 func CreateMushroom() *Mushroom {
 	return &Mushroom{
-		CropYield:  2,
-		BonusYield: 1,
-		CraftTime:  2,
+		Name:              "Mushroom",
+		NamePlural:        "Mushrooms",
+		DisplayName:       "Mushroom Spore",
+		Description:       `Modified Mushroom spores can be planted on all surfaces and walls and will grow without sunlight.`,
+		PreferredConsumer: "Boars",
+		CropYield:         2,
+		BonusYield:        1,
+		CraftTime:         2,
 	}
+}
+
+func (m *Mushroom) GetName() string {
+	return m.Name
+}
+
+func (m *Mushroom) GetNamePlural() string {
+	return m.NamePlural
+}
+
+func (m *Mushroom) GetDisplayName() string {
+	return m.DisplayName
+}
+
+func (m *Mushroom) GetDescription() string {
+	return m.Description
+}
+
+func (m *Mushroom) GetPreferredConsumer() string {
+	return m.PreferredConsumer
+}
+func (m *Mushroom) GetCraftTime() int {
+	return m.CraftTime
 }
 
 func (*Mushroom) IsCompatibleWith(traits string) bool {
 	return !strings.ContainsRune(traits, 'U')
 }
 
-func (mushroom *Mushroom) WriteLocalization(c chan string, tier int, traits string) {
-	// TODO
-}
-
-// TODO: still need to call this and dump mods for extra recipe ingredients
-func (mushroom *Mushroom) WriteRecipeStubs(c chan string, tier int, traits string) {
-	c <- fmt.Sprintf(`<recipe name="plantedMushroom1T%d%s" count="1" craft_time="%d" tier="%d" traits="%s" tags="learnable">
-    <ingredient name="plantedMushroom1T%d" count="1"/>
-</recipe>`,
-		tier,
-		traits,
-		calculateCraftTime(mushroom.CraftTime, tier, traits),
-		tier,
-		traits,
-		tier-1)
-}
-
-func (mushroom *Mushroom) WriteStages(c chan string, tier int, traits string) {
+func (mushroom *Mushroom) WriteBlockStages(c chan string, tier int, traits string) {
 	suffix := fmt.Sprintf("T%d%s", tier, traits)
 	mushroom.WriteStage1(c, tier, traits, suffix)
 	mushroom.WriteStage2(c, tier, traits, suffix)
@@ -74,9 +90,11 @@ func (*Mushroom) WriteStage1(c chan string, tier int, traits, suffix string) {
 	<property name="PickupJournalEntry" value="farmingTip"/>
 
 	<property name="CustomIcon" value="plantedMushroom1"/>
+	<property name="DescriptionKey" value="plantedMushroom1%sDesc"/>
 </block>`,
 		suffix,
 		traits,
+		suffix,
 		suffix,
 		suffix)
 }
@@ -96,7 +114,6 @@ func (mushroom *Mushroom) WriteStage3(c chan string, tier int, traits, suffix st
 	c <- fmt.Sprintf(`<block name="plantedMushroom3%s" stage="3" traits="%s">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
-	<property name="DisplayInfo" value="Description"/>
 	<property name="Shape" value="Ext3dModel"/>
 	<property name="Texture" value="293"/>
 	<property name="Mesh" value="models"/>

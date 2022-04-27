@@ -2,8 +2,14 @@ package gen
 
 import (
 	"fmt"
+	"os"
 	"strings"
 )
+
+func getFile(filename string) (*os.File, error) {
+	os.Remove(filename)
+	return os.OpenFile(filename, os.O_APPEND|os.O_WRONLY|os.O_CREATE, 0755)
+}
 
 func calculateStandardNameSuffix(tier int, traits string) string {
 	return fmt.Sprintf("T%d%s", tier, traits)
@@ -17,12 +23,14 @@ func calculateCropYield(count, tier int, traits string) int {
 		count *= 4
 	}
 
+	// [B] Bonus
 	if strings.Contains(traits, "BB") {
 		count *= 2
 	} else if strings.Contains(traits, "B") {
 		count = int(float64(count) * 1.5)
 	}
 
+	// [R] Renewable
 	if strings.Contains(traits, "R") {
 		count = int(float64(count) * .75)
 	}
