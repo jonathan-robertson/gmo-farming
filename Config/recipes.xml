@@ -1,6 +1,6 @@
 <config>
 <append xpath="/recipes">
-<recipe name="plantedMushroom1T2" count="1" craft_time="200" tier="2" traits="">
+<recipe name="plantedMushroom1T2" count="1" craft_time="200" tier="2" traits="" craft_area="hotbox">
     <ingredient name="plantedMushroom1" count="1"/>
 </recipe>
 <recipe name="plantedMushroom1T2B" count="1" craft_time="2" tier="2" traits="B">
@@ -21,7 +21,7 @@
 <recipe name="plantedMushroom1T2S" count="1" craft_time="2" tier="2" traits="S">
     <ingredient name="plantedMushroom1T2" count="1"/>
 </recipe>
-<recipe name="plantedMushroom1T3" count="1" craft_time="200" tier="3" traits="">
+<recipe name="plantedMushroom1T3" count="1" craft_time="200" tier="3" traits="" craft_area="hotbox">
     <ingredient name="plantedMushroom1T2" count="1"/>
 </recipe>
 <recipe name="plantedMushroom1T3BB" count="1" craft_time="2" tier="3" traits="BB">
@@ -78,7 +78,7 @@
 <recipe name="plantedMushroom1T3SS" count="1" craft_time="2" tier="3" traits="SS">
     <ingredient name="plantedMushroom1T3" count="1"/>
 </recipe>
-<recipe name="plantedCorn1T2" count="1" craft_time="200" tier="2" traits="">
+<recipe name="plantedCorn1T2" count="1" craft_time="200" tier="2" traits="" craft_area="hotbox">
     <ingredient name="plantedCorn1" count="1"/>
 </recipe>
 <recipe name="plantedCorn1T2B" count="1" craft_time="2" tier="2" traits="B">
@@ -102,7 +102,7 @@
 <recipe name="plantedCorn1T2S" count="1" craft_time="2" tier="2" traits="S">
     <ingredient name="plantedCorn1T2" count="1"/>
 </recipe>
-<recipe name="plantedCorn1T3" count="1" craft_time="200" tier="3" traits="">
+<recipe name="plantedCorn1T3" count="1" craft_time="200" tier="3" traits="" craft_area="hotbox">
     <ingredient name="plantedCorn1T2" count="1"/>
 </recipe>
 <recipe name="plantedCorn1T3BB" count="1" craft_time="2" tier="3" traits="BB">

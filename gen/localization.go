@@ -23,6 +23,7 @@ func WritePlantLocalization() error {
 func producePlantLocalization(c chan string) {
 	defer close(c)
 	c <- "Key,File,Type,english"
+	// TODO: add localization for hotbox workbench
 	for _, plant := range Plants {
 		for _, tier := range []int{2, 3} {
 			// produce T2, T3 with no traits

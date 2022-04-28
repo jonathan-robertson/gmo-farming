@@ -8,7 +8,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [0.1.0] - ?
 
 - initial proof of concept
-- custom workstation and integrations are up next
+- generation of:
+  - blocks
+  - recipes
+  - localization (naming)
+- custom workstation and integrations with recipes
 - also planning a reorganization of how seeds are crafted
   - current
     - `Seed -> T2 Seed -> 1 Trait`

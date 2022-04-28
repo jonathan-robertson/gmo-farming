@@ -54,17 +54,20 @@ func producePlantRecipes(c chan string) {
 }
 
 func produceRecipeStub(c chan string, name string, tier int, traits string, craftTime int) {
-	var ingredientTier string
+	var ingredientTier, optionalCraftingArea string
 	switch true {
 	case tier == 2 && traits == "":
 		ingredientTier = ""
+		optionalCraftingArea = ` craft_area="hotbox"`
 	case tier == 3 && traits == "":
 		ingredientTier = "T2"
+		optionalCraftingArea = ` craft_area="hotbox"`
 	default:
 		ingredientTier = fmt.Sprintf("T%d", tier)
+		optionalCraftingArea = ``
 	}
 	// TODO: tags="learnable"
-	c <- fmt.Sprintf(`<recipe name="planted%s1T%d%s" count="1" craft_time="%d" tier="%d" traits="%s">
+	c <- fmt.Sprintf(`<recipe name="planted%s1T%d%s" count="1" craft_time="%d" tier="%d" traits="%s"%s>
     <ingredient name="planted%s1%s" count="1"/>
 </recipe>`,
 		name,
@@ -73,6 +76,7 @@ func produceRecipeStub(c chan string, name string, tier int, traits string, craf
 		calculateCraftTime(craftTime, tier, traits),
 		tier,
 		traits,
+		optionalCraftingArea,
 		name,
 		ingredientTier)
 }

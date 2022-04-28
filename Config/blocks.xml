@@ -1,5 +1,20 @@
 <config>
 <append xpath="/blocks">
+<block name="hotbox">
+			<property name="Extends" value="workbench"/>
+			<property name="CustomIcon" value="shapeFarmPlotRaised"/>
+			<property name="Shape" value="New"/>
+			<property name="Model" value="farm_plot_raised"/>
+			<property name="ModelOffset" value="1,0,1"/>
+			<property name="Texture" value="194,194,194,194,194,194"/>
+			<property name="UseGlobalUV" value="G,L,L,L,L,L"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="MultiBlockDim" value="1,1,1"/>
+			<property class="Workstation">
+				<property name="Modules" value="output"/>
+				<property name="CraftingAreaRecipes" value="hotbox"/>
+			</property>
+        </block>
 <block name="plantedMushroom1T2" stage="1" traits="">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
 	<property name="CreativeMode" value="Player"/>
