@@ -57,9 +57,6 @@
 <recipe name="plantedMushroom1T3EE" count="1" craft_time="2" tier="3" traits="EE">
     <ingredient name="plantedMushroom1T3" count="1"/>
 </recipe>
-<recipe name="plantedMushroom1T3ER" count="1" craft_time="2" tier="3" traits="ER">
-    <ingredient name="plantedMushroom1T3" count="1"/>
-</recipe>
 <recipe name="plantedMushroom1T3ET" count="1" craft_time="2" tier="3" traits="ET">
     <ingredient name="plantedMushroom1T3" count="1"/>
 </recipe>
@@ -154,9 +151,6 @@
     <ingredient name="plantedCorn1T3" count="1"/>
 </recipe>
 <recipe name="plantedCorn1T3EE" count="1" craft_time="2" tier="3" traits="EE">
-    <ingredient name="plantedCorn1T3" count="1"/>
-</recipe>
-<recipe name="plantedCorn1T3ER" count="1" craft_time="2" tier="3" traits="ER">
     <ingredient name="plantedCorn1T3" count="1"/>
 </recipe>
 <recipe name="plantedCorn1T3ET" count="1" craft_time="2" tier="3" traits="ET">

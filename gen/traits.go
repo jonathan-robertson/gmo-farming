@@ -16,8 +16,8 @@ var Traits []Trait = []Trait{
 	{code: 'B', name: "Bonus", incompatible: []rune{'E'}},
 	{code: 'U', name: "Underground", incompatible: []rune{'U', 'S'}},
 	{code: 'F', name: "Fast"},
-	{code: 'E', name: "Explosive", incompatible: []rune{'B'}},
-	{code: 'R', name: "Renewable", incompatible: []rune{'R'}}, // TODO: compatible with S or not?
+	{code: 'E', name: "Explosive", incompatible: []rune{'B', 'R'}},
+	{code: 'R', name: "Renewable", incompatible: []rune{'R', 'E'}}, // TODO: compatible with S or not?
 	{code: 'T', name: "Thorny"},
 	{code: 'S', name: "Sweet", incompatible: []rune{'U'}}, // TODO: compatible with R or not?
 }

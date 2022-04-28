@@ -75,10 +75,6 @@ plantedMushroom1T3EE,blocks,Farming,Mushroom Spore (T3EE Seed)
 plantedMushroom2T3EE,blocks,Farming,Mushrooms (Growing)
 plantedMushroom3T3EE,blocks,Farming,Mushrooms
 plantedMushroom1T3EEDesc,blocks,Farming,"Modified Mushroom spores can be planted on all surfaces and walls and will grow without sunlight.\n\nLarge Explosive: triggers a large, concealed explosive when stepped on, struck with a melee weapon, or hit with an arrow.\n- Due to the flexible nature of plants, the detonator will not trigger if struck with bullets or other explosives."
-plantedMushroom1T3ER,blocks,Farming,Mushroom Spore (T3ER Seed)
-plantedMushroom2T3ER,blocks,Farming,Mushrooms (Growing)
-plantedMushroom3T3ER,blocks,Farming,Mushrooms
-plantedMushroom1T3ERDesc,blocks,Farming,"Modified Mushroom spores can be planted on all surfaces and walls and will grow without sunlight.\n\nExplosive: triggers a concealed explosive when stepped on, struck with a melee weapon, or hit with an arrow.\n- Due to the flexible nature of plants, the detonator will not trigger if struck with bullets or other explosives.\n\nRenewable: clean, healthy water allows this plant to spread out its roots and bolster its nutrition absorption and allowing it to produce crops endlessly."
 plantedMushroom1T3ET,blocks,Farming,Mushroom Spore (T3ET Seed)
 plantedMushroom2T3ET,blocks,Farming,Mushrooms (Growing)
 plantedMushroom3T3ET,blocks,Farming,Mushrooms
@@ -207,10 +203,6 @@ plantedCorn1T3EE,blocks,Farming,Corn (T3EE Seed)
 plantedCorn2T3EE,blocks,Farming,Corn (Growing)
 plantedCorn3T3EE,blocks,Farming,Corn
 plantedCorn1T3EEDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\nLarge Explosive: triggers a large, concealed explosive when stepped on, struck with a melee weapon, or hit with an arrow.\n- Due to the flexible nature of plants, the detonator will not trigger if struck with bullets or other explosives."
-plantedCorn1T3ER,blocks,Farming,Corn (T3ER Seed)
-plantedCorn2T3ER,blocks,Farming,Corn (Growing)
-plantedCorn3T3ER,blocks,Farming,Corn
-plantedCorn1T3ERDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\nExplosive: triggers a concealed explosive when stepped on, struck with a melee weapon, or hit with an arrow.\n- Due to the flexible nature of plants, the detonator will not trigger if struck with bullets or other explosives.\n\nRenewable: clean, healthy water allows this plant to spread out its roots and bolster its nutrition absorption and allowing it to produce crops endlessly."
 plantedCorn1T3ET,blocks,Farming,Corn (T3ET Seed)
 plantedCorn2T3ET,blocks,Farming,Corn (Growing)
 plantedCorn3T3ET,blocks,Farming,Corn
