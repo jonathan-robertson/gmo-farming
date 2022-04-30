@@ -41,7 +41,7 @@ func (t *Trait) getDoubleTraitDescription(preferredConsumer string) string {
 		return fmt.Sprintf(`\n\n%s: reaches maturity in a quarter of the time.`,
 			t.doubleName)
 	case 'E':
-		return fmt.Sprintf(`\n\n%s: triggers a large, concealed explosive when stepped on, struck with a melee weapon, or hit with an arrow.\n- Due to the flexible nature of plants, the detonator will not trigger if struck with bullets or other explosives.`,
+		return fmt.Sprintf(`\n\n%s: triggers a concealed explosive with a large payload when stepped on, struck with a melee weapon, or hit with an arrow.\n- Due to the flexible nature of plants, the detonator will not trigger if struck with bullets or other explosives.`,
 			t.doubleName)
 	case 'T':
 		return fmt.Sprintf(`\n\n%s: integrates with many sharp, metal thorns. Touching them will cause one to receive damage and bleed.`,
@@ -58,25 +58,25 @@ func (t *Trait) getTraitDescription(preferredConsumer string) string {
 	switch t.code {
 	case 'B':
 		return fmt.Sprintf(`\n\n%s: produces 2x the typical crop yield.`,
-			t.doubleName)
+			t.name)
 	case 'U':
 		return fmt.Sprintf(`\n\n%s: fused with mushroom dna, alowing growth without the need for sunlight.`,
-			t.doubleName)
+			t.name)
 	case 'F':
 		return fmt.Sprintf(`\n\n%s: reaches maturity in half the time.`,
-			t.doubleName)
+			t.name)
 	case 'E':
 		return fmt.Sprintf(`\n\n%s: triggers a concealed explosive when stepped on, struck with a melee weapon, or hit with an arrow.\n- Due to the flexible nature of plants, the detonator will not trigger if struck with bullets or other explosives.`,
-			t.doubleName)
+			t.name)
 	case 'R':
 		return fmt.Sprintf(`\n\n%s: clean, healthy water allows this plant to spread out its roots and bolster its nutrition absorption and allowing it to produce crops endlessly.`,
-			t.doubleName)
+			t.name)
 	case 'T':
 		return fmt.Sprintf(`\n\n%s: integrates with sharp, metal thorns. Touching them will cause one to bleed.`,
-			t.doubleName)
+			t.name)
 	case 'S':
 		return fmt.Sprintf(`\n\n%s: produces a sweet aroma upon reaching maturity, providing the possibility of attracting an animal.\n- %s are especially attracted to this type of plant.`,
-			t.doubleName,
+			t.name,
 			preferredConsumer)
 	}
 	return ""

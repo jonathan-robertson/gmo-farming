@@ -14,6 +14,7 @@ type Mushroom struct {
 	CropYield         int
 	BonusYield        int
 	CraftTime         int
+	incompatible      string
 }
 
 func CreateMushroom() *Mushroom {
@@ -26,6 +27,7 @@ func CreateMushroom() *Mushroom {
 		CropYield:         2,
 		BonusYield:        1,
 		CraftTime:         2,
+		incompatible:      "U",
 	}
 }
 
@@ -52,8 +54,8 @@ func (m *Mushroom) GetCraftTime() int {
 	return m.CraftTime
 }
 
-func (*Mushroom) IsCompatibleWith(traits string) bool {
-	return !strings.ContainsRune(traits, 'U')
+func (m *Mushroom) IsCompatibleWith(trait rune) bool {
+	return !strings.ContainsRune(m.incompatible, trait)
 }
 
 func (mushroom *Mushroom) WriteBlockStages(c chan string, traits string) {
@@ -142,6 +144,6 @@ func (mushroom *Mushroom) WriteStage3(c chan string, traits string) {
 		calculateCropYield(mushroom.CropYield, traits),
 		calculateBonusYield(mushroom.BonusYield, traits),
 		traits,
-		optionallyAddRenewable(traits, "plantedMushroom1", traits))
+		optionallyAddRenewable(traits, mushroom))
 	// TODO: <property name="CreativeMode" value="None"/>
 }

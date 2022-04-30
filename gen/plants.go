@@ -1,7 +1,7 @@
 package gen
 
 type Plant interface {
-	IsCompatibleWith(string) bool
+	IsCompatibleWith(rune) bool
 	WriteBlockStages(chan string, string)
 	GetName() string
 	GetNamePlural() string

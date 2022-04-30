@@ -46,9 +46,11 @@ func calculateCraftTime(time int, traits string) int {
 	return time
 }
 
-func optionallyAddRenewable(traits string, name ...string) string {
-	if strings.Contains(traits, "R") {
-		return fmt.Sprintf(`<property name="DowngradeBlock" value="%s" />`, strings.Join(name, ""))
+func optionallyAddRenewable(traits string, plant Plant) string {
+	if strings.ContainsRune(traits, 'R') {
+		return fmt.Sprintf(`<property name="DowngradeBlock" value="planted%s1_%s" />`,
+			plant.GetName(),
+			traits)
 	}
 	return ""
 }

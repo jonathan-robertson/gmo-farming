@@ -29,15 +29,13 @@ func producePlantBlocks(c chan string) {
 		// produce T2, T3 with no traits
 		plant.WriteBlockStages(c, "")
 		for i1 := 0; i1 < len(Traits); i1++ {
-			traits := fmt.Sprintf("%c", Traits[i1].code)
-			if plant.IsCompatibleWith(traits) {
-				plant.WriteBlockStages(c, traits)
+			if plant.IsCompatibleWith(Traits[i1].code) {
+				plant.WriteBlockStages(c, fmt.Sprintf("%c", Traits[i1].code))
 			}
 			for i2 := i1; i2 < len(Traits); i2++ {
 				if Traits[i1].isCompatibleWith(Traits[i2]) {
-					traits := fmt.Sprintf("%c%c", Traits[i1].code, Traits[i2].code)
-					if plant.IsCompatibleWith(traits) {
-						plant.WriteBlockStages(c, traits)
+					if plant.IsCompatibleWith(Traits[i1].code) && plant.IsCompatibleWith(Traits[i2].code) {
+						plant.WriteBlockStages(c, fmt.Sprintf("%c%c", Traits[i1].code, Traits[i2].code))
 					}
 				}
 			}

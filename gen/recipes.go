@@ -27,15 +27,13 @@ func producePlantRecipes(c chan string) {
 	for _, plant := range Plants {
 		produceRecipeStub(c, plant.GetName(), "", plant.GetCraftTime())
 		for i1 := 0; i1 < len(Traits); i1++ {
-			traits := fmt.Sprintf("%c", Traits[i1].code)
-			if plant.IsCompatibleWith(traits) {
-				produceRecipeStub(c, plant.GetName(), traits, plant.GetCraftTime())
+			if plant.IsCompatibleWith(Traits[i1].code) {
+				produceRecipeStub(c, plant.GetName(), fmt.Sprintf("%c", Traits[i1].code), plant.GetCraftTime())
 			}
 			for i2 := i1; i2 < len(Traits); i2++ {
 				if Traits[i1].isCompatibleWith(Traits[i2]) {
-					traits := fmt.Sprintf("%c%c", Traits[i1].code, Traits[i2].code)
-					if plant.IsCompatibleWith(traits) {
-						produceRecipeStub(c, plant.GetName(), traits, plant.GetCraftTime())
+					if plant.IsCompatibleWith(Traits[i1].code) && plant.IsCompatibleWith(Traits[i2].code) {
+						produceRecipeStub(c, plant.GetName(), fmt.Sprintf("%c%c", Traits[i1].code, Traits[i2].code), plant.GetCraftTime())
 					}
 				}
 			}
@@ -47,20 +45,25 @@ func producePlantRecipes(c chan string) {
 }
 
 func produceRecipeStub(c chan string, name string, traits string, craftTime int) {
-	var optionalCraftingArea string
-	if traits != "" {
-		optionalCraftingArea = ` craft_area="hotbox"`
-	}
-	// TODO: tags="learnable"
-	c <- fmt.Sprintf(`<recipe name="planted%s1_%s" count="1" craft_time="%d" traits="%s"%s>
+	if traits == "" {
+		// TODO: tags="learnable"
+		c <- fmt.Sprintf(`<recipe name="planted%s1_" count="1" craft_time="%d" traits="">
+    <ingredient name="planted%s1" count="1"/>
+</recipe>`,
+			name,
+			calculateCraftTime(craftTime, traits),
+			name)
+	} else {
+		// TODO: tags="learnable"
+		c <- fmt.Sprintf(`<recipe name="planted%s1_%s" count="1" craft_time="%d" traits="%s" craft_area="hotbox">
     <ingredient name="planted%s1_" count="1"/>
 </recipe>`,
-		name,
-		traits,
-		calculateCraftTime(craftTime, traits),
-		traits,
-		optionalCraftingArea,
-		name)
+			name,
+			traits,
+			calculateCraftTime(craftTime, traits),
+			traits,
+			name)
+	}
 }
 
 func produceRecipeModifications(c chan string) {

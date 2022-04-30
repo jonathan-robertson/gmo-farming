@@ -27,14 +27,12 @@ func producePlantLocalization(c chan string) {
 	for _, plant := range Plants {
 		ProduceLocalization(c, plant)
 		for i1 := 0; i1 < len(Traits); i1++ {
-			traits := fmt.Sprintf("%c", Traits[i1].code)
-			if plant.IsCompatibleWith(traits) {
+			if plant.IsCompatibleWith(Traits[i1].code) {
 				ProduceLocalization(c, plant, Traits[i1])
 			}
 			for i2 := i1; i2 < len(Traits); i2++ {
 				if Traits[i1].isCompatibleWith(Traits[i2]) {
-					traits := fmt.Sprintf("%c%c", Traits[i1].code, Traits[i2].code)
-					if plant.IsCompatibleWith(traits) {
+					if plant.IsCompatibleWith(Traits[i1].code) && plant.IsCompatibleWith(Traits[i2].code) {
 						ProduceLocalization(c, plant, Traits[i1], Traits[i2])
 					}
 				}
@@ -54,7 +52,7 @@ func ProduceLocalization(c chan string, plant Plant, traits ...Trait) {
 	switch len(traits) {
 	case 0:
 		c <- fmt.Sprintf(`planted%s1_,blocks,Farming,Upgraded %s (Seed)`,
-			plant.GetName(), traits, plant.GetDisplayName(), traits)
+			plant.GetName(), plant.GetDisplayName())
 		c <- fmt.Sprintf(`planted%s2_,blocks,Farming,Upgraded %s (Growing)`,
 			plant.GetName(), plant.GetNamePlural())
 		// TODO: rename stage 3 to something more generic if players can see the name
@@ -64,7 +62,7 @@ func ProduceLocalization(c chan string, plant Plant, traits ...Trait) {
 			plant.GetName(), plant.GetDescription())
 	case 1:
 		c <- fmt.Sprintf(`planted%s1_%c,blocks,Farming,%s %s (Seed)`,
-			plant.GetName(), traits[0].code, traits[0].name, plant.GetDisplayName(), traits)
+			plant.GetName(), traits[0].code, traits[0].name, plant.GetDisplayName())
 		c <- fmt.Sprintf(`planted%s2_%c,blocks,Farming,%s %s (Growing)`,
 			plant.GetName(), traits[0].code, traits[0].name, plant.GetNamePlural())
 		// TODO: rename stage 3 to something more generic if players can see the name
@@ -76,7 +74,7 @@ func ProduceLocalization(c chan string, plant Plant, traits ...Trait) {
 	case 2:
 		if traits[0].code == traits[1].code {
 			c <- fmt.Sprintf(`planted%s1_%c%c,blocks,Farming,%s %s (Seed)`,
-				plant.GetName(), traits[0].code, traits[1].code, traits[0].doubleName, plant.GetDisplayName(), traits)
+				plant.GetName(), traits[0].code, traits[1].code, traits[0].doubleName, plant.GetDisplayName())
 			c <- fmt.Sprintf(`planted%s2_%c%c,blocks,Farming,%s %s (Growing)`,
 				plant.GetName(), traits[0].code, traits[1].code, traits[0].doubleName, plant.GetNamePlural())
 			// TODO: rename stage 3 to something more generic if players can see the name
@@ -86,12 +84,12 @@ func ProduceLocalization(c chan string, plant Plant, traits ...Trait) {
 				plant.GetName(), traits[0].code, traits[1].code, plant.GetDescription(),
 				traits[0].getDoubleTraitDescription(plant.GetPreferredConsumer()))
 		} else {
-			c <- fmt.Sprintf(`planted%s1_%c%c,blocks,Farming,%s, %s %s (Seed)`,
-				plant.GetName(), traits[0].code, traits[1].code, traits[0].name, traits[1].name, plant.GetDisplayName(), traits)
-			c <- fmt.Sprintf(`planted%s2_%c%c,blocks,Farming,%s, %s %s (Growing)`,
+			c <- fmt.Sprintf(`planted%s1_%c%c,blocks,Farming,"%s, %s %s (Seed)"`,
+				plant.GetName(), traits[0].code, traits[1].code, traits[0].name, traits[1].name, plant.GetDisplayName())
+			c <- fmt.Sprintf(`planted%s2_%c%c,blocks,Farming,"%s, %s %s (Growing)"`,
 				plant.GetName(), traits[0].code, traits[1].code, traits[0].name, traits[1].name, plant.GetNamePlural())
 			// TODO: rename stage 3 to something more generic if players can see the name
-			c <- fmt.Sprintf(`planted%s3_%c%c,blocks,Farming,%s, %s %s`,
+			c <- fmt.Sprintf(`planted%s3_%c%c,blocks,Farming,"%s, %s %s"`,
 				plant.GetName(), traits[0].code, traits[1].code, traits[0].name, traits[1].name, plant.GetNamePlural())
 			c <- fmt.Sprintf(`planted%s1_%c%cDesc,blocks,Farming,"%s%s%s"`,
 				plant.GetName(), traits[0].code, traits[1].code, plant.GetDescription(),

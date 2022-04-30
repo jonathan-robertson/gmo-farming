@@ -54,7 +54,7 @@ func (c *Corn) GetCraftTime() int {
 	return c.CraftTime
 }
 
-func (*Corn) IsCompatibleWith(traits string) bool {
+func (*Corn) IsCompatibleWith(trait rune) bool {
 	return true
 }
 
@@ -150,6 +150,6 @@ func (corn *Corn) WriteStage3(c chan string, traits string) {
 		calculateCropYield(corn.CropYield, traits),
 		calculateBonusYield(corn.BonusYield, traits),
 		traits,
-		optionallyAddRenewable(traits, "plantedCorn1"))
+		optionallyAddRenewable(traits, corn))
 	// TODO: <property name="CreativeMode" value="None"/>
 }
