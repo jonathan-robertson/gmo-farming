@@ -23,6 +23,7 @@ func WritePlantLocalization() error {
 func producePlantLocalization(c chan string) {
 	defer close(c)
 	c <- "Key,File,Type,english"
+	ProduceHotBoxLocalization(c)
 	// TODO: add localization for hotbox workbench
 	for _, plant := range Plants {
 		for _, tier := range []int{2, 3} {
@@ -97,4 +98,11 @@ func ProduceLocalizationDescription(c chan string, plant Plant, tier int, traits
 				traits[1].getTraitDescription(plant.GetPreferredConsumer()))
 		}
 	}
+}
+
+func ProduceHotBoxLocalization(c chan string) {
+	c <- `hotbox,blocks,Workstation,Hot Box`
+	c <- `hotboxDesc,blocks,Workstation,The Hot Box is a simple workstation that allows seeds to slowly absorb the viral zombie mutagens.`
+	c <- `hotboxTip,Journal Tip,,"The Hot Box is a simple workstation that allows seeds to slowly absorb the viral zombie mutagens.\n\nLeaving seeds and meat in this box will slowly attract zombies at the same rate a workbench would."`
+	c <- `hotboxTip_title,Journal Tip,,Hot Box`
 }

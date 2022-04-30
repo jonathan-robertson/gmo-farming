@@ -1,4 +1,8 @@
 Key,File,Type,english
+hotbox,blocks,Workstation,Hot Box
+hotboxDesc,blocks,Workstation,The Hot Box is a simple workstation that allows seeds to slowly absorb the viral zombie mutagens.
+hotboxTip,Journal Tip,,"The Hot Box is a simple workstation that allows seeds to slowly absorb the viral zombie mutagens.\n\nLeaving seeds and meat in this box will slowly attract zombies at the same rate a workbench would."
+hotboxTip_title,Journal Tip,,Hot Box
 plantedMushroom1T2,blocks,Farming,Mushroom Spore (T2 Seed)
 plantedMushroom2T2,blocks,Farming,Mushrooms (Growing)
 plantedMushroom3T2,blocks,Farming,Mushrooms

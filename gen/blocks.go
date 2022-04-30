@@ -54,83 +54,62 @@ func producePlantBlocks(c chan string) {
 	c <- `</config>`
 }
 
-// TODO: add hinge sound? Maybe similar to secure_storage or drawer?
-// <property name="CustomIcon" value="farmPlotBlockRaised"/>
-/*
+func produceWorkstationHotBox(c chan string) {
+	c <- `<block name="hotbox">
 	<property name="Extends" value="workbench"/>
-	<property name="CustomIcon" value="shapeFarmPlotRaised"/>
-	<property name="Shape" value="New"/>
-	<property name="Model" value="farm_plot_raised"/>
-	<property name="ModelOffset" value="1,0,1"/>
-	<property name="Texture" value="194,194,194,194,194,194"/>
-	<property name="UseGlobalUV" value="G,L,L,L,L,L"/>
-	<property name="DisplayType" value="blockMulti"/>
-	<property name="MultiBlockDim" value="1,1,1"/>
 	<property class="Workstation">
 		<property name="Modules" value="output"/>
 		<property name="CraftingAreaRecipes" value="hotbox"/>
 	</property>
-
-	<property name="OpenSound" value="campfire_open"/>
-	<property name="CloseSound" value="campfire_close"/>
-	<property name="CraftSound" value="campfire_cook_click"/>
-
-	<property class="RepairItems">
-		<property name="resourceRockSmall" value="5"/>
-	</property>
-
-
-	<!--<property name="Group" value="Food/Cooking"/>-->
-	<property name="FilterTags" value="MC_playerBlocks,SC_decor"/>
-
-
+	
+	<property name="ModelOffset" value="1,0,1"/>
+	<property name="MultiBlockDim" value="1,1,1"/>
 	<property name="StabilitySupport" value="true"/>
-	<property name="DescriptionKey" value="campfireDesc"/>
-*/
-func produceWorkstationHotBox(c chan string) {
-	/*
-			c <- `<block name="hotbox">
-			<property name="Extends" value="workbench"/>
-			<property name="CustomIcon" value="shapeFarmPlotRaised"/>
-			<property name="CreativeMode" value="Player"/>
-			<property name="Material" value="Mmetal"/>
-			<property name="Texture" value="194,194,194,194,194,194"/>
-			<property name="UseGlobalUV" value="G,L,L,L,L,L"/>
-			<property name="Shape" value="New"/>
-			<property name="Model" value="farm_plot_raised"/>
-			<property name="FilterTags" value="MC_playerBlocks,SC_decor"/>
+	<property name="IsTerrainDecoration" value="false"/>
+	<property name="DisplayType" value="blockMulti"/>
+	
+	<!-- from farmPlotRaised shape -->
+	<property name="Path" value="solid"/>  <!-- This is a hint for the AI; see XML.txt -->
+	<property name="Shape" value="New"/>
+	<property name="Model" value="farm_plot_raised"/>
+	<property name="CustomIcon" value="shapeFarmPlotRaised"/>
+	<property name="ImposterExchange" value="imposterBlock"/>
+	<property name="UseGlobalUV" value="G,L,L,L,L,L"/>
 
-			<drop event="Destroy" name="resourceClayLump" count="0" tag="oreWoodHarvest"/>
-			<drop event="Destroy" name="resourcePotassiumNitratePowder" count="0" tag="oreWoodHarvest"/>
-			<property name="ModelOffset" value="1,0,1"/>
-			<property name="DisplayType" value="blockMulti"/>
-			<property name="MultiBlockDim" value="1,1,1"/>
-			<property class="Workstation">
-				<property name="Modules" value="output"/>
-				<property name="CraftingAreaRecipes" value="hotbox"/>
-			</property>
-			<property name="OpenSound" value="campfire_open"/>
-			<property name="CloseSound" value="campfire_close"/>
-			<property name="CraftSound" value="campfire_cook_click"/>
-			<property name="StabilitySupport" value="true"/>
-		</block>`
-	*/
-	// Shavick's imported version
-	c <- `<block name="hotbox">
-			<property name="Extends" value="workbench"/>
-			<property name="CustomIcon" value="shapeFarmPlotRaised"/>
-			<property name="Shape" value="New"/>
-			<property name="Model" value="farm_plot_raised"/>
-			<property name="ModelOffset" value="1,0,1"/>
-			<property name="Texture" value="194,194,194,194,194,194"/>
-			<property name="UseGlobalUV" value="G,L,L,L,L,L"/>
-			<property name="DisplayType" value="blockMulti"/>
-			<property name="MultiBlockDim" value="1,1,1"/>
-			<property class="Workstation">
-				<property name="Modules" value="output"/>
-				<property name="CraftingAreaRecipes" value="hotbox"/>
-			</property>
-        </block>`
+	<!-- from corrugatedMetalShapes -->
+	<property name="Texture" value="194"/>
+	<property name="UiBackgroundTexture" value="194"/>
+
+	<!-- audio -->
+	<property name="OpenSound" value="drone_storage_open"/>
+	<property name="CloseSound" value="drone_storage_close"/>
+	
+	<!-- Localization -->
+	<property name="WorkstationJournalTip" value="hotboxTip"/>
+	<property name="DescriptionKey" value="hotboxDesc"/>
+
+	<!-- recipe/unlock -->
+	<property name="UnlockedBy" value="perkAdvancedEngineering,workbenchSchematic"/>
+	<!-- TODO: use these ingredients for the recipe since they'll drop (thanks, workbench)
+		<drop event="Harvest" name="resourceScrapIron" count="200" tag="allHarvest"/>
+		<drop event="Harvest" name="resourceWood" count="20" tag="allHarvest"/>
+		<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+		<drop event="Harvest" name="resourceForgedIron" count="10" tag="salvageHarvest"/>
+		<drop event="Harvest" name="resourceMechanicalParts" count="8" tag="salvageHarvest"/>
+		<drop event="Harvest" name="resourceWood" count="20" tag="salvageHarvest"/>
+	-->
+	<property name="EconomicValue" value="2000"/>
+
+	<!-- TODO: Heat -->
+	<property name="HeatMapStrength" value="2"/>
+	<property name="HeatMapTime" value="5000"/>
+	<property name="HeatMapFrequency" value="1000"/>
+
+	<!-- TODO: Other -->
+	<property name="TakeDelay" value="5"/>
+	<property name="WorkstationIcon" value="ui_game_symbol_workbench"/>
+</block>`
+
 }
 
 func produceBlockModifications(c chan string) {

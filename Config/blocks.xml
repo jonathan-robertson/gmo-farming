@@ -1,20 +1,59 @@
 <config>
 <append xpath="/blocks">
 <block name="hotbox">
-			<property name="Extends" value="workbench"/>
-			<property name="CustomIcon" value="shapeFarmPlotRaised"/>
-			<property name="Shape" value="New"/>
-			<property name="Model" value="farm_plot_raised"/>
-			<property name="ModelOffset" value="1,0,1"/>
-			<property name="Texture" value="194,194,194,194,194,194"/>
-			<property name="UseGlobalUV" value="G,L,L,L,L,L"/>
-			<property name="DisplayType" value="blockMulti"/>
-			<property name="MultiBlockDim" value="1,1,1"/>
-			<property class="Workstation">
-				<property name="Modules" value="output"/>
-				<property name="CraftingAreaRecipes" value="hotbox"/>
-			</property>
-        </block>
+	<property name="Extends" value="workbench"/>
+	<property class="Workstation">
+		<property name="Modules" value="output"/>
+		<property name="CraftingAreaRecipes" value="hotbox"/>
+	</property>
+	
+	<property name="ModelOffset" value="1,0,1"/>
+	<property name="MultiBlockDim" value="1,1,1"/>
+	<property name="StabilitySupport" value="true"/>
+	<property name="IsTerrainDecoration" value="false"/>
+	<property name="DisplayType" value="blockMulti"/>
+	
+	<!-- from farmPlotRaised shape -->
+	<property name="Path" value="solid"/>  <!-- This is a hint for the AI; see XML.txt -->
+	<property name="Shape" value="New"/>
+	<property name="Model" value="farm_plot_raised"/>
+	<property name="CustomIcon" value="shapeFarmPlotRaised"/>
+	<property name="ImposterExchange" value="imposterBlock"/>
+	<property name="UseGlobalUV" value="G,L,L,L,L,L"/>
+
+	<!-- from corrugatedMetalShapes -->
+	<property name="Texture" value="194"/>
+	<property name="UiBackgroundTexture" value="194"/>
+
+	<!-- audio -->
+	<property name="OpenSound" value="drone_storage_open"/>
+	<property name="CloseSound" value="drone_storage_close"/>
+	
+	<!-- Localization -->
+	<property name="WorkstationJournalTip" value="hotboxTip"/>
+	<property name="DescriptionKey" value="hotboxDesc"/>
+
+	<!-- recipe/unlock -->
+	<property name="UnlockedBy" value="perkAdvancedEngineering,workbenchSchematic"/>
+	<!-- TODO: use these ingredients for the recipe since they'll drop (thanks, workbench)
+		<drop event="Harvest" name="resourceScrapIron" count="200" tag="allHarvest"/>
+		<drop event="Harvest" name="resourceWood" count="20" tag="allHarvest"/>
+		<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+		<drop event="Harvest" name="resourceForgedIron" count="10" tag="salvageHarvest"/>
+		<drop event="Harvest" name="resourceMechanicalParts" count="8" tag="salvageHarvest"/>
+		<drop event="Harvest" name="resourceWood" count="20" tag="salvageHarvest"/>
+	-->
+	<property name="EconomicValue" value="2000"/>
+
+	<!-- TODO: Heat -->
+	<property name="HeatMapStrength" value="2"/>
+	<property name="HeatMapTime" value="5000"/>
+	<property name="HeatMapFrequency" value="1000"/>
+
+	<!-- TODO: Other -->
+	<property name="TakeDelay" value="5"/>
+	<property name="WorkstationIcon" value="ui_game_symbol_workbench"/>
+</block>
 <block name="plantedMushroom1T2" stage="1" traits="">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
 	<property name="CreativeMode" value="Player"/>
