@@ -1,6 +1,6 @@
 <config>
 <append xpath="/recipes">
-<recipe name="plantedMushroom1_" count="1" craft_time="2000" traits="">
+<recipe name="plantedMushroom1_" count="1" craft_time="900" traits="">
     <ingredient name="plantedMushroom1" count="1"/>
 </recipe>
 <recipe name="plantedMushroom1_B" count="1" craft_time="2" traits="B" craft_area="hotbox">
@@ -75,7 +75,7 @@
 <recipe name="plantedMushroom1_SS" count="1" craft_time="2" traits="SS" craft_area="hotbox">
     <ingredient name="plantedMushroom1_" count="1"/>
 </recipe>
-<recipe name="plantedCorn1_" count="1" craft_time="2000" traits="">
+<recipe name="plantedCorn1_" count="1" craft_time="900" traits="">
     <ingredient name="plantedCorn1" count="1"/>
 </recipe>
 <recipe name="plantedCorn1_B" count="1" craft_time="2" traits="B" craft_area="hotbox">

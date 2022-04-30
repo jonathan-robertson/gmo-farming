@@ -41,7 +41,7 @@ func calculateBonusYield(count int, traits string) int {
 
 func calculateCraftTime(time int, traits string) int {
 	if traits == "" {
-		time *= 1000
+		time *= 450
 	}
 	return time
 }
@@ -53,4 +53,20 @@ func optionallyAddRenewable(traits string, plant Plant) string {
 			traits)
 	}
 	return ""
+}
+
+func getDefaultSeedDescription() string {
+	return `Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.`
+}
+
+func getEnhancedSeedEffectDescription() string {
+	return `All GMO Seeds twice the crop yield.`
+}
+
+func getInitialEnhancementCraftingTip() string {
+	return `This can be crafted by hand or in a Hot Box.`
+}
+
+func getHotBoxRequirementTip() string {
+	return `A Hot Box is required to craft this.`
 }

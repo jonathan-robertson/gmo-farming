@@ -41,7 +41,7 @@ func (c *Corn) GetDisplayName() string {
 
 func (c *Corn) GetDescription() string {
 	if c.Description == "" {
-		return `Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.`
+		return getDefaultSeedDescription()
 	}
 	return c.Description
 }

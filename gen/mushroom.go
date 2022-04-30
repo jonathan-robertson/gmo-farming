@@ -22,7 +22,7 @@ func CreateMushroom() *Mushroom {
 		Name:              "Mushroom",
 		NamePlural:        "Mushrooms",
 		DisplayName:       "Mushroom Spore",
-		Description:       `Modified Mushroom spores can be planted on all surfaces and walls and will grow without sunlight.`,
+		Description:       `Mushroom spores can be planted on all surfaces and walls and will grow without sunlight.`,
 		PreferredConsumer: "Boars",
 		CropYield:         2,
 		BonusYield:        1,

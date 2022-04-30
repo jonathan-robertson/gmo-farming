@@ -51,50 +51,63 @@ func producePlantLocalization(c chan string) {
 func ProduceLocalization(c chan string, plant Plant, traits ...Trait) {
 	switch len(traits) {
 	case 0:
-		c <- fmt.Sprintf(`planted%s1_,blocks,Farming,Upgraded %s (Seed)`,
+		c <- fmt.Sprintf(`planted%s1_,blocks,Farming,Enhanced %s (Seed)`,
 			plant.GetName(), plant.GetDisplayName())
-		c <- fmt.Sprintf(`planted%s2_,blocks,Farming,Upgraded %s (Growing)`,
+		c <- fmt.Sprintf(`planted%s2_,blocks,Farming,Enhanced %s (Growing)`,
 			plant.GetName(), plant.GetNamePlural())
-		// TODO: rename stage 3 to something more generic if players can see the name
-		c <- fmt.Sprintf(`planted%s3_,blocks,Farming,Upgraded %s`,
+		c <- fmt.Sprintf(`planted%s3_,blocks,Farming,Enhanced %s`,
 			plant.GetName(), plant.GetNamePlural())
-		c <- fmt.Sprintf(`planted%s1_Desc,blocks,Farming,"%s"`,
-			plant.GetName(), plant.GetDescription())
+		c <- fmt.Sprintf(`planted%s1_Desc,blocks,Farming,"%s\n\n%s\n\n%s"`,
+			plant.GetName(),
+			plant.GetDescription(),
+			getEnhancedSeedEffectDescription(),
+			getInitialEnhancementCraftingTip())
 	case 1:
 		c <- fmt.Sprintf(`planted%s1_%c,blocks,Farming,%s %s (Seed)`,
 			plant.GetName(), traits[0].code, traits[0].name, plant.GetDisplayName())
 		c <- fmt.Sprintf(`planted%s2_%c,blocks,Farming,%s %s (Growing)`,
 			plant.GetName(), traits[0].code, traits[0].name, plant.GetNamePlural())
-		// TODO: rename stage 3 to something more generic if players can see the name
 		c <- fmt.Sprintf(`planted%s3_%c,blocks,Farming,%s %s`,
 			plant.GetName(), traits[0].code, traits[0].name, plant.GetNamePlural())
-		c <- fmt.Sprintf(`planted%s1_%cDesc,blocks,Farming,"%s%s"`,
-			plant.GetName(), traits[0].code, plant.GetDescription(),
-			traits[0].getTraitDescription(plant.GetPreferredConsumer()))
+		c <- fmt.Sprintf(`planted%s1_%cDesc,blocks,Farming,"%s\n\n%s\n\n%s\n\n%s"`,
+			plant.GetName(),
+			traits[0].code,
+			plant.GetDescription(),
+			getEnhancedSeedEffectDescription(),
+			traits[0].getTraitDescription(plant.GetPreferredConsumer()),
+			getHotBoxRequirementTip())
 	case 2:
 		if traits[0].code == traits[1].code {
 			c <- fmt.Sprintf(`planted%s1_%c%c,blocks,Farming,%s %s (Seed)`,
 				plant.GetName(), traits[0].code, traits[1].code, traits[0].doubleName, plant.GetDisplayName())
 			c <- fmt.Sprintf(`planted%s2_%c%c,blocks,Farming,%s %s (Growing)`,
 				plant.GetName(), traits[0].code, traits[1].code, traits[0].doubleName, plant.GetNamePlural())
-			// TODO: rename stage 3 to something more generic if players can see the name
 			c <- fmt.Sprintf(`planted%s3_%c%c,blocks,Farming,%s %s`,
 				plant.GetName(), traits[0].code, traits[1].code, traits[0].doubleName, plant.GetNamePlural())
-			c <- fmt.Sprintf(`planted%s1_%c%cDesc,blocks,Farming,"%s%s"`,
-				plant.GetName(), traits[0].code, traits[1].code, plant.GetDescription(),
-				traits[0].getDoubleTraitDescription(plant.GetPreferredConsumer()))
+			c <- fmt.Sprintf(`planted%s1_%c%cDesc,blocks,Farming,"%s\n\n%s\n\n%s\n\n%s"`,
+				plant.GetName(),
+				traits[0].code,
+				traits[1].code,
+				plant.GetDescription(),
+				getEnhancedSeedEffectDescription(),
+				traits[0].getDoubleTraitDescription(plant.GetPreferredConsumer()),
+				getHotBoxRequirementTip())
 		} else {
 			c <- fmt.Sprintf(`planted%s1_%c%c,blocks,Farming,"%s, %s %s (Seed)"`,
 				plant.GetName(), traits[0].code, traits[1].code, traits[0].name, traits[1].name, plant.GetDisplayName())
 			c <- fmt.Sprintf(`planted%s2_%c%c,blocks,Farming,"%s, %s %s (Growing)"`,
 				plant.GetName(), traits[0].code, traits[1].code, traits[0].name, traits[1].name, plant.GetNamePlural())
-			// TODO: rename stage 3 to something more generic if players can see the name
 			c <- fmt.Sprintf(`planted%s3_%c%c,blocks,Farming,"%s, %s %s"`,
 				plant.GetName(), traits[0].code, traits[1].code, traits[0].name, traits[1].name, plant.GetNamePlural())
-			c <- fmt.Sprintf(`planted%s1_%c%cDesc,blocks,Farming,"%s%s%s"`,
-				plant.GetName(), traits[0].code, traits[1].code, plant.GetDescription(),
+			c <- fmt.Sprintf(`planted%s1_%c%cDesc,blocks,Farming,"%s\n\n%s\n\n%s\n\n%s\n\n%s"`,
+				plant.GetName(),
+				traits[0].code,
+				traits[1].code,
+				plant.GetDescription(),
+				getEnhancedSeedEffectDescription(),
 				traits[0].getTraitDescription(plant.GetPreferredConsumer()),
-				traits[1].getTraitDescription(plant.GetPreferredConsumer()))
+				traits[1].getTraitDescription(plant.GetPreferredConsumer()),
+				getHotBoxRequirementTip())
 		}
 	}
 }

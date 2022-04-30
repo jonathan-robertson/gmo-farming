@@ -67,7 +67,7 @@ func produceRecipeStub(c chan string, name string, traits string, craftTime int)
 }
 
 func produceRecipeModifications(c chan string) {
-	// Initial Upgrade
+	// Initial Enhancement
 	c <- `    <append xpath="/recipes/recipe[@traits='']">
         <ingredient name="resourceCloth" count="1"/>
         <ingredient name="resourceYuccaFibers" count="2"/>
