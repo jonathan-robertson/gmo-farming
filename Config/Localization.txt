@@ -3,235 +3,229 @@ hotbox,blocks,Workstation,Hot Box
 hotboxDesc,blocks,Workstation,The Hot Box is a simple workstation that allows seeds to slowly absorb the viral zombie mutagens.
 hotboxTip,Journal Tip,,"The Hot Box is a simple workstation that allows seeds to slowly absorb the viral zombie mutagens.\n\nLeaving seeds and meat in this box will slowly attract zombies at the same rate a workbench would."
 hotboxTip_title,Journal Tip,,Hot Box
-plantedMushroom1T2,blocks,Farming,Mushroom Spore (T2 Seed)
-plantedMushroom2T2,blocks,Farming,Mushrooms (Growing)
-plantedMushroom3T2,blocks,Farming,Mushrooms
-plantedMushroom1T2Desc,blocks,Farming,"Modified Mushroom spores can be planted on all surfaces and walls and will grow without sunlight."
-plantedMushroom1T2B,blocks,Farming,Mushroom Spore (T2B Seed)
-plantedMushroom2T2B,blocks,Farming,Mushrooms (Growing)
-plantedMushroom3T2B,blocks,Farming,Mushrooms
-plantedMushroom1T2BDesc,blocks,Farming,"Modified Mushroom spores can be planted on all surfaces and walls and will grow without sunlight.\n\nBonus: produces 2x the typical crop yield."
-plantedMushroom1T2F,blocks,Farming,Mushroom Spore (T2F Seed)
-plantedMushroom2T2F,blocks,Farming,Mushrooms (Growing)
-plantedMushroom3T2F,blocks,Farming,Mushrooms
-plantedMushroom1T2FDesc,blocks,Farming,"Modified Mushroom spores can be planted on all surfaces and walls and will grow without sunlight.\n\nFast Growth: reaches maturity in half the time."
-plantedMushroom1T2E,blocks,Farming,Mushroom Spore (T2E Seed)
-plantedMushroom2T2E,blocks,Farming,Mushrooms (Growing)
-plantedMushroom3T2E,blocks,Farming,Mushrooms
-plantedMushroom1T2EDesc,blocks,Farming,"Modified Mushroom spores can be planted on all surfaces and walls and will grow without sunlight.\n\nExplosive: triggers a concealed explosive when stepped on, struck with a melee weapon, or hit with an arrow.\n- Due to the flexible nature of plants, the detonator will not trigger if struck with bullets or other explosives."
-plantedMushroom1T2R,blocks,Farming,Mushroom Spore (T2R Seed)
-plantedMushroom2T2R,blocks,Farming,Mushrooms (Growing)
-plantedMushroom3T2R,blocks,Farming,Mushrooms
-plantedMushroom1T2RDesc,blocks,Farming,"Modified Mushroom spores can be planted on all surfaces and walls and will grow without sunlight.\n\nRenewable: clean, healthy water allows this plant to spread out its roots and bolster its nutrition absorption and allowing it to produce crops endlessly."
-plantedMushroom1T2T,blocks,Farming,Mushroom Spore (T2T Seed)
-plantedMushroom2T2T,blocks,Farming,Mushrooms (Growing)
-plantedMushroom3T2T,blocks,Farming,Mushrooms
-plantedMushroom1T2TDesc,blocks,Farming,"Modified Mushroom spores can be planted on all surfaces and walls and will grow without sunlight.\n\nThorny: integrates with sharp, metal thorns. Touching them will cause one to bleed."
-plantedMushroom1T2S,blocks,Farming,Mushroom Spore (T2S Seed)
-plantedMushroom2T2S,blocks,Farming,Mushrooms (Growing)
-plantedMushroom3T2S,blocks,Farming,Mushrooms
-plantedMushroom1T2SDesc,blocks,Farming,"Modified Mushroom spores can be planted on all surfaces and walls and will grow without sunlight.\n\nSweet: produces a sweet aroma upon reaching maturity, providing the possibility of attracting an animal.\n- Boars are especially attracted to this type of plant."
-plantedMushroom1T3,blocks,Farming,Mushroom Spore (T3 Seed)
-plantedMushroom2T3,blocks,Farming,Mushrooms (Growing)
-plantedMushroom3T3,blocks,Farming,Mushrooms
-plantedMushroom1T3Desc,blocks,Farming,"Modified Mushroom spores can be planted on all surfaces and walls and will grow without sunlight."
-plantedMushroom1T3BB,blocks,Farming,Mushroom Spore (T3BB Seed)
-plantedMushroom2T3BB,blocks,Farming,Mushrooms (Growing)
-plantedMushroom3T3BB,blocks,Farming,Mushrooms
-plantedMushroom1T3BBDesc,blocks,Farming,"Modified Mushroom spores can be planted on all surfaces and walls and will grow without sunlight.\n\nBountiful Bonus: produces 4x the typical crop yield."
-plantedMushroom1T3BF,blocks,Farming,Mushroom Spore (T3BF Seed)
-plantedMushroom2T3BF,blocks,Farming,Mushrooms (Growing)
-plantedMushroom3T3BF,blocks,Farming,Mushrooms
-plantedMushroom1T3BFDesc,blocks,Farming,"Modified Mushroom spores can be planted on all surfaces and walls and will grow without sunlight.\n\nBonus: produces 2x the typical crop yield.\n\nFast Growth: reaches maturity in half the time."
-plantedMushroom1T3BR,blocks,Farming,Mushroom Spore (T3BR Seed)
-plantedMushroom2T3BR,blocks,Farming,Mushrooms (Growing)
-plantedMushroom3T3BR,blocks,Farming,Mushrooms
-plantedMushroom1T3BRDesc,blocks,Farming,"Modified Mushroom spores can be planted on all surfaces and walls and will grow without sunlight.\n\nBonus: produces 2x the typical crop yield.\n\nRenewable: clean, healthy water allows this plant to spread out its roots and bolster its nutrition absorption and allowing it to produce crops endlessly."
-plantedMushroom1T3BT,blocks,Farming,Mushroom Spore (T3BT Seed)
-plantedMushroom2T3BT,blocks,Farming,Mushrooms (Growing)
-plantedMushroom3T3BT,blocks,Farming,Mushrooms
-plantedMushroom1T3BTDesc,blocks,Farming,"Modified Mushroom spores can be planted on all surfaces and walls and will grow without sunlight.\n\nBonus: produces 2x the typical crop yield.\n\nThorny: integrates with sharp, metal thorns. Touching them will cause one to bleed."
-plantedMushroom1T3BS,blocks,Farming,Mushroom Spore (T3BS Seed)
-plantedMushroom2T3BS,blocks,Farming,Mushrooms (Growing)
-plantedMushroom3T3BS,blocks,Farming,Mushrooms
-plantedMushroom1T3BSDesc,blocks,Farming,"Modified Mushroom spores can be planted on all surfaces and walls and will grow without sunlight.\n\nBonus: produces 2x the typical crop yield.\n\nSweet: produces a sweet aroma upon reaching maturity, providing the possibility of attracting an animal.\n- Boars are especially attracted to this type of plant."
-plantedMushroom1T3FF,blocks,Farming,Mushroom Spore (T3FF Seed)
-plantedMushroom2T3FF,blocks,Farming,Mushrooms (Growing)
-plantedMushroom3T3FF,blocks,Farming,Mushrooms
-plantedMushroom1T3FFDesc,blocks,Farming,"Modified Mushroom spores can be planted on all surfaces and walls and will grow without sunlight.\n\nVery Fast Growth: reaches maturity in a quarter of the time."
-plantedMushroom1T3FE,blocks,Farming,Mushroom Spore (T3FE Seed)
-plantedMushroom2T3FE,blocks,Farming,Mushrooms (Growing)
-plantedMushroom3T3FE,blocks,Farming,Mushrooms
-plantedMushroom1T3FEDesc,blocks,Farming,"Modified Mushroom spores can be planted on all surfaces and walls and will grow without sunlight.\n\nFast Growth: reaches maturity in half the time.\n\nExplosive: triggers a concealed explosive when stepped on, struck with a melee weapon, or hit with an arrow.\n- Due to the flexible nature of plants, the detonator will not trigger if struck with bullets or other explosives."
-plantedMushroom1T3FR,blocks,Farming,Mushroom Spore (T3FR Seed)
-plantedMushroom2T3FR,blocks,Farming,Mushrooms (Growing)
-plantedMushroom3T3FR,blocks,Farming,Mushrooms
-plantedMushroom1T3FRDesc,blocks,Farming,"Modified Mushroom spores can be planted on all surfaces and walls and will grow without sunlight.\n\nFast Growth: reaches maturity in half the time.\n\nRenewable: clean, healthy water allows this plant to spread out its roots and bolster its nutrition absorption and allowing it to produce crops endlessly."
-plantedMushroom1T3FT,blocks,Farming,Mushroom Spore (T3FT Seed)
-plantedMushroom2T3FT,blocks,Farming,Mushrooms (Growing)
-plantedMushroom3T3FT,blocks,Farming,Mushrooms
-plantedMushroom1T3FTDesc,blocks,Farming,"Modified Mushroom spores can be planted on all surfaces and walls and will grow without sunlight.\n\nFast Growth: reaches maturity in half the time.\n\nThorny: integrates with sharp, metal thorns. Touching them will cause one to bleed."
-plantedMushroom1T3FS,blocks,Farming,Mushroom Spore (T3FS Seed)
-plantedMushroom2T3FS,blocks,Farming,Mushrooms (Growing)
-plantedMushroom3T3FS,blocks,Farming,Mushrooms
-plantedMushroom1T3FSDesc,blocks,Farming,"Modified Mushroom spores can be planted on all surfaces and walls and will grow without sunlight.\n\nFast Growth: reaches maturity in half the time.\n\nSweet: produces a sweet aroma upon reaching maturity, providing the possibility of attracting an animal.\n- Boars are especially attracted to this type of plant."
-plantedMushroom1T3EE,blocks,Farming,Mushroom Spore (T3EE Seed)
-plantedMushroom2T3EE,blocks,Farming,Mushrooms (Growing)
-plantedMushroom3T3EE,blocks,Farming,Mushrooms
-plantedMushroom1T3EEDesc,blocks,Farming,"Modified Mushroom spores can be planted on all surfaces and walls and will grow without sunlight.\n\nLarge Explosive: triggers a large, concealed explosive when stepped on, struck with a melee weapon, or hit with an arrow.\n- Due to the flexible nature of plants, the detonator will not trigger if struck with bullets or other explosives."
-plantedMushroom1T3ET,blocks,Farming,Mushroom Spore (T3ET Seed)
-plantedMushroom2T3ET,blocks,Farming,Mushrooms (Growing)
-plantedMushroom3T3ET,blocks,Farming,Mushrooms
-plantedMushroom1T3ETDesc,blocks,Farming,"Modified Mushroom spores can be planted on all surfaces and walls and will grow without sunlight.\n\nExplosive: triggers a concealed explosive when stepped on, struck with a melee weapon, or hit with an arrow.\n- Due to the flexible nature of plants, the detonator will not trigger if struck with bullets or other explosives.\n\nThorny: integrates with sharp, metal thorns. Touching them will cause one to bleed."
-plantedMushroom1T3ES,blocks,Farming,Mushroom Spore (T3ES Seed)
-plantedMushroom2T3ES,blocks,Farming,Mushrooms (Growing)
-plantedMushroom3T3ES,blocks,Farming,Mushrooms
-plantedMushroom1T3ESDesc,blocks,Farming,"Modified Mushroom spores can be planted on all surfaces and walls and will grow without sunlight.\n\nExplosive: triggers a concealed explosive when stepped on, struck with a melee weapon, or hit with an arrow.\n- Due to the flexible nature of plants, the detonator will not trigger if struck with bullets or other explosives.\n\nSweet: produces a sweet aroma upon reaching maturity, providing the possibility of attracting an animal.\n- Boars are especially attracted to this type of plant."
-plantedMushroom1T3RT,blocks,Farming,Mushroom Spore (T3RT Seed)
-plantedMushroom2T3RT,blocks,Farming,Mushrooms (Growing)
-plantedMushroom3T3RT,blocks,Farming,Mushrooms
-plantedMushroom1T3RTDesc,blocks,Farming,"Modified Mushroom spores can be planted on all surfaces and walls and will grow without sunlight.\n\nRenewable: clean, healthy water allows this plant to spread out its roots and bolster its nutrition absorption and allowing it to produce crops endlessly.\n\nThorny: integrates with sharp, metal thorns. Touching them will cause one to bleed."
-plantedMushroom1T3RS,blocks,Farming,Mushroom Spore (T3RS Seed)
-plantedMushroom2T3RS,blocks,Farming,Mushrooms (Growing)
-plantedMushroom3T3RS,blocks,Farming,Mushrooms
-plantedMushroom1T3RSDesc,blocks,Farming,"Modified Mushroom spores can be planted on all surfaces and walls and will grow without sunlight.\n\nRenewable: clean, healthy water allows this plant to spread out its roots and bolster its nutrition absorption and allowing it to produce crops endlessly.\n\nSweet: produces a sweet aroma upon reaching maturity, providing the possibility of attracting an animal.\n- Boars are especially attracted to this type of plant."
-plantedMushroom1T3TT,blocks,Farming,Mushroom Spore (T3TT Seed)
-plantedMushroom2T3TT,blocks,Farming,Mushrooms (Growing)
-plantedMushroom3T3TT,blocks,Farming,Mushrooms
-plantedMushroom1T3TTDesc,blocks,Farming,"Modified Mushroom spores can be planted on all surfaces and walls and will grow without sunlight.\n\nExtra Thorny: integrates with many sharp, metal thorns. Touching them will cause one to receive damage and bleed."
-plantedMushroom1T3TS,blocks,Farming,Mushroom Spore (T3TS Seed)
-plantedMushroom2T3TS,blocks,Farming,Mushrooms (Growing)
-plantedMushroom3T3TS,blocks,Farming,Mushrooms
-plantedMushroom1T3TSDesc,blocks,Farming,"Modified Mushroom spores can be planted on all surfaces and walls and will grow without sunlight.\n\nThorny: integrates with sharp, metal thorns. Touching them will cause one to bleed.\n\nSweet: produces a sweet aroma upon reaching maturity, providing the possibility of attracting an animal.\n- Boars are especially attracted to this type of plant."
-plantedMushroom1T3SS,blocks,Farming,Mushroom Spore (T3SS Seed)
-plantedMushroom2T3SS,blocks,Farming,Mushrooms (Growing)
-plantedMushroom3T3SS,blocks,Farming,Mushrooms
-plantedMushroom1T3SSDesc,blocks,Farming,"Modified Mushroom spores can be planted on all surfaces and walls and will grow without sunlight.\n\nSuper Sweet: produces a super sweet aroma upon reaching maturity, providing the high likelihood of attracting an animal.\n- Boars are especially attracted to this type of plant."
-plantedCorn1T2,blocks,Farming,Corn (T2 Seed)
-plantedCorn2T2,blocks,Farming,Corn (Growing)
-plantedCorn3T2,blocks,Farming,Corn
-plantedCorn1T2Desc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting."
-plantedCorn1T2B,blocks,Farming,Corn (T2B Seed)
-plantedCorn2T2B,blocks,Farming,Corn (Growing)
-plantedCorn3T2B,blocks,Farming,Corn
-plantedCorn1T2BDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\nBonus: produces 2x the typical crop yield."
-plantedCorn1T2U,blocks,Farming,Corn (T2U Seed)
-plantedCorn2T2U,blocks,Farming,Corn (Growing)
-plantedCorn3T2U,blocks,Farming,Corn
-plantedCorn1T2UDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\nUnderground: fused with mushroom dna, alowing growth without the need for sunlight."
-plantedCorn1T2F,blocks,Farming,Corn (T2F Seed)
-plantedCorn2T2F,blocks,Farming,Corn (Growing)
-plantedCorn3T2F,blocks,Farming,Corn
-plantedCorn1T2FDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\nFast Growth: reaches maturity in half the time."
-plantedCorn1T2E,blocks,Farming,Corn (T2E Seed)
-plantedCorn2T2E,blocks,Farming,Corn (Growing)
-plantedCorn3T2E,blocks,Farming,Corn
-plantedCorn1T2EDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\nExplosive: triggers a concealed explosive when stepped on, struck with a melee weapon, or hit with an arrow.\n- Due to the flexible nature of plants, the detonator will not trigger if struck with bullets or other explosives."
-plantedCorn1T2R,blocks,Farming,Corn (T2R Seed)
-plantedCorn2T2R,blocks,Farming,Corn (Growing)
-plantedCorn3T2R,blocks,Farming,Corn
-plantedCorn1T2RDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\nRenewable: clean, healthy water allows this plant to spread out its roots and bolster its nutrition absorption and allowing it to produce crops endlessly."
-plantedCorn1T2T,blocks,Farming,Corn (T2T Seed)
-plantedCorn2T2T,blocks,Farming,Corn (Growing)
-plantedCorn3T2T,blocks,Farming,Corn
-plantedCorn1T2TDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\nThorny: integrates with sharp, metal thorns. Touching them will cause one to bleed."
-plantedCorn1T2S,blocks,Farming,Corn (T2S Seed)
-plantedCorn2T2S,blocks,Farming,Corn (Growing)
-plantedCorn3T2S,blocks,Farming,Corn
-plantedCorn1T2SDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\nSweet: produces a sweet aroma upon reaching maturity, providing the possibility of attracting an animal.\n- Chickens are especially attracted to this type of plant."
-plantedCorn1T3,blocks,Farming,Corn (T3 Seed)
-plantedCorn2T3,blocks,Farming,Corn (Growing)
-plantedCorn3T3,blocks,Farming,Corn
-plantedCorn1T3Desc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting."
-plantedCorn1T3BB,blocks,Farming,Corn (T3BB Seed)
-plantedCorn2T3BB,blocks,Farming,Corn (Growing)
-plantedCorn3T3BB,blocks,Farming,Corn
-plantedCorn1T3BBDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\nBountiful Bonus: produces 4x the typical crop yield."
-plantedCorn1T3BU,blocks,Farming,Corn (T3BU Seed)
-plantedCorn2T3BU,blocks,Farming,Corn (Growing)
-plantedCorn3T3BU,blocks,Farming,Corn
-plantedCorn1T3BUDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\nBonus: produces 2x the typical crop yield.\n\nUnderground: fused with mushroom dna, alowing growth without the need for sunlight."
-plantedCorn1T3BF,blocks,Farming,Corn (T3BF Seed)
-plantedCorn2T3BF,blocks,Farming,Corn (Growing)
-plantedCorn3T3BF,blocks,Farming,Corn
-plantedCorn1T3BFDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\nBonus: produces 2x the typical crop yield.\n\nFast Growth: reaches maturity in half the time."
-plantedCorn1T3BR,blocks,Farming,Corn (T3BR Seed)
-plantedCorn2T3BR,blocks,Farming,Corn (Growing)
-plantedCorn3T3BR,blocks,Farming,Corn
-plantedCorn1T3BRDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\nBonus: produces 2x the typical crop yield.\n\nRenewable: clean, healthy water allows this plant to spread out its roots and bolster its nutrition absorption and allowing it to produce crops endlessly."
-plantedCorn1T3BT,blocks,Farming,Corn (T3BT Seed)
-plantedCorn2T3BT,blocks,Farming,Corn (Growing)
-plantedCorn3T3BT,blocks,Farming,Corn
-plantedCorn1T3BTDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\nBonus: produces 2x the typical crop yield.\n\nThorny: integrates with sharp, metal thorns. Touching them will cause one to bleed."
-plantedCorn1T3BS,blocks,Farming,Corn (T3BS Seed)
-plantedCorn2T3BS,blocks,Farming,Corn (Growing)
-plantedCorn3T3BS,blocks,Farming,Corn
-plantedCorn1T3BSDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\nBonus: produces 2x the typical crop yield.\n\nSweet: produces a sweet aroma upon reaching maturity, providing the possibility of attracting an animal.\n- Chickens are especially attracted to this type of plant."
-plantedCorn1T3UF,blocks,Farming,Corn (T3UF Seed)
-plantedCorn2T3UF,blocks,Farming,Corn (Growing)
-plantedCorn3T3UF,blocks,Farming,Corn
-plantedCorn1T3UFDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\nUnderground: fused with mushroom dna, alowing growth without the need for sunlight.\n\nFast Growth: reaches maturity in half the time."
-plantedCorn1T3UE,blocks,Farming,Corn (T3UE Seed)
-plantedCorn2T3UE,blocks,Farming,Corn (Growing)
-plantedCorn3T3UE,blocks,Farming,Corn
-plantedCorn1T3UEDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\nUnderground: fused with mushroom dna, alowing growth without the need for sunlight.\n\nExplosive: triggers a concealed explosive when stepped on, struck with a melee weapon, or hit with an arrow.\n- Due to the flexible nature of plants, the detonator will not trigger if struck with bullets or other explosives."
-plantedCorn1T3UR,blocks,Farming,Corn (T3UR Seed)
-plantedCorn2T3UR,blocks,Farming,Corn (Growing)
-plantedCorn3T3UR,blocks,Farming,Corn
-plantedCorn1T3URDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\nUnderground: fused with mushroom dna, alowing growth without the need for sunlight.\n\nRenewable: clean, healthy water allows this plant to spread out its roots and bolster its nutrition absorption and allowing it to produce crops endlessly."
-plantedCorn1T3UT,blocks,Farming,Corn (T3UT Seed)
-plantedCorn2T3UT,blocks,Farming,Corn (Growing)
-plantedCorn3T3UT,blocks,Farming,Corn
-plantedCorn1T3UTDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\nUnderground: fused with mushroom dna, alowing growth without the need for sunlight.\n\nThorny: integrates with sharp, metal thorns. Touching them will cause one to bleed."
-plantedCorn1T3FF,blocks,Farming,Corn (T3FF Seed)
-plantedCorn2T3FF,blocks,Farming,Corn (Growing)
-plantedCorn3T3FF,blocks,Farming,Corn
-plantedCorn1T3FFDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\nVery Fast Growth: reaches maturity in a quarter of the time."
-plantedCorn1T3FE,blocks,Farming,Corn (T3FE Seed)
-plantedCorn2T3FE,blocks,Farming,Corn (Growing)
-plantedCorn3T3FE,blocks,Farming,Corn
-plantedCorn1T3FEDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\nFast Growth: reaches maturity in half the time.\n\nExplosive: triggers a concealed explosive when stepped on, struck with a melee weapon, or hit with an arrow.\n- Due to the flexible nature of plants, the detonator will not trigger if struck with bullets or other explosives."
-plantedCorn1T3FR,blocks,Farming,Corn (T3FR Seed)
-plantedCorn2T3FR,blocks,Farming,Corn (Growing)
-plantedCorn3T3FR,blocks,Farming,Corn
-plantedCorn1T3FRDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\nFast Growth: reaches maturity in half the time.\n\nRenewable: clean, healthy water allows this plant to spread out its roots and bolster its nutrition absorption and allowing it to produce crops endlessly."
-plantedCorn1T3FT,blocks,Farming,Corn (T3FT Seed)
-plantedCorn2T3FT,blocks,Farming,Corn (Growing)
-plantedCorn3T3FT,blocks,Farming,Corn
-plantedCorn1T3FTDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\nFast Growth: reaches maturity in half the time.\n\nThorny: integrates with sharp, metal thorns. Touching them will cause one to bleed."
-plantedCorn1T3FS,blocks,Farming,Corn (T3FS Seed)
-plantedCorn2T3FS,blocks,Farming,Corn (Growing)
-plantedCorn3T3FS,blocks,Farming,Corn
-plantedCorn1T3FSDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\nFast Growth: reaches maturity in half the time.\n\nSweet: produces a sweet aroma upon reaching maturity, providing the possibility of attracting an animal.\n- Chickens are especially attracted to this type of plant."
-plantedCorn1T3EE,blocks,Farming,Corn (T3EE Seed)
-plantedCorn2T3EE,blocks,Farming,Corn (Growing)
-plantedCorn3T3EE,blocks,Farming,Corn
-plantedCorn1T3EEDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\nLarge Explosive: triggers a large, concealed explosive when stepped on, struck with a melee weapon, or hit with an arrow.\n- Due to the flexible nature of plants, the detonator will not trigger if struck with bullets or other explosives."
-plantedCorn1T3ET,blocks,Farming,Corn (T3ET Seed)
-plantedCorn2T3ET,blocks,Farming,Corn (Growing)
-plantedCorn3T3ET,blocks,Farming,Corn
-plantedCorn1T3ETDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\nExplosive: triggers a concealed explosive when stepped on, struck with a melee weapon, or hit with an arrow.\n- Due to the flexible nature of plants, the detonator will not trigger if struck with bullets or other explosives.\n\nThorny: integrates with sharp, metal thorns. Touching them will cause one to bleed."
-plantedCorn1T3ES,blocks,Farming,Corn (T3ES Seed)
-plantedCorn2T3ES,blocks,Farming,Corn (Growing)
-plantedCorn3T3ES,blocks,Farming,Corn
-plantedCorn1T3ESDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\nExplosive: triggers a concealed explosive when stepped on, struck with a melee weapon, or hit with an arrow.\n- Due to the flexible nature of plants, the detonator will not trigger if struck with bullets or other explosives.\n\nSweet: produces a sweet aroma upon reaching maturity, providing the possibility of attracting an animal.\n- Chickens are especially attracted to this type of plant."
-plantedCorn1T3RT,blocks,Farming,Corn (T3RT Seed)
-plantedCorn2T3RT,blocks,Farming,Corn (Growing)
-plantedCorn3T3RT,blocks,Farming,Corn
-plantedCorn1T3RTDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\nRenewable: clean, healthy water allows this plant to spread out its roots and bolster its nutrition absorption and allowing it to produce crops endlessly.\n\nThorny: integrates with sharp, metal thorns. Touching them will cause one to bleed."
-plantedCorn1T3RS,blocks,Farming,Corn (T3RS Seed)
-plantedCorn2T3RS,blocks,Farming,Corn (Growing)
-plantedCorn3T3RS,blocks,Farming,Corn
-plantedCorn1T3RSDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\nRenewable: clean, healthy water allows this plant to spread out its roots and bolster its nutrition absorption and allowing it to produce crops endlessly.\n\nSweet: produces a sweet aroma upon reaching maturity, providing the possibility of attracting an animal.\n- Chickens are especially attracted to this type of plant."
-plantedCorn1T3TT,blocks,Farming,Corn (T3TT Seed)
-plantedCorn2T3TT,blocks,Farming,Corn (Growing)
-plantedCorn3T3TT,blocks,Farming,Corn
-plantedCorn1T3TTDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\nExtra Thorny: integrates with many sharp, metal thorns. Touching them will cause one to receive damage and bleed."
-plantedCorn1T3TS,blocks,Farming,Corn (T3TS Seed)
-plantedCorn2T3TS,blocks,Farming,Corn (Growing)
-plantedCorn3T3TS,blocks,Farming,Corn
-plantedCorn1T3TSDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\nThorny: integrates with sharp, metal thorns. Touching them will cause one to bleed.\n\nSweet: produces a sweet aroma upon reaching maturity, providing the possibility of attracting an animal.\n- Chickens are especially attracted to this type of plant."
-plantedCorn1T3SS,blocks,Farming,Corn (T3SS Seed)
-plantedCorn2T3SS,blocks,Farming,Corn (Growing)
-plantedCorn3T3SS,blocks,Farming,Corn
-plantedCorn1T3SSDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\nSuper Sweet: produces a super sweet aroma upon reaching maturity, providing the high likelihood of attracting an animal.\n- Chickens are especially attracted to this type of plant."
+perkLivingOffTheLandRank3Desc,progression,perk For,Farmer
+perkLivingOffTheLandRank3LongDesc,progression,perk For,Triple the harvest of wild or planted crops. Craft Hot Boxes and GMO Seeds that you'll be able to research and add special traits to.
+plantedMushroom1_,blocks,Farming,Upgraded [] (Seed)%!(EXTRA string=Mushroom Spore, []gen.Trait=[])
+plantedMushroom2_,blocks,Farming,Upgraded Mushrooms (Growing)
+plantedMushroom3_,blocks,Farming,Upgraded Mushrooms
+plantedMushroom1_Desc,blocks,Farming,"Modified Mushroom spores can be planted on all surfaces and walls and will grow without sunlight."
+plantedMushroom1_B,blocks,Farming,Bonus Mushroom Spore (Seed)%!(EXTRA []gen.Trait=[{66 Bonus Bountiful Bonus [69]}])
+plantedMushroom2_B,blocks,Farming,Bonus Mushrooms (Growing)
+plantedMushroom3_B,blocks,Farming,Bonus Mushrooms
+plantedMushroom1_BDesc,blocks,Farming,"Modified Mushroom spores can be planted on all surfaces and walls and will grow without sunlight.\n\nBountiful Bonus: produces 2x the typical crop yield."
+plantedMushroom1_BB,blocks,Farming,Bountiful Bonus Mushroom Spore (Seed)%!(EXTRA []gen.Trait=[{66 Bonus Bountiful Bonus [69]} {66 Bonus Bountiful Bonus [69]}])
+plantedMushroom2_BB,blocks,Farming,Bountiful Bonus Mushrooms (Growing)
+plantedMushroom3_BB,blocks,Farming,Bountiful Bonus Mushrooms
+plantedMushroom1_BBDesc,blocks,Farming,"Modified Mushroom spores can be planted on all surfaces and walls and will grow without sunlight.\n\nBountiful Bonus: produces 4x the typical crop yield."
+plantedMushroom1_BF,blocks,Farming,Bonus, Fast Mushroom Spore (Seed)%!(EXTRA []gen.Trait=[{66 Bonus Bountiful Bonus [69]} {70 Fast Very Fast []}])
+plantedMushroom2_BF,blocks,Farming,Bonus, Fast Mushrooms (Growing)
+plantedMushroom3_BF,blocks,Farming,Bonus, Fast Mushrooms
+plantedMushroom1_BFDesc,blocks,Farming,"Modified Mushroom spores can be planted on all surfaces and walls and will grow without sunlight.\n\nBountiful Bonus: produces 2x the typical crop yield.\n\nVery Fast: reaches maturity in half the time."
+plantedMushroom1_BR,blocks,Farming,Bonus, Renewable Mushroom Spore (Seed)%!(EXTRA []gen.Trait=[{66 Bonus Bountiful Bonus [69]} {82 Renewable  [82 69]}])
+plantedMushroom2_BR,blocks,Farming,Bonus, Renewable Mushrooms (Growing)
+plantedMushroom3_BR,blocks,Farming,Bonus, Renewable Mushrooms
+plantedMushroom1_BRDesc,blocks,Farming,"Modified Mushroom spores can be planted on all surfaces and walls and will grow without sunlight.\n\nBountiful Bonus: produces 2x the typical crop yield.\n\n: clean, healthy water allows this plant to spread out its roots and bolster its nutrition absorption and allowing it to produce crops endlessly."
+plantedMushroom1_BT,blocks,Farming,Bonus, Thorny Mushroom Spore (Seed)%!(EXTRA []gen.Trait=[{66 Bonus Bountiful Bonus [69]} {84 Thorny Extra Thorny []}])
+plantedMushroom2_BT,blocks,Farming,Bonus, Thorny Mushrooms (Growing)
+plantedMushroom3_BT,blocks,Farming,Bonus, Thorny Mushrooms
+plantedMushroom1_BTDesc,blocks,Farming,"Modified Mushroom spores can be planted on all surfaces and walls and will grow without sunlight.\n\nBountiful Bonus: produces 2x the typical crop yield.\n\nExtra Thorny: integrates with sharp, metal thorns. Touching them will cause one to bleed."
+plantedMushroom1_BS,blocks,Farming,Bonus, Sweet Mushroom Spore (Seed)%!(EXTRA []gen.Trait=[{66 Bonus Bountiful Bonus [69]} {83 Sweet Super Sweet [85]}])
+plantedMushroom2_BS,blocks,Farming,Bonus, Sweet Mushrooms (Growing)
+plantedMushroom3_BS,blocks,Farming,Bonus, Sweet Mushrooms
+plantedMushroom1_BSDesc,blocks,Farming,"Modified Mushroom spores can be planted on all surfaces and walls and will grow without sunlight.\n\nBountiful Bonus: produces 2x the typical crop yield.\n\nSuper Sweet: produces a sweet aroma upon reaching maturity, providing the possibility of attracting an animal.\n- Boars are especially attracted to this type of plant."
+plantedMushroom1_F,blocks,Farming,Fast Mushroom Spore (Seed)%!(EXTRA []gen.Trait=[{70 Fast Very Fast []}])
+plantedMushroom2_F,blocks,Farming,Fast Mushrooms (Growing)
+plantedMushroom3_F,blocks,Farming,Fast Mushrooms
+plantedMushroom1_FDesc,blocks,Farming,"Modified Mushroom spores can be planted on all surfaces and walls and will grow without sunlight.\n\nVery Fast: reaches maturity in half the time."
+plantedMushroom1_FF,blocks,Farming,Very Fast Mushroom Spore (Seed)%!(EXTRA []gen.Trait=[{70 Fast Very Fast []} {70 Fast Very Fast []}])
+plantedMushroom2_FF,blocks,Farming,Very Fast Mushrooms (Growing)
+plantedMushroom3_FF,blocks,Farming,Very Fast Mushrooms
+plantedMushroom1_FFDesc,blocks,Farming,"Modified Mushroom spores can be planted on all surfaces and walls and will grow without sunlight.\n\nVery Fast: reaches maturity in a quarter of the time."
+plantedMushroom1_FE,blocks,Farming,Fast, Explosive Mushroom Spore (Seed)%!(EXTRA []gen.Trait=[{70 Fast Very Fast []} {69 Explosive Extremely Explosive [66 82]}])
+plantedMushroom2_FE,blocks,Farming,Fast, Explosive Mushrooms (Growing)
+plantedMushroom3_FE,blocks,Farming,Fast, Explosive Mushrooms
+plantedMushroom1_FEDesc,blocks,Farming,"Modified Mushroom spores can be planted on all surfaces and walls and will grow without sunlight.\n\nVery Fast: reaches maturity in half the time.\n\nExtremely Explosive: triggers a concealed explosive when stepped on, struck with a melee weapon, or hit with an arrow.\n- Due to the flexible nature of plants, the detonator will not trigger if struck with bullets or other explosives."
+plantedMushroom1_FR,blocks,Farming,Fast, Renewable Mushroom Spore (Seed)%!(EXTRA []gen.Trait=[{70 Fast Very Fast []} {82 Renewable  [82 69]}])
+plantedMushroom2_FR,blocks,Farming,Fast, Renewable Mushrooms (Growing)
+plantedMushroom3_FR,blocks,Farming,Fast, Renewable Mushrooms
+plantedMushroom1_FRDesc,blocks,Farming,"Modified Mushroom spores can be planted on all surfaces and walls and will grow without sunlight.\n\nVery Fast: reaches maturity in half the time.\n\n: clean, healthy water allows this plant to spread out its roots and bolster its nutrition absorption and allowing it to produce crops endlessly."
+plantedMushroom1_FT,blocks,Farming,Fast, Thorny Mushroom Spore (Seed)%!(EXTRA []gen.Trait=[{70 Fast Very Fast []} {84 Thorny Extra Thorny []}])
+plantedMushroom2_FT,blocks,Farming,Fast, Thorny Mushrooms (Growing)
+plantedMushroom3_FT,blocks,Farming,Fast, Thorny Mushrooms
+plantedMushroom1_FTDesc,blocks,Farming,"Modified Mushroom spores can be planted on all surfaces and walls and will grow without sunlight.\n\nVery Fast: reaches maturity in half the time.\n\nExtra Thorny: integrates with sharp, metal thorns. Touching them will cause one to bleed."
+plantedMushroom1_FS,blocks,Farming,Fast, Sweet Mushroom Spore (Seed)%!(EXTRA []gen.Trait=[{70 Fast Very Fast []} {83 Sweet Super Sweet [85]}])
+plantedMushroom2_FS,blocks,Farming,Fast, Sweet Mushrooms (Growing)
+plantedMushroom3_FS,blocks,Farming,Fast, Sweet Mushrooms
+plantedMushroom1_FSDesc,blocks,Farming,"Modified Mushroom spores can be planted on all surfaces and walls and will grow without sunlight.\n\nVery Fast: reaches maturity in half the time.\n\nSuper Sweet: produces a sweet aroma upon reaching maturity, providing the possibility of attracting an animal.\n- Boars are especially attracted to this type of plant."
+plantedMushroom1_E,blocks,Farming,Explosive Mushroom Spore (Seed)%!(EXTRA []gen.Trait=[{69 Explosive Extremely Explosive [66 82]}])
+plantedMushroom2_E,blocks,Farming,Explosive Mushrooms (Growing)
+plantedMushroom3_E,blocks,Farming,Explosive Mushrooms
+plantedMushroom1_EDesc,blocks,Farming,"Modified Mushroom spores can be planted on all surfaces and walls and will grow without sunlight.\n\nExtremely Explosive: triggers a concealed explosive when stepped on, struck with a melee weapon, or hit with an arrow.\n- Due to the flexible nature of plants, the detonator will not trigger if struck with bullets or other explosives."
+plantedMushroom1_EE,blocks,Farming,Extremely Explosive Mushroom Spore (Seed)%!(EXTRA []gen.Trait=[{69 Explosive Extremely Explosive [66 82]} {69 Explosive Extremely Explosive [66 82]}])
+plantedMushroom2_EE,blocks,Farming,Extremely Explosive Mushrooms (Growing)
+plantedMushroom3_EE,blocks,Farming,Extremely Explosive Mushrooms
+plantedMushroom1_EEDesc,blocks,Farming,"Modified Mushroom spores can be planted on all surfaces and walls and will grow without sunlight.\n\nExtremely Explosive: triggers a large, concealed explosive when stepped on, struck with a melee weapon, or hit with an arrow.\n- Due to the flexible nature of plants, the detonator will not trigger if struck with bullets or other explosives."
+plantedMushroom1_ET,blocks,Farming,Explosive, Thorny Mushroom Spore (Seed)%!(EXTRA []gen.Trait=[{69 Explosive Extremely Explosive [66 82]} {84 Thorny Extra Thorny []}])
+plantedMushroom2_ET,blocks,Farming,Explosive, Thorny Mushrooms (Growing)
+plantedMushroom3_ET,blocks,Farming,Explosive, Thorny Mushrooms
+plantedMushroom1_ETDesc,blocks,Farming,"Modified Mushroom spores can be planted on all surfaces and walls and will grow without sunlight.\n\nExtremely Explosive: triggers a concealed explosive when stepped on, struck with a melee weapon, or hit with an arrow.\n- Due to the flexible nature of plants, the detonator will not trigger if struck with bullets or other explosives.\n\nExtra Thorny: integrates with sharp, metal thorns. Touching them will cause one to bleed."
+plantedMushroom1_ES,blocks,Farming,Explosive, Sweet Mushroom Spore (Seed)%!(EXTRA []gen.Trait=[{69 Explosive Extremely Explosive [66 82]} {83 Sweet Super Sweet [85]}])
+plantedMushroom2_ES,blocks,Farming,Explosive, Sweet Mushrooms (Growing)
+plantedMushroom3_ES,blocks,Farming,Explosive, Sweet Mushrooms
+plantedMushroom1_ESDesc,blocks,Farming,"Modified Mushroom spores can be planted on all surfaces and walls and will grow without sunlight.\n\nExtremely Explosive: triggers a concealed explosive when stepped on, struck with a melee weapon, or hit with an arrow.\n- Due to the flexible nature of plants, the detonator will not trigger if struck with bullets or other explosives.\n\nSuper Sweet: produces a sweet aroma upon reaching maturity, providing the possibility of attracting an animal.\n- Boars are especially attracted to this type of plant."
+plantedMushroom1_R,blocks,Farming,Renewable Mushroom Spore (Seed)%!(EXTRA []gen.Trait=[{82 Renewable  [82 69]}])
+plantedMushroom2_R,blocks,Farming,Renewable Mushrooms (Growing)
+plantedMushroom3_R,blocks,Farming,Renewable Mushrooms
+plantedMushroom1_RDesc,blocks,Farming,"Modified Mushroom spores can be planted on all surfaces and walls and will grow without sunlight.\n\n: clean, healthy water allows this plant to spread out its roots and bolster its nutrition absorption and allowing it to produce crops endlessly."
+plantedMushroom1_RT,blocks,Farming,Renewable, Thorny Mushroom Spore (Seed)%!(EXTRA []gen.Trait=[{82 Renewable  [82 69]} {84 Thorny Extra Thorny []}])
+plantedMushroom2_RT,blocks,Farming,Renewable, Thorny Mushrooms (Growing)
+plantedMushroom3_RT,blocks,Farming,Renewable, Thorny Mushrooms
+plantedMushroom1_RTDesc,blocks,Farming,"Modified Mushroom spores can be planted on all surfaces and walls and will grow without sunlight.\n\n: clean, healthy water allows this plant to spread out its roots and bolster its nutrition absorption and allowing it to produce crops endlessly.\n\nExtra Thorny: integrates with sharp, metal thorns. Touching them will cause one to bleed."
+plantedMushroom1_RS,blocks,Farming,Renewable, Sweet Mushroom Spore (Seed)%!(EXTRA []gen.Trait=[{82 Renewable  [82 69]} {83 Sweet Super Sweet [85]}])
+plantedMushroom2_RS,blocks,Farming,Renewable, Sweet Mushrooms (Growing)
+plantedMushroom3_RS,blocks,Farming,Renewable, Sweet Mushrooms
+plantedMushroom1_RSDesc,blocks,Farming,"Modified Mushroom spores can be planted on all surfaces and walls and will grow without sunlight.\n\n: clean, healthy water allows this plant to spread out its roots and bolster its nutrition absorption and allowing it to produce crops endlessly.\n\nSuper Sweet: produces a sweet aroma upon reaching maturity, providing the possibility of attracting an animal.\n- Boars are especially attracted to this type of plant."
+plantedMushroom1_T,blocks,Farming,Thorny Mushroom Spore (Seed)%!(EXTRA []gen.Trait=[{84 Thorny Extra Thorny []}])
+plantedMushroom2_T,blocks,Farming,Thorny Mushrooms (Growing)
+plantedMushroom3_T,blocks,Farming,Thorny Mushrooms
+plantedMushroom1_TDesc,blocks,Farming,"Modified Mushroom spores can be planted on all surfaces and walls and will grow without sunlight.\n\nExtra Thorny: integrates with sharp, metal thorns. Touching them will cause one to bleed."
+plantedMushroom1_TT,blocks,Farming,Extra Thorny Mushroom Spore (Seed)%!(EXTRA []gen.Trait=[{84 Thorny Extra Thorny []} {84 Thorny Extra Thorny []}])
+plantedMushroom2_TT,blocks,Farming,Extra Thorny Mushrooms (Growing)
+plantedMushroom3_TT,blocks,Farming,Extra Thorny Mushrooms
+plantedMushroom1_TTDesc,blocks,Farming,"Modified Mushroom spores can be planted on all surfaces and walls and will grow without sunlight.\n\nExtra Thorny: integrates with many sharp, metal thorns. Touching them will cause one to receive damage and bleed."
+plantedMushroom1_TS,blocks,Farming,Thorny, Sweet Mushroom Spore (Seed)%!(EXTRA []gen.Trait=[{84 Thorny Extra Thorny []} {83 Sweet Super Sweet [85]}])
+plantedMushroom2_TS,blocks,Farming,Thorny, Sweet Mushrooms (Growing)
+plantedMushroom3_TS,blocks,Farming,Thorny, Sweet Mushrooms
+plantedMushroom1_TSDesc,blocks,Farming,"Modified Mushroom spores can be planted on all surfaces and walls and will grow without sunlight.\n\nExtra Thorny: integrates with sharp, metal thorns. Touching them will cause one to bleed.\n\nSuper Sweet: produces a sweet aroma upon reaching maturity, providing the possibility of attracting an animal.\n- Boars are especially attracted to this type of plant."
+plantedMushroom1_S,blocks,Farming,Sweet Mushroom Spore (Seed)%!(EXTRA []gen.Trait=[{83 Sweet Super Sweet [85]}])
+plantedMushroom2_S,blocks,Farming,Sweet Mushrooms (Growing)
+plantedMushroom3_S,blocks,Farming,Sweet Mushrooms
+plantedMushroom1_SDesc,blocks,Farming,"Modified Mushroom spores can be planted on all surfaces and walls and will grow without sunlight.\n\nSuper Sweet: produces a sweet aroma upon reaching maturity, providing the possibility of attracting an animal.\n- Boars are especially attracted to this type of plant."
+plantedMushroom1_SS,blocks,Farming,Super Sweet Mushroom Spore (Seed)%!(EXTRA []gen.Trait=[{83 Sweet Super Sweet [85]} {83 Sweet Super Sweet [85]}])
+plantedMushroom2_SS,blocks,Farming,Super Sweet Mushrooms (Growing)
+plantedMushroom3_SS,blocks,Farming,Super Sweet Mushrooms
+plantedMushroom1_SSDesc,blocks,Farming,"Modified Mushroom spores can be planted on all surfaces and walls and will grow without sunlight.\n\nSuper Sweet: produces a super sweet aroma upon reaching maturity, providing the high likelihood of attracting an animal.\n- Boars are especially attracted to this type of plant."
+plantedCorn1_,blocks,Farming,Upgraded [] (Seed)%!(EXTRA string=Corn, []gen.Trait=[])
+plantedCorn2_,blocks,Farming,Upgraded Corn (Growing)
+plantedCorn3_,blocks,Farming,Upgraded Corn
+plantedCorn1_Desc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting."
+plantedCorn1_B,blocks,Farming,Bonus Corn (Seed)%!(EXTRA []gen.Trait=[{66 Bonus Bountiful Bonus [69]}])
+plantedCorn2_B,blocks,Farming,Bonus Corn (Growing)
+plantedCorn3_B,blocks,Farming,Bonus Corn
+plantedCorn1_BDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\nBountiful Bonus: produces 2x the typical crop yield."
+plantedCorn1_BB,blocks,Farming,Bountiful Bonus Corn (Seed)%!(EXTRA []gen.Trait=[{66 Bonus Bountiful Bonus [69]} {66 Bonus Bountiful Bonus [69]}])
+plantedCorn2_BB,blocks,Farming,Bountiful Bonus Corn (Growing)
+plantedCorn3_BB,blocks,Farming,Bountiful Bonus Corn
+plantedCorn1_BBDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\nBountiful Bonus: produces 4x the typical crop yield."
+plantedCorn1_BU,blocks,Farming,Bonus, Underground Corn (Seed)%!(EXTRA []gen.Trait=[{66 Bonus Bountiful Bonus [69]} {85 Underground  [85 83]}])
+plantedCorn2_BU,blocks,Farming,Bonus, Underground Corn (Growing)
+plantedCorn3_BU,blocks,Farming,Bonus, Underground Corn
+plantedCorn1_BUDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\nBountiful Bonus: produces 2x the typical crop yield.\n\n: fused with mushroom dna, alowing growth without the need for sunlight."
+plantedCorn1_BF,blocks,Farming,Bonus, Fast Corn (Seed)%!(EXTRA []gen.Trait=[{66 Bonus Bountiful Bonus [69]} {70 Fast Very Fast []}])
+plantedCorn2_BF,blocks,Farming,Bonus, Fast Corn (Growing)
+plantedCorn3_BF,blocks,Farming,Bonus, Fast Corn
+plantedCorn1_BFDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\nBountiful Bonus: produces 2x the typical crop yield.\n\nVery Fast: reaches maturity in half the time."
+plantedCorn1_BR,blocks,Farming,Bonus, Renewable Corn (Seed)%!(EXTRA []gen.Trait=[{66 Bonus Bountiful Bonus [69]} {82 Renewable  [82 69]}])
+plantedCorn2_BR,blocks,Farming,Bonus, Renewable Corn (Growing)
+plantedCorn3_BR,blocks,Farming,Bonus, Renewable Corn
+plantedCorn1_BRDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\nBountiful Bonus: produces 2x the typical crop yield.\n\n: clean, healthy water allows this plant to spread out its roots and bolster its nutrition absorption and allowing it to produce crops endlessly."
+plantedCorn1_BT,blocks,Farming,Bonus, Thorny Corn (Seed)%!(EXTRA []gen.Trait=[{66 Bonus Bountiful Bonus [69]} {84 Thorny Extra Thorny []}])
+plantedCorn2_BT,blocks,Farming,Bonus, Thorny Corn (Growing)
+plantedCorn3_BT,blocks,Farming,Bonus, Thorny Corn
+plantedCorn1_BTDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\nBountiful Bonus: produces 2x the typical crop yield.\n\nExtra Thorny: integrates with sharp, metal thorns. Touching them will cause one to bleed."
+plantedCorn1_BS,blocks,Farming,Bonus, Sweet Corn (Seed)%!(EXTRA []gen.Trait=[{66 Bonus Bountiful Bonus [69]} {83 Sweet Super Sweet [85]}])
+plantedCorn2_BS,blocks,Farming,Bonus, Sweet Corn (Growing)
+plantedCorn3_BS,blocks,Farming,Bonus, Sweet Corn
+plantedCorn1_BSDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\nBountiful Bonus: produces 2x the typical crop yield.\n\nSuper Sweet: produces a sweet aroma upon reaching maturity, providing the possibility of attracting an animal.\n- Chickens are especially attracted to this type of plant."
+plantedCorn1_U,blocks,Farming,Underground Corn (Seed)%!(EXTRA []gen.Trait=[{85 Underground  [85 83]}])
+plantedCorn2_U,blocks,Farming,Underground Corn (Growing)
+plantedCorn3_U,blocks,Farming,Underground Corn
+plantedCorn1_UDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\n: fused with mushroom dna, alowing growth without the need for sunlight."
+plantedCorn1_UF,blocks,Farming,Underground, Fast Corn (Seed)%!(EXTRA []gen.Trait=[{85 Underground  [85 83]} {70 Fast Very Fast []}])
+plantedCorn2_UF,blocks,Farming,Underground, Fast Corn (Growing)
+plantedCorn3_UF,blocks,Farming,Underground, Fast Corn
+plantedCorn1_UFDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\n: fused with mushroom dna, alowing growth without the need for sunlight.\n\nVery Fast: reaches maturity in half the time."
+plantedCorn1_UE,blocks,Farming,Underground, Explosive Corn (Seed)%!(EXTRA []gen.Trait=[{85 Underground  [85 83]} {69 Explosive Extremely Explosive [66 82]}])
+plantedCorn2_UE,blocks,Farming,Underground, Explosive Corn (Growing)
+plantedCorn3_UE,blocks,Farming,Underground, Explosive Corn
+plantedCorn1_UEDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\n: fused with mushroom dna, alowing growth without the need for sunlight.\n\nExtremely Explosive: triggers a concealed explosive when stepped on, struck with a melee weapon, or hit with an arrow.\n- Due to the flexible nature of plants, the detonator will not trigger if struck with bullets or other explosives."
+plantedCorn1_UR,blocks,Farming,Underground, Renewable Corn (Seed)%!(EXTRA []gen.Trait=[{85 Underground  [85 83]} {82 Renewable  [82 69]}])
+plantedCorn2_UR,blocks,Farming,Underground, Renewable Corn (Growing)
+plantedCorn3_UR,blocks,Farming,Underground, Renewable Corn
+plantedCorn1_URDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\n: fused with mushroom dna, alowing growth without the need for sunlight.\n\n: clean, healthy water allows this plant to spread out its roots and bolster its nutrition absorption and allowing it to produce crops endlessly."
+plantedCorn1_UT,blocks,Farming,Underground, Thorny Corn (Seed)%!(EXTRA []gen.Trait=[{85 Underground  [85 83]} {84 Thorny Extra Thorny []}])
+plantedCorn2_UT,blocks,Farming,Underground, Thorny Corn (Growing)
+plantedCorn3_UT,blocks,Farming,Underground, Thorny Corn
+plantedCorn1_UTDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\n: fused with mushroom dna, alowing growth without the need for sunlight.\n\nExtra Thorny: integrates with sharp, metal thorns. Touching them will cause one to bleed."
+plantedCorn1_F,blocks,Farming,Fast Corn (Seed)%!(EXTRA []gen.Trait=[{70 Fast Very Fast []}])
+plantedCorn2_F,blocks,Farming,Fast Corn (Growing)
+plantedCorn3_F,blocks,Farming,Fast Corn
+plantedCorn1_FDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\nVery Fast: reaches maturity in half the time."
+plantedCorn1_FF,blocks,Farming,Very Fast Corn (Seed)%!(EXTRA []gen.Trait=[{70 Fast Very Fast []} {70 Fast Very Fast []}])
+plantedCorn2_FF,blocks,Farming,Very Fast Corn (Growing)
+plantedCorn3_FF,blocks,Farming,Very Fast Corn
+plantedCorn1_FFDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\nVery Fast: reaches maturity in a quarter of the time."
+plantedCorn1_FE,blocks,Farming,Fast, Explosive Corn (Seed)%!(EXTRA []gen.Trait=[{70 Fast Very Fast []} {69 Explosive Extremely Explosive [66 82]}])
+plantedCorn2_FE,blocks,Farming,Fast, Explosive Corn (Growing)
+plantedCorn3_FE,blocks,Farming,Fast, Explosive Corn
+plantedCorn1_FEDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\nVery Fast: reaches maturity in half the time.\n\nExtremely Explosive: triggers a concealed explosive when stepped on, struck with a melee weapon, or hit with an arrow.\n- Due to the flexible nature of plants, the detonator will not trigger if struck with bullets or other explosives."
+plantedCorn1_FR,blocks,Farming,Fast, Renewable Corn (Seed)%!(EXTRA []gen.Trait=[{70 Fast Very Fast []} {82 Renewable  [82 69]}])
+plantedCorn2_FR,blocks,Farming,Fast, Renewable Corn (Growing)
+plantedCorn3_FR,blocks,Farming,Fast, Renewable Corn
+plantedCorn1_FRDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\nVery Fast: reaches maturity in half the time.\n\n: clean, healthy water allows this plant to spread out its roots and bolster its nutrition absorption and allowing it to produce crops endlessly."
+plantedCorn1_FT,blocks,Farming,Fast, Thorny Corn (Seed)%!(EXTRA []gen.Trait=[{70 Fast Very Fast []} {84 Thorny Extra Thorny []}])
+plantedCorn2_FT,blocks,Farming,Fast, Thorny Corn (Growing)
+plantedCorn3_FT,blocks,Farming,Fast, Thorny Corn
+plantedCorn1_FTDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\nVery Fast: reaches maturity in half the time.\n\nExtra Thorny: integrates with sharp, metal thorns. Touching them will cause one to bleed."
+plantedCorn1_FS,blocks,Farming,Fast, Sweet Corn (Seed)%!(EXTRA []gen.Trait=[{70 Fast Very Fast []} {83 Sweet Super Sweet [85]}])
+plantedCorn2_FS,blocks,Farming,Fast, Sweet Corn (Growing)
+plantedCorn3_FS,blocks,Farming,Fast, Sweet Corn
+plantedCorn1_FSDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\nVery Fast: reaches maturity in half the time.\n\nSuper Sweet: produces a sweet aroma upon reaching maturity, providing the possibility of attracting an animal.\n- Chickens are especially attracted to this type of plant."
+plantedCorn1_E,blocks,Farming,Explosive Corn (Seed)%!(EXTRA []gen.Trait=[{69 Explosive Extremely Explosive [66 82]}])
+plantedCorn2_E,blocks,Farming,Explosive Corn (Growing)
+plantedCorn3_E,blocks,Farming,Explosive Corn
+plantedCorn1_EDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\nExtremely Explosive: triggers a concealed explosive when stepped on, struck with a melee weapon, or hit with an arrow.\n- Due to the flexible nature of plants, the detonator will not trigger if struck with bullets or other explosives."
+plantedCorn1_EE,blocks,Farming,Extremely Explosive Corn (Seed)%!(EXTRA []gen.Trait=[{69 Explosive Extremely Explosive [66 82]} {69 Explosive Extremely Explosive [66 82]}])
+plantedCorn2_EE,blocks,Farming,Extremely Explosive Corn (Growing)
+plantedCorn3_EE,blocks,Farming,Extremely Explosive Corn
+plantedCorn1_EEDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\nExtremely Explosive: triggers a large, concealed explosive when stepped on, struck with a melee weapon, or hit with an arrow.\n- Due to the flexible nature of plants, the detonator will not trigger if struck with bullets or other explosives."
+plantedCorn1_ET,blocks,Farming,Explosive, Thorny Corn (Seed)%!(EXTRA []gen.Trait=[{69 Explosive Extremely Explosive [66 82]} {84 Thorny Extra Thorny []}])
+plantedCorn2_ET,blocks,Farming,Explosive, Thorny Corn (Growing)
+plantedCorn3_ET,blocks,Farming,Explosive, Thorny Corn
+plantedCorn1_ETDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\nExtremely Explosive: triggers a concealed explosive when stepped on, struck with a melee weapon, or hit with an arrow.\n- Due to the flexible nature of plants, the detonator will not trigger if struck with bullets or other explosives.\n\nExtra Thorny: integrates with sharp, metal thorns. Touching them will cause one to bleed."
+plantedCorn1_ES,blocks,Farming,Explosive, Sweet Corn (Seed)%!(EXTRA []gen.Trait=[{69 Explosive Extremely Explosive [66 82]} {83 Sweet Super Sweet [85]}])
+plantedCorn2_ES,blocks,Farming,Explosive, Sweet Corn (Growing)
+plantedCorn3_ES,blocks,Farming,Explosive, Sweet Corn
+plantedCorn1_ESDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\nExtremely Explosive: triggers a concealed explosive when stepped on, struck with a melee weapon, or hit with an arrow.\n- Due to the flexible nature of plants, the detonator will not trigger if struck with bullets or other explosives.\n\nSuper Sweet: produces a sweet aroma upon reaching maturity, providing the possibility of attracting an animal.\n- Chickens are especially attracted to this type of plant."
+plantedCorn1_R,blocks,Farming,Renewable Corn (Seed)%!(EXTRA []gen.Trait=[{82 Renewable  [82 69]}])
+plantedCorn2_R,blocks,Farming,Renewable Corn (Growing)
+plantedCorn3_R,blocks,Farming,Renewable Corn
+plantedCorn1_RDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\n: clean, healthy water allows this plant to spread out its roots and bolster its nutrition absorption and allowing it to produce crops endlessly."
+plantedCorn1_RT,blocks,Farming,Renewable, Thorny Corn (Seed)%!(EXTRA []gen.Trait=[{82 Renewable  [82 69]} {84 Thorny Extra Thorny []}])
+plantedCorn2_RT,blocks,Farming,Renewable, Thorny Corn (Growing)
+plantedCorn3_RT,blocks,Farming,Renewable, Thorny Corn
+plantedCorn1_RTDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\n: clean, healthy water allows this plant to spread out its roots and bolster its nutrition absorption and allowing it to produce crops endlessly.\n\nExtra Thorny: integrates with sharp, metal thorns. Touching them will cause one to bleed."
+plantedCorn1_RS,blocks,Farming,Renewable, Sweet Corn (Seed)%!(EXTRA []gen.Trait=[{82 Renewable  [82 69]} {83 Sweet Super Sweet [85]}])
+plantedCorn2_RS,blocks,Farming,Renewable, Sweet Corn (Growing)
+plantedCorn3_RS,blocks,Farming,Renewable, Sweet Corn
+plantedCorn1_RSDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\n: clean, healthy water allows this plant to spread out its roots and bolster its nutrition absorption and allowing it to produce crops endlessly.\n\nSuper Sweet: produces a sweet aroma upon reaching maturity, providing the possibility of attracting an animal.\n- Chickens are especially attracted to this type of plant."
+plantedCorn1_T,blocks,Farming,Thorny Corn (Seed)%!(EXTRA []gen.Trait=[{84 Thorny Extra Thorny []}])
+plantedCorn2_T,blocks,Farming,Thorny Corn (Growing)
+plantedCorn3_T,blocks,Farming,Thorny Corn
+plantedCorn1_TDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\nExtra Thorny: integrates with sharp, metal thorns. Touching them will cause one to bleed."
+plantedCorn1_TT,blocks,Farming,Extra Thorny Corn (Seed)%!(EXTRA []gen.Trait=[{84 Thorny Extra Thorny []} {84 Thorny Extra Thorny []}])
+plantedCorn2_TT,blocks,Farming,Extra Thorny Corn (Growing)
+plantedCorn3_TT,blocks,Farming,Extra Thorny Corn
+plantedCorn1_TTDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\nExtra Thorny: integrates with many sharp, metal thorns. Touching them will cause one to receive damage and bleed."
+plantedCorn1_TS,blocks,Farming,Thorny, Sweet Corn (Seed)%!(EXTRA []gen.Trait=[{84 Thorny Extra Thorny []} {83 Sweet Super Sweet [85]}])
+plantedCorn2_TS,blocks,Farming,Thorny, Sweet Corn (Growing)
+plantedCorn3_TS,blocks,Farming,Thorny, Sweet Corn
+plantedCorn1_TSDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\nExtra Thorny: integrates with sharp, metal thorns. Touching them will cause one to bleed.\n\nSuper Sweet: produces a sweet aroma upon reaching maturity, providing the possibility of attracting an animal.\n- Chickens are especially attracted to this type of plant."
+plantedCorn1_S,blocks,Farming,Sweet Corn (Seed)%!(EXTRA []gen.Trait=[{83 Sweet Super Sweet [85]}])
+plantedCorn2_S,blocks,Farming,Sweet Corn (Growing)
+plantedCorn3_S,blocks,Farming,Sweet Corn
+plantedCorn1_SDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\nSuper Sweet: produces a sweet aroma upon reaching maturity, providing the possibility of attracting an animal.\n- Chickens are especially attracted to this type of plant."
+plantedCorn1_SS,blocks,Farming,Super Sweet Corn (Seed)%!(EXTRA []gen.Trait=[{83 Sweet Super Sweet [85]} {83 Sweet Super Sweet [85]}])
+plantedCorn2_SS,blocks,Farming,Super Sweet Corn (Growing)
+plantedCorn3_SS,blocks,Farming,Super Sweet Corn
+plantedCorn1_SSDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\nSuper Sweet: produces a super sweet aroma upon reaching maturity, providing the high likelihood of attracting an animal.\n- Chickens are especially attracted to this type of plant."

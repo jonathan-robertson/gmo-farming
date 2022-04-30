@@ -26,24 +26,18 @@ func producePlantBlocks(c chan string) {
 	c <- `<append xpath="/blocks">`
 	produceWorkstationHotBox(c)
 	for _, plant := range Plants {
-		for _, tier := range []int{2, 3} {
-			// produce T2, T3 with no traits
-			plant.WriteBlockStages(c, tier, "")
-			for i1 := 0; i1 < len(Traits); i1++ {
-				switch tier {
-				case 2:
-					traits := fmt.Sprintf("%c", Traits[i1].code)
+		// produce T2, T3 with no traits
+		plant.WriteBlockStages(c, "")
+		for i1 := 0; i1 < len(Traits); i1++ {
+			traits := fmt.Sprintf("%c", Traits[i1].code)
+			if plant.IsCompatibleWith(traits) {
+				plant.WriteBlockStages(c, traits)
+			}
+			for i2 := i1; i2 < len(Traits); i2++ {
+				if Traits[i1].isCompatibleWith(Traits[i2]) {
+					traits := fmt.Sprintf("%c%c", Traits[i1].code, Traits[i2].code)
 					if plant.IsCompatibleWith(traits) {
-						plant.WriteBlockStages(c, tier, traits)
-					}
-				case 3:
-					for i2 := i1; i2 < len(Traits); i2++ {
-						if Traits[i1].isCompatibleWith(Traits[i2]) {
-							traits := fmt.Sprintf("%c%c", Traits[i1].code, Traits[i2].code)
-							if plant.IsCompatibleWith(traits) {
-								plant.WriteBlockStages(c, tier, traits)
-							}
-						}
+						plant.WriteBlockStages(c, traits)
 					}
 				}
 			}
@@ -109,7 +103,6 @@ func produceWorkstationHotBox(c chan string) {
 	<property name="TakeDelay" value="5"/>
 	<property name="WorkstationIcon" value="ui_game_symbol_workbench"/>
 </block>`
-
 }
 
 func produceBlockModifications(c chan string) {

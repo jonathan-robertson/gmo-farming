@@ -58,17 +58,16 @@ func (*Corn) IsCompatibleWith(traits string) bool {
 	return true
 }
 
-func (corn *Corn) WriteBlockStages(c chan string, tier int, traits string) {
-	suffix := calculateStandardNameSuffix(tier, traits)
-	corn.WriteStage1(c, tier, traits, suffix)
-	corn.WriteStage2(c, tier, traits, suffix)
-	corn.WriteStage3(c, tier, traits, suffix)
+func (corn *Corn) WriteBlockStages(c chan string, traits string) {
+	corn.WriteStage1(c, traits)
+	corn.WriteStage2(c, traits)
+	corn.WriteStage3(c, traits)
 }
 
 // TODO: <property name="UnlockedBy" value="perkLivingOffTheLand,plantedCorn1Schematic"/>
 // TODO: <property name="UnlockedBy" value="perkLivingOffTheLand"/>
-func (*Corn) WriteStage1(c chan string, tier int, traits, suffix string) {
-	c <- fmt.Sprintf(`<block name="plantedCorn1%s" stage="1" traits="%s">
+func (*Corn) WriteStage1(c chan string, traits string) {
+	c <- fmt.Sprintf(`<block name="plantedCorn1_%s" stage="1" traits="%s">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="CreativeMode" value="Player"/>
 	
@@ -80,23 +79,23 @@ func (*Corn) WriteStage1(c chan string, tier int, traits, suffix string) {
 	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="MultiBlockDim" value="1,3,1"/>
 	<property name="Texture" value="529"/>
-	<property name="PlantGrowing.Next" value="plantedCorn2%s"/>
+	<property name="PlantGrowing.Next" value="plantedCorn2_%s"/>
 	<property name="Group" value="Food/Cooking"/>
-	<drop event="Destroy" name="plantedCorn1%s" count="1"/>
+	<drop event="Destroy" name="plantedCorn1_%s" count="1"/>
 	
 	<property name="CustomIcon" value="plantedCorn1"/>
-	<property name="DescriptionKey" value="plantedCorn1%sDesc"/>
+	<property name="DescriptionKey" value="plantedCorn1_%sDesc"/>
 </block>`,
-		suffix,
 		traits,
-		suffix,
-		suffix,
-		suffix)
+		traits,
+		traits,
+		traits,
+		traits)
 }
 
-func (*Corn) WriteStage2(c chan string, tier int, traits, suffix string) {
-	c <- fmt.Sprintf(`<block name="plantedCorn2%s" stage="2" traits="%s">
-	<property name="Extends" value="plantedCorn1%s"/>
+func (*Corn) WriteStage2(c chan string, traits string) {
+	c <- fmt.Sprintf(`<block name="plantedCorn2_%s" stage="2" traits="%s">
+	<property name="Extends" value="plantedCorn1_%s"/>
 	
 	<property name="Shape" value="New"/>
 	<property name="Model" value="corn_growth_shape"/>
@@ -104,17 +103,17 @@ func (*Corn) WriteStage2(c chan string, tier int, traits, suffix string) {
 	<property name="MultiBlockDim" value="1,3,1"/>
 	<property name="Texture" value="529"/>
 	<property name="PlantGrowing.Next" value="plantedCorn3HarvestPlayer"/>
-	<drop event="Destroy" name="plantedCorn1%s" count="1"/>
+	<drop event="Destroy" name="plantedCorn1_%s" count="1"/>
 </block>`,
-		suffix,
 		traits,
-		suffix,
-		suffix)
+		traits,
+		traits,
+		traits)
 	// TODO: <property name="CreativeMode" value="None"/>
 }
 
-func (corn *Corn) WriteStage3(c chan string, tier int, traits, suffix string) {
-	c <- fmt.Sprintf(`<block name="plantedCorn3%s" stage="3" traits="%s">
+func (corn *Corn) WriteStage3(c chan string, traits string) {
+	c <- fmt.Sprintf(`<block name="plantedCorn3_%s" stage="3" traits="%s">
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="LightOpacity" value="0"/>
 	<property name="ImposterDontBlock" value="true"/>
@@ -137,20 +136,20 @@ func (corn *Corn) WriteStage3(c chan string, tier int, traits, suffix string) {
 	<property name="MultiBlockDim" value="1,3,1"/>
 	<property name="Texture" value="529"/>
 
-	<property name="DescriptionKey" value="plantedCorn3%s"/>
+	<property name="DescriptionKey" value="plantedCorn3_%s"/>
 	<property name="CustomIcon" value="plantedCorn3Harvest"/>
 
 	<drop event="Harvest" name="foodCropCorn" count="%d" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="%d" tag="bonusCropHarvest"/>
-	<drop event="Destroy" name="plantedCorn1%s" count="1" prob="0.5"/>
+	<drop event="Destroy" name="plantedCorn1_%s" count="1" prob="0.5"/>
 	%s
 </block>`,
-		suffix,
 		traits,
-		suffix,
-		calculateCropYield(corn.CropYield, tier, traits),
-		calculateBonusYield(corn.BonusYield, tier, traits),
-		suffix,
-		optionallyAddRenewable(traits, "plantedCorn1", suffix))
+		traits,
+		traits,
+		calculateCropYield(corn.CropYield, traits),
+		calculateBonusYield(corn.BonusYield, traits),
+		traits,
+		optionallyAddRenewable(traits, "plantedCorn1"))
 	// TODO: <property name="CreativeMode" value="None"/>
 }

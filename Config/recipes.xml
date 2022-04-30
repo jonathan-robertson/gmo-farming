@@ -1,185 +1,178 @@
 <config>
 <append xpath="/recipes">
-<recipe name="plantedMushroom1T2" count="1" craft_time="200" tier="2" traits="" craft_area="hotbox">
-    <ingredient name="plantedMushroom1" count="1"/>
+<recipe name="plantedMushroom1_" count="1" craft_time="2000" traits="">
+    <ingredient name="plantedMushroom1_" count="1"/>
 </recipe>
-<recipe name="plantedMushroom1T2B" count="1" craft_time="2" tier="2" traits="B">
-    <ingredient name="plantedMushroom1T2" count="1"/>
+<recipe name="plantedMushroom1_B" count="1" craft_time="2" traits="B" craft_area="hotbox">
+    <ingredient name="plantedMushroom1_" count="1"/>
 </recipe>
-<recipe name="plantedMushroom1T2F" count="1" craft_time="2" tier="2" traits="F">
-    <ingredient name="plantedMushroom1T2" count="1"/>
+<recipe name="plantedMushroom1_BB" count="1" craft_time="2" traits="BB" craft_area="hotbox">
+    <ingredient name="plantedMushroom1_" count="1"/>
 </recipe>
-<recipe name="plantedMushroom1T2E" count="1" craft_time="2" tier="2" traits="E">
-    <ingredient name="plantedMushroom1T2" count="1"/>
+<recipe name="plantedMushroom1_BF" count="1" craft_time="2" traits="BF" craft_area="hotbox">
+    <ingredient name="plantedMushroom1_" count="1"/>
 </recipe>
-<recipe name="plantedMushroom1T2R" count="1" craft_time="2" tier="2" traits="R">
-    <ingredient name="plantedMushroom1T2" count="1"/>
+<recipe name="plantedMushroom1_BR" count="1" craft_time="2" traits="BR" craft_area="hotbox">
+    <ingredient name="plantedMushroom1_" count="1"/>
 </recipe>
-<recipe name="plantedMushroom1T2T" count="1" craft_time="2" tier="2" traits="T">
-    <ingredient name="plantedMushroom1T2" count="1"/>
+<recipe name="plantedMushroom1_BT" count="1" craft_time="2" traits="BT" craft_area="hotbox">
+    <ingredient name="plantedMushroom1_" count="1"/>
 </recipe>
-<recipe name="plantedMushroom1T2S" count="1" craft_time="2" tier="2" traits="S">
-    <ingredient name="plantedMushroom1T2" count="1"/>
+<recipe name="plantedMushroom1_BS" count="1" craft_time="2" traits="BS" craft_area="hotbox">
+    <ingredient name="plantedMushroom1_" count="1"/>
 </recipe>
-<recipe name="plantedMushroom1T3" count="1" craft_time="200" tier="3" traits="" craft_area="hotbox">
-    <ingredient name="plantedMushroom1T2" count="1"/>
+<recipe name="plantedMushroom1_F" count="1" craft_time="2" traits="F" craft_area="hotbox">
+    <ingredient name="plantedMushroom1_" count="1"/>
 </recipe>
-<recipe name="plantedMushroom1T3BB" count="1" craft_time="2" tier="3" traits="BB">
-    <ingredient name="plantedMushroom1T3" count="1"/>
+<recipe name="plantedMushroom1_FF" count="1" craft_time="2" traits="FF" craft_area="hotbox">
+    <ingredient name="plantedMushroom1_" count="1"/>
 </recipe>
-<recipe name="plantedMushroom1T3BF" count="1" craft_time="2" tier="3" traits="BF">
-    <ingredient name="plantedMushroom1T3" count="1"/>
+<recipe name="plantedMushroom1_FE" count="1" craft_time="2" traits="FE" craft_area="hotbox">
+    <ingredient name="plantedMushroom1_" count="1"/>
 </recipe>
-<recipe name="plantedMushroom1T3BR" count="1" craft_time="2" tier="3" traits="BR">
-    <ingredient name="plantedMushroom1T3" count="1"/>
+<recipe name="plantedMushroom1_FR" count="1" craft_time="2" traits="FR" craft_area="hotbox">
+    <ingredient name="plantedMushroom1_" count="1"/>
 </recipe>
-<recipe name="plantedMushroom1T3BT" count="1" craft_time="2" tier="3" traits="BT">
-    <ingredient name="plantedMushroom1T3" count="1"/>
+<recipe name="plantedMushroom1_FT" count="1" craft_time="2" traits="FT" craft_area="hotbox">
+    <ingredient name="plantedMushroom1_" count="1"/>
 </recipe>
-<recipe name="plantedMushroom1T3BS" count="1" craft_time="2" tier="3" traits="BS">
-    <ingredient name="plantedMushroom1T3" count="1"/>
+<recipe name="plantedMushroom1_FS" count="1" craft_time="2" traits="FS" craft_area="hotbox">
+    <ingredient name="plantedMushroom1_" count="1"/>
 </recipe>
-<recipe name="plantedMushroom1T3FF" count="1" craft_time="2" tier="3" traits="FF">
-    <ingredient name="plantedMushroom1T3" count="1"/>
+<recipe name="plantedMushroom1_E" count="1" craft_time="2" traits="E" craft_area="hotbox">
+    <ingredient name="plantedMushroom1_" count="1"/>
 </recipe>
-<recipe name="plantedMushroom1T3FE" count="1" craft_time="2" tier="3" traits="FE">
-    <ingredient name="plantedMushroom1T3" count="1"/>
+<recipe name="plantedMushroom1_EE" count="1" craft_time="2" traits="EE" craft_area="hotbox">
+    <ingredient name="plantedMushroom1_" count="1"/>
 </recipe>
-<recipe name="plantedMushroom1T3FR" count="1" craft_time="2" tier="3" traits="FR">
-    <ingredient name="plantedMushroom1T3" count="1"/>
+<recipe name="plantedMushroom1_ET" count="1" craft_time="2" traits="ET" craft_area="hotbox">
+    <ingredient name="plantedMushroom1_" count="1"/>
 </recipe>
-<recipe name="plantedMushroom1T3FT" count="1" craft_time="2" tier="3" traits="FT">
-    <ingredient name="plantedMushroom1T3" count="1"/>
+<recipe name="plantedMushroom1_ES" count="1" craft_time="2" traits="ES" craft_area="hotbox">
+    <ingredient name="plantedMushroom1_" count="1"/>
 </recipe>
-<recipe name="plantedMushroom1T3FS" count="1" craft_time="2" tier="3" traits="FS">
-    <ingredient name="plantedMushroom1T3" count="1"/>
+<recipe name="plantedMushroom1_R" count="1" craft_time="2" traits="R" craft_area="hotbox">
+    <ingredient name="plantedMushroom1_" count="1"/>
 </recipe>
-<recipe name="plantedMushroom1T3EE" count="1" craft_time="2" tier="3" traits="EE">
-    <ingredient name="plantedMushroom1T3" count="1"/>
+<recipe name="plantedMushroom1_RT" count="1" craft_time="2" traits="RT" craft_area="hotbox">
+    <ingredient name="plantedMushroom1_" count="1"/>
 </recipe>
-<recipe name="plantedMushroom1T3ET" count="1" craft_time="2" tier="3" traits="ET">
-    <ingredient name="plantedMushroom1T3" count="1"/>
+<recipe name="plantedMushroom1_RS" count="1" craft_time="2" traits="RS" craft_area="hotbox">
+    <ingredient name="plantedMushroom1_" count="1"/>
 </recipe>
-<recipe name="plantedMushroom1T3ES" count="1" craft_time="2" tier="3" traits="ES">
-    <ingredient name="plantedMushroom1T3" count="1"/>
+<recipe name="plantedMushroom1_T" count="1" craft_time="2" traits="T" craft_area="hotbox">
+    <ingredient name="plantedMushroom1_" count="1"/>
 </recipe>
-<recipe name="plantedMushroom1T3RT" count="1" craft_time="2" tier="3" traits="RT">
-    <ingredient name="plantedMushroom1T3" count="1"/>
+<recipe name="plantedMushroom1_TT" count="1" craft_time="2" traits="TT" craft_area="hotbox">
+    <ingredient name="plantedMushroom1_" count="1"/>
 </recipe>
-<recipe name="plantedMushroom1T3RS" count="1" craft_time="2" tier="3" traits="RS">
-    <ingredient name="plantedMushroom1T3" count="1"/>
+<recipe name="plantedMushroom1_TS" count="1" craft_time="2" traits="TS" craft_area="hotbox">
+    <ingredient name="plantedMushroom1_" count="1"/>
 </recipe>
-<recipe name="plantedMushroom1T3TT" count="1" craft_time="2" tier="3" traits="TT">
-    <ingredient name="plantedMushroom1T3" count="1"/>
+<recipe name="plantedMushroom1_S" count="1" craft_time="2" traits="S" craft_area="hotbox">
+    <ingredient name="plantedMushroom1_" count="1"/>
 </recipe>
-<recipe name="plantedMushroom1T3TS" count="1" craft_time="2" tier="3" traits="TS">
-    <ingredient name="plantedMushroom1T3" count="1"/>
+<recipe name="plantedMushroom1_SS" count="1" craft_time="2" traits="SS" craft_area="hotbox">
+    <ingredient name="plantedMushroom1_" count="1"/>
 </recipe>
-<recipe name="plantedMushroom1T3SS" count="1" craft_time="2" tier="3" traits="SS">
-    <ingredient name="plantedMushroom1T3" count="1"/>
+<recipe name="plantedCorn1_" count="1" craft_time="2000" traits="">
+    <ingredient name="plantedCorn1_" count="1"/>
 </recipe>
-<recipe name="plantedCorn1T2" count="1" craft_time="200" tier="2" traits="" craft_area="hotbox">
-    <ingredient name="plantedCorn1" count="1"/>
+<recipe name="plantedCorn1_B" count="1" craft_time="2" traits="B" craft_area="hotbox">
+    <ingredient name="plantedCorn1_" count="1"/>
 </recipe>
-<recipe name="plantedCorn1T2B" count="1" craft_time="2" tier="2" traits="B">
-    <ingredient name="plantedCorn1T2" count="1"/>
+<recipe name="plantedCorn1_BB" count="1" craft_time="2" traits="BB" craft_area="hotbox">
+    <ingredient name="plantedCorn1_" count="1"/>
 </recipe>
-<recipe name="plantedCorn1T2U" count="1" craft_time="2" tier="2" traits="U">
-    <ingredient name="plantedCorn1T2" count="1"/>
+<recipe name="plantedCorn1_BU" count="1" craft_time="2" traits="BU" craft_area="hotbox">
+    <ingredient name="plantedCorn1_" count="1"/>
 </recipe>
-<recipe name="plantedCorn1T2F" count="1" craft_time="2" tier="2" traits="F">
-    <ingredient name="plantedCorn1T2" count="1"/>
+<recipe name="plantedCorn1_BF" count="1" craft_time="2" traits="BF" craft_area="hotbox">
+    <ingredient name="plantedCorn1_" count="1"/>
 </recipe>
-<recipe name="plantedCorn1T2E" count="1" craft_time="2" tier="2" traits="E">
-    <ingredient name="plantedCorn1T2" count="1"/>
+<recipe name="plantedCorn1_BR" count="1" craft_time="2" traits="BR" craft_area="hotbox">
+    <ingredient name="plantedCorn1_" count="1"/>
 </recipe>
-<recipe name="plantedCorn1T2R" count="1" craft_time="2" tier="2" traits="R">
-    <ingredient name="plantedCorn1T2" count="1"/>
+<recipe name="plantedCorn1_BT" count="1" craft_time="2" traits="BT" craft_area="hotbox">
+    <ingredient name="plantedCorn1_" count="1"/>
 </recipe>
-<recipe name="plantedCorn1T2T" count="1" craft_time="2" tier="2" traits="T">
-    <ingredient name="plantedCorn1T2" count="1"/>
+<recipe name="plantedCorn1_BS" count="1" craft_time="2" traits="BS" craft_area="hotbox">
+    <ingredient name="plantedCorn1_" count="1"/>
 </recipe>
-<recipe name="plantedCorn1T2S" count="1" craft_time="2" tier="2" traits="S">
-    <ingredient name="plantedCorn1T2" count="1"/>
+<recipe name="plantedCorn1_U" count="1" craft_time="2" traits="U" craft_area="hotbox">
+    <ingredient name="plantedCorn1_" count="1"/>
 </recipe>
-<recipe name="plantedCorn1T3" count="1" craft_time="200" tier="3" traits="" craft_area="hotbox">
-    <ingredient name="plantedCorn1T2" count="1"/>
+<recipe name="plantedCorn1_UF" count="1" craft_time="2" traits="UF" craft_area="hotbox">
+    <ingredient name="plantedCorn1_" count="1"/>
 </recipe>
-<recipe name="plantedCorn1T3BB" count="1" craft_time="2" tier="3" traits="BB">
-    <ingredient name="plantedCorn1T3" count="1"/>
+<recipe name="plantedCorn1_UE" count="1" craft_time="2" traits="UE" craft_area="hotbox">
+    <ingredient name="plantedCorn1_" count="1"/>
 </recipe>
-<recipe name="plantedCorn1T3BU" count="1" craft_time="2" tier="3" traits="BU">
-    <ingredient name="plantedCorn1T3" count="1"/>
+<recipe name="plantedCorn1_UR" count="1" craft_time="2" traits="UR" craft_area="hotbox">
+    <ingredient name="plantedCorn1_" count="1"/>
 </recipe>
-<recipe name="plantedCorn1T3BF" count="1" craft_time="2" tier="3" traits="BF">
-    <ingredient name="plantedCorn1T3" count="1"/>
+<recipe name="plantedCorn1_UT" count="1" craft_time="2" traits="UT" craft_area="hotbox">
+    <ingredient name="plantedCorn1_" count="1"/>
 </recipe>
-<recipe name="plantedCorn1T3BR" count="1" craft_time="2" tier="3" traits="BR">
-    <ingredient name="plantedCorn1T3" count="1"/>
+<recipe name="plantedCorn1_F" count="1" craft_time="2" traits="F" craft_area="hotbox">
+    <ingredient name="plantedCorn1_" count="1"/>
 </recipe>
-<recipe name="plantedCorn1T3BT" count="1" craft_time="2" tier="3" traits="BT">
-    <ingredient name="plantedCorn1T3" count="1"/>
+<recipe name="plantedCorn1_FF" count="1" craft_time="2" traits="FF" craft_area="hotbox">
+    <ingredient name="plantedCorn1_" count="1"/>
 </recipe>
-<recipe name="plantedCorn1T3BS" count="1" craft_time="2" tier="3" traits="BS">
-    <ingredient name="plantedCorn1T3" count="1"/>
+<recipe name="plantedCorn1_FE" count="1" craft_time="2" traits="FE" craft_area="hotbox">
+    <ingredient name="plantedCorn1_" count="1"/>
 </recipe>
-<recipe name="plantedCorn1T3UF" count="1" craft_time="2" tier="3" traits="UF">
-    <ingredient name="plantedCorn1T3" count="1"/>
+<recipe name="plantedCorn1_FR" count="1" craft_time="2" traits="FR" craft_area="hotbox">
+    <ingredient name="plantedCorn1_" count="1"/>
 </recipe>
-<recipe name="plantedCorn1T3UE" count="1" craft_time="2" tier="3" traits="UE">
-    <ingredient name="plantedCorn1T3" count="1"/>
+<recipe name="plantedCorn1_FT" count="1" craft_time="2" traits="FT" craft_area="hotbox">
+    <ingredient name="plantedCorn1_" count="1"/>
 </recipe>
-<recipe name="plantedCorn1T3UR" count="1" craft_time="2" tier="3" traits="UR">
-    <ingredient name="plantedCorn1T3" count="1"/>
+<recipe name="plantedCorn1_FS" count="1" craft_time="2" traits="FS" craft_area="hotbox">
+    <ingredient name="plantedCorn1_" count="1"/>
 </recipe>
-<recipe name="plantedCorn1T3UT" count="1" craft_time="2" tier="3" traits="UT">
-    <ingredient name="plantedCorn1T3" count="1"/>
+<recipe name="plantedCorn1_E" count="1" craft_time="2" traits="E" craft_area="hotbox">
+    <ingredient name="plantedCorn1_" count="1"/>
 </recipe>
-<recipe name="plantedCorn1T3FF" count="1" craft_time="2" tier="3" traits="FF">
-    <ingredient name="plantedCorn1T3" count="1"/>
+<recipe name="plantedCorn1_EE" count="1" craft_time="2" traits="EE" craft_area="hotbox">
+    <ingredient name="plantedCorn1_" count="1"/>
 </recipe>
-<recipe name="plantedCorn1T3FE" count="1" craft_time="2" tier="3" traits="FE">
-    <ingredient name="plantedCorn1T3" count="1"/>
+<recipe name="plantedCorn1_ET" count="1" craft_time="2" traits="ET" craft_area="hotbox">
+    <ingredient name="plantedCorn1_" count="1"/>
 </recipe>
-<recipe name="plantedCorn1T3FR" count="1" craft_time="2" tier="3" traits="FR">
-    <ingredient name="plantedCorn1T3" count="1"/>
+<recipe name="plantedCorn1_ES" count="1" craft_time="2" traits="ES" craft_area="hotbox">
+    <ingredient name="plantedCorn1_" count="1"/>
 </recipe>
-<recipe name="plantedCorn1T3FT" count="1" craft_time="2" tier="3" traits="FT">
-    <ingredient name="plantedCorn1T3" count="1"/>
+<recipe name="plantedCorn1_R" count="1" craft_time="2" traits="R" craft_area="hotbox">
+    <ingredient name="plantedCorn1_" count="1"/>
 </recipe>
-<recipe name="plantedCorn1T3FS" count="1" craft_time="2" tier="3" traits="FS">
-    <ingredient name="plantedCorn1T3" count="1"/>
+<recipe name="plantedCorn1_RT" count="1" craft_time="2" traits="RT" craft_area="hotbox">
+    <ingredient name="plantedCorn1_" count="1"/>
 </recipe>
-<recipe name="plantedCorn1T3EE" count="1" craft_time="2" tier="3" traits="EE">
-    <ingredient name="plantedCorn1T3" count="1"/>
+<recipe name="plantedCorn1_RS" count="1" craft_time="2" traits="RS" craft_area="hotbox">
+    <ingredient name="plantedCorn1_" count="1"/>
 </recipe>
-<recipe name="plantedCorn1T3ET" count="1" craft_time="2" tier="3" traits="ET">
-    <ingredient name="plantedCorn1T3" count="1"/>
+<recipe name="plantedCorn1_T" count="1" craft_time="2" traits="T" craft_area="hotbox">
+    <ingredient name="plantedCorn1_" count="1"/>
 </recipe>
-<recipe name="plantedCorn1T3ES" count="1" craft_time="2" tier="3" traits="ES">
-    <ingredient name="plantedCorn1T3" count="1"/>
+<recipe name="plantedCorn1_TT" count="1" craft_time="2" traits="TT" craft_area="hotbox">
+    <ingredient name="plantedCorn1_" count="1"/>
 </recipe>
-<recipe name="plantedCorn1T3RT" count="1" craft_time="2" tier="3" traits="RT">
-    <ingredient name="plantedCorn1T3" count="1"/>
+<recipe name="plantedCorn1_TS" count="1" craft_time="2" traits="TS" craft_area="hotbox">
+    <ingredient name="plantedCorn1_" count="1"/>
 </recipe>
-<recipe name="plantedCorn1T3RS" count="1" craft_time="2" tier="3" traits="RS">
-    <ingredient name="plantedCorn1T3" count="1"/>
+<recipe name="plantedCorn1_S" count="1" craft_time="2" traits="S" craft_area="hotbox">
+    <ingredient name="plantedCorn1_" count="1"/>
 </recipe>
-<recipe name="plantedCorn1T3TT" count="1" craft_time="2" tier="3" traits="TT">
-    <ingredient name="plantedCorn1T3" count="1"/>
-</recipe>
-<recipe name="plantedCorn1T3TS" count="1" craft_time="2" tier="3" traits="TS">
-    <ingredient name="plantedCorn1T3" count="1"/>
-</recipe>
-<recipe name="plantedCorn1T3SS" count="1" craft_time="2" tier="3" traits="SS">
-    <ingredient name="plantedCorn1T3" count="1"/>
+<recipe name="plantedCorn1_SS" count="1" craft_time="2" traits="SS" craft_area="hotbox">
+    <ingredient name="plantedCorn1_" count="1"/>
 </recipe>
 </append>
-    <append xpath="/recipes/recipe[@tier='2' and @traits='']">
-        <ingredient name="foodRottingFlesh" count="10"/>
-    </append>
-    <append xpath="/recipes/recipe[@tier='3' and @traits='']">
-        <ingredient name="foodRottingFlesh" count="20"/>
+    <append xpath="/recipes/recipe[@traits='']">
+        <ingredient name="resourceCloth" count="1"/>
+        <ingredient name="resourceYuccaFibers" count="2"/>
+        <ingredient name="foodRottingFlesh" count="1"/>
     </append>
     <append xpath="/recipes/recipe[contains(@traits, 'B') and not (@traits='BB')]">
         <ingredient name="foodRottingFlesh" count="5"/>

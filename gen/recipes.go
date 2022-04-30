@@ -25,24 +25,17 @@ func producePlantRecipes(c chan string) {
 	c <- `<config>`
 	c <- `<append xpath="/recipes">`
 	for _, plant := range Plants {
-		for _, tier := range []int{2, 3} {
-			// produce T2, T3 with no traits
-			produceRecipeStub(c, plant.GetName(), tier, "", plant.GetCraftTime())
-			for i1 := 0; i1 < len(Traits); i1++ {
-				switch tier {
-				case 2:
-					traits := fmt.Sprintf("%c", Traits[i1].code)
+		produceRecipeStub(c, plant.GetName(), "", plant.GetCraftTime())
+		for i1 := 0; i1 < len(Traits); i1++ {
+			traits := fmt.Sprintf("%c", Traits[i1].code)
+			if plant.IsCompatibleWith(traits) {
+				produceRecipeStub(c, plant.GetName(), traits, plant.GetCraftTime())
+			}
+			for i2 := i1; i2 < len(Traits); i2++ {
+				if Traits[i1].isCompatibleWith(Traits[i2]) {
+					traits := fmt.Sprintf("%c%c", Traits[i1].code, Traits[i2].code)
 					if plant.IsCompatibleWith(traits) {
-						produceRecipeStub(c, plant.GetName(), tier, traits, plant.GetCraftTime())
-					}
-				case 3:
-					for i2 := i1; i2 < len(Traits); i2++ {
-						if Traits[i1].isCompatibleWith(Traits[i2]) {
-							traits := fmt.Sprintf("%c%c", Traits[i1].code, Traits[i2].code)
-							if plant.IsCompatibleWith(traits) {
-								produceRecipeStub(c, plant.GetName(), tier, traits, plant.GetCraftTime())
-							}
-						}
+						produceRecipeStub(c, plant.GetName(), traits, plant.GetCraftTime())
 					}
 				}
 			}
@@ -53,42 +46,29 @@ func producePlantRecipes(c chan string) {
 	c <- `</config>`
 }
 
-func produceRecipeStub(c chan string, name string, tier int, traits string, craftTime int) {
-	var ingredientTier, optionalCraftingArea string
-	switch true {
-	case tier == 2 && traits == "":
-		ingredientTier = ""
+func produceRecipeStub(c chan string, name string, traits string, craftTime int) {
+	var optionalCraftingArea string
+	if traits != "" {
 		optionalCraftingArea = ` craft_area="hotbox"`
-	case tier == 3 && traits == "":
-		ingredientTier = "T2"
-		optionalCraftingArea = ` craft_area="hotbox"`
-	default:
-		ingredientTier = fmt.Sprintf("T%d", tier)
-		optionalCraftingArea = ``
 	}
 	// TODO: tags="learnable"
-	c <- fmt.Sprintf(`<recipe name="planted%s1T%d%s" count="1" craft_time="%d" tier="%d" traits="%s"%s>
-    <ingredient name="planted%s1%s" count="1"/>
+	c <- fmt.Sprintf(`<recipe name="planted%s1_%s" count="1" craft_time="%d" traits="%s"%s>
+    <ingredient name="planted%s1_" count="1"/>
 </recipe>`,
 		name,
-		tier,
 		traits,
-		calculateCraftTime(craftTime, tier, traits),
-		tier,
+		calculateCraftTime(craftTime, traits),
 		traits,
 		optionalCraftingArea,
-		name,
-		ingredientTier)
+		name)
 }
 
 func produceRecipeModifications(c chan string) {
-	// Tier 2 Upgrade
-	c <- `    <append xpath="/recipes/recipe[@tier='2' and @traits='']">
-        <ingredient name="foodRottingFlesh" count="10"/>
-    </append>`
-	// Tier 3 Upgrade
-	c <- `    <append xpath="/recipes/recipe[@tier='3' and @traits='']">
-        <ingredient name="foodRottingFlesh" count="20"/>
+	// Initial Upgrade
+	c <- `    <append xpath="/recipes/recipe[@traits='']">
+        <ingredient name="resourceCloth" count="1"/>
+        <ingredient name="resourceYuccaFibers" count="2"/>
+        <ingredient name="foodRottingFlesh" count="1"/>
     </append>`
 	// [B] Bonus
 	c <- `    <append xpath="/recipes/recipe[contains(@traits, 'B') and not (@traits='BB')]">

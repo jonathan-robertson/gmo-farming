@@ -2,7 +2,7 @@ package gen
 
 type Plant interface {
 	IsCompatibleWith(string) bool
-	WriteBlockStages(chan string, int, string)
+	WriteBlockStages(chan string, string)
 	GetName() string
 	GetNamePlural() string
 	GetDisplayName() string

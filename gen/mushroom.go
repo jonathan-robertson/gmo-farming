@@ -56,16 +56,15 @@ func (*Mushroom) IsCompatibleWith(traits string) bool {
 	return !strings.ContainsRune(traits, 'U')
 }
 
-func (mushroom *Mushroom) WriteBlockStages(c chan string, tier int, traits string) {
-	suffix := fmt.Sprintf("T%d%s", tier, traits)
-	mushroom.WriteStage1(c, tier, traits, suffix)
-	mushroom.WriteStage2(c, tier, traits, suffix)
-	mushroom.WriteStage3(c, tier, traits, suffix)
+func (mushroom *Mushroom) WriteBlockStages(c chan string, traits string) {
+	mushroom.WriteStage1(c, traits)
+	mushroom.WriteStage2(c, traits)
+	mushroom.WriteStage3(c, traits)
 }
 
 // TODO: <property name="UnlockedBy" value="perkLivingOffTheLand,plantedMushroom1Schematic"/>
-func (*Mushroom) WriteStage1(c chan string, tier int, traits, suffix string) {
-	c <- fmt.Sprintf(`<block name="plantedMushroom1%s" stage="1" traits="%s">
+func (*Mushroom) WriteStage1(c chan string, traits string) {
+	c <- fmt.Sprintf(`<block name="plantedMushroom1_%s" stage="1" traits="%s">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -81,37 +80,37 @@ func (*Mushroom) WriteStage1(c chan string, tier int, traits, suffix string) {
 	<property name="PlantGrowing.LightLevelGrow" value="0"/>
 	<property name="PlantGrowing.LightLevelStay" value="0"/>
 	<property name="PlantGrowing.FertileLevel" value="0"/>
-	<property name="PlantGrowing.Next" value="plantedMushroom2%s"/>
+	<property name="PlantGrowing.Next" value="plantedMushroom2_%s"/>
 	<property name="HarvestOverdamage" value="false"/>
-	<drop event="Destroy" name="plantedMushroom1%s" count="1"/>
+	<drop event="Destroy" name="plantedMushroom1_%s" count="1"/>
 	<property name="EconomicValue" value="12"/>
 	<property name="EconomicBundleSize" value="5"/>
 	<property name="Group" value="Food/Cooking"/>
 	<property name="PickupJournalEntry" value="farmingTip"/>
 
 	<property name="CustomIcon" value="plantedMushroom1"/>
-	<property name="DescriptionKey" value="plantedMushroom1%sDesc"/>
+	<property name="DescriptionKey" value="plantedMushroom1_%sDesc"/>
 </block>`,
-		suffix,
 		traits,
-		suffix,
-		suffix,
-		suffix)
+		traits,
+		traits,
+		traits,
+		traits)
 }
 
-func (*Mushroom) WriteStage2(c chan string, tier int, traits, suffix string) {
-	c <- fmt.Sprintf(`<block name="plantedMushroom2%s" stage="2" traits="%s">
-	<property name="Extends" value="plantedMushroom1%s"/>
+func (*Mushroom) WriteStage2(c chan string, traits string) {
+	c <- fmt.Sprintf(`<block name="plantedMushroom2_%s" stage="2" traits="%s">
+	<property name="Extends" value="plantedMushroom1_%s"/>
 	
 	<property name="Model" value="OutdoorDecor/mushroom_growth" param1="main_mesh"/>
-	<property name="PlantGrowing.Next" value="plantedMushroom3%s"/>
+	<property name="PlantGrowing.Next" value="plantedMushroom3_%s"/>
 	<property name="Collide" value="melee"/>
-</block>`, suffix, traits, suffix, suffix)
+</block>`, traits, traits, traits, traits)
 	// TODO: <property name="CreativeMode" value="None"/>
 }
 
-func (mushroom *Mushroom) WriteStage3(c chan string, tier int, traits, suffix string) {
-	c <- fmt.Sprintf(`<block name="plantedMushroom3%s" stage="3" traits="%s">
+func (mushroom *Mushroom) WriteStage3(c chan string, traits string) {
+	c <- fmt.Sprintf(`<block name="plantedMushroom3_%s" stage="3" traits="%s">
 	<property name="Material" value="Mmushrooms"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="Shape" value="Ext3dModel"/>
@@ -129,20 +128,20 @@ func (mushroom *Mushroom) WriteStage3(c chan string, tier int, traits, suffix st
 	<property name="PickupJournalEntry" value="farmingTip"/>
 	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
 
-	<property name="DescriptionKey" value="plantedMushroom3%s"/>
+	<property name="DescriptionKey" value="plantedMushroom3_%s"/>
 	<property name="CustomIcon" value="plantedMushroom3Harvest"/>
 	
 	<drop event="Harvest" name="foodCropMushrooms" count="%d" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="%d" tag="bonusCropHarvest"/>
-	<drop event="Destroy" name="plantedMushroom1%s" count="1" prob="0.5"/>
+	<drop event="Destroy" name="plantedMushroom1_%s" count="1" prob="0.5"/>
 	%s
 </block>`,
-		suffix,
 		traits,
-		suffix,
-		calculateCropYield(mushroom.CropYield, tier, traits),
-		calculateBonusYield(mushroom.BonusYield, tier, traits),
-		suffix,
-		optionallyAddRenewable(traits, "plantedMushroom1", suffix))
+		traits,
+		traits,
+		calculateCropYield(mushroom.CropYield, traits),
+		calculateBonusYield(mushroom.BonusYield, traits),
+		traits,
+		optionallyAddRenewable(traits, "plantedMushroom1", traits))
 	// TODO: <property name="CreativeMode" value="None"/>
 }
