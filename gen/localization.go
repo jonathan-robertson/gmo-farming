@@ -1,6 +1,7 @@
 package gen
 
 import (
+	"data"
 	"fmt"
 )
 
@@ -24,7 +25,7 @@ func producePlantLocalization(c chan string) {
 	defer close(c)
 	c <- "Key,File,Type,english"
 	ProduceHotBoxLocalization(c)
-	for _, plant := range Plants {
+	for _, plant := range data.Plants {
 		ProduceLocalization(c, plant)
 		for i1 := 0; i1 < len(Traits); i1++ {
 			if plant.IsCompatibleWith(Traits[i1].code) {
@@ -48,7 +49,7 @@ func producePlantLocalization(c chan string) {
 // plantedAloe2T2U,blocks,Farming,[FF0000]T3 Aloe Vera (Growing)
 // plantedAloe3T2U,blocks,Farming,[FF0000]T3 Aloe Vera Plant
 // TODO: maybe include traits as well until fully grown? 'T3 Renewable Underground Aloe Vera Plant (Growing)'
-func ProduceLocalization(c chan string, plant Plant, traits ...Trait) {
+func ProduceLocalization(c chan string, plant data.Plant, traits ...Trait) {
 	switch len(traits) {
 	case 0:
 		c <- fmt.Sprintf(`planted%s1_,blocks,Farming,Enhanced %s (Seed)`,

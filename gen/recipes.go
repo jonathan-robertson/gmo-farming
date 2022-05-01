@@ -1,6 +1,7 @@
 package gen
 
 import (
+	"data"
 	"fmt"
 )
 
@@ -23,7 +24,7 @@ func WritePlantRecipes() error {
 func producePlantRecipes(c chan string) {
 	defer close(c)
 	c <- `<config><append xpath="/recipes">`
-	for _, plant := range Plants {
+	for _, plant := range data.Plants {
 		produceRecipeStub(c, plant)
 		for i1 := 0; i1 < len(Traits); i1++ {
 			if plant.IsCompatibleWith(Traits[i1].code) {
@@ -41,7 +42,7 @@ func producePlantRecipes(c chan string) {
 	c <- `</append></config>`
 }
 
-func produceRecipeStub(c chan string, plant Plant, traits ...Trait) {
+func produceRecipeStub(c chan string, plant data.Plant, traits ...Trait) {
 	switch len(traits) {
 	case 0:
 		// TODO: tags="learnable"

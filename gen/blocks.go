@@ -1,6 +1,7 @@
 package gen
 
 import (
+	"data"
 	"fmt"
 )
 
@@ -25,7 +26,7 @@ func producePlantBlocks(c chan string) {
 	c <- `<config>`
 	c <- `<append xpath="/blocks">`
 	produceWorkstationHotBox(c)
-	for _, plant := range Plants {
+	for _, plant := range data.Plants {
 		// produce T2, T3 with no traits
 		plant.WriteBlockStages(c, "")
 		for i1 := 0; i1 < len(Traits); i1++ {
