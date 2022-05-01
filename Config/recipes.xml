@@ -1,4 +1,9 @@
 <config><append xpath="/recipes">
+<recipe name="hotbox" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="resourceForgedIron" count="50"/>
+	<ingredient name="resourceMechanicalParts" count="8"/>
+	<ingredient name="resourceWood" count="25"/>
+</recipe>
 <recipe name="plantedMushroom1_" count="1" craft_time="900" traits="">
     <ingredient name="plantedMushroom1" count="1"/>
     <ingredient name="foodRottingFlesh" count="1"/>

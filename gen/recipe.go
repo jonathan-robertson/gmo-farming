@@ -24,16 +24,17 @@ func WritePlantRecipes() error {
 func producePlantRecipes(c chan string) {
 	defer close(c)
 	c <- `<config><append xpath="/recipes">`
+	produceHotBoxRecipe(c)
 	for _, plant := range data.Plants {
-		produceRecipeStub(c, plant)
+		producePlantRecipe(c, plant)
 		for i1 := 0; i1 < len(data.Traits); i1++ {
 			if plant.IsCompatibleWith(data.Traits[i1].Code) {
-				produceRecipeStub(c, plant, data.Traits[i1])
+				producePlantRecipe(c, plant, data.Traits[i1])
 			}
 			for i2 := i1; i2 < len(data.Traits); i2++ {
 				if data.Traits[i1].IsCompatibleWith(data.Traits[i2]) {
 					if plant.IsCompatibleWith(data.Traits[i1].Code) && plant.IsCompatibleWith(data.Traits[i2].Code) {
-						produceRecipeStub(c, plant, data.Traits[i1], data.Traits[i2])
+						producePlantRecipe(c, plant, data.Traits[i1], data.Traits[i2])
 					}
 				}
 			}
@@ -42,7 +43,15 @@ func producePlantRecipes(c chan string) {
 	c <- `</append></config>`
 }
 
-func produceRecipeStub(c chan string, plant data.Plant, traits ...data.Trait) {
+func produceHotBoxRecipe(c chan string) {
+	c <- `<recipe name="hotbox" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="resourceForgedIron" count="50"/>
+	<ingredient name="resourceMechanicalParts" count="8"/>
+	<ingredient name="resourceWood" count="25"/>
+</recipe>`
+}
+
+func producePlantRecipe(c chan string, plant data.Plant, traits ...data.Trait) {
 	switch len(traits) {
 	case 0:
 		// TODO: tags="learnable"
