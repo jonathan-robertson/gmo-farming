@@ -27,14 +27,14 @@ func producePlantLocalization(c chan string) {
 	ProduceHotBoxLocalization(c)
 	for _, plant := range data.Plants {
 		ProduceLocalization(c, plant)
-		for i1 := 0; i1 < len(Traits); i1++ {
-			if plant.IsCompatibleWith(Traits[i1].code) {
-				ProduceLocalization(c, plant, Traits[i1])
+		for i1 := 0; i1 < len(data.Traits); i1++ {
+			if plant.IsCompatibleWith(data.Traits[i1].Code) {
+				ProduceLocalization(c, plant, data.Traits[i1])
 			}
-			for i2 := i1; i2 < len(Traits); i2++ {
-				if Traits[i1].isCompatibleWith(Traits[i2]) {
-					if plant.IsCompatibleWith(Traits[i1].code) && plant.IsCompatibleWith(Traits[i2].code) {
-						ProduceLocalization(c, plant, Traits[i1], Traits[i2])
+			for i2 := i1; i2 < len(data.Traits); i2++ {
+				if data.Traits[i1].IsCompatibleWith(data.Traits[i2]) {
+					if plant.IsCompatibleWith(data.Traits[i1].Code) && plant.IsCompatibleWith(data.Traits[i2].Code) {
+						ProduceLocalization(c, plant, data.Traits[i1], data.Traits[i2])
 					}
 				}
 			}
@@ -49,7 +49,7 @@ func producePlantLocalization(c chan string) {
 // plantedAloe2T2U,blocks,Farming,[FF0000]T3 Aloe Vera (Growing)
 // plantedAloe3T2U,blocks,Farming,[FF0000]T3 Aloe Vera Plant
 // TODO: maybe include traits as well until fully grown? 'T3 Renewable Underground Aloe Vera Plant (Growing)'
-func ProduceLocalization(c chan string, plant data.Plant, traits ...Trait) {
+func ProduceLocalization(c chan string, plant data.Plant, traits ...data.Trait) {
 	switch len(traits) {
 	case 0:
 		c <- fmt.Sprintf(`planted%s1_,blocks,Farming,Enhanced %s (Seed)`,
@@ -65,49 +65,49 @@ func ProduceLocalization(c chan string, plant data.Plant, traits ...Trait) {
 			getInitialEnhancementCraftingTip())
 	case 1:
 		c <- fmt.Sprintf(`planted%s1_%c,blocks,Farming,%s %s (Seed)`,
-			plant.GetName(), traits[0].code, traits[0].name, plant.GetDisplayName())
+			plant.GetName(), traits[0].Code, traits[0].Name, plant.GetDisplayName())
 		c <- fmt.Sprintf(`planted%s2_%c,blocks,Farming,%s %s (Growing)`,
-			plant.GetName(), traits[0].code, traits[0].name, plant.GetNamePlural())
+			plant.GetName(), traits[0].Code, traits[0].Name, plant.GetNamePlural())
 		c <- fmt.Sprintf(`planted%s3_%c,blocks,Farming,%s %s`,
-			plant.GetName(), traits[0].code, traits[0].name, plant.GetNamePlural())
+			plant.GetName(), traits[0].Code, traits[0].Name, plant.GetNamePlural())
 		c <- fmt.Sprintf(`planted%s1_%cDesc,blocks,Farming,"%s\n\n%s\n\n%s\n\n%s"`,
 			plant.GetName(),
-			traits[0].code,
+			traits[0].Code,
 			plant.GetDescription(),
 			getEnhancedSeedEffectDescription(),
-			traits[0].getTraitDescription(plant.GetPreferredConsumer()),
+			traits[0].GetTraitDescription(plant.GetPreferredConsumer()),
 			getHotBoxRequirementTip())
 	case 2:
-		if traits[0].code == traits[1].code {
+		if traits[0].Code == traits[1].Code {
 			c <- fmt.Sprintf(`planted%s1_%c%c,blocks,Farming,%s %s (Seed)`,
-				plant.GetName(), traits[0].code, traits[1].code, traits[0].doubleName, plant.GetDisplayName())
+				plant.GetName(), traits[0].Code, traits[1].Code, traits[0].DoubleName, plant.GetDisplayName())
 			c <- fmt.Sprintf(`planted%s2_%c%c,blocks,Farming,%s %s (Growing)`,
-				plant.GetName(), traits[0].code, traits[1].code, traits[0].doubleName, plant.GetNamePlural())
+				plant.GetName(), traits[0].Code, traits[1].Code, traits[0].DoubleName, plant.GetNamePlural())
 			c <- fmt.Sprintf(`planted%s3_%c%c,blocks,Farming,%s %s`,
-				plant.GetName(), traits[0].code, traits[1].code, traits[0].doubleName, plant.GetNamePlural())
+				plant.GetName(), traits[0].Code, traits[1].Code, traits[0].DoubleName, plant.GetNamePlural())
 			c <- fmt.Sprintf(`planted%s1_%c%cDesc,blocks,Farming,"%s\n\n%s\n\n%s\n\n%s"`,
 				plant.GetName(),
-				traits[0].code,
-				traits[1].code,
+				traits[0].Code,
+				traits[1].Code,
 				plant.GetDescription(),
 				getEnhancedSeedEffectDescription(),
-				traits[0].getDoubleTraitDescription(plant.GetPreferredConsumer()),
+				traits[0].GetDoubleTraitDescription(plant.GetPreferredConsumer()),
 				getHotBoxRequirementTip())
 		} else {
 			c <- fmt.Sprintf(`planted%s1_%c%c,blocks,Farming,"%s, %s %s (Seed)"`,
-				plant.GetName(), traits[0].code, traits[1].code, traits[0].name, traits[1].name, plant.GetDisplayName())
+				plant.GetName(), traits[0].Code, traits[1].Code, traits[0].Name, traits[1].Name, plant.GetDisplayName())
 			c <- fmt.Sprintf(`planted%s2_%c%c,blocks,Farming,"%s, %s %s (Growing)"`,
-				plant.GetName(), traits[0].code, traits[1].code, traits[0].name, traits[1].name, plant.GetNamePlural())
+				plant.GetName(), traits[0].Code, traits[1].Code, traits[0].Name, traits[1].Name, plant.GetNamePlural())
 			c <- fmt.Sprintf(`planted%s3_%c%c,blocks,Farming,"%s, %s %s"`,
-				plant.GetName(), traits[0].code, traits[1].code, traits[0].name, traits[1].name, plant.GetNamePlural())
+				plant.GetName(), traits[0].Code, traits[1].Code, traits[0].Name, traits[1].Name, plant.GetNamePlural())
 			c <- fmt.Sprintf(`planted%s1_%c%cDesc,blocks,Farming,"%s\n\n%s\n\n%s\n\n%s\n\n%s"`,
 				plant.GetName(),
-				traits[0].code,
-				traits[1].code,
+				traits[0].Code,
+				traits[1].Code,
 				plant.GetDescription(),
 				getEnhancedSeedEffectDescription(),
-				traits[0].getTraitDescription(plant.GetPreferredConsumer()),
-				traits[1].getTraitDescription(plant.GetPreferredConsumer()),
+				traits[0].GetTraitDescription(plant.GetPreferredConsumer()),
+				traits[1].GetTraitDescription(plant.GetPreferredConsumer()),
 				getHotBoxRequirementTip())
 		}
 	}

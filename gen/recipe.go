@@ -26,14 +26,14 @@ func producePlantRecipes(c chan string) {
 	c <- `<config><append xpath="/recipes">`
 	for _, plant := range data.Plants {
 		produceRecipeStub(c, plant)
-		for i1 := 0; i1 < len(Traits); i1++ {
-			if plant.IsCompatibleWith(Traits[i1].code) {
-				produceRecipeStub(c, plant, Traits[i1])
+		for i1 := 0; i1 < len(data.Traits); i1++ {
+			if plant.IsCompatibleWith(data.Traits[i1].Code) {
+				produceRecipeStub(c, plant, data.Traits[i1])
 			}
-			for i2 := i1; i2 < len(Traits); i2++ {
-				if Traits[i1].isCompatibleWith(Traits[i2]) {
-					if plant.IsCompatibleWith(Traits[i1].code) && plant.IsCompatibleWith(Traits[i2].code) {
-						produceRecipeStub(c, plant, Traits[i1], Traits[i2])
+			for i2 := i1; i2 < len(data.Traits); i2++ {
+				if data.Traits[i1].IsCompatibleWith(data.Traits[i2]) {
+					if plant.IsCompatibleWith(data.Traits[i1].Code) && plant.IsCompatibleWith(data.Traits[i2].Code) {
+						produceRecipeStub(c, plant, data.Traits[i1], data.Traits[i2])
 					}
 				}
 			}
@@ -42,7 +42,7 @@ func producePlantRecipes(c chan string) {
 	c <- `</append></config>`
 }
 
-func produceRecipeStub(c chan string, plant data.Plant, traits ...Trait) {
+func produceRecipeStub(c chan string, plant data.Plant, traits ...data.Trait) {
 	switch len(traits) {
 	case 0:
 		// TODO: tags="learnable"
@@ -60,9 +60,9 @@ func produceRecipeStub(c chan string, plant data.Plant, traits ...Trait) {
 		c <- fmt.Sprintf(`<recipe name="planted%s1_%c" count="1" craft_time="%d" traits="%c" craft_area="hotbox">
     <ingredient name="planted%s1_" count="1"/>`,
 			plant.GetName(),
-			traits[0].code,
+			traits[0].Code,
 			plant.GetCraftTime(),
-			traits[0].code,
+			traits[0].Code,
 			plant.GetName())
 		produceIngredients(c, traits[0])
 		c <- `</recipe>`
@@ -71,30 +71,30 @@ func produceRecipeStub(c chan string, plant data.Plant, traits ...Trait) {
 		signature := fmt.Sprintf(`<recipe name="planted%s1_%c%c" count="1" craft_time="%d" traits="%c%c" craft_area="hotbox">
     `,
 			plant.GetName(),
-			traits[0].code, traits[1].code,
+			traits[0].Code, traits[1].Code,
 			plant.GetCraftTime(),
-			traits[0].code, traits[1].code)
+			traits[0].Code, traits[1].Code)
 		c <- fmt.Sprintf(`%s<ingredient name="planted%s1_%c" count="1"/>`,
 			signature,
 			plant.GetName(),
-			traits[0].code)
+			traits[0].Code)
 		produceIngredients(c, traits[1])
 		c <- `</recipe>`
-		if traits[0].code != traits[1].code {
+		if traits[0].Code != traits[1].Code {
 			c <- fmt.Sprintf(`%s<ingredient name="planted%s1_%c" count="1"/>`,
 				signature,
 				plant.GetName(),
-				traits[1].code)
+				traits[1].Code)
 			produceIngredients(c, traits[0])
 			c <- `</recipe>`
 		}
 	}
 }
 
-func produceIngredients(c chan string, trait Trait) {
-	for _, ingredient := range trait.ingredients {
+func produceIngredients(c chan string, trait data.Trait) {
+	for _, ingredient := range trait.Ingredients {
 		c <- fmt.Sprintf(`    <ingredient name="%s" count="%d"/>`,
-			ingredient.name,
-			ingredient.count)
+			ingredient.Name,
+			ingredient.Count)
 	}
 }

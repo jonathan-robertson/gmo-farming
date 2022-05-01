@@ -1,106 +1,106 @@
-package gen
+package data
 
 import (
 	"fmt"
 )
 
 type Trait struct {
-	code         rune
-	name         string
-	doubleName   string
-	incompatible []rune
-	ingredients  []Ingredient
+	Code         rune
+	Name         string
+	DoubleName   string
+	Incompatible []rune
+	Ingredients  []Ingredient
 }
 
 type Ingredient struct {
-	name  string
-	count int
+	Name  string
+	Count int
 }
 
 // 7 T2 variants * 13 seeds = 91
 // 6+4+5+4+2+2+1=24 T3 variant combos * 13 seeds = 312
 var Traits []Trait = []Trait{
-	{code: 'B', name: "Bonus", doubleName: "Bountiful Bonus", incompatible: []rune{'E'}, ingredients: []Ingredient{
+	{Code: 'B', Name: "Bonus", DoubleName: "Bountiful Bonus", Incompatible: []rune{'E'}, Ingredients: []Ingredient{
 		{"foodRottingFlesh", 5},
 		{"medicalBloodBag", 2},
 	}},
-	{code: 'U', name: "Underground", incompatible: []rune{'U', 'S'}, ingredients: []Ingredient{
+	{Code: 'U', Name: "Underground", Incompatible: []rune{'U', 'S'}, Ingredients: []Ingredient{
 		{"plantedMushroom1", 1},
 	}},
-	{code: 'F', name: "Fast Growth", doubleName: "Rapid Growth", ingredients: []Ingredient{
+	{Code: 'F', Name: "Fast Growth", DoubleName: "Rapid Growth", Ingredients: []Ingredient{
 		{"drinkCanMegaCrush", 2},
 	}},
-	{code: 'E', name: "Explosive", doubleName: "Extremely Explosive", incompatible: []rune{'B', 'R'}, ingredients: []Ingredient{
+	{Code: 'E', Name: "Explosive", DoubleName: "Extremely Explosive", Incompatible: []rune{'B', 'R'}, Ingredients: []Ingredient{
 		{"resourceScrapIron", 4},
 		{"resourceGunPowder", 4},
 		{"resourceDuctTape", 1},
 	}},
-	{code: 'R', name: "Renewable", incompatible: []rune{'R', 'E'}, ingredients: []Ingredient{
+	{Code: 'R', Name: "Renewable", Incompatible: []rune{'R', 'E'}, Ingredients: []Ingredient{
 		{"drinkJarPureMineralWater", 10},
 	}}, // TODO: compatible with S or not?
-	{code: 'T', name: "Thorny", doubleName: "Extra Thorny", ingredients: []Ingredient{
+	{Code: 'T', Name: "Thorny", DoubleName: "Extra Thorny", Ingredients: []Ingredient{
 		{"resourceScrapIron", 10},
 		{"resourceNail", 10},
 	}},
-	{code: 'S', name: "Sweet", doubleName: "Super Sweet", incompatible: []rune{'U'}, ingredients: []Ingredient{
+	{Code: 'S', Name: "Sweet", DoubleName: "Super Sweet", Incompatible: []rune{'U'}, Ingredients: []Ingredient{
 		{"resourceTestosteroneExtract", 2},
 	}}, // TODO: compatible with R or not?
 }
 
-func (t *Trait) isCompatibleWith(t2 Trait) bool {
-	for _, r := range t2.incompatible {
-		if t.code == r {
+func (t *Trait) IsCompatibleWith(t2 Trait) bool {
+	for _, r := range t2.Incompatible {
+		if t.Code == r {
 			return false
 		}
 	}
 	return true
 }
 
-func (t *Trait) getDoubleTraitDescription(preferredConsumer string) string {
-	switch t.code {
+func (t *Trait) GetDoubleTraitDescription(preferredConsumer string) string {
+	switch t.Code {
 	case 'B':
 		return fmt.Sprintf(`%s: further quadruples crop yield.`,
-			t.doubleName)
+			t.DoubleName)
 	case 'F':
 		return fmt.Sprintf(`%s: reaches maturity in a quarter of the time.`,
-			t.doubleName)
+			t.DoubleName)
 	case 'E':
 		return fmt.Sprintf(`%s: triggers a concealed explosive with a large payload when stepped on, struck with a melee weapon, or hit with an arrow.\n- Due to the flexible nature of plants, the detonator will not trigger if struck with bullets or other explosives.`,
-			t.doubleName)
+			t.DoubleName)
 	case 'T':
 		return fmt.Sprintf(`%s: integrates with many sharp, metal thorns. Touching them will cause one to receive damage and bleed.`,
-			t.doubleName)
+			t.DoubleName)
 	case 'S':
 		return fmt.Sprintf(`%s: produces a super sweet aroma upon reaching maturity, providing the high likelihood of attracting an animal.\n- %s are especially attracted to this type of plant.`,
-			t.doubleName,
+			t.DoubleName,
 			preferredConsumer)
 	}
 	return ""
 }
 
-func (t *Trait) getTraitDescription(preferredConsumer string) string {
-	switch t.code {
+func (t *Trait) GetTraitDescription(preferredConsumer string) string {
+	switch t.Code {
 	case 'B':
 		return fmt.Sprintf(`%s: further doubles crop yield.`,
-			t.name)
+			t.Name)
 	case 'U':
 		return fmt.Sprintf(`%s: fused with mushroom dna, alowing growth without the need for sunlight.`,
-			t.name)
+			t.Name)
 	case 'F':
 		return fmt.Sprintf(`%s: reaches maturity in half the time.`,
-			t.name)
+			t.Name)
 	case 'E':
 		return fmt.Sprintf(`%s: triggers a concealed explosive when stepped on, struck with a melee weapon, or hit with an arrow.\n- Due to the flexible nature of plants, the detonator will not trigger if struck with bullets or other explosives.`,
-			t.name)
+			t.Name)
 	case 'R':
 		return fmt.Sprintf(`%s: clean, healthy water allows this plant to spread out its roots and bolster its nutrition absorption and allowing it to produce crops endlessly.`,
-			t.name)
+			t.Name)
 	case 'T':
 		return fmt.Sprintf(`%s: integrates with sharp, metal thorns. Touching them will cause one to bleed.`,
-			t.name)
+			t.Name)
 	case 'S':
 		return fmt.Sprintf(`%s: produces a sweet aroma upon reaching maturity, providing the possibility of attracting an animal.\n- %s are especially attracted to this type of plant.`,
-			t.name,
+			t.Name,
 			preferredConsumer)
 	}
 	return ""
