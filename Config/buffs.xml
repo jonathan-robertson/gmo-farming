@@ -1,21 +1,155 @@
 <config>
     <append xpath="/buffs">
-        <!-- Spiked Plant Trap -->
-        <buff name="SpikePlant" hidden="true">
-            <stack_type value="replace" />
-            <duration value="5" />
+        <buff name="triggerInjuryThorns" hidden="true">
+            <duration value=".1" />
+            <update_rate value=".1" />
+            <stack_type value="ignore" />
             <effect_group>
-                <triggered_effect trigger="onSelfBuffUpdate" action="ModifyStats" stat="Health" operation="subtract" value="3" />
-                <triggered_effect trigger="onSelfBuffFinish" action="RemoveBuff" buff="SpikePlant" />
+                <requirements>
+                    <requirement name="!HasBuff" buff="buffInjuryThorns" />
+                    <requirement name="!HasBuff" buff="buffInjuryCriticalThorns" />
+                </requirements>
+                <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".thornTimer" operation="set" value="10" />
+                <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffInjuryThorns" />
+            </effect_group>
+            <effect_group>
+                <requirements>
+                    <requirement name="HasBuff" buff="buffInjuryThorns" />
+                    <requirement name="!HasBuff" buff="buffInjuryCriticalThorns" />
+                </requirements>
+                <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".thornTimer" operation="set" value="10" />
+            </effect_group>
+            <effect_group>
+                <requirements>
+                    <requirement name="!HasBuff" buff="buffInjuryThorns" />
+                    <requirement name="HasBuff" buff="buffInjuryCriticalThorns" />
+                </requirements>
+                <triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffInjuryCriticalThorns" />
+                <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".thornTimer" operation="set" value="10" />
+                <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffInjuryThorns" />
             </effect_group>
         </buff>
-        <!-- Spiked Plant Trap Bonus -->
-        <buff name="SpikePlantPlus" hidden="true">
-            <stack_type value="replace" />
-            <duration value="5" />
+        <buff name="triggerInjuryCriticalThorns" hidden="true">
+            <duration value=".1" />
+            <update_rate value=".1" />
+            <stack_type value="ignore" />
             <effect_group>
-                <triggered_effect trigger="onSelfBuffUpdate" action="ModifyStats" stat="Health" operation="subtract" value="6" />
-                <triggered_effect trigger="onSelfBuffFinish" action="RemoveBuff" buff="SpikePlantPlus" />
+                <requirements>
+                    <requirement name="!HasBuff" buff="buffInjuryThorns" />
+                    <requirement name="!HasBuff" buff="buffInjuryCriticalThorns" />
+                </requirements>
+                <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".thornTimer" operation="set" value="10" />
+                <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffInjuryCriticalThorns" />
+            </effect_group>
+            <effect_group>
+                <requirements>
+                    <requirement name="HasBuff" buff="buffInjuryThorns" />
+                    <requirement name="!HasBuff" buff="buffInjuryCriticalThorns" />
+                </requirements>
+                <triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffInjuryThorns" />
+                <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".thornTimer" operation="set" value="10" />
+                <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffInjuryCriticalThorns" />
+            </effect_group>
+            <effect_group>
+                <requirements>
+                    <requirement name="!HasBuff" buff="buffInjuryThorns" />
+                    <requirement name="HasBuff" buff="buffInjuryCriticalThorns" />
+                </requirements>
+                <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".thornTimer" operation="set" value="10" />
+            </effect_group>
+        </buff>
+
+        <buff name="buffInjuryBleedingThornsParticle" name_key="buffInjuryBleedingThornsParticleName" hidden="true">
+            <duration value="0" />
+            <stack_type value="ignore" />
+            <effect_group name="particles">
+                <triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_impact_metal_on_organic" local_offset="0,.25,0" parent_transform="Hips" />
+
+                <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".buffInjuryBleedingParticleTimer" operation="set" value="0" />
+                <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".buffInjuryBleedingParticleTimer" operation="add" value="1" />
+
+                <triggered_effect trigger="onSelfBuffUpdate" action="AttachParticleEffectToEntity" particle="p_impact_metal_on_organic" local_offset="0,.25,0" parent_transform="Hips">
+                    <requirement name="CVarCompare" cvar=".buffInjuryBleedingParticleTimer" operation="GTE" value="4" />
+                </triggered_effect>
+                <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".buffInjuryBleedingParticleTimer" operation="set" value="0">
+                    <requirement name="CVarCompare" cvar=".buffInjuryBleedingParticleTimer" operation="GTE" value="4" />
+                </triggered_effect>
+            </effect_group>
+            <effect_group name="endCondition">
+                <requirements>
+                    <requirement name="!HasBuff" buff="buffInjuryThorns" />
+                    <requirement name="!HasBuff" buff="buffInjuryCriticalThorns" />
+                </requirements>
+                <triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffInjuryBleedingThornsParticle" />
+            </effect_group>
+            <effect_group name="cleanup">
+                <triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar=".buffInjuryBleedingParticleTimer" operation="set" value="0" />
+                <triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="p_impact_metal_on_organic" />
+                <triggered_effect trigger="onSelfDied" action="RemoveParticleEffectFromEntity" particle="p_impact_metal_on_organic" />
+            </effect_group>
+        </buff>
+
+        <buff name="buffInjuryThorns" name_key="buffInjuryThornsName" description_key="buffInjuryThornsDesc" tooltip_key="buffInjuryThornsTooltip" icon="ui_game_symbol_traps" icon_color="255,128,0" icon_blink="true">
+            <display_value_key value="Thorns" />
+            <display_value value="0" />
+            <stack_type value="ignore" />
+            <duration value="0" />
+            <update_rate value=".2" />
+            <effect_group name="timer">
+                <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".thornTimer" operation="subtract" value="1" />
+                <triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffInjuryThorns">
+                    <requirement name="CVarCompare" cvar=".thornTimer" operation="LTE" value="0" />
+                </triggered_effect>
+                <triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar=".thornTimer" operation="set" value="0" />
+            </effect_group>
+            <effect_group name="physical">
+                <triggered_effect trigger="onSelfBuffUpdate" action="ModifyStats" stat="Health" operation="subtract" value="1" />
+                <passive_effect name="RunSpeed" operation="perc_add" value="@$bleedSlowdown" />
+            </effect_group>
+            <effect_group name="audio">
+                <triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="buff_bleeding" play_in_head="true" />
+                <triggered_effect trigger="onSelfEnteredGame" action="PlaySound" sound="buff_bleeding" play_in_head="true" />
+
+                <triggered_effect trigger="onSelfBuffRemove" action="StopSound" sound="buff_bleeding" play_in_head="true" />
+                <triggered_effect trigger="onSelfLeaveGame" action="StopSound" sound="buff_bleeding" play_in_head="true" />
+            </effect_group>
+            <effect_group name="visual">
+                <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffInjuryBleedingThornsParticle" />
+                <triggered_effect trigger="onSelfBuffStart" action="ModifyScreenEffect" effect_name="Blur" intensity=".6" fade="0.5" />
+                <triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" effect_name="Blur" intensity="0" fade="1" />
+                <triggered_effect trigger="onSelfDied" action="ModifyScreenEffect" effect_name="Infected" intensity="0" fade="0" />
+            </effect_group>
+        </buff>
+
+        <buff name="buffInjuryCriticalThorns" name_key="buffInjuryCriticalThornsName" description_key="buffInjuryThornsDesc" tooltip_key="buffInjuryThornsTooltip" icon="ui_game_symbol_traps" icon_color="255,0,0" icon_blink="true">
+            <display_value_key value="Critical Thorns" />
+            <display_value value="0" />
+            <stack_type value="ignore" />
+            <duration value="0" />
+            <update_rate value=".2" />
+            <effect_group name="timer">
+                <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".thornTimer" operation="subtract" value="1" />
+                <triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffInjuryCriticalThorns">
+                    <requirement name="CVarCompare" cvar=".thornTimer" operation="LTE" value="0" />
+                </triggered_effect>
+                <triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar=".thornTimer" operation="set" value="0" />
+            </effect_group>
+            <effect_group name="physical">
+                <triggered_effect trigger="onSelfBuffUpdate" action="ModifyStats" stat="Health" operation="subtract" value="2" />
+                <passive_effect name="RunSpeed" operation="perc_add" value="@$bleedSlowdown" />
+            </effect_group>
+            <effect_group name="audio">
+                <triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="buff_bleeding" play_in_head="true" />
+                <triggered_effect trigger="onSelfEnteredGame" action="PlaySound" sound="buff_bleeding" play_in_head="true" />
+
+                <triggered_effect trigger="onSelfBuffRemove" action="StopSound" sound="buff_bleeding" play_in_head="true" />
+                <triggered_effect trigger="onSelfLeaveGame" action="StopSound" sound="buff_bleeding" play_in_head="true" />
+            </effect_group>
+            <effect_group name="visual">
+                <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffInjuryBleedingThornsParticle" />
+                <triggered_effect trigger="onSelfBuffStart" action="ModifyScreenEffect" effect_name="Blur" intensity=".6" fade="0.5" />
+                <triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" effect_name="Blur" intensity="0" fade="1" />
+                <triggered_effect trigger="onSelfDied" action="ModifyScreenEffect" effect_name="Infected" intensity="0" fade="0" />
             </effect_group>
         </buff>
     </append>
