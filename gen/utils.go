@@ -39,13 +39,6 @@ func calculateBonusYield(count int, traits string) int {
 	return calculateCropYield(count, traits)
 }
 
-func calculateCraftTime(time int, traits string) int {
-	if traits == "" {
-		time *= 450
-	}
-	return time
-}
-
 func optionallyAddRenewable(traits string, plant Plant) string {
 	if strings.ContainsRune(traits, 'R') {
 		return fmt.Sprintf(`<property name="DowngradeBlock" value="planted%s1_%s" />`,

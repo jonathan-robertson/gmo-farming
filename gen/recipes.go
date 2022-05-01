@@ -25,15 +25,15 @@ func producePlantRecipes(c chan string) {
 	c <- `<config>`
 	c <- `<append xpath="/recipes">`
 	for _, plant := range Plants {
-		produceRecipeStub(c, plant.GetName(), "", plant.GetCraftTime())
+		produceRecipeStub(c, plant)
 		for i1 := 0; i1 < len(Traits); i1++ {
 			if plant.IsCompatibleWith(Traits[i1].code) {
-				produceRecipeStub(c, plant.GetName(), fmt.Sprintf("%c", Traits[i1].code), plant.GetCraftTime())
+				produceRecipeStub(c, plant, Traits[i1])
 			}
 			for i2 := i1; i2 < len(Traits); i2++ {
 				if Traits[i1].isCompatibleWith(Traits[i2]) {
 					if plant.IsCompatibleWith(Traits[i1].code) && plant.IsCompatibleWith(Traits[i2].code) {
-						produceRecipeStub(c, plant.GetName(), fmt.Sprintf("%c%c", Traits[i1].code, Traits[i2].code), plant.GetCraftTime())
+						produceRecipeStub(c, plant, Traits[i1], Traits[i2])
 					}
 				}
 			}
@@ -44,25 +44,43 @@ func producePlantRecipes(c chan string) {
 	c <- `</config>`
 }
 
-func produceRecipeStub(c chan string, name string, traits string, craftTime int) {
-	if traits == "" {
+func produceRecipeStub(c chan string, plant Plant, traits ...Trait) {
+	switch len(traits) {
+	case 0:
 		// TODO: tags="learnable"
 		c <- fmt.Sprintf(`<recipe name="planted%s1_" count="1" craft_time="%d" traits="">
     <ingredient name="planted%s1" count="1"/>
 </recipe>`,
-			name,
-			calculateCraftTime(craftTime, traits),
-			name)
-	} else {
+			plant.GetName(),
+			plant.GetCraftTime()*450,
+			plant.GetName())
+	case 1:
 		// TODO: tags="learnable"
-		c <- fmt.Sprintf(`<recipe name="planted%s1_%s" count="1" craft_time="%d" traits="%s" craft_area="hotbox">
+		c <- fmt.Sprintf(`<recipe name="planted%s1_%c" count="1" craft_time="%d" traits="%c" craft_area="hotbox">
     <ingredient name="planted%s1_" count="1"/>
 </recipe>`,
-			name,
-			traits,
-			calculateCraftTime(craftTime, traits),
-			traits,
-			name)
+			plant.GetName(),
+			traits[0].code,
+			plant.GetCraftTime(),
+			traits[0].code,
+			plant.GetName())
+	case 2: // support bi-directional recipes
+		// TODO: tags="learnable"
+		signature := fmt.Sprintf(`<recipe name="planted%s1_%c%c" count="1" craft_time="%d" traits="%c%c" craft_area="hotbox">
+    <ingredient name="planted%s1_`,
+			plant.GetName(),
+			traits[0].code, traits[1].code,
+			plant.GetCraftTime(),
+			traits[0].code, traits[1].code,
+			plant.GetName())
+		c <- fmt.Sprintf(`%s%c" count="1"/>
+</recipe>`,
+			signature,
+			traits[0].code)
+		c <- fmt.Sprintf(`%s%c" count="1"/>
+</recipe>`,
+			signature,
+			traits[1].code)
 	}
 }
 
