@@ -79,12 +79,14 @@ func produceRecipeStub(c chan string, plant Plant, traits ...Trait) {
 			traits[0].code)
 		produceIngredients(c, traits[1])
 		c <- `</recipe>`
-		c <- fmt.Sprintf(`%s<ingredient name="planted%s1_%c" count="1"/>`,
-			signature,
-			plant.GetName(),
-			traits[1].code)
-		produceIngredients(c, traits[0])
-		c <- `</recipe>`
+		if traits[0].code != traits[1].code {
+			c <- fmt.Sprintf(`%s<ingredient name="planted%s1_%c" count="1"/>`,
+				signature,
+				plant.GetName(),
+				traits[1].code)
+			produceIngredients(c, traits[0])
+			c <- `</recipe>`
+		}
 	}
 }
 

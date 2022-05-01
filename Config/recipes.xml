@@ -15,11 +15,6 @@
     <ingredient name="foodRottingFlesh" count="5"/>
     <ingredient name="medicalBloodBag" count="2"/>
 </recipe>
-<recipe name="plantedMushroom1_BB" count="1" craft_time="2" traits="BB" craft_area="hotbox">
-    <ingredient name="plantedMushroom1_B" count="1"/>
-    <ingredient name="foodRottingFlesh" count="5"/>
-    <ingredient name="medicalBloodBag" count="2"/>
-</recipe>
 <recipe name="plantedMushroom1_BF" count="1" craft_time="2" traits="BF" craft_area="hotbox">
     <ingredient name="plantedMushroom1_B" count="1"/>
     <ingredient name="drinkCanMegaCrush" count="2"/>
@@ -65,10 +60,6 @@
     <ingredient name="plantedMushroom1_F" count="1"/>
     <ingredient name="drinkCanMegaCrush" count="2"/>
 </recipe>
-<recipe name="plantedMushroom1_FF" count="1" craft_time="2" traits="FF" craft_area="hotbox">
-    <ingredient name="plantedMushroom1_F" count="1"/>
-    <ingredient name="drinkCanMegaCrush" count="2"/>
-</recipe>
 <recipe name="plantedMushroom1_FE" count="1" craft_time="2" traits="FE" craft_area="hotbox">
     <ingredient name="plantedMushroom1_F" count="1"/>
     <ingredient name="resourceScrapIron" count="4"/>
@@ -106,12 +97,6 @@
 </recipe>
 <recipe name="plantedMushroom1_E" count="1" craft_time="2" traits="E" craft_area="hotbox">
     <ingredient name="plantedMushroom1_" count="1"/>
-    <ingredient name="resourceScrapIron" count="4"/>
-    <ingredient name="resourceGunPowder" count="4"/>
-    <ingredient name="resourceDuctTape" count="1"/>
-</recipe>
-<recipe name="plantedMushroom1_EE" count="1" craft_time="2" traits="EE" craft_area="hotbox">
-    <ingredient name="plantedMushroom1_E" count="1"/>
     <ingredient name="resourceScrapIron" count="4"/>
     <ingredient name="resourceGunPowder" count="4"/>
     <ingredient name="resourceDuctTape" count="1"/>
@@ -174,11 +159,6 @@
     <ingredient name="resourceScrapIron" count="10"/>
     <ingredient name="resourceNail" count="10"/>
 </recipe>
-<recipe name="plantedMushroom1_TT" count="1" craft_time="2" traits="TT" craft_area="hotbox">
-    <ingredient name="plantedMushroom1_T" count="1"/>
-    <ingredient name="resourceScrapIron" count="10"/>
-    <ingredient name="resourceNail" count="10"/>
-</recipe>
 <recipe name="plantedMushroom1_TS" count="1" craft_time="2" traits="TS" craft_area="hotbox">
     <ingredient name="plantedMushroom1_T" count="1"/>
     <ingredient name="resourceTestosteroneExtract" count="2"/>
@@ -196,10 +176,6 @@
     <ingredient name="plantedMushroom1_S" count="1"/>
     <ingredient name="resourceTestosteroneExtract" count="2"/>
 </recipe>
-<recipe name="plantedMushroom1_SS" count="1" craft_time="2" traits="SS" craft_area="hotbox">
-    <ingredient name="plantedMushroom1_S" count="1"/>
-    <ingredient name="resourceTestosteroneExtract" count="2"/>
-</recipe>
 <recipe name="plantedCorn1_" count="1" craft_time="900" traits="">
     <ingredient name="plantedCorn1" count="1"/>
     <ingredient name="foodRottingFlesh" count="1"/>
@@ -208,11 +184,6 @@
 </recipe>
 <recipe name="plantedCorn1_B" count="1" craft_time="2" traits="B" craft_area="hotbox">
     <ingredient name="plantedCorn1_" count="1"/>
-    <ingredient name="foodRottingFlesh" count="5"/>
-    <ingredient name="medicalBloodBag" count="2"/>
-</recipe>
-<recipe name="plantedCorn1_BB" count="1" craft_time="2" traits="BB" craft_area="hotbox">
-    <ingredient name="plantedCorn1_B" count="1"/>
     <ingredient name="foodRottingFlesh" count="5"/>
     <ingredient name="medicalBloodBag" count="2"/>
 </recipe>
@@ -314,10 +285,6 @@
     <ingredient name="plantedCorn1_F" count="1"/>
     <ingredient name="drinkCanMegaCrush" count="2"/>
 </recipe>
-<recipe name="plantedCorn1_FF" count="1" craft_time="2" traits="FF" craft_area="hotbox">
-    <ingredient name="plantedCorn1_F" count="1"/>
-    <ingredient name="drinkCanMegaCrush" count="2"/>
-</recipe>
 <recipe name="plantedCorn1_FE" count="1" craft_time="2" traits="FE" craft_area="hotbox">
     <ingredient name="plantedCorn1_F" count="1"/>
     <ingredient name="resourceScrapIron" count="4"/>
@@ -355,12 +322,6 @@
 </recipe>
 <recipe name="plantedCorn1_E" count="1" craft_time="2" traits="E" craft_area="hotbox">
     <ingredient name="plantedCorn1_" count="1"/>
-    <ingredient name="resourceScrapIron" count="4"/>
-    <ingredient name="resourceGunPowder" count="4"/>
-    <ingredient name="resourceDuctTape" count="1"/>
-</recipe>
-<recipe name="plantedCorn1_EE" count="1" craft_time="2" traits="EE" craft_area="hotbox">
-    <ingredient name="plantedCorn1_E" count="1"/>
     <ingredient name="resourceScrapIron" count="4"/>
     <ingredient name="resourceGunPowder" count="4"/>
     <ingredient name="resourceDuctTape" count="1"/>
@@ -423,11 +384,6 @@
     <ingredient name="resourceScrapIron" count="10"/>
     <ingredient name="resourceNail" count="10"/>
 </recipe>
-<recipe name="plantedCorn1_TT" count="1" craft_time="2" traits="TT" craft_area="hotbox">
-    <ingredient name="plantedCorn1_T" count="1"/>
-    <ingredient name="resourceScrapIron" count="10"/>
-    <ingredient name="resourceNail" count="10"/>
-</recipe>
 <recipe name="plantedCorn1_TS" count="1" craft_time="2" traits="TS" craft_area="hotbox">
     <ingredient name="plantedCorn1_T" count="1"/>
     <ingredient name="resourceTestosteroneExtract" count="2"/>
@@ -439,10 +395,6 @@
 </recipe>
 <recipe name="plantedCorn1_S" count="1" craft_time="2" traits="S" craft_area="hotbox">
     <ingredient name="plantedCorn1_" count="1"/>
-    <ingredient name="resourceTestosteroneExtract" count="2"/>
-</recipe>
-<recipe name="plantedCorn1_SS" count="1" craft_time="2" traits="SS" craft_area="hotbox">
-    <ingredient name="plantedCorn1_S" count="1"/>
     <ingredient name="resourceTestosteroneExtract" count="2"/>
 </recipe>
 <recipe name="plantedCorn1_SS" count="1" craft_time="2" traits="SS" craft_area="hotbox">
