@@ -62,18 +62,17 @@
         <buff name="buffInjuryBleedingThornsParticle" name_key="buffInjuryBleedingThornsParticleName" hidden="true">
             <duration value="0" />
             <stack_type value="ignore" />
-            <effect_group name="particles">
-                <triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_impact_metal_on_organic" local_offset="0,.25,0" parent_transform="Hips" />
-
-                <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".buffInjuryBleedingParticleTimer" operation="set" value="0" />
+            <effect_group name="clock">
+                <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".buffInjuryBleedingParticleTimer" operation="set" value="4" />
                 <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".buffInjuryBleedingParticleTimer" operation="add" value="1" />
-
-                <triggered_effect trigger="onSelfBuffUpdate" action="AttachParticleEffectToEntity" particle="p_impact_metal_on_organic" local_offset="0,.25,0" parent_transform="Hips">
-                    <requirement name="CVarCompare" cvar=".buffInjuryBleedingParticleTimer" operation="GTE" value="4" />
+            </effect_group>
+            <effect_group name="onCycle">
+                <requirement name="CVarCompare" cvar=".buffInjuryBleedingParticleTimer" operation="GTE" value="4" />
+                <triggered_effect trigger="onSelfBuffUpdate" action="AttachParticleEffectToEntity" particle="p_impact_metal_on_organic" local_offset="0,.25,0" parent_transform="Hips" />
+                <triggered_effect trigger="onSelfBuffUpdate" action="PlaySound" sound="player#painsm">
+                    <requirement name="EntityTagCompare" tags="player" />
                 </triggered_effect>
-                <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".buffInjuryBleedingParticleTimer" operation="set" value="0">
-                    <requirement name="CVarCompare" cvar=".buffInjuryBleedingParticleTimer" operation="GTE" value="4" />
-                </triggered_effect>
+                <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".buffInjuryBleedingParticleTimer" operation="set" value="0" />
             </effect_group>
             <effect_group name="endCondition">
                 <requirements>
