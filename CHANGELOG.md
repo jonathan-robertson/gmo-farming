@@ -13,9 +13,3 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - recipes
   - localization (naming)
 - custom workstation and integrations with recipes
-- also planning a reorganization of how seeds are crafted
-  - current
-    - `Seed -> T2 Seed -> 1 Trait`
-    - `T2 Seed -> T3 Seed -> 2 Traits`
-  - planned
-    - `Seed -> Prepared Seed -> 1st Trait -> 2nd Trait`

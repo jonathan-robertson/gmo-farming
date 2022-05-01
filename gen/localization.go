@@ -42,13 +42,6 @@ func producePlantLocalization(c chan string) {
 	}
 }
 
-// plantedAloe1T2U,blocks,Farming,[00FF00]T2 Aloe Vera (Seed)
-// plantedAloe2T2U,blocks,Farming,[00FF00]T2 Aloe Vera (Growing)
-// plantedAloe3T2U,blocks,Farming,[00FF00]T2 Aloe Vera Plant
-// plantedAloe1T2U,blocks,Farming,[FF0000]T3 Aloe Vera (Seed)
-// plantedAloe2T2U,blocks,Farming,[FF0000]T3 Aloe Vera (Growing)
-// plantedAloe3T2U,blocks,Farming,[FF0000]T3 Aloe Vera Plant
-// TODO: maybe include traits as well until fully grown? 'T3 Renewable Underground Aloe Vera Plant (Growing)'
 func ProduceLocalization(c chan string, plant data.Plant, traits ...data.Trait) {
 	switch len(traits) {
 	case 0:

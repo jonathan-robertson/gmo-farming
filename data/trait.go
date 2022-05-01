@@ -17,8 +17,6 @@ type Ingredient struct {
 	Count int
 }
 
-// 7 T2 variants * 13 seeds = 91
-// 6+4+5+4+2+2+1=24 T3 variant combos * 13 seeds = 312
 var Traits []Trait = []Trait{
 	{Code: 'B', Name: "Bonus", DoubleName: "Bountiful Bonus", Incompatible: []rune{'E'}, Ingredients: []Ingredient{
 		{"foodRottingFlesh", 5},
@@ -47,8 +45,8 @@ var Traits []Trait = []Trait{
 	}}, // TODO: compatible with R or not?
 }
 
-func (t *Trait) IsCompatibleWith(t2 Trait) bool {
-	for _, r := range t2.Incompatible {
+func (t *Trait) IsCompatibleWith(other Trait) bool {
+	for _, r := range other.Incompatible {
 		if t.Code == r {
 			return false
 		}
