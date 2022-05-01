@@ -25,14 +25,6 @@ plantedMushroom1_BR,blocks,Farming,"Bonus, Renewable Mushroom Spore (Seed)"
 plantedMushroom2_BR,blocks,Farming,"Bonus, Renewable Mushrooms (Growing)"
 plantedMushroom3_BR,blocks,Farming,"Bonus, Renewable Mushrooms"
 plantedMushroom1_BRDesc,blocks,Farming,"Mushroom spores can be planted on all surfaces and walls and will grow without sunlight.\n\nAll GMO Seeds twice the crop yield.\n\nBonus: further doubles crop yield.\n\nRenewable: clean, healthy water allows this plant to spread out its roots and bolster its nutrition absorption and allowing it to produce crops endlessly.\n\nA Hot Box is required to craft this."
-plantedMushroom1_BT,blocks,Farming,"Bonus, Thorny Mushroom Spore (Seed)"
-plantedMushroom2_BT,blocks,Farming,"Bonus, Thorny Mushrooms (Growing)"
-plantedMushroom3_BT,blocks,Farming,"Bonus, Thorny Mushrooms"
-plantedMushroom1_BTDesc,blocks,Farming,"Mushroom spores can be planted on all surfaces and walls and will grow without sunlight.\n\nAll GMO Seeds twice the crop yield.\n\nBonus: further doubles crop yield.\n\nThorny: integrates with sharp, metal thorns. Touching them will cause one to bleed.\n\nA Hot Box is required to craft this."
-plantedMushroom1_BS,blocks,Farming,"Bonus, Sweet Mushroom Spore (Seed)"
-plantedMushroom2_BS,blocks,Farming,"Bonus, Sweet Mushrooms (Growing)"
-plantedMushroom3_BS,blocks,Farming,"Bonus, Sweet Mushrooms"
-plantedMushroom1_BSDesc,blocks,Farming,"Mushroom spores can be planted on all surfaces and walls and will grow without sunlight.\n\nAll GMO Seeds twice the crop yield.\n\nBonus: further doubles crop yield.\n\nSweet: produces a sweet aroma upon reaching maturity, providing the possibility of attracting an animal.\n- Boars are especially attracted to this type of plant.\n\nA Hot Box is required to craft this."
 plantedMushroom1_F,blocks,Farming,Fast Growth Mushroom Spore (Seed)
 plantedMushroom2_F,blocks,Farming,Fast Growth Mushrooms (Growing)
 plantedMushroom3_F,blocks,Farming,Fast Growth Mushrooms
@@ -49,14 +41,6 @@ plantedMushroom1_FR,blocks,Farming,"Fast Growth, Renewable Mushroom Spore (Seed)
 plantedMushroom2_FR,blocks,Farming,"Fast Growth, Renewable Mushrooms (Growing)"
 plantedMushroom3_FR,blocks,Farming,"Fast Growth, Renewable Mushrooms"
 plantedMushroom1_FRDesc,blocks,Farming,"Mushroom spores can be planted on all surfaces and walls and will grow without sunlight.\n\nAll GMO Seeds twice the crop yield.\n\nFast Growth: reaches maturity in half the time.\n\nRenewable: clean, healthy water allows this plant to spread out its roots and bolster its nutrition absorption and allowing it to produce crops endlessly.\n\nA Hot Box is required to craft this."
-plantedMushroom1_FT,blocks,Farming,"Fast Growth, Thorny Mushroom Spore (Seed)"
-plantedMushroom2_FT,blocks,Farming,"Fast Growth, Thorny Mushrooms (Growing)"
-plantedMushroom3_FT,blocks,Farming,"Fast Growth, Thorny Mushrooms"
-plantedMushroom1_FTDesc,blocks,Farming,"Mushroom spores can be planted on all surfaces and walls and will grow without sunlight.\n\nAll GMO Seeds twice the crop yield.\n\nFast Growth: reaches maturity in half the time.\n\nThorny: integrates with sharp, metal thorns. Touching them will cause one to bleed.\n\nA Hot Box is required to craft this."
-plantedMushroom1_FS,blocks,Farming,"Fast Growth, Sweet Mushroom Spore (Seed)"
-plantedMushroom2_FS,blocks,Farming,"Fast Growth, Sweet Mushrooms (Growing)"
-plantedMushroom3_FS,blocks,Farming,"Fast Growth, Sweet Mushrooms"
-plantedMushroom1_FSDesc,blocks,Farming,"Mushroom spores can be planted on all surfaces and walls and will grow without sunlight.\n\nAll GMO Seeds twice the crop yield.\n\nFast Growth: reaches maturity in half the time.\n\nSweet: produces a sweet aroma upon reaching maturity, providing the possibility of attracting an animal.\n- Boars are especially attracted to this type of plant.\n\nA Hot Box is required to craft this."
 plantedMushroom1_E,blocks,Farming,Explosive Mushroom Spore (Seed)
 plantedMushroom2_E,blocks,Farming,Explosive Mushrooms (Growing)
 plantedMushroom3_E,blocks,Farming,Explosive Mushrooms
@@ -65,46 +49,10 @@ plantedMushroom1_EE,blocks,Farming,Extremely Explosive Mushroom Spore (Seed)
 plantedMushroom2_EE,blocks,Farming,Extremely Explosive Mushrooms (Growing)
 plantedMushroom3_EE,blocks,Farming,Extremely Explosive Mushrooms
 plantedMushroom1_EEDesc,blocks,Farming,"Mushroom spores can be planted on all surfaces and walls and will grow without sunlight.\n\nAll GMO Seeds twice the crop yield.\n\nExtremely Explosive: triggers a concealed explosive with a large payload when stepped on, struck with a melee weapon, or hit with an arrow.\n- Due to the flexible nature of plants, the detonator will not trigger if struck with bullets or other explosives.\n\nA Hot Box is required to craft this."
-plantedMushroom1_ET,blocks,Farming,"Explosive, Thorny Mushroom Spore (Seed)"
-plantedMushroom2_ET,blocks,Farming,"Explosive, Thorny Mushrooms (Growing)"
-plantedMushroom3_ET,blocks,Farming,"Explosive, Thorny Mushrooms"
-plantedMushroom1_ETDesc,blocks,Farming,"Mushroom spores can be planted on all surfaces and walls and will grow without sunlight.\n\nAll GMO Seeds twice the crop yield.\n\nExplosive: triggers a concealed explosive when stepped on, struck with a melee weapon, or hit with an arrow.\n- Due to the flexible nature of plants, the detonator will not trigger if struck with bullets or other explosives.\n\nThorny: integrates with sharp, metal thorns. Touching them will cause one to bleed.\n\nA Hot Box is required to craft this."
-plantedMushroom1_ES,blocks,Farming,"Explosive, Sweet Mushroom Spore (Seed)"
-plantedMushroom2_ES,blocks,Farming,"Explosive, Sweet Mushrooms (Growing)"
-plantedMushroom3_ES,blocks,Farming,"Explosive, Sweet Mushrooms"
-plantedMushroom1_ESDesc,blocks,Farming,"Mushroom spores can be planted on all surfaces and walls and will grow without sunlight.\n\nAll GMO Seeds twice the crop yield.\n\nExplosive: triggers a concealed explosive when stepped on, struck with a melee weapon, or hit with an arrow.\n- Due to the flexible nature of plants, the detonator will not trigger if struck with bullets or other explosives.\n\nSweet: produces a sweet aroma upon reaching maturity, providing the possibility of attracting an animal.\n- Boars are especially attracted to this type of plant.\n\nA Hot Box is required to craft this."
 plantedMushroom1_R,blocks,Farming,Renewable Mushroom Spore (Seed)
 plantedMushroom2_R,blocks,Farming,Renewable Mushrooms (Growing)
 plantedMushroom3_R,blocks,Farming,Renewable Mushrooms
 plantedMushroom1_RDesc,blocks,Farming,"Mushroom spores can be planted on all surfaces and walls and will grow without sunlight.\n\nAll GMO Seeds twice the crop yield.\n\nRenewable: clean, healthy water allows this plant to spread out its roots and bolster its nutrition absorption and allowing it to produce crops endlessly.\n\nA Hot Box is required to craft this."
-plantedMushroom1_RT,blocks,Farming,"Renewable, Thorny Mushroom Spore (Seed)"
-plantedMushroom2_RT,blocks,Farming,"Renewable, Thorny Mushrooms (Growing)"
-plantedMushroom3_RT,blocks,Farming,"Renewable, Thorny Mushrooms"
-plantedMushroom1_RTDesc,blocks,Farming,"Mushroom spores can be planted on all surfaces and walls and will grow without sunlight.\n\nAll GMO Seeds twice the crop yield.\n\nRenewable: clean, healthy water allows this plant to spread out its roots and bolster its nutrition absorption and allowing it to produce crops endlessly.\n\nThorny: integrates with sharp, metal thorns. Touching them will cause one to bleed.\n\nA Hot Box is required to craft this."
-plantedMushroom1_RS,blocks,Farming,"Renewable, Sweet Mushroom Spore (Seed)"
-plantedMushroom2_RS,blocks,Farming,"Renewable, Sweet Mushrooms (Growing)"
-plantedMushroom3_RS,blocks,Farming,"Renewable, Sweet Mushrooms"
-plantedMushroom1_RSDesc,blocks,Farming,"Mushroom spores can be planted on all surfaces and walls and will grow without sunlight.\n\nAll GMO Seeds twice the crop yield.\n\nRenewable: clean, healthy water allows this plant to spread out its roots and bolster its nutrition absorption and allowing it to produce crops endlessly.\n\nSweet: produces a sweet aroma upon reaching maturity, providing the possibility of attracting an animal.\n- Boars are especially attracted to this type of plant.\n\nA Hot Box is required to craft this."
-plantedMushroom1_T,blocks,Farming,Thorny Mushroom Spore (Seed)
-plantedMushroom2_T,blocks,Farming,Thorny Mushrooms (Growing)
-plantedMushroom3_T,blocks,Farming,Thorny Mushrooms
-plantedMushroom1_TDesc,blocks,Farming,"Mushroom spores can be planted on all surfaces and walls and will grow without sunlight.\n\nAll GMO Seeds twice the crop yield.\n\nThorny: integrates with sharp, metal thorns. Touching them will cause one to bleed.\n\nA Hot Box is required to craft this."
-plantedMushroom1_TT,blocks,Farming,Extra Thorny Mushroom Spore (Seed)
-plantedMushroom2_TT,blocks,Farming,Extra Thorny Mushrooms (Growing)
-plantedMushroom3_TT,blocks,Farming,Extra Thorny Mushrooms
-plantedMushroom1_TTDesc,blocks,Farming,"Mushroom spores can be planted on all surfaces and walls and will grow without sunlight.\n\nAll GMO Seeds twice the crop yield.\n\nExtra Thorny: integrates with many sharp, metal thorns. Touching them will cause one to receive damage and bleed.\n\nA Hot Box is required to craft this."
-plantedMushroom1_TS,blocks,Farming,"Thorny, Sweet Mushroom Spore (Seed)"
-plantedMushroom2_TS,blocks,Farming,"Thorny, Sweet Mushrooms (Growing)"
-plantedMushroom3_TS,blocks,Farming,"Thorny, Sweet Mushrooms"
-plantedMushroom1_TSDesc,blocks,Farming,"Mushroom spores can be planted on all surfaces and walls and will grow without sunlight.\n\nAll GMO Seeds twice the crop yield.\n\nThorny: integrates with sharp, metal thorns. Touching them will cause one to bleed.\n\nSweet: produces a sweet aroma upon reaching maturity, providing the possibility of attracting an animal.\n- Boars are especially attracted to this type of plant.\n\nA Hot Box is required to craft this."
-plantedMushroom1_S,blocks,Farming,Sweet Mushroom Spore (Seed)
-plantedMushroom2_S,blocks,Farming,Sweet Mushrooms (Growing)
-plantedMushroom3_S,blocks,Farming,Sweet Mushrooms
-plantedMushroom1_SDesc,blocks,Farming,"Mushroom spores can be planted on all surfaces and walls and will grow without sunlight.\n\nAll GMO Seeds twice the crop yield.\n\nSweet: produces a sweet aroma upon reaching maturity, providing the possibility of attracting an animal.\n- Boars are especially attracted to this type of plant.\n\nA Hot Box is required to craft this."
-plantedMushroom1_SS,blocks,Farming,Super Sweet Mushroom Spore (Seed)
-plantedMushroom2_SS,blocks,Farming,Super Sweet Mushrooms (Growing)
-plantedMushroom3_SS,blocks,Farming,Super Sweet Mushrooms
-plantedMushroom1_SSDesc,blocks,Farming,"Mushroom spores can be planted on all surfaces and walls and will grow without sunlight.\n\nAll GMO Seeds twice the crop yield.\n\nSuper Sweet: produces a super sweet aroma upon reaching maturity, providing the high likelihood of attracting an animal.\n- Boars are especially attracted to this type of plant.\n\nA Hot Box is required to craft this."
 plantedCorn1_,blocks,Farming,Enhanced Corn (Seed)
 plantedCorn2_,blocks,Farming,Enhanced Corn (Growing)
 plantedCorn3_,blocks,Farming,Enhanced Corn
@@ -129,14 +77,6 @@ plantedCorn1_BR,blocks,Farming,"Bonus, Renewable Corn (Seed)"
 plantedCorn2_BR,blocks,Farming,"Bonus, Renewable Corn (Growing)"
 plantedCorn3_BR,blocks,Farming,"Bonus, Renewable Corn"
 plantedCorn1_BRDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\nAll GMO Seeds twice the crop yield.\n\nBonus: further doubles crop yield.\n\nRenewable: clean, healthy water allows this plant to spread out its roots and bolster its nutrition absorption and allowing it to produce crops endlessly.\n\nA Hot Box is required to craft this."
-plantedCorn1_BT,blocks,Farming,"Bonus, Thorny Corn (Seed)"
-plantedCorn2_BT,blocks,Farming,"Bonus, Thorny Corn (Growing)"
-plantedCorn3_BT,blocks,Farming,"Bonus, Thorny Corn"
-plantedCorn1_BTDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\nAll GMO Seeds twice the crop yield.\n\nBonus: further doubles crop yield.\n\nThorny: integrates with sharp, metal thorns. Touching them will cause one to bleed.\n\nA Hot Box is required to craft this."
-plantedCorn1_BS,blocks,Farming,"Bonus, Sweet Corn (Seed)"
-plantedCorn2_BS,blocks,Farming,"Bonus, Sweet Corn (Growing)"
-plantedCorn3_BS,blocks,Farming,"Bonus, Sweet Corn"
-plantedCorn1_BSDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\nAll GMO Seeds twice the crop yield.\n\nBonus: further doubles crop yield.\n\nSweet: produces a sweet aroma upon reaching maturity, providing the possibility of attracting an animal.\n- Chickens are especially attracted to this type of plant.\n\nA Hot Box is required to craft this."
 plantedCorn1_U,blocks,Farming,Underground Corn (Seed)
 plantedCorn2_U,blocks,Farming,Underground Corn (Growing)
 plantedCorn3_U,blocks,Farming,Underground Corn
@@ -153,10 +93,6 @@ plantedCorn1_UR,blocks,Farming,"Underground, Renewable Corn (Seed)"
 plantedCorn2_UR,blocks,Farming,"Underground, Renewable Corn (Growing)"
 plantedCorn3_UR,blocks,Farming,"Underground, Renewable Corn"
 plantedCorn1_URDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\nAll GMO Seeds twice the crop yield.\n\nUnderground: fused with mushroom dna, alowing growth without the need for sunlight.\n\nRenewable: clean, healthy water allows this plant to spread out its roots and bolster its nutrition absorption and allowing it to produce crops endlessly.\n\nA Hot Box is required to craft this."
-plantedCorn1_UT,blocks,Farming,"Underground, Thorny Corn (Seed)"
-plantedCorn2_UT,blocks,Farming,"Underground, Thorny Corn (Growing)"
-plantedCorn3_UT,blocks,Farming,"Underground, Thorny Corn"
-plantedCorn1_UTDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\nAll GMO Seeds twice the crop yield.\n\nUnderground: fused with mushroom dna, alowing growth without the need for sunlight.\n\nThorny: integrates with sharp, metal thorns. Touching them will cause one to bleed.\n\nA Hot Box is required to craft this."
 plantedCorn1_F,blocks,Farming,Fast Growth Corn (Seed)
 plantedCorn2_F,blocks,Farming,Fast Growth Corn (Growing)
 plantedCorn3_F,blocks,Farming,Fast Growth Corn
@@ -173,14 +109,6 @@ plantedCorn1_FR,blocks,Farming,"Fast Growth, Renewable Corn (Seed)"
 plantedCorn2_FR,blocks,Farming,"Fast Growth, Renewable Corn (Growing)"
 plantedCorn3_FR,blocks,Farming,"Fast Growth, Renewable Corn"
 plantedCorn1_FRDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\nAll GMO Seeds twice the crop yield.\n\nFast Growth: reaches maturity in half the time.\n\nRenewable: clean, healthy water allows this plant to spread out its roots and bolster its nutrition absorption and allowing it to produce crops endlessly.\n\nA Hot Box is required to craft this."
-plantedCorn1_FT,blocks,Farming,"Fast Growth, Thorny Corn (Seed)"
-plantedCorn2_FT,blocks,Farming,"Fast Growth, Thorny Corn (Growing)"
-plantedCorn3_FT,blocks,Farming,"Fast Growth, Thorny Corn"
-plantedCorn1_FTDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\nAll GMO Seeds twice the crop yield.\n\nFast Growth: reaches maturity in half the time.\n\nThorny: integrates with sharp, metal thorns. Touching them will cause one to bleed.\n\nA Hot Box is required to craft this."
-plantedCorn1_FS,blocks,Farming,"Fast Growth, Sweet Corn (Seed)"
-plantedCorn2_FS,blocks,Farming,"Fast Growth, Sweet Corn (Growing)"
-plantedCorn3_FS,blocks,Farming,"Fast Growth, Sweet Corn"
-plantedCorn1_FSDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\nAll GMO Seeds twice the crop yield.\n\nFast Growth: reaches maturity in half the time.\n\nSweet: produces a sweet aroma upon reaching maturity, providing the possibility of attracting an animal.\n- Chickens are especially attracted to this type of plant.\n\nA Hot Box is required to craft this."
 plantedCorn1_E,blocks,Farming,Explosive Corn (Seed)
 plantedCorn2_E,blocks,Farming,Explosive Corn (Growing)
 plantedCorn3_E,blocks,Farming,Explosive Corn
@@ -189,43 +117,7 @@ plantedCorn1_EE,blocks,Farming,Extremely Explosive Corn (Seed)
 plantedCorn2_EE,blocks,Farming,Extremely Explosive Corn (Growing)
 plantedCorn3_EE,blocks,Farming,Extremely Explosive Corn
 plantedCorn1_EEDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\nAll GMO Seeds twice the crop yield.\n\nExtremely Explosive: triggers a concealed explosive with a large payload when stepped on, struck with a melee weapon, or hit with an arrow.\n- Due to the flexible nature of plants, the detonator will not trigger if struck with bullets or other explosives.\n\nA Hot Box is required to craft this."
-plantedCorn1_ET,blocks,Farming,"Explosive, Thorny Corn (Seed)"
-plantedCorn2_ET,blocks,Farming,"Explosive, Thorny Corn (Growing)"
-plantedCorn3_ET,blocks,Farming,"Explosive, Thorny Corn"
-plantedCorn1_ETDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\nAll GMO Seeds twice the crop yield.\n\nExplosive: triggers a concealed explosive when stepped on, struck with a melee weapon, or hit with an arrow.\n- Due to the flexible nature of plants, the detonator will not trigger if struck with bullets or other explosives.\n\nThorny: integrates with sharp, metal thorns. Touching them will cause one to bleed.\n\nA Hot Box is required to craft this."
-plantedCorn1_ES,blocks,Farming,"Explosive, Sweet Corn (Seed)"
-plantedCorn2_ES,blocks,Farming,"Explosive, Sweet Corn (Growing)"
-plantedCorn3_ES,blocks,Farming,"Explosive, Sweet Corn"
-plantedCorn1_ESDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\nAll GMO Seeds twice the crop yield.\n\nExplosive: triggers a concealed explosive when stepped on, struck with a melee weapon, or hit with an arrow.\n- Due to the flexible nature of plants, the detonator will not trigger if struck with bullets or other explosives.\n\nSweet: produces a sweet aroma upon reaching maturity, providing the possibility of attracting an animal.\n- Chickens are especially attracted to this type of plant.\n\nA Hot Box is required to craft this."
 plantedCorn1_R,blocks,Farming,Renewable Corn (Seed)
 plantedCorn2_R,blocks,Farming,Renewable Corn (Growing)
 plantedCorn3_R,blocks,Farming,Renewable Corn
 plantedCorn1_RDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\nAll GMO Seeds twice the crop yield.\n\nRenewable: clean, healthy water allows this plant to spread out its roots and bolster its nutrition absorption and allowing it to produce crops endlessly.\n\nA Hot Box is required to craft this."
-plantedCorn1_RT,blocks,Farming,"Renewable, Thorny Corn (Seed)"
-plantedCorn2_RT,blocks,Farming,"Renewable, Thorny Corn (Growing)"
-plantedCorn3_RT,blocks,Farming,"Renewable, Thorny Corn"
-plantedCorn1_RTDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\nAll GMO Seeds twice the crop yield.\n\nRenewable: clean, healthy water allows this plant to spread out its roots and bolster its nutrition absorption and allowing it to produce crops endlessly.\n\nThorny: integrates with sharp, metal thorns. Touching them will cause one to bleed.\n\nA Hot Box is required to craft this."
-plantedCorn1_RS,blocks,Farming,"Renewable, Sweet Corn (Seed)"
-plantedCorn2_RS,blocks,Farming,"Renewable, Sweet Corn (Growing)"
-plantedCorn3_RS,blocks,Farming,"Renewable, Sweet Corn"
-plantedCorn1_RSDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\nAll GMO Seeds twice the crop yield.\n\nRenewable: clean, healthy water allows this plant to spread out its roots and bolster its nutrition absorption and allowing it to produce crops endlessly.\n\nSweet: produces a sweet aroma upon reaching maturity, providing the possibility of attracting an animal.\n- Chickens are especially attracted to this type of plant.\n\nA Hot Box is required to craft this."
-plantedCorn1_T,blocks,Farming,Thorny Corn (Seed)
-plantedCorn2_T,blocks,Farming,Thorny Corn (Growing)
-plantedCorn3_T,blocks,Farming,Thorny Corn
-plantedCorn1_TDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\nAll GMO Seeds twice the crop yield.\n\nThorny: integrates with sharp, metal thorns. Touching them will cause one to bleed.\n\nA Hot Box is required to craft this."
-plantedCorn1_TT,blocks,Farming,Extra Thorny Corn (Seed)
-plantedCorn2_TT,blocks,Farming,Extra Thorny Corn (Growing)
-plantedCorn3_TT,blocks,Farming,Extra Thorny Corn
-plantedCorn1_TTDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\nAll GMO Seeds twice the crop yield.\n\nExtra Thorny: integrates with many sharp, metal thorns. Touching them will cause one to receive damage and bleed.\n\nA Hot Box is required to craft this."
-plantedCorn1_TS,blocks,Farming,"Thorny, Sweet Corn (Seed)"
-plantedCorn2_TS,blocks,Farming,"Thorny, Sweet Corn (Growing)"
-plantedCorn3_TS,blocks,Farming,"Thorny, Sweet Corn"
-plantedCorn1_TSDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\nAll GMO Seeds twice the crop yield.\n\nThorny: integrates with sharp, metal thorns. Touching them will cause one to bleed.\n\nSweet: produces a sweet aroma upon reaching maturity, providing the possibility of attracting an animal.\n- Chickens are especially attracted to this type of plant.\n\nA Hot Box is required to craft this."
-plantedCorn1_S,blocks,Farming,Sweet Corn (Seed)
-plantedCorn2_S,blocks,Farming,Sweet Corn (Growing)
-plantedCorn3_S,blocks,Farming,Sweet Corn
-plantedCorn1_SDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\nAll GMO Seeds twice the crop yield.\n\nSweet: produces a sweet aroma upon reaching maturity, providing the possibility of attracting an animal.\n- Chickens are especially attracted to this type of plant.\n\nA Hot Box is required to craft this."
-plantedCorn1_SS,blocks,Farming,Super Sweet Corn (Seed)
-plantedCorn2_SS,blocks,Farming,Super Sweet Corn (Growing)
-plantedCorn3_SS,blocks,Farming,Super Sweet Corn
-plantedCorn1_SSDesc,blocks,Farming,"Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.\n\nAll GMO Seeds twice the crop yield.\n\nSuper Sweet: produces a super sweet aroma upon reaching maturity, providing the high likelihood of attracting an animal.\n- Chickens are especially attracted to this type of plant.\n\nA Hot Box is required to craft this."
