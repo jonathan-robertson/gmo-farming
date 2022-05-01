@@ -1,0 +1,5 @@
+<config>
+    <append xpath="/progression/perks/perk[@name='perkLivingOffTheLand']/effect_group">
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="3" value="1" tags="hotbox" />
+    </append>
+</config>

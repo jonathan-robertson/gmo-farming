@@ -1,0 +1,22 @@
+<config>
+    <append xpath="/buffs">
+        <!-- Spiked Plant Trap -->
+        <buff name="SpikePlant" hidden="true">
+            <stack_type value="replace" />
+            <duration value="5" />
+            <effect_group>
+                <triggered_effect trigger="onSelfBuffUpdate" action="ModifyStats" stat="Health" operation="subtract" value="3" />
+                <triggered_effect trigger="onSelfBuffFinish" action="RemoveBuff" buff="SpikePlant" />
+            </effect_group>
+        </buff>
+        <!-- Spiked Plant Trap Bonus -->
+        <buff name="SpikePlantPlus" hidden="true">
+            <stack_type value="replace" />
+            <duration value="5" />
+            <effect_group>
+                <triggered_effect trigger="onSelfBuffUpdate" action="ModifyStats" stat="Health" operation="subtract" value="6" />
+                <triggered_effect trigger="onSelfBuffFinish" action="RemoveBuff" buff="SpikePlantPlus" />
+            </effect_group>
+        </buff>
+    </append>
+</config>
