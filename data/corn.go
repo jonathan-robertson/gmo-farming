@@ -80,8 +80,6 @@ func (*Corn) WriteStage1(c chan string, traits string) {
 	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="DescriptionKey" value="plantedCorn1_%sDesc"/>
 	<property name="Group" value="%s"/>
-	<property name="SortOrder1" value="a090"/>
-	<property name="SortOrder2" value="0002"/>
 </block>`,
 		traits,
 		traits,

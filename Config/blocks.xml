@@ -792,8 +792,6 @@
 	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="DescriptionKey" value="plantedCorn1_Desc"/>
 	<property name="Group" value="Food/Cooking"/>
-	<property name="SortOrder1" value="a090"/>
-	<property name="SortOrder2" value="0002"/>
 </block>
 <block name="plantedCorn2_" stage="2" traits="">
 	<property name="Extends" value="plantedCorn1_"/>
@@ -855,8 +853,6 @@
 	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="DescriptionKey" value="plantedCorn1_BDesc"/>
 	<property name="Group" value="SeedEnhancement"/>
-	<property name="SortOrder1" value="a090"/>
-	<property name="SortOrder2" value="0002"/>
 </block>
 <block name="plantedCorn2_B" stage="2" traits="B">
 	<property name="Extends" value="plantedCorn1_B"/>
@@ -918,8 +914,6 @@
 	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="DescriptionKey" value="plantedCorn1_BBDesc"/>
 	<property name="Group" value="SeedEnhancement"/>
-	<property name="SortOrder1" value="a090"/>
-	<property name="SortOrder2" value="0002"/>
 </block>
 <block name="plantedCorn2_BB" stage="2" traits="BB">
 	<property name="Extends" value="plantedCorn1_BB"/>
@@ -981,8 +975,6 @@
 	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="DescriptionKey" value="plantedCorn1_BUDesc"/>
 	<property name="Group" value="SeedEnhancement"/>
-	<property name="SortOrder1" value="a090"/>
-	<property name="SortOrder2" value="0002"/>
 </block>
 <block name="plantedCorn2_BU" stage="2" traits="BU">
 	<property name="Extends" value="plantedCorn1_BU"/>
@@ -1044,8 +1036,6 @@
 	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="DescriptionKey" value="plantedCorn1_BFDesc"/>
 	<property name="Group" value="SeedEnhancement"/>
-	<property name="SortOrder1" value="a090"/>
-	<property name="SortOrder2" value="0002"/>
 </block>
 <block name="plantedCorn2_BF" stage="2" traits="BF">
 	<property name="Extends" value="plantedCorn1_BF"/>
@@ -1107,8 +1097,6 @@
 	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="DescriptionKey" value="plantedCorn1_BRDesc"/>
 	<property name="Group" value="SeedEnhancement"/>
-	<property name="SortOrder1" value="a090"/>
-	<property name="SortOrder2" value="0002"/>
 </block>
 <block name="plantedCorn2_BR" stage="2" traits="BR">
 	<property name="Extends" value="plantedCorn1_BR"/>
@@ -1170,8 +1158,6 @@
 	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="DescriptionKey" value="plantedCorn1_UDesc"/>
 	<property name="Group" value="SeedEnhancement"/>
-	<property name="SortOrder1" value="a090"/>
-	<property name="SortOrder2" value="0002"/>
 </block>
 <block name="plantedCorn2_U" stage="2" traits="U">
 	<property name="Extends" value="plantedCorn1_U"/>
@@ -1233,8 +1219,6 @@
 	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="DescriptionKey" value="plantedCorn1_UFDesc"/>
 	<property name="Group" value="SeedEnhancement"/>
-	<property name="SortOrder1" value="a090"/>
-	<property name="SortOrder2" value="0002"/>
 </block>
 <block name="plantedCorn2_UF" stage="2" traits="UF">
 	<property name="Extends" value="plantedCorn1_UF"/>
@@ -1296,8 +1280,6 @@
 	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="DescriptionKey" value="plantedCorn1_UEDesc"/>
 	<property name="Group" value="SeedEnhancement"/>
-	<property name="SortOrder1" value="a090"/>
-	<property name="SortOrder2" value="0002"/>
 </block>
 <block name="plantedCorn2_UE" stage="2" traits="UE">
 	<property name="Extends" value="plantedCorn1_UE"/>
@@ -1359,8 +1341,6 @@
 	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="DescriptionKey" value="plantedCorn1_URDesc"/>
 	<property name="Group" value="SeedEnhancement"/>
-	<property name="SortOrder1" value="a090"/>
-	<property name="SortOrder2" value="0002"/>
 </block>
 <block name="plantedCorn2_UR" stage="2" traits="UR">
 	<property name="Extends" value="plantedCorn1_UR"/>
@@ -1422,8 +1402,6 @@
 	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="DescriptionKey" value="plantedCorn1_FDesc"/>
 	<property name="Group" value="SeedEnhancement"/>
-	<property name="SortOrder1" value="a090"/>
-	<property name="SortOrder2" value="0002"/>
 </block>
 <block name="plantedCorn2_F" stage="2" traits="F">
 	<property name="Extends" value="plantedCorn1_F"/>
@@ -1485,8 +1463,6 @@
 	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="DescriptionKey" value="plantedCorn1_FFDesc"/>
 	<property name="Group" value="SeedEnhancement"/>
-	<property name="SortOrder1" value="a090"/>
-	<property name="SortOrder2" value="0002"/>
 </block>
 <block name="plantedCorn2_FF" stage="2" traits="FF">
 	<property name="Extends" value="plantedCorn1_FF"/>
@@ -1548,8 +1524,6 @@
 	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="DescriptionKey" value="plantedCorn1_FEDesc"/>
 	<property name="Group" value="SeedEnhancement"/>
-	<property name="SortOrder1" value="a090"/>
-	<property name="SortOrder2" value="0002"/>
 </block>
 <block name="plantedCorn2_FE" stage="2" traits="FE">
 	<property name="Extends" value="plantedCorn1_FE"/>
@@ -1611,8 +1585,6 @@
 	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="DescriptionKey" value="plantedCorn1_FRDesc"/>
 	<property name="Group" value="SeedEnhancement"/>
-	<property name="SortOrder1" value="a090"/>
-	<property name="SortOrder2" value="0002"/>
 </block>
 <block name="plantedCorn2_FR" stage="2" traits="FR">
 	<property name="Extends" value="plantedCorn1_FR"/>
@@ -1674,8 +1646,6 @@
 	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="DescriptionKey" value="plantedCorn1_EDesc"/>
 	<property name="Group" value="SeedEnhancement"/>
-	<property name="SortOrder1" value="a090"/>
-	<property name="SortOrder2" value="0002"/>
 </block>
 <block name="plantedCorn2_E" stage="2" traits="E">
 	<property name="Extends" value="plantedCorn1_E"/>
@@ -1737,8 +1707,6 @@
 	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="DescriptionKey" value="plantedCorn1_EEDesc"/>
 	<property name="Group" value="SeedEnhancement"/>
-	<property name="SortOrder1" value="a090"/>
-	<property name="SortOrder2" value="0002"/>
 </block>
 <block name="plantedCorn2_EE" stage="2" traits="EE">
 	<property name="Extends" value="plantedCorn1_EE"/>
@@ -1800,8 +1768,6 @@
 	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="DescriptionKey" value="plantedCorn1_RDesc"/>
 	<property name="Group" value="SeedEnhancement"/>
-	<property name="SortOrder1" value="a090"/>
-	<property name="SortOrder2" value="0002"/>
 </block>
 <block name="plantedCorn2_R" stage="2" traits="R">
 	<property name="Extends" value="plantedCorn1_R"/>
