@@ -7,7 +7,6 @@ import (
 
 type Mushroom struct {
 	Name              string
-	NamePlural        string
 	DisplayName       string
 	PreferredConsumer string
 	Description       string
@@ -20,8 +19,7 @@ type Mushroom struct {
 func CreateMushroom() *Mushroom {
 	return &Mushroom{
 		Name:              "Mushroom",
-		NamePlural:        "Mushrooms",
-		DisplayName:       "Mushroom Spore",
+		DisplayName:       "Mushroom Spores",
 		Description:       `Mushroom spores can be planted on all surfaces and walls and will grow without sunlight.`,
 		PreferredConsumer: "Boars",
 		CropYield:         2,
@@ -33,10 +31,6 @@ func CreateMushroom() *Mushroom {
 
 func (m *Mushroom) GetName() string {
 	return m.Name
-}
-
-func (m *Mushroom) GetNamePlural() string {
-	return m.NamePlural
 }
 
 func (m *Mushroom) GetDisplayName() string {
@@ -87,17 +81,18 @@ func (*Mushroom) WriteStage1(c chan string, traits string) {
 	<drop event="Destroy" name="plantedMushroom1_%s" count="1"/>
 	<property name="EconomicValue" value="12"/>
 	<property name="EconomicBundleSize" value="5"/>
-	<property name="Group" value="Food/Cooking"/>
 	<property name="PickupJournalEntry" value="farmingTip"/>
-
+	
 	<property name="CustomIcon" value="plantedMushroom1"/>
 	<property name="DescriptionKey" value="plantedMushroom1_%sDesc"/>
+	<property name="Group" value="%s"/>
 </block>`,
 		traits,
 		traits,
 		traits,
 		traits,
-		traits)
+		traits,
+		getCraftingGroup(traits))
 }
 
 func (*Mushroom) WriteStage2(c chan string, traits string) {

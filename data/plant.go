@@ -9,7 +9,6 @@ type Plant interface {
 	IsCompatibleWith(rune) bool
 	WriteBlockStages(chan string, string)
 	GetName() string
-	GetNamePlural() string
 	GetDisplayName() string
 	GetDescription() string
 	GetPreferredConsumer() string
@@ -21,13 +20,9 @@ var Plants []Plant = []Plant{
 	CreateCorn(),
 }
 
-func calculateStandardNameSuffix(traits string) string {
-	return fmt.Sprintf("T%d%s", traits)
-}
-
 func calculateCropYield(count int, traits string) int {
 
-	// All GMO Seeds start wtih double resources
+	// All Enhanced Seeds start wtih double resources
 	count *= 2
 
 	// [B] Bonus
@@ -60,4 +55,12 @@ func optionallyAddRenewable(traits string, plant Plant) string {
 
 func getDefaultSeedDescription() string {
 	return `Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.`
+}
+
+func getCraftingGroup(traits string) string {
+	if traits == "" {
+		return "Food/Cooking"
+	} else {
+		return "SeedEnhancement"
+	}
 }

@@ -10,11 +10,11 @@ func getFile(filename string) (*os.File, error) {
 }
 
 func getEnhancedSeedEffectDescription() string {
-	return `All GMO Seeds twice the crop yield.`
+	return `All Enhanced Seeds yield twice the standard number of crops.`
 }
 
 func getInitialEnhancementCraftingTip() string {
-	return `This can be crafted by hand or in a Hot Box.`
+	return `This can be crafted by Hand or at a Workbench.`
 }
 
 func getHotBoxRequirementTip() string {

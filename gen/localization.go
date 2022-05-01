@@ -45,24 +45,24 @@ func producePlantLocalization(c chan string) {
 func ProduceLocalization(c chan string, plant data.Plant, traits ...data.Trait) {
 	switch len(traits) {
 	case 0:
-		c <- fmt.Sprintf(`planted%s1_,blocks,Farming,Enhanced %s (Seed)`,
+		c <- fmt.Sprintf(`planted%s1_,blocks,Farming,"%s (Seed, Enhanced)"`,
 			plant.GetName(), plant.GetDisplayName())
-		c <- fmt.Sprintf(`planted%s2_,blocks,Farming,Enhanced %s (Growing)`,
-			plant.GetName(), plant.GetNamePlural())
-		c <- fmt.Sprintf(`planted%s3_,blocks,Farming,Enhanced %s`,
-			plant.GetName(), plant.GetNamePlural())
+		c <- fmt.Sprintf(`planted%s2_,blocks,Farming,"%s (Growing, Enhanced)"`,
+			plant.GetName(), plant.GetDisplayName())
+		c <- fmt.Sprintf(`planted%s3_,blocks,Farming,"%s (Enhanced)"`,
+			plant.GetName(), plant.GetDisplayName())
 		c <- fmt.Sprintf(`planted%s1_Desc,blocks,Farming,"%s\n\n%s\n\n%s"`,
 			plant.GetName(),
 			plant.GetDescription(),
 			getEnhancedSeedEffectDescription(),
 			getInitialEnhancementCraftingTip())
 	case 1:
-		c <- fmt.Sprintf(`planted%s1_%c,blocks,Farming,%s %s (Seed)`,
-			plant.GetName(), traits[0].Code, traits[0].Name, plant.GetDisplayName())
-		c <- fmt.Sprintf(`planted%s2_%c,blocks,Farming,%s %s (Growing)`,
-			plant.GetName(), traits[0].Code, traits[0].Name, plant.GetNamePlural())
-		c <- fmt.Sprintf(`planted%s3_%c,blocks,Farming,%s %s`,
-			plant.GetName(), traits[0].Code, traits[0].Name, plant.GetNamePlural())
+		c <- fmt.Sprintf(`planted%s1_%c,blocks,Farming,"%s (Seed, %s)"`,
+			plant.GetName(), traits[0].Code, plant.GetDisplayName(), traits[0].Name)
+		c <- fmt.Sprintf(`planted%s2_%c,blocks,Farming,"%s (Growing, %s)"`,
+			plant.GetName(), traits[0].Code, plant.GetDisplayName(), traits[0].Name)
+		c <- fmt.Sprintf(`planted%s3_%c,blocks,Farming,"%s (%s)"`,
+			plant.GetName(), traits[0].Code, plant.GetDisplayName(), traits[0].Name)
 		c <- fmt.Sprintf(`planted%s1_%cDesc,blocks,Farming,"%s\n\n%s\n\n%s\n\n%s"`,
 			plant.GetName(),
 			traits[0].Code,
@@ -72,12 +72,12 @@ func ProduceLocalization(c chan string, plant data.Plant, traits ...data.Trait) 
 			getHotBoxRequirementTip())
 	case 2:
 		if traits[0].Code == traits[1].Code {
-			c <- fmt.Sprintf(`planted%s1_%c%c,blocks,Farming,%s %s (Seed)`,
-				plant.GetName(), traits[0].Code, traits[1].Code, traits[0].DoubleName, plant.GetDisplayName())
-			c <- fmt.Sprintf(`planted%s2_%c%c,blocks,Farming,%s %s (Growing)`,
-				plant.GetName(), traits[0].Code, traits[1].Code, traits[0].DoubleName, plant.GetNamePlural())
-			c <- fmt.Sprintf(`planted%s3_%c%c,blocks,Farming,%s %s`,
-				plant.GetName(), traits[0].Code, traits[1].Code, traits[0].DoubleName, plant.GetNamePlural())
+			c <- fmt.Sprintf(`planted%s1_%c%c,blocks,Farming,"%s (Seed, %s)"`,
+				plant.GetName(), traits[0].Code, traits[1].Code, plant.GetDisplayName(), traits[0].DoubleName)
+			c <- fmt.Sprintf(`planted%s2_%c%c,blocks,Farming,"%s (Growing, %s)"`,
+				plant.GetName(), traits[0].Code, traits[1].Code, plant.GetDisplayName(), traits[0].DoubleName)
+			c <- fmt.Sprintf(`planted%s3_%c%c,blocks,Farming,"%s (%s)"`,
+				plant.GetName(), traits[0].Code, traits[1].Code, plant.GetDisplayName(), traits[0].DoubleName)
 			c <- fmt.Sprintf(`planted%s1_%c%cDesc,blocks,Farming,"%s\n\n%s\n\n%s\n\n%s"`,
 				plant.GetName(),
 				traits[0].Code,
@@ -87,12 +87,12 @@ func ProduceLocalization(c chan string, plant data.Plant, traits ...data.Trait) 
 				traits[0].GetDoubleTraitDescription(plant.GetPreferredConsumer()),
 				getHotBoxRequirementTip())
 		} else {
-			c <- fmt.Sprintf(`planted%s1_%c%c,blocks,Farming,"%s, %s %s (Seed)"`,
-				plant.GetName(), traits[0].Code, traits[1].Code, traits[0].Name, traits[1].Name, plant.GetDisplayName())
-			c <- fmt.Sprintf(`planted%s2_%c%c,blocks,Farming,"%s, %s %s (Growing)"`,
-				plant.GetName(), traits[0].Code, traits[1].Code, traits[0].Name, traits[1].Name, plant.GetNamePlural())
-			c <- fmt.Sprintf(`planted%s3_%c%c,blocks,Farming,"%s, %s %s"`,
-				plant.GetName(), traits[0].Code, traits[1].Code, traits[0].Name, traits[1].Name, plant.GetNamePlural())
+			c <- fmt.Sprintf(`planted%s1_%c%c,blocks,Farming,"%s (Seed, %s, %s)"`,
+				plant.GetName(), traits[0].Code, traits[1].Code, plant.GetDisplayName(), traits[0].Name, traits[1].Name)
+			c <- fmt.Sprintf(`planted%s2_%c%c,blocks,Farming,"%s (Growing, %s, %s)"`,
+				plant.GetName(), traits[0].Code, traits[1].Code, plant.GetDisplayName(), traits[0].Name, traits[1].Name)
+			c <- fmt.Sprintf(`planted%s3_%c%c,blocks,Farming,"%s (%s, %s)"`,
+				plant.GetName(), traits[0].Code, traits[1].Code, plant.GetDisplayName(), traits[0].Name, traits[1].Name)
 			c <- fmt.Sprintf(`planted%s1_%c%cDesc,blocks,Farming,"%s\n\n%s\n\n%s\n\n%s\n\n%s"`,
 				plant.GetName(),
 				traits[0].Code,
@@ -108,9 +108,10 @@ func ProduceLocalization(c chan string, plant data.Plant, traits ...data.Trait) 
 
 func ProduceHotBoxLocalization(c chan string) {
 	c <- `hotbox,blocks,Workstation,Hot Box`
-	c <- `hotboxDesc,blocks,Workstation,The Hot Box is a simple workstation that allows seeds to slowly absorb the viral zombie mutagens.`
-	c <- `hotboxTip,Journal Tip,,"The Hot Box is a simple workstation that allows seeds to slowly absorb the viral zombie mutagens.\n\nLeaving seeds and meat in this box will slowly attract zombies at the same rate a workbench would."`
+	c <- `hotboxDesc,blocks,Workstation,The Hot Box is a simple workstation that allows enhanced seeds to absorb various materials and take on new traits.`
+	c <- `hotboxTip,Journal Tip,,"The Hot Box is a simple workstation that allows enhanced seeds to absorb various materials and take on new traits."`
 	c <- `hotboxTip_title,Journal Tip,,Hot Box`
 	c <- `perkLivingOffTheLandRank3Desc,progression,perk For,Farmer`
-	c <- `perkLivingOffTheLandRank3LongDesc,progression,perk For,Triple the harvest of wild or planted crops. Craft Hot Boxes and GMO Seeds that you'll be able to research and add special traits to.`
+	c <- `perkLivingOffTheLandRank3LongDesc,progression,perk For,Triple the harvest of wild or planted crops. Craft Hot Boxes and Enhanced Seeds that you'll be able to research and add special traits to.`
+	c <- `lblCategorySeedEnhancement,UI,Tooltip,Seed Enhancement`
 }

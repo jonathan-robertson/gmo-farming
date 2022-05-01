@@ -17,10 +17,9 @@ type Corn struct {
 
 func CreateCorn() *Corn {
 	return &Corn{
-		Name:              "Corn",     // TODO: confirm
-		NamePlural:        "Corn",     // TODO: confirm
-		DisplayName:       "Corn",     // TODO: confirm
-		PreferredConsumer: "Chickens", // TODO: confirm
+		Name:              "Corn",
+		DisplayName:       "Corn",
+		PreferredConsumer: "Chickens",
 		CropYield:         2,
 		BonusYield:        1,
 		CraftTime:         2,
@@ -29,10 +28,6 @@ func CreateCorn() *Corn {
 
 func (c *Corn) GetName() string {
 	return c.Name
-}
-
-func (c *Corn) GetNamePlural() string {
-	return c.NamePlural
 }
 
 func (c *Corn) GetDisplayName() string {
@@ -80,17 +75,20 @@ func (*Corn) WriteStage1(c chan string, traits string) {
 	<property name="MultiBlockDim" value="1,3,1"/>
 	<property name="Texture" value="529"/>
 	<property name="PlantGrowing.Next" value="plantedCorn2_%s"/>
-	<property name="Group" value="Food/Cooking"/>
 	<drop event="Destroy" name="plantedCorn1_%s" count="1"/>
 	
 	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="DescriptionKey" value="plantedCorn1_%sDesc"/>
+	<property name="Group" value="%s"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
 </block>`,
 		traits,
 		traits,
 		traits,
 		traits,
-		traits)
+		traits,
+		getCraftingGroup(traits))
 }
 
 func (*Corn) WriteStage2(c chan string, traits string) {
