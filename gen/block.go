@@ -144,7 +144,14 @@ func produceBlockModifications(c chan string) {
         <property name="Explosion.EntityDamage" value="450" /> <!-- damage for entities in the center of the explosion. -->
         <property name="CanPickup" value="false" />
     </append>`
+	// [T] Thorny
+	c <- `    <append xpath="/blocks/block[contains(@traits, 'T') and @stage='3' and not (@traits='TT')]">
+        <property name="BuffsWhenWalkedOn" value="triggerInjuryThorns"/>
+    </append>`
+	// [TT] Extra Thorny
+	c <- `    <append xpath="/blocks/block[contains(@traits, 'TT') and @stage='3']">
+        <property name="BuffsWhenWalkedOn" value="triggerInjuryCriticalThorns"/>
+    </append>`
 
-	// TODO: [T] Thorny
 	// TODO: [S] Sweet
 }

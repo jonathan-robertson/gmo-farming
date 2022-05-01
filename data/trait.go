@@ -36,11 +36,11 @@ var Traits []Trait = []Trait{
 	{Code: 'R', Name: "Renewable", Incompatible: []rune{'R', 'E'}, Ingredients: []Ingredient{
 		{"drinkJarPureMineralWater", 10},
 	}}, // TODO: compatible with S or not?
-	/* TODO
 	{Code: 'T', Name: "Thorny", DoubleName: "Extra Thorny", Ingredients: []Ingredient{
 		{"resourceScrapIron", 10},
 		{"resourceNail", 10},
 	}},
+	/* TODO
 	{Code: 'S', Name: "Sweet", DoubleName: "Super Sweet", Incompatible: []rune{'U'}, Ingredients: []Ingredient{
 		{"resourceTestosteroneExtract", 2},
 	}}, // TODO: compatible with R or not?

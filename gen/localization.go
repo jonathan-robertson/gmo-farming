@@ -25,6 +25,7 @@ func producePlantLocalization(c chan string) {
 	defer close(c)
 	c <- "Key,File,Type,english"
 	ProduceHotBoxLocalization(c)
+	ProduceThornyBuffLocalization(c)
 	for _, plant := range data.Plants {
 		ProduceLocalization(c, plant)
 		for i1 := 0; i1 < len(data.Traits); i1++ {
@@ -114,4 +115,11 @@ func ProduceHotBoxLocalization(c chan string) {
 	c <- `perkLivingOffTheLandRank3Desc,progression,perk For,Farmer`
 	c <- `perkLivingOffTheLandRank3LongDesc,progression,perk For,Triple the harvest of wild or planted crops. Craft Hot Boxes and Enhanced Seeds that you'll be able to research and add special traits to.`
 	c <- `lblCategorySeedEnhancement,UI,Tooltip,Seed Enhancement`
+}
+
+func ProduceThornyBuffLocalization(c chan string) {
+	c <- `buffInjuryThornsName,buffs,Buff,Thorns`
+	c <- `buffInjuryCriticalThornsName,buffs,Buff,Critical Thorns`
+	c <- `buffInjuryThornsDesc,buffs,Buff,"Your skin is pierced by the thorny barbs of an aggressively engineered plant.\n\nStep away from the plant to avoid further injury."`
+	c <- `buffInjuryThornsTooltip,buffs,Buff,The thorns on this plant are cutting into your skin.`
 }
