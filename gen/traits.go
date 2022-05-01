@@ -9,18 +9,42 @@ type Trait struct {
 	name         string
 	doubleName   string
 	incompatible []rune
+	ingredients  []Ingredient
+}
+
+type Ingredient struct {
+	name  string
+	count int
 }
 
 // 7 T2 variants * 13 seeds = 91
 // 6+4+5+4+2+2+1=24 T3 variant combos * 13 seeds = 312
 var Traits []Trait = []Trait{
-	{code: 'B', name: "Bonus", doubleName: "Bountiful Bonus", incompatible: []rune{'E'}},
-	{code: 'U', name: "Underground", incompatible: []rune{'U', 'S'}},
-	{code: 'F', name: "Fast Growth", doubleName: "Rapid Growth"},
-	{code: 'E', name: "Explosive", doubleName: "Extremely Explosive", incompatible: []rune{'B', 'R'}},
-	{code: 'R', name: "Renewable", incompatible: []rune{'R', 'E'}}, // TODO: compatible with S or not?
-	{code: 'T', name: "Thorny", doubleName: "Extra Thorny"},
-	{code: 'S', name: "Sweet", doubleName: "Super Sweet", incompatible: []rune{'U'}}, // TODO: compatible with R or not?
+	{code: 'B', name: "Bonus", doubleName: "Bountiful Bonus", incompatible: []rune{'E'}, ingredients: []Ingredient{
+		{"foodRottingFlesh", 5},
+		{"medicalBloodBag", 2},
+	}},
+	{code: 'U', name: "Underground", incompatible: []rune{'U', 'S'}, ingredients: []Ingredient{
+		{"plantedMushroom1", 1},
+	}},
+	{code: 'F', name: "Fast Growth", doubleName: "Rapid Growth", ingredients: []Ingredient{
+		{"drinkCanMegaCrush", 2},
+	}},
+	{code: 'E', name: "Explosive", doubleName: "Extremely Explosive", incompatible: []rune{'B', 'R'}, ingredients: []Ingredient{
+		{"resourceScrapIron", 4},
+		{"resourceGunPowder", 4},
+		{"resourceDuctTape", 1},
+	}},
+	{code: 'R', name: "Renewable", incompatible: []rune{'R', 'E'}, ingredients: []Ingredient{
+		{"drinkJarPureMineralWater", 10},
+	}}, // TODO: compatible with S or not?
+	{code: 'T', name: "Thorny", doubleName: "Extra Thorny", ingredients: []Ingredient{
+		{"resourceScrapIron", 10},
+		{"resourceNail", 10},
+	}},
+	{code: 'S', name: "Sweet", doubleName: "Super Sweet", incompatible: []rune{'U'}, ingredients: []Ingredient{
+		{"resourceTestosteroneExtract", 2},
+	}}, // TODO: compatible with R or not?
 }
 
 func (t *Trait) isCompatibleWith(t2 Trait) bool {
