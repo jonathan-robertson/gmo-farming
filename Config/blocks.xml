@@ -9030,6 +9030,1086 @@
 	<property name="Texture" value="529"/>
 	
 </block>
+<block name="plantedHop1_" stage="1" traits="">
+	<drop event="Destroy" name="plantedHop1_" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedHop1"/>
+	<property name="DescriptionKey" value="plantedHop1_Desc"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="Food/Cooking"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedHop2_"/>
+	<property name="Texture" value="447"/>
+</block>
+<block name="plantedHop2_" stage="2" traits="">
+	<property name="Extends" value="plantedHop1_"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Texture" value="448"/>
+	<property name="PlantGrowing.Next" value="plantedHop3_"/>
+</block>
+<block name="plantedHop3_" stage="3" traits="">
+	<drop event="Destroy" name="plantedHop1_" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="resourceCropHopsFlower" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropHopsFlower" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedHop1"/>
+	<property name="DescriptionKey" value="plantedHop3_"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="BillboardPlant"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	<property name="Texture" value="449"/>
+	
+</block>
+<block name="plantedHop1_B" stage="1" traits="B">
+	<drop event="Destroy" name="plantedHop1_B" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedHop1"/>
+	<property name="DescriptionKey" value="plantedHop1_BDesc"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedHop2_B"/>
+	<property name="Texture" value="447"/>
+</block>
+<block name="plantedHop2_B" stage="2" traits="B">
+	<property name="Extends" value="plantedHop1_B"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Texture" value="448"/>
+	<property name="PlantGrowing.Next" value="plantedHop3_B"/>
+</block>
+<block name="plantedHop3_B" stage="3" traits="B">
+	<drop event="Destroy" name="plantedHop1_B" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="resourceCropHopsFlower" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropHopsFlower" prob="0.5" count="4" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedHop1"/>
+	<property name="DescriptionKey" value="plantedHop3_B"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="BillboardPlant"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	<property name="Texture" value="449"/>
+	
+</block>
+<block name="plantedHop1_BB" stage="1" traits="BB">
+	<drop event="Destroy" name="plantedHop1_BB" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedHop1"/>
+	<property name="DescriptionKey" value="plantedHop1_BBDesc"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedHop2_BB"/>
+	<property name="Texture" value="447"/>
+</block>
+<block name="plantedHop2_BB" stage="2" traits="BB">
+	<property name="Extends" value="plantedHop1_BB"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Texture" value="448"/>
+	<property name="PlantGrowing.Next" value="plantedHop3_BB"/>
+</block>
+<block name="plantedHop3_BB" stage="3" traits="BB">
+	<drop event="Destroy" name="plantedHop1_BB" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="resourceCropHopsFlower" count="16" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropHopsFlower" prob="0.5" count="8" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedHop1"/>
+	<property name="DescriptionKey" value="plantedHop3_BB"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="BillboardPlant"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	<property name="Texture" value="449"/>
+	
+</block>
+<block name="plantedHop1_BU" stage="1" traits="BU">
+	<drop event="Destroy" name="plantedHop1_BU" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedHop1"/>
+	<property name="DescriptionKey" value="plantedHop1_BUDesc"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedHop2_BU"/>
+	<property name="Texture" value="447"/>
+</block>
+<block name="plantedHop2_BU" stage="2" traits="BU">
+	<property name="Extends" value="plantedHop1_BU"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Texture" value="448"/>
+	<property name="PlantGrowing.Next" value="plantedHop3_BU"/>
+</block>
+<block name="plantedHop3_BU" stage="3" traits="BU">
+	<drop event="Destroy" name="plantedHop1_BU" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="resourceCropHopsFlower" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropHopsFlower" prob="0.5" count="4" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedHop1"/>
+	<property name="DescriptionKey" value="plantedHop3_BU"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="BillboardPlant"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	<property name="Texture" value="449"/>
+	
+</block>
+<block name="plantedHop1_BF" stage="1" traits="BF">
+	<drop event="Destroy" name="plantedHop1_BF" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedHop1"/>
+	<property name="DescriptionKey" value="plantedHop1_BFDesc"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedHop2_BF"/>
+	<property name="Texture" value="447"/>
+</block>
+<block name="plantedHop2_BF" stage="2" traits="BF">
+	<property name="Extends" value="plantedHop1_BF"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Texture" value="448"/>
+	<property name="PlantGrowing.Next" value="plantedHop3_BF"/>
+</block>
+<block name="plantedHop3_BF" stage="3" traits="BF">
+	<drop event="Destroy" name="plantedHop1_BF" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="resourceCropHopsFlower" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropHopsFlower" prob="0.5" count="4" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedHop1"/>
+	<property name="DescriptionKey" value="plantedHop3_BF"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="BillboardPlant"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	<property name="Texture" value="449"/>
+	
+</block>
+<block name="plantedHop1_BR" stage="1" traits="BR">
+	<drop event="Destroy" name="plantedHop1_BR" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedHop1"/>
+	<property name="DescriptionKey" value="plantedHop1_BRDesc"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedHop2_BR"/>
+	<property name="Texture" value="447"/>
+</block>
+<block name="plantedHop2_BR" stage="2" traits="BR">
+	<property name="Extends" value="plantedHop1_BR"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Texture" value="448"/>
+	<property name="PlantGrowing.Next" value="plantedHop3_BR"/>
+</block>
+<block name="plantedHop3_BR" stage="3" traits="BR">
+	<drop event="Destroy" name="plantedHop1_BR" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="resourceCropHopsFlower" count="6" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropHopsFlower" prob="0.5" count="3" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedHop1"/>
+	<property name="DescriptionKey" value="plantedHop3_BR"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="BillboardPlant"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	<property name="Texture" value="449"/>
+	<property name="DowngradeBlock" value="plantedHop1_BR" />
+</block>
+<block name="plantedHop1_BT" stage="1" traits="BT">
+	<drop event="Destroy" name="plantedHop1_BT" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedHop1"/>
+	<property name="DescriptionKey" value="plantedHop1_BTDesc"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedHop2_BT"/>
+	<property name="Texture" value="447"/>
+</block>
+<block name="plantedHop2_BT" stage="2" traits="BT">
+	<property name="Extends" value="plantedHop1_BT"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Texture" value="448"/>
+	<property name="PlantGrowing.Next" value="plantedHop3_BT"/>
+</block>
+<block name="plantedHop3_BT" stage="3" traits="BT">
+	<drop event="Destroy" name="plantedHop1_BT" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="resourceCropHopsFlower" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropHopsFlower" prob="0.5" count="4" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedHop1"/>
+	<property name="DescriptionKey" value="plantedHop3_BT"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="BillboardPlant"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	<property name="Texture" value="449"/>
+	
+</block>
+<block name="plantedHop1_U" stage="1" traits="U">
+	<drop event="Destroy" name="plantedHop1_U" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedHop1"/>
+	<property name="DescriptionKey" value="plantedHop1_UDesc"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedHop2_U"/>
+	<property name="Texture" value="447"/>
+</block>
+<block name="plantedHop2_U" stage="2" traits="U">
+	<property name="Extends" value="plantedHop1_U"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Texture" value="448"/>
+	<property name="PlantGrowing.Next" value="plantedHop3_U"/>
+</block>
+<block name="plantedHop3_U" stage="3" traits="U">
+	<drop event="Destroy" name="plantedHop1_U" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="resourceCropHopsFlower" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropHopsFlower" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedHop1"/>
+	<property name="DescriptionKey" value="plantedHop3_U"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="BillboardPlant"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	<property name="Texture" value="449"/>
+	
+</block>
+<block name="plantedHop1_UF" stage="1" traits="UF">
+	<drop event="Destroy" name="plantedHop1_UF" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedHop1"/>
+	<property name="DescriptionKey" value="plantedHop1_UFDesc"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedHop2_UF"/>
+	<property name="Texture" value="447"/>
+</block>
+<block name="plantedHop2_UF" stage="2" traits="UF">
+	<property name="Extends" value="plantedHop1_UF"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Texture" value="448"/>
+	<property name="PlantGrowing.Next" value="plantedHop3_UF"/>
+</block>
+<block name="plantedHop3_UF" stage="3" traits="UF">
+	<drop event="Destroy" name="plantedHop1_UF" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="resourceCropHopsFlower" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropHopsFlower" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedHop1"/>
+	<property name="DescriptionKey" value="plantedHop3_UF"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="BillboardPlant"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	<property name="Texture" value="449"/>
+	
+</block>
+<block name="plantedHop1_UE" stage="1" traits="UE">
+	<drop event="Destroy" name="plantedHop1_UE" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedHop1"/>
+	<property name="DescriptionKey" value="plantedHop1_UEDesc"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedHop2_UE"/>
+	<property name="Texture" value="447"/>
+</block>
+<block name="plantedHop2_UE" stage="2" traits="UE">
+	<property name="Extends" value="plantedHop1_UE"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Texture" value="448"/>
+	<property name="PlantGrowing.Next" value="plantedHop3_UE"/>
+</block>
+<block name="plantedHop3_UE" stage="3" traits="UE">
+	<drop event="Destroy" name="plantedHop1_UE" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="resourceCropHopsFlower" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropHopsFlower" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedHop1"/>
+	<property name="DescriptionKey" value="plantedHop3_UE"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="BillboardPlant"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	<property name="Texture" value="449"/>
+	
+</block>
+<block name="plantedHop1_UR" stage="1" traits="UR">
+	<drop event="Destroy" name="plantedHop1_UR" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedHop1"/>
+	<property name="DescriptionKey" value="plantedHop1_URDesc"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedHop2_UR"/>
+	<property name="Texture" value="447"/>
+</block>
+<block name="plantedHop2_UR" stage="2" traits="UR">
+	<property name="Extends" value="plantedHop1_UR"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Texture" value="448"/>
+	<property name="PlantGrowing.Next" value="plantedHop3_UR"/>
+</block>
+<block name="plantedHop3_UR" stage="3" traits="UR">
+	<drop event="Destroy" name="plantedHop1_UR" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="resourceCropHopsFlower" count="3" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropHopsFlower" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedHop1"/>
+	<property name="DescriptionKey" value="plantedHop3_UR"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="BillboardPlant"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	<property name="Texture" value="449"/>
+	<property name="DowngradeBlock" value="plantedHop1_UR" />
+</block>
+<block name="plantedHop1_UT" stage="1" traits="UT">
+	<drop event="Destroy" name="plantedHop1_UT" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedHop1"/>
+	<property name="DescriptionKey" value="plantedHop1_UTDesc"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedHop2_UT"/>
+	<property name="Texture" value="447"/>
+</block>
+<block name="plantedHop2_UT" stage="2" traits="UT">
+	<property name="Extends" value="plantedHop1_UT"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Texture" value="448"/>
+	<property name="PlantGrowing.Next" value="plantedHop3_UT"/>
+</block>
+<block name="plantedHop3_UT" stage="3" traits="UT">
+	<drop event="Destroy" name="plantedHop1_UT" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="resourceCropHopsFlower" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropHopsFlower" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedHop1"/>
+	<property name="DescriptionKey" value="plantedHop3_UT"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="BillboardPlant"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	<property name="Texture" value="449"/>
+	
+</block>
+<block name="plantedHop1_F" stage="1" traits="F">
+	<drop event="Destroy" name="plantedHop1_F" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedHop1"/>
+	<property name="DescriptionKey" value="plantedHop1_FDesc"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedHop2_F"/>
+	<property name="Texture" value="447"/>
+</block>
+<block name="plantedHop2_F" stage="2" traits="F">
+	<property name="Extends" value="plantedHop1_F"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Texture" value="448"/>
+	<property name="PlantGrowing.Next" value="plantedHop3_F"/>
+</block>
+<block name="plantedHop3_F" stage="3" traits="F">
+	<drop event="Destroy" name="plantedHop1_F" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="resourceCropHopsFlower" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropHopsFlower" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedHop1"/>
+	<property name="DescriptionKey" value="plantedHop3_F"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="BillboardPlant"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	<property name="Texture" value="449"/>
+	
+</block>
+<block name="plantedHop1_FF" stage="1" traits="FF">
+	<drop event="Destroy" name="plantedHop1_FF" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedHop1"/>
+	<property name="DescriptionKey" value="plantedHop1_FFDesc"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedHop2_FF"/>
+	<property name="Texture" value="447"/>
+</block>
+<block name="plantedHop2_FF" stage="2" traits="FF">
+	<property name="Extends" value="plantedHop1_FF"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Texture" value="448"/>
+	<property name="PlantGrowing.Next" value="plantedHop3_FF"/>
+</block>
+<block name="plantedHop3_FF" stage="3" traits="FF">
+	<drop event="Destroy" name="plantedHop1_FF" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="resourceCropHopsFlower" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropHopsFlower" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedHop1"/>
+	<property name="DescriptionKey" value="plantedHop3_FF"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="BillboardPlant"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	<property name="Texture" value="449"/>
+	
+</block>
+<block name="plantedHop1_FE" stage="1" traits="FE">
+	<drop event="Destroy" name="plantedHop1_FE" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedHop1"/>
+	<property name="DescriptionKey" value="plantedHop1_FEDesc"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedHop2_FE"/>
+	<property name="Texture" value="447"/>
+</block>
+<block name="plantedHop2_FE" stage="2" traits="FE">
+	<property name="Extends" value="plantedHop1_FE"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Texture" value="448"/>
+	<property name="PlantGrowing.Next" value="plantedHop3_FE"/>
+</block>
+<block name="plantedHop3_FE" stage="3" traits="FE">
+	<drop event="Destroy" name="plantedHop1_FE" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="resourceCropHopsFlower" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropHopsFlower" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedHop1"/>
+	<property name="DescriptionKey" value="plantedHop3_FE"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="BillboardPlant"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	<property name="Texture" value="449"/>
+	
+</block>
+<block name="plantedHop1_FR" stage="1" traits="FR">
+	<drop event="Destroy" name="plantedHop1_FR" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedHop1"/>
+	<property name="DescriptionKey" value="plantedHop1_FRDesc"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedHop2_FR"/>
+	<property name="Texture" value="447"/>
+</block>
+<block name="plantedHop2_FR" stage="2" traits="FR">
+	<property name="Extends" value="plantedHop1_FR"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Texture" value="448"/>
+	<property name="PlantGrowing.Next" value="plantedHop3_FR"/>
+</block>
+<block name="plantedHop3_FR" stage="3" traits="FR">
+	<drop event="Destroy" name="plantedHop1_FR" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="resourceCropHopsFlower" count="3" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropHopsFlower" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedHop1"/>
+	<property name="DescriptionKey" value="plantedHop3_FR"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="BillboardPlant"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	<property name="Texture" value="449"/>
+	<property name="DowngradeBlock" value="plantedHop1_FR" />
+</block>
+<block name="plantedHop1_FT" stage="1" traits="FT">
+	<drop event="Destroy" name="plantedHop1_FT" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedHop1"/>
+	<property name="DescriptionKey" value="plantedHop1_FTDesc"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedHop2_FT"/>
+	<property name="Texture" value="447"/>
+</block>
+<block name="plantedHop2_FT" stage="2" traits="FT">
+	<property name="Extends" value="plantedHop1_FT"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Texture" value="448"/>
+	<property name="PlantGrowing.Next" value="plantedHop3_FT"/>
+</block>
+<block name="plantedHop3_FT" stage="3" traits="FT">
+	<drop event="Destroy" name="plantedHop1_FT" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="resourceCropHopsFlower" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropHopsFlower" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedHop1"/>
+	<property name="DescriptionKey" value="plantedHop3_FT"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="BillboardPlant"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	<property name="Texture" value="449"/>
+	
+</block>
+<block name="plantedHop1_E" stage="1" traits="E">
+	<drop event="Destroy" name="plantedHop1_E" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedHop1"/>
+	<property name="DescriptionKey" value="plantedHop1_EDesc"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedHop2_E"/>
+	<property name="Texture" value="447"/>
+</block>
+<block name="plantedHop2_E" stage="2" traits="E">
+	<property name="Extends" value="plantedHop1_E"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Texture" value="448"/>
+	<property name="PlantGrowing.Next" value="plantedHop3_E"/>
+</block>
+<block name="plantedHop3_E" stage="3" traits="E">
+	<drop event="Destroy" name="plantedHop1_E" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="resourceCropHopsFlower" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropHopsFlower" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedHop1"/>
+	<property name="DescriptionKey" value="plantedHop3_E"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="BillboardPlant"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	<property name="Texture" value="449"/>
+	
+</block>
+<block name="plantedHop1_EE" stage="1" traits="EE">
+	<drop event="Destroy" name="plantedHop1_EE" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedHop1"/>
+	<property name="DescriptionKey" value="plantedHop1_EEDesc"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedHop2_EE"/>
+	<property name="Texture" value="447"/>
+</block>
+<block name="plantedHop2_EE" stage="2" traits="EE">
+	<property name="Extends" value="plantedHop1_EE"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Texture" value="448"/>
+	<property name="PlantGrowing.Next" value="plantedHop3_EE"/>
+</block>
+<block name="plantedHop3_EE" stage="3" traits="EE">
+	<drop event="Destroy" name="plantedHop1_EE" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="resourceCropHopsFlower" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropHopsFlower" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedHop1"/>
+	<property name="DescriptionKey" value="plantedHop3_EE"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="BillboardPlant"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	<property name="Texture" value="449"/>
+	
+</block>
+<block name="plantedHop1_ET" stage="1" traits="ET">
+	<drop event="Destroy" name="plantedHop1_ET" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedHop1"/>
+	<property name="DescriptionKey" value="plantedHop1_ETDesc"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedHop2_ET"/>
+	<property name="Texture" value="447"/>
+</block>
+<block name="plantedHop2_ET" stage="2" traits="ET">
+	<property name="Extends" value="plantedHop1_ET"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Texture" value="448"/>
+	<property name="PlantGrowing.Next" value="plantedHop3_ET"/>
+</block>
+<block name="plantedHop3_ET" stage="3" traits="ET">
+	<drop event="Destroy" name="plantedHop1_ET" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="resourceCropHopsFlower" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropHopsFlower" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedHop1"/>
+	<property name="DescriptionKey" value="plantedHop3_ET"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="BillboardPlant"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	<property name="Texture" value="449"/>
+	
+</block>
+<block name="plantedHop1_R" stage="1" traits="R">
+	<drop event="Destroy" name="plantedHop1_R" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedHop1"/>
+	<property name="DescriptionKey" value="plantedHop1_RDesc"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedHop2_R"/>
+	<property name="Texture" value="447"/>
+</block>
+<block name="plantedHop2_R" stage="2" traits="R">
+	<property name="Extends" value="plantedHop1_R"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Texture" value="448"/>
+	<property name="PlantGrowing.Next" value="plantedHop3_R"/>
+</block>
+<block name="plantedHop3_R" stage="3" traits="R">
+	<drop event="Destroy" name="plantedHop1_R" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="resourceCropHopsFlower" count="3" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropHopsFlower" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedHop1"/>
+	<property name="DescriptionKey" value="plantedHop3_R"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="BillboardPlant"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	<property name="Texture" value="449"/>
+	<property name="DowngradeBlock" value="plantedHop1_R" />
+</block>
+<block name="plantedHop1_RT" stage="1" traits="RT">
+	<drop event="Destroy" name="plantedHop1_RT" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedHop1"/>
+	<property name="DescriptionKey" value="plantedHop1_RTDesc"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedHop2_RT"/>
+	<property name="Texture" value="447"/>
+</block>
+<block name="plantedHop2_RT" stage="2" traits="RT">
+	<property name="Extends" value="plantedHop1_RT"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Texture" value="448"/>
+	<property name="PlantGrowing.Next" value="plantedHop3_RT"/>
+</block>
+<block name="plantedHop3_RT" stage="3" traits="RT">
+	<drop event="Destroy" name="plantedHop1_RT" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="resourceCropHopsFlower" count="3" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropHopsFlower" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedHop1"/>
+	<property name="DescriptionKey" value="plantedHop3_RT"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="BillboardPlant"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	<property name="Texture" value="449"/>
+	<property name="DowngradeBlock" value="plantedHop1_RT" />
+</block>
+<block name="plantedHop1_T" stage="1" traits="T">
+	<drop event="Destroy" name="plantedHop1_T" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedHop1"/>
+	<property name="DescriptionKey" value="plantedHop1_TDesc"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedHop2_T"/>
+	<property name="Texture" value="447"/>
+</block>
+<block name="plantedHop2_T" stage="2" traits="T">
+	<property name="Extends" value="plantedHop1_T"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Texture" value="448"/>
+	<property name="PlantGrowing.Next" value="plantedHop3_T"/>
+</block>
+<block name="plantedHop3_T" stage="3" traits="T">
+	<drop event="Destroy" name="plantedHop1_T" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="resourceCropHopsFlower" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropHopsFlower" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedHop1"/>
+	<property name="DescriptionKey" value="plantedHop3_T"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="BillboardPlant"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	<property name="Texture" value="449"/>
+	
+</block>
+<block name="plantedHop1_TT" stage="1" traits="TT">
+	<drop event="Destroy" name="plantedHop1_TT" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedHop1"/>
+	<property name="DescriptionKey" value="plantedHop1_TTDesc"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedHop2_TT"/>
+	<property name="Texture" value="447"/>
+</block>
+<block name="plantedHop2_TT" stage="2" traits="TT">
+	<property name="Extends" value="plantedHop1_TT"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Texture" value="448"/>
+	<property name="PlantGrowing.Next" value="plantedHop3_TT"/>
+</block>
+<block name="plantedHop3_TT" stage="3" traits="TT">
+	<drop event="Destroy" name="plantedHop1_TT" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="resourceCropHopsFlower" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropHopsFlower" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedHop1"/>
+	<property name="DescriptionKey" value="plantedHop3_TT"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="BillboardPlant"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	<property name="Texture" value="449"/>
+	
+</block>
 <block name="plantedMushroom1_" stage="1" traits="">
 	<drop event="Destroy" name="plantedMushroom1_" count="1"/>
 	<property name="Collide" value="melee"/>
