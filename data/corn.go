@@ -66,7 +66,6 @@ func (p *Corn) WriteBlockStages(c chan string, traits string) {
 }
 
 // TODO: <property name="UnlockedBy" value="perkLivingOffTheLand,plantedCorn1Schematic"/>
-// TODO: <property name="UnlockedBy" value="perkLivingOffTheLand"/>
 func (*Corn) WriteStage1(c chan string, traits string) {
 	c <- fmt.Sprintf(`<block name="plantedCorn1_%s" stage="1" traits="%s">
 	<drop event="Destroy" name="plantedCorn1_%s" count="1"/>
@@ -89,6 +88,7 @@ func (*Corn) WriteStage1(c chan string, traits string) {
 
 func (*Corn) WriteStage2(c chan string, traits string) {
 	c <- fmt.Sprintf(`<block name="plantedCorn2_%s" stage="2" traits="%s">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedCorn1_%s"/>
 	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_growth_shape"/>
@@ -97,17 +97,16 @@ func (*Corn) WriteStage2(c chan string, traits string) {
 	<property name="Shape" value="New"/>
 	<property name="Texture" value="529"/>
 </block>`, traits, traits, traits, traits)
-	// TODO: <property name="CreativeMode" value="None"/>
 }
 
 func (p *Corn) WriteStage3(c chan string, traits string) {
 	c <- fmt.Sprintf(`<block name="plantedCorn3_%s" stage="3" traits="%s">
-	<drop event="Destroy" count="0"/>
 	<drop event="Destroy" name="plantedCorn1_%s" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
 	<drop event="Harvest" name="foodCropCorn" count="%d" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="%d" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedCorn3Harvest"/>
 	<property name="DescriptionKey" value="plantedCorn3_%s"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -135,5 +134,4 @@ func (p *Corn) WriteStage3(c chan string, traits string) {
 		calculateBonusYield(p.BonusYield, traits),
 		traits,
 		optionallyAddRenewable(traits, p))
-	// TODO: <property name="CreativeMode" value="None"/>
 }

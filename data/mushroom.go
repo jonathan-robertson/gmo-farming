@@ -99,11 +99,11 @@ func (*Mushroom) WriteStage1(c chan string, traits string) {
 func (*Mushroom) WriteStage2(c chan string, traits string) {
 	c <- fmt.Sprintf(`<block name="plantedMushroom2_%s" stage="2" traits="%s">
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedMushroom1_%s"/>
 	<property name="Model" value="OutdoorDecor/mushroom_growth" param1="main_mesh"/>
 	<property name="PlantGrowing.Next" value="plantedMushroom3_%s"/>
 </block>`, traits, traits, traits, traits)
-	// TODO: <property name="CreativeMode" value="None"/>
 }
 
 func (p *Mushroom) WriteStage3(c chan string, traits string) {
@@ -113,6 +113,7 @@ func (p *Mushroom) WriteStage3(c chan string, traits string) {
 	<drop event="Harvest" name="foodCropMushrooms" count="%d" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="%d" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CropsGrown.BonusHarvestDivisor" value="16"/>
 	<property name="CustomIcon" value="plantedMushroom3Harvest"/>
 	<property name="DescriptionKey" value="plantedMushroom3_%s"/>
@@ -137,5 +138,4 @@ func (p *Mushroom) WriteStage3(c chan string, traits string) {
 		calculateBonusYield(p.BonusYield, traits),
 		traits,
 		optionallyAddRenewable(traits, p))
-	// TODO: <property name="CreativeMode" value="None"/>
 }

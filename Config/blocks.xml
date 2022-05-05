@@ -68,34 +68,38 @@
 	<property name="Shape" value="ModelEntity"/>
 </block>
 <block name="plantedAloe2_" stage="2" traits="">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedAloe1_"/>
 	<property name="Model" value="Entities/Plants/plant_aloe2_Prefab"/>
 	<property name="PlantGrowing.Next" value="plantedAloe3_"/>
 </block>
 <block name="plantedAloe3_" stage="3" traits="">
-	<drop event="Destroy" name="plantedCorn1_" count="1" prob="0.5"/>
+	<drop event="Destroy" name="plantedAloe1_" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropCorn" count="4" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="resourceCropAloeLeaf" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropAloeLeaf" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
-	<property name="CustomIcon" value="plantedCorn1"/>
-	<property name="DescriptionKey" value="plantedCorn3_"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedAloe1"/>
+	<property name="DescriptionKey" value="plantedAloe3_"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="Group" value="Food/Cooking,Science"/>
 	<property name="HarvestOverdamage" value="false"/>
 	<property name="ImposterDontBlock" value="true"/>
 	<property name="IsDecoration" value="true"/>
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="LightOpacity" value="0"/>
 	<property name="Material" value="Mcorn"/>
-	<property name="Mesh" value="cutoutmoveable"/>
-	<property name="Model" value="corn_harvest_shape"/>
-	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/plant_aloe_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
 	<property name="PlantGrowing.FertileLevel" value="1"/>
-	<property name="Shape" value="New"/>
+	<property name="Shape" value="ModelEntity"/>
 	<property name="SortOrder1" value="a090"/>
 	<property name="SortOrder2" value="0002"/>
-	<property name="Texture" value="529"/>
+	<property name="Texture" value="395"/>
 	
 </block>
 <block name="plantedAloe1_B" stage="1" traits="B">
@@ -112,34 +116,38 @@
 	<property name="Shape" value="ModelEntity"/>
 </block>
 <block name="plantedAloe2_B" stage="2" traits="B">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedAloe1_B"/>
 	<property name="Model" value="Entities/Plants/plant_aloe2_Prefab"/>
 	<property name="PlantGrowing.Next" value="plantedAloe3_B"/>
 </block>
 <block name="plantedAloe3_B" stage="3" traits="B">
-	<drop event="Destroy" name="plantedCorn1_B" count="1" prob="0.5"/>
+	<drop event="Destroy" name="plantedAloe1_B" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropCorn" count="8" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="4" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="resourceCropAloeLeaf" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropAloeLeaf" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
-	<property name="CustomIcon" value="plantedCorn1"/>
-	<property name="DescriptionKey" value="plantedCorn3_B"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedAloe1"/>
+	<property name="DescriptionKey" value="plantedAloe3_B"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="Group" value="Food/Cooking,Science"/>
 	<property name="HarvestOverdamage" value="false"/>
 	<property name="ImposterDontBlock" value="true"/>
 	<property name="IsDecoration" value="true"/>
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="LightOpacity" value="0"/>
 	<property name="Material" value="Mcorn"/>
-	<property name="Mesh" value="cutoutmoveable"/>
-	<property name="Model" value="corn_harvest_shape"/>
-	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/plant_aloe_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
 	<property name="PlantGrowing.FertileLevel" value="1"/>
-	<property name="Shape" value="New"/>
+	<property name="Shape" value="ModelEntity"/>
 	<property name="SortOrder1" value="a090"/>
 	<property name="SortOrder2" value="0002"/>
-	<property name="Texture" value="529"/>
+	<property name="Texture" value="395"/>
 	
 </block>
 <block name="plantedAloe1_BB" stage="1" traits="BB">
@@ -156,34 +164,38 @@
 	<property name="Shape" value="ModelEntity"/>
 </block>
 <block name="plantedAloe2_BB" stage="2" traits="BB">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedAloe1_BB"/>
 	<property name="Model" value="Entities/Plants/plant_aloe2_Prefab"/>
 	<property name="PlantGrowing.Next" value="plantedAloe3_BB"/>
 </block>
 <block name="plantedAloe3_BB" stage="3" traits="BB">
-	<drop event="Destroy" name="plantedCorn1_BB" count="1" prob="0.5"/>
+	<drop event="Destroy" name="plantedAloe1_BB" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropCorn" count="16" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="8" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="resourceCropAloeLeaf" count="16" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropAloeLeaf" prob="0.5" count="8" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
-	<property name="CustomIcon" value="plantedCorn1"/>
-	<property name="DescriptionKey" value="plantedCorn3_BB"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedAloe1"/>
+	<property name="DescriptionKey" value="plantedAloe3_BB"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="Group" value="Food/Cooking,Science"/>
 	<property name="HarvestOverdamage" value="false"/>
 	<property name="ImposterDontBlock" value="true"/>
 	<property name="IsDecoration" value="true"/>
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="LightOpacity" value="0"/>
 	<property name="Material" value="Mcorn"/>
-	<property name="Mesh" value="cutoutmoveable"/>
-	<property name="Model" value="corn_harvest_shape"/>
-	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/plant_aloe_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
 	<property name="PlantGrowing.FertileLevel" value="1"/>
-	<property name="Shape" value="New"/>
+	<property name="Shape" value="ModelEntity"/>
 	<property name="SortOrder1" value="a090"/>
 	<property name="SortOrder2" value="0002"/>
-	<property name="Texture" value="529"/>
+	<property name="Texture" value="395"/>
 	
 </block>
 <block name="plantedAloe1_BU" stage="1" traits="BU">
@@ -200,34 +212,38 @@
 	<property name="Shape" value="ModelEntity"/>
 </block>
 <block name="plantedAloe2_BU" stage="2" traits="BU">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedAloe1_BU"/>
 	<property name="Model" value="Entities/Plants/plant_aloe2_Prefab"/>
 	<property name="PlantGrowing.Next" value="plantedAloe3_BU"/>
 </block>
 <block name="plantedAloe3_BU" stage="3" traits="BU">
-	<drop event="Destroy" name="plantedCorn1_BU" count="1" prob="0.5"/>
+	<drop event="Destroy" name="plantedAloe1_BU" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropCorn" count="8" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="4" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="resourceCropAloeLeaf" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropAloeLeaf" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
-	<property name="CustomIcon" value="plantedCorn1"/>
-	<property name="DescriptionKey" value="plantedCorn3_BU"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedAloe1"/>
+	<property name="DescriptionKey" value="plantedAloe3_BU"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="Group" value="Food/Cooking,Science"/>
 	<property name="HarvestOverdamage" value="false"/>
 	<property name="ImposterDontBlock" value="true"/>
 	<property name="IsDecoration" value="true"/>
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="LightOpacity" value="0"/>
 	<property name="Material" value="Mcorn"/>
-	<property name="Mesh" value="cutoutmoveable"/>
-	<property name="Model" value="corn_harvest_shape"/>
-	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/plant_aloe_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
 	<property name="PlantGrowing.FertileLevel" value="1"/>
-	<property name="Shape" value="New"/>
+	<property name="Shape" value="ModelEntity"/>
 	<property name="SortOrder1" value="a090"/>
 	<property name="SortOrder2" value="0002"/>
-	<property name="Texture" value="529"/>
+	<property name="Texture" value="395"/>
 	
 </block>
 <block name="plantedAloe1_BF" stage="1" traits="BF">
@@ -244,34 +260,38 @@
 	<property name="Shape" value="ModelEntity"/>
 </block>
 <block name="plantedAloe2_BF" stage="2" traits="BF">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedAloe1_BF"/>
 	<property name="Model" value="Entities/Plants/plant_aloe2_Prefab"/>
 	<property name="PlantGrowing.Next" value="plantedAloe3_BF"/>
 </block>
 <block name="plantedAloe3_BF" stage="3" traits="BF">
-	<drop event="Destroy" name="plantedCorn1_BF" count="1" prob="0.5"/>
+	<drop event="Destroy" name="plantedAloe1_BF" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropCorn" count="8" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="4" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="resourceCropAloeLeaf" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropAloeLeaf" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
-	<property name="CustomIcon" value="plantedCorn1"/>
-	<property name="DescriptionKey" value="plantedCorn3_BF"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedAloe1"/>
+	<property name="DescriptionKey" value="plantedAloe3_BF"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="Group" value="Food/Cooking,Science"/>
 	<property name="HarvestOverdamage" value="false"/>
 	<property name="ImposterDontBlock" value="true"/>
 	<property name="IsDecoration" value="true"/>
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="LightOpacity" value="0"/>
 	<property name="Material" value="Mcorn"/>
-	<property name="Mesh" value="cutoutmoveable"/>
-	<property name="Model" value="corn_harvest_shape"/>
-	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/plant_aloe_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
 	<property name="PlantGrowing.FertileLevel" value="1"/>
-	<property name="Shape" value="New"/>
+	<property name="Shape" value="ModelEntity"/>
 	<property name="SortOrder1" value="a090"/>
 	<property name="SortOrder2" value="0002"/>
-	<property name="Texture" value="529"/>
+	<property name="Texture" value="395"/>
 	
 </block>
 <block name="plantedAloe1_BR" stage="1" traits="BR">
@@ -288,34 +308,38 @@
 	<property name="Shape" value="ModelEntity"/>
 </block>
 <block name="plantedAloe2_BR" stage="2" traits="BR">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedAloe1_BR"/>
 	<property name="Model" value="Entities/Plants/plant_aloe2_Prefab"/>
 	<property name="PlantGrowing.Next" value="plantedAloe3_BR"/>
 </block>
 <block name="plantedAloe3_BR" stage="3" traits="BR">
-	<drop event="Destroy" name="plantedCorn1_BR" count="1" prob="0.5"/>
+	<drop event="Destroy" name="plantedAloe1_BR" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropCorn" count="6" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="3" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="resourceCropAloeLeaf" count="6" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropAloeLeaf" prob="0.5" count="3" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
-	<property name="CustomIcon" value="plantedCorn1"/>
-	<property name="DescriptionKey" value="plantedCorn3_BR"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedAloe1"/>
+	<property name="DescriptionKey" value="plantedAloe3_BR"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="Group" value="Food/Cooking,Science"/>
 	<property name="HarvestOverdamage" value="false"/>
 	<property name="ImposterDontBlock" value="true"/>
 	<property name="IsDecoration" value="true"/>
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="LightOpacity" value="0"/>
 	<property name="Material" value="Mcorn"/>
-	<property name="Mesh" value="cutoutmoveable"/>
-	<property name="Model" value="corn_harvest_shape"/>
-	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/plant_aloe_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
 	<property name="PlantGrowing.FertileLevel" value="1"/>
-	<property name="Shape" value="New"/>
+	<property name="Shape" value="ModelEntity"/>
 	<property name="SortOrder1" value="a090"/>
 	<property name="SortOrder2" value="0002"/>
-	<property name="Texture" value="529"/>
+	<property name="Texture" value="395"/>
 	<property name="DowngradeBlock" value="plantedAloe1_BR" />
 </block>
 <block name="plantedAloe1_BT" stage="1" traits="BT">
@@ -332,34 +356,38 @@
 	<property name="Shape" value="ModelEntity"/>
 </block>
 <block name="plantedAloe2_BT" stage="2" traits="BT">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedAloe1_BT"/>
 	<property name="Model" value="Entities/Plants/plant_aloe2_Prefab"/>
 	<property name="PlantGrowing.Next" value="plantedAloe3_BT"/>
 </block>
 <block name="plantedAloe3_BT" stage="3" traits="BT">
-	<drop event="Destroy" name="plantedCorn1_BT" count="1" prob="0.5"/>
+	<drop event="Destroy" name="plantedAloe1_BT" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropCorn" count="8" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="4" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="resourceCropAloeLeaf" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropAloeLeaf" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
-	<property name="CustomIcon" value="plantedCorn1"/>
-	<property name="DescriptionKey" value="plantedCorn3_BT"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedAloe1"/>
+	<property name="DescriptionKey" value="plantedAloe3_BT"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="Group" value="Food/Cooking,Science"/>
 	<property name="HarvestOverdamage" value="false"/>
 	<property name="ImposterDontBlock" value="true"/>
 	<property name="IsDecoration" value="true"/>
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="LightOpacity" value="0"/>
 	<property name="Material" value="Mcorn"/>
-	<property name="Mesh" value="cutoutmoveable"/>
-	<property name="Model" value="corn_harvest_shape"/>
-	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/plant_aloe_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
 	<property name="PlantGrowing.FertileLevel" value="1"/>
-	<property name="Shape" value="New"/>
+	<property name="Shape" value="ModelEntity"/>
 	<property name="SortOrder1" value="a090"/>
 	<property name="SortOrder2" value="0002"/>
-	<property name="Texture" value="529"/>
+	<property name="Texture" value="395"/>
 	
 </block>
 <block name="plantedAloe1_U" stage="1" traits="U">
@@ -376,34 +404,38 @@
 	<property name="Shape" value="ModelEntity"/>
 </block>
 <block name="plantedAloe2_U" stage="2" traits="U">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedAloe1_U"/>
 	<property name="Model" value="Entities/Plants/plant_aloe2_Prefab"/>
 	<property name="PlantGrowing.Next" value="plantedAloe3_U"/>
 </block>
 <block name="plantedAloe3_U" stage="3" traits="U">
-	<drop event="Destroy" name="plantedCorn1_U" count="1" prob="0.5"/>
+	<drop event="Destroy" name="plantedAloe1_U" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropCorn" count="4" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="resourceCropAloeLeaf" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropAloeLeaf" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
-	<property name="CustomIcon" value="plantedCorn1"/>
-	<property name="DescriptionKey" value="plantedCorn3_U"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedAloe1"/>
+	<property name="DescriptionKey" value="plantedAloe3_U"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="Group" value="Food/Cooking,Science"/>
 	<property name="HarvestOverdamage" value="false"/>
 	<property name="ImposterDontBlock" value="true"/>
 	<property name="IsDecoration" value="true"/>
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="LightOpacity" value="0"/>
 	<property name="Material" value="Mcorn"/>
-	<property name="Mesh" value="cutoutmoveable"/>
-	<property name="Model" value="corn_harvest_shape"/>
-	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/plant_aloe_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
 	<property name="PlantGrowing.FertileLevel" value="1"/>
-	<property name="Shape" value="New"/>
+	<property name="Shape" value="ModelEntity"/>
 	<property name="SortOrder1" value="a090"/>
 	<property name="SortOrder2" value="0002"/>
-	<property name="Texture" value="529"/>
+	<property name="Texture" value="395"/>
 	
 </block>
 <block name="plantedAloe1_UF" stage="1" traits="UF">
@@ -420,34 +452,38 @@
 	<property name="Shape" value="ModelEntity"/>
 </block>
 <block name="plantedAloe2_UF" stage="2" traits="UF">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedAloe1_UF"/>
 	<property name="Model" value="Entities/Plants/plant_aloe2_Prefab"/>
 	<property name="PlantGrowing.Next" value="plantedAloe3_UF"/>
 </block>
 <block name="plantedAloe3_UF" stage="3" traits="UF">
-	<drop event="Destroy" name="plantedCorn1_UF" count="1" prob="0.5"/>
+	<drop event="Destroy" name="plantedAloe1_UF" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropCorn" count="4" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="resourceCropAloeLeaf" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropAloeLeaf" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
-	<property name="CustomIcon" value="plantedCorn1"/>
-	<property name="DescriptionKey" value="plantedCorn3_UF"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedAloe1"/>
+	<property name="DescriptionKey" value="plantedAloe3_UF"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="Group" value="Food/Cooking,Science"/>
 	<property name="HarvestOverdamage" value="false"/>
 	<property name="ImposterDontBlock" value="true"/>
 	<property name="IsDecoration" value="true"/>
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="LightOpacity" value="0"/>
 	<property name="Material" value="Mcorn"/>
-	<property name="Mesh" value="cutoutmoveable"/>
-	<property name="Model" value="corn_harvest_shape"/>
-	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/plant_aloe_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
 	<property name="PlantGrowing.FertileLevel" value="1"/>
-	<property name="Shape" value="New"/>
+	<property name="Shape" value="ModelEntity"/>
 	<property name="SortOrder1" value="a090"/>
 	<property name="SortOrder2" value="0002"/>
-	<property name="Texture" value="529"/>
+	<property name="Texture" value="395"/>
 	
 </block>
 <block name="plantedAloe1_UE" stage="1" traits="UE">
@@ -464,34 +500,38 @@
 	<property name="Shape" value="ModelEntity"/>
 </block>
 <block name="plantedAloe2_UE" stage="2" traits="UE">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedAloe1_UE"/>
 	<property name="Model" value="Entities/Plants/plant_aloe2_Prefab"/>
 	<property name="PlantGrowing.Next" value="plantedAloe3_UE"/>
 </block>
 <block name="plantedAloe3_UE" stage="3" traits="UE">
-	<drop event="Destroy" name="plantedCorn1_UE" count="1" prob="0.5"/>
+	<drop event="Destroy" name="plantedAloe1_UE" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropCorn" count="4" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="resourceCropAloeLeaf" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropAloeLeaf" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
-	<property name="CustomIcon" value="plantedCorn1"/>
-	<property name="DescriptionKey" value="plantedCorn3_UE"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedAloe1"/>
+	<property name="DescriptionKey" value="plantedAloe3_UE"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="Group" value="Food/Cooking,Science"/>
 	<property name="HarvestOverdamage" value="false"/>
 	<property name="ImposterDontBlock" value="true"/>
 	<property name="IsDecoration" value="true"/>
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="LightOpacity" value="0"/>
 	<property name="Material" value="Mcorn"/>
-	<property name="Mesh" value="cutoutmoveable"/>
-	<property name="Model" value="corn_harvest_shape"/>
-	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/plant_aloe_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
 	<property name="PlantGrowing.FertileLevel" value="1"/>
-	<property name="Shape" value="New"/>
+	<property name="Shape" value="ModelEntity"/>
 	<property name="SortOrder1" value="a090"/>
 	<property name="SortOrder2" value="0002"/>
-	<property name="Texture" value="529"/>
+	<property name="Texture" value="395"/>
 	
 </block>
 <block name="plantedAloe1_UR" stage="1" traits="UR">
@@ -508,34 +548,38 @@
 	<property name="Shape" value="ModelEntity"/>
 </block>
 <block name="plantedAloe2_UR" stage="2" traits="UR">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedAloe1_UR"/>
 	<property name="Model" value="Entities/Plants/plant_aloe2_Prefab"/>
 	<property name="PlantGrowing.Next" value="plantedAloe3_UR"/>
 </block>
 <block name="plantedAloe3_UR" stage="3" traits="UR">
-	<drop event="Destroy" name="plantedCorn1_UR" count="1" prob="0.5"/>
+	<drop event="Destroy" name="plantedAloe1_UR" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropCorn" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="resourceCropAloeLeaf" count="3" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropAloeLeaf" prob="0.5" count="1" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
-	<property name="CustomIcon" value="plantedCorn1"/>
-	<property name="DescriptionKey" value="plantedCorn3_UR"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedAloe1"/>
+	<property name="DescriptionKey" value="plantedAloe3_UR"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="Group" value="Food/Cooking,Science"/>
 	<property name="HarvestOverdamage" value="false"/>
 	<property name="ImposterDontBlock" value="true"/>
 	<property name="IsDecoration" value="true"/>
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="LightOpacity" value="0"/>
 	<property name="Material" value="Mcorn"/>
-	<property name="Mesh" value="cutoutmoveable"/>
-	<property name="Model" value="corn_harvest_shape"/>
-	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/plant_aloe_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
 	<property name="PlantGrowing.FertileLevel" value="1"/>
-	<property name="Shape" value="New"/>
+	<property name="Shape" value="ModelEntity"/>
 	<property name="SortOrder1" value="a090"/>
 	<property name="SortOrder2" value="0002"/>
-	<property name="Texture" value="529"/>
+	<property name="Texture" value="395"/>
 	<property name="DowngradeBlock" value="plantedAloe1_UR" />
 </block>
 <block name="plantedAloe1_UT" stage="1" traits="UT">
@@ -552,34 +596,38 @@
 	<property name="Shape" value="ModelEntity"/>
 </block>
 <block name="plantedAloe2_UT" stage="2" traits="UT">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedAloe1_UT"/>
 	<property name="Model" value="Entities/Plants/plant_aloe2_Prefab"/>
 	<property name="PlantGrowing.Next" value="plantedAloe3_UT"/>
 </block>
 <block name="plantedAloe3_UT" stage="3" traits="UT">
-	<drop event="Destroy" name="plantedCorn1_UT" count="1" prob="0.5"/>
+	<drop event="Destroy" name="plantedAloe1_UT" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropCorn" count="4" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="resourceCropAloeLeaf" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropAloeLeaf" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
-	<property name="CustomIcon" value="plantedCorn1"/>
-	<property name="DescriptionKey" value="plantedCorn3_UT"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedAloe1"/>
+	<property name="DescriptionKey" value="plantedAloe3_UT"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="Group" value="Food/Cooking,Science"/>
 	<property name="HarvestOverdamage" value="false"/>
 	<property name="ImposterDontBlock" value="true"/>
 	<property name="IsDecoration" value="true"/>
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="LightOpacity" value="0"/>
 	<property name="Material" value="Mcorn"/>
-	<property name="Mesh" value="cutoutmoveable"/>
-	<property name="Model" value="corn_harvest_shape"/>
-	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/plant_aloe_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
 	<property name="PlantGrowing.FertileLevel" value="1"/>
-	<property name="Shape" value="New"/>
+	<property name="Shape" value="ModelEntity"/>
 	<property name="SortOrder1" value="a090"/>
 	<property name="SortOrder2" value="0002"/>
-	<property name="Texture" value="529"/>
+	<property name="Texture" value="395"/>
 	
 </block>
 <block name="plantedAloe1_F" stage="1" traits="F">
@@ -596,34 +644,38 @@
 	<property name="Shape" value="ModelEntity"/>
 </block>
 <block name="plantedAloe2_F" stage="2" traits="F">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedAloe1_F"/>
 	<property name="Model" value="Entities/Plants/plant_aloe2_Prefab"/>
 	<property name="PlantGrowing.Next" value="plantedAloe3_F"/>
 </block>
 <block name="plantedAloe3_F" stage="3" traits="F">
-	<drop event="Destroy" name="plantedCorn1_F" count="1" prob="0.5"/>
+	<drop event="Destroy" name="plantedAloe1_F" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropCorn" count="4" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="resourceCropAloeLeaf" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropAloeLeaf" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
-	<property name="CustomIcon" value="plantedCorn1"/>
-	<property name="DescriptionKey" value="plantedCorn3_F"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedAloe1"/>
+	<property name="DescriptionKey" value="plantedAloe3_F"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="Group" value="Food/Cooking,Science"/>
 	<property name="HarvestOverdamage" value="false"/>
 	<property name="ImposterDontBlock" value="true"/>
 	<property name="IsDecoration" value="true"/>
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="LightOpacity" value="0"/>
 	<property name="Material" value="Mcorn"/>
-	<property name="Mesh" value="cutoutmoveable"/>
-	<property name="Model" value="corn_harvest_shape"/>
-	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/plant_aloe_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
 	<property name="PlantGrowing.FertileLevel" value="1"/>
-	<property name="Shape" value="New"/>
+	<property name="Shape" value="ModelEntity"/>
 	<property name="SortOrder1" value="a090"/>
 	<property name="SortOrder2" value="0002"/>
-	<property name="Texture" value="529"/>
+	<property name="Texture" value="395"/>
 	
 </block>
 <block name="plantedAloe1_FF" stage="1" traits="FF">
@@ -640,34 +692,38 @@
 	<property name="Shape" value="ModelEntity"/>
 </block>
 <block name="plantedAloe2_FF" stage="2" traits="FF">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedAloe1_FF"/>
 	<property name="Model" value="Entities/Plants/plant_aloe2_Prefab"/>
 	<property name="PlantGrowing.Next" value="plantedAloe3_FF"/>
 </block>
 <block name="plantedAloe3_FF" stage="3" traits="FF">
-	<drop event="Destroy" name="plantedCorn1_FF" count="1" prob="0.5"/>
+	<drop event="Destroy" name="plantedAloe1_FF" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropCorn" count="4" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="resourceCropAloeLeaf" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropAloeLeaf" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
-	<property name="CustomIcon" value="plantedCorn1"/>
-	<property name="DescriptionKey" value="plantedCorn3_FF"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedAloe1"/>
+	<property name="DescriptionKey" value="plantedAloe3_FF"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="Group" value="Food/Cooking,Science"/>
 	<property name="HarvestOverdamage" value="false"/>
 	<property name="ImposterDontBlock" value="true"/>
 	<property name="IsDecoration" value="true"/>
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="LightOpacity" value="0"/>
 	<property name="Material" value="Mcorn"/>
-	<property name="Mesh" value="cutoutmoveable"/>
-	<property name="Model" value="corn_harvest_shape"/>
-	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/plant_aloe_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
 	<property name="PlantGrowing.FertileLevel" value="1"/>
-	<property name="Shape" value="New"/>
+	<property name="Shape" value="ModelEntity"/>
 	<property name="SortOrder1" value="a090"/>
 	<property name="SortOrder2" value="0002"/>
-	<property name="Texture" value="529"/>
+	<property name="Texture" value="395"/>
 	
 </block>
 <block name="plantedAloe1_FE" stage="1" traits="FE">
@@ -684,34 +740,38 @@
 	<property name="Shape" value="ModelEntity"/>
 </block>
 <block name="plantedAloe2_FE" stage="2" traits="FE">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedAloe1_FE"/>
 	<property name="Model" value="Entities/Plants/plant_aloe2_Prefab"/>
 	<property name="PlantGrowing.Next" value="plantedAloe3_FE"/>
 </block>
 <block name="plantedAloe3_FE" stage="3" traits="FE">
-	<drop event="Destroy" name="plantedCorn1_FE" count="1" prob="0.5"/>
+	<drop event="Destroy" name="plantedAloe1_FE" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropCorn" count="4" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="resourceCropAloeLeaf" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropAloeLeaf" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
-	<property name="CustomIcon" value="plantedCorn1"/>
-	<property name="DescriptionKey" value="plantedCorn3_FE"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedAloe1"/>
+	<property name="DescriptionKey" value="plantedAloe3_FE"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="Group" value="Food/Cooking,Science"/>
 	<property name="HarvestOverdamage" value="false"/>
 	<property name="ImposterDontBlock" value="true"/>
 	<property name="IsDecoration" value="true"/>
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="LightOpacity" value="0"/>
 	<property name="Material" value="Mcorn"/>
-	<property name="Mesh" value="cutoutmoveable"/>
-	<property name="Model" value="corn_harvest_shape"/>
-	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/plant_aloe_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
 	<property name="PlantGrowing.FertileLevel" value="1"/>
-	<property name="Shape" value="New"/>
+	<property name="Shape" value="ModelEntity"/>
 	<property name="SortOrder1" value="a090"/>
 	<property name="SortOrder2" value="0002"/>
-	<property name="Texture" value="529"/>
+	<property name="Texture" value="395"/>
 	
 </block>
 <block name="plantedAloe1_FR" stage="1" traits="FR">
@@ -728,34 +788,38 @@
 	<property name="Shape" value="ModelEntity"/>
 </block>
 <block name="plantedAloe2_FR" stage="2" traits="FR">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedAloe1_FR"/>
 	<property name="Model" value="Entities/Plants/plant_aloe2_Prefab"/>
 	<property name="PlantGrowing.Next" value="plantedAloe3_FR"/>
 </block>
 <block name="plantedAloe3_FR" stage="3" traits="FR">
-	<drop event="Destroy" name="plantedCorn1_FR" count="1" prob="0.5"/>
+	<drop event="Destroy" name="plantedAloe1_FR" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropCorn" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="resourceCropAloeLeaf" count="3" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropAloeLeaf" prob="0.5" count="1" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
-	<property name="CustomIcon" value="plantedCorn1"/>
-	<property name="DescriptionKey" value="plantedCorn3_FR"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedAloe1"/>
+	<property name="DescriptionKey" value="plantedAloe3_FR"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="Group" value="Food/Cooking,Science"/>
 	<property name="HarvestOverdamage" value="false"/>
 	<property name="ImposterDontBlock" value="true"/>
 	<property name="IsDecoration" value="true"/>
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="LightOpacity" value="0"/>
 	<property name="Material" value="Mcorn"/>
-	<property name="Mesh" value="cutoutmoveable"/>
-	<property name="Model" value="corn_harvest_shape"/>
-	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/plant_aloe_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
 	<property name="PlantGrowing.FertileLevel" value="1"/>
-	<property name="Shape" value="New"/>
+	<property name="Shape" value="ModelEntity"/>
 	<property name="SortOrder1" value="a090"/>
 	<property name="SortOrder2" value="0002"/>
-	<property name="Texture" value="529"/>
+	<property name="Texture" value="395"/>
 	<property name="DowngradeBlock" value="plantedAloe1_FR" />
 </block>
 <block name="plantedAloe1_FT" stage="1" traits="FT">
@@ -772,34 +836,38 @@
 	<property name="Shape" value="ModelEntity"/>
 </block>
 <block name="plantedAloe2_FT" stage="2" traits="FT">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedAloe1_FT"/>
 	<property name="Model" value="Entities/Plants/plant_aloe2_Prefab"/>
 	<property name="PlantGrowing.Next" value="plantedAloe3_FT"/>
 </block>
 <block name="plantedAloe3_FT" stage="3" traits="FT">
-	<drop event="Destroy" name="plantedCorn1_FT" count="1" prob="0.5"/>
+	<drop event="Destroy" name="plantedAloe1_FT" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropCorn" count="4" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="resourceCropAloeLeaf" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropAloeLeaf" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
-	<property name="CustomIcon" value="plantedCorn1"/>
-	<property name="DescriptionKey" value="plantedCorn3_FT"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedAloe1"/>
+	<property name="DescriptionKey" value="plantedAloe3_FT"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="Group" value="Food/Cooking,Science"/>
 	<property name="HarvestOverdamage" value="false"/>
 	<property name="ImposterDontBlock" value="true"/>
 	<property name="IsDecoration" value="true"/>
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="LightOpacity" value="0"/>
 	<property name="Material" value="Mcorn"/>
-	<property name="Mesh" value="cutoutmoveable"/>
-	<property name="Model" value="corn_harvest_shape"/>
-	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/plant_aloe_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
 	<property name="PlantGrowing.FertileLevel" value="1"/>
-	<property name="Shape" value="New"/>
+	<property name="Shape" value="ModelEntity"/>
 	<property name="SortOrder1" value="a090"/>
 	<property name="SortOrder2" value="0002"/>
-	<property name="Texture" value="529"/>
+	<property name="Texture" value="395"/>
 	
 </block>
 <block name="plantedAloe1_E" stage="1" traits="E">
@@ -816,34 +884,38 @@
 	<property name="Shape" value="ModelEntity"/>
 </block>
 <block name="plantedAloe2_E" stage="2" traits="E">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedAloe1_E"/>
 	<property name="Model" value="Entities/Plants/plant_aloe2_Prefab"/>
 	<property name="PlantGrowing.Next" value="plantedAloe3_E"/>
 </block>
 <block name="plantedAloe3_E" stage="3" traits="E">
-	<drop event="Destroy" name="plantedCorn1_E" count="1" prob="0.5"/>
+	<drop event="Destroy" name="plantedAloe1_E" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropCorn" count="4" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="resourceCropAloeLeaf" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropAloeLeaf" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
-	<property name="CustomIcon" value="plantedCorn1"/>
-	<property name="DescriptionKey" value="plantedCorn3_E"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedAloe1"/>
+	<property name="DescriptionKey" value="plantedAloe3_E"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="Group" value="Food/Cooking,Science"/>
 	<property name="HarvestOverdamage" value="false"/>
 	<property name="ImposterDontBlock" value="true"/>
 	<property name="IsDecoration" value="true"/>
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="LightOpacity" value="0"/>
 	<property name="Material" value="Mcorn"/>
-	<property name="Mesh" value="cutoutmoveable"/>
-	<property name="Model" value="corn_harvest_shape"/>
-	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/plant_aloe_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
 	<property name="PlantGrowing.FertileLevel" value="1"/>
-	<property name="Shape" value="New"/>
+	<property name="Shape" value="ModelEntity"/>
 	<property name="SortOrder1" value="a090"/>
 	<property name="SortOrder2" value="0002"/>
-	<property name="Texture" value="529"/>
+	<property name="Texture" value="395"/>
 	
 </block>
 <block name="plantedAloe1_EE" stage="1" traits="EE">
@@ -860,34 +932,38 @@
 	<property name="Shape" value="ModelEntity"/>
 </block>
 <block name="plantedAloe2_EE" stage="2" traits="EE">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedAloe1_EE"/>
 	<property name="Model" value="Entities/Plants/plant_aloe2_Prefab"/>
 	<property name="PlantGrowing.Next" value="plantedAloe3_EE"/>
 </block>
 <block name="plantedAloe3_EE" stage="3" traits="EE">
-	<drop event="Destroy" name="plantedCorn1_EE" count="1" prob="0.5"/>
+	<drop event="Destroy" name="plantedAloe1_EE" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropCorn" count="4" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="resourceCropAloeLeaf" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropAloeLeaf" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
-	<property name="CustomIcon" value="plantedCorn1"/>
-	<property name="DescriptionKey" value="plantedCorn3_EE"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedAloe1"/>
+	<property name="DescriptionKey" value="plantedAloe3_EE"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="Group" value="Food/Cooking,Science"/>
 	<property name="HarvestOverdamage" value="false"/>
 	<property name="ImposterDontBlock" value="true"/>
 	<property name="IsDecoration" value="true"/>
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="LightOpacity" value="0"/>
 	<property name="Material" value="Mcorn"/>
-	<property name="Mesh" value="cutoutmoveable"/>
-	<property name="Model" value="corn_harvest_shape"/>
-	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/plant_aloe_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
 	<property name="PlantGrowing.FertileLevel" value="1"/>
-	<property name="Shape" value="New"/>
+	<property name="Shape" value="ModelEntity"/>
 	<property name="SortOrder1" value="a090"/>
 	<property name="SortOrder2" value="0002"/>
-	<property name="Texture" value="529"/>
+	<property name="Texture" value="395"/>
 	
 </block>
 <block name="plantedAloe1_ET" stage="1" traits="ET">
@@ -904,34 +980,38 @@
 	<property name="Shape" value="ModelEntity"/>
 </block>
 <block name="plantedAloe2_ET" stage="2" traits="ET">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedAloe1_ET"/>
 	<property name="Model" value="Entities/Plants/plant_aloe2_Prefab"/>
 	<property name="PlantGrowing.Next" value="plantedAloe3_ET"/>
 </block>
 <block name="plantedAloe3_ET" stage="3" traits="ET">
-	<drop event="Destroy" name="plantedCorn1_ET" count="1" prob="0.5"/>
+	<drop event="Destroy" name="plantedAloe1_ET" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropCorn" count="4" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="resourceCropAloeLeaf" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropAloeLeaf" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
-	<property name="CustomIcon" value="plantedCorn1"/>
-	<property name="DescriptionKey" value="plantedCorn3_ET"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedAloe1"/>
+	<property name="DescriptionKey" value="plantedAloe3_ET"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="Group" value="Food/Cooking,Science"/>
 	<property name="HarvestOverdamage" value="false"/>
 	<property name="ImposterDontBlock" value="true"/>
 	<property name="IsDecoration" value="true"/>
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="LightOpacity" value="0"/>
 	<property name="Material" value="Mcorn"/>
-	<property name="Mesh" value="cutoutmoveable"/>
-	<property name="Model" value="corn_harvest_shape"/>
-	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/plant_aloe_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
 	<property name="PlantGrowing.FertileLevel" value="1"/>
-	<property name="Shape" value="New"/>
+	<property name="Shape" value="ModelEntity"/>
 	<property name="SortOrder1" value="a090"/>
 	<property name="SortOrder2" value="0002"/>
-	<property name="Texture" value="529"/>
+	<property name="Texture" value="395"/>
 	
 </block>
 <block name="plantedAloe1_R" stage="1" traits="R">
@@ -948,34 +1028,38 @@
 	<property name="Shape" value="ModelEntity"/>
 </block>
 <block name="plantedAloe2_R" stage="2" traits="R">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedAloe1_R"/>
 	<property name="Model" value="Entities/Plants/plant_aloe2_Prefab"/>
 	<property name="PlantGrowing.Next" value="plantedAloe3_R"/>
 </block>
 <block name="plantedAloe3_R" stage="3" traits="R">
-	<drop event="Destroy" name="plantedCorn1_R" count="1" prob="0.5"/>
+	<drop event="Destroy" name="plantedAloe1_R" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropCorn" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="resourceCropAloeLeaf" count="3" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropAloeLeaf" prob="0.5" count="1" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
-	<property name="CustomIcon" value="plantedCorn1"/>
-	<property name="DescriptionKey" value="plantedCorn3_R"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedAloe1"/>
+	<property name="DescriptionKey" value="plantedAloe3_R"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="Group" value="Food/Cooking,Science"/>
 	<property name="HarvestOverdamage" value="false"/>
 	<property name="ImposterDontBlock" value="true"/>
 	<property name="IsDecoration" value="true"/>
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="LightOpacity" value="0"/>
 	<property name="Material" value="Mcorn"/>
-	<property name="Mesh" value="cutoutmoveable"/>
-	<property name="Model" value="corn_harvest_shape"/>
-	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/plant_aloe_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
 	<property name="PlantGrowing.FertileLevel" value="1"/>
-	<property name="Shape" value="New"/>
+	<property name="Shape" value="ModelEntity"/>
 	<property name="SortOrder1" value="a090"/>
 	<property name="SortOrder2" value="0002"/>
-	<property name="Texture" value="529"/>
+	<property name="Texture" value="395"/>
 	<property name="DowngradeBlock" value="plantedAloe1_R" />
 </block>
 <block name="plantedAloe1_RT" stage="1" traits="RT">
@@ -992,34 +1076,38 @@
 	<property name="Shape" value="ModelEntity"/>
 </block>
 <block name="plantedAloe2_RT" stage="2" traits="RT">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedAloe1_RT"/>
 	<property name="Model" value="Entities/Plants/plant_aloe2_Prefab"/>
 	<property name="PlantGrowing.Next" value="plantedAloe3_RT"/>
 </block>
 <block name="plantedAloe3_RT" stage="3" traits="RT">
-	<drop event="Destroy" name="plantedCorn1_RT" count="1" prob="0.5"/>
+	<drop event="Destroy" name="plantedAloe1_RT" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropCorn" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="resourceCropAloeLeaf" count="3" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropAloeLeaf" prob="0.5" count="1" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
-	<property name="CustomIcon" value="plantedCorn1"/>
-	<property name="DescriptionKey" value="plantedCorn3_RT"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedAloe1"/>
+	<property name="DescriptionKey" value="plantedAloe3_RT"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="Group" value="Food/Cooking,Science"/>
 	<property name="HarvestOverdamage" value="false"/>
 	<property name="ImposterDontBlock" value="true"/>
 	<property name="IsDecoration" value="true"/>
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="LightOpacity" value="0"/>
 	<property name="Material" value="Mcorn"/>
-	<property name="Mesh" value="cutoutmoveable"/>
-	<property name="Model" value="corn_harvest_shape"/>
-	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/plant_aloe_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
 	<property name="PlantGrowing.FertileLevel" value="1"/>
-	<property name="Shape" value="New"/>
+	<property name="Shape" value="ModelEntity"/>
 	<property name="SortOrder1" value="a090"/>
 	<property name="SortOrder2" value="0002"/>
-	<property name="Texture" value="529"/>
+	<property name="Texture" value="395"/>
 	<property name="DowngradeBlock" value="plantedAloe1_RT" />
 </block>
 <block name="plantedAloe1_T" stage="1" traits="T">
@@ -1036,34 +1124,38 @@
 	<property name="Shape" value="ModelEntity"/>
 </block>
 <block name="plantedAloe2_T" stage="2" traits="T">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedAloe1_T"/>
 	<property name="Model" value="Entities/Plants/plant_aloe2_Prefab"/>
 	<property name="PlantGrowing.Next" value="plantedAloe3_T"/>
 </block>
 <block name="plantedAloe3_T" stage="3" traits="T">
-	<drop event="Destroy" name="plantedCorn1_T" count="1" prob="0.5"/>
+	<drop event="Destroy" name="plantedAloe1_T" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropCorn" count="4" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="resourceCropAloeLeaf" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropAloeLeaf" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
-	<property name="CustomIcon" value="plantedCorn1"/>
-	<property name="DescriptionKey" value="plantedCorn3_T"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedAloe1"/>
+	<property name="DescriptionKey" value="plantedAloe3_T"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="Group" value="Food/Cooking,Science"/>
 	<property name="HarvestOverdamage" value="false"/>
 	<property name="ImposterDontBlock" value="true"/>
 	<property name="IsDecoration" value="true"/>
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="LightOpacity" value="0"/>
 	<property name="Material" value="Mcorn"/>
-	<property name="Mesh" value="cutoutmoveable"/>
-	<property name="Model" value="corn_harvest_shape"/>
-	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/plant_aloe_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
 	<property name="PlantGrowing.FertileLevel" value="1"/>
-	<property name="Shape" value="New"/>
+	<property name="Shape" value="ModelEntity"/>
 	<property name="SortOrder1" value="a090"/>
 	<property name="SortOrder2" value="0002"/>
-	<property name="Texture" value="529"/>
+	<property name="Texture" value="395"/>
 	
 </block>
 <block name="plantedAloe1_TT" stage="1" traits="TT">
@@ -1080,34 +1172,38 @@
 	<property name="Shape" value="ModelEntity"/>
 </block>
 <block name="plantedAloe2_TT" stage="2" traits="TT">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedAloe1_TT"/>
 	<property name="Model" value="Entities/Plants/plant_aloe2_Prefab"/>
 	<property name="PlantGrowing.Next" value="plantedAloe3_TT"/>
 </block>
 <block name="plantedAloe3_TT" stage="3" traits="TT">
-	<drop event="Destroy" name="plantedCorn1_TT" count="1" prob="0.5"/>
+	<drop event="Destroy" name="plantedAloe1_TT" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropCorn" count="4" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="resourceCropAloeLeaf" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropAloeLeaf" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
-	<property name="CustomIcon" value="plantedCorn1"/>
-	<property name="DescriptionKey" value="plantedCorn3_TT"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedAloe1"/>
+	<property name="DescriptionKey" value="plantedAloe3_TT"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="Group" value="Food/Cooking,Science"/>
 	<property name="HarvestOverdamage" value="false"/>
 	<property name="ImposterDontBlock" value="true"/>
 	<property name="IsDecoration" value="true"/>
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="LightOpacity" value="0"/>
 	<property name="Material" value="Mcorn"/>
-	<property name="Mesh" value="cutoutmoveable"/>
-	<property name="Model" value="corn_harvest_shape"/>
-	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/plant_aloe_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
 	<property name="PlantGrowing.FertileLevel" value="1"/>
-	<property name="Shape" value="New"/>
+	<property name="Shape" value="ModelEntity"/>
 	<property name="SortOrder1" value="a090"/>
 	<property name="SortOrder2" value="0002"/>
-	<property name="Texture" value="529"/>
+	<property name="Texture" value="395"/>
 	
 </block>
 <block name="plantedBlueberry1_" stage="1" traits="">
@@ -1123,6 +1219,7 @@
 	<property name="Shape" value="ModelEntity"/>
 </block>
 <block name="plantedBlueberry2_" stage="2" traits="">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedBlueberry1_"/>
 	<property name="Model" value="Entities/Plants/blueberry_plant_growthPrefab"/>
 	<property name="PlantGrowing.Next" value="plantedBlueberry3_"/>
@@ -1133,6 +1230,7 @@
 	<drop event="Harvest" name="foodCropBlueberries" count="4" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedBlueberry1"/>
 	<property name="CustomIconTint" value="ff8080"/>
 	<property name="DescriptionKey" value="plantedBlueberry3_"/>
@@ -1168,6 +1266,7 @@
 	<property name="Shape" value="ModelEntity"/>
 </block>
 <block name="plantedBlueberry2_B" stage="2" traits="B">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedBlueberry1_B"/>
 	<property name="Model" value="Entities/Plants/blueberry_plant_growthPrefab"/>
 	<property name="PlantGrowing.Next" value="plantedBlueberry3_B"/>
@@ -1178,6 +1277,7 @@
 	<drop event="Harvest" name="foodCropBlueberries" count="8" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedBlueberry1"/>
 	<property name="CustomIconTint" value="ff8080"/>
 	<property name="DescriptionKey" value="plantedBlueberry3_B"/>
@@ -1213,6 +1313,7 @@
 	<property name="Shape" value="ModelEntity"/>
 </block>
 <block name="plantedBlueberry2_BB" stage="2" traits="BB">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedBlueberry1_BB"/>
 	<property name="Model" value="Entities/Plants/blueberry_plant_growthPrefab"/>
 	<property name="PlantGrowing.Next" value="plantedBlueberry3_BB"/>
@@ -1223,6 +1324,7 @@
 	<drop event="Harvest" name="foodCropBlueberries" count="16" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="8" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedBlueberry1"/>
 	<property name="CustomIconTint" value="ff8080"/>
 	<property name="DescriptionKey" value="plantedBlueberry3_BB"/>
@@ -1258,6 +1360,7 @@
 	<property name="Shape" value="ModelEntity"/>
 </block>
 <block name="plantedBlueberry2_BU" stage="2" traits="BU">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedBlueberry1_BU"/>
 	<property name="Model" value="Entities/Plants/blueberry_plant_growthPrefab"/>
 	<property name="PlantGrowing.Next" value="plantedBlueberry3_BU"/>
@@ -1268,6 +1371,7 @@
 	<drop event="Harvest" name="foodCropBlueberries" count="8" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedBlueberry1"/>
 	<property name="CustomIconTint" value="ff8080"/>
 	<property name="DescriptionKey" value="plantedBlueberry3_BU"/>
@@ -1303,6 +1407,7 @@
 	<property name="Shape" value="ModelEntity"/>
 </block>
 <block name="plantedBlueberry2_BF" stage="2" traits="BF">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedBlueberry1_BF"/>
 	<property name="Model" value="Entities/Plants/blueberry_plant_growthPrefab"/>
 	<property name="PlantGrowing.Next" value="plantedBlueberry3_BF"/>
@@ -1313,6 +1418,7 @@
 	<drop event="Harvest" name="foodCropBlueberries" count="8" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedBlueberry1"/>
 	<property name="CustomIconTint" value="ff8080"/>
 	<property name="DescriptionKey" value="plantedBlueberry3_BF"/>
@@ -1348,6 +1454,7 @@
 	<property name="Shape" value="ModelEntity"/>
 </block>
 <block name="plantedBlueberry2_BR" stage="2" traits="BR">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedBlueberry1_BR"/>
 	<property name="Model" value="Entities/Plants/blueberry_plant_growthPrefab"/>
 	<property name="PlantGrowing.Next" value="plantedBlueberry3_BR"/>
@@ -1358,6 +1465,7 @@
 	<drop event="Harvest" name="foodCropBlueberries" count="6" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="3" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedBlueberry1"/>
 	<property name="CustomIconTint" value="ff8080"/>
 	<property name="DescriptionKey" value="plantedBlueberry3_BR"/>
@@ -1393,6 +1501,7 @@
 	<property name="Shape" value="ModelEntity"/>
 </block>
 <block name="plantedBlueberry2_BT" stage="2" traits="BT">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedBlueberry1_BT"/>
 	<property name="Model" value="Entities/Plants/blueberry_plant_growthPrefab"/>
 	<property name="PlantGrowing.Next" value="plantedBlueberry3_BT"/>
@@ -1403,6 +1512,7 @@
 	<drop event="Harvest" name="foodCropBlueberries" count="8" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedBlueberry1"/>
 	<property name="CustomIconTint" value="ff8080"/>
 	<property name="DescriptionKey" value="plantedBlueberry3_BT"/>
@@ -1438,6 +1548,7 @@
 	<property name="Shape" value="ModelEntity"/>
 </block>
 <block name="plantedBlueberry2_U" stage="2" traits="U">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedBlueberry1_U"/>
 	<property name="Model" value="Entities/Plants/blueberry_plant_growthPrefab"/>
 	<property name="PlantGrowing.Next" value="plantedBlueberry3_U"/>
@@ -1448,6 +1559,7 @@
 	<drop event="Harvest" name="foodCropBlueberries" count="4" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedBlueberry1"/>
 	<property name="CustomIconTint" value="ff8080"/>
 	<property name="DescriptionKey" value="plantedBlueberry3_U"/>
@@ -1483,6 +1595,7 @@
 	<property name="Shape" value="ModelEntity"/>
 </block>
 <block name="plantedBlueberry2_UF" stage="2" traits="UF">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedBlueberry1_UF"/>
 	<property name="Model" value="Entities/Plants/blueberry_plant_growthPrefab"/>
 	<property name="PlantGrowing.Next" value="plantedBlueberry3_UF"/>
@@ -1493,6 +1606,7 @@
 	<drop event="Harvest" name="foodCropBlueberries" count="4" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedBlueberry1"/>
 	<property name="CustomIconTint" value="ff8080"/>
 	<property name="DescriptionKey" value="plantedBlueberry3_UF"/>
@@ -1528,6 +1642,7 @@
 	<property name="Shape" value="ModelEntity"/>
 </block>
 <block name="plantedBlueberry2_UE" stage="2" traits="UE">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedBlueberry1_UE"/>
 	<property name="Model" value="Entities/Plants/blueberry_plant_growthPrefab"/>
 	<property name="PlantGrowing.Next" value="plantedBlueberry3_UE"/>
@@ -1538,6 +1653,7 @@
 	<drop event="Harvest" name="foodCropBlueberries" count="4" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedBlueberry1"/>
 	<property name="CustomIconTint" value="ff8080"/>
 	<property name="DescriptionKey" value="plantedBlueberry3_UE"/>
@@ -1573,6 +1689,7 @@
 	<property name="Shape" value="ModelEntity"/>
 </block>
 <block name="plantedBlueberry2_UR" stage="2" traits="UR">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedBlueberry1_UR"/>
 	<property name="Model" value="Entities/Plants/blueberry_plant_growthPrefab"/>
 	<property name="PlantGrowing.Next" value="plantedBlueberry3_UR"/>
@@ -1583,6 +1700,7 @@
 	<drop event="Harvest" name="foodCropBlueberries" count="3" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="1" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedBlueberry1"/>
 	<property name="CustomIconTint" value="ff8080"/>
 	<property name="DescriptionKey" value="plantedBlueberry3_UR"/>
@@ -1618,6 +1736,7 @@
 	<property name="Shape" value="ModelEntity"/>
 </block>
 <block name="plantedBlueberry2_UT" stage="2" traits="UT">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedBlueberry1_UT"/>
 	<property name="Model" value="Entities/Plants/blueberry_plant_growthPrefab"/>
 	<property name="PlantGrowing.Next" value="plantedBlueberry3_UT"/>
@@ -1628,6 +1747,7 @@
 	<drop event="Harvest" name="foodCropBlueberries" count="4" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedBlueberry1"/>
 	<property name="CustomIconTint" value="ff8080"/>
 	<property name="DescriptionKey" value="plantedBlueberry3_UT"/>
@@ -1663,6 +1783,7 @@
 	<property name="Shape" value="ModelEntity"/>
 </block>
 <block name="plantedBlueberry2_F" stage="2" traits="F">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedBlueberry1_F"/>
 	<property name="Model" value="Entities/Plants/blueberry_plant_growthPrefab"/>
 	<property name="PlantGrowing.Next" value="plantedBlueberry3_F"/>
@@ -1673,6 +1794,7 @@
 	<drop event="Harvest" name="foodCropBlueberries" count="4" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedBlueberry1"/>
 	<property name="CustomIconTint" value="ff8080"/>
 	<property name="DescriptionKey" value="plantedBlueberry3_F"/>
@@ -1708,6 +1830,7 @@
 	<property name="Shape" value="ModelEntity"/>
 </block>
 <block name="plantedBlueberry2_FF" stage="2" traits="FF">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedBlueberry1_FF"/>
 	<property name="Model" value="Entities/Plants/blueberry_plant_growthPrefab"/>
 	<property name="PlantGrowing.Next" value="plantedBlueberry3_FF"/>
@@ -1718,6 +1841,7 @@
 	<drop event="Harvest" name="foodCropBlueberries" count="4" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedBlueberry1"/>
 	<property name="CustomIconTint" value="ff8080"/>
 	<property name="DescriptionKey" value="plantedBlueberry3_FF"/>
@@ -1753,6 +1877,7 @@
 	<property name="Shape" value="ModelEntity"/>
 </block>
 <block name="plantedBlueberry2_FE" stage="2" traits="FE">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedBlueberry1_FE"/>
 	<property name="Model" value="Entities/Plants/blueberry_plant_growthPrefab"/>
 	<property name="PlantGrowing.Next" value="plantedBlueberry3_FE"/>
@@ -1763,6 +1888,7 @@
 	<drop event="Harvest" name="foodCropBlueberries" count="4" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedBlueberry1"/>
 	<property name="CustomIconTint" value="ff8080"/>
 	<property name="DescriptionKey" value="plantedBlueberry3_FE"/>
@@ -1798,6 +1924,7 @@
 	<property name="Shape" value="ModelEntity"/>
 </block>
 <block name="plantedBlueberry2_FR" stage="2" traits="FR">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedBlueberry1_FR"/>
 	<property name="Model" value="Entities/Plants/blueberry_plant_growthPrefab"/>
 	<property name="PlantGrowing.Next" value="plantedBlueberry3_FR"/>
@@ -1808,6 +1935,7 @@
 	<drop event="Harvest" name="foodCropBlueberries" count="3" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="1" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedBlueberry1"/>
 	<property name="CustomIconTint" value="ff8080"/>
 	<property name="DescriptionKey" value="plantedBlueberry3_FR"/>
@@ -1843,6 +1971,7 @@
 	<property name="Shape" value="ModelEntity"/>
 </block>
 <block name="plantedBlueberry2_FT" stage="2" traits="FT">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedBlueberry1_FT"/>
 	<property name="Model" value="Entities/Plants/blueberry_plant_growthPrefab"/>
 	<property name="PlantGrowing.Next" value="plantedBlueberry3_FT"/>
@@ -1853,6 +1982,7 @@
 	<drop event="Harvest" name="foodCropBlueberries" count="4" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedBlueberry1"/>
 	<property name="CustomIconTint" value="ff8080"/>
 	<property name="DescriptionKey" value="plantedBlueberry3_FT"/>
@@ -1888,6 +2018,7 @@
 	<property name="Shape" value="ModelEntity"/>
 </block>
 <block name="plantedBlueberry2_E" stage="2" traits="E">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedBlueberry1_E"/>
 	<property name="Model" value="Entities/Plants/blueberry_plant_growthPrefab"/>
 	<property name="PlantGrowing.Next" value="plantedBlueberry3_E"/>
@@ -1898,6 +2029,7 @@
 	<drop event="Harvest" name="foodCropBlueberries" count="4" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedBlueberry1"/>
 	<property name="CustomIconTint" value="ff8080"/>
 	<property name="DescriptionKey" value="plantedBlueberry3_E"/>
@@ -1933,6 +2065,7 @@
 	<property name="Shape" value="ModelEntity"/>
 </block>
 <block name="plantedBlueberry2_EE" stage="2" traits="EE">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedBlueberry1_EE"/>
 	<property name="Model" value="Entities/Plants/blueberry_plant_growthPrefab"/>
 	<property name="PlantGrowing.Next" value="plantedBlueberry3_EE"/>
@@ -1943,6 +2076,7 @@
 	<drop event="Harvest" name="foodCropBlueberries" count="4" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedBlueberry1"/>
 	<property name="CustomIconTint" value="ff8080"/>
 	<property name="DescriptionKey" value="plantedBlueberry3_EE"/>
@@ -1978,6 +2112,7 @@
 	<property name="Shape" value="ModelEntity"/>
 </block>
 <block name="plantedBlueberry2_ET" stage="2" traits="ET">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedBlueberry1_ET"/>
 	<property name="Model" value="Entities/Plants/blueberry_plant_growthPrefab"/>
 	<property name="PlantGrowing.Next" value="plantedBlueberry3_ET"/>
@@ -1988,6 +2123,7 @@
 	<drop event="Harvest" name="foodCropBlueberries" count="4" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedBlueberry1"/>
 	<property name="CustomIconTint" value="ff8080"/>
 	<property name="DescriptionKey" value="plantedBlueberry3_ET"/>
@@ -2023,6 +2159,7 @@
 	<property name="Shape" value="ModelEntity"/>
 </block>
 <block name="plantedBlueberry2_R" stage="2" traits="R">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedBlueberry1_R"/>
 	<property name="Model" value="Entities/Plants/blueberry_plant_growthPrefab"/>
 	<property name="PlantGrowing.Next" value="plantedBlueberry3_R"/>
@@ -2033,6 +2170,7 @@
 	<drop event="Harvest" name="foodCropBlueberries" count="3" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="1" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedBlueberry1"/>
 	<property name="CustomIconTint" value="ff8080"/>
 	<property name="DescriptionKey" value="plantedBlueberry3_R"/>
@@ -2068,6 +2206,7 @@
 	<property name="Shape" value="ModelEntity"/>
 </block>
 <block name="plantedBlueberry2_RT" stage="2" traits="RT">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedBlueberry1_RT"/>
 	<property name="Model" value="Entities/Plants/blueberry_plant_growthPrefab"/>
 	<property name="PlantGrowing.Next" value="plantedBlueberry3_RT"/>
@@ -2078,6 +2217,7 @@
 	<drop event="Harvest" name="foodCropBlueberries" count="3" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="1" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedBlueberry1"/>
 	<property name="CustomIconTint" value="ff8080"/>
 	<property name="DescriptionKey" value="plantedBlueberry3_RT"/>
@@ -2113,6 +2253,7 @@
 	<property name="Shape" value="ModelEntity"/>
 </block>
 <block name="plantedBlueberry2_T" stage="2" traits="T">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedBlueberry1_T"/>
 	<property name="Model" value="Entities/Plants/blueberry_plant_growthPrefab"/>
 	<property name="PlantGrowing.Next" value="plantedBlueberry3_T"/>
@@ -2123,6 +2264,7 @@
 	<drop event="Harvest" name="foodCropBlueberries" count="4" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedBlueberry1"/>
 	<property name="CustomIconTint" value="ff8080"/>
 	<property name="DescriptionKey" value="plantedBlueberry3_T"/>
@@ -2158,6 +2300,7 @@
 	<property name="Shape" value="ModelEntity"/>
 </block>
 <block name="plantedBlueberry2_TT" stage="2" traits="TT">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedBlueberry1_TT"/>
 	<property name="Model" value="Entities/Plants/blueberry_plant_growthPrefab"/>
 	<property name="PlantGrowing.Next" value="plantedBlueberry3_TT"/>
@@ -2168,6 +2311,7 @@
 	<drop event="Harvest" name="foodCropBlueberries" count="4" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedBlueberry1"/>
 	<property name="CustomIconTint" value="ff8080"/>
 	<property name="DescriptionKey" value="plantedBlueberry3_TT"/>
@@ -2208,6 +2352,7 @@
 	<property name="Texture" value="529"/>
 </block>
 <block name="plantedCorn2_" stage="2" traits="">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedCorn1_"/>
 	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_growth_shape"/>
@@ -2217,12 +2362,12 @@
 	<property name="Texture" value="529"/>
 </block>
 <block name="plantedCorn3_" stage="3" traits="">
-	<drop event="Destroy" count="0"/>
 	<drop event="Destroy" name="plantedCorn1_" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
 	<drop event="Harvest" name="foodCropCorn" count="4" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedCorn3Harvest"/>
 	<property name="DescriptionKey" value="plantedCorn3_"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -2261,6 +2406,7 @@
 	<property name="Texture" value="529"/>
 </block>
 <block name="plantedCorn2_B" stage="2" traits="B">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedCorn1_B"/>
 	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_growth_shape"/>
@@ -2270,12 +2416,12 @@
 	<property name="Texture" value="529"/>
 </block>
 <block name="plantedCorn3_B" stage="3" traits="B">
-	<drop event="Destroy" count="0"/>
 	<drop event="Destroy" name="plantedCorn1_B" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
 	<drop event="Harvest" name="foodCropCorn" count="8" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedCorn3Harvest"/>
 	<property name="DescriptionKey" value="plantedCorn3_B"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -2314,6 +2460,7 @@
 	<property name="Texture" value="529"/>
 </block>
 <block name="plantedCorn2_BB" stage="2" traits="BB">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedCorn1_BB"/>
 	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_growth_shape"/>
@@ -2323,12 +2470,12 @@
 	<property name="Texture" value="529"/>
 </block>
 <block name="plantedCorn3_BB" stage="3" traits="BB">
-	<drop event="Destroy" count="0"/>
 	<drop event="Destroy" name="plantedCorn1_BB" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
 	<drop event="Harvest" name="foodCropCorn" count="16" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="8" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedCorn3Harvest"/>
 	<property name="DescriptionKey" value="plantedCorn3_BB"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -2367,6 +2514,7 @@
 	<property name="Texture" value="529"/>
 </block>
 <block name="plantedCorn2_BU" stage="2" traits="BU">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedCorn1_BU"/>
 	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_growth_shape"/>
@@ -2376,12 +2524,12 @@
 	<property name="Texture" value="529"/>
 </block>
 <block name="plantedCorn3_BU" stage="3" traits="BU">
-	<drop event="Destroy" count="0"/>
 	<drop event="Destroy" name="plantedCorn1_BU" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
 	<drop event="Harvest" name="foodCropCorn" count="8" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedCorn3Harvest"/>
 	<property name="DescriptionKey" value="plantedCorn3_BU"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -2420,6 +2568,7 @@
 	<property name="Texture" value="529"/>
 </block>
 <block name="plantedCorn2_BF" stage="2" traits="BF">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedCorn1_BF"/>
 	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_growth_shape"/>
@@ -2429,12 +2578,12 @@
 	<property name="Texture" value="529"/>
 </block>
 <block name="plantedCorn3_BF" stage="3" traits="BF">
-	<drop event="Destroy" count="0"/>
 	<drop event="Destroy" name="plantedCorn1_BF" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
 	<drop event="Harvest" name="foodCropCorn" count="8" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedCorn3Harvest"/>
 	<property name="DescriptionKey" value="plantedCorn3_BF"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -2473,6 +2622,7 @@
 	<property name="Texture" value="529"/>
 </block>
 <block name="plantedCorn2_BR" stage="2" traits="BR">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedCorn1_BR"/>
 	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_growth_shape"/>
@@ -2482,12 +2632,12 @@
 	<property name="Texture" value="529"/>
 </block>
 <block name="plantedCorn3_BR" stage="3" traits="BR">
-	<drop event="Destroy" count="0"/>
 	<drop event="Destroy" name="plantedCorn1_BR" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
 	<drop event="Harvest" name="foodCropCorn" count="6" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="3" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedCorn3Harvest"/>
 	<property name="DescriptionKey" value="plantedCorn3_BR"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -2526,6 +2676,7 @@
 	<property name="Texture" value="529"/>
 </block>
 <block name="plantedCorn2_BT" stage="2" traits="BT">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedCorn1_BT"/>
 	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_growth_shape"/>
@@ -2535,12 +2686,12 @@
 	<property name="Texture" value="529"/>
 </block>
 <block name="plantedCorn3_BT" stage="3" traits="BT">
-	<drop event="Destroy" count="0"/>
 	<drop event="Destroy" name="plantedCorn1_BT" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
 	<drop event="Harvest" name="foodCropCorn" count="8" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedCorn3Harvest"/>
 	<property name="DescriptionKey" value="plantedCorn3_BT"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -2579,6 +2730,7 @@
 	<property name="Texture" value="529"/>
 </block>
 <block name="plantedCorn2_U" stage="2" traits="U">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedCorn1_U"/>
 	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_growth_shape"/>
@@ -2588,12 +2740,12 @@
 	<property name="Texture" value="529"/>
 </block>
 <block name="plantedCorn3_U" stage="3" traits="U">
-	<drop event="Destroy" count="0"/>
 	<drop event="Destroy" name="plantedCorn1_U" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
 	<drop event="Harvest" name="foodCropCorn" count="4" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedCorn3Harvest"/>
 	<property name="DescriptionKey" value="plantedCorn3_U"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -2632,6 +2784,7 @@
 	<property name="Texture" value="529"/>
 </block>
 <block name="plantedCorn2_UF" stage="2" traits="UF">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedCorn1_UF"/>
 	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_growth_shape"/>
@@ -2641,12 +2794,12 @@
 	<property name="Texture" value="529"/>
 </block>
 <block name="plantedCorn3_UF" stage="3" traits="UF">
-	<drop event="Destroy" count="0"/>
 	<drop event="Destroy" name="plantedCorn1_UF" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
 	<drop event="Harvest" name="foodCropCorn" count="4" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedCorn3Harvest"/>
 	<property name="DescriptionKey" value="plantedCorn3_UF"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -2685,6 +2838,7 @@
 	<property name="Texture" value="529"/>
 </block>
 <block name="plantedCorn2_UE" stage="2" traits="UE">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedCorn1_UE"/>
 	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_growth_shape"/>
@@ -2694,12 +2848,12 @@
 	<property name="Texture" value="529"/>
 </block>
 <block name="plantedCorn3_UE" stage="3" traits="UE">
-	<drop event="Destroy" count="0"/>
 	<drop event="Destroy" name="plantedCorn1_UE" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
 	<drop event="Harvest" name="foodCropCorn" count="4" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedCorn3Harvest"/>
 	<property name="DescriptionKey" value="plantedCorn3_UE"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -2738,6 +2892,7 @@
 	<property name="Texture" value="529"/>
 </block>
 <block name="plantedCorn2_UR" stage="2" traits="UR">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedCorn1_UR"/>
 	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_growth_shape"/>
@@ -2747,12 +2902,12 @@
 	<property name="Texture" value="529"/>
 </block>
 <block name="plantedCorn3_UR" stage="3" traits="UR">
-	<drop event="Destroy" count="0"/>
 	<drop event="Destroy" name="plantedCorn1_UR" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
 	<drop event="Harvest" name="foodCropCorn" count="3" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="1" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedCorn3Harvest"/>
 	<property name="DescriptionKey" value="plantedCorn3_UR"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -2791,6 +2946,7 @@
 	<property name="Texture" value="529"/>
 </block>
 <block name="plantedCorn2_UT" stage="2" traits="UT">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedCorn1_UT"/>
 	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_growth_shape"/>
@@ -2800,12 +2956,12 @@
 	<property name="Texture" value="529"/>
 </block>
 <block name="plantedCorn3_UT" stage="3" traits="UT">
-	<drop event="Destroy" count="0"/>
 	<drop event="Destroy" name="plantedCorn1_UT" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
 	<drop event="Harvest" name="foodCropCorn" count="4" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedCorn3Harvest"/>
 	<property name="DescriptionKey" value="plantedCorn3_UT"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -2844,6 +3000,7 @@
 	<property name="Texture" value="529"/>
 </block>
 <block name="plantedCorn2_F" stage="2" traits="F">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedCorn1_F"/>
 	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_growth_shape"/>
@@ -2853,12 +3010,12 @@
 	<property name="Texture" value="529"/>
 </block>
 <block name="plantedCorn3_F" stage="3" traits="F">
-	<drop event="Destroy" count="0"/>
 	<drop event="Destroy" name="plantedCorn1_F" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
 	<drop event="Harvest" name="foodCropCorn" count="4" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedCorn3Harvest"/>
 	<property name="DescriptionKey" value="plantedCorn3_F"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -2897,6 +3054,7 @@
 	<property name="Texture" value="529"/>
 </block>
 <block name="plantedCorn2_FF" stage="2" traits="FF">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedCorn1_FF"/>
 	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_growth_shape"/>
@@ -2906,12 +3064,12 @@
 	<property name="Texture" value="529"/>
 </block>
 <block name="plantedCorn3_FF" stage="3" traits="FF">
-	<drop event="Destroy" count="0"/>
 	<drop event="Destroy" name="plantedCorn1_FF" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
 	<drop event="Harvest" name="foodCropCorn" count="4" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedCorn3Harvest"/>
 	<property name="DescriptionKey" value="plantedCorn3_FF"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -2950,6 +3108,7 @@
 	<property name="Texture" value="529"/>
 </block>
 <block name="plantedCorn2_FE" stage="2" traits="FE">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedCorn1_FE"/>
 	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_growth_shape"/>
@@ -2959,12 +3118,12 @@
 	<property name="Texture" value="529"/>
 </block>
 <block name="plantedCorn3_FE" stage="3" traits="FE">
-	<drop event="Destroy" count="0"/>
 	<drop event="Destroy" name="plantedCorn1_FE" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
 	<drop event="Harvest" name="foodCropCorn" count="4" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedCorn3Harvest"/>
 	<property name="DescriptionKey" value="plantedCorn3_FE"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -3003,6 +3162,7 @@
 	<property name="Texture" value="529"/>
 </block>
 <block name="plantedCorn2_FR" stage="2" traits="FR">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedCorn1_FR"/>
 	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_growth_shape"/>
@@ -3012,12 +3172,12 @@
 	<property name="Texture" value="529"/>
 </block>
 <block name="plantedCorn3_FR" stage="3" traits="FR">
-	<drop event="Destroy" count="0"/>
 	<drop event="Destroy" name="plantedCorn1_FR" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
 	<drop event="Harvest" name="foodCropCorn" count="3" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="1" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedCorn3Harvest"/>
 	<property name="DescriptionKey" value="plantedCorn3_FR"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -3056,6 +3216,7 @@
 	<property name="Texture" value="529"/>
 </block>
 <block name="plantedCorn2_FT" stage="2" traits="FT">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedCorn1_FT"/>
 	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_growth_shape"/>
@@ -3065,12 +3226,12 @@
 	<property name="Texture" value="529"/>
 </block>
 <block name="plantedCorn3_FT" stage="3" traits="FT">
-	<drop event="Destroy" count="0"/>
 	<drop event="Destroy" name="plantedCorn1_FT" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
 	<drop event="Harvest" name="foodCropCorn" count="4" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedCorn3Harvest"/>
 	<property name="DescriptionKey" value="plantedCorn3_FT"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -3109,6 +3270,7 @@
 	<property name="Texture" value="529"/>
 </block>
 <block name="plantedCorn2_E" stage="2" traits="E">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedCorn1_E"/>
 	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_growth_shape"/>
@@ -3118,12 +3280,12 @@
 	<property name="Texture" value="529"/>
 </block>
 <block name="plantedCorn3_E" stage="3" traits="E">
-	<drop event="Destroy" count="0"/>
 	<drop event="Destroy" name="plantedCorn1_E" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
 	<drop event="Harvest" name="foodCropCorn" count="4" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedCorn3Harvest"/>
 	<property name="DescriptionKey" value="plantedCorn3_E"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -3162,6 +3324,7 @@
 	<property name="Texture" value="529"/>
 </block>
 <block name="plantedCorn2_EE" stage="2" traits="EE">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedCorn1_EE"/>
 	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_growth_shape"/>
@@ -3171,12 +3334,12 @@
 	<property name="Texture" value="529"/>
 </block>
 <block name="plantedCorn3_EE" stage="3" traits="EE">
-	<drop event="Destroy" count="0"/>
 	<drop event="Destroy" name="plantedCorn1_EE" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
 	<drop event="Harvest" name="foodCropCorn" count="4" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedCorn3Harvest"/>
 	<property name="DescriptionKey" value="plantedCorn3_EE"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -3215,6 +3378,7 @@
 	<property name="Texture" value="529"/>
 </block>
 <block name="plantedCorn2_ET" stage="2" traits="ET">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedCorn1_ET"/>
 	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_growth_shape"/>
@@ -3224,12 +3388,12 @@
 	<property name="Texture" value="529"/>
 </block>
 <block name="plantedCorn3_ET" stage="3" traits="ET">
-	<drop event="Destroy" count="0"/>
 	<drop event="Destroy" name="plantedCorn1_ET" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
 	<drop event="Harvest" name="foodCropCorn" count="4" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedCorn3Harvest"/>
 	<property name="DescriptionKey" value="plantedCorn3_ET"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -3268,6 +3432,7 @@
 	<property name="Texture" value="529"/>
 </block>
 <block name="plantedCorn2_R" stage="2" traits="R">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedCorn1_R"/>
 	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_growth_shape"/>
@@ -3277,12 +3442,12 @@
 	<property name="Texture" value="529"/>
 </block>
 <block name="plantedCorn3_R" stage="3" traits="R">
-	<drop event="Destroy" count="0"/>
 	<drop event="Destroy" name="plantedCorn1_R" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
 	<drop event="Harvest" name="foodCropCorn" count="3" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="1" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedCorn3Harvest"/>
 	<property name="DescriptionKey" value="plantedCorn3_R"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -3321,6 +3486,7 @@
 	<property name="Texture" value="529"/>
 </block>
 <block name="plantedCorn2_RT" stage="2" traits="RT">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedCorn1_RT"/>
 	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_growth_shape"/>
@@ -3330,12 +3496,12 @@
 	<property name="Texture" value="529"/>
 </block>
 <block name="plantedCorn3_RT" stage="3" traits="RT">
-	<drop event="Destroy" count="0"/>
 	<drop event="Destroy" name="plantedCorn1_RT" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
 	<drop event="Harvest" name="foodCropCorn" count="3" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="1" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedCorn3Harvest"/>
 	<property name="DescriptionKey" value="plantedCorn3_RT"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -3374,6 +3540,7 @@
 	<property name="Texture" value="529"/>
 </block>
 <block name="plantedCorn2_T" stage="2" traits="T">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedCorn1_T"/>
 	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_growth_shape"/>
@@ -3383,12 +3550,12 @@
 	<property name="Texture" value="529"/>
 </block>
 <block name="plantedCorn3_T" stage="3" traits="T">
-	<drop event="Destroy" count="0"/>
 	<drop event="Destroy" name="plantedCorn1_T" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
 	<drop event="Harvest" name="foodCropCorn" count="4" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedCorn3Harvest"/>
 	<property name="DescriptionKey" value="plantedCorn3_T"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -3427,6 +3594,7 @@
 	<property name="Texture" value="529"/>
 </block>
 <block name="plantedCorn2_TT" stage="2" traits="TT">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedCorn1_TT"/>
 	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_growth_shape"/>
@@ -3436,12 +3604,12 @@
 	<property name="Texture" value="529"/>
 </block>
 <block name="plantedCorn3_TT" stage="3" traits="TT">
-	<drop event="Destroy" count="0"/>
 	<drop event="Destroy" name="plantedCorn1_TT" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
 	<drop event="Harvest" name="foodCropCorn" count="4" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedCorn3Harvest"/>
 	<property name="DescriptionKey" value="plantedCorn3_TT"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -3490,6 +3658,7 @@
 </block>
 <block name="plantedMushroom2_" stage="2" traits="">
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedMushroom1_"/>
 	<property name="Model" value="OutdoorDecor/mushroom_growth" param1="main_mesh"/>
 	<property name="PlantGrowing.Next" value="plantedMushroom3_"/>
@@ -3500,6 +3669,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" count="4" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CropsGrown.BonusHarvestDivisor" value="16"/>
 	<property name="CustomIcon" value="plantedMushroom3Harvest"/>
 	<property name="DescriptionKey" value="plantedMushroom3_"/>
@@ -3545,6 +3715,7 @@
 </block>
 <block name="plantedMushroom2_B" stage="2" traits="B">
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedMushroom1_B"/>
 	<property name="Model" value="OutdoorDecor/mushroom_growth" param1="main_mesh"/>
 	<property name="PlantGrowing.Next" value="plantedMushroom3_B"/>
@@ -3555,6 +3726,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" count="8" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CropsGrown.BonusHarvestDivisor" value="16"/>
 	<property name="CustomIcon" value="plantedMushroom3Harvest"/>
 	<property name="DescriptionKey" value="plantedMushroom3_B"/>
@@ -3600,6 +3772,7 @@
 </block>
 <block name="plantedMushroom2_BB" stage="2" traits="BB">
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedMushroom1_BB"/>
 	<property name="Model" value="OutdoorDecor/mushroom_growth" param1="main_mesh"/>
 	<property name="PlantGrowing.Next" value="plantedMushroom3_BB"/>
@@ -3610,6 +3783,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" count="16" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="8" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CropsGrown.BonusHarvestDivisor" value="16"/>
 	<property name="CustomIcon" value="plantedMushroom3Harvest"/>
 	<property name="DescriptionKey" value="plantedMushroom3_BB"/>
@@ -3655,6 +3829,7 @@
 </block>
 <block name="plantedMushroom2_BF" stage="2" traits="BF">
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedMushroom1_BF"/>
 	<property name="Model" value="OutdoorDecor/mushroom_growth" param1="main_mesh"/>
 	<property name="PlantGrowing.Next" value="plantedMushroom3_BF"/>
@@ -3665,6 +3840,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" count="8" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CropsGrown.BonusHarvestDivisor" value="16"/>
 	<property name="CustomIcon" value="plantedMushroom3Harvest"/>
 	<property name="DescriptionKey" value="plantedMushroom3_BF"/>
@@ -3710,6 +3886,7 @@
 </block>
 <block name="plantedMushroom2_BR" stage="2" traits="BR">
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedMushroom1_BR"/>
 	<property name="Model" value="OutdoorDecor/mushroom_growth" param1="main_mesh"/>
 	<property name="PlantGrowing.Next" value="plantedMushroom3_BR"/>
@@ -3720,6 +3897,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" count="6" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="3" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CropsGrown.BonusHarvestDivisor" value="16"/>
 	<property name="CustomIcon" value="plantedMushroom3Harvest"/>
 	<property name="DescriptionKey" value="plantedMushroom3_BR"/>
@@ -3765,6 +3943,7 @@
 </block>
 <block name="plantedMushroom2_BT" stage="2" traits="BT">
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedMushroom1_BT"/>
 	<property name="Model" value="OutdoorDecor/mushroom_growth" param1="main_mesh"/>
 	<property name="PlantGrowing.Next" value="plantedMushroom3_BT"/>
@@ -3775,6 +3954,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" count="8" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CropsGrown.BonusHarvestDivisor" value="16"/>
 	<property name="CustomIcon" value="plantedMushroom3Harvest"/>
 	<property name="DescriptionKey" value="plantedMushroom3_BT"/>
@@ -3820,6 +4000,7 @@
 </block>
 <block name="plantedMushroom2_F" stage="2" traits="F">
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedMushroom1_F"/>
 	<property name="Model" value="OutdoorDecor/mushroom_growth" param1="main_mesh"/>
 	<property name="PlantGrowing.Next" value="plantedMushroom3_F"/>
@@ -3830,6 +4011,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" count="4" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CropsGrown.BonusHarvestDivisor" value="16"/>
 	<property name="CustomIcon" value="plantedMushroom3Harvest"/>
 	<property name="DescriptionKey" value="plantedMushroom3_F"/>
@@ -3875,6 +4057,7 @@
 </block>
 <block name="plantedMushroom2_FF" stage="2" traits="FF">
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedMushroom1_FF"/>
 	<property name="Model" value="OutdoorDecor/mushroom_growth" param1="main_mesh"/>
 	<property name="PlantGrowing.Next" value="plantedMushroom3_FF"/>
@@ -3885,6 +4068,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" count="4" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CropsGrown.BonusHarvestDivisor" value="16"/>
 	<property name="CustomIcon" value="plantedMushroom3Harvest"/>
 	<property name="DescriptionKey" value="plantedMushroom3_FF"/>
@@ -3930,6 +4114,7 @@
 </block>
 <block name="plantedMushroom2_FE" stage="2" traits="FE">
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedMushroom1_FE"/>
 	<property name="Model" value="OutdoorDecor/mushroom_growth" param1="main_mesh"/>
 	<property name="PlantGrowing.Next" value="plantedMushroom3_FE"/>
@@ -3940,6 +4125,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" count="4" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CropsGrown.BonusHarvestDivisor" value="16"/>
 	<property name="CustomIcon" value="plantedMushroom3Harvest"/>
 	<property name="DescriptionKey" value="plantedMushroom3_FE"/>
@@ -3985,6 +4171,7 @@
 </block>
 <block name="plantedMushroom2_FR" stage="2" traits="FR">
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedMushroom1_FR"/>
 	<property name="Model" value="OutdoorDecor/mushroom_growth" param1="main_mesh"/>
 	<property name="PlantGrowing.Next" value="plantedMushroom3_FR"/>
@@ -3995,6 +4182,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" count="3" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="1" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CropsGrown.BonusHarvestDivisor" value="16"/>
 	<property name="CustomIcon" value="plantedMushroom3Harvest"/>
 	<property name="DescriptionKey" value="plantedMushroom3_FR"/>
@@ -4040,6 +4228,7 @@
 </block>
 <block name="plantedMushroom2_FT" stage="2" traits="FT">
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedMushroom1_FT"/>
 	<property name="Model" value="OutdoorDecor/mushroom_growth" param1="main_mesh"/>
 	<property name="PlantGrowing.Next" value="plantedMushroom3_FT"/>
@@ -4050,6 +4239,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" count="4" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CropsGrown.BonusHarvestDivisor" value="16"/>
 	<property name="CustomIcon" value="plantedMushroom3Harvest"/>
 	<property name="DescriptionKey" value="plantedMushroom3_FT"/>
@@ -4095,6 +4285,7 @@
 </block>
 <block name="plantedMushroom2_E" stage="2" traits="E">
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedMushroom1_E"/>
 	<property name="Model" value="OutdoorDecor/mushroom_growth" param1="main_mesh"/>
 	<property name="PlantGrowing.Next" value="plantedMushroom3_E"/>
@@ -4105,6 +4296,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" count="4" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CropsGrown.BonusHarvestDivisor" value="16"/>
 	<property name="CustomIcon" value="plantedMushroom3Harvest"/>
 	<property name="DescriptionKey" value="plantedMushroom3_E"/>
@@ -4150,6 +4342,7 @@
 </block>
 <block name="plantedMushroom2_EE" stage="2" traits="EE">
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedMushroom1_EE"/>
 	<property name="Model" value="OutdoorDecor/mushroom_growth" param1="main_mesh"/>
 	<property name="PlantGrowing.Next" value="plantedMushroom3_EE"/>
@@ -4160,6 +4353,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" count="4" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CropsGrown.BonusHarvestDivisor" value="16"/>
 	<property name="CustomIcon" value="plantedMushroom3Harvest"/>
 	<property name="DescriptionKey" value="plantedMushroom3_EE"/>
@@ -4205,6 +4399,7 @@
 </block>
 <block name="plantedMushroom2_ET" stage="2" traits="ET">
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedMushroom1_ET"/>
 	<property name="Model" value="OutdoorDecor/mushroom_growth" param1="main_mesh"/>
 	<property name="PlantGrowing.Next" value="plantedMushroom3_ET"/>
@@ -4215,6 +4410,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" count="4" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CropsGrown.BonusHarvestDivisor" value="16"/>
 	<property name="CustomIcon" value="plantedMushroom3Harvest"/>
 	<property name="DescriptionKey" value="plantedMushroom3_ET"/>
@@ -4260,6 +4456,7 @@
 </block>
 <block name="plantedMushroom2_R" stage="2" traits="R">
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedMushroom1_R"/>
 	<property name="Model" value="OutdoorDecor/mushroom_growth" param1="main_mesh"/>
 	<property name="PlantGrowing.Next" value="plantedMushroom3_R"/>
@@ -4270,6 +4467,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" count="3" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="1" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CropsGrown.BonusHarvestDivisor" value="16"/>
 	<property name="CustomIcon" value="plantedMushroom3Harvest"/>
 	<property name="DescriptionKey" value="plantedMushroom3_R"/>
@@ -4315,6 +4513,7 @@
 </block>
 <block name="plantedMushroom2_RT" stage="2" traits="RT">
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedMushroom1_RT"/>
 	<property name="Model" value="OutdoorDecor/mushroom_growth" param1="main_mesh"/>
 	<property name="PlantGrowing.Next" value="plantedMushroom3_RT"/>
@@ -4325,6 +4524,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" count="3" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="1" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CropsGrown.BonusHarvestDivisor" value="16"/>
 	<property name="CustomIcon" value="plantedMushroom3Harvest"/>
 	<property name="DescriptionKey" value="plantedMushroom3_RT"/>
@@ -4370,6 +4570,7 @@
 </block>
 <block name="plantedMushroom2_T" stage="2" traits="T">
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedMushroom1_T"/>
 	<property name="Model" value="OutdoorDecor/mushroom_growth" param1="main_mesh"/>
 	<property name="PlantGrowing.Next" value="plantedMushroom3_T"/>
@@ -4380,6 +4581,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" count="4" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CropsGrown.BonusHarvestDivisor" value="16"/>
 	<property name="CustomIcon" value="plantedMushroom3Harvest"/>
 	<property name="DescriptionKey" value="plantedMushroom3_T"/>
@@ -4425,6 +4627,7 @@
 </block>
 <block name="plantedMushroom2_TT" stage="2" traits="TT">
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedMushroom1_TT"/>
 	<property name="Model" value="OutdoorDecor/mushroom_growth" param1="main_mesh"/>
 	<property name="PlantGrowing.Next" value="plantedMushroom3_TT"/>
@@ -4435,6 +4638,7 @@
 	<drop event="Harvest" name="foodCropMushrooms" count="4" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CropsGrown.BonusHarvestDivisor" value="16"/>
 	<property name="CustomIcon" value="plantedMushroom3Harvest"/>
 	<property name="DescriptionKey" value="plantedMushroom3_TT"/>

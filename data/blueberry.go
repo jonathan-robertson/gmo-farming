@@ -3,14 +3,14 @@ package data
 import "fmt"
 
 type Blueberry struct {
-	Name              string
-	NamePlural        string
-	DisplayName       string
-	Description       string
-	PreferredConsumer string
-	CropYield         int
-	BonusYield        int
-	CraftTime         int
+	Name               string
+	NamePlural         string
+	DisplayName        string
+	Description        string
+	PreferredConsumer  string
+	CropYield          int
+	BonusYield         int
+	CraftTime          int
 	incompatibleTraits []rune
 }
 
@@ -79,16 +79,15 @@ func (*Blueberry) WriteStage1(c chan string, traits string) {
 </block>`, traits, traits, traits, traits, getCraftingGroup(traits), traits)
 }
 
-// TODO: <property name="CreativeMode" value="None"/>
 func (*Blueberry) WriteStage2(c chan string, traits string) {
 	c <- fmt.Sprintf(`<block name="plantedBlueberry2_%s" stage="2" traits="%s">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedBlueberry1_%s"/>
 	<property name="Model" value="Entities/Plants/blueberry_plant_growthPrefab"/>
 	<property name="PlantGrowing.Next" value="plantedBlueberry3_%s"/>
 </block>`, traits, traits, traits, traits)
 }
 
-// TODO: <property name="CreativeMode" value="None"/>
 func (p *Blueberry) WriteStage3(c chan string, traits string) {
 	c <- fmt.Sprintf(`<block name="plantedBlueberry3_%s" stage="3" traits="%s">
 	<drop event="Destroy" name="plantedBlueberry1_%s" count="1" prob="0.5"/>
@@ -96,6 +95,7 @@ func (p *Blueberry) WriteStage3(c chan string, traits string) {
 	<drop event="Harvest" name="foodCropBlueberries" count="%d" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="%d" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedBlueberry1"/>
 	<property name="CustomIconTint" value="ff8080"/>
 	<property name="DescriptionKey" value="plantedBlueberry3_%s"/>
