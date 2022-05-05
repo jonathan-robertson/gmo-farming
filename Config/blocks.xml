@@ -66,26 +66,18 @@
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedAloe2_"/>
 	<property name="Shape" value="ModelEntity"/>
-	
-	<!-- TODO: remove; only testing -->
-	<property name="Collide" value="movement,melee,arrow" />
 </block>
 <block name="plantedAloe2_" stage="2" traits="">
 	<property name="Extends" value="plantedAloe1_"/>
 	<property name="Model" value="Entities/Plants/plant_aloe2_Prefab"/>
 	<property name="PlantGrowing.Next" value="plantedAloe3_"/>
-
-	<!-- TODO: remove; only testing -->
-	<property name="Collide" value="movement,melee,arrow" />
 </block>
 <block name="plantedAloe3_" stage="3" traits="">
 	<drop event="Destroy" name="plantedCorn1_" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
 	<drop event="Harvest" name="foodCropCorn" count="4" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
-	<!--<property name="Collide" value="melee"/>-->
-	<!-- TODO: remove; only testing -->
-	<property name="Collide" value="movement,melee,arrow" />
+	<property name="Collide" value="melee"/>
 	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="DescriptionKey" value="plantedCorn3_"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -118,26 +110,18 @@
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedAloe2_B"/>
 	<property name="Shape" value="ModelEntity"/>
-	
-	<!-- TODO: remove; only testing -->
-	<property name="Collide" value="movement,melee,arrow" />
 </block>
 <block name="plantedAloe2_B" stage="2" traits="B">
 	<property name="Extends" value="plantedAloe1_B"/>
 	<property name="Model" value="Entities/Plants/plant_aloe2_Prefab"/>
 	<property name="PlantGrowing.Next" value="plantedAloe3_B"/>
-
-	<!-- TODO: remove; only testing -->
-	<property name="Collide" value="movement,melee,arrow" />
 </block>
 <block name="plantedAloe3_B" stage="3" traits="B">
 	<drop event="Destroy" name="plantedCorn1_B" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
 	<drop event="Harvest" name="foodCropCorn" count="8" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="4" tag="bonusCropHarvest"/>
-	<!--<property name="Collide" value="melee"/>-->
-	<!-- TODO: remove; only testing -->
-	<property name="Collide" value="movement,melee,arrow" />
+	<property name="Collide" value="melee"/>
 	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="DescriptionKey" value="plantedCorn3_B"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -170,26 +154,18 @@
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedAloe2_BB"/>
 	<property name="Shape" value="ModelEntity"/>
-	
-	<!-- TODO: remove; only testing -->
-	<property name="Collide" value="movement,melee,arrow" />
 </block>
 <block name="plantedAloe2_BB" stage="2" traits="BB">
 	<property name="Extends" value="plantedAloe1_BB"/>
 	<property name="Model" value="Entities/Plants/plant_aloe2_Prefab"/>
 	<property name="PlantGrowing.Next" value="plantedAloe3_BB"/>
-
-	<!-- TODO: remove; only testing -->
-	<property name="Collide" value="movement,melee,arrow" />
 </block>
 <block name="plantedAloe3_BB" stage="3" traits="BB">
 	<drop event="Destroy" name="plantedCorn1_BB" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
 	<drop event="Harvest" name="foodCropCorn" count="16" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="8" tag="bonusCropHarvest"/>
-	<!--<property name="Collide" value="melee"/>-->
-	<!-- TODO: remove; only testing -->
-	<property name="Collide" value="movement,melee,arrow" />
+	<property name="Collide" value="melee"/>
 	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="DescriptionKey" value="plantedCorn3_BB"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -222,26 +198,18 @@
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedAloe2_BU"/>
 	<property name="Shape" value="ModelEntity"/>
-	
-	<!-- TODO: remove; only testing -->
-	<property name="Collide" value="movement,melee,arrow" />
 </block>
 <block name="plantedAloe2_BU" stage="2" traits="BU">
 	<property name="Extends" value="plantedAloe1_BU"/>
 	<property name="Model" value="Entities/Plants/plant_aloe2_Prefab"/>
 	<property name="PlantGrowing.Next" value="plantedAloe3_BU"/>
-
-	<!-- TODO: remove; only testing -->
-	<property name="Collide" value="movement,melee,arrow" />
 </block>
 <block name="plantedAloe3_BU" stage="3" traits="BU">
 	<drop event="Destroy" name="plantedCorn1_BU" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
 	<drop event="Harvest" name="foodCropCorn" count="8" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="4" tag="bonusCropHarvest"/>
-	<!--<property name="Collide" value="melee"/>-->
-	<!-- TODO: remove; only testing -->
-	<property name="Collide" value="movement,melee,arrow" />
+	<property name="Collide" value="melee"/>
 	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="DescriptionKey" value="plantedCorn3_BU"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -274,26 +242,18 @@
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedAloe2_BF"/>
 	<property name="Shape" value="ModelEntity"/>
-	
-	<!-- TODO: remove; only testing -->
-	<property name="Collide" value="movement,melee,arrow" />
 </block>
 <block name="plantedAloe2_BF" stage="2" traits="BF">
 	<property name="Extends" value="plantedAloe1_BF"/>
 	<property name="Model" value="Entities/Plants/plant_aloe2_Prefab"/>
 	<property name="PlantGrowing.Next" value="plantedAloe3_BF"/>
-
-	<!-- TODO: remove; only testing -->
-	<property name="Collide" value="movement,melee,arrow" />
 </block>
 <block name="plantedAloe3_BF" stage="3" traits="BF">
 	<drop event="Destroy" name="plantedCorn1_BF" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
 	<drop event="Harvest" name="foodCropCorn" count="8" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="4" tag="bonusCropHarvest"/>
-	<!--<property name="Collide" value="melee"/>-->
-	<!-- TODO: remove; only testing -->
-	<property name="Collide" value="movement,melee,arrow" />
+	<property name="Collide" value="melee"/>
 	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="DescriptionKey" value="plantedCorn3_BF"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -326,26 +286,18 @@
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedAloe2_BR"/>
 	<property name="Shape" value="ModelEntity"/>
-	
-	<!-- TODO: remove; only testing -->
-	<property name="Collide" value="movement,melee,arrow" />
 </block>
 <block name="plantedAloe2_BR" stage="2" traits="BR">
 	<property name="Extends" value="plantedAloe1_BR"/>
 	<property name="Model" value="Entities/Plants/plant_aloe2_Prefab"/>
 	<property name="PlantGrowing.Next" value="plantedAloe3_BR"/>
-
-	<!-- TODO: remove; only testing -->
-	<property name="Collide" value="movement,melee,arrow" />
 </block>
 <block name="plantedAloe3_BR" stage="3" traits="BR">
 	<drop event="Destroy" name="plantedCorn1_BR" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
 	<drop event="Harvest" name="foodCropCorn" count="6" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="3" tag="bonusCropHarvest"/>
-	<!--<property name="Collide" value="melee"/>-->
-	<!-- TODO: remove; only testing -->
-	<property name="Collide" value="movement,melee,arrow" />
+	<property name="Collide" value="melee"/>
 	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="DescriptionKey" value="plantedCorn3_BR"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -378,26 +330,18 @@
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedAloe2_BT"/>
 	<property name="Shape" value="ModelEntity"/>
-	
-	<!-- TODO: remove; only testing -->
-	<property name="Collide" value="movement,melee,arrow" />
 </block>
 <block name="plantedAloe2_BT" stage="2" traits="BT">
 	<property name="Extends" value="plantedAloe1_BT"/>
 	<property name="Model" value="Entities/Plants/plant_aloe2_Prefab"/>
 	<property name="PlantGrowing.Next" value="plantedAloe3_BT"/>
-
-	<!-- TODO: remove; only testing -->
-	<property name="Collide" value="movement,melee,arrow" />
 </block>
 <block name="plantedAloe3_BT" stage="3" traits="BT">
 	<drop event="Destroy" name="plantedCorn1_BT" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
 	<drop event="Harvest" name="foodCropCorn" count="8" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="4" tag="bonusCropHarvest"/>
-	<!--<property name="Collide" value="melee"/>-->
-	<!-- TODO: remove; only testing -->
-	<property name="Collide" value="movement,melee,arrow" />
+	<property name="Collide" value="melee"/>
 	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="DescriptionKey" value="plantedCorn3_BT"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -430,26 +374,18 @@
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedAloe2_U"/>
 	<property name="Shape" value="ModelEntity"/>
-	
-	<!-- TODO: remove; only testing -->
-	<property name="Collide" value="movement,melee,arrow" />
 </block>
 <block name="plantedAloe2_U" stage="2" traits="U">
 	<property name="Extends" value="plantedAloe1_U"/>
 	<property name="Model" value="Entities/Plants/plant_aloe2_Prefab"/>
 	<property name="PlantGrowing.Next" value="plantedAloe3_U"/>
-
-	<!-- TODO: remove; only testing -->
-	<property name="Collide" value="movement,melee,arrow" />
 </block>
 <block name="plantedAloe3_U" stage="3" traits="U">
 	<drop event="Destroy" name="plantedCorn1_U" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
 	<drop event="Harvest" name="foodCropCorn" count="4" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
-	<!--<property name="Collide" value="melee"/>-->
-	<!-- TODO: remove; only testing -->
-	<property name="Collide" value="movement,melee,arrow" />
+	<property name="Collide" value="melee"/>
 	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="DescriptionKey" value="plantedCorn3_U"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -482,26 +418,18 @@
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedAloe2_UF"/>
 	<property name="Shape" value="ModelEntity"/>
-	
-	<!-- TODO: remove; only testing -->
-	<property name="Collide" value="movement,melee,arrow" />
 </block>
 <block name="plantedAloe2_UF" stage="2" traits="UF">
 	<property name="Extends" value="plantedAloe1_UF"/>
 	<property name="Model" value="Entities/Plants/plant_aloe2_Prefab"/>
 	<property name="PlantGrowing.Next" value="plantedAloe3_UF"/>
-
-	<!-- TODO: remove; only testing -->
-	<property name="Collide" value="movement,melee,arrow" />
 </block>
 <block name="plantedAloe3_UF" stage="3" traits="UF">
 	<drop event="Destroy" name="plantedCorn1_UF" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
 	<drop event="Harvest" name="foodCropCorn" count="4" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
-	<!--<property name="Collide" value="melee"/>-->
-	<!-- TODO: remove; only testing -->
-	<property name="Collide" value="movement,melee,arrow" />
+	<property name="Collide" value="melee"/>
 	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="DescriptionKey" value="plantedCorn3_UF"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -534,26 +462,18 @@
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedAloe2_UE"/>
 	<property name="Shape" value="ModelEntity"/>
-	
-	<!-- TODO: remove; only testing -->
-	<property name="Collide" value="movement,melee,arrow" />
 </block>
 <block name="plantedAloe2_UE" stage="2" traits="UE">
 	<property name="Extends" value="plantedAloe1_UE"/>
 	<property name="Model" value="Entities/Plants/plant_aloe2_Prefab"/>
 	<property name="PlantGrowing.Next" value="plantedAloe3_UE"/>
-
-	<!-- TODO: remove; only testing -->
-	<property name="Collide" value="movement,melee,arrow" />
 </block>
 <block name="plantedAloe3_UE" stage="3" traits="UE">
 	<drop event="Destroy" name="plantedCorn1_UE" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
 	<drop event="Harvest" name="foodCropCorn" count="4" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
-	<!--<property name="Collide" value="melee"/>-->
-	<!-- TODO: remove; only testing -->
-	<property name="Collide" value="movement,melee,arrow" />
+	<property name="Collide" value="melee"/>
 	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="DescriptionKey" value="plantedCorn3_UE"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -586,26 +506,18 @@
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedAloe2_UR"/>
 	<property name="Shape" value="ModelEntity"/>
-	
-	<!-- TODO: remove; only testing -->
-	<property name="Collide" value="movement,melee,arrow" />
 </block>
 <block name="plantedAloe2_UR" stage="2" traits="UR">
 	<property name="Extends" value="plantedAloe1_UR"/>
 	<property name="Model" value="Entities/Plants/plant_aloe2_Prefab"/>
 	<property name="PlantGrowing.Next" value="plantedAloe3_UR"/>
-
-	<!-- TODO: remove; only testing -->
-	<property name="Collide" value="movement,melee,arrow" />
 </block>
 <block name="plantedAloe3_UR" stage="3" traits="UR">
 	<drop event="Destroy" name="plantedCorn1_UR" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
 	<drop event="Harvest" name="foodCropCorn" count="3" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="1" tag="bonusCropHarvest"/>
-	<!--<property name="Collide" value="melee"/>-->
-	<!-- TODO: remove; only testing -->
-	<property name="Collide" value="movement,melee,arrow" />
+	<property name="Collide" value="melee"/>
 	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="DescriptionKey" value="plantedCorn3_UR"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -638,26 +550,18 @@
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedAloe2_UT"/>
 	<property name="Shape" value="ModelEntity"/>
-	
-	<!-- TODO: remove; only testing -->
-	<property name="Collide" value="movement,melee,arrow" />
 </block>
 <block name="plantedAloe2_UT" stage="2" traits="UT">
 	<property name="Extends" value="plantedAloe1_UT"/>
 	<property name="Model" value="Entities/Plants/plant_aloe2_Prefab"/>
 	<property name="PlantGrowing.Next" value="plantedAloe3_UT"/>
-
-	<!-- TODO: remove; only testing -->
-	<property name="Collide" value="movement,melee,arrow" />
 </block>
 <block name="plantedAloe3_UT" stage="3" traits="UT">
 	<drop event="Destroy" name="plantedCorn1_UT" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
 	<drop event="Harvest" name="foodCropCorn" count="4" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
-	<!--<property name="Collide" value="melee"/>-->
-	<!-- TODO: remove; only testing -->
-	<property name="Collide" value="movement,melee,arrow" />
+	<property name="Collide" value="melee"/>
 	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="DescriptionKey" value="plantedCorn3_UT"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -690,26 +594,18 @@
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedAloe2_F"/>
 	<property name="Shape" value="ModelEntity"/>
-	
-	<!-- TODO: remove; only testing -->
-	<property name="Collide" value="movement,melee,arrow" />
 </block>
 <block name="plantedAloe2_F" stage="2" traits="F">
 	<property name="Extends" value="plantedAloe1_F"/>
 	<property name="Model" value="Entities/Plants/plant_aloe2_Prefab"/>
 	<property name="PlantGrowing.Next" value="plantedAloe3_F"/>
-
-	<!-- TODO: remove; only testing -->
-	<property name="Collide" value="movement,melee,arrow" />
 </block>
 <block name="plantedAloe3_F" stage="3" traits="F">
 	<drop event="Destroy" name="plantedCorn1_F" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
 	<drop event="Harvest" name="foodCropCorn" count="4" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
-	<!--<property name="Collide" value="melee"/>-->
-	<!-- TODO: remove; only testing -->
-	<property name="Collide" value="movement,melee,arrow" />
+	<property name="Collide" value="melee"/>
 	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="DescriptionKey" value="plantedCorn3_F"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -742,26 +638,18 @@
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedAloe2_FF"/>
 	<property name="Shape" value="ModelEntity"/>
-	
-	<!-- TODO: remove; only testing -->
-	<property name="Collide" value="movement,melee,arrow" />
 </block>
 <block name="plantedAloe2_FF" stage="2" traits="FF">
 	<property name="Extends" value="plantedAloe1_FF"/>
 	<property name="Model" value="Entities/Plants/plant_aloe2_Prefab"/>
 	<property name="PlantGrowing.Next" value="plantedAloe3_FF"/>
-
-	<!-- TODO: remove; only testing -->
-	<property name="Collide" value="movement,melee,arrow" />
 </block>
 <block name="plantedAloe3_FF" stage="3" traits="FF">
 	<drop event="Destroy" name="plantedCorn1_FF" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
 	<drop event="Harvest" name="foodCropCorn" count="4" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
-	<!--<property name="Collide" value="melee"/>-->
-	<!-- TODO: remove; only testing -->
-	<property name="Collide" value="movement,melee,arrow" />
+	<property name="Collide" value="melee"/>
 	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="DescriptionKey" value="plantedCorn3_FF"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -794,26 +682,18 @@
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedAloe2_FE"/>
 	<property name="Shape" value="ModelEntity"/>
-	
-	<!-- TODO: remove; only testing -->
-	<property name="Collide" value="movement,melee,arrow" />
 </block>
 <block name="plantedAloe2_FE" stage="2" traits="FE">
 	<property name="Extends" value="plantedAloe1_FE"/>
 	<property name="Model" value="Entities/Plants/plant_aloe2_Prefab"/>
 	<property name="PlantGrowing.Next" value="plantedAloe3_FE"/>
-
-	<!-- TODO: remove; only testing -->
-	<property name="Collide" value="movement,melee,arrow" />
 </block>
 <block name="plantedAloe3_FE" stage="3" traits="FE">
 	<drop event="Destroy" name="plantedCorn1_FE" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
 	<drop event="Harvest" name="foodCropCorn" count="4" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
-	<!--<property name="Collide" value="melee"/>-->
-	<!-- TODO: remove; only testing -->
-	<property name="Collide" value="movement,melee,arrow" />
+	<property name="Collide" value="melee"/>
 	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="DescriptionKey" value="plantedCorn3_FE"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -846,26 +726,18 @@
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedAloe2_FR"/>
 	<property name="Shape" value="ModelEntity"/>
-	
-	<!-- TODO: remove; only testing -->
-	<property name="Collide" value="movement,melee,arrow" />
 </block>
 <block name="plantedAloe2_FR" stage="2" traits="FR">
 	<property name="Extends" value="plantedAloe1_FR"/>
 	<property name="Model" value="Entities/Plants/plant_aloe2_Prefab"/>
 	<property name="PlantGrowing.Next" value="plantedAloe3_FR"/>
-
-	<!-- TODO: remove; only testing -->
-	<property name="Collide" value="movement,melee,arrow" />
 </block>
 <block name="plantedAloe3_FR" stage="3" traits="FR">
 	<drop event="Destroy" name="plantedCorn1_FR" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
 	<drop event="Harvest" name="foodCropCorn" count="3" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="1" tag="bonusCropHarvest"/>
-	<!--<property name="Collide" value="melee"/>-->
-	<!-- TODO: remove; only testing -->
-	<property name="Collide" value="movement,melee,arrow" />
+	<property name="Collide" value="melee"/>
 	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="DescriptionKey" value="plantedCorn3_FR"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -898,26 +770,18 @@
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedAloe2_FT"/>
 	<property name="Shape" value="ModelEntity"/>
-	
-	<!-- TODO: remove; only testing -->
-	<property name="Collide" value="movement,melee,arrow" />
 </block>
 <block name="plantedAloe2_FT" stage="2" traits="FT">
 	<property name="Extends" value="plantedAloe1_FT"/>
 	<property name="Model" value="Entities/Plants/plant_aloe2_Prefab"/>
 	<property name="PlantGrowing.Next" value="plantedAloe3_FT"/>
-
-	<!-- TODO: remove; only testing -->
-	<property name="Collide" value="movement,melee,arrow" />
 </block>
 <block name="plantedAloe3_FT" stage="3" traits="FT">
 	<drop event="Destroy" name="plantedCorn1_FT" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
 	<drop event="Harvest" name="foodCropCorn" count="4" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
-	<!--<property name="Collide" value="melee"/>-->
-	<!-- TODO: remove; only testing -->
-	<property name="Collide" value="movement,melee,arrow" />
+	<property name="Collide" value="melee"/>
 	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="DescriptionKey" value="plantedCorn3_FT"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -950,26 +814,18 @@
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedAloe2_E"/>
 	<property name="Shape" value="ModelEntity"/>
-	
-	<!-- TODO: remove; only testing -->
-	<property name="Collide" value="movement,melee,arrow" />
 </block>
 <block name="plantedAloe2_E" stage="2" traits="E">
 	<property name="Extends" value="plantedAloe1_E"/>
 	<property name="Model" value="Entities/Plants/plant_aloe2_Prefab"/>
 	<property name="PlantGrowing.Next" value="plantedAloe3_E"/>
-
-	<!-- TODO: remove; only testing -->
-	<property name="Collide" value="movement,melee,arrow" />
 </block>
 <block name="plantedAloe3_E" stage="3" traits="E">
 	<drop event="Destroy" name="plantedCorn1_E" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
 	<drop event="Harvest" name="foodCropCorn" count="4" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
-	<!--<property name="Collide" value="melee"/>-->
-	<!-- TODO: remove; only testing -->
-	<property name="Collide" value="movement,melee,arrow" />
+	<property name="Collide" value="melee"/>
 	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="DescriptionKey" value="plantedCorn3_E"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -1002,26 +858,18 @@
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedAloe2_EE"/>
 	<property name="Shape" value="ModelEntity"/>
-	
-	<!-- TODO: remove; only testing -->
-	<property name="Collide" value="movement,melee,arrow" />
 </block>
 <block name="plantedAloe2_EE" stage="2" traits="EE">
 	<property name="Extends" value="plantedAloe1_EE"/>
 	<property name="Model" value="Entities/Plants/plant_aloe2_Prefab"/>
 	<property name="PlantGrowing.Next" value="plantedAloe3_EE"/>
-
-	<!-- TODO: remove; only testing -->
-	<property name="Collide" value="movement,melee,arrow" />
 </block>
 <block name="plantedAloe3_EE" stage="3" traits="EE">
 	<drop event="Destroy" name="plantedCorn1_EE" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
 	<drop event="Harvest" name="foodCropCorn" count="4" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
-	<!--<property name="Collide" value="melee"/>-->
-	<!-- TODO: remove; only testing -->
-	<property name="Collide" value="movement,melee,arrow" />
+	<property name="Collide" value="melee"/>
 	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="DescriptionKey" value="plantedCorn3_EE"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -1054,26 +902,18 @@
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedAloe2_ET"/>
 	<property name="Shape" value="ModelEntity"/>
-	
-	<!-- TODO: remove; only testing -->
-	<property name="Collide" value="movement,melee,arrow" />
 </block>
 <block name="plantedAloe2_ET" stage="2" traits="ET">
 	<property name="Extends" value="plantedAloe1_ET"/>
 	<property name="Model" value="Entities/Plants/plant_aloe2_Prefab"/>
 	<property name="PlantGrowing.Next" value="plantedAloe3_ET"/>
-
-	<!-- TODO: remove; only testing -->
-	<property name="Collide" value="movement,melee,arrow" />
 </block>
 <block name="plantedAloe3_ET" stage="3" traits="ET">
 	<drop event="Destroy" name="plantedCorn1_ET" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
 	<drop event="Harvest" name="foodCropCorn" count="4" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
-	<!--<property name="Collide" value="melee"/>-->
-	<!-- TODO: remove; only testing -->
-	<property name="Collide" value="movement,melee,arrow" />
+	<property name="Collide" value="melee"/>
 	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="DescriptionKey" value="plantedCorn3_ET"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -1106,26 +946,18 @@
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedAloe2_R"/>
 	<property name="Shape" value="ModelEntity"/>
-	
-	<!-- TODO: remove; only testing -->
-	<property name="Collide" value="movement,melee,arrow" />
 </block>
 <block name="plantedAloe2_R" stage="2" traits="R">
 	<property name="Extends" value="plantedAloe1_R"/>
 	<property name="Model" value="Entities/Plants/plant_aloe2_Prefab"/>
 	<property name="PlantGrowing.Next" value="plantedAloe3_R"/>
-
-	<!-- TODO: remove; only testing -->
-	<property name="Collide" value="movement,melee,arrow" />
 </block>
 <block name="plantedAloe3_R" stage="3" traits="R">
 	<drop event="Destroy" name="plantedCorn1_R" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
 	<drop event="Harvest" name="foodCropCorn" count="3" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="1" tag="bonusCropHarvest"/>
-	<!--<property name="Collide" value="melee"/>-->
-	<!-- TODO: remove; only testing -->
-	<property name="Collide" value="movement,melee,arrow" />
+	<property name="Collide" value="melee"/>
 	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="DescriptionKey" value="plantedCorn3_R"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -1158,26 +990,18 @@
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedAloe2_RT"/>
 	<property name="Shape" value="ModelEntity"/>
-	
-	<!-- TODO: remove; only testing -->
-	<property name="Collide" value="movement,melee,arrow" />
 </block>
 <block name="plantedAloe2_RT" stage="2" traits="RT">
 	<property name="Extends" value="plantedAloe1_RT"/>
 	<property name="Model" value="Entities/Plants/plant_aloe2_Prefab"/>
 	<property name="PlantGrowing.Next" value="plantedAloe3_RT"/>
-
-	<!-- TODO: remove; only testing -->
-	<property name="Collide" value="movement,melee,arrow" />
 </block>
 <block name="plantedAloe3_RT" stage="3" traits="RT">
 	<drop event="Destroy" name="plantedCorn1_RT" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
 	<drop event="Harvest" name="foodCropCorn" count="3" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="1" tag="bonusCropHarvest"/>
-	<!--<property name="Collide" value="melee"/>-->
-	<!-- TODO: remove; only testing -->
-	<property name="Collide" value="movement,melee,arrow" />
+	<property name="Collide" value="melee"/>
 	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="DescriptionKey" value="plantedCorn3_RT"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -1210,26 +1034,18 @@
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedAloe2_T"/>
 	<property name="Shape" value="ModelEntity"/>
-	
-	<!-- TODO: remove; only testing -->
-	<property name="Collide" value="movement,melee,arrow" />
 </block>
 <block name="plantedAloe2_T" stage="2" traits="T">
 	<property name="Extends" value="plantedAloe1_T"/>
 	<property name="Model" value="Entities/Plants/plant_aloe2_Prefab"/>
 	<property name="PlantGrowing.Next" value="plantedAloe3_T"/>
-
-	<!-- TODO: remove; only testing -->
-	<property name="Collide" value="movement,melee,arrow" />
 </block>
 <block name="plantedAloe3_T" stage="3" traits="T">
 	<drop event="Destroy" name="plantedCorn1_T" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
 	<drop event="Harvest" name="foodCropCorn" count="4" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
-	<!--<property name="Collide" value="melee"/>-->
-	<!-- TODO: remove; only testing -->
-	<property name="Collide" value="movement,melee,arrow" />
+	<property name="Collide" value="melee"/>
 	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="DescriptionKey" value="plantedCorn3_T"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -1262,26 +1078,18 @@
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedAloe2_TT"/>
 	<property name="Shape" value="ModelEntity"/>
-	
-	<!-- TODO: remove; only testing -->
-	<property name="Collide" value="movement,melee,arrow" />
 </block>
 <block name="plantedAloe2_TT" stage="2" traits="TT">
 	<property name="Extends" value="plantedAloe1_TT"/>
 	<property name="Model" value="Entities/Plants/plant_aloe2_Prefab"/>
 	<property name="PlantGrowing.Next" value="plantedAloe3_TT"/>
-
-	<!-- TODO: remove; only testing -->
-	<property name="Collide" value="movement,melee,arrow" />
 </block>
 <block name="plantedAloe3_TT" stage="3" traits="TT">
 	<drop event="Destroy" name="plantedCorn1_TT" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
 	<drop event="Harvest" name="foodCropCorn" count="4" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
-	<!--<property name="Collide" value="melee"/>-->
-	<!-- TODO: remove; only testing -->
-	<property name="Collide" value="movement,melee,arrow" />
+	<property name="Collide" value="melee"/>
 	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="DescriptionKey" value="plantedCorn3_TT"/>
 	<property name="DisplayType" value="blockMulti"/>

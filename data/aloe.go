@@ -24,23 +24,26 @@ func CreateAloe() *Aloe {
 	}
 }
 
-func (p Aloe) GetCraftTime() int {
+func (p *Aloe) GetCraftTime() int {
 	return p.CraftTime
 }
 
-func (p Aloe) GetDescription() string {
+func (p *Aloe) GetDescription() string {
+	if p.Description == "" {
+		return getDefaultSeedDescription()
+	}
 	return p.Description
 }
 
-func (p Aloe) GetDisplayName() string {
+func (p *Aloe) GetDisplayName() string {
 	return p.DisplayName
 }
 
-func (p Aloe) GetName() string {
+func (p *Aloe) GetName() string {
 	return p.Name
 }
 
-func (p Aloe) GetPreferredConsumer() string {
+func (p *Aloe) GetPreferredConsumer() string {
 	return p.PreferredConsumer
 }
 

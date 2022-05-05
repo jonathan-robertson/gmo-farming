@@ -31,6 +31,9 @@ func (p *Mushroom) GetCraftTime() int {
 }
 
 func (p *Mushroom) GetDescription() string {
+	if p.Description == "" {
+		return getDefaultSeedDescription()
+	}
 	return p.Description
 }
 
