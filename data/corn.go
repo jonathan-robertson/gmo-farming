@@ -90,11 +90,8 @@ func (*Corn) WriteStage2(c chan string, traits string) {
 	c <- fmt.Sprintf(`<block name="plantedCorn2_%s" stage="2" traits="%s">
 	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedCorn1_%s"/>
-	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_growth_shape"/>
-	<property name="MultiBlockDim" value="1,3,1"/>
 	<property name="PlantGrowing.Next" value="plantedCorn3_%s"/>
-	<property name="Shape" value="New"/>
 	<property name="Texture" value="529"/>
 </block>`, traits, traits, traits, traits)
 }

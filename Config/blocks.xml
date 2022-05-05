@@ -4466,11 +4466,8 @@
 <block name="plantedCorn2_" stage="2" traits="">
 	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedCorn1_"/>
-	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_growth_shape"/>
-	<property name="MultiBlockDim" value="1,3,1"/>
 	<property name="PlantGrowing.Next" value="plantedCorn3_"/>
-	<property name="Shape" value="New"/>
 	<property name="Texture" value="529"/>
 </block>
 <block name="plantedCorn3_" stage="3" traits="">
@@ -4520,11 +4517,8 @@
 <block name="plantedCorn2_B" stage="2" traits="B">
 	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedCorn1_B"/>
-	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_growth_shape"/>
-	<property name="MultiBlockDim" value="1,3,1"/>
 	<property name="PlantGrowing.Next" value="plantedCorn3_B"/>
-	<property name="Shape" value="New"/>
 	<property name="Texture" value="529"/>
 </block>
 <block name="plantedCorn3_B" stage="3" traits="B">
@@ -4574,11 +4568,8 @@
 <block name="plantedCorn2_BB" stage="2" traits="BB">
 	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedCorn1_BB"/>
-	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_growth_shape"/>
-	<property name="MultiBlockDim" value="1,3,1"/>
 	<property name="PlantGrowing.Next" value="plantedCorn3_BB"/>
-	<property name="Shape" value="New"/>
 	<property name="Texture" value="529"/>
 </block>
 <block name="plantedCorn3_BB" stage="3" traits="BB">
@@ -4628,11 +4619,8 @@
 <block name="plantedCorn2_BU" stage="2" traits="BU">
 	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedCorn1_BU"/>
-	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_growth_shape"/>
-	<property name="MultiBlockDim" value="1,3,1"/>
 	<property name="PlantGrowing.Next" value="plantedCorn3_BU"/>
-	<property name="Shape" value="New"/>
 	<property name="Texture" value="529"/>
 </block>
 <block name="plantedCorn3_BU" stage="3" traits="BU">
@@ -4682,11 +4670,8 @@
 <block name="plantedCorn2_BF" stage="2" traits="BF">
 	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedCorn1_BF"/>
-	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_growth_shape"/>
-	<property name="MultiBlockDim" value="1,3,1"/>
 	<property name="PlantGrowing.Next" value="plantedCorn3_BF"/>
-	<property name="Shape" value="New"/>
 	<property name="Texture" value="529"/>
 </block>
 <block name="plantedCorn3_BF" stage="3" traits="BF">
@@ -4736,11 +4721,8 @@
 <block name="plantedCorn2_BR" stage="2" traits="BR">
 	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedCorn1_BR"/>
-	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_growth_shape"/>
-	<property name="MultiBlockDim" value="1,3,1"/>
 	<property name="PlantGrowing.Next" value="plantedCorn3_BR"/>
-	<property name="Shape" value="New"/>
 	<property name="Texture" value="529"/>
 </block>
 <block name="plantedCorn3_BR" stage="3" traits="BR">
@@ -4790,11 +4772,8 @@
 <block name="plantedCorn2_BT" stage="2" traits="BT">
 	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedCorn1_BT"/>
-	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_growth_shape"/>
-	<property name="MultiBlockDim" value="1,3,1"/>
 	<property name="PlantGrowing.Next" value="plantedCorn3_BT"/>
-	<property name="Shape" value="New"/>
 	<property name="Texture" value="529"/>
 </block>
 <block name="plantedCorn3_BT" stage="3" traits="BT">
@@ -4844,11 +4823,8 @@
 <block name="plantedCorn2_U" stage="2" traits="U">
 	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedCorn1_U"/>
-	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_growth_shape"/>
-	<property name="MultiBlockDim" value="1,3,1"/>
 	<property name="PlantGrowing.Next" value="plantedCorn3_U"/>
-	<property name="Shape" value="New"/>
 	<property name="Texture" value="529"/>
 </block>
 <block name="plantedCorn3_U" stage="3" traits="U">
@@ -4898,11 +4874,8 @@
 <block name="plantedCorn2_UF" stage="2" traits="UF">
 	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedCorn1_UF"/>
-	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_growth_shape"/>
-	<property name="MultiBlockDim" value="1,3,1"/>
 	<property name="PlantGrowing.Next" value="plantedCorn3_UF"/>
-	<property name="Shape" value="New"/>
 	<property name="Texture" value="529"/>
 </block>
 <block name="plantedCorn3_UF" stage="3" traits="UF">
@@ -4952,11 +4925,8 @@
 <block name="plantedCorn2_UE" stage="2" traits="UE">
 	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedCorn1_UE"/>
-	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_growth_shape"/>
-	<property name="MultiBlockDim" value="1,3,1"/>
 	<property name="PlantGrowing.Next" value="plantedCorn3_UE"/>
-	<property name="Shape" value="New"/>
 	<property name="Texture" value="529"/>
 </block>
 <block name="plantedCorn3_UE" stage="3" traits="UE">
@@ -5006,11 +4976,8 @@
 <block name="plantedCorn2_UR" stage="2" traits="UR">
 	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedCorn1_UR"/>
-	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_growth_shape"/>
-	<property name="MultiBlockDim" value="1,3,1"/>
 	<property name="PlantGrowing.Next" value="plantedCorn3_UR"/>
-	<property name="Shape" value="New"/>
 	<property name="Texture" value="529"/>
 </block>
 <block name="plantedCorn3_UR" stage="3" traits="UR">
@@ -5060,11 +5027,8 @@
 <block name="plantedCorn2_UT" stage="2" traits="UT">
 	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedCorn1_UT"/>
-	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_growth_shape"/>
-	<property name="MultiBlockDim" value="1,3,1"/>
 	<property name="PlantGrowing.Next" value="plantedCorn3_UT"/>
-	<property name="Shape" value="New"/>
 	<property name="Texture" value="529"/>
 </block>
 <block name="plantedCorn3_UT" stage="3" traits="UT">
@@ -5114,11 +5078,8 @@
 <block name="plantedCorn2_F" stage="2" traits="F">
 	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedCorn1_F"/>
-	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_growth_shape"/>
-	<property name="MultiBlockDim" value="1,3,1"/>
 	<property name="PlantGrowing.Next" value="plantedCorn3_F"/>
-	<property name="Shape" value="New"/>
 	<property name="Texture" value="529"/>
 </block>
 <block name="plantedCorn3_F" stage="3" traits="F">
@@ -5168,11 +5129,8 @@
 <block name="plantedCorn2_FF" stage="2" traits="FF">
 	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedCorn1_FF"/>
-	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_growth_shape"/>
-	<property name="MultiBlockDim" value="1,3,1"/>
 	<property name="PlantGrowing.Next" value="plantedCorn3_FF"/>
-	<property name="Shape" value="New"/>
 	<property name="Texture" value="529"/>
 </block>
 <block name="plantedCorn3_FF" stage="3" traits="FF">
@@ -5222,11 +5180,8 @@
 <block name="plantedCorn2_FE" stage="2" traits="FE">
 	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedCorn1_FE"/>
-	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_growth_shape"/>
-	<property name="MultiBlockDim" value="1,3,1"/>
 	<property name="PlantGrowing.Next" value="plantedCorn3_FE"/>
-	<property name="Shape" value="New"/>
 	<property name="Texture" value="529"/>
 </block>
 <block name="plantedCorn3_FE" stage="3" traits="FE">
@@ -5276,11 +5231,8 @@
 <block name="plantedCorn2_FR" stage="2" traits="FR">
 	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedCorn1_FR"/>
-	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_growth_shape"/>
-	<property name="MultiBlockDim" value="1,3,1"/>
 	<property name="PlantGrowing.Next" value="plantedCorn3_FR"/>
-	<property name="Shape" value="New"/>
 	<property name="Texture" value="529"/>
 </block>
 <block name="plantedCorn3_FR" stage="3" traits="FR">
@@ -5330,11 +5282,8 @@
 <block name="plantedCorn2_FT" stage="2" traits="FT">
 	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedCorn1_FT"/>
-	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_growth_shape"/>
-	<property name="MultiBlockDim" value="1,3,1"/>
 	<property name="PlantGrowing.Next" value="plantedCorn3_FT"/>
-	<property name="Shape" value="New"/>
 	<property name="Texture" value="529"/>
 </block>
 <block name="plantedCorn3_FT" stage="3" traits="FT">
@@ -5384,11 +5333,8 @@
 <block name="plantedCorn2_E" stage="2" traits="E">
 	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedCorn1_E"/>
-	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_growth_shape"/>
-	<property name="MultiBlockDim" value="1,3,1"/>
 	<property name="PlantGrowing.Next" value="plantedCorn3_E"/>
-	<property name="Shape" value="New"/>
 	<property name="Texture" value="529"/>
 </block>
 <block name="plantedCorn3_E" stage="3" traits="E">
@@ -5438,11 +5384,8 @@
 <block name="plantedCorn2_EE" stage="2" traits="EE">
 	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedCorn1_EE"/>
-	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_growth_shape"/>
-	<property name="MultiBlockDim" value="1,3,1"/>
 	<property name="PlantGrowing.Next" value="plantedCorn3_EE"/>
-	<property name="Shape" value="New"/>
 	<property name="Texture" value="529"/>
 </block>
 <block name="plantedCorn3_EE" stage="3" traits="EE">
@@ -5492,11 +5435,8 @@
 <block name="plantedCorn2_ET" stage="2" traits="ET">
 	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedCorn1_ET"/>
-	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_growth_shape"/>
-	<property name="MultiBlockDim" value="1,3,1"/>
 	<property name="PlantGrowing.Next" value="plantedCorn3_ET"/>
-	<property name="Shape" value="New"/>
 	<property name="Texture" value="529"/>
 </block>
 <block name="plantedCorn3_ET" stage="3" traits="ET">
@@ -5546,11 +5486,8 @@
 <block name="plantedCorn2_R" stage="2" traits="R">
 	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedCorn1_R"/>
-	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_growth_shape"/>
-	<property name="MultiBlockDim" value="1,3,1"/>
 	<property name="PlantGrowing.Next" value="plantedCorn3_R"/>
-	<property name="Shape" value="New"/>
 	<property name="Texture" value="529"/>
 </block>
 <block name="plantedCorn3_R" stage="3" traits="R">
@@ -5600,11 +5537,8 @@
 <block name="plantedCorn2_RT" stage="2" traits="RT">
 	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedCorn1_RT"/>
-	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_growth_shape"/>
-	<property name="MultiBlockDim" value="1,3,1"/>
 	<property name="PlantGrowing.Next" value="plantedCorn3_RT"/>
-	<property name="Shape" value="New"/>
 	<property name="Texture" value="529"/>
 </block>
 <block name="plantedCorn3_RT" stage="3" traits="RT">
@@ -5654,11 +5588,8 @@
 <block name="plantedCorn2_T" stage="2" traits="T">
 	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedCorn1_T"/>
-	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_growth_shape"/>
-	<property name="MultiBlockDim" value="1,3,1"/>
 	<property name="PlantGrowing.Next" value="plantedCorn3_T"/>
-	<property name="Shape" value="New"/>
 	<property name="Texture" value="529"/>
 </block>
 <block name="plantedCorn3_T" stage="3" traits="T">
@@ -5708,11 +5639,8 @@
 <block name="plantedCorn2_TT" stage="2" traits="TT">
 	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="plantedCorn1_TT"/>
-	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_growth_shape"/>
-	<property name="MultiBlockDim" value="1,3,1"/>
 	<property name="PlantGrowing.Next" value="plantedCorn3_TT"/>
-	<property name="Shape" value="New"/>
 	<property name="Texture" value="529"/>
 </block>
 <block name="plantedCorn3_TT" stage="3" traits="TT">
