@@ -1110,6 +1110,1086 @@
 	<property name="Texture" value="529"/>
 	
 </block>
+<block name="plantedBlueberry1_" stage="1" traits="">
+	<drop event="Destroy" name="plantedBlueberry1_" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedBlueberry1"/>
+	<property name="DescriptionKey" value="plantedBlueberry1_Desc"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="Food/Cooking"/>
+	<property name="Model" value="Entities/Plants/blueberry_plant_sproutPrefab"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedBlueberry2_"/>
+	<property name="Shape" value="ModelEntity"/>
+</block>
+<block name="plantedBlueberry2_" stage="2" traits="">
+	<property name="Extends" value="plantedBlueberry1_"/>
+	<property name="Model" value="Entities/Plants/blueberry_plant_growthPrefab"/>
+	<property name="PlantGrowing.Next" value="plantedBlueberry3_"/>
+</block>
+<block name="plantedBlueberry3_" stage="3" traits="">
+	<drop event="Destroy" name="plantedBlueberry1_" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="foodCropBlueberries" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CustomIcon" value="plantedBlueberry1"/>
+	<property name="CustomIconTint" value="ff8080"/>
+	<property name="DescriptionKey" value="plantedBlueberry3_"/>
+	<property name="DisplayInfo" value="Name"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_helpers,SC_helperOutdoor"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/blueberry_plant_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	
+</block>
+<block name="plantedBlueberry1_B" stage="1" traits="B">
+	<drop event="Destroy" name="plantedBlueberry1_B" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedBlueberry1"/>
+	<property name="DescriptionKey" value="plantedBlueberry1_BDesc"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="Model" value="Entities/Plants/blueberry_plant_sproutPrefab"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedBlueberry2_B"/>
+	<property name="Shape" value="ModelEntity"/>
+</block>
+<block name="plantedBlueberry2_B" stage="2" traits="B">
+	<property name="Extends" value="plantedBlueberry1_B"/>
+	<property name="Model" value="Entities/Plants/blueberry_plant_growthPrefab"/>
+	<property name="PlantGrowing.Next" value="plantedBlueberry3_B"/>
+</block>
+<block name="plantedBlueberry3_B" stage="3" traits="B">
+	<drop event="Destroy" name="plantedBlueberry1_B" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="foodCropBlueberries" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="4" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CustomIcon" value="plantedBlueberry1"/>
+	<property name="CustomIconTint" value="ff8080"/>
+	<property name="DescriptionKey" value="plantedBlueberry3_B"/>
+	<property name="DisplayInfo" value="Name"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_helpers,SC_helperOutdoor"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/blueberry_plant_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	
+</block>
+<block name="plantedBlueberry1_BB" stage="1" traits="BB">
+	<drop event="Destroy" name="plantedBlueberry1_BB" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedBlueberry1"/>
+	<property name="DescriptionKey" value="plantedBlueberry1_BBDesc"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="Model" value="Entities/Plants/blueberry_plant_sproutPrefab"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedBlueberry2_BB"/>
+	<property name="Shape" value="ModelEntity"/>
+</block>
+<block name="plantedBlueberry2_BB" stage="2" traits="BB">
+	<property name="Extends" value="plantedBlueberry1_BB"/>
+	<property name="Model" value="Entities/Plants/blueberry_plant_growthPrefab"/>
+	<property name="PlantGrowing.Next" value="plantedBlueberry3_BB"/>
+</block>
+<block name="plantedBlueberry3_BB" stage="3" traits="BB">
+	<drop event="Destroy" name="plantedBlueberry1_BB" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="foodCropBlueberries" count="16" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="8" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CustomIcon" value="plantedBlueberry1"/>
+	<property name="CustomIconTint" value="ff8080"/>
+	<property name="DescriptionKey" value="plantedBlueberry3_BB"/>
+	<property name="DisplayInfo" value="Name"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_helpers,SC_helperOutdoor"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/blueberry_plant_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	
+</block>
+<block name="plantedBlueberry1_BU" stage="1" traits="BU">
+	<drop event="Destroy" name="plantedBlueberry1_BU" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedBlueberry1"/>
+	<property name="DescriptionKey" value="plantedBlueberry1_BUDesc"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="Model" value="Entities/Plants/blueberry_plant_sproutPrefab"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedBlueberry2_BU"/>
+	<property name="Shape" value="ModelEntity"/>
+</block>
+<block name="plantedBlueberry2_BU" stage="2" traits="BU">
+	<property name="Extends" value="plantedBlueberry1_BU"/>
+	<property name="Model" value="Entities/Plants/blueberry_plant_growthPrefab"/>
+	<property name="PlantGrowing.Next" value="plantedBlueberry3_BU"/>
+</block>
+<block name="plantedBlueberry3_BU" stage="3" traits="BU">
+	<drop event="Destroy" name="plantedBlueberry1_BU" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="foodCropBlueberries" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="4" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CustomIcon" value="plantedBlueberry1"/>
+	<property name="CustomIconTint" value="ff8080"/>
+	<property name="DescriptionKey" value="plantedBlueberry3_BU"/>
+	<property name="DisplayInfo" value="Name"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_helpers,SC_helperOutdoor"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/blueberry_plant_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	
+</block>
+<block name="plantedBlueberry1_BF" stage="1" traits="BF">
+	<drop event="Destroy" name="plantedBlueberry1_BF" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedBlueberry1"/>
+	<property name="DescriptionKey" value="plantedBlueberry1_BFDesc"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="Model" value="Entities/Plants/blueberry_plant_sproutPrefab"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedBlueberry2_BF"/>
+	<property name="Shape" value="ModelEntity"/>
+</block>
+<block name="plantedBlueberry2_BF" stage="2" traits="BF">
+	<property name="Extends" value="plantedBlueberry1_BF"/>
+	<property name="Model" value="Entities/Plants/blueberry_plant_growthPrefab"/>
+	<property name="PlantGrowing.Next" value="plantedBlueberry3_BF"/>
+</block>
+<block name="plantedBlueberry3_BF" stage="3" traits="BF">
+	<drop event="Destroy" name="plantedBlueberry1_BF" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="foodCropBlueberries" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="4" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CustomIcon" value="plantedBlueberry1"/>
+	<property name="CustomIconTint" value="ff8080"/>
+	<property name="DescriptionKey" value="plantedBlueberry3_BF"/>
+	<property name="DisplayInfo" value="Name"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_helpers,SC_helperOutdoor"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/blueberry_plant_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	
+</block>
+<block name="plantedBlueberry1_BR" stage="1" traits="BR">
+	<drop event="Destroy" name="plantedBlueberry1_BR" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedBlueberry1"/>
+	<property name="DescriptionKey" value="plantedBlueberry1_BRDesc"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="Model" value="Entities/Plants/blueberry_plant_sproutPrefab"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedBlueberry2_BR"/>
+	<property name="Shape" value="ModelEntity"/>
+</block>
+<block name="plantedBlueberry2_BR" stage="2" traits="BR">
+	<property name="Extends" value="plantedBlueberry1_BR"/>
+	<property name="Model" value="Entities/Plants/blueberry_plant_growthPrefab"/>
+	<property name="PlantGrowing.Next" value="plantedBlueberry3_BR"/>
+</block>
+<block name="plantedBlueberry3_BR" stage="3" traits="BR">
+	<drop event="Destroy" name="plantedBlueberry1_BR" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="foodCropBlueberries" count="6" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="3" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CustomIcon" value="plantedBlueberry1"/>
+	<property name="CustomIconTint" value="ff8080"/>
+	<property name="DescriptionKey" value="plantedBlueberry3_BR"/>
+	<property name="DisplayInfo" value="Name"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_helpers,SC_helperOutdoor"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/blueberry_plant_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	<property name="DowngradeBlock" value="plantedBlueberry1_BR" />
+</block>
+<block name="plantedBlueberry1_BT" stage="1" traits="BT">
+	<drop event="Destroy" name="plantedBlueberry1_BT" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedBlueberry1"/>
+	<property name="DescriptionKey" value="plantedBlueberry1_BTDesc"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="Model" value="Entities/Plants/blueberry_plant_sproutPrefab"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedBlueberry2_BT"/>
+	<property name="Shape" value="ModelEntity"/>
+</block>
+<block name="plantedBlueberry2_BT" stage="2" traits="BT">
+	<property name="Extends" value="plantedBlueberry1_BT"/>
+	<property name="Model" value="Entities/Plants/blueberry_plant_growthPrefab"/>
+	<property name="PlantGrowing.Next" value="plantedBlueberry3_BT"/>
+</block>
+<block name="plantedBlueberry3_BT" stage="3" traits="BT">
+	<drop event="Destroy" name="plantedBlueberry1_BT" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="foodCropBlueberries" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="4" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CustomIcon" value="plantedBlueberry1"/>
+	<property name="CustomIconTint" value="ff8080"/>
+	<property name="DescriptionKey" value="plantedBlueberry3_BT"/>
+	<property name="DisplayInfo" value="Name"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_helpers,SC_helperOutdoor"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/blueberry_plant_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	
+</block>
+<block name="plantedBlueberry1_U" stage="1" traits="U">
+	<drop event="Destroy" name="plantedBlueberry1_U" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedBlueberry1"/>
+	<property name="DescriptionKey" value="plantedBlueberry1_UDesc"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="Model" value="Entities/Plants/blueberry_plant_sproutPrefab"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedBlueberry2_U"/>
+	<property name="Shape" value="ModelEntity"/>
+</block>
+<block name="plantedBlueberry2_U" stage="2" traits="U">
+	<property name="Extends" value="plantedBlueberry1_U"/>
+	<property name="Model" value="Entities/Plants/blueberry_plant_growthPrefab"/>
+	<property name="PlantGrowing.Next" value="plantedBlueberry3_U"/>
+</block>
+<block name="plantedBlueberry3_U" stage="3" traits="U">
+	<drop event="Destroy" name="plantedBlueberry1_U" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="foodCropBlueberries" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CustomIcon" value="plantedBlueberry1"/>
+	<property name="CustomIconTint" value="ff8080"/>
+	<property name="DescriptionKey" value="plantedBlueberry3_U"/>
+	<property name="DisplayInfo" value="Name"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_helpers,SC_helperOutdoor"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/blueberry_plant_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	
+</block>
+<block name="plantedBlueberry1_UF" stage="1" traits="UF">
+	<drop event="Destroy" name="plantedBlueberry1_UF" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedBlueberry1"/>
+	<property name="DescriptionKey" value="plantedBlueberry1_UFDesc"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="Model" value="Entities/Plants/blueberry_plant_sproutPrefab"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedBlueberry2_UF"/>
+	<property name="Shape" value="ModelEntity"/>
+</block>
+<block name="plantedBlueberry2_UF" stage="2" traits="UF">
+	<property name="Extends" value="plantedBlueberry1_UF"/>
+	<property name="Model" value="Entities/Plants/blueberry_plant_growthPrefab"/>
+	<property name="PlantGrowing.Next" value="plantedBlueberry3_UF"/>
+</block>
+<block name="plantedBlueberry3_UF" stage="3" traits="UF">
+	<drop event="Destroy" name="plantedBlueberry1_UF" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="foodCropBlueberries" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CustomIcon" value="plantedBlueberry1"/>
+	<property name="CustomIconTint" value="ff8080"/>
+	<property name="DescriptionKey" value="plantedBlueberry3_UF"/>
+	<property name="DisplayInfo" value="Name"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_helpers,SC_helperOutdoor"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/blueberry_plant_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	
+</block>
+<block name="plantedBlueberry1_UE" stage="1" traits="UE">
+	<drop event="Destroy" name="plantedBlueberry1_UE" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedBlueberry1"/>
+	<property name="DescriptionKey" value="plantedBlueberry1_UEDesc"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="Model" value="Entities/Plants/blueberry_plant_sproutPrefab"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedBlueberry2_UE"/>
+	<property name="Shape" value="ModelEntity"/>
+</block>
+<block name="plantedBlueberry2_UE" stage="2" traits="UE">
+	<property name="Extends" value="plantedBlueberry1_UE"/>
+	<property name="Model" value="Entities/Plants/blueberry_plant_growthPrefab"/>
+	<property name="PlantGrowing.Next" value="plantedBlueberry3_UE"/>
+</block>
+<block name="plantedBlueberry3_UE" stage="3" traits="UE">
+	<drop event="Destroy" name="plantedBlueberry1_UE" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="foodCropBlueberries" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CustomIcon" value="plantedBlueberry1"/>
+	<property name="CustomIconTint" value="ff8080"/>
+	<property name="DescriptionKey" value="plantedBlueberry3_UE"/>
+	<property name="DisplayInfo" value="Name"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_helpers,SC_helperOutdoor"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/blueberry_plant_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	
+</block>
+<block name="plantedBlueberry1_UR" stage="1" traits="UR">
+	<drop event="Destroy" name="plantedBlueberry1_UR" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedBlueberry1"/>
+	<property name="DescriptionKey" value="plantedBlueberry1_URDesc"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="Model" value="Entities/Plants/blueberry_plant_sproutPrefab"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedBlueberry2_UR"/>
+	<property name="Shape" value="ModelEntity"/>
+</block>
+<block name="plantedBlueberry2_UR" stage="2" traits="UR">
+	<property name="Extends" value="plantedBlueberry1_UR"/>
+	<property name="Model" value="Entities/Plants/blueberry_plant_growthPrefab"/>
+	<property name="PlantGrowing.Next" value="plantedBlueberry3_UR"/>
+</block>
+<block name="plantedBlueberry3_UR" stage="3" traits="UR">
+	<drop event="Destroy" name="plantedBlueberry1_UR" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="foodCropBlueberries" count="3" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CustomIcon" value="plantedBlueberry1"/>
+	<property name="CustomIconTint" value="ff8080"/>
+	<property name="DescriptionKey" value="plantedBlueberry3_UR"/>
+	<property name="DisplayInfo" value="Name"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_helpers,SC_helperOutdoor"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/blueberry_plant_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	<property name="DowngradeBlock" value="plantedBlueberry1_UR" />
+</block>
+<block name="plantedBlueberry1_UT" stage="1" traits="UT">
+	<drop event="Destroy" name="plantedBlueberry1_UT" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedBlueberry1"/>
+	<property name="DescriptionKey" value="plantedBlueberry1_UTDesc"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="Model" value="Entities/Plants/blueberry_plant_sproutPrefab"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedBlueberry2_UT"/>
+	<property name="Shape" value="ModelEntity"/>
+</block>
+<block name="plantedBlueberry2_UT" stage="2" traits="UT">
+	<property name="Extends" value="plantedBlueberry1_UT"/>
+	<property name="Model" value="Entities/Plants/blueberry_plant_growthPrefab"/>
+	<property name="PlantGrowing.Next" value="plantedBlueberry3_UT"/>
+</block>
+<block name="plantedBlueberry3_UT" stage="3" traits="UT">
+	<drop event="Destroy" name="plantedBlueberry1_UT" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="foodCropBlueberries" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CustomIcon" value="plantedBlueberry1"/>
+	<property name="CustomIconTint" value="ff8080"/>
+	<property name="DescriptionKey" value="plantedBlueberry3_UT"/>
+	<property name="DisplayInfo" value="Name"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_helpers,SC_helperOutdoor"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/blueberry_plant_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	
+</block>
+<block name="plantedBlueberry1_F" stage="1" traits="F">
+	<drop event="Destroy" name="plantedBlueberry1_F" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedBlueberry1"/>
+	<property name="DescriptionKey" value="plantedBlueberry1_FDesc"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="Model" value="Entities/Plants/blueberry_plant_sproutPrefab"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedBlueberry2_F"/>
+	<property name="Shape" value="ModelEntity"/>
+</block>
+<block name="plantedBlueberry2_F" stage="2" traits="F">
+	<property name="Extends" value="plantedBlueberry1_F"/>
+	<property name="Model" value="Entities/Plants/blueberry_plant_growthPrefab"/>
+	<property name="PlantGrowing.Next" value="plantedBlueberry3_F"/>
+</block>
+<block name="plantedBlueberry3_F" stage="3" traits="F">
+	<drop event="Destroy" name="plantedBlueberry1_F" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="foodCropBlueberries" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CustomIcon" value="plantedBlueberry1"/>
+	<property name="CustomIconTint" value="ff8080"/>
+	<property name="DescriptionKey" value="plantedBlueberry3_F"/>
+	<property name="DisplayInfo" value="Name"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_helpers,SC_helperOutdoor"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/blueberry_plant_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	
+</block>
+<block name="plantedBlueberry1_FF" stage="1" traits="FF">
+	<drop event="Destroy" name="plantedBlueberry1_FF" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedBlueberry1"/>
+	<property name="DescriptionKey" value="plantedBlueberry1_FFDesc"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="Model" value="Entities/Plants/blueberry_plant_sproutPrefab"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedBlueberry2_FF"/>
+	<property name="Shape" value="ModelEntity"/>
+</block>
+<block name="plantedBlueberry2_FF" stage="2" traits="FF">
+	<property name="Extends" value="plantedBlueberry1_FF"/>
+	<property name="Model" value="Entities/Plants/blueberry_plant_growthPrefab"/>
+	<property name="PlantGrowing.Next" value="plantedBlueberry3_FF"/>
+</block>
+<block name="plantedBlueberry3_FF" stage="3" traits="FF">
+	<drop event="Destroy" name="plantedBlueberry1_FF" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="foodCropBlueberries" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CustomIcon" value="plantedBlueberry1"/>
+	<property name="CustomIconTint" value="ff8080"/>
+	<property name="DescriptionKey" value="plantedBlueberry3_FF"/>
+	<property name="DisplayInfo" value="Name"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_helpers,SC_helperOutdoor"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/blueberry_plant_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	
+</block>
+<block name="plantedBlueberry1_FE" stage="1" traits="FE">
+	<drop event="Destroy" name="plantedBlueberry1_FE" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedBlueberry1"/>
+	<property name="DescriptionKey" value="plantedBlueberry1_FEDesc"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="Model" value="Entities/Plants/blueberry_plant_sproutPrefab"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedBlueberry2_FE"/>
+	<property name="Shape" value="ModelEntity"/>
+</block>
+<block name="plantedBlueberry2_FE" stage="2" traits="FE">
+	<property name="Extends" value="plantedBlueberry1_FE"/>
+	<property name="Model" value="Entities/Plants/blueberry_plant_growthPrefab"/>
+	<property name="PlantGrowing.Next" value="plantedBlueberry3_FE"/>
+</block>
+<block name="plantedBlueberry3_FE" stage="3" traits="FE">
+	<drop event="Destroy" name="plantedBlueberry1_FE" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="foodCropBlueberries" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CustomIcon" value="plantedBlueberry1"/>
+	<property name="CustomIconTint" value="ff8080"/>
+	<property name="DescriptionKey" value="plantedBlueberry3_FE"/>
+	<property name="DisplayInfo" value="Name"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_helpers,SC_helperOutdoor"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/blueberry_plant_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	
+</block>
+<block name="plantedBlueberry1_FR" stage="1" traits="FR">
+	<drop event="Destroy" name="plantedBlueberry1_FR" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedBlueberry1"/>
+	<property name="DescriptionKey" value="plantedBlueberry1_FRDesc"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="Model" value="Entities/Plants/blueberry_plant_sproutPrefab"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedBlueberry2_FR"/>
+	<property name="Shape" value="ModelEntity"/>
+</block>
+<block name="plantedBlueberry2_FR" stage="2" traits="FR">
+	<property name="Extends" value="plantedBlueberry1_FR"/>
+	<property name="Model" value="Entities/Plants/blueberry_plant_growthPrefab"/>
+	<property name="PlantGrowing.Next" value="plantedBlueberry3_FR"/>
+</block>
+<block name="plantedBlueberry3_FR" stage="3" traits="FR">
+	<drop event="Destroy" name="plantedBlueberry1_FR" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="foodCropBlueberries" count="3" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CustomIcon" value="plantedBlueberry1"/>
+	<property name="CustomIconTint" value="ff8080"/>
+	<property name="DescriptionKey" value="plantedBlueberry3_FR"/>
+	<property name="DisplayInfo" value="Name"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_helpers,SC_helperOutdoor"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/blueberry_plant_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	<property name="DowngradeBlock" value="plantedBlueberry1_FR" />
+</block>
+<block name="plantedBlueberry1_FT" stage="1" traits="FT">
+	<drop event="Destroy" name="plantedBlueberry1_FT" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedBlueberry1"/>
+	<property name="DescriptionKey" value="plantedBlueberry1_FTDesc"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="Model" value="Entities/Plants/blueberry_plant_sproutPrefab"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedBlueberry2_FT"/>
+	<property name="Shape" value="ModelEntity"/>
+</block>
+<block name="plantedBlueberry2_FT" stage="2" traits="FT">
+	<property name="Extends" value="plantedBlueberry1_FT"/>
+	<property name="Model" value="Entities/Plants/blueberry_plant_growthPrefab"/>
+	<property name="PlantGrowing.Next" value="plantedBlueberry3_FT"/>
+</block>
+<block name="plantedBlueberry3_FT" stage="3" traits="FT">
+	<drop event="Destroy" name="plantedBlueberry1_FT" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="foodCropBlueberries" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CustomIcon" value="plantedBlueberry1"/>
+	<property name="CustomIconTint" value="ff8080"/>
+	<property name="DescriptionKey" value="plantedBlueberry3_FT"/>
+	<property name="DisplayInfo" value="Name"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_helpers,SC_helperOutdoor"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/blueberry_plant_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	
+</block>
+<block name="plantedBlueberry1_E" stage="1" traits="E">
+	<drop event="Destroy" name="plantedBlueberry1_E" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedBlueberry1"/>
+	<property name="DescriptionKey" value="plantedBlueberry1_EDesc"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="Model" value="Entities/Plants/blueberry_plant_sproutPrefab"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedBlueberry2_E"/>
+	<property name="Shape" value="ModelEntity"/>
+</block>
+<block name="plantedBlueberry2_E" stage="2" traits="E">
+	<property name="Extends" value="plantedBlueberry1_E"/>
+	<property name="Model" value="Entities/Plants/blueberry_plant_growthPrefab"/>
+	<property name="PlantGrowing.Next" value="plantedBlueberry3_E"/>
+</block>
+<block name="plantedBlueberry3_E" stage="3" traits="E">
+	<drop event="Destroy" name="plantedBlueberry1_E" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="foodCropBlueberries" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CustomIcon" value="plantedBlueberry1"/>
+	<property name="CustomIconTint" value="ff8080"/>
+	<property name="DescriptionKey" value="plantedBlueberry3_E"/>
+	<property name="DisplayInfo" value="Name"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_helpers,SC_helperOutdoor"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/blueberry_plant_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	
+</block>
+<block name="plantedBlueberry1_EE" stage="1" traits="EE">
+	<drop event="Destroy" name="plantedBlueberry1_EE" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedBlueberry1"/>
+	<property name="DescriptionKey" value="plantedBlueberry1_EEDesc"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="Model" value="Entities/Plants/blueberry_plant_sproutPrefab"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedBlueberry2_EE"/>
+	<property name="Shape" value="ModelEntity"/>
+</block>
+<block name="plantedBlueberry2_EE" stage="2" traits="EE">
+	<property name="Extends" value="plantedBlueberry1_EE"/>
+	<property name="Model" value="Entities/Plants/blueberry_plant_growthPrefab"/>
+	<property name="PlantGrowing.Next" value="plantedBlueberry3_EE"/>
+</block>
+<block name="plantedBlueberry3_EE" stage="3" traits="EE">
+	<drop event="Destroy" name="plantedBlueberry1_EE" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="foodCropBlueberries" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CustomIcon" value="plantedBlueberry1"/>
+	<property name="CustomIconTint" value="ff8080"/>
+	<property name="DescriptionKey" value="plantedBlueberry3_EE"/>
+	<property name="DisplayInfo" value="Name"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_helpers,SC_helperOutdoor"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/blueberry_plant_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	
+</block>
+<block name="plantedBlueberry1_ET" stage="1" traits="ET">
+	<drop event="Destroy" name="plantedBlueberry1_ET" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedBlueberry1"/>
+	<property name="DescriptionKey" value="plantedBlueberry1_ETDesc"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="Model" value="Entities/Plants/blueberry_plant_sproutPrefab"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedBlueberry2_ET"/>
+	<property name="Shape" value="ModelEntity"/>
+</block>
+<block name="plantedBlueberry2_ET" stage="2" traits="ET">
+	<property name="Extends" value="plantedBlueberry1_ET"/>
+	<property name="Model" value="Entities/Plants/blueberry_plant_growthPrefab"/>
+	<property name="PlantGrowing.Next" value="plantedBlueberry3_ET"/>
+</block>
+<block name="plantedBlueberry3_ET" stage="3" traits="ET">
+	<drop event="Destroy" name="plantedBlueberry1_ET" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="foodCropBlueberries" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CustomIcon" value="plantedBlueberry1"/>
+	<property name="CustomIconTint" value="ff8080"/>
+	<property name="DescriptionKey" value="plantedBlueberry3_ET"/>
+	<property name="DisplayInfo" value="Name"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_helpers,SC_helperOutdoor"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/blueberry_plant_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	
+</block>
+<block name="plantedBlueberry1_R" stage="1" traits="R">
+	<drop event="Destroy" name="plantedBlueberry1_R" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedBlueberry1"/>
+	<property name="DescriptionKey" value="plantedBlueberry1_RDesc"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="Model" value="Entities/Plants/blueberry_plant_sproutPrefab"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedBlueberry2_R"/>
+	<property name="Shape" value="ModelEntity"/>
+</block>
+<block name="plantedBlueberry2_R" stage="2" traits="R">
+	<property name="Extends" value="plantedBlueberry1_R"/>
+	<property name="Model" value="Entities/Plants/blueberry_plant_growthPrefab"/>
+	<property name="PlantGrowing.Next" value="plantedBlueberry3_R"/>
+</block>
+<block name="plantedBlueberry3_R" stage="3" traits="R">
+	<drop event="Destroy" name="plantedBlueberry1_R" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="foodCropBlueberries" count="3" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CustomIcon" value="plantedBlueberry1"/>
+	<property name="CustomIconTint" value="ff8080"/>
+	<property name="DescriptionKey" value="plantedBlueberry3_R"/>
+	<property name="DisplayInfo" value="Name"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_helpers,SC_helperOutdoor"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/blueberry_plant_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	<property name="DowngradeBlock" value="plantedBlueberry1_R" />
+</block>
+<block name="plantedBlueberry1_RT" stage="1" traits="RT">
+	<drop event="Destroy" name="plantedBlueberry1_RT" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedBlueberry1"/>
+	<property name="DescriptionKey" value="plantedBlueberry1_RTDesc"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="Model" value="Entities/Plants/blueberry_plant_sproutPrefab"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedBlueberry2_RT"/>
+	<property name="Shape" value="ModelEntity"/>
+</block>
+<block name="plantedBlueberry2_RT" stage="2" traits="RT">
+	<property name="Extends" value="plantedBlueberry1_RT"/>
+	<property name="Model" value="Entities/Plants/blueberry_plant_growthPrefab"/>
+	<property name="PlantGrowing.Next" value="plantedBlueberry3_RT"/>
+</block>
+<block name="plantedBlueberry3_RT" stage="3" traits="RT">
+	<drop event="Destroy" name="plantedBlueberry1_RT" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="foodCropBlueberries" count="3" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CustomIcon" value="plantedBlueberry1"/>
+	<property name="CustomIconTint" value="ff8080"/>
+	<property name="DescriptionKey" value="plantedBlueberry3_RT"/>
+	<property name="DisplayInfo" value="Name"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_helpers,SC_helperOutdoor"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/blueberry_plant_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	<property name="DowngradeBlock" value="plantedBlueberry1_RT" />
+</block>
+<block name="plantedBlueberry1_T" stage="1" traits="T">
+	<drop event="Destroy" name="plantedBlueberry1_T" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedBlueberry1"/>
+	<property name="DescriptionKey" value="plantedBlueberry1_TDesc"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="Model" value="Entities/Plants/blueberry_plant_sproutPrefab"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedBlueberry2_T"/>
+	<property name="Shape" value="ModelEntity"/>
+</block>
+<block name="plantedBlueberry2_T" stage="2" traits="T">
+	<property name="Extends" value="plantedBlueberry1_T"/>
+	<property name="Model" value="Entities/Plants/blueberry_plant_growthPrefab"/>
+	<property name="PlantGrowing.Next" value="plantedBlueberry3_T"/>
+</block>
+<block name="plantedBlueberry3_T" stage="3" traits="T">
+	<drop event="Destroy" name="plantedBlueberry1_T" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="foodCropBlueberries" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CustomIcon" value="plantedBlueberry1"/>
+	<property name="CustomIconTint" value="ff8080"/>
+	<property name="DescriptionKey" value="plantedBlueberry3_T"/>
+	<property name="DisplayInfo" value="Name"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_helpers,SC_helperOutdoor"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/blueberry_plant_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	
+</block>
+<block name="plantedBlueberry1_TT" stage="1" traits="TT">
+	<drop event="Destroy" name="plantedBlueberry1_TT" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedBlueberry1"/>
+	<property name="DescriptionKey" value="plantedBlueberry1_TTDesc"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="Model" value="Entities/Plants/blueberry_plant_sproutPrefab"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedBlueberry2_TT"/>
+	<property name="Shape" value="ModelEntity"/>
+</block>
+<block name="plantedBlueberry2_TT" stage="2" traits="TT">
+	<property name="Extends" value="plantedBlueberry1_TT"/>
+	<property name="Model" value="Entities/Plants/blueberry_plant_growthPrefab"/>
+	<property name="PlantGrowing.Next" value="plantedBlueberry3_TT"/>
+</block>
+<block name="plantedBlueberry3_TT" stage="3" traits="TT">
+	<drop event="Destroy" name="plantedBlueberry1_TT" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="foodCropBlueberries" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CustomIcon" value="plantedBlueberry1"/>
+	<property name="CustomIconTint" value="ff8080"/>
+	<property name="DescriptionKey" value="plantedBlueberry3_TT"/>
+	<property name="DisplayInfo" value="Name"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_helpers,SC_helperOutdoor"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/blueberry_plant_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	
+</block>
 <block name="plantedCorn1_" stage="1" traits="">
 	<drop event="Destroy" name="plantedCorn1_" count="1"/>
 	<property name="CreativeMode" value="Player"/>

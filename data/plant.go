@@ -16,7 +16,7 @@ type Plant interface {
 
 var Plants []Plant = []Plant{
 	CreateAloe(),
-	// CreateBlueberry(),
+	CreateBlueberry(),
 	// CreateChrysanthemum(),
 	// CreateCoffee(),
 	CreateCorn(),

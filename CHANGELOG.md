@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - move plant-trait compatibility check to trait
 - fix issue with corn going from stage 2 -> 3
 - add aloe
+- add blueberry
 
 ## [0.2.0] - 2022-05-01
 
