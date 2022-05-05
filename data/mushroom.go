@@ -2,7 +2,6 @@ package data
 
 import (
 	"fmt"
-	"strings"
 )
 
 type Mushroom struct {
@@ -13,7 +12,6 @@ type Mushroom struct {
 	CropYield         int
 	BonusYield        int
 	CraftTime         int
-	incompatible      string
 }
 
 func CreateMushroom() *Mushroom {
@@ -25,31 +23,27 @@ func CreateMushroom() *Mushroom {
 		CropYield:         2,
 		BonusYield:        1,
 		CraftTime:         2,
-		incompatible:      "U",
 	}
 }
 
-func (m *Mushroom) GetName() string {
-	return m.Name
-}
-
-func (m *Mushroom) GetDisplayName() string {
-	return m.DisplayName
+func (m *Mushroom) GetCraftTime() int {
+	return m.CraftTime
 }
 
 func (m *Mushroom) GetDescription() string {
 	return m.Description
 }
 
-func (m *Mushroom) GetPreferredConsumer() string {
-	return m.PreferredConsumer
-}
-func (m *Mushroom) GetCraftTime() int {
-	return m.CraftTime
+func (m *Mushroom) GetDisplayName() string {
+	return m.DisplayName
 }
 
-func (m *Mushroom) IsCompatibleWith(trait rune) bool {
-	return !strings.ContainsRune(m.incompatible, trait)
+func (m *Mushroom) GetName() string {
+	return m.Name
+}
+
+func (m *Mushroom) GetPreferredConsumer() string {
+	return m.PreferredConsumer
 }
 
 func (mushroom *Mushroom) WriteBlockStages(c chan string, traits string) {

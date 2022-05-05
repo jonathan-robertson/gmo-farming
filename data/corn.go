@@ -26,12 +26,8 @@ func CreateCorn() *Corn {
 	}
 }
 
-func (c *Corn) GetName() string {
-	return c.Name
-}
-
-func (c *Corn) GetDisplayName() string {
-	return c.DisplayName
+func (c *Corn) GetCraftTime() int {
+	return c.CraftTime
 }
 
 func (c *Corn) GetDescription() string {
@@ -41,16 +37,16 @@ func (c *Corn) GetDescription() string {
 	return c.Description
 }
 
+func (c *Corn) GetDisplayName() string {
+	return c.DisplayName
+}
+
+func (c *Corn) GetName() string {
+	return c.Name
+}
+
 func (c *Corn) GetPreferredConsumer() string {
 	return c.PreferredConsumer
-}
-
-func (c *Corn) GetCraftTime() int {
-	return c.CraftTime
-}
-
-func (*Corn) IsCompatibleWith(trait rune) bool {
-	return true
 }
 
 func (corn *Corn) WriteBlockStages(c chan string, traits string) {

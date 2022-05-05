@@ -28,12 +28,12 @@ func producePlantRecipes(c chan string) {
 	for _, plant := range data.Plants {
 		producePlantRecipe(c, plant)
 		for i1 := 0; i1 < len(data.Traits); i1++ {
-			if plant.IsCompatibleWith(data.Traits[i1].Code) {
+			if data.Traits[i1].IsCompatibleWithPlant(plant) {
 				producePlantRecipe(c, plant, data.Traits[i1])
 			}
 			for i2 := i1; i2 < len(data.Traits); i2++ {
-				if data.Traits[i1].IsCompatibleWith(data.Traits[i2]) {
-					if plant.IsCompatibleWith(data.Traits[i1].Code) && plant.IsCompatibleWith(data.Traits[i2].Code) {
+				if data.Traits[i1].IsCompatibleWithTrait(data.Traits[i2]) {
+					if data.Traits[i1].IsCompatibleWithPlant(plant) && data.Traits[i2].IsCompatibleWithPlant(plant) {
 						producePlantRecipe(c, plant, data.Traits[i1], data.Traits[i2])
 					}
 				}
