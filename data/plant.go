@@ -22,7 +22,7 @@ var Plants []Plant = []Plant{
 	CreateCoffee(),
 	CreateCorn(),
 	CreateCotton(),
-	// CreateGoldenrod(),
+	CreateGoldenrod(),
 	// CreateGraceCorn(),
 	// CreateHops(),
 	CreateMushroom(),

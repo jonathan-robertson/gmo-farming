@@ -6726,6 +6726,1110 @@
 	<property name="Texture" value="363"/>
 	
 </block>
+<block name="plantedGoldenrod1_" stage="1" traits="">
+	<drop event="Destroy" name="plantedGoldenrod1_" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedGoldenrod1"/>
+	<property name="DescriptionKey" value="plantedGoldenrod1_Desc"/>
+	<property name="Extends" value="cropsGrowingMaster"/>
+	<property name="Group" value="Food/Cooking"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedGoldenrod2_"/>
+	<property name="Texture" value="401"/>
+</block>
+<block name="plantedGoldenrod2_" stage="2" traits="">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="plantedGoldenrod1_"/>
+	<property name="PlantGrowing.Next" value="plantedGoldenrod3_"/>
+	<property name="Texture" value="402"/>
+</block>
+<block name="plantedGoldenrod3_" stage="3" traits="">
+
+	
+	<drop event="Destroy" name="plantedGoldenrod1_" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="resourceCropGoldenrodPlant" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropGoldenrodPlant" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedGoldenrod3HarvestPlayer"/>
+	<property name="DescriptionKey" value="plantedGoldenrod3_"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="BillboardPlant"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="362"/>
+	
+</block>
+<block name="plantedGoldenrod1_B" stage="1" traits="B">
+	<drop event="Destroy" name="plantedGoldenrod1_B" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedGoldenrod1"/>
+	<property name="DescriptionKey" value="plantedGoldenrod1_BDesc"/>
+	<property name="Extends" value="cropsGrowingMaster"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedGoldenrod2_B"/>
+	<property name="Texture" value="401"/>
+</block>
+<block name="plantedGoldenrod2_B" stage="2" traits="B">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="plantedGoldenrod1_B"/>
+	<property name="PlantGrowing.Next" value="plantedGoldenrod3_B"/>
+	<property name="Texture" value="402"/>
+</block>
+<block name="plantedGoldenrod3_B" stage="3" traits="B">
+
+	
+	<drop event="Destroy" name="plantedGoldenrod1_B" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="resourceCropGoldenrodPlant" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropGoldenrodPlant" prob="0.5" count="4" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedGoldenrod3HarvestPlayer"/>
+	<property name="DescriptionKey" value="plantedGoldenrod3_B"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="BillboardPlant"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="362"/>
+	
+</block>
+<block name="plantedGoldenrod1_BB" stage="1" traits="BB">
+	<drop event="Destroy" name="plantedGoldenrod1_BB" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedGoldenrod1"/>
+	<property name="DescriptionKey" value="plantedGoldenrod1_BBDesc"/>
+	<property name="Extends" value="cropsGrowingMaster"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedGoldenrod2_BB"/>
+	<property name="Texture" value="401"/>
+</block>
+<block name="plantedGoldenrod2_BB" stage="2" traits="BB">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="plantedGoldenrod1_BB"/>
+	<property name="PlantGrowing.Next" value="plantedGoldenrod3_BB"/>
+	<property name="Texture" value="402"/>
+</block>
+<block name="plantedGoldenrod3_BB" stage="3" traits="BB">
+
+	
+	<drop event="Destroy" name="plantedGoldenrod1_BB" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="resourceCropGoldenrodPlant" count="16" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropGoldenrodPlant" prob="0.5" count="8" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedGoldenrod3HarvestPlayer"/>
+	<property name="DescriptionKey" value="plantedGoldenrod3_BB"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="BillboardPlant"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="362"/>
+	
+</block>
+<block name="plantedGoldenrod1_BU" stage="1" traits="BU">
+	<drop event="Destroy" name="plantedGoldenrod1_BU" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedGoldenrod1"/>
+	<property name="DescriptionKey" value="plantedGoldenrod1_BUDesc"/>
+	<property name="Extends" value="cropsGrowingMaster"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedGoldenrod2_BU"/>
+	<property name="Texture" value="401"/>
+</block>
+<block name="plantedGoldenrod2_BU" stage="2" traits="BU">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="plantedGoldenrod1_BU"/>
+	<property name="PlantGrowing.Next" value="plantedGoldenrod3_BU"/>
+	<property name="Texture" value="402"/>
+</block>
+<block name="plantedGoldenrod3_BU" stage="3" traits="BU">
+
+	
+	<drop event="Destroy" name="plantedGoldenrod1_BU" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="resourceCropGoldenrodPlant" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropGoldenrodPlant" prob="0.5" count="4" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedGoldenrod3HarvestPlayer"/>
+	<property name="DescriptionKey" value="plantedGoldenrod3_BU"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="BillboardPlant"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="362"/>
+	
+</block>
+<block name="plantedGoldenrod1_BF" stage="1" traits="BF">
+	<drop event="Destroy" name="plantedGoldenrod1_BF" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedGoldenrod1"/>
+	<property name="DescriptionKey" value="plantedGoldenrod1_BFDesc"/>
+	<property name="Extends" value="cropsGrowingMaster"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedGoldenrod2_BF"/>
+	<property name="Texture" value="401"/>
+</block>
+<block name="plantedGoldenrod2_BF" stage="2" traits="BF">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="plantedGoldenrod1_BF"/>
+	<property name="PlantGrowing.Next" value="plantedGoldenrod3_BF"/>
+	<property name="Texture" value="402"/>
+</block>
+<block name="plantedGoldenrod3_BF" stage="3" traits="BF">
+
+	
+	<drop event="Destroy" name="plantedGoldenrod1_BF" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="resourceCropGoldenrodPlant" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropGoldenrodPlant" prob="0.5" count="4" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedGoldenrod3HarvestPlayer"/>
+	<property name="DescriptionKey" value="plantedGoldenrod3_BF"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="BillboardPlant"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="362"/>
+	
+</block>
+<block name="plantedGoldenrod1_BR" stage="1" traits="BR">
+	<drop event="Destroy" name="plantedGoldenrod1_BR" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedGoldenrod1"/>
+	<property name="DescriptionKey" value="plantedGoldenrod1_BRDesc"/>
+	<property name="Extends" value="cropsGrowingMaster"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedGoldenrod2_BR"/>
+	<property name="Texture" value="401"/>
+</block>
+<block name="plantedGoldenrod2_BR" stage="2" traits="BR">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="plantedGoldenrod1_BR"/>
+	<property name="PlantGrowing.Next" value="plantedGoldenrod3_BR"/>
+	<property name="Texture" value="402"/>
+</block>
+<block name="plantedGoldenrod3_BR" stage="3" traits="BR">
+
+	
+	<drop event="Destroy" name="plantedGoldenrod1_BR" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="resourceCropGoldenrodPlant" count="6" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropGoldenrodPlant" prob="0.5" count="3" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedGoldenrod3HarvestPlayer"/>
+	<property name="DescriptionKey" value="plantedGoldenrod3_BR"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="BillboardPlant"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="362"/>
+	<property name="DowngradeBlock" value="plantedGoldenrod1_BR" />
+</block>
+<block name="plantedGoldenrod1_BT" stage="1" traits="BT">
+	<drop event="Destroy" name="plantedGoldenrod1_BT" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedGoldenrod1"/>
+	<property name="DescriptionKey" value="plantedGoldenrod1_BTDesc"/>
+	<property name="Extends" value="cropsGrowingMaster"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedGoldenrod2_BT"/>
+	<property name="Texture" value="401"/>
+</block>
+<block name="plantedGoldenrod2_BT" stage="2" traits="BT">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="plantedGoldenrod1_BT"/>
+	<property name="PlantGrowing.Next" value="plantedGoldenrod3_BT"/>
+	<property name="Texture" value="402"/>
+</block>
+<block name="plantedGoldenrod3_BT" stage="3" traits="BT">
+
+	
+	<drop event="Destroy" name="plantedGoldenrod1_BT" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="resourceCropGoldenrodPlant" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropGoldenrodPlant" prob="0.5" count="4" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedGoldenrod3HarvestPlayer"/>
+	<property name="DescriptionKey" value="plantedGoldenrod3_BT"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="BillboardPlant"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="362"/>
+	
+</block>
+<block name="plantedGoldenrod1_U" stage="1" traits="U">
+	<drop event="Destroy" name="plantedGoldenrod1_U" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedGoldenrod1"/>
+	<property name="DescriptionKey" value="plantedGoldenrod1_UDesc"/>
+	<property name="Extends" value="cropsGrowingMaster"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedGoldenrod2_U"/>
+	<property name="Texture" value="401"/>
+</block>
+<block name="plantedGoldenrod2_U" stage="2" traits="U">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="plantedGoldenrod1_U"/>
+	<property name="PlantGrowing.Next" value="plantedGoldenrod3_U"/>
+	<property name="Texture" value="402"/>
+</block>
+<block name="plantedGoldenrod3_U" stage="3" traits="U">
+
+	
+	<drop event="Destroy" name="plantedGoldenrod1_U" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="resourceCropGoldenrodPlant" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropGoldenrodPlant" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedGoldenrod3HarvestPlayer"/>
+	<property name="DescriptionKey" value="plantedGoldenrod3_U"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="BillboardPlant"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="362"/>
+	
+</block>
+<block name="plantedGoldenrod1_UF" stage="1" traits="UF">
+	<drop event="Destroy" name="plantedGoldenrod1_UF" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedGoldenrod1"/>
+	<property name="DescriptionKey" value="plantedGoldenrod1_UFDesc"/>
+	<property name="Extends" value="cropsGrowingMaster"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedGoldenrod2_UF"/>
+	<property name="Texture" value="401"/>
+</block>
+<block name="plantedGoldenrod2_UF" stage="2" traits="UF">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="plantedGoldenrod1_UF"/>
+	<property name="PlantGrowing.Next" value="plantedGoldenrod3_UF"/>
+	<property name="Texture" value="402"/>
+</block>
+<block name="plantedGoldenrod3_UF" stage="3" traits="UF">
+
+	
+	<drop event="Destroy" name="plantedGoldenrod1_UF" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="resourceCropGoldenrodPlant" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropGoldenrodPlant" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedGoldenrod3HarvestPlayer"/>
+	<property name="DescriptionKey" value="plantedGoldenrod3_UF"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="BillboardPlant"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="362"/>
+	
+</block>
+<block name="plantedGoldenrod1_UE" stage="1" traits="UE">
+	<drop event="Destroy" name="plantedGoldenrod1_UE" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedGoldenrod1"/>
+	<property name="DescriptionKey" value="plantedGoldenrod1_UEDesc"/>
+	<property name="Extends" value="cropsGrowingMaster"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedGoldenrod2_UE"/>
+	<property name="Texture" value="401"/>
+</block>
+<block name="plantedGoldenrod2_UE" stage="2" traits="UE">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="plantedGoldenrod1_UE"/>
+	<property name="PlantGrowing.Next" value="plantedGoldenrod3_UE"/>
+	<property name="Texture" value="402"/>
+</block>
+<block name="plantedGoldenrod3_UE" stage="3" traits="UE">
+
+	
+	<drop event="Destroy" name="plantedGoldenrod1_UE" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="resourceCropGoldenrodPlant" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropGoldenrodPlant" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedGoldenrod3HarvestPlayer"/>
+	<property name="DescriptionKey" value="plantedGoldenrod3_UE"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="BillboardPlant"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="362"/>
+	
+</block>
+<block name="plantedGoldenrod1_UR" stage="1" traits="UR">
+	<drop event="Destroy" name="plantedGoldenrod1_UR" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedGoldenrod1"/>
+	<property name="DescriptionKey" value="plantedGoldenrod1_URDesc"/>
+	<property name="Extends" value="cropsGrowingMaster"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedGoldenrod2_UR"/>
+	<property name="Texture" value="401"/>
+</block>
+<block name="plantedGoldenrod2_UR" stage="2" traits="UR">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="plantedGoldenrod1_UR"/>
+	<property name="PlantGrowing.Next" value="plantedGoldenrod3_UR"/>
+	<property name="Texture" value="402"/>
+</block>
+<block name="plantedGoldenrod3_UR" stage="3" traits="UR">
+
+	
+	<drop event="Destroy" name="plantedGoldenrod1_UR" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="resourceCropGoldenrodPlant" count="3" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropGoldenrodPlant" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedGoldenrod3HarvestPlayer"/>
+	<property name="DescriptionKey" value="plantedGoldenrod3_UR"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="BillboardPlant"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="362"/>
+	<property name="DowngradeBlock" value="plantedGoldenrod1_UR" />
+</block>
+<block name="plantedGoldenrod1_UT" stage="1" traits="UT">
+	<drop event="Destroy" name="plantedGoldenrod1_UT" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedGoldenrod1"/>
+	<property name="DescriptionKey" value="plantedGoldenrod1_UTDesc"/>
+	<property name="Extends" value="cropsGrowingMaster"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedGoldenrod2_UT"/>
+	<property name="Texture" value="401"/>
+</block>
+<block name="plantedGoldenrod2_UT" stage="2" traits="UT">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="plantedGoldenrod1_UT"/>
+	<property name="PlantGrowing.Next" value="plantedGoldenrod3_UT"/>
+	<property name="Texture" value="402"/>
+</block>
+<block name="plantedGoldenrod3_UT" stage="3" traits="UT">
+
+	
+	<drop event="Destroy" name="plantedGoldenrod1_UT" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="resourceCropGoldenrodPlant" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropGoldenrodPlant" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedGoldenrod3HarvestPlayer"/>
+	<property name="DescriptionKey" value="plantedGoldenrod3_UT"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="BillboardPlant"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="362"/>
+	
+</block>
+<block name="plantedGoldenrod1_F" stage="1" traits="F">
+	<drop event="Destroy" name="plantedGoldenrod1_F" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedGoldenrod1"/>
+	<property name="DescriptionKey" value="plantedGoldenrod1_FDesc"/>
+	<property name="Extends" value="cropsGrowingMaster"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedGoldenrod2_F"/>
+	<property name="Texture" value="401"/>
+</block>
+<block name="plantedGoldenrod2_F" stage="2" traits="F">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="plantedGoldenrod1_F"/>
+	<property name="PlantGrowing.Next" value="plantedGoldenrod3_F"/>
+	<property name="Texture" value="402"/>
+</block>
+<block name="plantedGoldenrod3_F" stage="3" traits="F">
+
+	
+	<drop event="Destroy" name="plantedGoldenrod1_F" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="resourceCropGoldenrodPlant" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropGoldenrodPlant" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedGoldenrod3HarvestPlayer"/>
+	<property name="DescriptionKey" value="plantedGoldenrod3_F"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="BillboardPlant"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="362"/>
+	
+</block>
+<block name="plantedGoldenrod1_FF" stage="1" traits="FF">
+	<drop event="Destroy" name="plantedGoldenrod1_FF" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedGoldenrod1"/>
+	<property name="DescriptionKey" value="plantedGoldenrod1_FFDesc"/>
+	<property name="Extends" value="cropsGrowingMaster"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedGoldenrod2_FF"/>
+	<property name="Texture" value="401"/>
+</block>
+<block name="plantedGoldenrod2_FF" stage="2" traits="FF">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="plantedGoldenrod1_FF"/>
+	<property name="PlantGrowing.Next" value="plantedGoldenrod3_FF"/>
+	<property name="Texture" value="402"/>
+</block>
+<block name="plantedGoldenrod3_FF" stage="3" traits="FF">
+
+	
+	<drop event="Destroy" name="plantedGoldenrod1_FF" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="resourceCropGoldenrodPlant" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropGoldenrodPlant" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedGoldenrod3HarvestPlayer"/>
+	<property name="DescriptionKey" value="plantedGoldenrod3_FF"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="BillboardPlant"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="362"/>
+	
+</block>
+<block name="plantedGoldenrod1_FE" stage="1" traits="FE">
+	<drop event="Destroy" name="plantedGoldenrod1_FE" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedGoldenrod1"/>
+	<property name="DescriptionKey" value="plantedGoldenrod1_FEDesc"/>
+	<property name="Extends" value="cropsGrowingMaster"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedGoldenrod2_FE"/>
+	<property name="Texture" value="401"/>
+</block>
+<block name="plantedGoldenrod2_FE" stage="2" traits="FE">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="plantedGoldenrod1_FE"/>
+	<property name="PlantGrowing.Next" value="plantedGoldenrod3_FE"/>
+	<property name="Texture" value="402"/>
+</block>
+<block name="plantedGoldenrod3_FE" stage="3" traits="FE">
+
+	
+	<drop event="Destroy" name="plantedGoldenrod1_FE" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="resourceCropGoldenrodPlant" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropGoldenrodPlant" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedGoldenrod3HarvestPlayer"/>
+	<property name="DescriptionKey" value="plantedGoldenrod3_FE"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="BillboardPlant"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="362"/>
+	
+</block>
+<block name="plantedGoldenrod1_FR" stage="1" traits="FR">
+	<drop event="Destroy" name="plantedGoldenrod1_FR" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedGoldenrod1"/>
+	<property name="DescriptionKey" value="plantedGoldenrod1_FRDesc"/>
+	<property name="Extends" value="cropsGrowingMaster"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedGoldenrod2_FR"/>
+	<property name="Texture" value="401"/>
+</block>
+<block name="plantedGoldenrod2_FR" stage="2" traits="FR">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="plantedGoldenrod1_FR"/>
+	<property name="PlantGrowing.Next" value="plantedGoldenrod3_FR"/>
+	<property name="Texture" value="402"/>
+</block>
+<block name="plantedGoldenrod3_FR" stage="3" traits="FR">
+
+	
+	<drop event="Destroy" name="plantedGoldenrod1_FR" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="resourceCropGoldenrodPlant" count="3" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropGoldenrodPlant" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedGoldenrod3HarvestPlayer"/>
+	<property name="DescriptionKey" value="plantedGoldenrod3_FR"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="BillboardPlant"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="362"/>
+	<property name="DowngradeBlock" value="plantedGoldenrod1_FR" />
+</block>
+<block name="plantedGoldenrod1_FT" stage="1" traits="FT">
+	<drop event="Destroy" name="plantedGoldenrod1_FT" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedGoldenrod1"/>
+	<property name="DescriptionKey" value="plantedGoldenrod1_FTDesc"/>
+	<property name="Extends" value="cropsGrowingMaster"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedGoldenrod2_FT"/>
+	<property name="Texture" value="401"/>
+</block>
+<block name="plantedGoldenrod2_FT" stage="2" traits="FT">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="plantedGoldenrod1_FT"/>
+	<property name="PlantGrowing.Next" value="plantedGoldenrod3_FT"/>
+	<property name="Texture" value="402"/>
+</block>
+<block name="plantedGoldenrod3_FT" stage="3" traits="FT">
+
+	
+	<drop event="Destroy" name="plantedGoldenrod1_FT" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="resourceCropGoldenrodPlant" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropGoldenrodPlant" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedGoldenrod3HarvestPlayer"/>
+	<property name="DescriptionKey" value="plantedGoldenrod3_FT"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="BillboardPlant"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="362"/>
+	
+</block>
+<block name="plantedGoldenrod1_E" stage="1" traits="E">
+	<drop event="Destroy" name="plantedGoldenrod1_E" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedGoldenrod1"/>
+	<property name="DescriptionKey" value="plantedGoldenrod1_EDesc"/>
+	<property name="Extends" value="cropsGrowingMaster"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedGoldenrod2_E"/>
+	<property name="Texture" value="401"/>
+</block>
+<block name="plantedGoldenrod2_E" stage="2" traits="E">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="plantedGoldenrod1_E"/>
+	<property name="PlantGrowing.Next" value="plantedGoldenrod3_E"/>
+	<property name="Texture" value="402"/>
+</block>
+<block name="plantedGoldenrod3_E" stage="3" traits="E">
+
+	
+	<drop event="Destroy" name="plantedGoldenrod1_E" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="resourceCropGoldenrodPlant" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropGoldenrodPlant" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedGoldenrod3HarvestPlayer"/>
+	<property name="DescriptionKey" value="plantedGoldenrod3_E"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="BillboardPlant"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="362"/>
+	
+</block>
+<block name="plantedGoldenrod1_EE" stage="1" traits="EE">
+	<drop event="Destroy" name="plantedGoldenrod1_EE" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedGoldenrod1"/>
+	<property name="DescriptionKey" value="plantedGoldenrod1_EEDesc"/>
+	<property name="Extends" value="cropsGrowingMaster"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedGoldenrod2_EE"/>
+	<property name="Texture" value="401"/>
+</block>
+<block name="plantedGoldenrod2_EE" stage="2" traits="EE">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="plantedGoldenrod1_EE"/>
+	<property name="PlantGrowing.Next" value="plantedGoldenrod3_EE"/>
+	<property name="Texture" value="402"/>
+</block>
+<block name="plantedGoldenrod3_EE" stage="3" traits="EE">
+
+	
+	<drop event="Destroy" name="plantedGoldenrod1_EE" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="resourceCropGoldenrodPlant" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropGoldenrodPlant" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedGoldenrod3HarvestPlayer"/>
+	<property name="DescriptionKey" value="plantedGoldenrod3_EE"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="BillboardPlant"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="362"/>
+	
+</block>
+<block name="plantedGoldenrod1_ET" stage="1" traits="ET">
+	<drop event="Destroy" name="plantedGoldenrod1_ET" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedGoldenrod1"/>
+	<property name="DescriptionKey" value="plantedGoldenrod1_ETDesc"/>
+	<property name="Extends" value="cropsGrowingMaster"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedGoldenrod2_ET"/>
+	<property name="Texture" value="401"/>
+</block>
+<block name="plantedGoldenrod2_ET" stage="2" traits="ET">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="plantedGoldenrod1_ET"/>
+	<property name="PlantGrowing.Next" value="plantedGoldenrod3_ET"/>
+	<property name="Texture" value="402"/>
+</block>
+<block name="plantedGoldenrod3_ET" stage="3" traits="ET">
+
+	
+	<drop event="Destroy" name="plantedGoldenrod1_ET" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="resourceCropGoldenrodPlant" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropGoldenrodPlant" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedGoldenrod3HarvestPlayer"/>
+	<property name="DescriptionKey" value="plantedGoldenrod3_ET"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="BillboardPlant"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="362"/>
+	
+</block>
+<block name="plantedGoldenrod1_R" stage="1" traits="R">
+	<drop event="Destroy" name="plantedGoldenrod1_R" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedGoldenrod1"/>
+	<property name="DescriptionKey" value="plantedGoldenrod1_RDesc"/>
+	<property name="Extends" value="cropsGrowingMaster"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedGoldenrod2_R"/>
+	<property name="Texture" value="401"/>
+</block>
+<block name="plantedGoldenrod2_R" stage="2" traits="R">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="plantedGoldenrod1_R"/>
+	<property name="PlantGrowing.Next" value="plantedGoldenrod3_R"/>
+	<property name="Texture" value="402"/>
+</block>
+<block name="plantedGoldenrod3_R" stage="3" traits="R">
+
+	
+	<drop event="Destroy" name="plantedGoldenrod1_R" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="resourceCropGoldenrodPlant" count="3" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropGoldenrodPlant" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedGoldenrod3HarvestPlayer"/>
+	<property name="DescriptionKey" value="plantedGoldenrod3_R"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="BillboardPlant"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="362"/>
+	<property name="DowngradeBlock" value="plantedGoldenrod1_R" />
+</block>
+<block name="plantedGoldenrod1_RT" stage="1" traits="RT">
+	<drop event="Destroy" name="plantedGoldenrod1_RT" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedGoldenrod1"/>
+	<property name="DescriptionKey" value="plantedGoldenrod1_RTDesc"/>
+	<property name="Extends" value="cropsGrowingMaster"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedGoldenrod2_RT"/>
+	<property name="Texture" value="401"/>
+</block>
+<block name="plantedGoldenrod2_RT" stage="2" traits="RT">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="plantedGoldenrod1_RT"/>
+	<property name="PlantGrowing.Next" value="plantedGoldenrod3_RT"/>
+	<property name="Texture" value="402"/>
+</block>
+<block name="plantedGoldenrod3_RT" stage="3" traits="RT">
+
+	
+	<drop event="Destroy" name="plantedGoldenrod1_RT" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="resourceCropGoldenrodPlant" count="3" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropGoldenrodPlant" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedGoldenrod3HarvestPlayer"/>
+	<property name="DescriptionKey" value="plantedGoldenrod3_RT"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="BillboardPlant"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="362"/>
+	<property name="DowngradeBlock" value="plantedGoldenrod1_RT" />
+</block>
+<block name="plantedGoldenrod1_T" stage="1" traits="T">
+	<drop event="Destroy" name="plantedGoldenrod1_T" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedGoldenrod1"/>
+	<property name="DescriptionKey" value="plantedGoldenrod1_TDesc"/>
+	<property name="Extends" value="cropsGrowingMaster"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedGoldenrod2_T"/>
+	<property name="Texture" value="401"/>
+</block>
+<block name="plantedGoldenrod2_T" stage="2" traits="T">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="plantedGoldenrod1_T"/>
+	<property name="PlantGrowing.Next" value="plantedGoldenrod3_T"/>
+	<property name="Texture" value="402"/>
+</block>
+<block name="plantedGoldenrod3_T" stage="3" traits="T">
+
+	
+	<drop event="Destroy" name="plantedGoldenrod1_T" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="resourceCropGoldenrodPlant" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropGoldenrodPlant" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedGoldenrod3HarvestPlayer"/>
+	<property name="DescriptionKey" value="plantedGoldenrod3_T"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="BillboardPlant"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="362"/>
+	
+</block>
+<block name="plantedGoldenrod1_TT" stage="1" traits="TT">
+	<drop event="Destroy" name="plantedGoldenrod1_TT" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedGoldenrod1"/>
+	<property name="DescriptionKey" value="plantedGoldenrod1_TTDesc"/>
+	<property name="Extends" value="cropsGrowingMaster"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedGoldenrod2_TT"/>
+	<property name="Texture" value="401"/>
+</block>
+<block name="plantedGoldenrod2_TT" stage="2" traits="TT">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="plantedGoldenrod1_TT"/>
+	<property name="PlantGrowing.Next" value="plantedGoldenrod3_TT"/>
+	<property name="Texture" value="402"/>
+</block>
+<block name="plantedGoldenrod3_TT" stage="3" traits="TT">
+
+	
+	<drop event="Destroy" name="plantedGoldenrod1_TT" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="resourceCropGoldenrodPlant" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropGoldenrodPlant" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedGoldenrod3HarvestPlayer"/>
+	<property name="DescriptionKey" value="plantedGoldenrod3_TT"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="BillboardPlant"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="362"/>
+	
+</block>
 <block name="plantedMushroom1_" stage="1" traits="">
 	<drop event="Destroy" name="plantedMushroom1_" count="1"/>
 	<property name="Collide" value="melee"/>
