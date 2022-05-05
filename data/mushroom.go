@@ -26,30 +26,30 @@ func CreateMushroom() *Mushroom {
 	}
 }
 
-func (m *Mushroom) GetCraftTime() int {
-	return m.CraftTime
+func (p *Mushroom) GetCraftTime() int {
+	return p.CraftTime
 }
 
-func (m *Mushroom) GetDescription() string {
-	return m.Description
+func (p *Mushroom) GetDescription() string {
+	return p.Description
 }
 
-func (m *Mushroom) GetDisplayName() string {
-	return m.DisplayName
+func (p *Mushroom) GetDisplayName() string {
+	return p.DisplayName
 }
 
-func (m *Mushroom) GetName() string {
-	return m.Name
+func (p *Mushroom) GetName() string {
+	return p.Name
 }
 
-func (m *Mushroom) GetPreferredConsumer() string {
-	return m.PreferredConsumer
+func (p *Mushroom) GetPreferredConsumer() string {
+	return p.PreferredConsumer
 }
 
-func (mushroom *Mushroom) WriteBlockStages(c chan string, traits string) {
-	mushroom.WriteStage1(c, traits)
-	mushroom.WriteStage2(c, traits)
-	mushroom.WriteStage3(c, traits)
+func (p *Mushroom) WriteBlockStages(c chan string, traits string) {
+	p.WriteStage1(c, traits)
+	p.WriteStage2(c, traits)
+	p.WriteStage3(c, traits)
 }
 
 // TODO: <property name="UnlockedBy" value="perkLivingOffTheLand,plantedMushroom1Schematic"/>
@@ -92,7 +92,7 @@ func (*Mushroom) WriteStage2(c chan string, traits string) {
 	// TODO: <property name="CreativeMode" value="None"/>
 }
 
-func (mushroom *Mushroom) WriteStage3(c chan string, traits string) {
+func (p *Mushroom) WriteStage3(c chan string, traits string) {
 	c <- fmt.Sprintf(`<block name="plantedMushroom3_%s" stage="3" traits="%s">
 	<drop event="Destroy" name="plantedMushroom1_%s" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
@@ -119,9 +119,9 @@ func (mushroom *Mushroom) WriteStage3(c chan string, traits string) {
 		traits,
 		traits,
 		traits,
-		calculateCropYield(mushroom.CropYield, traits),
-		calculateBonusYield(mushroom.BonusYield, traits),
+		calculateCropYield(p.CropYield, traits),
+		calculateBonusYield(p.BonusYield, traits),
 		traits,
-		optionallyAddRenewable(traits, mushroom))
+		optionallyAddRenewable(traits, p))
 	// TODO: <property name="CreativeMode" value="None"/>
 }

@@ -24,30 +24,30 @@ func CreateAloe() *Aloe {
 	}
 }
 
-func (a *Aloe) GetCraftTime() int {
-	return a.CraftTime
+func (p Aloe) GetCraftTime() int {
+	return p.CraftTime
 }
 
-func (a *Aloe) GetDescription() string {
-	return a.Description
+func (p Aloe) GetDescription() string {
+	return p.Description
 }
 
-func (a *Aloe) GetDisplayName() string {
-	return a.DisplayName
+func (p Aloe) GetDisplayName() string {
+	return p.DisplayName
 }
 
-func (a *Aloe) GetName() string {
-	return a.Name
+func (p Aloe) GetName() string {
+	return p.Name
 }
 
-func (a *Aloe) GetPreferredConsumer() string {
-	return a.PreferredConsumer
+func (p Aloe) GetPreferredConsumer() string {
+	return p.PreferredConsumer
 }
 
-func (aloe *Aloe) WriteBlockStages(c chan string, traits string) {
-	aloe.WriteStage1(c, traits)
-	aloe.WriteStage2(c, traits)
-	aloe.WriteStage3(c, traits)
+func (p *Aloe) WriteBlockStages(c chan string, traits string) {
+	p.WriteStage1(c, traits)
+	p.WriteStage2(c, traits)
+	p.WriteStage3(c, traits)
 }
 
 // TODO: <property name="UnlockedBy" value="perkLivingOffTheLand,plantedAloe1Schematic"/>
@@ -77,7 +77,7 @@ func (*Aloe) WriteStage2(c chan string, traits string) {
 }
 
 // TODO: <property name="CreativeMode" value="None"/>
-func (aloe *Aloe) WriteStage3(c chan string, traits string) {
+func (p *Aloe) WriteStage3(c chan string, traits string) {
 	c <- fmt.Sprintf(`<block name="plantedAloe3_%s" stage="3" traits="%s">
 	<drop event="Destroy" name="plantedCorn1_%s" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
@@ -107,8 +107,8 @@ func (aloe *Aloe) WriteStage3(c chan string, traits string) {
 		traits,
 		traits,
 		traits,
-		calculateCropYield(aloe.CropYield, traits),
-		calculateBonusYield(aloe.BonusYield, traits),
+		calculateCropYield(p.CropYield, traits),
+		calculateBonusYield(p.BonusYield, traits),
 		traits,
-		optionallyAddRenewable(traits, aloe))
+		optionallyAddRenewable(traits, p))
 }

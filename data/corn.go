@@ -26,33 +26,33 @@ func CreateCorn() *Corn {
 	}
 }
 
-func (c *Corn) GetCraftTime() int {
-	return c.CraftTime
+func (p *Corn) GetCraftTime() int {
+	return p.CraftTime
 }
 
-func (c *Corn) GetDescription() string {
-	if c.Description == "" {
+func (p *Corn) GetDescription() string {
+	if p.Description == "" {
 		return getDefaultSeedDescription()
 	}
-	return c.Description
+	return p.Description
 }
 
-func (c *Corn) GetDisplayName() string {
-	return c.DisplayName
+func (p *Corn) GetDisplayName() string {
+	return p.DisplayName
 }
 
-func (c *Corn) GetName() string {
-	return c.Name
+func (p *Corn) GetName() string {
+	return p.Name
 }
 
-func (c *Corn) GetPreferredConsumer() string {
-	return c.PreferredConsumer
+func (p *Corn) GetPreferredConsumer() string {
+	return p.PreferredConsumer
 }
 
-func (corn *Corn) WriteBlockStages(c chan string, traits string) {
-	corn.WriteStage1(c, traits)
-	corn.WriteStage2(c, traits)
-	corn.WriteStage3(c, traits)
+func (p *Corn) WriteBlockStages(c chan string, traits string) {
+	p.WriteStage1(c, traits)
+	p.WriteStage2(c, traits)
+	p.WriteStage3(c, traits)
 }
 
 // TODO: <property name="UnlockedBy" value="perkLivingOffTheLand,plantedCorn1Schematic"/>
@@ -90,7 +90,7 @@ func (*Corn) WriteStage2(c chan string, traits string) {
 	// TODO: <property name="CreativeMode" value="None"/>
 }
 
-func (corn *Corn) WriteStage3(c chan string, traits string) {
+func (p *Corn) WriteStage3(c chan string, traits string) {
 	c <- fmt.Sprintf(`<block name="plantedCorn3_%s" stage="3" traits="%s">
 	<drop event="Destroy" count="0"/>
 	<drop event="Destroy" name="plantedCorn1_%s" count="1" prob="0.5"/>
@@ -121,9 +121,9 @@ func (corn *Corn) WriteStage3(c chan string, traits string) {
 		traits,
 		traits,
 		traits,
-		calculateCropYield(corn.CropYield, traits),
-		calculateBonusYield(corn.BonusYield, traits),
+		calculateCropYield(p.CropYield, traits),
+		calculateBonusYield(p.BonusYield, traits),
 		traits,
-		optionallyAddRenewable(traits, corn))
+		optionallyAddRenewable(traits, p))
 	// TODO: <property name="CreativeMode" value="None"/>
 }
