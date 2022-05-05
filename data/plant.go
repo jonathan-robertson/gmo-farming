@@ -26,7 +26,7 @@ var Plants []Plant = []Plant{
 	CreateGraceCorn(),
 	CreateHop(),
 	CreateMushroom(),
-	// CreatePotato(),
+	CreatePotato(),
 	// CreatePumpkin(),
 	// CreateYucca(),
 }

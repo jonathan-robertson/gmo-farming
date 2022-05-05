@@ -11136,6 +11136,1134 @@
 	<property name="VehicleHitScale" value=".1"/>
 	
 </block>
+<block name="plantedPotato1_" stage="1" traits="">
+	<drop event="Destroy" name="plantedPotato1_" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedPotato1"/>
+	<property name="DescriptionKey" value="plantedPotato1_"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="Food/Cooking"/>
+	<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedPotato2_"/>
+	<property name="Shape" value="ModelEntity"/>
+</block>
+<block name="plantedPotato2_" stage="2" traits="">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="plantedPotato1_"/>
+	<property name="Model" value="Entities/Plants/potato_plant_growthPrefab"/>
+	<property name="PlantGrowing.Next" value="plantedPotato3_"/>
+</block>
+<block name="plantedPotato3_" stage="3" traits="">
+	<drop event="Destroy" name="plantedPotato1_" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="foodCropPotato" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropPotato" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedPotato1"/>
+	<property name="DescriptionKey" value="plantedPotato3_"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="Extends" value="cropsHarvestableMaster"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	
+</block>
+<block name="plantedPotato1_B" stage="1" traits="B">
+	<drop event="Destroy" name="plantedPotato1_B" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedPotato1"/>
+	<property name="DescriptionKey" value="plantedPotato1_B"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedPotato2_B"/>
+	<property name="Shape" value="ModelEntity"/>
+</block>
+<block name="plantedPotato2_B" stage="2" traits="B">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="plantedPotato1_B"/>
+	<property name="Model" value="Entities/Plants/potato_plant_growthPrefab"/>
+	<property name="PlantGrowing.Next" value="plantedPotato3_B"/>
+</block>
+<block name="plantedPotato3_B" stage="3" traits="B">
+	<drop event="Destroy" name="plantedPotato1_B" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="foodCropPotato" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropPotato" prob="0.5" count="4" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedPotato1"/>
+	<property name="DescriptionKey" value="plantedPotato3_B"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="Extends" value="cropsHarvestableMaster"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	
+</block>
+<block name="plantedPotato1_BB" stage="1" traits="BB">
+	<drop event="Destroy" name="plantedPotato1_BB" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedPotato1"/>
+	<property name="DescriptionKey" value="plantedPotato1_BB"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedPotato2_BB"/>
+	<property name="Shape" value="ModelEntity"/>
+</block>
+<block name="plantedPotato2_BB" stage="2" traits="BB">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="plantedPotato1_BB"/>
+	<property name="Model" value="Entities/Plants/potato_plant_growthPrefab"/>
+	<property name="PlantGrowing.Next" value="plantedPotato3_BB"/>
+</block>
+<block name="plantedPotato3_BB" stage="3" traits="BB">
+	<drop event="Destroy" name="plantedPotato1_BB" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="foodCropPotato" count="16" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropPotato" prob="0.5" count="8" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedPotato1"/>
+	<property name="DescriptionKey" value="plantedPotato3_BB"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="Extends" value="cropsHarvestableMaster"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	
+</block>
+<block name="plantedPotato1_BU" stage="1" traits="BU">
+	<drop event="Destroy" name="plantedPotato1_BU" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedPotato1"/>
+	<property name="DescriptionKey" value="plantedPotato1_BU"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedPotato2_BU"/>
+	<property name="Shape" value="ModelEntity"/>
+</block>
+<block name="plantedPotato2_BU" stage="2" traits="BU">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="plantedPotato1_BU"/>
+	<property name="Model" value="Entities/Plants/potato_plant_growthPrefab"/>
+	<property name="PlantGrowing.Next" value="plantedPotato3_BU"/>
+</block>
+<block name="plantedPotato3_BU" stage="3" traits="BU">
+	<drop event="Destroy" name="plantedPotato1_BU" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="foodCropPotato" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropPotato" prob="0.5" count="4" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedPotato1"/>
+	<property name="DescriptionKey" value="plantedPotato3_BU"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="Extends" value="cropsHarvestableMaster"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	
+</block>
+<block name="plantedPotato1_BF" stage="1" traits="BF">
+	<drop event="Destroy" name="plantedPotato1_BF" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedPotato1"/>
+	<property name="DescriptionKey" value="plantedPotato1_BF"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedPotato2_BF"/>
+	<property name="Shape" value="ModelEntity"/>
+</block>
+<block name="plantedPotato2_BF" stage="2" traits="BF">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="plantedPotato1_BF"/>
+	<property name="Model" value="Entities/Plants/potato_plant_growthPrefab"/>
+	<property name="PlantGrowing.Next" value="plantedPotato3_BF"/>
+</block>
+<block name="plantedPotato3_BF" stage="3" traits="BF">
+	<drop event="Destroy" name="plantedPotato1_BF" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="foodCropPotato" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropPotato" prob="0.5" count="4" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedPotato1"/>
+	<property name="DescriptionKey" value="plantedPotato3_BF"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="Extends" value="cropsHarvestableMaster"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	
+</block>
+<block name="plantedPotato1_BR" stage="1" traits="BR">
+	<drop event="Destroy" name="plantedPotato1_BR" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedPotato1"/>
+	<property name="DescriptionKey" value="plantedPotato1_BR"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedPotato2_BR"/>
+	<property name="Shape" value="ModelEntity"/>
+</block>
+<block name="plantedPotato2_BR" stage="2" traits="BR">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="plantedPotato1_BR"/>
+	<property name="Model" value="Entities/Plants/potato_plant_growthPrefab"/>
+	<property name="PlantGrowing.Next" value="plantedPotato3_BR"/>
+</block>
+<block name="plantedPotato3_BR" stage="3" traits="BR">
+	<drop event="Destroy" name="plantedPotato1_BR" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="foodCropPotato" count="6" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropPotato" prob="0.5" count="3" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedPotato1"/>
+	<property name="DescriptionKey" value="plantedPotato3_BR"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="Extends" value="cropsHarvestableMaster"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	<property name="DowngradeBlock" value="plantedPotato1_BR" />
+</block>
+<block name="plantedPotato1_BT" stage="1" traits="BT">
+	<drop event="Destroy" name="plantedPotato1_BT" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedPotato1"/>
+	<property name="DescriptionKey" value="plantedPotato1_BT"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedPotato2_BT"/>
+	<property name="Shape" value="ModelEntity"/>
+</block>
+<block name="plantedPotato2_BT" stage="2" traits="BT">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="plantedPotato1_BT"/>
+	<property name="Model" value="Entities/Plants/potato_plant_growthPrefab"/>
+	<property name="PlantGrowing.Next" value="plantedPotato3_BT"/>
+</block>
+<block name="plantedPotato3_BT" stage="3" traits="BT">
+	<drop event="Destroy" name="plantedPotato1_BT" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="foodCropPotato" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropPotato" prob="0.5" count="4" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedPotato1"/>
+	<property name="DescriptionKey" value="plantedPotato3_BT"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="Extends" value="cropsHarvestableMaster"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	
+</block>
+<block name="plantedPotato1_U" stage="1" traits="U">
+	<drop event="Destroy" name="plantedPotato1_U" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedPotato1"/>
+	<property name="DescriptionKey" value="plantedPotato1_U"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedPotato2_U"/>
+	<property name="Shape" value="ModelEntity"/>
+</block>
+<block name="plantedPotato2_U" stage="2" traits="U">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="plantedPotato1_U"/>
+	<property name="Model" value="Entities/Plants/potato_plant_growthPrefab"/>
+	<property name="PlantGrowing.Next" value="plantedPotato3_U"/>
+</block>
+<block name="plantedPotato3_U" stage="3" traits="U">
+	<drop event="Destroy" name="plantedPotato1_U" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="foodCropPotato" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropPotato" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedPotato1"/>
+	<property name="DescriptionKey" value="plantedPotato3_U"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="Extends" value="cropsHarvestableMaster"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	
+</block>
+<block name="plantedPotato1_UF" stage="1" traits="UF">
+	<drop event="Destroy" name="plantedPotato1_UF" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedPotato1"/>
+	<property name="DescriptionKey" value="plantedPotato1_UF"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedPotato2_UF"/>
+	<property name="Shape" value="ModelEntity"/>
+</block>
+<block name="plantedPotato2_UF" stage="2" traits="UF">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="plantedPotato1_UF"/>
+	<property name="Model" value="Entities/Plants/potato_plant_growthPrefab"/>
+	<property name="PlantGrowing.Next" value="plantedPotato3_UF"/>
+</block>
+<block name="plantedPotato3_UF" stage="3" traits="UF">
+	<drop event="Destroy" name="plantedPotato1_UF" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="foodCropPotato" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropPotato" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedPotato1"/>
+	<property name="DescriptionKey" value="plantedPotato3_UF"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="Extends" value="cropsHarvestableMaster"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	
+</block>
+<block name="plantedPotato1_UE" stage="1" traits="UE">
+	<drop event="Destroy" name="plantedPotato1_UE" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedPotato1"/>
+	<property name="DescriptionKey" value="plantedPotato1_UE"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedPotato2_UE"/>
+	<property name="Shape" value="ModelEntity"/>
+</block>
+<block name="plantedPotato2_UE" stage="2" traits="UE">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="plantedPotato1_UE"/>
+	<property name="Model" value="Entities/Plants/potato_plant_growthPrefab"/>
+	<property name="PlantGrowing.Next" value="plantedPotato3_UE"/>
+</block>
+<block name="plantedPotato3_UE" stage="3" traits="UE">
+	<drop event="Destroy" name="plantedPotato1_UE" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="foodCropPotato" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropPotato" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedPotato1"/>
+	<property name="DescriptionKey" value="plantedPotato3_UE"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="Extends" value="cropsHarvestableMaster"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	
+</block>
+<block name="plantedPotato1_UR" stage="1" traits="UR">
+	<drop event="Destroy" name="plantedPotato1_UR" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedPotato1"/>
+	<property name="DescriptionKey" value="plantedPotato1_UR"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedPotato2_UR"/>
+	<property name="Shape" value="ModelEntity"/>
+</block>
+<block name="plantedPotato2_UR" stage="2" traits="UR">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="plantedPotato1_UR"/>
+	<property name="Model" value="Entities/Plants/potato_plant_growthPrefab"/>
+	<property name="PlantGrowing.Next" value="plantedPotato3_UR"/>
+</block>
+<block name="plantedPotato3_UR" stage="3" traits="UR">
+	<drop event="Destroy" name="plantedPotato1_UR" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="foodCropPotato" count="3" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropPotato" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedPotato1"/>
+	<property name="DescriptionKey" value="plantedPotato3_UR"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="Extends" value="cropsHarvestableMaster"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	<property name="DowngradeBlock" value="plantedPotato1_UR" />
+</block>
+<block name="plantedPotato1_UT" stage="1" traits="UT">
+	<drop event="Destroy" name="plantedPotato1_UT" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedPotato1"/>
+	<property name="DescriptionKey" value="plantedPotato1_UT"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedPotato2_UT"/>
+	<property name="Shape" value="ModelEntity"/>
+</block>
+<block name="plantedPotato2_UT" stage="2" traits="UT">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="plantedPotato1_UT"/>
+	<property name="Model" value="Entities/Plants/potato_plant_growthPrefab"/>
+	<property name="PlantGrowing.Next" value="plantedPotato3_UT"/>
+</block>
+<block name="plantedPotato3_UT" stage="3" traits="UT">
+	<drop event="Destroy" name="plantedPotato1_UT" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="foodCropPotato" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropPotato" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedPotato1"/>
+	<property name="DescriptionKey" value="plantedPotato3_UT"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="Extends" value="cropsHarvestableMaster"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	
+</block>
+<block name="plantedPotato1_F" stage="1" traits="F">
+	<drop event="Destroy" name="plantedPotato1_F" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedPotato1"/>
+	<property name="DescriptionKey" value="plantedPotato1_F"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedPotato2_F"/>
+	<property name="Shape" value="ModelEntity"/>
+</block>
+<block name="plantedPotato2_F" stage="2" traits="F">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="plantedPotato1_F"/>
+	<property name="Model" value="Entities/Plants/potato_plant_growthPrefab"/>
+	<property name="PlantGrowing.Next" value="plantedPotato3_F"/>
+</block>
+<block name="plantedPotato3_F" stage="3" traits="F">
+	<drop event="Destroy" name="plantedPotato1_F" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="foodCropPotato" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropPotato" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedPotato1"/>
+	<property name="DescriptionKey" value="plantedPotato3_F"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="Extends" value="cropsHarvestableMaster"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	
+</block>
+<block name="plantedPotato1_FF" stage="1" traits="FF">
+	<drop event="Destroy" name="plantedPotato1_FF" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedPotato1"/>
+	<property name="DescriptionKey" value="plantedPotato1_FF"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedPotato2_FF"/>
+	<property name="Shape" value="ModelEntity"/>
+</block>
+<block name="plantedPotato2_FF" stage="2" traits="FF">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="plantedPotato1_FF"/>
+	<property name="Model" value="Entities/Plants/potato_plant_growthPrefab"/>
+	<property name="PlantGrowing.Next" value="plantedPotato3_FF"/>
+</block>
+<block name="plantedPotato3_FF" stage="3" traits="FF">
+	<drop event="Destroy" name="plantedPotato1_FF" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="foodCropPotato" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropPotato" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedPotato1"/>
+	<property name="DescriptionKey" value="plantedPotato3_FF"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="Extends" value="cropsHarvestableMaster"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	
+</block>
+<block name="plantedPotato1_FE" stage="1" traits="FE">
+	<drop event="Destroy" name="plantedPotato1_FE" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedPotato1"/>
+	<property name="DescriptionKey" value="plantedPotato1_FE"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedPotato2_FE"/>
+	<property name="Shape" value="ModelEntity"/>
+</block>
+<block name="plantedPotato2_FE" stage="2" traits="FE">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="plantedPotato1_FE"/>
+	<property name="Model" value="Entities/Plants/potato_plant_growthPrefab"/>
+	<property name="PlantGrowing.Next" value="plantedPotato3_FE"/>
+</block>
+<block name="plantedPotato3_FE" stage="3" traits="FE">
+	<drop event="Destroy" name="plantedPotato1_FE" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="foodCropPotato" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropPotato" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedPotato1"/>
+	<property name="DescriptionKey" value="plantedPotato3_FE"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="Extends" value="cropsHarvestableMaster"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	
+</block>
+<block name="plantedPotato1_FR" stage="1" traits="FR">
+	<drop event="Destroy" name="plantedPotato1_FR" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedPotato1"/>
+	<property name="DescriptionKey" value="plantedPotato1_FR"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedPotato2_FR"/>
+	<property name="Shape" value="ModelEntity"/>
+</block>
+<block name="plantedPotato2_FR" stage="2" traits="FR">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="plantedPotato1_FR"/>
+	<property name="Model" value="Entities/Plants/potato_plant_growthPrefab"/>
+	<property name="PlantGrowing.Next" value="plantedPotato3_FR"/>
+</block>
+<block name="plantedPotato3_FR" stage="3" traits="FR">
+	<drop event="Destroy" name="plantedPotato1_FR" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="foodCropPotato" count="3" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropPotato" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedPotato1"/>
+	<property name="DescriptionKey" value="plantedPotato3_FR"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="Extends" value="cropsHarvestableMaster"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	<property name="DowngradeBlock" value="plantedPotato1_FR" />
+</block>
+<block name="plantedPotato1_FT" stage="1" traits="FT">
+	<drop event="Destroy" name="plantedPotato1_FT" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedPotato1"/>
+	<property name="DescriptionKey" value="plantedPotato1_FT"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedPotato2_FT"/>
+	<property name="Shape" value="ModelEntity"/>
+</block>
+<block name="plantedPotato2_FT" stage="2" traits="FT">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="plantedPotato1_FT"/>
+	<property name="Model" value="Entities/Plants/potato_plant_growthPrefab"/>
+	<property name="PlantGrowing.Next" value="plantedPotato3_FT"/>
+</block>
+<block name="plantedPotato3_FT" stage="3" traits="FT">
+	<drop event="Destroy" name="plantedPotato1_FT" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="foodCropPotato" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropPotato" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedPotato1"/>
+	<property name="DescriptionKey" value="plantedPotato3_FT"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="Extends" value="cropsHarvestableMaster"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	
+</block>
+<block name="plantedPotato1_E" stage="1" traits="E">
+	<drop event="Destroy" name="plantedPotato1_E" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedPotato1"/>
+	<property name="DescriptionKey" value="plantedPotato1_E"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedPotato2_E"/>
+	<property name="Shape" value="ModelEntity"/>
+</block>
+<block name="plantedPotato2_E" stage="2" traits="E">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="plantedPotato1_E"/>
+	<property name="Model" value="Entities/Plants/potato_plant_growthPrefab"/>
+	<property name="PlantGrowing.Next" value="plantedPotato3_E"/>
+</block>
+<block name="plantedPotato3_E" stage="3" traits="E">
+	<drop event="Destroy" name="plantedPotato1_E" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="foodCropPotato" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropPotato" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedPotato1"/>
+	<property name="DescriptionKey" value="plantedPotato3_E"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="Extends" value="cropsHarvestableMaster"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	
+</block>
+<block name="plantedPotato1_EE" stage="1" traits="EE">
+	<drop event="Destroy" name="plantedPotato1_EE" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedPotato1"/>
+	<property name="DescriptionKey" value="plantedPotato1_EE"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedPotato2_EE"/>
+	<property name="Shape" value="ModelEntity"/>
+</block>
+<block name="plantedPotato2_EE" stage="2" traits="EE">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="plantedPotato1_EE"/>
+	<property name="Model" value="Entities/Plants/potato_plant_growthPrefab"/>
+	<property name="PlantGrowing.Next" value="plantedPotato3_EE"/>
+</block>
+<block name="plantedPotato3_EE" stage="3" traits="EE">
+	<drop event="Destroy" name="plantedPotato1_EE" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="foodCropPotato" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropPotato" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedPotato1"/>
+	<property name="DescriptionKey" value="plantedPotato3_EE"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="Extends" value="cropsHarvestableMaster"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	
+</block>
+<block name="plantedPotato1_ET" stage="1" traits="ET">
+	<drop event="Destroy" name="plantedPotato1_ET" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedPotato1"/>
+	<property name="DescriptionKey" value="plantedPotato1_ET"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedPotato2_ET"/>
+	<property name="Shape" value="ModelEntity"/>
+</block>
+<block name="plantedPotato2_ET" stage="2" traits="ET">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="plantedPotato1_ET"/>
+	<property name="Model" value="Entities/Plants/potato_plant_growthPrefab"/>
+	<property name="PlantGrowing.Next" value="plantedPotato3_ET"/>
+</block>
+<block name="plantedPotato3_ET" stage="3" traits="ET">
+	<drop event="Destroy" name="plantedPotato1_ET" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="foodCropPotato" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropPotato" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedPotato1"/>
+	<property name="DescriptionKey" value="plantedPotato3_ET"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="Extends" value="cropsHarvestableMaster"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	
+</block>
+<block name="plantedPotato1_R" stage="1" traits="R">
+	<drop event="Destroy" name="plantedPotato1_R" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedPotato1"/>
+	<property name="DescriptionKey" value="plantedPotato1_R"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedPotato2_R"/>
+	<property name="Shape" value="ModelEntity"/>
+</block>
+<block name="plantedPotato2_R" stage="2" traits="R">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="plantedPotato1_R"/>
+	<property name="Model" value="Entities/Plants/potato_plant_growthPrefab"/>
+	<property name="PlantGrowing.Next" value="plantedPotato3_R"/>
+</block>
+<block name="plantedPotato3_R" stage="3" traits="R">
+	<drop event="Destroy" name="plantedPotato1_R" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="foodCropPotato" count="3" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropPotato" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedPotato1"/>
+	<property name="DescriptionKey" value="plantedPotato3_R"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="Extends" value="cropsHarvestableMaster"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	<property name="DowngradeBlock" value="plantedPotato1_R" />
+</block>
+<block name="plantedPotato1_RT" stage="1" traits="RT">
+	<drop event="Destroy" name="plantedPotato1_RT" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedPotato1"/>
+	<property name="DescriptionKey" value="plantedPotato1_RT"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedPotato2_RT"/>
+	<property name="Shape" value="ModelEntity"/>
+</block>
+<block name="plantedPotato2_RT" stage="2" traits="RT">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="plantedPotato1_RT"/>
+	<property name="Model" value="Entities/Plants/potato_plant_growthPrefab"/>
+	<property name="PlantGrowing.Next" value="plantedPotato3_RT"/>
+</block>
+<block name="plantedPotato3_RT" stage="3" traits="RT">
+	<drop event="Destroy" name="plantedPotato1_RT" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="foodCropPotato" count="3" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropPotato" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedPotato1"/>
+	<property name="DescriptionKey" value="plantedPotato3_RT"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="Extends" value="cropsHarvestableMaster"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	<property name="DowngradeBlock" value="plantedPotato1_RT" />
+</block>
+<block name="plantedPotato1_T" stage="1" traits="T">
+	<drop event="Destroy" name="plantedPotato1_T" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedPotato1"/>
+	<property name="DescriptionKey" value="plantedPotato1_T"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedPotato2_T"/>
+	<property name="Shape" value="ModelEntity"/>
+</block>
+<block name="plantedPotato2_T" stage="2" traits="T">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="plantedPotato1_T"/>
+	<property name="Model" value="Entities/Plants/potato_plant_growthPrefab"/>
+	<property name="PlantGrowing.Next" value="plantedPotato3_T"/>
+</block>
+<block name="plantedPotato3_T" stage="3" traits="T">
+	<drop event="Destroy" name="plantedPotato1_T" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="foodCropPotato" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropPotato" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedPotato1"/>
+	<property name="DescriptionKey" value="plantedPotato3_T"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="Extends" value="cropsHarvestableMaster"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	
+</block>
+<block name="plantedPotato1_TT" stage="1" traits="TT">
+	<drop event="Destroy" name="plantedPotato1_TT" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedPotato1"/>
+	<property name="DescriptionKey" value="plantedPotato1_TT"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedPotato2_TT"/>
+	<property name="Shape" value="ModelEntity"/>
+</block>
+<block name="plantedPotato2_TT" stage="2" traits="TT">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="plantedPotato1_TT"/>
+	<property name="Model" value="Entities/Plants/potato_plant_growthPrefab"/>
+	<property name="PlantGrowing.Next" value="plantedPotato3_TT"/>
+</block>
+<block name="plantedPotato3_TT" stage="3" traits="TT">
+	<drop event="Destroy" name="plantedPotato1_TT" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="foodCropPotato" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropPotato" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedPotato1"/>
+	<property name="DescriptionKey" value="plantedPotato3_TT"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="Extends" value="cropsHarvestableMaster"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	
+</block>
 </append>
     <append xpath="/blocks/block[contains(@traits, 'U') and @stage='1']">
         <property name="PlantGrowing.LightLevelGrow" value="0" />
