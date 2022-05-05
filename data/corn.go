@@ -79,12 +79,11 @@ func (*Corn) WriteStage1(c chan string, traits string) {
 
 func (*Corn) WriteStage2(c chan string, traits string) {
 	c <- fmt.Sprintf(`<block name="plantedCorn2_%s" stage="2" traits="%s">
-	<drop event="Destroy" name="plantedCorn1_%s" count="1"/>
 	<property name="Extends" value="plantedCorn1_%s"/>
 	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_growth_shape"/>
 	<property name="MultiBlockDim" value="1,3,1"/>
-	<property name="PlantGrowing.Next" value="plantedCorn3HarvestPlayer"/>
+	<property name="PlantGrowing.Next" value="plantedCorn3_%s"/>
 	<property name="Shape" value="New"/>
 	<property name="Texture" value="529"/>
 </block>`, traits, traits, traits, traits)
