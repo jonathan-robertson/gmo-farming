@@ -6,12 +6,13 @@ import (
 )
 
 type Plant interface {
-	WriteBlockStages(chan string, string)
-	GetName() string
-	GetDisplayName() string
-	GetDescription() string
-	GetPreferredConsumer() string
 	GetCraftTime() int
+	GetDescription() string
+	GetDisplayName() string
+	GetName() string
+	GetPreferredConsumer() string
+	IsCompatibleWith(Trait) bool
+	WriteBlockStages(chan string, string)
 }
 
 var Plants []Plant = []Plant{

@@ -11,6 +11,7 @@ type Blueberry struct {
 	CropYield         int
 	BonusYield        int
 	CraftTime         int
+	incompatibleTraits []rune
 }
 
 func CreateBlueberry() *Blueberry {
@@ -45,6 +46,15 @@ func (p *Blueberry) GetName() string {
 
 func (p *Blueberry) GetPreferredConsumer() string {
 	return p.PreferredConsumer
+}
+
+func (p *Blueberry) IsCompatibleWith(t Trait) bool {
+	for _, incompatibleTrait := range p.incompatibleTraits {
+		if incompatibleTrait == t.Code {
+			return false
+		}
+	}
+	return true
 }
 
 func (p *Blueberry) WriteBlockStages(c chan string, traits string) {

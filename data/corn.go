@@ -5,14 +5,15 @@ import (
 )
 
 type Corn struct {
-	Name              string
-	NamePlural        string
-	DisplayName       string
-	Description       string
-	PreferredConsumer string
-	CropYield         int
-	BonusYield        int
-	CraftTime         int
+	Name               string
+	NamePlural         string
+	DisplayName        string
+	Description        string
+	PreferredConsumer  string
+	CropYield          int
+	BonusYield         int
+	CraftTime          int
+	incompatibleTraits []rune
 }
 
 func CreateCorn() *Corn {
@@ -47,6 +48,15 @@ func (p *Corn) GetName() string {
 
 func (p *Corn) GetPreferredConsumer() string {
 	return p.PreferredConsumer
+}
+
+func (p *Corn) IsCompatibleWith(t Trait) bool {
+	for _, incompatibleTrait := range p.incompatibleTraits {
+		if incompatibleTrait == t.Code {
+			return false
+		}
+	}
+	return true
 }
 
 func (p *Corn) WriteBlockStages(c chan string, traits string) {

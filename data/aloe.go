@@ -3,24 +3,26 @@ package data
 import "fmt"
 
 type Aloe struct {
-	Name              string
-	NamePlural        string
-	DisplayName       string
-	Description       string
-	PreferredConsumer string
-	CropYield         int
-	BonusYield        int
-	CraftTime         int
+	Name               string
+	NamePlural         string
+	DisplayName        string
+	Description        string
+	PreferredConsumer  string
+	CropYield          int
+	BonusYield         int
+	CraftTime          int
+	incompatibleTraits []rune
 }
 
 func CreateAloe() *Aloe {
 	return &Aloe{
-		Name:              "Aloe",
-		DisplayName:       "Aloe",
-		PreferredConsumer: "",
-		CropYield:         2,
-		BonusYield:        1,
-		CraftTime:         2,
+		Name:               "Aloe",
+		DisplayName:        "Aloe",
+		PreferredConsumer:  "",
+		CropYield:          2,
+		BonusYield:         1,
+		CraftTime:          2,
+		incompatibleTraits: []rune{'S'},
 	}
 }
 
@@ -45,6 +47,15 @@ func (p *Aloe) GetName() string {
 
 func (p *Aloe) GetPreferredConsumer() string {
 	return p.PreferredConsumer
+}
+
+func (p *Aloe) IsCompatibleWith(t Trait) bool {
+	for _, incompatibleTrait := range p.incompatibleTraits {
+		if incompatibleTrait == t.Code {
+			return false
+		}
+	}
+	return true
 }
 
 func (p *Aloe) WriteBlockStages(c chan string, traits string) {

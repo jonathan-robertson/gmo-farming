@@ -5,24 +5,26 @@ import (
 )
 
 type Mushroom struct {
-	Name              string
-	DisplayName       string
-	PreferredConsumer string
-	Description       string
-	CropYield         int
-	BonusYield        int
-	CraftTime         int
+	Name               string
+	DisplayName        string
+	PreferredConsumer  string
+	Description        string
+	CropYield          int
+	BonusYield         int
+	CraftTime          int
+	incompatibleTraits []rune
 }
 
 func CreateMushroom() *Mushroom {
 	return &Mushroom{
-		Name:              "Mushroom",
-		DisplayName:       "Mushroom Spores",
-		Description:       `Mushroom spores can be planted on all surfaces and walls and will grow without sunlight.`,
-		PreferredConsumer: "Boars",
-		CropYield:         2,
-		BonusYield:        1,
-		CraftTime:         2,
+		Name:               "Mushroom",
+		DisplayName:        "Mushroom Spores",
+		Description:        `Mushroom spores can be planted on all surfaces and walls and will grow without sunlight.`,
+		PreferredConsumer:  "Boars",
+		CropYield:          2,
+		BonusYield:         1,
+		CraftTime:          2,
+		incompatibleTraits: []rune{'U'},
 	}
 }
 
@@ -47,6 +49,15 @@ func (p *Mushroom) GetName() string {
 
 func (p *Mushroom) GetPreferredConsumer() string {
 	return p.PreferredConsumer
+}
+
+func (p *Mushroom) IsCompatibleWith(t Trait) bool {
+	for _, incompatibleTrait := range p.incompatibleTraits {
+		if incompatibleTrait == t.Code {
+			return false
+		}
+	}
+	return true
 }
 
 func (p *Mushroom) WriteBlockStages(c chan string, traits string) {

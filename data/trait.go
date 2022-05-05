@@ -47,22 +47,13 @@ var Traits []Trait = []Trait{
 	*/
 }
 
-func (t *Trait) IsCompatibleWithTrait(other Trait) bool {
+func (t *Trait) IsCompatibleWith(other Trait) bool {
 	for _, r := range t.IncompatibleTraits {
 		if r == other.Code {
 			return false
 		}
 	}
 	return true
-}
-
-func (t *Trait) IsCompatibleWithPlant(plant Plant) bool {
-	switch plant.(type) {
-	case *Mushroom:
-		return t.Code != 'U'
-	default:
-		return true
-	}
 }
 
 func (t *Trait) GetDoubleTraitDescription(preferredConsumer string) string {
