@@ -13,6 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - add blueberry
 - add chrysanthemum
 - add coffee
+- add cotton
 
 ## [0.2.0] - 2022-05-01
 
