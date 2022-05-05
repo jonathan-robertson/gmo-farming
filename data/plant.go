@@ -19,7 +19,7 @@ var Plants []Plant = []Plant{
 	CreateAloe(),
 	CreateBlueberry(),
 	CreateChrysanthemum(),
-	// CreateCoffee(),
+	CreateCoffee(),
 	CreateCorn(),
 	// CreateCotton(),
 	// CreateGoldenrod(),
