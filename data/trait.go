@@ -5,11 +5,11 @@ import (
 )
 
 type Trait struct {
-	Code         rune
-	Name         string
-	DoubleName   string
-	Incompatible []rune
-	Ingredients  []Ingredient
+	Code               rune
+	Name               string
+	DoubleName         string
+	IncompatibleTraits []rune
+	Ingredients        []Ingredient
 }
 
 type Ingredient struct {
@@ -18,22 +18,22 @@ type Ingredient struct {
 }
 
 var Traits []Trait = []Trait{
-	{Code: 'B', Name: "Bonus", DoubleName: "Bountiful Bonus", Incompatible: []rune{'E'}, Ingredients: []Ingredient{
+	{Code: 'B', Name: "Bonus", DoubleName: "Bountiful Bonus", IncompatibleTraits: []rune{'E'}, Ingredients: []Ingredient{
 		{"foodRottingFlesh", 5},
 		{"medicalBloodBag", 2},
 	}},
-	{Code: 'U', Name: "Underground", Incompatible: []rune{'U', 'S'}, Ingredients: []Ingredient{
+	{Code: 'U', Name: "Underground", IncompatibleTraits: []rune{'U', 'S'}, Ingredients: []Ingredient{
 		{"plantedMushroom1", 1},
 	}},
 	{Code: 'F', Name: "Fast Growth", DoubleName: "Rapid Growth", Ingredients: []Ingredient{
 		{"drinkCanMegaCrush", 2},
 	}},
-	{Code: 'E', Name: "Explosive", DoubleName: "Extremely Explosive", Incompatible: []rune{'B', 'R'}, Ingredients: []Ingredient{
+	{Code: 'E', Name: "Explosive", DoubleName: "Extremely Explosive", IncompatibleTraits: []rune{'B', 'R'}, Ingredients: []Ingredient{
 		{"resourceScrapIron", 4},
 		{"resourceGunPowder", 4},
 		{"resourceDuctTape", 1},
 	}},
-	{Code: 'R', Name: "Renewable", Incompatible: []rune{'R', 'E'}, Ingredients: []Ingredient{
+	{Code: 'R', Name: "Renewable", IncompatibleTraits: []rune{'R', 'E'}, Ingredients: []Ingredient{
 		{"drinkJarPureMineralWater", 10},
 	}}, // TODO: compatible with S or not?
 	{Code: 'T', Name: "Thorny", DoubleName: "Extra Thorny", Ingredients: []Ingredient{
@@ -41,15 +41,15 @@ var Traits []Trait = []Trait{
 		{"resourceNail", 10},
 	}},
 	/* TODO
-	{Code: 'S', Name: "Sweet", DoubleName: "Super Sweet", Incompatible: []rune{'U'}, Ingredients: []Ingredient{
+	{Code: 'S', Name: "Sweet", DoubleName: "Super Sweet", IncompatibleTraits: []rune{'U'}, Ingredients: []Ingredient{
 		{"resourceTestosteroneExtract", 2},
 	}}, // TODO: compatible with R or not?
 	*/
 }
 
 func (t *Trait) IsCompatibleWith(other Trait) bool {
-	for _, r := range other.Incompatible {
-		if t.Code == r {
+	for _, r := range t.IncompatibleTraits {
+		if r == other.Code {
 			return false
 		}
 	}

@@ -5,14 +5,15 @@ import (
 )
 
 type Corn struct {
-	Name              string
-	NamePlural        string
-	DisplayName       string
-	Description       string
-	PreferredConsumer string
-	CropYield         int
-	BonusYield        int
-	CraftTime         int
+	Name               string
+	NamePlural         string
+	DisplayName        string
+	Description        string
+	PreferredConsumer  string
+	CropYield          int
+	BonusYield         int
+	CraftTime          int
+	incompatibleTraits []rune
 }
 
 func CreateCorn() *Corn {
@@ -26,126 +27,110 @@ func CreateCorn() *Corn {
 	}
 }
 
-func (c *Corn) GetName() string {
-	return c.Name
+func (p *Corn) GetCraftTime() int {
+	return p.CraftTime
 }
 
-func (c *Corn) GetDisplayName() string {
-	return c.DisplayName
-}
-
-func (c *Corn) GetDescription() string {
-	if c.Description == "" {
+func (p *Corn) GetDescription() string {
+	if p.Description == "" {
 		return getDefaultSeedDescription()
 	}
-	return c.Description
+	return p.Description
 }
 
-func (c *Corn) GetPreferredConsumer() string {
-	return c.PreferredConsumer
+func (p *Corn) GetDisplayName() string {
+	return p.DisplayName
 }
 
-func (c *Corn) GetCraftTime() int {
-	return c.CraftTime
+func (p *Corn) GetName() string {
+	return p.Name
 }
 
-func (*Corn) IsCompatibleWith(trait rune) bool {
+func (p *Corn) GetPreferredConsumer() string {
+	return p.PreferredConsumer
+}
+
+func (p *Corn) IsCompatibleWith(t Trait) bool {
+	for _, incompatibleTrait := range p.incompatibleTraits {
+		if incompatibleTrait == t.Code {
+			return false
+		}
+	}
 	return true
 }
 
-func (corn *Corn) WriteBlockStages(c chan string, traits string) {
-	corn.WriteStage1(c, traits)
-	corn.WriteStage2(c, traits)
-	corn.WriteStage3(c, traits)
+func (p *Corn) WriteBlockStages(c chan string, traits string) {
+	p.WriteStage1(c, traits)
+	p.WriteStage2(c, traits)
+	p.WriteStage3(c, traits)
 }
 
 // TODO: <property name="UnlockedBy" value="perkLivingOffTheLand,plantedCorn1Schematic"/>
-// TODO: <property name="UnlockedBy" value="perkLivingOffTheLand"/>
 func (*Corn) WriteStage1(c chan string, traits string) {
 	c <- fmt.Sprintf(`<block name="plantedCorn1_%s" stage="1" traits="%s">
-	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="CreativeMode" value="Player"/>
-	
-	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
-	<property name="Shape" value="New"/>
-	<property name="Model" value="corn_sprout_shape"/>
-	<property name="Place" value="Door"/>
-	<property name="PlaceAsRandomRotation" value="true"/>
-	<property name="Mesh" value="cutoutmoveable"/>
-	<property name="MultiBlockDim" value="1,3,1"/>
-	<property name="Texture" value="529"/>
-	<property name="PlantGrowing.Next" value="plantedCorn2_%s"/>
 	<drop event="Destroy" name="plantedCorn1_%s" count="1"/>
-	
+	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="DescriptionKey" value="plantedCorn1_%sDesc"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="Group" value="%s"/>
-</block>`,
-		traits,
-		traits,
-		traits,
-		traits,
-		traits,
-		getCraftingGroup(traits))
+	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="Model" value="corn_sprout_shape"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Place" value="Door"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedCorn2_%s"/>
+	<property name="Shape" value="New"/>
+	<property name="Texture" value="529"/>
+</block>`, traits, traits, traits, traits, getCraftingGroup(traits), traits)
 }
 
 func (*Corn) WriteStage2(c chan string, traits string) {
 	c <- fmt.Sprintf(`<block name="plantedCorn2_%s" stage="2" traits="%s">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIconTint" value="00ff80"/>
 	<property name="Extends" value="plantedCorn1_%s"/>
-	
-	<property name="Shape" value="New"/>
 	<property name="Model" value="corn_growth_shape"/>
-	<property name="Mesh" value="cutoutmoveable"/>
-	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="PlantGrowing.Next" value="plantedCorn3_%s"/>
 	<property name="Texture" value="529"/>
-	<property name="PlantGrowing.Next" value="plantedCorn3HarvestPlayer"/>
-	<drop event="Destroy" name="plantedCorn1_%s" count="1"/>
-</block>`,
-		traits,
-		traits,
-		traits,
-		traits)
-	// TODO: <property name="CreativeMode" value="None"/>
+</block>`, traits, traits, traits, traits)
 }
 
-func (corn *Corn) WriteStage3(c chan string, traits string) {
+func (p *Corn) WriteStage3(c chan string, traits string) {
 	c <- fmt.Sprintf(`<block name="plantedCorn3_%s" stage="3" traits="%s">
-	<property name="DisplayType" value="blockMulti"/>
-	<property name="LightOpacity" value="0"/>
-	<property name="ImposterDontBlock" value="true"/>
-	<property name="Collide" value="melee"/>
-	<property name="IsTerrainDecoration" value="true"/>
-	<property name="IsDecoration" value="true"/>
-	
-	<property name="PlantGrowing.FertileLevel" value="1"/>
-	<property name="HarvestOverdamage" value="false"/>
-	<drop event="Destroy" count="0"/>
+	<drop event="Destroy" name="plantedCorn1_%s" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
-	<property name="SortOrder1" value="a090"/>
-	<property name="SortOrder2" value="0002"/>
-
-	<property name="Material" value="Mcorn"/>
-	<property name="Shape" value="New"/>
-	<property name="Model" value="corn_harvest_shape"/>
-	<property name="Mesh" value="cutoutmoveable"/>
-	<property name="MultiBlockDim" value="1,3,1"/>
-	<property name="Texture" value="529"/>
-
-	<property name="DescriptionKey" value="plantedCorn3_%s"/>
-	<property name="CustomIcon" value="plantedCorn3Harvest"/>
-
 	<drop event="Harvest" name="foodCropCorn" count="%d" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="%d" tag="bonusCropHarvest"/>
-	<drop event="Destroy" name="plantedCorn1_%s" count="1" prob="0.5"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedCorn3Harvest"/>
+	<property name="CustomIconTint" value="ff8000"/>
+	<property name="DescriptionKey" value="plantedCorn3_%s"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mcorn"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="Model" value="corn_harvest_shape"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="New"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="529"/>
 	%s
 </block>`,
 		traits,
 		traits,
 		traits,
-		calculateCropYield(corn.CropYield, traits),
-		calculateBonusYield(corn.BonusYield, traits),
+		calculateCropYield(p.CropYield, traits),
+		calculateBonusYield(p.BonusYield, traits),
 		traits,
-		optionallyAddRenewable(traits, corn))
-	// TODO: <property name="CreativeMode" value="None"/>
+		optionallyAddRenewable(traits, p))
 }

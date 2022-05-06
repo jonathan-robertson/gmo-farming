@@ -29,12 +29,12 @@ func producePlantBlocks(c chan string) {
 	for _, plant := range data.Plants {
 		plant.WriteBlockStages(c, "")
 		for i1 := 0; i1 < len(data.Traits); i1++ {
-			if plant.IsCompatibleWith(data.Traits[i1].Code) {
+			if plant.IsCompatibleWith(data.Traits[i1]) {
 				plant.WriteBlockStages(c, fmt.Sprintf("%c", data.Traits[i1].Code))
 			}
 			for i2 := i1; i2 < len(data.Traits); i2++ {
 				if data.Traits[i1].IsCompatibleWith(data.Traits[i2]) {
-					if plant.IsCompatibleWith(data.Traits[i1].Code) && plant.IsCompatibleWith(data.Traits[i2].Code) {
+					if plant.IsCompatibleWith(data.Traits[i1]) && plant.IsCompatibleWith(data.Traits[i2]) {
 						plant.WriteBlockStages(c, fmt.Sprintf("%c%c", data.Traits[i1].Code, data.Traits[i2].Code))
 					}
 				}

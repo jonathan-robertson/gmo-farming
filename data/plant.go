@@ -6,18 +6,29 @@ import (
 )
 
 type Plant interface {
-	IsCompatibleWith(rune) bool
-	WriteBlockStages(chan string, string)
-	GetName() string
-	GetDisplayName() string
-	GetDescription() string
-	GetPreferredConsumer() string
 	GetCraftTime() int
+	GetDescription() string
+	GetDisplayName() string
+	GetName() string
+	GetPreferredConsumer() string
+	IsCompatibleWith(Trait) bool
+	WriteBlockStages(chan string, string)
 }
 
 var Plants []Plant = []Plant{
-	CreateMushroom(),
+	CreateAloe(),
+	CreateBlueberry(),
+	CreateChrysanthemum(),
+	CreateCoffee(),
 	CreateCorn(),
+	CreateCotton(),
+	CreateGoldenrod(),
+	CreateGraceCorn(),
+	CreateHop(),
+	CreateMushroom(),
+	CreatePotato(),
+	CreatePumpkin(),
+	CreateYucca(),
 }
 
 func calculateCropYield(count int, traits string) int {
