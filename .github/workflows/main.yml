@@ -22,6 +22,10 @@ jobs:
           cp -r Config-Shared/* Config
           cp -r Config-Vanilla/* Config
           zip -qr "${{ github.event.repository.name }}.zip" Config ModInfo.xml README.md LICENSE CHANGELOG.md
+          rm -rf Config
+          cp -r Config-Shared/* Config
+          cp -r Config-CrystalHell/* Config
+          zip -qr "${{ github.event.repository.name }}-crystal-hell.zip" Config ModInfo.xml README.md LICENSE CHANGELOG.md
 
           version=$(sed -n '/Version/{s/.*<Version value=\"\(.*\)\"[ ]*\/>.*/\1/;p}' ModInfo.xml)
           echo "version=$version" >> $GITHUB_ENV

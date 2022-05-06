@@ -5,14 +5,14 @@ import (
 	"fmt"
 )
 
-func WritePlantRecipes(filename string) error {
-	file, err := getFile(filename)
+func WritePlantRecipes(target string) error {
+	file, err := getFile(fmt.Sprintf("Config-%s/recipes.xml", target))
 	if err != nil {
 		return err
 	}
 	defer file.Close()
 	c := make(chan string, 10)
-	go producePlantRecipes(c)
+	go producePlantRecipes(c, target)
 	for line := range c {
 		if _, err = file.WriteString(line + "\n"); err != nil {
 			return err
@@ -21,7 +21,7 @@ func WritePlantRecipes(filename string) error {
 	return nil
 }
 
-func producePlantRecipes(c chan string) {
+func producePlantRecipes(c chan string, target string) {
 	defer close(c)
 	c <- `<config><append xpath="/recipes">`
 	produceHotBoxRecipe(c)
