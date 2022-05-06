@@ -5,8 +5,8 @@ import (
 	"fmt"
 )
 
-func WritePlantBlocks() error {
-	file, err := getFile("Config/blocks.xml")
+func WritePlantBlocks(filename string) error {
+	file, err := getFile(filename)
 	if err != nil {
 		return err
 	}

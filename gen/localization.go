@@ -5,8 +5,8 @@ import (
 	"fmt"
 )
 
-func WritePlantLocalization() error {
-	file, err := getFile("Config/Localization.txt")
+func WritePlantLocalization(filename string) error {
+	file, err := getFile(filename)
 	if err != nil {
 		return err
 	}

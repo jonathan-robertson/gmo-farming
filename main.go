@@ -5,13 +5,13 @@ import (
 )
 
 func main() {
-	if err := gen.WritePlantBlocks(); err != nil {
+	if err := gen.WritePlantBlocks("Config-Vanilla/blocks.xml"); err != nil {
 		panic(err)
 	}
-	if err := gen.WritePlantRecipes(); err != nil {
+	if err := gen.WritePlantRecipes("Config-Vanilla/recipes.xml"); err != nil {
 		panic(err)
 	}
-	if err := gen.WritePlantLocalization(); err != nil {
+	if err := gen.WritePlantLocalization("Config-Vanilla/Localization.txt"); err != nil {
 		panic(err)
 	}
 }

@@ -5,8 +5,8 @@ import (
 	"fmt"
 )
 
-func WritePlantRecipes() error {
-	file, err := getFile("Config/recipes.xml")
+func WritePlantRecipes(filename string) error {
+	file, err := getFile(filename)
 	if err != nil {
 		return err
 	}
