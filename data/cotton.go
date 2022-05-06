@@ -81,10 +81,11 @@ func (*Cotton) WriteStage1(c chan string, traits string) {
 
 func (*Cotton) WriteStage2(c chan string, traits string) {
 	c <- fmt.Sprintf(`<block name="plantedCotton2_%s" stage="2" traits="%s">
-	<property name="Extends" value="plantedCotton1_%s"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="Texture" value="20"/>
+	<property name="CustomIconTint" value="00ff80"/>
+	<property name="Extends" value="plantedCotton1_%s"/>
 	<property name="PlantGrowing.Next" value="plantedCotton3_%s"/>
+	<property name="Texture" value="20"/>
 </block>`, traits, traits, traits, traits)
 }
 
@@ -96,7 +97,8 @@ func (p *Cotton) WriteStage3(c chan string, traits string) {
 	<drop event="Harvest" name="resourceCropCottonPlant" prob="0.5" count="%d" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedCotton1"/>
+	<property name="CustomIcon" value="plantedCotton3Harvest"/>
+	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedCotton3_%s"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>

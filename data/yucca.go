@@ -84,6 +84,7 @@ func (*Yucca) WriteStage1(c chan string, traits string) {
 func (*Yucca) WriteStage2(c chan string, traits string) {
 	c <- fmt.Sprintf(`<block name="plantedYucca2_%s" stage="2" traits="%s">
 	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIconTint" value="00ff80"/>
 	<property name="Extends" value="plantedYucca1_%s"/>
 	<property name="Model" value="Entities/Plants/plant_yucca_growthPrefab"/>
 	<property name="PlantGrowing.Next" value="plantedYucca3_%s"/>
@@ -98,7 +99,8 @@ func (p *Yucca) WriteStage3(c chan string, traits string) {
 	<drop event="Harvest" name="foodCropYuccaFruit" prob="0.5" count="%d" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedYucca1"/>
+	<property name="CustomIcon" value="plantedYucca3HarvestPlayer"/>
+	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedYucca3_%s"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>

@@ -81,10 +81,11 @@ func (*Chrysanthemum) WriteStage1(c chan string, traits string) {
 
 func (*Chrysanthemum) WriteStage2(c chan string, traits string) {
 	c <- fmt.Sprintf(`<block name="plantedChrysanthemum2_%s" stage="2" traits="%s">
-	<property name="Extends" value="plantedChrysanthemum1_%s"/>
-	<property name="Texture" value="551"/>
 	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIconTint" value="00ff80"/>
+	<property name="Extends" value="plantedChrysanthemum1_%s"/>
 	<property name="PlantGrowing.Next" value="plantedChrysanthemum3_%s"/>
+	<property name="Texture" value="551"/>
 </block>`, traits, traits, traits, traits)
 }
 
@@ -96,7 +97,8 @@ func (p *Chrysanthemum) WriteStage3(c chan string, traits string) {
 	<drop event="Harvest" name="resourceCropChrysanthemumPlant" prob="0.5" count="%d" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedChrysanthemum1"/>
+	<property name="CustomIcon" value="plantedChrysanthemum3Harvest"/>
+	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedChrysanthemum3_%s"/>
 	<property name="DisplayInfo" value="Name"/>
 	<property name="DisplayType" value="blockMulti"/>

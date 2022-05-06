@@ -84,6 +84,7 @@ func (*Pumpkin) WriteStage1(c chan string, traits string) {
 func (*Pumpkin) WriteStage2(c chan string, traits string) {
 	c <- fmt.Sprintf(`<block name="plantedPumpkin2_%s" stage="2" traits="%s">
 	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIconTint" value="00ff80"/>
 	<property name="Extends" value="plantedPumpkin1_%s"/>
 	<property name="Model" value="Entities/Plants/pumpkinGrowthPrefab"/>
 	<property name="PlantGrowing.Next" value="plantedPumpkin3_%s"/>
@@ -98,7 +99,8 @@ func (p *Pumpkin) WriteStage3(c chan string, traits string) {
 	<drop event="Harvest" name="foodCropPumpkin" prob="0.5" count="%d" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedPumpkin1"/>
+	<property name="CustomIcon" value="plantedPumpkin3HarvestPlayer"/>
+	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedPumpkin3_%s"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>

@@ -82,6 +82,7 @@ func (*Goldenrod) WriteStage1(c chan string, traits string) {
 func (*Goldenrod) WriteStage2(c chan string, traits string) {
 	c <- fmt.Sprintf(`<block name="plantedGoldenrod2_%s" stage="2" traits="%s">
 	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIconTint" value="00ff80"/>
 	<property name="Extends" value="plantedGoldenrod1_%s"/>
 	<property name="PlantGrowing.Next" value="plantedGoldenrod3_%s"/>
 	<property name="Texture" value="402"/>
@@ -97,6 +98,7 @@ func (p *Goldenrod) WriteStage3(c chan string, traits string) {
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedGoldenrod3HarvestPlayer"/>
+	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedGoldenrod3_%s"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>

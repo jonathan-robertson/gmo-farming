@@ -83,6 +83,7 @@ func (*Coffee) WriteStage1(c chan string, traits string) {
 func (*Coffee) WriteStage2(c chan string, traits string) {
 	c <- fmt.Sprintf(`<block name="plantedCoffee2_%s" stage="2" traits="%s">
 	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIconTint" value="00ff80"/>
 	<property name="Extends" value="plantedCoffee1_%s"/>
 	<property name="PlantGrowing.Next" value="plantedCoffee3_%s"/>
 	<property name="Texture" value="394"/>
@@ -97,7 +98,8 @@ func (p *Coffee) WriteStage3(c chan string, traits string) {
 	<drop event="Harvest" name="resourceCropCoffeeBeans" prob="0.5" count="%d" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedCoffee1"/>
+	<property name="CustomIcon" value="plantedCoffee3Harvest"/>
+	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedCoffee3_%s"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
