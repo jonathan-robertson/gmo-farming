@@ -18,11 +18,11 @@ func CreateGoldenrod() *Goldenrod {
 	return &Goldenrod{
 		Name:               "Goldenrod",
 		DisplayName:        "Goldenrod",
-		PreferredConsumer:  "",
+		PreferredConsumer:  "Stags",
 		CropYield:          2,
 		BonusYield:         1,
 		CraftTime:          2,
-		incompatibleTraits: []rune{'S'},
+		incompatibleTraits: []rune{},
 	}
 }
 

@@ -18,11 +18,11 @@ func CreateChrysanthemum() *Chrysanthemum {
 	return &Chrysanthemum{
 		Name:               "Chrysanthemum",
 		DisplayName:        "Chrysanthemum",
-		PreferredConsumer:  "",
+		PreferredConsumer:  "Does",
 		CropYield:          2,
 		BonusYield:         1,
 		CraftTime:          2,
-		incompatibleTraits: []rune{'S'},
+		incompatibleTraits: []rune{},
 	}
 }
 
