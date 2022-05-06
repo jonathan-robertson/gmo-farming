@@ -10,14 +10,14 @@ TODO
 
 ## Development
 
-This modlet is truly massive due to all the plant variants and combinations of plant variants (up to 2 traits!).
+This modlet is truly massive due to all the plant traits and supported combinations of them.
 
 Becuase of this, we relied on Go to generate [blocks.xml](./Config/blocks.xml), [recipes.xml](./Config/recipes.xml), and [Localization.txt](./Config/Localization.txt).
 
 To make adjustments to generated files:
 
 1. edit the `*.go` files in the [data](./data) and [gen](./gen) packages to suit your preferences.
-1. run `go run main.go` to have it dump files generated files into the [Config](./Config) folder.
+2. run `go run main.go` to have it dump files generated files into the [Config](./Config) folder.
 
 ## Learn Go
 
