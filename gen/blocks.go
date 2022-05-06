@@ -5,14 +5,14 @@ import (
 	"fmt"
 )
 
-func WritePlantBlocks() error {
-	file, err := getFile("Config/blocks.xml")
+func WritePlantBlocks(target string) error {
+	file, err := getFile(fmt.Sprintf("Config-%s/blocks.xml", target))
 	if err != nil {
 		return err
 	}
 	defer file.Close()
 	c := make(chan string, 10)
-	go producePlantBlocks(c)
+	go producePlantBlocks(c, target)
 	for line := range c {
 		if _, err = file.WriteString(line + "\n"); err != nil {
 			return err
@@ -21,7 +21,7 @@ func WritePlantBlocks() error {
 	return nil
 }
 
-func producePlantBlocks(c chan string) {
+func producePlantBlocks(c chan string, target string) {
 	defer close(c)
 	c <- `<config>`
 	c <- `<append xpath="/blocks">`

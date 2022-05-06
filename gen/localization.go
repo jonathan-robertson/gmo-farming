@@ -5,14 +5,14 @@ import (
 	"fmt"
 )
 
-func WritePlantLocalization() error {
-	file, err := getFile("Config/Localization.txt")
+func WritePlantLocalization(target string) error {
+	file, err := getFile(fmt.Sprintf("Config-%s/Localization.txt", target))
 	if err != nil {
 		return err
 	}
 	defer file.Close()
 	c := make(chan string, 10)
-	go producePlantLocalization(c)
+	go producePlantLocalization(c, target)
 	for line := range c {
 		if _, err = file.WriteString(line + "\n"); err != nil {
 			return err
@@ -21,7 +21,7 @@ func WritePlantLocalization() error {
 	return nil
 }
 
-func producePlantLocalization(c chan string) {
+func producePlantLocalization(c chan string, target string) {
 	defer close(c)
 	c <- "Key,File,Type,english"
 	ProduceHotBoxLocalization(c)

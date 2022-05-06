@@ -18,7 +18,15 @@ jobs:
         run: |
           # Edit this line if you want to include additonal files
           # q stands for quiet, r stands for recursive (to include all files and subfolders in Config)
+          mkdir Config
+          cp -r Config-Shared/* Config
+          cp -r Config-Vanilla/* Config
           zip -qr "${{ github.event.repository.name }}.zip" Config ModInfo.xml README.md LICENSE CHANGELOG.md
+          rm -rf Config/*
+          cp -r Config-Shared/* Config
+          cp -r Config-CrystalHell/* Config
+          zip -qr "${{ github.event.repository.name }}-crystal-hell.zip" Config ModInfo.xml README.md LICENSE CHANGELOG.md
+
           version=$(sed -n '/Version/{s/.*<Version value=\"\(.*\)\"[ ]*\/>.*/\1/;p}' ModInfo.xml)
           echo "version=$version" >> $GITHUB_ENV
           prerelease=$([[ $version = 0* ]] && echo "true" || echo "false")
@@ -35,7 +43,7 @@ jobs:
           name: ${{ github.event.pull_request.title }}
           body: "## Summary\n${{ github.event.pull_request.body }}"
           generateReleaseNotes: true
-          artifacts: "${{ github.event.repository.name }}.zip"
+          artifacts: "${{ github.event.repository.name }}.zip, ${{ github.event.repository.name }}-crystal-hell.zip"
           prerelease: ${{ env.prerelease }}
           # if you'd like to review the generated release before publishing it, enable draft mode
           # draft: true
