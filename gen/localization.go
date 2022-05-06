@@ -113,7 +113,7 @@ func ProduceHotBoxLocalization(c chan string) {
 	c <- `hotboxTip,Journal Tip,,"The Hot Box is a simple workstation that allows enhanced seeds to absorb various materials and take on new traits."`
 	c <- `hotboxTip_title,Journal Tip,,Hot Box`
 	c <- `perkLivingOffTheLandRank3Desc,progression,perk For,Farmer`
-	c <- `perkLivingOffTheLandRank3LongDesc,progression,perk For,Triple the harvest of wild or planted crops. Craft Hot Boxes and Enhanced Seeds that you'll be able to research and add special traits to.`
+	c <- `perkLivingOffTheLandRank3LongDesc,progression,perk For,Triple the harvest of wild or planted crops. Craft Hot Boxes and Enhanced Seeds that you'll be able to research special traits for.`
 	c <- `lblCategorySeedEnhancement,UI,Tooltip,Seed Enhancement`
 }
 

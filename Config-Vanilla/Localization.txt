@@ -4,7 +4,7 @@ hotboxDesc,blocks,Workstation,The Hot Box is a simple workstation that allows en
 hotboxTip,Journal Tip,,"The Hot Box is a simple workstation that allows enhanced seeds to absorb various materials and take on new traits."
 hotboxTip_title,Journal Tip,,Hot Box
 perkLivingOffTheLandRank3Desc,progression,perk For,Farmer
-perkLivingOffTheLandRank3LongDesc,progression,perk For,Triple the harvest of wild or planted crops. Craft Hot Boxes and Enhanced Seeds that you'll be able to research and add special traits to.
+perkLivingOffTheLandRank3LongDesc,progression,perk For,Triple the harvest of wild or planted crops. Craft Hot Boxes and Enhanced Seeds that you'll be able to research special traits for.
 lblCategorySeedEnhancement,UI,Tooltip,Seed Enhancement
 buffInjuryThornsName,buffs,Buff,Thorns
 buffInjuryCriticalThornsName,buffs,Buff,Critical Thorns
