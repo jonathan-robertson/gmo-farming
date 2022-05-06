@@ -1,17 +1,29 @@
 package main
 
 import (
+	"fmt"
 	"gen"
+	"os"
 )
 
 func main() {
-	if err := gen.WritePlantBlocks("Config-Vanilla/blocks.xml"); err != nil {
-		panic(err)
+	for _, target := range []string{"Vanilla", "CrystalHell"} {
+		if err := generateFiles(target); err != nil {
+			fmt.Printf("ERROR: %v\n", err)
+			os.Exit(1)
+		}
 	}
-	if err := gen.WritePlantRecipes("Config-Vanilla/recipes.xml"); err != nil {
-		panic(err)
+}
+
+func generateFiles(target string) error {
+	if err := gen.WritePlantBlocks(target); err != nil {
+		return err
 	}
-	if err := gen.WritePlantLocalization("Config-Vanilla/Localization.txt"); err != nil {
-		panic(err)
+	if err := gen.WritePlantRecipes(target); err != nil {
+		return err
 	}
+	if err := gen.WritePlantLocalization(target); err != nil {
+		return err
+	}
+	return nil
 }

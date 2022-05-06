@@ -22,6 +22,10 @@ jobs:
           cp -r Config-Shared/* Config
           cp -r Config-Vanilla/* Config
           zip -qr "${{ github.event.repository.name }}.zip" Config ModInfo.xml README.md LICENSE CHANGELOG.md
+          rm -rf Config/*
+          cp -r Config-Shared/* Config
+          cp -r Config-CrystalHell/* Config
+          zip -qr "${{ github.event.repository.name }}-crystal-hell.zip" Config ModInfo.xml README.md LICENSE CHANGELOG.md
 
           version=$(sed -n '/Version/{s/.*<Version value=\"\(.*\)\"[ ]*\/>.*/\1/;p}' ModInfo.xml)
           echo "version=$version" >> $GITHUB_ENV
@@ -39,7 +43,7 @@ jobs:
           name: ${{ github.event.pull_request.title }}
           body: "## Summary\n${{ github.event.pull_request.body }}"
           generateReleaseNotes: true
-          artifacts: "${{ github.event.repository.name }}.zip"
+          artifacts: "${{ github.event.repository.name }}.zip, ${{ github.event.repository.name }}-crystal-hell.zip"
           prerelease: ${{ env.prerelease }}
           # if you'd like to review the generated release before publishing it, enable draft mode
           # draft: true
