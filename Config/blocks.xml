@@ -13464,6 +13464,1134 @@
 	<property name="Texture" value="395"/>
 	
 </block>
+<block name="plantedYucca1_" stage="1" traits="">
+	<drop event="Destroy" name="plantedYucca1_" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedYucca1"/>
+	<property name="DescriptionKey" value="plantedYucca1_"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="Food/Cooking"/>
+	<property name="Material" value="Mcorn"/>
+	<property name="Model" value="Entities/Plants/plant_yucca_sproutPrefab"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedYucca2_"/>
+	<property name="Shape" value="ModelEntity"/>
+</block>
+<block name="plantedYucca2_" stage="2" traits="">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="plantedYucca1_"/>
+	<property name="Model" value="Entities/Plants/plant_yucca_growthPrefab"/>
+	<property name="PlantGrowing.Next" value="plantedYucca3_"/>
+</block>
+<block name="plantedYucca3_" stage="3" traits="">
+	<drop event="Destroy" name="plantedYucca1_" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="foodCropYuccaFruit" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropYuccaFruit" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedYucca1"/>
+	<property name="DescriptionKey" value="plantedYucca3_"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mcorn"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/plant_yucca_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	
+</block>
+<block name="plantedYucca1_B" stage="1" traits="B">
+	<drop event="Destroy" name="plantedYucca1_B" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedYucca1"/>
+	<property name="DescriptionKey" value="plantedYucca1_B"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="Material" value="Mcorn"/>
+	<property name="Model" value="Entities/Plants/plant_yucca_sproutPrefab"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedYucca2_B"/>
+	<property name="Shape" value="ModelEntity"/>
+</block>
+<block name="plantedYucca2_B" stage="2" traits="B">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="plantedYucca1_B"/>
+	<property name="Model" value="Entities/Plants/plant_yucca_growthPrefab"/>
+	<property name="PlantGrowing.Next" value="plantedYucca3_B"/>
+</block>
+<block name="plantedYucca3_B" stage="3" traits="B">
+	<drop event="Destroy" name="plantedYucca1_B" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="foodCropYuccaFruit" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropYuccaFruit" prob="0.5" count="4" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedYucca1"/>
+	<property name="DescriptionKey" value="plantedYucca3_B"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mcorn"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/plant_yucca_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	
+</block>
+<block name="plantedYucca1_BB" stage="1" traits="BB">
+	<drop event="Destroy" name="plantedYucca1_BB" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedYucca1"/>
+	<property name="DescriptionKey" value="plantedYucca1_BB"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="Material" value="Mcorn"/>
+	<property name="Model" value="Entities/Plants/plant_yucca_sproutPrefab"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedYucca2_BB"/>
+	<property name="Shape" value="ModelEntity"/>
+</block>
+<block name="plantedYucca2_BB" stage="2" traits="BB">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="plantedYucca1_BB"/>
+	<property name="Model" value="Entities/Plants/plant_yucca_growthPrefab"/>
+	<property name="PlantGrowing.Next" value="plantedYucca3_BB"/>
+</block>
+<block name="plantedYucca3_BB" stage="3" traits="BB">
+	<drop event="Destroy" name="plantedYucca1_BB" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="foodCropYuccaFruit" count="16" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropYuccaFruit" prob="0.5" count="8" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedYucca1"/>
+	<property name="DescriptionKey" value="plantedYucca3_BB"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mcorn"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/plant_yucca_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	
+</block>
+<block name="plantedYucca1_BU" stage="1" traits="BU">
+	<drop event="Destroy" name="plantedYucca1_BU" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedYucca1"/>
+	<property name="DescriptionKey" value="plantedYucca1_BU"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="Material" value="Mcorn"/>
+	<property name="Model" value="Entities/Plants/plant_yucca_sproutPrefab"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedYucca2_BU"/>
+	<property name="Shape" value="ModelEntity"/>
+</block>
+<block name="plantedYucca2_BU" stage="2" traits="BU">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="plantedYucca1_BU"/>
+	<property name="Model" value="Entities/Plants/plant_yucca_growthPrefab"/>
+	<property name="PlantGrowing.Next" value="plantedYucca3_BU"/>
+</block>
+<block name="plantedYucca3_BU" stage="3" traits="BU">
+	<drop event="Destroy" name="plantedYucca1_BU" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="foodCropYuccaFruit" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropYuccaFruit" prob="0.5" count="4" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedYucca1"/>
+	<property name="DescriptionKey" value="plantedYucca3_BU"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mcorn"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/plant_yucca_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	
+</block>
+<block name="plantedYucca1_BF" stage="1" traits="BF">
+	<drop event="Destroy" name="plantedYucca1_BF" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedYucca1"/>
+	<property name="DescriptionKey" value="plantedYucca1_BF"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="Material" value="Mcorn"/>
+	<property name="Model" value="Entities/Plants/plant_yucca_sproutPrefab"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedYucca2_BF"/>
+	<property name="Shape" value="ModelEntity"/>
+</block>
+<block name="plantedYucca2_BF" stage="2" traits="BF">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="plantedYucca1_BF"/>
+	<property name="Model" value="Entities/Plants/plant_yucca_growthPrefab"/>
+	<property name="PlantGrowing.Next" value="plantedYucca3_BF"/>
+</block>
+<block name="plantedYucca3_BF" stage="3" traits="BF">
+	<drop event="Destroy" name="plantedYucca1_BF" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="foodCropYuccaFruit" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropYuccaFruit" prob="0.5" count="4" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedYucca1"/>
+	<property name="DescriptionKey" value="plantedYucca3_BF"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mcorn"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/plant_yucca_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	
+</block>
+<block name="plantedYucca1_BR" stage="1" traits="BR">
+	<drop event="Destroy" name="plantedYucca1_BR" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedYucca1"/>
+	<property name="DescriptionKey" value="plantedYucca1_BR"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="Material" value="Mcorn"/>
+	<property name="Model" value="Entities/Plants/plant_yucca_sproutPrefab"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedYucca2_BR"/>
+	<property name="Shape" value="ModelEntity"/>
+</block>
+<block name="plantedYucca2_BR" stage="2" traits="BR">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="plantedYucca1_BR"/>
+	<property name="Model" value="Entities/Plants/plant_yucca_growthPrefab"/>
+	<property name="PlantGrowing.Next" value="plantedYucca3_BR"/>
+</block>
+<block name="plantedYucca3_BR" stage="3" traits="BR">
+	<drop event="Destroy" name="plantedYucca1_BR" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="foodCropYuccaFruit" count="6" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropYuccaFruit" prob="0.5" count="3" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedYucca1"/>
+	<property name="DescriptionKey" value="plantedYucca3_BR"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mcorn"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/plant_yucca_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	<property name="DowngradeBlock" value="plantedYucca1_BR" />
+</block>
+<block name="plantedYucca1_BT" stage="1" traits="BT">
+	<drop event="Destroy" name="plantedYucca1_BT" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedYucca1"/>
+	<property name="DescriptionKey" value="plantedYucca1_BT"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="Material" value="Mcorn"/>
+	<property name="Model" value="Entities/Plants/plant_yucca_sproutPrefab"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedYucca2_BT"/>
+	<property name="Shape" value="ModelEntity"/>
+</block>
+<block name="plantedYucca2_BT" stage="2" traits="BT">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="plantedYucca1_BT"/>
+	<property name="Model" value="Entities/Plants/plant_yucca_growthPrefab"/>
+	<property name="PlantGrowing.Next" value="plantedYucca3_BT"/>
+</block>
+<block name="plantedYucca3_BT" stage="3" traits="BT">
+	<drop event="Destroy" name="plantedYucca1_BT" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="foodCropYuccaFruit" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropYuccaFruit" prob="0.5" count="4" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedYucca1"/>
+	<property name="DescriptionKey" value="plantedYucca3_BT"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mcorn"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/plant_yucca_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	
+</block>
+<block name="plantedYucca1_U" stage="1" traits="U">
+	<drop event="Destroy" name="plantedYucca1_U" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedYucca1"/>
+	<property name="DescriptionKey" value="plantedYucca1_U"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="Material" value="Mcorn"/>
+	<property name="Model" value="Entities/Plants/plant_yucca_sproutPrefab"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedYucca2_U"/>
+	<property name="Shape" value="ModelEntity"/>
+</block>
+<block name="plantedYucca2_U" stage="2" traits="U">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="plantedYucca1_U"/>
+	<property name="Model" value="Entities/Plants/plant_yucca_growthPrefab"/>
+	<property name="PlantGrowing.Next" value="plantedYucca3_U"/>
+</block>
+<block name="plantedYucca3_U" stage="3" traits="U">
+	<drop event="Destroy" name="plantedYucca1_U" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="foodCropYuccaFruit" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropYuccaFruit" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedYucca1"/>
+	<property name="DescriptionKey" value="plantedYucca3_U"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mcorn"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/plant_yucca_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	
+</block>
+<block name="plantedYucca1_UF" stage="1" traits="UF">
+	<drop event="Destroy" name="plantedYucca1_UF" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedYucca1"/>
+	<property name="DescriptionKey" value="plantedYucca1_UF"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="Material" value="Mcorn"/>
+	<property name="Model" value="Entities/Plants/plant_yucca_sproutPrefab"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedYucca2_UF"/>
+	<property name="Shape" value="ModelEntity"/>
+</block>
+<block name="plantedYucca2_UF" stage="2" traits="UF">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="plantedYucca1_UF"/>
+	<property name="Model" value="Entities/Plants/plant_yucca_growthPrefab"/>
+	<property name="PlantGrowing.Next" value="plantedYucca3_UF"/>
+</block>
+<block name="plantedYucca3_UF" stage="3" traits="UF">
+	<drop event="Destroy" name="plantedYucca1_UF" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="foodCropYuccaFruit" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropYuccaFruit" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedYucca1"/>
+	<property name="DescriptionKey" value="plantedYucca3_UF"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mcorn"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/plant_yucca_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	
+</block>
+<block name="plantedYucca1_UE" stage="1" traits="UE">
+	<drop event="Destroy" name="plantedYucca1_UE" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedYucca1"/>
+	<property name="DescriptionKey" value="plantedYucca1_UE"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="Material" value="Mcorn"/>
+	<property name="Model" value="Entities/Plants/plant_yucca_sproutPrefab"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedYucca2_UE"/>
+	<property name="Shape" value="ModelEntity"/>
+</block>
+<block name="plantedYucca2_UE" stage="2" traits="UE">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="plantedYucca1_UE"/>
+	<property name="Model" value="Entities/Plants/plant_yucca_growthPrefab"/>
+	<property name="PlantGrowing.Next" value="plantedYucca3_UE"/>
+</block>
+<block name="plantedYucca3_UE" stage="3" traits="UE">
+	<drop event="Destroy" name="plantedYucca1_UE" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="foodCropYuccaFruit" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropYuccaFruit" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedYucca1"/>
+	<property name="DescriptionKey" value="plantedYucca3_UE"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mcorn"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/plant_yucca_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	
+</block>
+<block name="plantedYucca1_UR" stage="1" traits="UR">
+	<drop event="Destroy" name="plantedYucca1_UR" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedYucca1"/>
+	<property name="DescriptionKey" value="plantedYucca1_UR"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="Material" value="Mcorn"/>
+	<property name="Model" value="Entities/Plants/plant_yucca_sproutPrefab"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedYucca2_UR"/>
+	<property name="Shape" value="ModelEntity"/>
+</block>
+<block name="plantedYucca2_UR" stage="2" traits="UR">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="plantedYucca1_UR"/>
+	<property name="Model" value="Entities/Plants/plant_yucca_growthPrefab"/>
+	<property name="PlantGrowing.Next" value="plantedYucca3_UR"/>
+</block>
+<block name="plantedYucca3_UR" stage="3" traits="UR">
+	<drop event="Destroy" name="plantedYucca1_UR" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="foodCropYuccaFruit" count="3" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropYuccaFruit" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedYucca1"/>
+	<property name="DescriptionKey" value="plantedYucca3_UR"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mcorn"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/plant_yucca_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	<property name="DowngradeBlock" value="plantedYucca1_UR" />
+</block>
+<block name="plantedYucca1_UT" stage="1" traits="UT">
+	<drop event="Destroy" name="plantedYucca1_UT" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedYucca1"/>
+	<property name="DescriptionKey" value="plantedYucca1_UT"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="Material" value="Mcorn"/>
+	<property name="Model" value="Entities/Plants/plant_yucca_sproutPrefab"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedYucca2_UT"/>
+	<property name="Shape" value="ModelEntity"/>
+</block>
+<block name="plantedYucca2_UT" stage="2" traits="UT">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="plantedYucca1_UT"/>
+	<property name="Model" value="Entities/Plants/plant_yucca_growthPrefab"/>
+	<property name="PlantGrowing.Next" value="plantedYucca3_UT"/>
+</block>
+<block name="plantedYucca3_UT" stage="3" traits="UT">
+	<drop event="Destroy" name="plantedYucca1_UT" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="foodCropYuccaFruit" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropYuccaFruit" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedYucca1"/>
+	<property name="DescriptionKey" value="plantedYucca3_UT"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mcorn"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/plant_yucca_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	
+</block>
+<block name="plantedYucca1_F" stage="1" traits="F">
+	<drop event="Destroy" name="plantedYucca1_F" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedYucca1"/>
+	<property name="DescriptionKey" value="plantedYucca1_F"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="Material" value="Mcorn"/>
+	<property name="Model" value="Entities/Plants/plant_yucca_sproutPrefab"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedYucca2_F"/>
+	<property name="Shape" value="ModelEntity"/>
+</block>
+<block name="plantedYucca2_F" stage="2" traits="F">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="plantedYucca1_F"/>
+	<property name="Model" value="Entities/Plants/plant_yucca_growthPrefab"/>
+	<property name="PlantGrowing.Next" value="plantedYucca3_F"/>
+</block>
+<block name="plantedYucca3_F" stage="3" traits="F">
+	<drop event="Destroy" name="plantedYucca1_F" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="foodCropYuccaFruit" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropYuccaFruit" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedYucca1"/>
+	<property name="DescriptionKey" value="plantedYucca3_F"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mcorn"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/plant_yucca_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	
+</block>
+<block name="plantedYucca1_FF" stage="1" traits="FF">
+	<drop event="Destroy" name="plantedYucca1_FF" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedYucca1"/>
+	<property name="DescriptionKey" value="plantedYucca1_FF"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="Material" value="Mcorn"/>
+	<property name="Model" value="Entities/Plants/plant_yucca_sproutPrefab"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedYucca2_FF"/>
+	<property name="Shape" value="ModelEntity"/>
+</block>
+<block name="plantedYucca2_FF" stage="2" traits="FF">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="plantedYucca1_FF"/>
+	<property name="Model" value="Entities/Plants/plant_yucca_growthPrefab"/>
+	<property name="PlantGrowing.Next" value="plantedYucca3_FF"/>
+</block>
+<block name="plantedYucca3_FF" stage="3" traits="FF">
+	<drop event="Destroy" name="plantedYucca1_FF" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="foodCropYuccaFruit" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropYuccaFruit" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedYucca1"/>
+	<property name="DescriptionKey" value="plantedYucca3_FF"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mcorn"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/plant_yucca_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	
+</block>
+<block name="plantedYucca1_FE" stage="1" traits="FE">
+	<drop event="Destroy" name="plantedYucca1_FE" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedYucca1"/>
+	<property name="DescriptionKey" value="plantedYucca1_FE"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="Material" value="Mcorn"/>
+	<property name="Model" value="Entities/Plants/plant_yucca_sproutPrefab"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedYucca2_FE"/>
+	<property name="Shape" value="ModelEntity"/>
+</block>
+<block name="plantedYucca2_FE" stage="2" traits="FE">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="plantedYucca1_FE"/>
+	<property name="Model" value="Entities/Plants/plant_yucca_growthPrefab"/>
+	<property name="PlantGrowing.Next" value="plantedYucca3_FE"/>
+</block>
+<block name="plantedYucca3_FE" stage="3" traits="FE">
+	<drop event="Destroy" name="plantedYucca1_FE" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="foodCropYuccaFruit" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropYuccaFruit" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedYucca1"/>
+	<property name="DescriptionKey" value="plantedYucca3_FE"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mcorn"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/plant_yucca_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	
+</block>
+<block name="plantedYucca1_FR" stage="1" traits="FR">
+	<drop event="Destroy" name="plantedYucca1_FR" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedYucca1"/>
+	<property name="DescriptionKey" value="plantedYucca1_FR"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="Material" value="Mcorn"/>
+	<property name="Model" value="Entities/Plants/plant_yucca_sproutPrefab"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedYucca2_FR"/>
+	<property name="Shape" value="ModelEntity"/>
+</block>
+<block name="plantedYucca2_FR" stage="2" traits="FR">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="plantedYucca1_FR"/>
+	<property name="Model" value="Entities/Plants/plant_yucca_growthPrefab"/>
+	<property name="PlantGrowing.Next" value="plantedYucca3_FR"/>
+</block>
+<block name="plantedYucca3_FR" stage="3" traits="FR">
+	<drop event="Destroy" name="plantedYucca1_FR" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="foodCropYuccaFruit" count="3" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropYuccaFruit" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedYucca1"/>
+	<property name="DescriptionKey" value="plantedYucca3_FR"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mcorn"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/plant_yucca_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	<property name="DowngradeBlock" value="plantedYucca1_FR" />
+</block>
+<block name="plantedYucca1_FT" stage="1" traits="FT">
+	<drop event="Destroy" name="plantedYucca1_FT" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedYucca1"/>
+	<property name="DescriptionKey" value="plantedYucca1_FT"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="Material" value="Mcorn"/>
+	<property name="Model" value="Entities/Plants/plant_yucca_sproutPrefab"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedYucca2_FT"/>
+	<property name="Shape" value="ModelEntity"/>
+</block>
+<block name="plantedYucca2_FT" stage="2" traits="FT">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="plantedYucca1_FT"/>
+	<property name="Model" value="Entities/Plants/plant_yucca_growthPrefab"/>
+	<property name="PlantGrowing.Next" value="plantedYucca3_FT"/>
+</block>
+<block name="plantedYucca3_FT" stage="3" traits="FT">
+	<drop event="Destroy" name="plantedYucca1_FT" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="foodCropYuccaFruit" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropYuccaFruit" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedYucca1"/>
+	<property name="DescriptionKey" value="plantedYucca3_FT"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mcorn"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/plant_yucca_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	
+</block>
+<block name="plantedYucca1_E" stage="1" traits="E">
+	<drop event="Destroy" name="plantedYucca1_E" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedYucca1"/>
+	<property name="DescriptionKey" value="plantedYucca1_E"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="Material" value="Mcorn"/>
+	<property name="Model" value="Entities/Plants/plant_yucca_sproutPrefab"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedYucca2_E"/>
+	<property name="Shape" value="ModelEntity"/>
+</block>
+<block name="plantedYucca2_E" stage="2" traits="E">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="plantedYucca1_E"/>
+	<property name="Model" value="Entities/Plants/plant_yucca_growthPrefab"/>
+	<property name="PlantGrowing.Next" value="plantedYucca3_E"/>
+</block>
+<block name="plantedYucca3_E" stage="3" traits="E">
+	<drop event="Destroy" name="plantedYucca1_E" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="foodCropYuccaFruit" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropYuccaFruit" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedYucca1"/>
+	<property name="DescriptionKey" value="plantedYucca3_E"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mcorn"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/plant_yucca_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	
+</block>
+<block name="plantedYucca1_EE" stage="1" traits="EE">
+	<drop event="Destroy" name="plantedYucca1_EE" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedYucca1"/>
+	<property name="DescriptionKey" value="plantedYucca1_EE"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="Material" value="Mcorn"/>
+	<property name="Model" value="Entities/Plants/plant_yucca_sproutPrefab"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedYucca2_EE"/>
+	<property name="Shape" value="ModelEntity"/>
+</block>
+<block name="plantedYucca2_EE" stage="2" traits="EE">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="plantedYucca1_EE"/>
+	<property name="Model" value="Entities/Plants/plant_yucca_growthPrefab"/>
+	<property name="PlantGrowing.Next" value="plantedYucca3_EE"/>
+</block>
+<block name="plantedYucca3_EE" stage="3" traits="EE">
+	<drop event="Destroy" name="plantedYucca1_EE" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="foodCropYuccaFruit" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropYuccaFruit" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedYucca1"/>
+	<property name="DescriptionKey" value="plantedYucca3_EE"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mcorn"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/plant_yucca_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	
+</block>
+<block name="plantedYucca1_ET" stage="1" traits="ET">
+	<drop event="Destroy" name="plantedYucca1_ET" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedYucca1"/>
+	<property name="DescriptionKey" value="plantedYucca1_ET"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="Material" value="Mcorn"/>
+	<property name="Model" value="Entities/Plants/plant_yucca_sproutPrefab"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedYucca2_ET"/>
+	<property name="Shape" value="ModelEntity"/>
+</block>
+<block name="plantedYucca2_ET" stage="2" traits="ET">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="plantedYucca1_ET"/>
+	<property name="Model" value="Entities/Plants/plant_yucca_growthPrefab"/>
+	<property name="PlantGrowing.Next" value="plantedYucca3_ET"/>
+</block>
+<block name="plantedYucca3_ET" stage="3" traits="ET">
+	<drop event="Destroy" name="plantedYucca1_ET" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="foodCropYuccaFruit" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropYuccaFruit" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedYucca1"/>
+	<property name="DescriptionKey" value="plantedYucca3_ET"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mcorn"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/plant_yucca_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	
+</block>
+<block name="plantedYucca1_R" stage="1" traits="R">
+	<drop event="Destroy" name="plantedYucca1_R" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedYucca1"/>
+	<property name="DescriptionKey" value="plantedYucca1_R"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="Material" value="Mcorn"/>
+	<property name="Model" value="Entities/Plants/plant_yucca_sproutPrefab"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedYucca2_R"/>
+	<property name="Shape" value="ModelEntity"/>
+</block>
+<block name="plantedYucca2_R" stage="2" traits="R">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="plantedYucca1_R"/>
+	<property name="Model" value="Entities/Plants/plant_yucca_growthPrefab"/>
+	<property name="PlantGrowing.Next" value="plantedYucca3_R"/>
+</block>
+<block name="plantedYucca3_R" stage="3" traits="R">
+	<drop event="Destroy" name="plantedYucca1_R" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="foodCropYuccaFruit" count="3" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropYuccaFruit" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedYucca1"/>
+	<property name="DescriptionKey" value="plantedYucca3_R"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mcorn"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/plant_yucca_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	<property name="DowngradeBlock" value="plantedYucca1_R" />
+</block>
+<block name="plantedYucca1_RT" stage="1" traits="RT">
+	<drop event="Destroy" name="plantedYucca1_RT" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedYucca1"/>
+	<property name="DescriptionKey" value="plantedYucca1_RT"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="Material" value="Mcorn"/>
+	<property name="Model" value="Entities/Plants/plant_yucca_sproutPrefab"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedYucca2_RT"/>
+	<property name="Shape" value="ModelEntity"/>
+</block>
+<block name="plantedYucca2_RT" stage="2" traits="RT">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="plantedYucca1_RT"/>
+	<property name="Model" value="Entities/Plants/plant_yucca_growthPrefab"/>
+	<property name="PlantGrowing.Next" value="plantedYucca3_RT"/>
+</block>
+<block name="plantedYucca3_RT" stage="3" traits="RT">
+	<drop event="Destroy" name="plantedYucca1_RT" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="foodCropYuccaFruit" count="3" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropYuccaFruit" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedYucca1"/>
+	<property name="DescriptionKey" value="plantedYucca3_RT"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mcorn"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/plant_yucca_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	<property name="DowngradeBlock" value="plantedYucca1_RT" />
+</block>
+<block name="plantedYucca1_T" stage="1" traits="T">
+	<drop event="Destroy" name="plantedYucca1_T" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedYucca1"/>
+	<property name="DescriptionKey" value="plantedYucca1_T"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="Material" value="Mcorn"/>
+	<property name="Model" value="Entities/Plants/plant_yucca_sproutPrefab"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedYucca2_T"/>
+	<property name="Shape" value="ModelEntity"/>
+</block>
+<block name="plantedYucca2_T" stage="2" traits="T">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="plantedYucca1_T"/>
+	<property name="Model" value="Entities/Plants/plant_yucca_growthPrefab"/>
+	<property name="PlantGrowing.Next" value="plantedYucca3_T"/>
+</block>
+<block name="plantedYucca3_T" stage="3" traits="T">
+	<drop event="Destroy" name="plantedYucca1_T" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="foodCropYuccaFruit" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropYuccaFruit" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedYucca1"/>
+	<property name="DescriptionKey" value="plantedYucca3_T"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mcorn"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/plant_yucca_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	
+</block>
+<block name="plantedYucca1_TT" stage="1" traits="TT">
+	<drop event="Destroy" name="plantedYucca1_TT" count="1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedYucca1"/>
+	<property name="DescriptionKey" value="plantedYucca1_TT"/>
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
+	<property name="Group" value="SeedEnhancement"/>
+	<property name="Material" value="Mcorn"/>
+	<property name="Model" value="Entities/Plants/plant_yucca_sproutPrefab"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<property name="PlantGrowing.Next" value="plantedYucca2_TT"/>
+	<property name="Shape" value="ModelEntity"/>
+</block>
+<block name="plantedYucca2_TT" stage="2" traits="TT">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Extends" value="plantedYucca1_TT"/>
+	<property name="Model" value="Entities/Plants/plant_yucca_growthPrefab"/>
+	<property name="PlantGrowing.Next" value="plantedYucca3_TT"/>
+</block>
+<block name="plantedYucca3_TT" stage="3" traits="TT">
+	<drop event="Destroy" name="plantedYucca1_TT" count="1" prob="0.5"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<drop event="Harvest" name="foodCropYuccaFruit" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropYuccaFruit" prob="0.5" count="2" tag="bonusCropHarvest"/>
+	<property name="Collide" value="melee"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedYucca1"/>
+	<property name="DescriptionKey" value="plantedYucca3_TT"/>
+	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Material" value="Mcorn"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Model" value="Entities/Plants/plant_yucca_harvestPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="PlantGrowing.FertileLevel" value="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Texture" value="395"/>
+	
+</block>
 </append>
     <append xpath="/blocks/block[contains(@traits, 'U') and @stage='1']">
         <property name="PlantGrowing.LightLevelGrow" value="0" />

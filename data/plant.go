@@ -28,7 +28,7 @@ var Plants []Plant = []Plant{
 	CreateMushroom(),
 	CreatePotato(),
 	CreatePumpkin(),
-	// CreateYucca(),
+	CreateYucca(),
 }
 
 func calculateCropYield(count int, traits string) int {
