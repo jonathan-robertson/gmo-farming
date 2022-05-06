@@ -49,6 +49,10 @@ func (p *Cotton) GetPreferredConsumer() string {
 	return p.PreferredConsumer
 }
 
+func (p *Cotton) GetSchematicName(traits string) string {
+	return fmt.Sprintf("plantedCotton1_%sschematic", traits)
+}
+
 func (p *Cotton) IsCompatibleWith(t Trait) bool {
 	for _, incompatibleTrait := range p.incompatibleTraits {
 		if incompatibleTrait == t.Code {
@@ -58,14 +62,13 @@ func (p *Cotton) IsCompatibleWith(t Trait) bool {
 	return true
 }
 
-func (p *Cotton) WriteBlockStages(c chan string, traits string) {
-	p.WriteStage1(c, traits)
+func (p *Cotton) WriteBlockStages(c chan string, target, traits string) {
+	p.WriteStage1(c, target, traits)
 	p.WriteStage2(c, traits)
 	p.WriteStage3(c, traits)
 }
 
-// TODO: <property name="UnlockedBy" value="perkLivingOffTheLand,plantedCotton1Schematic"/>
-func (*Cotton) WriteStage1(c chan string, traits string) {
+func (p *Cotton) WriteStage1(c chan string, target, traits string) {
 	c <- fmt.Sprintf(`<block name="plantedCotton1_%s" stage="1" traits="%s">
 	<drop event="Destroy" name="plantedCotton1_%s" count="1"/>
 	<property name="CreativeMode" value="Player"/>
@@ -76,7 +79,8 @@ func (*Cotton) WriteStage1(c chan string, traits string) {
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedCotton2_%s"/>
 	<property name="Texture" value="392"/>
-</block>`, traits, traits, traits, traits, getCraftingGroup(traits), traits)
+	%s
+</block>`, traits, traits, traits, traits, getCraftingGroup(traits), traits, optionallyAddUnlock(p, target, traits))
 }
 
 func (*Cotton) WriteStage2(c chan string, traits string) {

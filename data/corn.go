@@ -50,6 +50,10 @@ func (p *Corn) GetPreferredConsumer() string {
 	return p.PreferredConsumer
 }
 
+func (p *Corn) GetSchematicName(traits string) string {
+	return fmt.Sprintf("plantedCorn1_%sschematic", traits)
+}
+
 func (p *Corn) IsCompatibleWith(t Trait) bool {
 	for _, incompatibleTrait := range p.incompatibleTraits {
 		if incompatibleTrait == t.Code {
@@ -59,14 +63,13 @@ func (p *Corn) IsCompatibleWith(t Trait) bool {
 	return true
 }
 
-func (p *Corn) WriteBlockStages(c chan string, traits string) {
-	p.WriteStage1(c, traits)
+func (p *Corn) WriteBlockStages(c chan string, target, traits string) {
+	p.WriteStage1(c, target, traits)
 	p.WriteStage2(c, traits)
 	p.WriteStage3(c, traits)
 }
 
-// TODO: <property name="UnlockedBy" value="perkLivingOffTheLand,plantedCorn1Schematic"/>
-func (*Corn) WriteStage1(c chan string, traits string) {
+func (p *Corn) WriteStage1(c chan string, target, traits string) {
 	c <- fmt.Sprintf(`<block name="plantedCorn1_%s" stage="1" traits="%s">
 	<drop event="Destroy" name="plantedCorn1_%s" count="1"/>
 	<property name="CreativeMode" value="Player"/>
@@ -83,7 +86,8 @@ func (*Corn) WriteStage1(c chan string, traits string) {
 	<property name="PlantGrowing.Next" value="plantedCorn2_%s"/>
 	<property name="Shape" value="New"/>
 	<property name="Texture" value="529"/>
-</block>`, traits, traits, traits, traits, getCraftingGroup(traits), traits)
+	%s
+</block>`, traits, traits, traits, traits, getCraftingGroup(traits), traits, optionallyAddUnlock(p, target, traits))
 }
 
 func (*Corn) WriteStage2(c chan string, traits string) {

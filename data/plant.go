@@ -11,8 +11,9 @@ type Plant interface {
 	GetDisplayName() string
 	GetName() string
 	GetPreferredConsumer() string
+	GetSchematicName(string) string
 	IsCompatibleWith(Trait) bool
-	WriteBlockStages(chan string, string)
+	WriteBlockStages(chan string, string, string)
 }
 
 var Plants []Plant = []Plant{
@@ -62,6 +63,15 @@ func optionallyAddRenewable(traits string, plant Plant) string {
 			traits)
 	}
 	return ""
+}
+
+func optionallyAddUnlock(plant Plant, target, traits string) string {
+	switch target {
+	case "Vanilla":
+		return fmt.Sprintf(`<property name="UnlockedBy" value="%s"/>`, plant.GetSchematicName(traits))
+	default:
+		return ""
+	}
 }
 
 func getDefaultSeedDescription() string {

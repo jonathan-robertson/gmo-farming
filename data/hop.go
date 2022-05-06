@@ -49,6 +49,10 @@ func (p *Hop) GetPreferredConsumer() string {
 	return p.PreferredConsumer
 }
 
+func (p *Hop) GetSchematicName(traits string) string {
+	return fmt.Sprintf("plantedHop1_%sschematic", traits)
+}
+
 func (p *Hop) IsCompatibleWith(t Trait) bool {
 	for _, incompatibleTrait := range p.incompatibleTraits {
 		if incompatibleTrait == t.Code {
@@ -58,14 +62,13 @@ func (p *Hop) IsCompatibleWith(t Trait) bool {
 	return true
 }
 
-func (p *Hop) WriteBlockStages(c chan string, traits string) {
-	p.WriteStage1(c, traits)
+func (p *Hop) WriteBlockStages(c chan string, target, traits string) {
+	p.WriteStage1(c, target, traits)
 	p.WriteStage2(c, traits)
 	p.WriteStage3(c, traits)
 }
 
-// TODO: <property name="UnlockedBy" value="perkLivingOffTheLand,plantedHop1Schematic"/>
-func (*Hop) WriteStage1(c chan string, traits string) {
+func (p *Hop) WriteStage1(c chan string, target, traits string) {
 	c <- fmt.Sprintf(`<block name="plantedHop1_%s" stage="1" traits="%s">
 	<drop event="Destroy" name="plantedHop1_%s" count="1"/>
 	<property name="CreativeMode" value="Player"/>
@@ -76,7 +79,8 @@ func (*Hop) WriteStage1(c chan string, traits string) {
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedHop2_%s"/>
 	<property name="Texture" value="447"/>
-</block>`, traits, traits, traits, traits, getCraftingGroup(traits), traits)
+	%s
+</block>`, traits, traits, traits, traits, getCraftingGroup(traits), traits, optionallyAddUnlock(p, target, traits))
 }
 
 func (*Hop) WriteStage2(c chan string, traits string) {
