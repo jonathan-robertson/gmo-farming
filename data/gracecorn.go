@@ -103,7 +103,7 @@ func (p *GraceCorn) WriteStage3(c chan string, traits string) {
 	<drop event="Harvest" name="foodCropGraceCorn" prob="0.5" count="%d" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedCorn3HarvestPlayer"/>
+	<property name="CustomIcon" value="plantedGraceCorn3Harvest"/>
 	<property name="CustomIconTint" value="ff9f9f"/>
 	<property name="DescriptionKey" value="plantedGraceCorn3_%s"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->

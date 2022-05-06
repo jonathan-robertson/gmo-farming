@@ -99,7 +99,7 @@ func (p *Yucca) WriteStage3(c chan string, traits string) {
 	<drop event="Harvest" name="foodCropYuccaFruit" prob="0.5" count="%d" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedYucca3HarvestPlayer"/>
+	<property name="CustomIcon" value="plantedYucca3Harvest"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedYucca3_%s"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->

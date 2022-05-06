@@ -97,7 +97,7 @@ func (p *Hop) WriteStage3(c chan string, traits string) {
 	<drop event="Harvest" name="resourceCropHopsFlower" prob="0.5" count="%d" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedHop3HarvestPlayer"/>
+	<property name="CustomIcon" value="plantedHop3Harvest"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedHop3_%s"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
