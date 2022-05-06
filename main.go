@@ -25,5 +25,8 @@ func generateFiles(target string) error {
 	if err := gen.WritePlantLocalization(target); err != nil {
 		return err
 	}
+	if err := gen.WriteItems(target); err != nil {
+		return err
+	}
 	return nil
 }
