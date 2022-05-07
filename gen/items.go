@@ -54,11 +54,11 @@ func produceSchematic(c chan string, p data.Plant, traits string) {
 	c <- fmt.Sprintf(`<item name="%s">
 	<property name="Extends" value="schematicNoQualityRecipeMaster"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="CustomIcon" value="planted%s1_%s"/>%s
+	<property name="CustomIcon" value="planted%s1"/>%s
 	<property name="Unlocks" value="planted%s1_%s"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="planted%s1_%s" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
 	</effect_group>
-</item>`, p.GetSchematicName(traits), p.GetName(), traits, optionalGraceCornIconTint, p.GetName(), traits, p.GetName(), traits)
+</item>`, p.GetSchematicName(traits), p.GetName(), optionalGraceCornIconTint, p.GetName(), traits, p.GetName(), traits)
 }
