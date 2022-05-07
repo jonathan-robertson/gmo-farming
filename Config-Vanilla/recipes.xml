@@ -2205,4 +2205,56 @@
     <ingredient name="resourceScrapIron" count="10"/>
     <ingredient name="resourceNail" count="10"/>
 </recipe>
+<recipe name="plantedAloe1_schematic" count="1" craft_time="10" traits="" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedAloe1" count="100"/>
+</recipe>
+<recipe name="plantedBlueberry1_schematic" count="1" craft_time="10" traits="" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedBlueberry1" count="100"/>
+</recipe>
+<recipe name="plantedChrysanthemum1_schematic" count="1" craft_time="10" traits="" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedChrysanthemum1" count="100"/>
+</recipe>
+<recipe name="plantedCoffee1_schematic" count="1" craft_time="10" traits="" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCoffee1" count="100"/>
+</recipe>
+<recipe name="plantedCorn1_schematic" count="1" craft_time="10" traits="" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCorn1" count="100"/>
+</recipe>
+<recipe name="plantedCotton1_schematic" count="1" craft_time="10" traits="" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCotton1" count="100"/>
+</recipe>
+<recipe name="plantedGoldenrod1_schematic" count="1" craft_time="10" traits="" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedGoldenrod1" count="100"/>
+</recipe>
+<recipe name="plantedGraceCorn1_schematic" count="1" craft_time="10" traits="" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedGraceCorn1" count="100"/>
+</recipe>
+<recipe name="plantedHop1_schematic" count="1" craft_time="10" traits="" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedHop1" count="100"/>
+</recipe>
+<recipe name="plantedMushroom1_schematic" count="1" craft_time="10" traits="" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedMushroom1" count="100"/>
+</recipe>
+<recipe name="plantedPotato1_schematic" count="1" craft_time="10" traits="" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedPotato1" count="100"/>
+</recipe>
+<recipe name="plantedPumpkin1_schematic" count="1" craft_time="10" traits="" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedPumpkin1" count="100"/>
+</recipe>
+<recipe name="plantedYucca1_schematic" count="1" craft_time="10" traits="" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedYucca1" count="100"/>
+</recipe>
 </append></config>

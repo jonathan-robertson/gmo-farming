@@ -5,13 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [TODO]
+
+- update schematics to unlock trait combos when used
+
 ## [0.5.0] - ?
 
 - adjust localization for lvl 3 Living off the Land
 - add schematics for unlocking plant trait recipes
 - fix potato, pumkin, and yucca seed descriptions
 - update stage 3 icons to reflect stage 1 plant
-- TODO: add recipes for schematics
+- add recipes to make schematics
 
 ## [0.4.1] - 2022-05-06
 

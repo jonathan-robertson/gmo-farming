@@ -32,15 +32,35 @@ func producePlantRecipes(c chan string, target string) {
 	c <- `<config><append xpath="/recipes">`
 	produceHotBoxRecipe(c)
 	for _, plant := range data.Plants {
-		producePlantRecipe(c, plant, optionalTags)
+		producePlantRecipe(c, target, plant, optionalTags)
 		for i1 := 0; i1 < len(data.Traits); i1++ {
 			if plant.IsCompatibleWith(data.Traits[i1]) {
-				producePlantRecipe(c, plant, optionalTags, data.Traits[i1])
+				producePlantRecipe(c, target, plant, optionalTags, data.Traits[i1])
 			}
 			for i2 := i1; i2 < len(data.Traits); i2++ {
 				if data.Traits[i1].IsCompatibleWith(data.Traits[i2]) {
 					if plant.IsCompatibleWith(data.Traits[i1]) && plant.IsCompatibleWith(data.Traits[i2]) {
-						producePlantRecipe(c, plant, optionalTags, data.Traits[i1], data.Traits[i2])
+						producePlantRecipe(c, target, plant, optionalTags, data.Traits[i1], data.Traits[i2])
+					}
+				}
+			}
+		}
+	}
+	if target != "Vanilla" {
+		c <- `</append></config>`
+		return
+	}
+
+	for _, plant := range data.Plants {
+		produceSchematicsRecipe(c, plant)
+		for i1 := 0; i1 < len(data.Traits); i1++ {
+			if plant.IsCompatibleWith(data.Traits[i1]) {
+				produceSchematicsRecipe(c, plant, data.Traits[i1])
+			}
+			for i2 := i1; i2 < len(data.Traits); i2++ {
+				if data.Traits[i1].IsCompatibleWith(data.Traits[i2]) {
+					if plant.IsCompatibleWith(data.Traits[i1]) && plant.IsCompatibleWith(data.Traits[i2]) {
+						produceSchematicsRecipe(c, plant, data.Traits[i1], data.Traits[i2])
 					}
 				}
 			}
@@ -57,7 +77,7 @@ func produceHotBoxRecipe(c chan string) {
 </recipe>`
 }
 
-func producePlantRecipe(c chan string, plant data.Plant, optionalTags string, traits ...data.Trait) {
+func producePlantRecipe(c chan string, target string, plant data.Plant, optionalTags string, traits ...data.Trait) {
 	switch len(traits) {
 	case 0:
 		c <- fmt.Sprintf(`<recipe name="planted%s1_" count="1" craft_time="%d" traits=""%s>
@@ -103,6 +123,22 @@ func producePlantRecipe(c chan string, plant data.Plant, optionalTags string, tr
 			produceIngredients(c, traits[0])
 			c <- `</recipe>`
 		}
+	}
+}
+
+func produceSchematicsRecipe(c chan string, plant data.Plant, traits ...data.Trait) {
+	switch len(traits) {
+	case 0:
+		c <- fmt.Sprintf(`<recipe name="%s" count="1" craft_time="10" traits="" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="planted%s1" count="100"/>`,
+			plant.GetSchematicName(""),
+			plant.GetName())
+		c <- `</recipe>`
+	case 1:
+
+	case 2:
+
 	}
 }
 
