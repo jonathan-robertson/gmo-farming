@@ -18,6 +18,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - update stage 3 icons to reflect stage 1 plant
 - remove traces of Sweet trait; dropped
 - add recipes to make schematics
+- fix aloe display name
 
 ## [0.4.1] - 2022-05-06
 

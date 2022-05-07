@@ -16,12 +16,12 @@ type Aloe struct {
 
 func CreateAloe() *Aloe {
 	return &Aloe{
-		Name:               "Aloe",
-		DisplayName:        "Aloe",
-		PreferredConsumer:  "",
-		CropYield:          2,
-		BonusYield:         1,
-		CraftTime:          2,
+		Name:              "Aloe",
+		DisplayName:       "Aloe Vera",
+		PreferredConsumer: "",
+		CropYield:         2,
+		BonusYield:        1,
+		CraftTime:         2,
 	}
 }
 
