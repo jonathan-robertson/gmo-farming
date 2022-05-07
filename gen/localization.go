@@ -71,6 +71,7 @@ func ProduceHotBoxLocalization(c chan string) {
 	c <- `perkLivingOffTheLandRank3Desc,progression,perk For,Farmer`
 	c <- `perkLivingOffTheLandRank3LongDesc,progression,perk For,Triple the harvest of wild or planted crops. Craft Hot Boxes and Enhanced Seeds that you'll be able to research special traits for.`
 	c <- `lblCategorySeedEnhancement,UI,Tooltip,Seed Enhancement`
+	c <- `lblCategorySeedEnhancementResearch,UI,Tooltip,Seed Enhancement Research`
 }
 
 func ProduceThornyBuffLocalization(c chan string) {

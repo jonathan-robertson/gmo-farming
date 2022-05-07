@@ -47,18 +47,21 @@ func produceItems(c chan string) {
 }
 
 func produceSchematic(c chan string, p data.Plant, traits string) {
-	optionalGraceCornIconTint := ""
+	var iconName string
 	if p.GetName() == "GraceCorn" {
-		optionalGraceCornIconTint = `<property name="CustomIconTint" value="ff9f9f"/>`
+		iconName = `plantedCorn1"/><property name="CustomIconTint" value="ff9f9f`
+	} else {
+		iconName = fmt.Sprintf(`planted%s1`, p.GetName())
 	}
 	c <- fmt.Sprintf(`<item name="%s">
 	<property name="Extends" value="schematicNoQualityRecipeMaster"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="CustomIcon" value="planted%s1"/>%s
+	<property name="CustomIcon" value="%s"/>
+	<property name="Group" value="SeedEnhancementResearch"/>
 	<property name="Unlocks" value="planted%s1_%s"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="planted%s1_%s" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
 	</effect_group>
-</item>`, p.GetSchematicName(traits), p.GetName(), optionalGraceCornIconTint, p.GetName(), traits, p.GetName(), traits)
+</item>`, p.GetSchematicName(traits), iconName, p.GetName(), traits, p.GetName(), traits)
 }
