@@ -148,18 +148,18 @@ func ProducePlantLocalization(c chan string, plant data.Plant, traits ...data.Tr
 func ProduceSchematicLocalization(c chan string, plant data.Plant, traits ...data.Trait) {
 	switch len(traits) {
 	case 0:
-		c <- fmt.Sprintf(`planted%s1_schematic,blocks,Farming,"%s (Seed, Enhanced) Recipe"`,
-			plant.GetName(), plant.GetDisplayName())
+		c <- fmt.Sprintf(`%s,blocks,Farming,"%s (Seed, Enhanced) Recipe"`,
+			plant.GetSchematicName(""), plant.GetDisplayName())
 	case 1:
-		c <- fmt.Sprintf(`planted%s1_%c_schematic,blocks,Farming,"%s (Seed, %s) Recipe"`,
-			plant.GetName(), traits[0].Code, plant.GetDisplayName(), traits[0].Name)
+		c <- fmt.Sprintf(`%s,blocks,Farming,"%s (Seed, %s) Recipe"`,
+			plant.GetSchematicName(string(traits[0].Code)), plant.GetDisplayName(), traits[0].Name)
 	case 2:
 		if traits[0].Code == traits[1].Code {
-			c <- fmt.Sprintf(`planted%s1_%c%c_schematic,blocks,Farming,"%s (Seed, %s) Recipe"`,
-				plant.GetName(), traits[0].Code, traits[1].Code, plant.GetDisplayName(), traits[0].DoubleName)
+			c <- fmt.Sprintf(`%s,blocks,Farming,"%s (Seed, %s) Recipe"`,
+				plant.GetSchematicName(string(traits[0].Code)+string(traits[1].Code)), plant.GetDisplayName(), traits[0].DoubleName)
 		} else {
-			c <- fmt.Sprintf(`planted%s1_%c%c_schematic,blocks,Farming,"%s (Seed, %s, %s) Recipe"`,
-				plant.GetName(), traits[0].Code, traits[1].Code, plant.GetDisplayName(), traits[0].Name, traits[1].Name)
+			c <- fmt.Sprintf(`%s,blocks,Farming,"%s (Seed, %s, %s) Recipe"`,
+				plant.GetSchematicName(string(traits[0].Code)+string(traits[1].Code)), plant.GetDisplayName(), traits[0].Name, traits[1].Name)
 		}
 	}
 }
