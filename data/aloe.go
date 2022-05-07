@@ -22,7 +22,6 @@ func CreateAloe() *Aloe {
 		CropYield:          2,
 		BonusYield:         1,
 		CraftTime:          2,
-		incompatibleTraits: []rune{'S'},
 	}
 }
 

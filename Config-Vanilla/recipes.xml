@@ -2205,56 +2205,2649 @@
     <ingredient name="resourceScrapIron" count="10"/>
     <ingredient name="resourceNail" count="10"/>
 </recipe>
-<recipe name="plantedAloe1_schematic" count="1" craft_time="10" traits="" tags="learnable">
+<recipe name="plantedAloe1_schematic" count="1" craft_time="10" traits="" craft_area="hotbox" tags="learnable">
     <ingredient name="resourcePaper" count="10"/>
     <ingredient name="plantedAloe1" count="100"/>
 </recipe>
-<recipe name="plantedBlueberry1_schematic" count="1" craft_time="10" traits="" tags="learnable">
+</recipe>
+<recipe name="plantedAloe1_Bschematic" count="1" craft_time="10" traits="B" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedAloe1_" count="10"/>
+    <ingredient name="foodRottingFlesh" count="50"/>
+    <ingredient name="medicalBloodBag" count="20"/>
+</recipe>
+<recipe name="plantedAloe1_BBschematic" count="1" craft_time="10" traits="BB" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedAloe1_B" count="1"/>
+    <ingredient name="foodRottingFlesh" count="50"/>
+    <ingredient name="medicalBloodBag" count="20"/>
+</recipe>
+<recipe name="plantedAloe1_BUschematic" count="1" craft_time="10" traits="BU" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedAloe1_B" count="1"/>
+    <ingredient name="plantedMushroom1" count="10"/>
+</recipe>
+<recipe name="plantedAloe1_BUschematic" count="1" craft_time="10" traits="BU" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedAloe1_U" count="1"/>
+    <ingredient name="foodRottingFlesh" count="50"/>
+    <ingredient name="medicalBloodBag" count="20"/>
+</recipe>
+<recipe name="plantedAloe1_BFschematic" count="1" craft_time="10" traits="BF" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedAloe1_B" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedAloe1_BFschematic" count="1" craft_time="10" traits="BF" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedAloe1_F" count="1"/>
+    <ingredient name="foodRottingFlesh" count="50"/>
+    <ingredient name="medicalBloodBag" count="20"/>
+</recipe>
+<recipe name="plantedAloe1_BRschematic" count="1" craft_time="10" traits="BR" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedAloe1_B" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="100"/>
+</recipe>
+<recipe name="plantedAloe1_BRschematic" count="1" craft_time="10" traits="BR" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedAloe1_R" count="1"/>
+    <ingredient name="foodRottingFlesh" count="50"/>
+    <ingredient name="medicalBloodBag" count="20"/>
+</recipe>
+<recipe name="plantedAloe1_BTschematic" count="1" craft_time="10" traits="BT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedAloe1_B" count="1"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedAloe1_BTschematic" count="1" craft_time="10" traits="BT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedAloe1_T" count="1"/>
+    <ingredient name="foodRottingFlesh" count="50"/>
+    <ingredient name="medicalBloodBag" count="20"/>
+</recipe>
+<recipe name="plantedAloe1_Uschematic" count="1" craft_time="10" traits="U" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedAloe1_" count="10"/>
+    <ingredient name="plantedMushroom1" count="10"/>
+</recipe>
+<recipe name="plantedAloe1_UFschematic" count="1" craft_time="10" traits="UF" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedAloe1_U" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedAloe1_UFschematic" count="1" craft_time="10" traits="UF" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedAloe1_F" count="1"/>
+    <ingredient name="plantedMushroom1" count="10"/>
+</recipe>
+<recipe name="plantedAloe1_UEschematic" count="1" craft_time="10" traits="UE" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedAloe1_U" count="1"/>
+    <ingredient name="resourceScrapIron" count="40"/>
+    <ingredient name="resourceGunPowder" count="40"/>
+    <ingredient name="resourceDuctTape" count="10"/>
+</recipe>
+<recipe name="plantedAloe1_UEschematic" count="1" craft_time="10" traits="UE" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedAloe1_E" count="1"/>
+    <ingredient name="plantedMushroom1" count="10"/>
+</recipe>
+<recipe name="plantedAloe1_URschematic" count="1" craft_time="10" traits="UR" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedAloe1_U" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="100"/>
+</recipe>
+<recipe name="plantedAloe1_URschematic" count="1" craft_time="10" traits="UR" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedAloe1_R" count="1"/>
+    <ingredient name="plantedMushroom1" count="10"/>
+</recipe>
+<recipe name="plantedAloe1_UTschematic" count="1" craft_time="10" traits="UT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedAloe1_U" count="1"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedAloe1_UTschematic" count="1" craft_time="10" traits="UT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedAloe1_T" count="1"/>
+    <ingredient name="plantedMushroom1" count="10"/>
+</recipe>
+<recipe name="plantedAloe1_Fschematic" count="1" craft_time="10" traits="F" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedAloe1_" count="10"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedAloe1_FFschematic" count="1" craft_time="10" traits="FF" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedAloe1_F" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedAloe1_FEschematic" count="1" craft_time="10" traits="FE" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedAloe1_F" count="1"/>
+    <ingredient name="resourceScrapIron" count="40"/>
+    <ingredient name="resourceGunPowder" count="40"/>
+    <ingredient name="resourceDuctTape" count="10"/>
+</recipe>
+<recipe name="plantedAloe1_FEschematic" count="1" craft_time="10" traits="FE" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedAloe1_E" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedAloe1_FRschematic" count="1" craft_time="10" traits="FR" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedAloe1_F" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="100"/>
+</recipe>
+<recipe name="plantedAloe1_FRschematic" count="1" craft_time="10" traits="FR" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedAloe1_R" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedAloe1_FTschematic" count="1" craft_time="10" traits="FT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedAloe1_F" count="1"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedAloe1_FTschematic" count="1" craft_time="10" traits="FT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedAloe1_T" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedAloe1_Eschematic" count="1" craft_time="10" traits="E" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedAloe1_" count="10"/>
+    <ingredient name="resourceScrapIron" count="40"/>
+    <ingredient name="resourceGunPowder" count="40"/>
+    <ingredient name="resourceDuctTape" count="10"/>
+</recipe>
+<recipe name="plantedAloe1_EEschematic" count="1" craft_time="10" traits="EE" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedAloe1_E" count="1"/>
+    <ingredient name="resourceScrapIron" count="40"/>
+    <ingredient name="resourceGunPowder" count="40"/>
+    <ingredient name="resourceDuctTape" count="10"/>
+</recipe>
+<recipe name="plantedAloe1_ETschematic" count="1" craft_time="10" traits="ET" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedAloe1_E" count="1"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedAloe1_ETschematic" count="1" craft_time="10" traits="ET" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedAloe1_T" count="1"/>
+    <ingredient name="resourceScrapIron" count="40"/>
+    <ingredient name="resourceGunPowder" count="40"/>
+    <ingredient name="resourceDuctTape" count="10"/>
+</recipe>
+<recipe name="plantedAloe1_Rschematic" count="1" craft_time="10" traits="R" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedAloe1_" count="10"/>
+    <ingredient name="drinkJarPureMineralWater" count="100"/>
+</recipe>
+<recipe name="plantedAloe1_RTschematic" count="1" craft_time="10" traits="RT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedAloe1_R" count="1"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedAloe1_RTschematic" count="1" craft_time="10" traits="RT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedAloe1_T" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="100"/>
+</recipe>
+<recipe name="plantedAloe1_Tschematic" count="1" craft_time="10" traits="T" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedAloe1_" count="10"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedAloe1_TTschematic" count="1" craft_time="10" traits="TT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedAloe1_T" count="1"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedBlueberry1_schematic" count="1" craft_time="10" traits="" craft_area="hotbox" tags="learnable">
     <ingredient name="resourcePaper" count="10"/>
     <ingredient name="plantedBlueberry1" count="100"/>
 </recipe>
-<recipe name="plantedChrysanthemum1_schematic" count="1" craft_time="10" traits="" tags="learnable">
+</recipe>
+<recipe name="plantedBlueberry1_Bschematic" count="1" craft_time="10" traits="B" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedBlueberry1_" count="10"/>
+    <ingredient name="foodRottingFlesh" count="50"/>
+    <ingredient name="medicalBloodBag" count="20"/>
+</recipe>
+<recipe name="plantedBlueberry1_BBschematic" count="1" craft_time="10" traits="BB" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedBlueberry1_B" count="1"/>
+    <ingredient name="foodRottingFlesh" count="50"/>
+    <ingredient name="medicalBloodBag" count="20"/>
+</recipe>
+<recipe name="plantedBlueberry1_BUschematic" count="1" craft_time="10" traits="BU" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedBlueberry1_B" count="1"/>
+    <ingredient name="plantedMushroom1" count="10"/>
+</recipe>
+<recipe name="plantedBlueberry1_BUschematic" count="1" craft_time="10" traits="BU" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedBlueberry1_U" count="1"/>
+    <ingredient name="foodRottingFlesh" count="50"/>
+    <ingredient name="medicalBloodBag" count="20"/>
+</recipe>
+<recipe name="plantedBlueberry1_BFschematic" count="1" craft_time="10" traits="BF" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedBlueberry1_B" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedBlueberry1_BFschematic" count="1" craft_time="10" traits="BF" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedBlueberry1_F" count="1"/>
+    <ingredient name="foodRottingFlesh" count="50"/>
+    <ingredient name="medicalBloodBag" count="20"/>
+</recipe>
+<recipe name="plantedBlueberry1_BRschematic" count="1" craft_time="10" traits="BR" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedBlueberry1_B" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="100"/>
+</recipe>
+<recipe name="plantedBlueberry1_BRschematic" count="1" craft_time="10" traits="BR" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedBlueberry1_R" count="1"/>
+    <ingredient name="foodRottingFlesh" count="50"/>
+    <ingredient name="medicalBloodBag" count="20"/>
+</recipe>
+<recipe name="plantedBlueberry1_BTschematic" count="1" craft_time="10" traits="BT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedBlueberry1_B" count="1"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedBlueberry1_BTschematic" count="1" craft_time="10" traits="BT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedBlueberry1_T" count="1"/>
+    <ingredient name="foodRottingFlesh" count="50"/>
+    <ingredient name="medicalBloodBag" count="20"/>
+</recipe>
+<recipe name="plantedBlueberry1_Uschematic" count="1" craft_time="10" traits="U" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedBlueberry1_" count="10"/>
+    <ingredient name="plantedMushroom1" count="10"/>
+</recipe>
+<recipe name="plantedBlueberry1_UFschematic" count="1" craft_time="10" traits="UF" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedBlueberry1_U" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedBlueberry1_UFschematic" count="1" craft_time="10" traits="UF" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedBlueberry1_F" count="1"/>
+    <ingredient name="plantedMushroom1" count="10"/>
+</recipe>
+<recipe name="plantedBlueberry1_UEschematic" count="1" craft_time="10" traits="UE" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedBlueberry1_U" count="1"/>
+    <ingredient name="resourceScrapIron" count="40"/>
+    <ingredient name="resourceGunPowder" count="40"/>
+    <ingredient name="resourceDuctTape" count="10"/>
+</recipe>
+<recipe name="plantedBlueberry1_UEschematic" count="1" craft_time="10" traits="UE" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedBlueberry1_E" count="1"/>
+    <ingredient name="plantedMushroom1" count="10"/>
+</recipe>
+<recipe name="plantedBlueberry1_URschematic" count="1" craft_time="10" traits="UR" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedBlueberry1_U" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="100"/>
+</recipe>
+<recipe name="plantedBlueberry1_URschematic" count="1" craft_time="10" traits="UR" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedBlueberry1_R" count="1"/>
+    <ingredient name="plantedMushroom1" count="10"/>
+</recipe>
+<recipe name="plantedBlueberry1_UTschematic" count="1" craft_time="10" traits="UT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedBlueberry1_U" count="1"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedBlueberry1_UTschematic" count="1" craft_time="10" traits="UT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedBlueberry1_T" count="1"/>
+    <ingredient name="plantedMushroom1" count="10"/>
+</recipe>
+<recipe name="plantedBlueberry1_Fschematic" count="1" craft_time="10" traits="F" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedBlueberry1_" count="10"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedBlueberry1_FFschematic" count="1" craft_time="10" traits="FF" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedBlueberry1_F" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedBlueberry1_FEschematic" count="1" craft_time="10" traits="FE" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedBlueberry1_F" count="1"/>
+    <ingredient name="resourceScrapIron" count="40"/>
+    <ingredient name="resourceGunPowder" count="40"/>
+    <ingredient name="resourceDuctTape" count="10"/>
+</recipe>
+<recipe name="plantedBlueberry1_FEschematic" count="1" craft_time="10" traits="FE" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedBlueberry1_E" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedBlueberry1_FRschematic" count="1" craft_time="10" traits="FR" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedBlueberry1_F" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="100"/>
+</recipe>
+<recipe name="plantedBlueberry1_FRschematic" count="1" craft_time="10" traits="FR" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedBlueberry1_R" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedBlueberry1_FTschematic" count="1" craft_time="10" traits="FT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedBlueberry1_F" count="1"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedBlueberry1_FTschematic" count="1" craft_time="10" traits="FT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedBlueberry1_T" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedBlueberry1_Eschematic" count="1" craft_time="10" traits="E" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedBlueberry1_" count="10"/>
+    <ingredient name="resourceScrapIron" count="40"/>
+    <ingredient name="resourceGunPowder" count="40"/>
+    <ingredient name="resourceDuctTape" count="10"/>
+</recipe>
+<recipe name="plantedBlueberry1_EEschematic" count="1" craft_time="10" traits="EE" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedBlueberry1_E" count="1"/>
+    <ingredient name="resourceScrapIron" count="40"/>
+    <ingredient name="resourceGunPowder" count="40"/>
+    <ingredient name="resourceDuctTape" count="10"/>
+</recipe>
+<recipe name="plantedBlueberry1_ETschematic" count="1" craft_time="10" traits="ET" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedBlueberry1_E" count="1"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedBlueberry1_ETschematic" count="1" craft_time="10" traits="ET" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedBlueberry1_T" count="1"/>
+    <ingredient name="resourceScrapIron" count="40"/>
+    <ingredient name="resourceGunPowder" count="40"/>
+    <ingredient name="resourceDuctTape" count="10"/>
+</recipe>
+<recipe name="plantedBlueberry1_Rschematic" count="1" craft_time="10" traits="R" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedBlueberry1_" count="10"/>
+    <ingredient name="drinkJarPureMineralWater" count="100"/>
+</recipe>
+<recipe name="plantedBlueberry1_RTschematic" count="1" craft_time="10" traits="RT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedBlueberry1_R" count="1"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedBlueberry1_RTschematic" count="1" craft_time="10" traits="RT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedBlueberry1_T" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="100"/>
+</recipe>
+<recipe name="plantedBlueberry1_Tschematic" count="1" craft_time="10" traits="T" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedBlueberry1_" count="10"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedBlueberry1_TTschematic" count="1" craft_time="10" traits="TT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedBlueberry1_T" count="1"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedChrysanthemum1_schematic" count="1" craft_time="10" traits="" craft_area="hotbox" tags="learnable">
     <ingredient name="resourcePaper" count="10"/>
     <ingredient name="plantedChrysanthemum1" count="100"/>
 </recipe>
-<recipe name="plantedCoffee1_schematic" count="1" craft_time="10" traits="" tags="learnable">
+</recipe>
+<recipe name="plantedChrysanthemum1_Bschematic" count="1" craft_time="10" traits="B" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedChrysanthemum1_" count="10"/>
+    <ingredient name="foodRottingFlesh" count="50"/>
+    <ingredient name="medicalBloodBag" count="20"/>
+</recipe>
+<recipe name="plantedChrysanthemum1_BBschematic" count="1" craft_time="10" traits="BB" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedChrysanthemum1_B" count="1"/>
+    <ingredient name="foodRottingFlesh" count="50"/>
+    <ingredient name="medicalBloodBag" count="20"/>
+</recipe>
+<recipe name="plantedChrysanthemum1_BUschematic" count="1" craft_time="10" traits="BU" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedChrysanthemum1_B" count="1"/>
+    <ingredient name="plantedMushroom1" count="10"/>
+</recipe>
+<recipe name="plantedChrysanthemum1_BUschematic" count="1" craft_time="10" traits="BU" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedChrysanthemum1_U" count="1"/>
+    <ingredient name="foodRottingFlesh" count="50"/>
+    <ingredient name="medicalBloodBag" count="20"/>
+</recipe>
+<recipe name="plantedChrysanthemum1_BFschematic" count="1" craft_time="10" traits="BF" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedChrysanthemum1_B" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedChrysanthemum1_BFschematic" count="1" craft_time="10" traits="BF" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedChrysanthemum1_F" count="1"/>
+    <ingredient name="foodRottingFlesh" count="50"/>
+    <ingredient name="medicalBloodBag" count="20"/>
+</recipe>
+<recipe name="plantedChrysanthemum1_BRschematic" count="1" craft_time="10" traits="BR" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedChrysanthemum1_B" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="100"/>
+</recipe>
+<recipe name="plantedChrysanthemum1_BRschematic" count="1" craft_time="10" traits="BR" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedChrysanthemum1_R" count="1"/>
+    <ingredient name="foodRottingFlesh" count="50"/>
+    <ingredient name="medicalBloodBag" count="20"/>
+</recipe>
+<recipe name="plantedChrysanthemum1_BTschematic" count="1" craft_time="10" traits="BT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedChrysanthemum1_B" count="1"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedChrysanthemum1_BTschematic" count="1" craft_time="10" traits="BT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedChrysanthemum1_T" count="1"/>
+    <ingredient name="foodRottingFlesh" count="50"/>
+    <ingredient name="medicalBloodBag" count="20"/>
+</recipe>
+<recipe name="plantedChrysanthemum1_Uschematic" count="1" craft_time="10" traits="U" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedChrysanthemum1_" count="10"/>
+    <ingredient name="plantedMushroom1" count="10"/>
+</recipe>
+<recipe name="plantedChrysanthemum1_UFschematic" count="1" craft_time="10" traits="UF" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedChrysanthemum1_U" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedChrysanthemum1_UFschematic" count="1" craft_time="10" traits="UF" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedChrysanthemum1_F" count="1"/>
+    <ingredient name="plantedMushroom1" count="10"/>
+</recipe>
+<recipe name="plantedChrysanthemum1_UEschematic" count="1" craft_time="10" traits="UE" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedChrysanthemum1_U" count="1"/>
+    <ingredient name="resourceScrapIron" count="40"/>
+    <ingredient name="resourceGunPowder" count="40"/>
+    <ingredient name="resourceDuctTape" count="10"/>
+</recipe>
+<recipe name="plantedChrysanthemum1_UEschematic" count="1" craft_time="10" traits="UE" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedChrysanthemum1_E" count="1"/>
+    <ingredient name="plantedMushroom1" count="10"/>
+</recipe>
+<recipe name="plantedChrysanthemum1_URschematic" count="1" craft_time="10" traits="UR" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedChrysanthemum1_U" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="100"/>
+</recipe>
+<recipe name="plantedChrysanthemum1_URschematic" count="1" craft_time="10" traits="UR" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedChrysanthemum1_R" count="1"/>
+    <ingredient name="plantedMushroom1" count="10"/>
+</recipe>
+<recipe name="plantedChrysanthemum1_UTschematic" count="1" craft_time="10" traits="UT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedChrysanthemum1_U" count="1"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedChrysanthemum1_UTschematic" count="1" craft_time="10" traits="UT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedChrysanthemum1_T" count="1"/>
+    <ingredient name="plantedMushroom1" count="10"/>
+</recipe>
+<recipe name="plantedChrysanthemum1_Fschematic" count="1" craft_time="10" traits="F" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedChrysanthemum1_" count="10"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedChrysanthemum1_FFschematic" count="1" craft_time="10" traits="FF" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedChrysanthemum1_F" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedChrysanthemum1_FEschematic" count="1" craft_time="10" traits="FE" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedChrysanthemum1_F" count="1"/>
+    <ingredient name="resourceScrapIron" count="40"/>
+    <ingredient name="resourceGunPowder" count="40"/>
+    <ingredient name="resourceDuctTape" count="10"/>
+</recipe>
+<recipe name="plantedChrysanthemum1_FEschematic" count="1" craft_time="10" traits="FE" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedChrysanthemum1_E" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedChrysanthemum1_FRschematic" count="1" craft_time="10" traits="FR" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedChrysanthemum1_F" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="100"/>
+</recipe>
+<recipe name="plantedChrysanthemum1_FRschematic" count="1" craft_time="10" traits="FR" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedChrysanthemum1_R" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedChrysanthemum1_FTschematic" count="1" craft_time="10" traits="FT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedChrysanthemum1_F" count="1"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedChrysanthemum1_FTschematic" count="1" craft_time="10" traits="FT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedChrysanthemum1_T" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedChrysanthemum1_Eschematic" count="1" craft_time="10" traits="E" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedChrysanthemum1_" count="10"/>
+    <ingredient name="resourceScrapIron" count="40"/>
+    <ingredient name="resourceGunPowder" count="40"/>
+    <ingredient name="resourceDuctTape" count="10"/>
+</recipe>
+<recipe name="plantedChrysanthemum1_EEschematic" count="1" craft_time="10" traits="EE" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedChrysanthemum1_E" count="1"/>
+    <ingredient name="resourceScrapIron" count="40"/>
+    <ingredient name="resourceGunPowder" count="40"/>
+    <ingredient name="resourceDuctTape" count="10"/>
+</recipe>
+<recipe name="plantedChrysanthemum1_ETschematic" count="1" craft_time="10" traits="ET" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedChrysanthemum1_E" count="1"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedChrysanthemum1_ETschematic" count="1" craft_time="10" traits="ET" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedChrysanthemum1_T" count="1"/>
+    <ingredient name="resourceScrapIron" count="40"/>
+    <ingredient name="resourceGunPowder" count="40"/>
+    <ingredient name="resourceDuctTape" count="10"/>
+</recipe>
+<recipe name="plantedChrysanthemum1_Rschematic" count="1" craft_time="10" traits="R" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedChrysanthemum1_" count="10"/>
+    <ingredient name="drinkJarPureMineralWater" count="100"/>
+</recipe>
+<recipe name="plantedChrysanthemum1_RTschematic" count="1" craft_time="10" traits="RT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedChrysanthemum1_R" count="1"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedChrysanthemum1_RTschematic" count="1" craft_time="10" traits="RT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedChrysanthemum1_T" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="100"/>
+</recipe>
+<recipe name="plantedChrysanthemum1_Tschematic" count="1" craft_time="10" traits="T" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedChrysanthemum1_" count="10"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedChrysanthemum1_TTschematic" count="1" craft_time="10" traits="TT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedChrysanthemum1_T" count="1"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedCoffee1_schematic" count="1" craft_time="10" traits="" craft_area="hotbox" tags="learnable">
     <ingredient name="resourcePaper" count="10"/>
     <ingredient name="plantedCoffee1" count="100"/>
 </recipe>
-<recipe name="plantedCorn1_schematic" count="1" craft_time="10" traits="" tags="learnable">
+</recipe>
+<recipe name="plantedCoffee1_Bschematic" count="1" craft_time="10" traits="B" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCoffee1_" count="10"/>
+    <ingredient name="foodRottingFlesh" count="50"/>
+    <ingredient name="medicalBloodBag" count="20"/>
+</recipe>
+<recipe name="plantedCoffee1_BBschematic" count="1" craft_time="10" traits="BB" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCoffee1_B" count="1"/>
+    <ingredient name="foodRottingFlesh" count="50"/>
+    <ingredient name="medicalBloodBag" count="20"/>
+</recipe>
+<recipe name="plantedCoffee1_BUschematic" count="1" craft_time="10" traits="BU" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCoffee1_B" count="1"/>
+    <ingredient name="plantedMushroom1" count="10"/>
+</recipe>
+<recipe name="plantedCoffee1_BUschematic" count="1" craft_time="10" traits="BU" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCoffee1_U" count="1"/>
+    <ingredient name="foodRottingFlesh" count="50"/>
+    <ingredient name="medicalBloodBag" count="20"/>
+</recipe>
+<recipe name="plantedCoffee1_BFschematic" count="1" craft_time="10" traits="BF" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCoffee1_B" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedCoffee1_BFschematic" count="1" craft_time="10" traits="BF" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCoffee1_F" count="1"/>
+    <ingredient name="foodRottingFlesh" count="50"/>
+    <ingredient name="medicalBloodBag" count="20"/>
+</recipe>
+<recipe name="plantedCoffee1_BRschematic" count="1" craft_time="10" traits="BR" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCoffee1_B" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="100"/>
+</recipe>
+<recipe name="plantedCoffee1_BRschematic" count="1" craft_time="10" traits="BR" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCoffee1_R" count="1"/>
+    <ingredient name="foodRottingFlesh" count="50"/>
+    <ingredient name="medicalBloodBag" count="20"/>
+</recipe>
+<recipe name="plantedCoffee1_BTschematic" count="1" craft_time="10" traits="BT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCoffee1_B" count="1"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedCoffee1_BTschematic" count="1" craft_time="10" traits="BT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCoffee1_T" count="1"/>
+    <ingredient name="foodRottingFlesh" count="50"/>
+    <ingredient name="medicalBloodBag" count="20"/>
+</recipe>
+<recipe name="plantedCoffee1_Uschematic" count="1" craft_time="10" traits="U" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCoffee1_" count="10"/>
+    <ingredient name="plantedMushroom1" count="10"/>
+</recipe>
+<recipe name="plantedCoffee1_UFschematic" count="1" craft_time="10" traits="UF" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCoffee1_U" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedCoffee1_UFschematic" count="1" craft_time="10" traits="UF" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCoffee1_F" count="1"/>
+    <ingredient name="plantedMushroom1" count="10"/>
+</recipe>
+<recipe name="plantedCoffee1_UEschematic" count="1" craft_time="10" traits="UE" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCoffee1_U" count="1"/>
+    <ingredient name="resourceScrapIron" count="40"/>
+    <ingredient name="resourceGunPowder" count="40"/>
+    <ingredient name="resourceDuctTape" count="10"/>
+</recipe>
+<recipe name="plantedCoffee1_UEschematic" count="1" craft_time="10" traits="UE" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCoffee1_E" count="1"/>
+    <ingredient name="plantedMushroom1" count="10"/>
+</recipe>
+<recipe name="plantedCoffee1_URschematic" count="1" craft_time="10" traits="UR" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCoffee1_U" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="100"/>
+</recipe>
+<recipe name="plantedCoffee1_URschematic" count="1" craft_time="10" traits="UR" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCoffee1_R" count="1"/>
+    <ingredient name="plantedMushroom1" count="10"/>
+</recipe>
+<recipe name="plantedCoffee1_UTschematic" count="1" craft_time="10" traits="UT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCoffee1_U" count="1"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedCoffee1_UTschematic" count="1" craft_time="10" traits="UT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCoffee1_T" count="1"/>
+    <ingredient name="plantedMushroom1" count="10"/>
+</recipe>
+<recipe name="plantedCoffee1_Fschematic" count="1" craft_time="10" traits="F" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCoffee1_" count="10"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedCoffee1_FFschematic" count="1" craft_time="10" traits="FF" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCoffee1_F" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedCoffee1_FEschematic" count="1" craft_time="10" traits="FE" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCoffee1_F" count="1"/>
+    <ingredient name="resourceScrapIron" count="40"/>
+    <ingredient name="resourceGunPowder" count="40"/>
+    <ingredient name="resourceDuctTape" count="10"/>
+</recipe>
+<recipe name="plantedCoffee1_FEschematic" count="1" craft_time="10" traits="FE" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCoffee1_E" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedCoffee1_FRschematic" count="1" craft_time="10" traits="FR" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCoffee1_F" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="100"/>
+</recipe>
+<recipe name="plantedCoffee1_FRschematic" count="1" craft_time="10" traits="FR" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCoffee1_R" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedCoffee1_FTschematic" count="1" craft_time="10" traits="FT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCoffee1_F" count="1"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedCoffee1_FTschematic" count="1" craft_time="10" traits="FT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCoffee1_T" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedCoffee1_Eschematic" count="1" craft_time="10" traits="E" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCoffee1_" count="10"/>
+    <ingredient name="resourceScrapIron" count="40"/>
+    <ingredient name="resourceGunPowder" count="40"/>
+    <ingredient name="resourceDuctTape" count="10"/>
+</recipe>
+<recipe name="plantedCoffee1_EEschematic" count="1" craft_time="10" traits="EE" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCoffee1_E" count="1"/>
+    <ingredient name="resourceScrapIron" count="40"/>
+    <ingredient name="resourceGunPowder" count="40"/>
+    <ingredient name="resourceDuctTape" count="10"/>
+</recipe>
+<recipe name="plantedCoffee1_ETschematic" count="1" craft_time="10" traits="ET" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCoffee1_E" count="1"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedCoffee1_ETschematic" count="1" craft_time="10" traits="ET" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCoffee1_T" count="1"/>
+    <ingredient name="resourceScrapIron" count="40"/>
+    <ingredient name="resourceGunPowder" count="40"/>
+    <ingredient name="resourceDuctTape" count="10"/>
+</recipe>
+<recipe name="plantedCoffee1_Rschematic" count="1" craft_time="10" traits="R" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCoffee1_" count="10"/>
+    <ingredient name="drinkJarPureMineralWater" count="100"/>
+</recipe>
+<recipe name="plantedCoffee1_RTschematic" count="1" craft_time="10" traits="RT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCoffee1_R" count="1"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedCoffee1_RTschematic" count="1" craft_time="10" traits="RT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCoffee1_T" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="100"/>
+</recipe>
+<recipe name="plantedCoffee1_Tschematic" count="1" craft_time="10" traits="T" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCoffee1_" count="10"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedCoffee1_TTschematic" count="1" craft_time="10" traits="TT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCoffee1_T" count="1"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedCorn1_schematic" count="1" craft_time="10" traits="" craft_area="hotbox" tags="learnable">
     <ingredient name="resourcePaper" count="10"/>
     <ingredient name="plantedCorn1" count="100"/>
 </recipe>
-<recipe name="plantedCotton1_schematic" count="1" craft_time="10" traits="" tags="learnable">
+</recipe>
+<recipe name="plantedCorn1_Bschematic" count="1" craft_time="10" traits="B" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCorn1_" count="10"/>
+    <ingredient name="foodRottingFlesh" count="50"/>
+    <ingredient name="medicalBloodBag" count="20"/>
+</recipe>
+<recipe name="plantedCorn1_BBschematic" count="1" craft_time="10" traits="BB" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCorn1_B" count="1"/>
+    <ingredient name="foodRottingFlesh" count="50"/>
+    <ingredient name="medicalBloodBag" count="20"/>
+</recipe>
+<recipe name="plantedCorn1_BUschematic" count="1" craft_time="10" traits="BU" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCorn1_B" count="1"/>
+    <ingredient name="plantedMushroom1" count="10"/>
+</recipe>
+<recipe name="plantedCorn1_BUschematic" count="1" craft_time="10" traits="BU" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCorn1_U" count="1"/>
+    <ingredient name="foodRottingFlesh" count="50"/>
+    <ingredient name="medicalBloodBag" count="20"/>
+</recipe>
+<recipe name="plantedCorn1_BFschematic" count="1" craft_time="10" traits="BF" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCorn1_B" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedCorn1_BFschematic" count="1" craft_time="10" traits="BF" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCorn1_F" count="1"/>
+    <ingredient name="foodRottingFlesh" count="50"/>
+    <ingredient name="medicalBloodBag" count="20"/>
+</recipe>
+<recipe name="plantedCorn1_BRschematic" count="1" craft_time="10" traits="BR" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCorn1_B" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="100"/>
+</recipe>
+<recipe name="plantedCorn1_BRschematic" count="1" craft_time="10" traits="BR" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCorn1_R" count="1"/>
+    <ingredient name="foodRottingFlesh" count="50"/>
+    <ingredient name="medicalBloodBag" count="20"/>
+</recipe>
+<recipe name="plantedCorn1_BTschematic" count="1" craft_time="10" traits="BT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCorn1_B" count="1"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedCorn1_BTschematic" count="1" craft_time="10" traits="BT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCorn1_T" count="1"/>
+    <ingredient name="foodRottingFlesh" count="50"/>
+    <ingredient name="medicalBloodBag" count="20"/>
+</recipe>
+<recipe name="plantedCorn1_Uschematic" count="1" craft_time="10" traits="U" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCorn1_" count="10"/>
+    <ingredient name="plantedMushroom1" count="10"/>
+</recipe>
+<recipe name="plantedCorn1_UFschematic" count="1" craft_time="10" traits="UF" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCorn1_U" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedCorn1_UFschematic" count="1" craft_time="10" traits="UF" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCorn1_F" count="1"/>
+    <ingredient name="plantedMushroom1" count="10"/>
+</recipe>
+<recipe name="plantedCorn1_UEschematic" count="1" craft_time="10" traits="UE" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCorn1_U" count="1"/>
+    <ingredient name="resourceScrapIron" count="40"/>
+    <ingredient name="resourceGunPowder" count="40"/>
+    <ingredient name="resourceDuctTape" count="10"/>
+</recipe>
+<recipe name="plantedCorn1_UEschematic" count="1" craft_time="10" traits="UE" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCorn1_E" count="1"/>
+    <ingredient name="plantedMushroom1" count="10"/>
+</recipe>
+<recipe name="plantedCorn1_URschematic" count="1" craft_time="10" traits="UR" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCorn1_U" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="100"/>
+</recipe>
+<recipe name="plantedCorn1_URschematic" count="1" craft_time="10" traits="UR" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCorn1_R" count="1"/>
+    <ingredient name="plantedMushroom1" count="10"/>
+</recipe>
+<recipe name="plantedCorn1_UTschematic" count="1" craft_time="10" traits="UT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCorn1_U" count="1"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedCorn1_UTschematic" count="1" craft_time="10" traits="UT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCorn1_T" count="1"/>
+    <ingredient name="plantedMushroom1" count="10"/>
+</recipe>
+<recipe name="plantedCorn1_Fschematic" count="1" craft_time="10" traits="F" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCorn1_" count="10"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedCorn1_FFschematic" count="1" craft_time="10" traits="FF" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCorn1_F" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedCorn1_FEschematic" count="1" craft_time="10" traits="FE" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCorn1_F" count="1"/>
+    <ingredient name="resourceScrapIron" count="40"/>
+    <ingredient name="resourceGunPowder" count="40"/>
+    <ingredient name="resourceDuctTape" count="10"/>
+</recipe>
+<recipe name="plantedCorn1_FEschematic" count="1" craft_time="10" traits="FE" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCorn1_E" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedCorn1_FRschematic" count="1" craft_time="10" traits="FR" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCorn1_F" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="100"/>
+</recipe>
+<recipe name="plantedCorn1_FRschematic" count="1" craft_time="10" traits="FR" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCorn1_R" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedCorn1_FTschematic" count="1" craft_time="10" traits="FT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCorn1_F" count="1"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedCorn1_FTschematic" count="1" craft_time="10" traits="FT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCorn1_T" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedCorn1_Eschematic" count="1" craft_time="10" traits="E" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCorn1_" count="10"/>
+    <ingredient name="resourceScrapIron" count="40"/>
+    <ingredient name="resourceGunPowder" count="40"/>
+    <ingredient name="resourceDuctTape" count="10"/>
+</recipe>
+<recipe name="plantedCorn1_EEschematic" count="1" craft_time="10" traits="EE" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCorn1_E" count="1"/>
+    <ingredient name="resourceScrapIron" count="40"/>
+    <ingredient name="resourceGunPowder" count="40"/>
+    <ingredient name="resourceDuctTape" count="10"/>
+</recipe>
+<recipe name="plantedCorn1_ETschematic" count="1" craft_time="10" traits="ET" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCorn1_E" count="1"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedCorn1_ETschematic" count="1" craft_time="10" traits="ET" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCorn1_T" count="1"/>
+    <ingredient name="resourceScrapIron" count="40"/>
+    <ingredient name="resourceGunPowder" count="40"/>
+    <ingredient name="resourceDuctTape" count="10"/>
+</recipe>
+<recipe name="plantedCorn1_Rschematic" count="1" craft_time="10" traits="R" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCorn1_" count="10"/>
+    <ingredient name="drinkJarPureMineralWater" count="100"/>
+</recipe>
+<recipe name="plantedCorn1_RTschematic" count="1" craft_time="10" traits="RT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCorn1_R" count="1"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedCorn1_RTschematic" count="1" craft_time="10" traits="RT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCorn1_T" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="100"/>
+</recipe>
+<recipe name="plantedCorn1_Tschematic" count="1" craft_time="10" traits="T" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCorn1_" count="10"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedCorn1_TTschematic" count="1" craft_time="10" traits="TT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCorn1_T" count="1"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedCotton1_schematic" count="1" craft_time="10" traits="" craft_area="hotbox" tags="learnable">
     <ingredient name="resourcePaper" count="10"/>
     <ingredient name="plantedCotton1" count="100"/>
 </recipe>
-<recipe name="plantedGoldenrod1_schematic" count="1" craft_time="10" traits="" tags="learnable">
+</recipe>
+<recipe name="plantedCotton1_Bschematic" count="1" craft_time="10" traits="B" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCotton1_" count="10"/>
+    <ingredient name="foodRottingFlesh" count="50"/>
+    <ingredient name="medicalBloodBag" count="20"/>
+</recipe>
+<recipe name="plantedCotton1_BBschematic" count="1" craft_time="10" traits="BB" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCotton1_B" count="1"/>
+    <ingredient name="foodRottingFlesh" count="50"/>
+    <ingredient name="medicalBloodBag" count="20"/>
+</recipe>
+<recipe name="plantedCotton1_BUschematic" count="1" craft_time="10" traits="BU" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCotton1_B" count="1"/>
+    <ingredient name="plantedMushroom1" count="10"/>
+</recipe>
+<recipe name="plantedCotton1_BUschematic" count="1" craft_time="10" traits="BU" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCotton1_U" count="1"/>
+    <ingredient name="foodRottingFlesh" count="50"/>
+    <ingredient name="medicalBloodBag" count="20"/>
+</recipe>
+<recipe name="plantedCotton1_BFschematic" count="1" craft_time="10" traits="BF" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCotton1_B" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedCotton1_BFschematic" count="1" craft_time="10" traits="BF" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCotton1_F" count="1"/>
+    <ingredient name="foodRottingFlesh" count="50"/>
+    <ingredient name="medicalBloodBag" count="20"/>
+</recipe>
+<recipe name="plantedCotton1_BRschematic" count="1" craft_time="10" traits="BR" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCotton1_B" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="100"/>
+</recipe>
+<recipe name="plantedCotton1_BRschematic" count="1" craft_time="10" traits="BR" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCotton1_R" count="1"/>
+    <ingredient name="foodRottingFlesh" count="50"/>
+    <ingredient name="medicalBloodBag" count="20"/>
+</recipe>
+<recipe name="plantedCotton1_BTschematic" count="1" craft_time="10" traits="BT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCotton1_B" count="1"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedCotton1_BTschematic" count="1" craft_time="10" traits="BT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCotton1_T" count="1"/>
+    <ingredient name="foodRottingFlesh" count="50"/>
+    <ingredient name="medicalBloodBag" count="20"/>
+</recipe>
+<recipe name="plantedCotton1_Uschematic" count="1" craft_time="10" traits="U" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCotton1_" count="10"/>
+    <ingredient name="plantedMushroom1" count="10"/>
+</recipe>
+<recipe name="plantedCotton1_UFschematic" count="1" craft_time="10" traits="UF" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCotton1_U" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedCotton1_UFschematic" count="1" craft_time="10" traits="UF" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCotton1_F" count="1"/>
+    <ingredient name="plantedMushroom1" count="10"/>
+</recipe>
+<recipe name="plantedCotton1_UEschematic" count="1" craft_time="10" traits="UE" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCotton1_U" count="1"/>
+    <ingredient name="resourceScrapIron" count="40"/>
+    <ingredient name="resourceGunPowder" count="40"/>
+    <ingredient name="resourceDuctTape" count="10"/>
+</recipe>
+<recipe name="plantedCotton1_UEschematic" count="1" craft_time="10" traits="UE" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCotton1_E" count="1"/>
+    <ingredient name="plantedMushroom1" count="10"/>
+</recipe>
+<recipe name="plantedCotton1_URschematic" count="1" craft_time="10" traits="UR" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCotton1_U" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="100"/>
+</recipe>
+<recipe name="plantedCotton1_URschematic" count="1" craft_time="10" traits="UR" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCotton1_R" count="1"/>
+    <ingredient name="plantedMushroom1" count="10"/>
+</recipe>
+<recipe name="plantedCotton1_UTschematic" count="1" craft_time="10" traits="UT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCotton1_U" count="1"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedCotton1_UTschematic" count="1" craft_time="10" traits="UT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCotton1_T" count="1"/>
+    <ingredient name="plantedMushroom1" count="10"/>
+</recipe>
+<recipe name="plantedCotton1_Fschematic" count="1" craft_time="10" traits="F" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCotton1_" count="10"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedCotton1_FFschematic" count="1" craft_time="10" traits="FF" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCotton1_F" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedCotton1_FEschematic" count="1" craft_time="10" traits="FE" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCotton1_F" count="1"/>
+    <ingredient name="resourceScrapIron" count="40"/>
+    <ingredient name="resourceGunPowder" count="40"/>
+    <ingredient name="resourceDuctTape" count="10"/>
+</recipe>
+<recipe name="plantedCotton1_FEschematic" count="1" craft_time="10" traits="FE" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCotton1_E" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedCotton1_FRschematic" count="1" craft_time="10" traits="FR" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCotton1_F" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="100"/>
+</recipe>
+<recipe name="plantedCotton1_FRschematic" count="1" craft_time="10" traits="FR" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCotton1_R" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedCotton1_FTschematic" count="1" craft_time="10" traits="FT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCotton1_F" count="1"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedCotton1_FTschematic" count="1" craft_time="10" traits="FT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCotton1_T" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedCotton1_Eschematic" count="1" craft_time="10" traits="E" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCotton1_" count="10"/>
+    <ingredient name="resourceScrapIron" count="40"/>
+    <ingredient name="resourceGunPowder" count="40"/>
+    <ingredient name="resourceDuctTape" count="10"/>
+</recipe>
+<recipe name="plantedCotton1_EEschematic" count="1" craft_time="10" traits="EE" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCotton1_E" count="1"/>
+    <ingredient name="resourceScrapIron" count="40"/>
+    <ingredient name="resourceGunPowder" count="40"/>
+    <ingredient name="resourceDuctTape" count="10"/>
+</recipe>
+<recipe name="plantedCotton1_ETschematic" count="1" craft_time="10" traits="ET" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCotton1_E" count="1"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedCotton1_ETschematic" count="1" craft_time="10" traits="ET" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCotton1_T" count="1"/>
+    <ingredient name="resourceScrapIron" count="40"/>
+    <ingredient name="resourceGunPowder" count="40"/>
+    <ingredient name="resourceDuctTape" count="10"/>
+</recipe>
+<recipe name="plantedCotton1_Rschematic" count="1" craft_time="10" traits="R" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCotton1_" count="10"/>
+    <ingredient name="drinkJarPureMineralWater" count="100"/>
+</recipe>
+<recipe name="plantedCotton1_RTschematic" count="1" craft_time="10" traits="RT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCotton1_R" count="1"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedCotton1_RTschematic" count="1" craft_time="10" traits="RT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCotton1_T" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="100"/>
+</recipe>
+<recipe name="plantedCotton1_Tschematic" count="1" craft_time="10" traits="T" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCotton1_" count="10"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedCotton1_TTschematic" count="1" craft_time="10" traits="TT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedCotton1_T" count="1"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedGoldenrod1_schematic" count="1" craft_time="10" traits="" craft_area="hotbox" tags="learnable">
     <ingredient name="resourcePaper" count="10"/>
     <ingredient name="plantedGoldenrod1" count="100"/>
 </recipe>
-<recipe name="plantedGraceCorn1_schematic" count="1" craft_time="10" traits="" tags="learnable">
+</recipe>
+<recipe name="plantedGoldenrod1_Bschematic" count="1" craft_time="10" traits="B" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedGoldenrod1_" count="10"/>
+    <ingredient name="foodRottingFlesh" count="50"/>
+    <ingredient name="medicalBloodBag" count="20"/>
+</recipe>
+<recipe name="plantedGoldenrod1_BBschematic" count="1" craft_time="10" traits="BB" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedGoldenrod1_B" count="1"/>
+    <ingredient name="foodRottingFlesh" count="50"/>
+    <ingredient name="medicalBloodBag" count="20"/>
+</recipe>
+<recipe name="plantedGoldenrod1_BUschematic" count="1" craft_time="10" traits="BU" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedGoldenrod1_B" count="1"/>
+    <ingredient name="plantedMushroom1" count="10"/>
+</recipe>
+<recipe name="plantedGoldenrod1_BUschematic" count="1" craft_time="10" traits="BU" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedGoldenrod1_U" count="1"/>
+    <ingredient name="foodRottingFlesh" count="50"/>
+    <ingredient name="medicalBloodBag" count="20"/>
+</recipe>
+<recipe name="plantedGoldenrod1_BFschematic" count="1" craft_time="10" traits="BF" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedGoldenrod1_B" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedGoldenrod1_BFschematic" count="1" craft_time="10" traits="BF" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedGoldenrod1_F" count="1"/>
+    <ingredient name="foodRottingFlesh" count="50"/>
+    <ingredient name="medicalBloodBag" count="20"/>
+</recipe>
+<recipe name="plantedGoldenrod1_BRschematic" count="1" craft_time="10" traits="BR" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedGoldenrod1_B" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="100"/>
+</recipe>
+<recipe name="plantedGoldenrod1_BRschematic" count="1" craft_time="10" traits="BR" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedGoldenrod1_R" count="1"/>
+    <ingredient name="foodRottingFlesh" count="50"/>
+    <ingredient name="medicalBloodBag" count="20"/>
+</recipe>
+<recipe name="plantedGoldenrod1_BTschematic" count="1" craft_time="10" traits="BT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedGoldenrod1_B" count="1"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedGoldenrod1_BTschematic" count="1" craft_time="10" traits="BT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedGoldenrod1_T" count="1"/>
+    <ingredient name="foodRottingFlesh" count="50"/>
+    <ingredient name="medicalBloodBag" count="20"/>
+</recipe>
+<recipe name="plantedGoldenrod1_Uschematic" count="1" craft_time="10" traits="U" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedGoldenrod1_" count="10"/>
+    <ingredient name="plantedMushroom1" count="10"/>
+</recipe>
+<recipe name="plantedGoldenrod1_UFschematic" count="1" craft_time="10" traits="UF" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedGoldenrod1_U" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedGoldenrod1_UFschematic" count="1" craft_time="10" traits="UF" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedGoldenrod1_F" count="1"/>
+    <ingredient name="plantedMushroom1" count="10"/>
+</recipe>
+<recipe name="plantedGoldenrod1_UEschematic" count="1" craft_time="10" traits="UE" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedGoldenrod1_U" count="1"/>
+    <ingredient name="resourceScrapIron" count="40"/>
+    <ingredient name="resourceGunPowder" count="40"/>
+    <ingredient name="resourceDuctTape" count="10"/>
+</recipe>
+<recipe name="plantedGoldenrod1_UEschematic" count="1" craft_time="10" traits="UE" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedGoldenrod1_E" count="1"/>
+    <ingredient name="plantedMushroom1" count="10"/>
+</recipe>
+<recipe name="plantedGoldenrod1_URschematic" count="1" craft_time="10" traits="UR" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedGoldenrod1_U" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="100"/>
+</recipe>
+<recipe name="plantedGoldenrod1_URschematic" count="1" craft_time="10" traits="UR" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedGoldenrod1_R" count="1"/>
+    <ingredient name="plantedMushroom1" count="10"/>
+</recipe>
+<recipe name="plantedGoldenrod1_UTschematic" count="1" craft_time="10" traits="UT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedGoldenrod1_U" count="1"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedGoldenrod1_UTschematic" count="1" craft_time="10" traits="UT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedGoldenrod1_T" count="1"/>
+    <ingredient name="plantedMushroom1" count="10"/>
+</recipe>
+<recipe name="plantedGoldenrod1_Fschematic" count="1" craft_time="10" traits="F" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedGoldenrod1_" count="10"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedGoldenrod1_FFschematic" count="1" craft_time="10" traits="FF" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedGoldenrod1_F" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedGoldenrod1_FEschematic" count="1" craft_time="10" traits="FE" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedGoldenrod1_F" count="1"/>
+    <ingredient name="resourceScrapIron" count="40"/>
+    <ingredient name="resourceGunPowder" count="40"/>
+    <ingredient name="resourceDuctTape" count="10"/>
+</recipe>
+<recipe name="plantedGoldenrod1_FEschematic" count="1" craft_time="10" traits="FE" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedGoldenrod1_E" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedGoldenrod1_FRschematic" count="1" craft_time="10" traits="FR" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedGoldenrod1_F" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="100"/>
+</recipe>
+<recipe name="plantedGoldenrod1_FRschematic" count="1" craft_time="10" traits="FR" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedGoldenrod1_R" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedGoldenrod1_FTschematic" count="1" craft_time="10" traits="FT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedGoldenrod1_F" count="1"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedGoldenrod1_FTschematic" count="1" craft_time="10" traits="FT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedGoldenrod1_T" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedGoldenrod1_Eschematic" count="1" craft_time="10" traits="E" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedGoldenrod1_" count="10"/>
+    <ingredient name="resourceScrapIron" count="40"/>
+    <ingredient name="resourceGunPowder" count="40"/>
+    <ingredient name="resourceDuctTape" count="10"/>
+</recipe>
+<recipe name="plantedGoldenrod1_EEschematic" count="1" craft_time="10" traits="EE" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedGoldenrod1_E" count="1"/>
+    <ingredient name="resourceScrapIron" count="40"/>
+    <ingredient name="resourceGunPowder" count="40"/>
+    <ingredient name="resourceDuctTape" count="10"/>
+</recipe>
+<recipe name="plantedGoldenrod1_ETschematic" count="1" craft_time="10" traits="ET" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedGoldenrod1_E" count="1"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedGoldenrod1_ETschematic" count="1" craft_time="10" traits="ET" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedGoldenrod1_T" count="1"/>
+    <ingredient name="resourceScrapIron" count="40"/>
+    <ingredient name="resourceGunPowder" count="40"/>
+    <ingredient name="resourceDuctTape" count="10"/>
+</recipe>
+<recipe name="plantedGoldenrod1_Rschematic" count="1" craft_time="10" traits="R" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedGoldenrod1_" count="10"/>
+    <ingredient name="drinkJarPureMineralWater" count="100"/>
+</recipe>
+<recipe name="plantedGoldenrod1_RTschematic" count="1" craft_time="10" traits="RT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedGoldenrod1_R" count="1"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedGoldenrod1_RTschematic" count="1" craft_time="10" traits="RT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedGoldenrod1_T" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="100"/>
+</recipe>
+<recipe name="plantedGoldenrod1_Tschematic" count="1" craft_time="10" traits="T" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedGoldenrod1_" count="10"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedGoldenrod1_TTschematic" count="1" craft_time="10" traits="TT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedGoldenrod1_T" count="1"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedGraceCorn1_schematic" count="1" craft_time="10" traits="" craft_area="hotbox" tags="learnable">
     <ingredient name="resourcePaper" count="10"/>
     <ingredient name="plantedGraceCorn1" count="100"/>
 </recipe>
-<recipe name="plantedHop1_schematic" count="1" craft_time="10" traits="" tags="learnable">
+</recipe>
+<recipe name="plantedGraceCorn1_Bschematic" count="1" craft_time="10" traits="B" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedGraceCorn1_" count="10"/>
+    <ingredient name="foodRottingFlesh" count="50"/>
+    <ingredient name="medicalBloodBag" count="20"/>
+</recipe>
+<recipe name="plantedGraceCorn1_BBschematic" count="1" craft_time="10" traits="BB" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedGraceCorn1_B" count="1"/>
+    <ingredient name="foodRottingFlesh" count="50"/>
+    <ingredient name="medicalBloodBag" count="20"/>
+</recipe>
+<recipe name="plantedGraceCorn1_BUschematic" count="1" craft_time="10" traits="BU" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedGraceCorn1_B" count="1"/>
+    <ingredient name="plantedMushroom1" count="10"/>
+</recipe>
+<recipe name="plantedGraceCorn1_BUschematic" count="1" craft_time="10" traits="BU" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedGraceCorn1_U" count="1"/>
+    <ingredient name="foodRottingFlesh" count="50"/>
+    <ingredient name="medicalBloodBag" count="20"/>
+</recipe>
+<recipe name="plantedGraceCorn1_BFschematic" count="1" craft_time="10" traits="BF" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedGraceCorn1_B" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedGraceCorn1_BFschematic" count="1" craft_time="10" traits="BF" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedGraceCorn1_F" count="1"/>
+    <ingredient name="foodRottingFlesh" count="50"/>
+    <ingredient name="medicalBloodBag" count="20"/>
+</recipe>
+<recipe name="plantedGraceCorn1_BRschematic" count="1" craft_time="10" traits="BR" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedGraceCorn1_B" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="100"/>
+</recipe>
+<recipe name="plantedGraceCorn1_BRschematic" count="1" craft_time="10" traits="BR" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedGraceCorn1_R" count="1"/>
+    <ingredient name="foodRottingFlesh" count="50"/>
+    <ingredient name="medicalBloodBag" count="20"/>
+</recipe>
+<recipe name="plantedGraceCorn1_BTschematic" count="1" craft_time="10" traits="BT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedGraceCorn1_B" count="1"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedGraceCorn1_BTschematic" count="1" craft_time="10" traits="BT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedGraceCorn1_T" count="1"/>
+    <ingredient name="foodRottingFlesh" count="50"/>
+    <ingredient name="medicalBloodBag" count="20"/>
+</recipe>
+<recipe name="plantedGraceCorn1_Uschematic" count="1" craft_time="10" traits="U" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedGraceCorn1_" count="10"/>
+    <ingredient name="plantedMushroom1" count="10"/>
+</recipe>
+<recipe name="plantedGraceCorn1_UFschematic" count="1" craft_time="10" traits="UF" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedGraceCorn1_U" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedGraceCorn1_UFschematic" count="1" craft_time="10" traits="UF" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedGraceCorn1_F" count="1"/>
+    <ingredient name="plantedMushroom1" count="10"/>
+</recipe>
+<recipe name="plantedGraceCorn1_UEschematic" count="1" craft_time="10" traits="UE" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedGraceCorn1_U" count="1"/>
+    <ingredient name="resourceScrapIron" count="40"/>
+    <ingredient name="resourceGunPowder" count="40"/>
+    <ingredient name="resourceDuctTape" count="10"/>
+</recipe>
+<recipe name="plantedGraceCorn1_UEschematic" count="1" craft_time="10" traits="UE" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedGraceCorn1_E" count="1"/>
+    <ingredient name="plantedMushroom1" count="10"/>
+</recipe>
+<recipe name="plantedGraceCorn1_URschematic" count="1" craft_time="10" traits="UR" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedGraceCorn1_U" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="100"/>
+</recipe>
+<recipe name="plantedGraceCorn1_URschematic" count="1" craft_time="10" traits="UR" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedGraceCorn1_R" count="1"/>
+    <ingredient name="plantedMushroom1" count="10"/>
+</recipe>
+<recipe name="plantedGraceCorn1_UTschematic" count="1" craft_time="10" traits="UT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedGraceCorn1_U" count="1"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedGraceCorn1_UTschematic" count="1" craft_time="10" traits="UT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedGraceCorn1_T" count="1"/>
+    <ingredient name="plantedMushroom1" count="10"/>
+</recipe>
+<recipe name="plantedGraceCorn1_Fschematic" count="1" craft_time="10" traits="F" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedGraceCorn1_" count="10"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedGraceCorn1_FFschematic" count="1" craft_time="10" traits="FF" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedGraceCorn1_F" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedGraceCorn1_FEschematic" count="1" craft_time="10" traits="FE" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedGraceCorn1_F" count="1"/>
+    <ingredient name="resourceScrapIron" count="40"/>
+    <ingredient name="resourceGunPowder" count="40"/>
+    <ingredient name="resourceDuctTape" count="10"/>
+</recipe>
+<recipe name="plantedGraceCorn1_FEschematic" count="1" craft_time="10" traits="FE" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedGraceCorn1_E" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedGraceCorn1_FRschematic" count="1" craft_time="10" traits="FR" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedGraceCorn1_F" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="100"/>
+</recipe>
+<recipe name="plantedGraceCorn1_FRschematic" count="1" craft_time="10" traits="FR" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedGraceCorn1_R" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedGraceCorn1_FTschematic" count="1" craft_time="10" traits="FT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedGraceCorn1_F" count="1"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedGraceCorn1_FTschematic" count="1" craft_time="10" traits="FT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedGraceCorn1_T" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedGraceCorn1_Eschematic" count="1" craft_time="10" traits="E" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedGraceCorn1_" count="10"/>
+    <ingredient name="resourceScrapIron" count="40"/>
+    <ingredient name="resourceGunPowder" count="40"/>
+    <ingredient name="resourceDuctTape" count="10"/>
+</recipe>
+<recipe name="plantedGraceCorn1_EEschematic" count="1" craft_time="10" traits="EE" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedGraceCorn1_E" count="1"/>
+    <ingredient name="resourceScrapIron" count="40"/>
+    <ingredient name="resourceGunPowder" count="40"/>
+    <ingredient name="resourceDuctTape" count="10"/>
+</recipe>
+<recipe name="plantedGraceCorn1_ETschematic" count="1" craft_time="10" traits="ET" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedGraceCorn1_E" count="1"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedGraceCorn1_ETschematic" count="1" craft_time="10" traits="ET" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedGraceCorn1_T" count="1"/>
+    <ingredient name="resourceScrapIron" count="40"/>
+    <ingredient name="resourceGunPowder" count="40"/>
+    <ingredient name="resourceDuctTape" count="10"/>
+</recipe>
+<recipe name="plantedGraceCorn1_Rschematic" count="1" craft_time="10" traits="R" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedGraceCorn1_" count="10"/>
+    <ingredient name="drinkJarPureMineralWater" count="100"/>
+</recipe>
+<recipe name="plantedGraceCorn1_RTschematic" count="1" craft_time="10" traits="RT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedGraceCorn1_R" count="1"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedGraceCorn1_RTschematic" count="1" craft_time="10" traits="RT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedGraceCorn1_T" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="100"/>
+</recipe>
+<recipe name="plantedGraceCorn1_Tschematic" count="1" craft_time="10" traits="T" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedGraceCorn1_" count="10"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedGraceCorn1_TTschematic" count="1" craft_time="10" traits="TT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedGraceCorn1_T" count="1"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedHop1_schematic" count="1" craft_time="10" traits="" craft_area="hotbox" tags="learnable">
     <ingredient name="resourcePaper" count="10"/>
     <ingredient name="plantedHop1" count="100"/>
 </recipe>
-<recipe name="plantedMushroom1_schematic" count="1" craft_time="10" traits="" tags="learnable">
+</recipe>
+<recipe name="plantedHop1_Bschematic" count="1" craft_time="10" traits="B" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedHop1_" count="10"/>
+    <ingredient name="foodRottingFlesh" count="50"/>
+    <ingredient name="medicalBloodBag" count="20"/>
+</recipe>
+<recipe name="plantedHop1_BBschematic" count="1" craft_time="10" traits="BB" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedHop1_B" count="1"/>
+    <ingredient name="foodRottingFlesh" count="50"/>
+    <ingredient name="medicalBloodBag" count="20"/>
+</recipe>
+<recipe name="plantedHop1_BUschematic" count="1" craft_time="10" traits="BU" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedHop1_B" count="1"/>
+    <ingredient name="plantedMushroom1" count="10"/>
+</recipe>
+<recipe name="plantedHop1_BUschematic" count="1" craft_time="10" traits="BU" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedHop1_U" count="1"/>
+    <ingredient name="foodRottingFlesh" count="50"/>
+    <ingredient name="medicalBloodBag" count="20"/>
+</recipe>
+<recipe name="plantedHop1_BFschematic" count="1" craft_time="10" traits="BF" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedHop1_B" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedHop1_BFschematic" count="1" craft_time="10" traits="BF" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedHop1_F" count="1"/>
+    <ingredient name="foodRottingFlesh" count="50"/>
+    <ingredient name="medicalBloodBag" count="20"/>
+</recipe>
+<recipe name="plantedHop1_BRschematic" count="1" craft_time="10" traits="BR" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedHop1_B" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="100"/>
+</recipe>
+<recipe name="plantedHop1_BRschematic" count="1" craft_time="10" traits="BR" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedHop1_R" count="1"/>
+    <ingredient name="foodRottingFlesh" count="50"/>
+    <ingredient name="medicalBloodBag" count="20"/>
+</recipe>
+<recipe name="plantedHop1_BTschematic" count="1" craft_time="10" traits="BT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedHop1_B" count="1"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedHop1_BTschematic" count="1" craft_time="10" traits="BT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedHop1_T" count="1"/>
+    <ingredient name="foodRottingFlesh" count="50"/>
+    <ingredient name="medicalBloodBag" count="20"/>
+</recipe>
+<recipe name="plantedHop1_Uschematic" count="1" craft_time="10" traits="U" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedHop1_" count="10"/>
+    <ingredient name="plantedMushroom1" count="10"/>
+</recipe>
+<recipe name="plantedHop1_UFschematic" count="1" craft_time="10" traits="UF" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedHop1_U" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedHop1_UFschematic" count="1" craft_time="10" traits="UF" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedHop1_F" count="1"/>
+    <ingredient name="plantedMushroom1" count="10"/>
+</recipe>
+<recipe name="plantedHop1_UEschematic" count="1" craft_time="10" traits="UE" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedHop1_U" count="1"/>
+    <ingredient name="resourceScrapIron" count="40"/>
+    <ingredient name="resourceGunPowder" count="40"/>
+    <ingredient name="resourceDuctTape" count="10"/>
+</recipe>
+<recipe name="plantedHop1_UEschematic" count="1" craft_time="10" traits="UE" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedHop1_E" count="1"/>
+    <ingredient name="plantedMushroom1" count="10"/>
+</recipe>
+<recipe name="plantedHop1_URschematic" count="1" craft_time="10" traits="UR" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedHop1_U" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="100"/>
+</recipe>
+<recipe name="plantedHop1_URschematic" count="1" craft_time="10" traits="UR" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedHop1_R" count="1"/>
+    <ingredient name="plantedMushroom1" count="10"/>
+</recipe>
+<recipe name="plantedHop1_UTschematic" count="1" craft_time="10" traits="UT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedHop1_U" count="1"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedHop1_UTschematic" count="1" craft_time="10" traits="UT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedHop1_T" count="1"/>
+    <ingredient name="plantedMushroom1" count="10"/>
+</recipe>
+<recipe name="plantedHop1_Fschematic" count="1" craft_time="10" traits="F" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedHop1_" count="10"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedHop1_FFschematic" count="1" craft_time="10" traits="FF" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedHop1_F" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedHop1_FEschematic" count="1" craft_time="10" traits="FE" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedHop1_F" count="1"/>
+    <ingredient name="resourceScrapIron" count="40"/>
+    <ingredient name="resourceGunPowder" count="40"/>
+    <ingredient name="resourceDuctTape" count="10"/>
+</recipe>
+<recipe name="plantedHop1_FEschematic" count="1" craft_time="10" traits="FE" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedHop1_E" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedHop1_FRschematic" count="1" craft_time="10" traits="FR" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedHop1_F" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="100"/>
+</recipe>
+<recipe name="plantedHop1_FRschematic" count="1" craft_time="10" traits="FR" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedHop1_R" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedHop1_FTschematic" count="1" craft_time="10" traits="FT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedHop1_F" count="1"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedHop1_FTschematic" count="1" craft_time="10" traits="FT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedHop1_T" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedHop1_Eschematic" count="1" craft_time="10" traits="E" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedHop1_" count="10"/>
+    <ingredient name="resourceScrapIron" count="40"/>
+    <ingredient name="resourceGunPowder" count="40"/>
+    <ingredient name="resourceDuctTape" count="10"/>
+</recipe>
+<recipe name="plantedHop1_EEschematic" count="1" craft_time="10" traits="EE" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedHop1_E" count="1"/>
+    <ingredient name="resourceScrapIron" count="40"/>
+    <ingredient name="resourceGunPowder" count="40"/>
+    <ingredient name="resourceDuctTape" count="10"/>
+</recipe>
+<recipe name="plantedHop1_ETschematic" count="1" craft_time="10" traits="ET" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedHop1_E" count="1"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedHop1_ETschematic" count="1" craft_time="10" traits="ET" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedHop1_T" count="1"/>
+    <ingredient name="resourceScrapIron" count="40"/>
+    <ingredient name="resourceGunPowder" count="40"/>
+    <ingredient name="resourceDuctTape" count="10"/>
+</recipe>
+<recipe name="plantedHop1_Rschematic" count="1" craft_time="10" traits="R" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedHop1_" count="10"/>
+    <ingredient name="drinkJarPureMineralWater" count="100"/>
+</recipe>
+<recipe name="plantedHop1_RTschematic" count="1" craft_time="10" traits="RT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedHop1_R" count="1"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedHop1_RTschematic" count="1" craft_time="10" traits="RT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedHop1_T" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="100"/>
+</recipe>
+<recipe name="plantedHop1_Tschematic" count="1" craft_time="10" traits="T" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedHop1_" count="10"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedHop1_TTschematic" count="1" craft_time="10" traits="TT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedHop1_T" count="1"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedMushroom1_schematic" count="1" craft_time="10" traits="" craft_area="hotbox" tags="learnable">
     <ingredient name="resourcePaper" count="10"/>
     <ingredient name="plantedMushroom1" count="100"/>
 </recipe>
-<recipe name="plantedPotato1_schematic" count="1" craft_time="10" traits="" tags="learnable">
+</recipe>
+<recipe name="plantedMushroom1_Bschematic" count="1" craft_time="10" traits="B" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedMushroom1_" count="10"/>
+    <ingredient name="foodRottingFlesh" count="50"/>
+    <ingredient name="medicalBloodBag" count="20"/>
+</recipe>
+<recipe name="plantedMushroom1_BBschematic" count="1" craft_time="10" traits="BB" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedMushroom1_B" count="1"/>
+    <ingredient name="foodRottingFlesh" count="50"/>
+    <ingredient name="medicalBloodBag" count="20"/>
+</recipe>
+<recipe name="plantedMushroom1_BFschematic" count="1" craft_time="10" traits="BF" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedMushroom1_B" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedMushroom1_BFschematic" count="1" craft_time="10" traits="BF" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedMushroom1_F" count="1"/>
+    <ingredient name="foodRottingFlesh" count="50"/>
+    <ingredient name="medicalBloodBag" count="20"/>
+</recipe>
+<recipe name="plantedMushroom1_BRschematic" count="1" craft_time="10" traits="BR" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedMushroom1_B" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="100"/>
+</recipe>
+<recipe name="plantedMushroom1_BRschematic" count="1" craft_time="10" traits="BR" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedMushroom1_R" count="1"/>
+    <ingredient name="foodRottingFlesh" count="50"/>
+    <ingredient name="medicalBloodBag" count="20"/>
+</recipe>
+<recipe name="plantedMushroom1_BTschematic" count="1" craft_time="10" traits="BT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedMushroom1_B" count="1"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedMushroom1_BTschematic" count="1" craft_time="10" traits="BT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedMushroom1_T" count="1"/>
+    <ingredient name="foodRottingFlesh" count="50"/>
+    <ingredient name="medicalBloodBag" count="20"/>
+</recipe>
+<recipe name="plantedMushroom1_Fschematic" count="1" craft_time="10" traits="F" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedMushroom1_" count="10"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedMushroom1_FFschematic" count="1" craft_time="10" traits="FF" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedMushroom1_F" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedMushroom1_FEschematic" count="1" craft_time="10" traits="FE" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedMushroom1_F" count="1"/>
+    <ingredient name="resourceScrapIron" count="40"/>
+    <ingredient name="resourceGunPowder" count="40"/>
+    <ingredient name="resourceDuctTape" count="10"/>
+</recipe>
+<recipe name="plantedMushroom1_FEschematic" count="1" craft_time="10" traits="FE" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedMushroom1_E" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedMushroom1_FRschematic" count="1" craft_time="10" traits="FR" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedMushroom1_F" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="100"/>
+</recipe>
+<recipe name="plantedMushroom1_FRschematic" count="1" craft_time="10" traits="FR" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedMushroom1_R" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedMushroom1_FTschematic" count="1" craft_time="10" traits="FT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedMushroom1_F" count="1"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedMushroom1_FTschematic" count="1" craft_time="10" traits="FT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedMushroom1_T" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedMushroom1_Eschematic" count="1" craft_time="10" traits="E" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedMushroom1_" count="10"/>
+    <ingredient name="resourceScrapIron" count="40"/>
+    <ingredient name="resourceGunPowder" count="40"/>
+    <ingredient name="resourceDuctTape" count="10"/>
+</recipe>
+<recipe name="plantedMushroom1_EEschematic" count="1" craft_time="10" traits="EE" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedMushroom1_E" count="1"/>
+    <ingredient name="resourceScrapIron" count="40"/>
+    <ingredient name="resourceGunPowder" count="40"/>
+    <ingredient name="resourceDuctTape" count="10"/>
+</recipe>
+<recipe name="plantedMushroom1_ETschematic" count="1" craft_time="10" traits="ET" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedMushroom1_E" count="1"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedMushroom1_ETschematic" count="1" craft_time="10" traits="ET" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedMushroom1_T" count="1"/>
+    <ingredient name="resourceScrapIron" count="40"/>
+    <ingredient name="resourceGunPowder" count="40"/>
+    <ingredient name="resourceDuctTape" count="10"/>
+</recipe>
+<recipe name="plantedMushroom1_Rschematic" count="1" craft_time="10" traits="R" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedMushroom1_" count="10"/>
+    <ingredient name="drinkJarPureMineralWater" count="100"/>
+</recipe>
+<recipe name="plantedMushroom1_RTschematic" count="1" craft_time="10" traits="RT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedMushroom1_R" count="1"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedMushroom1_RTschematic" count="1" craft_time="10" traits="RT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedMushroom1_T" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="100"/>
+</recipe>
+<recipe name="plantedMushroom1_Tschematic" count="1" craft_time="10" traits="T" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedMushroom1_" count="10"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedMushroom1_TTschematic" count="1" craft_time="10" traits="TT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedMushroom1_T" count="1"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedPotato1_schematic" count="1" craft_time="10" traits="" craft_area="hotbox" tags="learnable">
     <ingredient name="resourcePaper" count="10"/>
     <ingredient name="plantedPotato1" count="100"/>
 </recipe>
-<recipe name="plantedPumpkin1_schematic" count="1" craft_time="10" traits="" tags="learnable">
+</recipe>
+<recipe name="plantedPotato1_Bschematic" count="1" craft_time="10" traits="B" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedPotato1_" count="10"/>
+    <ingredient name="foodRottingFlesh" count="50"/>
+    <ingredient name="medicalBloodBag" count="20"/>
+</recipe>
+<recipe name="plantedPotato1_BBschematic" count="1" craft_time="10" traits="BB" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedPotato1_B" count="1"/>
+    <ingredient name="foodRottingFlesh" count="50"/>
+    <ingredient name="medicalBloodBag" count="20"/>
+</recipe>
+<recipe name="plantedPotato1_BUschematic" count="1" craft_time="10" traits="BU" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedPotato1_B" count="1"/>
+    <ingredient name="plantedMushroom1" count="10"/>
+</recipe>
+<recipe name="plantedPotato1_BUschematic" count="1" craft_time="10" traits="BU" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedPotato1_U" count="1"/>
+    <ingredient name="foodRottingFlesh" count="50"/>
+    <ingredient name="medicalBloodBag" count="20"/>
+</recipe>
+<recipe name="plantedPotato1_BFschematic" count="1" craft_time="10" traits="BF" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedPotato1_B" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedPotato1_BFschematic" count="1" craft_time="10" traits="BF" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedPotato1_F" count="1"/>
+    <ingredient name="foodRottingFlesh" count="50"/>
+    <ingredient name="medicalBloodBag" count="20"/>
+</recipe>
+<recipe name="plantedPotato1_BRschematic" count="1" craft_time="10" traits="BR" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedPotato1_B" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="100"/>
+</recipe>
+<recipe name="plantedPotato1_BRschematic" count="1" craft_time="10" traits="BR" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedPotato1_R" count="1"/>
+    <ingredient name="foodRottingFlesh" count="50"/>
+    <ingredient name="medicalBloodBag" count="20"/>
+</recipe>
+<recipe name="plantedPotato1_BTschematic" count="1" craft_time="10" traits="BT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedPotato1_B" count="1"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedPotato1_BTschematic" count="1" craft_time="10" traits="BT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedPotato1_T" count="1"/>
+    <ingredient name="foodRottingFlesh" count="50"/>
+    <ingredient name="medicalBloodBag" count="20"/>
+</recipe>
+<recipe name="plantedPotato1_Uschematic" count="1" craft_time="10" traits="U" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedPotato1_" count="10"/>
+    <ingredient name="plantedMushroom1" count="10"/>
+</recipe>
+<recipe name="plantedPotato1_UFschematic" count="1" craft_time="10" traits="UF" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedPotato1_U" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedPotato1_UFschematic" count="1" craft_time="10" traits="UF" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedPotato1_F" count="1"/>
+    <ingredient name="plantedMushroom1" count="10"/>
+</recipe>
+<recipe name="plantedPotato1_UEschematic" count="1" craft_time="10" traits="UE" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedPotato1_U" count="1"/>
+    <ingredient name="resourceScrapIron" count="40"/>
+    <ingredient name="resourceGunPowder" count="40"/>
+    <ingredient name="resourceDuctTape" count="10"/>
+</recipe>
+<recipe name="plantedPotato1_UEschematic" count="1" craft_time="10" traits="UE" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedPotato1_E" count="1"/>
+    <ingredient name="plantedMushroom1" count="10"/>
+</recipe>
+<recipe name="plantedPotato1_URschematic" count="1" craft_time="10" traits="UR" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedPotato1_U" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="100"/>
+</recipe>
+<recipe name="plantedPotato1_URschematic" count="1" craft_time="10" traits="UR" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedPotato1_R" count="1"/>
+    <ingredient name="plantedMushroom1" count="10"/>
+</recipe>
+<recipe name="plantedPotato1_UTschematic" count="1" craft_time="10" traits="UT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedPotato1_U" count="1"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedPotato1_UTschematic" count="1" craft_time="10" traits="UT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedPotato1_T" count="1"/>
+    <ingredient name="plantedMushroom1" count="10"/>
+</recipe>
+<recipe name="plantedPotato1_Fschematic" count="1" craft_time="10" traits="F" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedPotato1_" count="10"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedPotato1_FFschematic" count="1" craft_time="10" traits="FF" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedPotato1_F" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedPotato1_FEschematic" count="1" craft_time="10" traits="FE" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedPotato1_F" count="1"/>
+    <ingredient name="resourceScrapIron" count="40"/>
+    <ingredient name="resourceGunPowder" count="40"/>
+    <ingredient name="resourceDuctTape" count="10"/>
+</recipe>
+<recipe name="plantedPotato1_FEschematic" count="1" craft_time="10" traits="FE" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedPotato1_E" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedPotato1_FRschematic" count="1" craft_time="10" traits="FR" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedPotato1_F" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="100"/>
+</recipe>
+<recipe name="plantedPotato1_FRschematic" count="1" craft_time="10" traits="FR" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedPotato1_R" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedPotato1_FTschematic" count="1" craft_time="10" traits="FT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedPotato1_F" count="1"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedPotato1_FTschematic" count="1" craft_time="10" traits="FT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedPotato1_T" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedPotato1_Eschematic" count="1" craft_time="10" traits="E" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedPotato1_" count="10"/>
+    <ingredient name="resourceScrapIron" count="40"/>
+    <ingredient name="resourceGunPowder" count="40"/>
+    <ingredient name="resourceDuctTape" count="10"/>
+</recipe>
+<recipe name="plantedPotato1_EEschematic" count="1" craft_time="10" traits="EE" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedPotato1_E" count="1"/>
+    <ingredient name="resourceScrapIron" count="40"/>
+    <ingredient name="resourceGunPowder" count="40"/>
+    <ingredient name="resourceDuctTape" count="10"/>
+</recipe>
+<recipe name="plantedPotato1_ETschematic" count="1" craft_time="10" traits="ET" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedPotato1_E" count="1"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedPotato1_ETschematic" count="1" craft_time="10" traits="ET" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedPotato1_T" count="1"/>
+    <ingredient name="resourceScrapIron" count="40"/>
+    <ingredient name="resourceGunPowder" count="40"/>
+    <ingredient name="resourceDuctTape" count="10"/>
+</recipe>
+<recipe name="plantedPotato1_Rschematic" count="1" craft_time="10" traits="R" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedPotato1_" count="10"/>
+    <ingredient name="drinkJarPureMineralWater" count="100"/>
+</recipe>
+<recipe name="plantedPotato1_RTschematic" count="1" craft_time="10" traits="RT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedPotato1_R" count="1"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedPotato1_RTschematic" count="1" craft_time="10" traits="RT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedPotato1_T" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="100"/>
+</recipe>
+<recipe name="plantedPotato1_Tschematic" count="1" craft_time="10" traits="T" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedPotato1_" count="10"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedPotato1_TTschematic" count="1" craft_time="10" traits="TT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedPotato1_T" count="1"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedPumpkin1_schematic" count="1" craft_time="10" traits="" craft_area="hotbox" tags="learnable">
     <ingredient name="resourcePaper" count="10"/>
     <ingredient name="plantedPumpkin1" count="100"/>
 </recipe>
-<recipe name="plantedYucca1_schematic" count="1" craft_time="10" traits="" tags="learnable">
+</recipe>
+<recipe name="plantedPumpkin1_Bschematic" count="1" craft_time="10" traits="B" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedPumpkin1_" count="10"/>
+    <ingredient name="foodRottingFlesh" count="50"/>
+    <ingredient name="medicalBloodBag" count="20"/>
+</recipe>
+<recipe name="plantedPumpkin1_BBschematic" count="1" craft_time="10" traits="BB" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedPumpkin1_B" count="1"/>
+    <ingredient name="foodRottingFlesh" count="50"/>
+    <ingredient name="medicalBloodBag" count="20"/>
+</recipe>
+<recipe name="plantedPumpkin1_BUschematic" count="1" craft_time="10" traits="BU" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedPumpkin1_B" count="1"/>
+    <ingredient name="plantedMushroom1" count="10"/>
+</recipe>
+<recipe name="plantedPumpkin1_BUschematic" count="1" craft_time="10" traits="BU" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedPumpkin1_U" count="1"/>
+    <ingredient name="foodRottingFlesh" count="50"/>
+    <ingredient name="medicalBloodBag" count="20"/>
+</recipe>
+<recipe name="plantedPumpkin1_BFschematic" count="1" craft_time="10" traits="BF" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedPumpkin1_B" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedPumpkin1_BFschematic" count="1" craft_time="10" traits="BF" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedPumpkin1_F" count="1"/>
+    <ingredient name="foodRottingFlesh" count="50"/>
+    <ingredient name="medicalBloodBag" count="20"/>
+</recipe>
+<recipe name="plantedPumpkin1_BRschematic" count="1" craft_time="10" traits="BR" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedPumpkin1_B" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="100"/>
+</recipe>
+<recipe name="plantedPumpkin1_BRschematic" count="1" craft_time="10" traits="BR" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedPumpkin1_R" count="1"/>
+    <ingredient name="foodRottingFlesh" count="50"/>
+    <ingredient name="medicalBloodBag" count="20"/>
+</recipe>
+<recipe name="plantedPumpkin1_BTschematic" count="1" craft_time="10" traits="BT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedPumpkin1_B" count="1"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedPumpkin1_BTschematic" count="1" craft_time="10" traits="BT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedPumpkin1_T" count="1"/>
+    <ingredient name="foodRottingFlesh" count="50"/>
+    <ingredient name="medicalBloodBag" count="20"/>
+</recipe>
+<recipe name="plantedPumpkin1_Uschematic" count="1" craft_time="10" traits="U" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedPumpkin1_" count="10"/>
+    <ingredient name="plantedMushroom1" count="10"/>
+</recipe>
+<recipe name="plantedPumpkin1_UFschematic" count="1" craft_time="10" traits="UF" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedPumpkin1_U" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedPumpkin1_UFschematic" count="1" craft_time="10" traits="UF" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedPumpkin1_F" count="1"/>
+    <ingredient name="plantedMushroom1" count="10"/>
+</recipe>
+<recipe name="plantedPumpkin1_UEschematic" count="1" craft_time="10" traits="UE" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedPumpkin1_U" count="1"/>
+    <ingredient name="resourceScrapIron" count="40"/>
+    <ingredient name="resourceGunPowder" count="40"/>
+    <ingredient name="resourceDuctTape" count="10"/>
+</recipe>
+<recipe name="plantedPumpkin1_UEschematic" count="1" craft_time="10" traits="UE" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedPumpkin1_E" count="1"/>
+    <ingredient name="plantedMushroom1" count="10"/>
+</recipe>
+<recipe name="plantedPumpkin1_URschematic" count="1" craft_time="10" traits="UR" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedPumpkin1_U" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="100"/>
+</recipe>
+<recipe name="plantedPumpkin1_URschematic" count="1" craft_time="10" traits="UR" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedPumpkin1_R" count="1"/>
+    <ingredient name="plantedMushroom1" count="10"/>
+</recipe>
+<recipe name="plantedPumpkin1_UTschematic" count="1" craft_time="10" traits="UT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedPumpkin1_U" count="1"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedPumpkin1_UTschematic" count="1" craft_time="10" traits="UT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedPumpkin1_T" count="1"/>
+    <ingredient name="plantedMushroom1" count="10"/>
+</recipe>
+<recipe name="plantedPumpkin1_Fschematic" count="1" craft_time="10" traits="F" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedPumpkin1_" count="10"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedPumpkin1_FFschematic" count="1" craft_time="10" traits="FF" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedPumpkin1_F" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedPumpkin1_FEschematic" count="1" craft_time="10" traits="FE" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedPumpkin1_F" count="1"/>
+    <ingredient name="resourceScrapIron" count="40"/>
+    <ingredient name="resourceGunPowder" count="40"/>
+    <ingredient name="resourceDuctTape" count="10"/>
+</recipe>
+<recipe name="plantedPumpkin1_FEschematic" count="1" craft_time="10" traits="FE" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedPumpkin1_E" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedPumpkin1_FRschematic" count="1" craft_time="10" traits="FR" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedPumpkin1_F" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="100"/>
+</recipe>
+<recipe name="plantedPumpkin1_FRschematic" count="1" craft_time="10" traits="FR" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedPumpkin1_R" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedPumpkin1_FTschematic" count="1" craft_time="10" traits="FT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedPumpkin1_F" count="1"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedPumpkin1_FTschematic" count="1" craft_time="10" traits="FT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedPumpkin1_T" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedPumpkin1_Eschematic" count="1" craft_time="10" traits="E" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedPumpkin1_" count="10"/>
+    <ingredient name="resourceScrapIron" count="40"/>
+    <ingredient name="resourceGunPowder" count="40"/>
+    <ingredient name="resourceDuctTape" count="10"/>
+</recipe>
+<recipe name="plantedPumpkin1_EEschematic" count="1" craft_time="10" traits="EE" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedPumpkin1_E" count="1"/>
+    <ingredient name="resourceScrapIron" count="40"/>
+    <ingredient name="resourceGunPowder" count="40"/>
+    <ingredient name="resourceDuctTape" count="10"/>
+</recipe>
+<recipe name="plantedPumpkin1_ETschematic" count="1" craft_time="10" traits="ET" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedPumpkin1_E" count="1"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedPumpkin1_ETschematic" count="1" craft_time="10" traits="ET" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedPumpkin1_T" count="1"/>
+    <ingredient name="resourceScrapIron" count="40"/>
+    <ingredient name="resourceGunPowder" count="40"/>
+    <ingredient name="resourceDuctTape" count="10"/>
+</recipe>
+<recipe name="plantedPumpkin1_Rschematic" count="1" craft_time="10" traits="R" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedPumpkin1_" count="10"/>
+    <ingredient name="drinkJarPureMineralWater" count="100"/>
+</recipe>
+<recipe name="plantedPumpkin1_RTschematic" count="1" craft_time="10" traits="RT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedPumpkin1_R" count="1"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedPumpkin1_RTschematic" count="1" craft_time="10" traits="RT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedPumpkin1_T" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="100"/>
+</recipe>
+<recipe name="plantedPumpkin1_Tschematic" count="1" craft_time="10" traits="T" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedPumpkin1_" count="10"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedPumpkin1_TTschematic" count="1" craft_time="10" traits="TT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedPumpkin1_T" count="1"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedYucca1_schematic" count="1" craft_time="10" traits="" craft_area="hotbox" tags="learnable">
     <ingredient name="resourcePaper" count="10"/>
     <ingredient name="plantedYucca1" count="100"/>
+</recipe>
+</recipe>
+<recipe name="plantedYucca1_Bschematic" count="1" craft_time="10" traits="B" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedYucca1_" count="10"/>
+    <ingredient name="foodRottingFlesh" count="50"/>
+    <ingredient name="medicalBloodBag" count="20"/>
+</recipe>
+<recipe name="plantedYucca1_BBschematic" count="1" craft_time="10" traits="BB" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedYucca1_B" count="1"/>
+    <ingredient name="foodRottingFlesh" count="50"/>
+    <ingredient name="medicalBloodBag" count="20"/>
+</recipe>
+<recipe name="plantedYucca1_BUschematic" count="1" craft_time="10" traits="BU" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedYucca1_B" count="1"/>
+    <ingredient name="plantedMushroom1" count="10"/>
+</recipe>
+<recipe name="plantedYucca1_BUschematic" count="1" craft_time="10" traits="BU" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedYucca1_U" count="1"/>
+    <ingredient name="foodRottingFlesh" count="50"/>
+    <ingredient name="medicalBloodBag" count="20"/>
+</recipe>
+<recipe name="plantedYucca1_BFschematic" count="1" craft_time="10" traits="BF" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedYucca1_B" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedYucca1_BFschematic" count="1" craft_time="10" traits="BF" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedYucca1_F" count="1"/>
+    <ingredient name="foodRottingFlesh" count="50"/>
+    <ingredient name="medicalBloodBag" count="20"/>
+</recipe>
+<recipe name="plantedYucca1_BRschematic" count="1" craft_time="10" traits="BR" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedYucca1_B" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="100"/>
+</recipe>
+<recipe name="plantedYucca1_BRschematic" count="1" craft_time="10" traits="BR" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedYucca1_R" count="1"/>
+    <ingredient name="foodRottingFlesh" count="50"/>
+    <ingredient name="medicalBloodBag" count="20"/>
+</recipe>
+<recipe name="plantedYucca1_BTschematic" count="1" craft_time="10" traits="BT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedYucca1_B" count="1"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedYucca1_BTschematic" count="1" craft_time="10" traits="BT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedYucca1_T" count="1"/>
+    <ingredient name="foodRottingFlesh" count="50"/>
+    <ingredient name="medicalBloodBag" count="20"/>
+</recipe>
+<recipe name="plantedYucca1_Uschematic" count="1" craft_time="10" traits="U" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedYucca1_" count="10"/>
+    <ingredient name="plantedMushroom1" count="10"/>
+</recipe>
+<recipe name="plantedYucca1_UFschematic" count="1" craft_time="10" traits="UF" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedYucca1_U" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedYucca1_UFschematic" count="1" craft_time="10" traits="UF" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedYucca1_F" count="1"/>
+    <ingredient name="plantedMushroom1" count="10"/>
+</recipe>
+<recipe name="plantedYucca1_UEschematic" count="1" craft_time="10" traits="UE" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedYucca1_U" count="1"/>
+    <ingredient name="resourceScrapIron" count="40"/>
+    <ingredient name="resourceGunPowder" count="40"/>
+    <ingredient name="resourceDuctTape" count="10"/>
+</recipe>
+<recipe name="plantedYucca1_UEschematic" count="1" craft_time="10" traits="UE" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedYucca1_E" count="1"/>
+    <ingredient name="plantedMushroom1" count="10"/>
+</recipe>
+<recipe name="plantedYucca1_URschematic" count="1" craft_time="10" traits="UR" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedYucca1_U" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="100"/>
+</recipe>
+<recipe name="plantedYucca1_URschematic" count="1" craft_time="10" traits="UR" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedYucca1_R" count="1"/>
+    <ingredient name="plantedMushroom1" count="10"/>
+</recipe>
+<recipe name="plantedYucca1_UTschematic" count="1" craft_time="10" traits="UT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedYucca1_U" count="1"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedYucca1_UTschematic" count="1" craft_time="10" traits="UT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedYucca1_T" count="1"/>
+    <ingredient name="plantedMushroom1" count="10"/>
+</recipe>
+<recipe name="plantedYucca1_Fschematic" count="1" craft_time="10" traits="F" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedYucca1_" count="10"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedYucca1_FFschematic" count="1" craft_time="10" traits="FF" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedYucca1_F" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedYucca1_FEschematic" count="1" craft_time="10" traits="FE" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedYucca1_F" count="1"/>
+    <ingredient name="resourceScrapIron" count="40"/>
+    <ingredient name="resourceGunPowder" count="40"/>
+    <ingredient name="resourceDuctTape" count="10"/>
+</recipe>
+<recipe name="plantedYucca1_FEschematic" count="1" craft_time="10" traits="FE" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedYucca1_E" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedYucca1_FRschematic" count="1" craft_time="10" traits="FR" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedYucca1_F" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="100"/>
+</recipe>
+<recipe name="plantedYucca1_FRschematic" count="1" craft_time="10" traits="FR" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedYucca1_R" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedYucca1_FTschematic" count="1" craft_time="10" traits="FT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedYucca1_F" count="1"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedYucca1_FTschematic" count="1" craft_time="10" traits="FT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedYucca1_T" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="20"/>
+</recipe>
+<recipe name="plantedYucca1_Eschematic" count="1" craft_time="10" traits="E" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedYucca1_" count="10"/>
+    <ingredient name="resourceScrapIron" count="40"/>
+    <ingredient name="resourceGunPowder" count="40"/>
+    <ingredient name="resourceDuctTape" count="10"/>
+</recipe>
+<recipe name="plantedYucca1_EEschematic" count="1" craft_time="10" traits="EE" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedYucca1_E" count="1"/>
+    <ingredient name="resourceScrapIron" count="40"/>
+    <ingredient name="resourceGunPowder" count="40"/>
+    <ingredient name="resourceDuctTape" count="10"/>
+</recipe>
+<recipe name="plantedYucca1_ETschematic" count="1" craft_time="10" traits="ET" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedYucca1_E" count="1"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedYucca1_ETschematic" count="1" craft_time="10" traits="ET" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedYucca1_T" count="1"/>
+    <ingredient name="resourceScrapIron" count="40"/>
+    <ingredient name="resourceGunPowder" count="40"/>
+    <ingredient name="resourceDuctTape" count="10"/>
+</recipe>
+<recipe name="plantedYucca1_Rschematic" count="1" craft_time="10" traits="R" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedYucca1_" count="10"/>
+    <ingredient name="drinkJarPureMineralWater" count="100"/>
+</recipe>
+<recipe name="plantedYucca1_RTschematic" count="1" craft_time="10" traits="RT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedYucca1_R" count="1"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedYucca1_RTschematic" count="1" craft_time="10" traits="RT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedYucca1_T" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="100"/>
+</recipe>
+<recipe name="plantedYucca1_Tschematic" count="1" craft_time="10" traits="T" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedYucca1_" count="10"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
+</recipe>
+<recipe name="plantedYucca1_TTschematic" count="1" craft_time="10" traits="TT" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="plantedYucca1_T" count="1"/>
+    <ingredient name="resourceScrapIron" count="100"/>
+    <ingredient name="resourceNail" count="100"/>
 </recipe>
 </append></config>

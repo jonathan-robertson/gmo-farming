@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [TODO]
 
 - update schematics to unlock trait combos when used
+- reconsider whether renewable trait should decrease yield
 
 ## [0.5.0] - ?
 
@@ -15,6 +16,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - add schematics for unlocking plant trait recipes
 - fix potato, pumkin, and yucca seed descriptions
 - update stage 3 icons to reflect stage 1 plant
+- remove traces of Sweet trait; dropped
 - add recipes to make schematics
 
 ## [0.4.1] - 2022-05-06

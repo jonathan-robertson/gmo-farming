@@ -152,6 +152,4 @@ func produceBlockModifications(c chan string) {
 	c <- `    <append xpath="/blocks/block[contains(@traits, 'TT') and @stage='3']">
         <property name="BuffsWhenWalkedOn" value="triggerInjuryCriticalThorns"/>
     </append>`
-
-	// TODO: [S] Sweet
 }
