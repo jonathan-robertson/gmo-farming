@@ -145,7 +145,6 @@ func produceSchematicsRecipe(c chan string, plant data.Plant, traits ...data.Tra
 </recipe>`,
 			plant.GetSchematicName(""),
 			plant.GetName())
-		c <- `</recipe>`
 	case 1:
 		c <- fmt.Sprintf(`<recipe name="%s" count="1" craft_time="10" traits="%c" craft_area="hotbox" tags="learnable">
     <ingredient name="resourcePaper" count="10"/>
