@@ -99,53 +99,88 @@ func producePlantRecipe(c chan string, target string, plant data.Plant, optional
 			traits[0].Code,
 			optionalTags,
 			plant.GetName())
-		produceIngredients(c, traits[0])
+		producePlantIngredients(c, traits[0])
 		c <- `</recipe>`
 	case 2: // support bi-directional recipes
-		signature := fmt.Sprintf(`<recipe name="planted%s1_%c%c" count="1" craft_time="%d" traits="%c%c" craft_area="hotbox"%s>
-    `,
+		signature := fmt.Sprintf(`<recipe name="planted%s1_%c%c" count="1" craft_time="%d" traits="%c%c" craft_area="hotbox"%s>`,
 			plant.GetName(),
 			traits[0].Code, traits[1].Code,
 			plant.GetCraftTime(),
 			traits[0].Code, traits[1].Code,
 			optionalTags)
-		c <- fmt.Sprintf(`%s<ingredient name="planted%s1_%c" count="1"/>`,
+		c <- fmt.Sprintf(`%s
+    <ingredient name="planted%s1_%c" count="1"/>`,
 			signature,
 			plant.GetName(),
 			traits[0].Code)
-		produceIngredients(c, traits[1])
+		producePlantIngredients(c, traits[1])
 		c <- `</recipe>`
-		if traits[0].Code != traits[1].Code {
-			c <- fmt.Sprintf(`%s<ingredient name="planted%s1_%c" count="1"/>`,
-				signature,
-				plant.GetName(),
-				traits[1].Code)
-			produceIngredients(c, traits[0])
-			c <- `</recipe>`
+		if traits[0].Code == traits[1].Code {
+			return
 		}
+		c <- fmt.Sprintf(`%s
+    <ingredient name="planted%s1_%c" count="1"/>`,
+			signature,
+			plant.GetName(),
+			traits[1].Code)
+		producePlantIngredients(c, traits[0])
+		c <- `</recipe>`
+	}
+}
+
+func producePlantIngredients(c chan string, trait data.Trait) {
+	for _, ingredient := range trait.Ingredients {
+		c <- fmt.Sprintf(`    <ingredient name="%s" count="%d"/>`,
+			ingredient.Name,
+			ingredient.Count)
 	}
 }
 
 func produceSchematicsRecipe(c chan string, plant data.Plant, traits ...data.Trait) {
 	switch len(traits) {
 	case 0:
-		c <- fmt.Sprintf(`<recipe name="%s" count="1" craft_time="10" traits="" tags="learnable">
+		c <- fmt.Sprintf(`<recipe name="%s" count="1" craft_time="10" traits="" craft_area="hotbox" tags="learnable">
     <ingredient name="resourcePaper" count="10"/>
-    <ingredient name="planted%s1" count="100"/>`,
+    <ingredient name="planted%s1" count="100"/>
+</recipe>`,
 			plant.GetSchematicName(""),
 			plant.GetName())
 		c <- `</recipe>`
 	case 1:
-
-	case 2:
-
+		c <- fmt.Sprintf(`<recipe name="%s" count="1" craft_time="10" traits="%c" craft_area="hotbox" tags="learnable">
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="planted%s1_" count="10"/>`,
+			plant.GetSchematicName(string(traits[0].Code)),
+			traits[0].Code,
+			plant.GetName())
+		produceSchematicIngredients(c, traits[0])
+		c <- `</recipe>`
+	case 2: // support bi-directional recipes
+		signature := fmt.Sprintf(`<recipe name="%s" count="1" craft_time="10" traits="%c%c" craft_area="hotbox" tags="learnable">`,
+			plant.GetSchematicName(string(traits[0].Code)+string(traits[1].Code)),
+			traits[0].Code, traits[1].Code)
+		c <- fmt.Sprintf(`%s
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="planted%s1_%c" count="1"/>`,
+			signature, plant.GetName(), traits[0].Code)
+		produceSchematicIngredients(c, traits[1])
+		c <- `</recipe>`
+		if traits[0].Code == traits[1].Code {
+			return
+		}
+		c <- fmt.Sprintf(`%s
+    <ingredient name="resourcePaper" count="10"/>
+    <ingredient name="planted%s1_%c" count="1"/>`,
+			signature, plant.GetName(), traits[1].Code)
+		produceSchematicIngredients(c, traits[0])
+		c <- `</recipe>`
 	}
 }
 
-func produceIngredients(c chan string, trait data.Trait) {
+func produceSchematicIngredients(c chan string, trait data.Trait) {
 	for _, ingredient := range trait.Ingredients {
 		c <- fmt.Sprintf(`    <ingredient name="%s" count="%d"/>`,
 			ingredient.Name,
-			ingredient.Count)
+			ingredient.Count*10)
 	}
 }
