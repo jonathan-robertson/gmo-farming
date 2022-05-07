@@ -27,15 +27,35 @@ func producePlantLocalization(c chan string, target string) {
 	ProduceHotBoxLocalization(c)
 	ProduceThornyBuffLocalization(c)
 	for _, plant := range data.Plants {
-		ProduceLocalization(c, plant)
+		ProducePlantLocalization(c, plant)
 		for i1 := 0; i1 < len(data.Traits); i1++ {
 			if plant.IsCompatibleWith(data.Traits[i1]) {
-				ProduceLocalization(c, plant, data.Traits[i1])
+				ProducePlantLocalization(c, plant, data.Traits[i1])
 			}
 			for i2 := i1; i2 < len(data.Traits); i2++ {
 				if data.Traits[i1].IsCompatibleWith(data.Traits[i2]) {
 					if plant.IsCompatibleWith(data.Traits[i1]) && plant.IsCompatibleWith(data.Traits[i2]) {
-						ProduceLocalization(c, plant, data.Traits[i1], data.Traits[i2])
+						ProducePlantLocalization(c, plant, data.Traits[i1], data.Traits[i2])
+					}
+				}
+			}
+		}
+	}
+
+	if target != "Vanilla" {
+		return
+	}
+
+	for _, plant := range data.Plants {
+		ProduceSchematicLocalization(c, plant)
+		for i1 := 0; i1 < len(data.Traits); i1++ {
+			if plant.IsCompatibleWith(data.Traits[i1]) {
+				ProduceSchematicLocalization(c, plant, data.Traits[i1])
+			}
+			for i2 := i1; i2 < len(data.Traits); i2++ {
+				if data.Traits[i1].IsCompatibleWith(data.Traits[i2]) {
+					if plant.IsCompatibleWith(data.Traits[i1]) && plant.IsCompatibleWith(data.Traits[i2]) {
+						ProduceSchematicLocalization(c, plant, data.Traits[i1], data.Traits[i2])
 					}
 				}
 			}
@@ -43,7 +63,24 @@ func producePlantLocalization(c chan string, target string) {
 	}
 }
 
-func ProduceLocalization(c chan string, plant data.Plant, traits ...data.Trait) {
+func ProduceHotBoxLocalization(c chan string) {
+	c <- `hotbox,blocks,Workstation,Hot Box`
+	c <- `hotboxDesc,blocks,Workstation,The Hot Box is a simple workstation that allows enhanced seeds to absorb various materials and take on new traits.`
+	c <- `hotboxTip,Journal Tip,,"The Hot Box is a simple workstation that allows enhanced seeds to absorb various materials and take on new traits."`
+	c <- `hotboxTip_title,Journal Tip,,Hot Box`
+	c <- `perkLivingOffTheLandRank3Desc,progression,perk For,Farmer`
+	c <- `perkLivingOffTheLandRank3LongDesc,progression,perk For,Triple the harvest of wild or planted crops. Craft Hot Boxes and Enhanced Seeds that you'll be able to research special traits for.`
+	c <- `lblCategorySeedEnhancement,UI,Tooltip,Seed Enhancement`
+}
+
+func ProduceThornyBuffLocalization(c chan string) {
+	c <- `buffInjuryThornsName,buffs,Buff,Thorns`
+	c <- `buffInjuryCriticalThornsName,buffs,Buff,Critical Thorns`
+	c <- `buffInjuryThornsDesc,buffs,Buff,"Your skin is pierced by the thorny barbs of an aggressively engineered plant.\n\nStep away from the plant to avoid further injury."`
+	c <- `buffInjuryThornsTooltip,buffs,Buff,The thorns on this plant are cutting into your skin.`
+}
+
+func ProducePlantLocalization(c chan string, plant data.Plant, traits ...data.Trait) {
 	switch len(traits) {
 	case 0:
 		c <- fmt.Sprintf(`planted%s1_,blocks,Farming,"%s (Seed, Enhanced)"`,
@@ -107,19 +144,21 @@ func ProduceLocalization(c chan string, plant data.Plant, traits ...data.Trait) 
 	}
 }
 
-func ProduceHotBoxLocalization(c chan string) {
-	c <- `hotbox,blocks,Workstation,Hot Box`
-	c <- `hotboxDesc,blocks,Workstation,The Hot Box is a simple workstation that allows enhanced seeds to absorb various materials and take on new traits.`
-	c <- `hotboxTip,Journal Tip,,"The Hot Box is a simple workstation that allows enhanced seeds to absorb various materials and take on new traits."`
-	c <- `hotboxTip_title,Journal Tip,,Hot Box`
-	c <- `perkLivingOffTheLandRank3Desc,progression,perk For,Farmer`
-	c <- `perkLivingOffTheLandRank3LongDesc,progression,perk For,Triple the harvest of wild or planted crops. Craft Hot Boxes and Enhanced Seeds that you'll be able to research special traits for.`
-	c <- `lblCategorySeedEnhancement,UI,Tooltip,Seed Enhancement`
-}
-
-func ProduceThornyBuffLocalization(c chan string) {
-	c <- `buffInjuryThornsName,buffs,Buff,Thorns`
-	c <- `buffInjuryCriticalThornsName,buffs,Buff,Critical Thorns`
-	c <- `buffInjuryThornsDesc,buffs,Buff,"Your skin is pierced by the thorny barbs of an aggressively engineered plant.\n\nStep away from the plant to avoid further injury."`
-	c <- `buffInjuryThornsTooltip,buffs,Buff,The thorns on this plant are cutting into your skin.`
+func ProduceSchematicLocalization(c chan string, plant data.Plant, traits ...data.Trait) {
+	switch len(traits) {
+	case 0:
+		c <- fmt.Sprintf(`planted%s1_schematic,blocks,Farming,"%s (Seed, Enhanced) Recipe"`,
+			plant.GetName(), plant.GetDisplayName())
+	case 1:
+		c <- fmt.Sprintf(`planted%s1_%c_schematic,blocks,Farming,"%s (Seed, %s) Recipe"`,
+			plant.GetName(), traits[0].Code, plant.GetDisplayName(), traits[0].Name)
+	case 2:
+		if traits[0].Code == traits[1].Code {
+			c <- fmt.Sprintf(`planted%s1_%c%c_schematic,blocks,Farming,"%s (Seed, %s) Recipe"`,
+				plant.GetName(), traits[0].Code, traits[1].Code, plant.GetDisplayName(), traits[0].DoubleName)
+		} else {
+			c <- fmt.Sprintf(`planted%s1_%c%c_schematic,blocks,Farming,"%s (Seed, %s, %s) Recipe"`,
+				plant.GetName(), traits[0].Code, traits[1].Code, plant.GetDisplayName(), traits[0].Name, traits[1].Name)
+		}
+	}
 }
