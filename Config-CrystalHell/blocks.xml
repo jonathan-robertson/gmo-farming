@@ -11776,7 +11776,7 @@
 	<drop event="Destroy" name="plantedPotato1_" count="1"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="plantedPotato1"/>
-	<property name="DescriptionKey" value="plantedPotato1_"/>
+	<property name="DescriptionKey" value="plantedPotato1_Desc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="Group" value="Food/Cooking"/>
 	<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
@@ -11801,7 +11801,7 @@
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedPotato3Harvest"/>
 	<property name="CustomIconTint" value="ff8000"/>
-	<property name="DescriptionKey" value="plantedPotato3_"/>
+	<property name="DescriptionKey" value="plantedPotato3_Desc"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="Extends" value="cropsHarvestableMaster"/>
@@ -11826,7 +11826,7 @@
 	<drop event="Destroy" name="plantedPotato1_B" count="1"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="plantedPotato1"/>
-	<property name="DescriptionKey" value="plantedPotato1_B"/>
+	<property name="DescriptionKey" value="plantedPotato1_BDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="Group" value="SeedEnhancement"/>
 	<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
@@ -11851,7 +11851,7 @@
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedPotato3Harvest"/>
 	<property name="CustomIconTint" value="ff8000"/>
-	<property name="DescriptionKey" value="plantedPotato3_B"/>
+	<property name="DescriptionKey" value="plantedPotato3_BDesc"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="Extends" value="cropsHarvestableMaster"/>
@@ -11876,7 +11876,7 @@
 	<drop event="Destroy" name="plantedPotato1_BB" count="1"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="plantedPotato1"/>
-	<property name="DescriptionKey" value="plantedPotato1_BB"/>
+	<property name="DescriptionKey" value="plantedPotato1_BBDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="Group" value="SeedEnhancement"/>
 	<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
@@ -11901,7 +11901,7 @@
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedPotato3Harvest"/>
 	<property name="CustomIconTint" value="ff8000"/>
-	<property name="DescriptionKey" value="plantedPotato3_BB"/>
+	<property name="DescriptionKey" value="plantedPotato3_BBDesc"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="Extends" value="cropsHarvestableMaster"/>
@@ -11926,7 +11926,7 @@
 	<drop event="Destroy" name="plantedPotato1_BU" count="1"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="plantedPotato1"/>
-	<property name="DescriptionKey" value="plantedPotato1_BU"/>
+	<property name="DescriptionKey" value="plantedPotato1_BUDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="Group" value="SeedEnhancement"/>
 	<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
@@ -11951,7 +11951,7 @@
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedPotato3Harvest"/>
 	<property name="CustomIconTint" value="ff8000"/>
-	<property name="DescriptionKey" value="plantedPotato3_BU"/>
+	<property name="DescriptionKey" value="plantedPotato3_BUDesc"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="Extends" value="cropsHarvestableMaster"/>
@@ -11976,7 +11976,7 @@
 	<drop event="Destroy" name="plantedPotato1_BF" count="1"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="plantedPotato1"/>
-	<property name="DescriptionKey" value="plantedPotato1_BF"/>
+	<property name="DescriptionKey" value="plantedPotato1_BFDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="Group" value="SeedEnhancement"/>
 	<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
@@ -12001,7 +12001,7 @@
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedPotato3Harvest"/>
 	<property name="CustomIconTint" value="ff8000"/>
-	<property name="DescriptionKey" value="plantedPotato3_BF"/>
+	<property name="DescriptionKey" value="plantedPotato3_BFDesc"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="Extends" value="cropsHarvestableMaster"/>
@@ -12026,7 +12026,7 @@
 	<drop event="Destroy" name="plantedPotato1_BR" count="1"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="plantedPotato1"/>
-	<property name="DescriptionKey" value="plantedPotato1_BR"/>
+	<property name="DescriptionKey" value="plantedPotato1_BRDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="Group" value="SeedEnhancement"/>
 	<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
@@ -12051,7 +12051,7 @@
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedPotato3Harvest"/>
 	<property name="CustomIconTint" value="ff8000"/>
-	<property name="DescriptionKey" value="plantedPotato3_BR"/>
+	<property name="DescriptionKey" value="plantedPotato3_BRDesc"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="Extends" value="cropsHarvestableMaster"/>
@@ -12076,7 +12076,7 @@
 	<drop event="Destroy" name="plantedPotato1_BT" count="1"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="plantedPotato1"/>
-	<property name="DescriptionKey" value="plantedPotato1_BT"/>
+	<property name="DescriptionKey" value="plantedPotato1_BTDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="Group" value="SeedEnhancement"/>
 	<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
@@ -12101,7 +12101,7 @@
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedPotato3Harvest"/>
 	<property name="CustomIconTint" value="ff8000"/>
-	<property name="DescriptionKey" value="plantedPotato3_BT"/>
+	<property name="DescriptionKey" value="plantedPotato3_BTDesc"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="Extends" value="cropsHarvestableMaster"/>
@@ -12126,7 +12126,7 @@
 	<drop event="Destroy" name="plantedPotato1_U" count="1"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="plantedPotato1"/>
-	<property name="DescriptionKey" value="plantedPotato1_U"/>
+	<property name="DescriptionKey" value="plantedPotato1_UDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="Group" value="SeedEnhancement"/>
 	<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
@@ -12151,7 +12151,7 @@
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedPotato3Harvest"/>
 	<property name="CustomIconTint" value="ff8000"/>
-	<property name="DescriptionKey" value="plantedPotato3_U"/>
+	<property name="DescriptionKey" value="plantedPotato3_UDesc"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="Extends" value="cropsHarvestableMaster"/>
@@ -12176,7 +12176,7 @@
 	<drop event="Destroy" name="plantedPotato1_UF" count="1"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="plantedPotato1"/>
-	<property name="DescriptionKey" value="plantedPotato1_UF"/>
+	<property name="DescriptionKey" value="plantedPotato1_UFDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="Group" value="SeedEnhancement"/>
 	<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
@@ -12201,7 +12201,7 @@
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedPotato3Harvest"/>
 	<property name="CustomIconTint" value="ff8000"/>
-	<property name="DescriptionKey" value="plantedPotato3_UF"/>
+	<property name="DescriptionKey" value="plantedPotato3_UFDesc"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="Extends" value="cropsHarvestableMaster"/>
@@ -12226,7 +12226,7 @@
 	<drop event="Destroy" name="plantedPotato1_UE" count="1"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="plantedPotato1"/>
-	<property name="DescriptionKey" value="plantedPotato1_UE"/>
+	<property name="DescriptionKey" value="plantedPotato1_UEDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="Group" value="SeedEnhancement"/>
 	<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
@@ -12251,7 +12251,7 @@
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedPotato3Harvest"/>
 	<property name="CustomIconTint" value="ff8000"/>
-	<property name="DescriptionKey" value="plantedPotato3_UE"/>
+	<property name="DescriptionKey" value="plantedPotato3_UEDesc"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="Extends" value="cropsHarvestableMaster"/>
@@ -12276,7 +12276,7 @@
 	<drop event="Destroy" name="plantedPotato1_UR" count="1"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="plantedPotato1"/>
-	<property name="DescriptionKey" value="plantedPotato1_UR"/>
+	<property name="DescriptionKey" value="plantedPotato1_URDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="Group" value="SeedEnhancement"/>
 	<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
@@ -12301,7 +12301,7 @@
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedPotato3Harvest"/>
 	<property name="CustomIconTint" value="ff8000"/>
-	<property name="DescriptionKey" value="plantedPotato3_UR"/>
+	<property name="DescriptionKey" value="plantedPotato3_URDesc"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="Extends" value="cropsHarvestableMaster"/>
@@ -12326,7 +12326,7 @@
 	<drop event="Destroy" name="plantedPotato1_UT" count="1"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="plantedPotato1"/>
-	<property name="DescriptionKey" value="plantedPotato1_UT"/>
+	<property name="DescriptionKey" value="plantedPotato1_UTDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="Group" value="SeedEnhancement"/>
 	<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
@@ -12351,7 +12351,7 @@
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedPotato3Harvest"/>
 	<property name="CustomIconTint" value="ff8000"/>
-	<property name="DescriptionKey" value="plantedPotato3_UT"/>
+	<property name="DescriptionKey" value="plantedPotato3_UTDesc"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="Extends" value="cropsHarvestableMaster"/>
@@ -12376,7 +12376,7 @@
 	<drop event="Destroy" name="plantedPotato1_F" count="1"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="plantedPotato1"/>
-	<property name="DescriptionKey" value="plantedPotato1_F"/>
+	<property name="DescriptionKey" value="plantedPotato1_FDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="Group" value="SeedEnhancement"/>
 	<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
@@ -12401,7 +12401,7 @@
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedPotato3Harvest"/>
 	<property name="CustomIconTint" value="ff8000"/>
-	<property name="DescriptionKey" value="plantedPotato3_F"/>
+	<property name="DescriptionKey" value="plantedPotato3_FDesc"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="Extends" value="cropsHarvestableMaster"/>
@@ -12426,7 +12426,7 @@
 	<drop event="Destroy" name="plantedPotato1_FF" count="1"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="plantedPotato1"/>
-	<property name="DescriptionKey" value="plantedPotato1_FF"/>
+	<property name="DescriptionKey" value="plantedPotato1_FFDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="Group" value="SeedEnhancement"/>
 	<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
@@ -12451,7 +12451,7 @@
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedPotato3Harvest"/>
 	<property name="CustomIconTint" value="ff8000"/>
-	<property name="DescriptionKey" value="plantedPotato3_FF"/>
+	<property name="DescriptionKey" value="plantedPotato3_FFDesc"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="Extends" value="cropsHarvestableMaster"/>
@@ -12476,7 +12476,7 @@
 	<drop event="Destroy" name="plantedPotato1_FE" count="1"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="plantedPotato1"/>
-	<property name="DescriptionKey" value="plantedPotato1_FE"/>
+	<property name="DescriptionKey" value="plantedPotato1_FEDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="Group" value="SeedEnhancement"/>
 	<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
@@ -12501,7 +12501,7 @@
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedPotato3Harvest"/>
 	<property name="CustomIconTint" value="ff8000"/>
-	<property name="DescriptionKey" value="plantedPotato3_FE"/>
+	<property name="DescriptionKey" value="plantedPotato3_FEDesc"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="Extends" value="cropsHarvestableMaster"/>
@@ -12526,7 +12526,7 @@
 	<drop event="Destroy" name="plantedPotato1_FR" count="1"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="plantedPotato1"/>
-	<property name="DescriptionKey" value="plantedPotato1_FR"/>
+	<property name="DescriptionKey" value="plantedPotato1_FRDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="Group" value="SeedEnhancement"/>
 	<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
@@ -12551,7 +12551,7 @@
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedPotato3Harvest"/>
 	<property name="CustomIconTint" value="ff8000"/>
-	<property name="DescriptionKey" value="plantedPotato3_FR"/>
+	<property name="DescriptionKey" value="plantedPotato3_FRDesc"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="Extends" value="cropsHarvestableMaster"/>
@@ -12576,7 +12576,7 @@
 	<drop event="Destroy" name="plantedPotato1_FT" count="1"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="plantedPotato1"/>
-	<property name="DescriptionKey" value="plantedPotato1_FT"/>
+	<property name="DescriptionKey" value="plantedPotato1_FTDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="Group" value="SeedEnhancement"/>
 	<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
@@ -12601,7 +12601,7 @@
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedPotato3Harvest"/>
 	<property name="CustomIconTint" value="ff8000"/>
-	<property name="DescriptionKey" value="plantedPotato3_FT"/>
+	<property name="DescriptionKey" value="plantedPotato3_FTDesc"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="Extends" value="cropsHarvestableMaster"/>
@@ -12626,7 +12626,7 @@
 	<drop event="Destroy" name="plantedPotato1_E" count="1"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="plantedPotato1"/>
-	<property name="DescriptionKey" value="plantedPotato1_E"/>
+	<property name="DescriptionKey" value="plantedPotato1_EDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="Group" value="SeedEnhancement"/>
 	<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
@@ -12651,7 +12651,7 @@
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedPotato3Harvest"/>
 	<property name="CustomIconTint" value="ff8000"/>
-	<property name="DescriptionKey" value="plantedPotato3_E"/>
+	<property name="DescriptionKey" value="plantedPotato3_EDesc"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="Extends" value="cropsHarvestableMaster"/>
@@ -12676,7 +12676,7 @@
 	<drop event="Destroy" name="plantedPotato1_EE" count="1"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="plantedPotato1"/>
-	<property name="DescriptionKey" value="plantedPotato1_EE"/>
+	<property name="DescriptionKey" value="plantedPotato1_EEDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="Group" value="SeedEnhancement"/>
 	<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
@@ -12701,7 +12701,7 @@
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedPotato3Harvest"/>
 	<property name="CustomIconTint" value="ff8000"/>
-	<property name="DescriptionKey" value="plantedPotato3_EE"/>
+	<property name="DescriptionKey" value="plantedPotato3_EEDesc"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="Extends" value="cropsHarvestableMaster"/>
@@ -12726,7 +12726,7 @@
 	<drop event="Destroy" name="plantedPotato1_ET" count="1"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="plantedPotato1"/>
-	<property name="DescriptionKey" value="plantedPotato1_ET"/>
+	<property name="DescriptionKey" value="plantedPotato1_ETDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="Group" value="SeedEnhancement"/>
 	<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
@@ -12751,7 +12751,7 @@
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedPotato3Harvest"/>
 	<property name="CustomIconTint" value="ff8000"/>
-	<property name="DescriptionKey" value="plantedPotato3_ET"/>
+	<property name="DescriptionKey" value="plantedPotato3_ETDesc"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="Extends" value="cropsHarvestableMaster"/>
@@ -12776,7 +12776,7 @@
 	<drop event="Destroy" name="plantedPotato1_R" count="1"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="plantedPotato1"/>
-	<property name="DescriptionKey" value="plantedPotato1_R"/>
+	<property name="DescriptionKey" value="plantedPotato1_RDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="Group" value="SeedEnhancement"/>
 	<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
@@ -12801,7 +12801,7 @@
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedPotato3Harvest"/>
 	<property name="CustomIconTint" value="ff8000"/>
-	<property name="DescriptionKey" value="plantedPotato3_R"/>
+	<property name="DescriptionKey" value="plantedPotato3_RDesc"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="Extends" value="cropsHarvestableMaster"/>
@@ -12826,7 +12826,7 @@
 	<drop event="Destroy" name="plantedPotato1_RT" count="1"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="plantedPotato1"/>
-	<property name="DescriptionKey" value="plantedPotato1_RT"/>
+	<property name="DescriptionKey" value="plantedPotato1_RTDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="Group" value="SeedEnhancement"/>
 	<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
@@ -12851,7 +12851,7 @@
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedPotato3Harvest"/>
 	<property name="CustomIconTint" value="ff8000"/>
-	<property name="DescriptionKey" value="plantedPotato3_RT"/>
+	<property name="DescriptionKey" value="plantedPotato3_RTDesc"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="Extends" value="cropsHarvestableMaster"/>
@@ -12876,7 +12876,7 @@
 	<drop event="Destroy" name="plantedPotato1_T" count="1"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="plantedPotato1"/>
-	<property name="DescriptionKey" value="plantedPotato1_T"/>
+	<property name="DescriptionKey" value="plantedPotato1_TDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="Group" value="SeedEnhancement"/>
 	<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
@@ -12901,7 +12901,7 @@
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedPotato3Harvest"/>
 	<property name="CustomIconTint" value="ff8000"/>
-	<property name="DescriptionKey" value="plantedPotato3_T"/>
+	<property name="DescriptionKey" value="plantedPotato3_TDesc"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="Extends" value="cropsHarvestableMaster"/>
@@ -12926,7 +12926,7 @@
 	<drop event="Destroy" name="plantedPotato1_TT" count="1"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="plantedPotato1"/>
-	<property name="DescriptionKey" value="plantedPotato1_TT"/>
+	<property name="DescriptionKey" value="plantedPotato1_TTDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="Group" value="SeedEnhancement"/>
 	<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
@@ -12951,7 +12951,7 @@
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedPotato3Harvest"/>
 	<property name="CustomIconTint" value="ff8000"/>
-	<property name="DescriptionKey" value="plantedPotato3_TT"/>
+	<property name="DescriptionKey" value="plantedPotato3_TTDesc"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="Extends" value="cropsHarvestableMaster"/>
@@ -12976,7 +12976,7 @@
 	<drop event="Destroy" name="plantedPumpkin1_" count="1"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="plantedPumpkin1"/>
-	<property name="DescriptionKey" value="plantedPumpkin1_"/>
+	<property name="DescriptionKey" value="plantedPumpkin1_Desc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="Group" value="Food/Cooking"/>
 	<property name="Material" value="Mcorn"/>
@@ -13029,7 +13029,7 @@
 	<drop event="Destroy" name="plantedPumpkin1_B" count="1"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="plantedPumpkin1"/>
-	<property name="DescriptionKey" value="plantedPumpkin1_B"/>
+	<property name="DescriptionKey" value="plantedPumpkin1_BDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="Group" value="SeedEnhancement"/>
 	<property name="Material" value="Mcorn"/>
@@ -13082,7 +13082,7 @@
 	<drop event="Destroy" name="plantedPumpkin1_BB" count="1"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="plantedPumpkin1"/>
-	<property name="DescriptionKey" value="plantedPumpkin1_BB"/>
+	<property name="DescriptionKey" value="plantedPumpkin1_BBDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="Group" value="SeedEnhancement"/>
 	<property name="Material" value="Mcorn"/>
@@ -13135,7 +13135,7 @@
 	<drop event="Destroy" name="plantedPumpkin1_BU" count="1"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="plantedPumpkin1"/>
-	<property name="DescriptionKey" value="plantedPumpkin1_BU"/>
+	<property name="DescriptionKey" value="plantedPumpkin1_BUDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="Group" value="SeedEnhancement"/>
 	<property name="Material" value="Mcorn"/>
@@ -13188,7 +13188,7 @@
 	<drop event="Destroy" name="plantedPumpkin1_BF" count="1"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="plantedPumpkin1"/>
-	<property name="DescriptionKey" value="plantedPumpkin1_BF"/>
+	<property name="DescriptionKey" value="plantedPumpkin1_BFDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="Group" value="SeedEnhancement"/>
 	<property name="Material" value="Mcorn"/>
@@ -13241,7 +13241,7 @@
 	<drop event="Destroy" name="plantedPumpkin1_BR" count="1"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="plantedPumpkin1"/>
-	<property name="DescriptionKey" value="plantedPumpkin1_BR"/>
+	<property name="DescriptionKey" value="plantedPumpkin1_BRDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="Group" value="SeedEnhancement"/>
 	<property name="Material" value="Mcorn"/>
@@ -13294,7 +13294,7 @@
 	<drop event="Destroy" name="plantedPumpkin1_BT" count="1"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="plantedPumpkin1"/>
-	<property name="DescriptionKey" value="plantedPumpkin1_BT"/>
+	<property name="DescriptionKey" value="plantedPumpkin1_BTDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="Group" value="SeedEnhancement"/>
 	<property name="Material" value="Mcorn"/>
@@ -13347,7 +13347,7 @@
 	<drop event="Destroy" name="plantedPumpkin1_U" count="1"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="plantedPumpkin1"/>
-	<property name="DescriptionKey" value="plantedPumpkin1_U"/>
+	<property name="DescriptionKey" value="plantedPumpkin1_UDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="Group" value="SeedEnhancement"/>
 	<property name="Material" value="Mcorn"/>
@@ -13400,7 +13400,7 @@
 	<drop event="Destroy" name="plantedPumpkin1_UF" count="1"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="plantedPumpkin1"/>
-	<property name="DescriptionKey" value="plantedPumpkin1_UF"/>
+	<property name="DescriptionKey" value="plantedPumpkin1_UFDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="Group" value="SeedEnhancement"/>
 	<property name="Material" value="Mcorn"/>
@@ -13453,7 +13453,7 @@
 	<drop event="Destroy" name="plantedPumpkin1_UE" count="1"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="plantedPumpkin1"/>
-	<property name="DescriptionKey" value="plantedPumpkin1_UE"/>
+	<property name="DescriptionKey" value="plantedPumpkin1_UEDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="Group" value="SeedEnhancement"/>
 	<property name="Material" value="Mcorn"/>
@@ -13506,7 +13506,7 @@
 	<drop event="Destroy" name="plantedPumpkin1_UR" count="1"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="plantedPumpkin1"/>
-	<property name="DescriptionKey" value="plantedPumpkin1_UR"/>
+	<property name="DescriptionKey" value="plantedPumpkin1_URDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="Group" value="SeedEnhancement"/>
 	<property name="Material" value="Mcorn"/>
@@ -13559,7 +13559,7 @@
 	<drop event="Destroy" name="plantedPumpkin1_UT" count="1"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="plantedPumpkin1"/>
-	<property name="DescriptionKey" value="plantedPumpkin1_UT"/>
+	<property name="DescriptionKey" value="plantedPumpkin1_UTDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="Group" value="SeedEnhancement"/>
 	<property name="Material" value="Mcorn"/>
@@ -13612,7 +13612,7 @@
 	<drop event="Destroy" name="plantedPumpkin1_F" count="1"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="plantedPumpkin1"/>
-	<property name="DescriptionKey" value="plantedPumpkin1_F"/>
+	<property name="DescriptionKey" value="plantedPumpkin1_FDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="Group" value="SeedEnhancement"/>
 	<property name="Material" value="Mcorn"/>
@@ -13665,7 +13665,7 @@
 	<drop event="Destroy" name="plantedPumpkin1_FF" count="1"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="plantedPumpkin1"/>
-	<property name="DescriptionKey" value="plantedPumpkin1_FF"/>
+	<property name="DescriptionKey" value="plantedPumpkin1_FFDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="Group" value="SeedEnhancement"/>
 	<property name="Material" value="Mcorn"/>
@@ -13718,7 +13718,7 @@
 	<drop event="Destroy" name="plantedPumpkin1_FE" count="1"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="plantedPumpkin1"/>
-	<property name="DescriptionKey" value="plantedPumpkin1_FE"/>
+	<property name="DescriptionKey" value="plantedPumpkin1_FEDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="Group" value="SeedEnhancement"/>
 	<property name="Material" value="Mcorn"/>
@@ -13771,7 +13771,7 @@
 	<drop event="Destroy" name="plantedPumpkin1_FR" count="1"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="plantedPumpkin1"/>
-	<property name="DescriptionKey" value="plantedPumpkin1_FR"/>
+	<property name="DescriptionKey" value="plantedPumpkin1_FRDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="Group" value="SeedEnhancement"/>
 	<property name="Material" value="Mcorn"/>
@@ -13824,7 +13824,7 @@
 	<drop event="Destroy" name="plantedPumpkin1_FT" count="1"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="plantedPumpkin1"/>
-	<property name="DescriptionKey" value="plantedPumpkin1_FT"/>
+	<property name="DescriptionKey" value="plantedPumpkin1_FTDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="Group" value="SeedEnhancement"/>
 	<property name="Material" value="Mcorn"/>
@@ -13877,7 +13877,7 @@
 	<drop event="Destroy" name="plantedPumpkin1_E" count="1"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="plantedPumpkin1"/>
-	<property name="DescriptionKey" value="plantedPumpkin1_E"/>
+	<property name="DescriptionKey" value="plantedPumpkin1_EDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="Group" value="SeedEnhancement"/>
 	<property name="Material" value="Mcorn"/>
@@ -13930,7 +13930,7 @@
 	<drop event="Destroy" name="plantedPumpkin1_EE" count="1"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="plantedPumpkin1"/>
-	<property name="DescriptionKey" value="plantedPumpkin1_EE"/>
+	<property name="DescriptionKey" value="plantedPumpkin1_EEDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="Group" value="SeedEnhancement"/>
 	<property name="Material" value="Mcorn"/>
@@ -13983,7 +13983,7 @@
 	<drop event="Destroy" name="plantedPumpkin1_ET" count="1"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="plantedPumpkin1"/>
-	<property name="DescriptionKey" value="plantedPumpkin1_ET"/>
+	<property name="DescriptionKey" value="plantedPumpkin1_ETDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="Group" value="SeedEnhancement"/>
 	<property name="Material" value="Mcorn"/>
@@ -14036,7 +14036,7 @@
 	<drop event="Destroy" name="plantedPumpkin1_R" count="1"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="plantedPumpkin1"/>
-	<property name="DescriptionKey" value="plantedPumpkin1_R"/>
+	<property name="DescriptionKey" value="plantedPumpkin1_RDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="Group" value="SeedEnhancement"/>
 	<property name="Material" value="Mcorn"/>
@@ -14089,7 +14089,7 @@
 	<drop event="Destroy" name="plantedPumpkin1_RT" count="1"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="plantedPumpkin1"/>
-	<property name="DescriptionKey" value="plantedPumpkin1_RT"/>
+	<property name="DescriptionKey" value="plantedPumpkin1_RTDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="Group" value="SeedEnhancement"/>
 	<property name="Material" value="Mcorn"/>
@@ -14142,7 +14142,7 @@
 	<drop event="Destroy" name="plantedPumpkin1_T" count="1"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="plantedPumpkin1"/>
-	<property name="DescriptionKey" value="plantedPumpkin1_T"/>
+	<property name="DescriptionKey" value="plantedPumpkin1_TDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="Group" value="SeedEnhancement"/>
 	<property name="Material" value="Mcorn"/>
@@ -14195,7 +14195,7 @@
 	<drop event="Destroy" name="plantedPumpkin1_TT" count="1"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="plantedPumpkin1"/>
-	<property name="DescriptionKey" value="plantedPumpkin1_TT"/>
+	<property name="DescriptionKey" value="plantedPumpkin1_TTDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="Group" value="SeedEnhancement"/>
 	<property name="Material" value="Mcorn"/>
@@ -14248,7 +14248,7 @@
 	<drop event="Destroy" name="plantedYucca1_" count="1"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="plantedYucca1"/>
-	<property name="DescriptionKey" value="plantedYucca1_"/>
+	<property name="DescriptionKey" value="plantedYucca1_Desc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="Group" value="Food/Cooking"/>
 	<property name="Material" value="Mcorn"/>
@@ -14298,7 +14298,7 @@
 	<drop event="Destroy" name="plantedYucca1_B" count="1"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="plantedYucca1"/>
-	<property name="DescriptionKey" value="plantedYucca1_B"/>
+	<property name="DescriptionKey" value="plantedYucca1_BDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="Group" value="SeedEnhancement"/>
 	<property name="Material" value="Mcorn"/>
@@ -14348,7 +14348,7 @@
 	<drop event="Destroy" name="plantedYucca1_BB" count="1"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="plantedYucca1"/>
-	<property name="DescriptionKey" value="plantedYucca1_BB"/>
+	<property name="DescriptionKey" value="plantedYucca1_BBDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="Group" value="SeedEnhancement"/>
 	<property name="Material" value="Mcorn"/>
@@ -14398,7 +14398,7 @@
 	<drop event="Destroy" name="plantedYucca1_BU" count="1"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="plantedYucca1"/>
-	<property name="DescriptionKey" value="plantedYucca1_BU"/>
+	<property name="DescriptionKey" value="plantedYucca1_BUDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="Group" value="SeedEnhancement"/>
 	<property name="Material" value="Mcorn"/>
@@ -14448,7 +14448,7 @@
 	<drop event="Destroy" name="plantedYucca1_BF" count="1"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="plantedYucca1"/>
-	<property name="DescriptionKey" value="plantedYucca1_BF"/>
+	<property name="DescriptionKey" value="plantedYucca1_BFDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="Group" value="SeedEnhancement"/>
 	<property name="Material" value="Mcorn"/>
@@ -14498,7 +14498,7 @@
 	<drop event="Destroy" name="plantedYucca1_BR" count="1"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="plantedYucca1"/>
-	<property name="DescriptionKey" value="plantedYucca1_BR"/>
+	<property name="DescriptionKey" value="plantedYucca1_BRDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="Group" value="SeedEnhancement"/>
 	<property name="Material" value="Mcorn"/>
@@ -14548,7 +14548,7 @@
 	<drop event="Destroy" name="plantedYucca1_BT" count="1"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="plantedYucca1"/>
-	<property name="DescriptionKey" value="plantedYucca1_BT"/>
+	<property name="DescriptionKey" value="plantedYucca1_BTDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="Group" value="SeedEnhancement"/>
 	<property name="Material" value="Mcorn"/>
@@ -14598,7 +14598,7 @@
 	<drop event="Destroy" name="plantedYucca1_U" count="1"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="plantedYucca1"/>
-	<property name="DescriptionKey" value="plantedYucca1_U"/>
+	<property name="DescriptionKey" value="plantedYucca1_UDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="Group" value="SeedEnhancement"/>
 	<property name="Material" value="Mcorn"/>
@@ -14648,7 +14648,7 @@
 	<drop event="Destroy" name="plantedYucca1_UF" count="1"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="plantedYucca1"/>
-	<property name="DescriptionKey" value="plantedYucca1_UF"/>
+	<property name="DescriptionKey" value="plantedYucca1_UFDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="Group" value="SeedEnhancement"/>
 	<property name="Material" value="Mcorn"/>
@@ -14698,7 +14698,7 @@
 	<drop event="Destroy" name="plantedYucca1_UE" count="1"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="plantedYucca1"/>
-	<property name="DescriptionKey" value="plantedYucca1_UE"/>
+	<property name="DescriptionKey" value="plantedYucca1_UEDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="Group" value="SeedEnhancement"/>
 	<property name="Material" value="Mcorn"/>
@@ -14748,7 +14748,7 @@
 	<drop event="Destroy" name="plantedYucca1_UR" count="1"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="plantedYucca1"/>
-	<property name="DescriptionKey" value="plantedYucca1_UR"/>
+	<property name="DescriptionKey" value="plantedYucca1_URDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="Group" value="SeedEnhancement"/>
 	<property name="Material" value="Mcorn"/>
@@ -14798,7 +14798,7 @@
 	<drop event="Destroy" name="plantedYucca1_UT" count="1"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="plantedYucca1"/>
-	<property name="DescriptionKey" value="plantedYucca1_UT"/>
+	<property name="DescriptionKey" value="plantedYucca1_UTDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="Group" value="SeedEnhancement"/>
 	<property name="Material" value="Mcorn"/>
@@ -14848,7 +14848,7 @@
 	<drop event="Destroy" name="plantedYucca1_F" count="1"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="plantedYucca1"/>
-	<property name="DescriptionKey" value="plantedYucca1_F"/>
+	<property name="DescriptionKey" value="plantedYucca1_FDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="Group" value="SeedEnhancement"/>
 	<property name="Material" value="Mcorn"/>
@@ -14898,7 +14898,7 @@
 	<drop event="Destroy" name="plantedYucca1_FF" count="1"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="plantedYucca1"/>
-	<property name="DescriptionKey" value="plantedYucca1_FF"/>
+	<property name="DescriptionKey" value="plantedYucca1_FFDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="Group" value="SeedEnhancement"/>
 	<property name="Material" value="Mcorn"/>
@@ -14948,7 +14948,7 @@
 	<drop event="Destroy" name="plantedYucca1_FE" count="1"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="plantedYucca1"/>
-	<property name="DescriptionKey" value="plantedYucca1_FE"/>
+	<property name="DescriptionKey" value="plantedYucca1_FEDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="Group" value="SeedEnhancement"/>
 	<property name="Material" value="Mcorn"/>
@@ -14998,7 +14998,7 @@
 	<drop event="Destroy" name="plantedYucca1_FR" count="1"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="plantedYucca1"/>
-	<property name="DescriptionKey" value="plantedYucca1_FR"/>
+	<property name="DescriptionKey" value="plantedYucca1_FRDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="Group" value="SeedEnhancement"/>
 	<property name="Material" value="Mcorn"/>
@@ -15048,7 +15048,7 @@
 	<drop event="Destroy" name="plantedYucca1_FT" count="1"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="plantedYucca1"/>
-	<property name="DescriptionKey" value="plantedYucca1_FT"/>
+	<property name="DescriptionKey" value="plantedYucca1_FTDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="Group" value="SeedEnhancement"/>
 	<property name="Material" value="Mcorn"/>
@@ -15098,7 +15098,7 @@
 	<drop event="Destroy" name="plantedYucca1_E" count="1"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="plantedYucca1"/>
-	<property name="DescriptionKey" value="plantedYucca1_E"/>
+	<property name="DescriptionKey" value="plantedYucca1_EDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="Group" value="SeedEnhancement"/>
 	<property name="Material" value="Mcorn"/>
@@ -15148,7 +15148,7 @@
 	<drop event="Destroy" name="plantedYucca1_EE" count="1"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="plantedYucca1"/>
-	<property name="DescriptionKey" value="plantedYucca1_EE"/>
+	<property name="DescriptionKey" value="plantedYucca1_EEDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="Group" value="SeedEnhancement"/>
 	<property name="Material" value="Mcorn"/>
@@ -15198,7 +15198,7 @@
 	<drop event="Destroy" name="plantedYucca1_ET" count="1"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="plantedYucca1"/>
-	<property name="DescriptionKey" value="plantedYucca1_ET"/>
+	<property name="DescriptionKey" value="plantedYucca1_ETDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="Group" value="SeedEnhancement"/>
 	<property name="Material" value="Mcorn"/>
@@ -15248,7 +15248,7 @@
 	<drop event="Destroy" name="plantedYucca1_R" count="1"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="plantedYucca1"/>
-	<property name="DescriptionKey" value="plantedYucca1_R"/>
+	<property name="DescriptionKey" value="plantedYucca1_RDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="Group" value="SeedEnhancement"/>
 	<property name="Material" value="Mcorn"/>
@@ -15298,7 +15298,7 @@
 	<drop event="Destroy" name="plantedYucca1_RT" count="1"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="plantedYucca1"/>
-	<property name="DescriptionKey" value="plantedYucca1_RT"/>
+	<property name="DescriptionKey" value="plantedYucca1_RTDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="Group" value="SeedEnhancement"/>
 	<property name="Material" value="Mcorn"/>
@@ -15348,7 +15348,7 @@
 	<drop event="Destroy" name="plantedYucca1_T" count="1"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="plantedYucca1"/>
-	<property name="DescriptionKey" value="plantedYucca1_T"/>
+	<property name="DescriptionKey" value="plantedYucca1_TDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="Group" value="SeedEnhancement"/>
 	<property name="Material" value="Mcorn"/>
@@ -15398,7 +15398,7 @@
 	<drop event="Destroy" name="plantedYucca1_TT" count="1"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="plantedYucca1"/>
-	<property name="DescriptionKey" value="plantedYucca1_TT"/>
+	<property name="DescriptionKey" value="plantedYucca1_TTDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="Group" value="SeedEnhancement"/>
 	<property name="Material" value="Mcorn"/>

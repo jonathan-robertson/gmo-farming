@@ -73,7 +73,7 @@ func (p *Yucca) WriteStage1(c chan string, target, traits string) {
 	<drop event="Destroy" name="plantedYucca1_%s" count="1"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="plantedYucca1"/>
-	<property name="DescriptionKey" value="plantedYucca1_%s"/>
+	<property name="DescriptionKey" value="plantedYucca1_%sDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="Group" value="%s"/>
 	<property name="Material" value="Mcorn"/>

@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - adjust localization for lvl 3 Living off the Land
 - add schematics for unlocking plant trait recipes
+- fix potato, pumkin, and yucca seed descriptions
 - TODO: add recipes for schematics
 
 ## [0.4.1] - 2022-05-06
