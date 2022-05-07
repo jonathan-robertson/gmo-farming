@@ -101,7 +101,7 @@ func (p *Chrysanthemum) WriteStage3(c chan string, traits string) {
 	<drop event="Harvest" name="resourceCropChrysanthemumPlant" prob="0.5" count="%d" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedChrysanthemum3Harvest"/>
+	<property name="CustomIcon" value="plantedChrysanthemum1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedChrysanthemum3_%s"/>
 	<property name="DisplayInfo" value="Name"/>

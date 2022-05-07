@@ -101,7 +101,7 @@ func (p *Goldenrod) WriteStage3(c chan string, traits string) {
 	<drop event="Harvest" name="resourceCropGoldenrodPlant" prob="0.5" count="%d" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedGoldenrod3HarvestPlayer"/>
+	<property name="CustomIcon" value="plantedGoldenrod1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedGoldenrod3_%s"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->

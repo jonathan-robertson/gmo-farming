@@ -82,7 +82,7 @@
 	<drop event="Harvest" name="resourceCropAloeLeaf" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedAloe3Harvest"/>
+	<property name="CustomIcon" value="plantedAloe1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedAloe3_"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -133,7 +133,7 @@
 	<drop event="Harvest" name="resourceCropAloeLeaf" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedAloe3Harvest"/>
+	<property name="CustomIcon" value="plantedAloe1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedAloe3_B"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -184,7 +184,7 @@
 	<drop event="Harvest" name="resourceCropAloeLeaf" prob="0.5" count="8" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedAloe3Harvest"/>
+	<property name="CustomIcon" value="plantedAloe1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedAloe3_BB"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -235,7 +235,7 @@
 	<drop event="Harvest" name="resourceCropAloeLeaf" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedAloe3Harvest"/>
+	<property name="CustomIcon" value="plantedAloe1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedAloe3_BU"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -286,7 +286,7 @@
 	<drop event="Harvest" name="resourceCropAloeLeaf" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedAloe3Harvest"/>
+	<property name="CustomIcon" value="plantedAloe1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedAloe3_BF"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -337,7 +337,7 @@
 	<drop event="Harvest" name="resourceCropAloeLeaf" prob="0.5" count="3" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedAloe3Harvest"/>
+	<property name="CustomIcon" value="plantedAloe1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedAloe3_BR"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -388,7 +388,7 @@
 	<drop event="Harvest" name="resourceCropAloeLeaf" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedAloe3Harvest"/>
+	<property name="CustomIcon" value="plantedAloe1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedAloe3_BT"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -439,7 +439,7 @@
 	<drop event="Harvest" name="resourceCropAloeLeaf" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedAloe3Harvest"/>
+	<property name="CustomIcon" value="plantedAloe1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedAloe3_U"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -490,7 +490,7 @@
 	<drop event="Harvest" name="resourceCropAloeLeaf" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedAloe3Harvest"/>
+	<property name="CustomIcon" value="plantedAloe1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedAloe3_UF"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -541,7 +541,7 @@
 	<drop event="Harvest" name="resourceCropAloeLeaf" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedAloe3Harvest"/>
+	<property name="CustomIcon" value="plantedAloe1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedAloe3_UE"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -592,7 +592,7 @@
 	<drop event="Harvest" name="resourceCropAloeLeaf" prob="0.5" count="1" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedAloe3Harvest"/>
+	<property name="CustomIcon" value="plantedAloe1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedAloe3_UR"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -643,7 +643,7 @@
 	<drop event="Harvest" name="resourceCropAloeLeaf" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedAloe3Harvest"/>
+	<property name="CustomIcon" value="plantedAloe1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedAloe3_UT"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -694,7 +694,7 @@
 	<drop event="Harvest" name="resourceCropAloeLeaf" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedAloe3Harvest"/>
+	<property name="CustomIcon" value="plantedAloe1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedAloe3_F"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -745,7 +745,7 @@
 	<drop event="Harvest" name="resourceCropAloeLeaf" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedAloe3Harvest"/>
+	<property name="CustomIcon" value="plantedAloe1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedAloe3_FF"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -796,7 +796,7 @@
 	<drop event="Harvest" name="resourceCropAloeLeaf" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedAloe3Harvest"/>
+	<property name="CustomIcon" value="plantedAloe1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedAloe3_FE"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -847,7 +847,7 @@
 	<drop event="Harvest" name="resourceCropAloeLeaf" prob="0.5" count="1" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedAloe3Harvest"/>
+	<property name="CustomIcon" value="plantedAloe1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedAloe3_FR"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -898,7 +898,7 @@
 	<drop event="Harvest" name="resourceCropAloeLeaf" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedAloe3Harvest"/>
+	<property name="CustomIcon" value="plantedAloe1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedAloe3_FT"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -949,7 +949,7 @@
 	<drop event="Harvest" name="resourceCropAloeLeaf" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedAloe3Harvest"/>
+	<property name="CustomIcon" value="plantedAloe1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedAloe3_E"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -1000,7 +1000,7 @@
 	<drop event="Harvest" name="resourceCropAloeLeaf" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedAloe3Harvest"/>
+	<property name="CustomIcon" value="plantedAloe1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedAloe3_EE"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -1051,7 +1051,7 @@
 	<drop event="Harvest" name="resourceCropAloeLeaf" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedAloe3Harvest"/>
+	<property name="CustomIcon" value="plantedAloe1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedAloe3_ET"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -1102,7 +1102,7 @@
 	<drop event="Harvest" name="resourceCropAloeLeaf" prob="0.5" count="1" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedAloe3Harvest"/>
+	<property name="CustomIcon" value="plantedAloe1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedAloe3_R"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -1153,7 +1153,7 @@
 	<drop event="Harvest" name="resourceCropAloeLeaf" prob="0.5" count="1" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedAloe3Harvest"/>
+	<property name="CustomIcon" value="plantedAloe1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedAloe3_RT"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -1204,7 +1204,7 @@
 	<drop event="Harvest" name="resourceCropAloeLeaf" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedAloe3Harvest"/>
+	<property name="CustomIcon" value="plantedAloe1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedAloe3_T"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -1255,7 +1255,7 @@
 	<drop event="Harvest" name="resourceCropAloeLeaf" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedAloe3Harvest"/>
+	<property name="CustomIcon" value="plantedAloe1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedAloe3_TT"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -1305,7 +1305,7 @@
 	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedBlueberry3Harvest"/>
+	<property name="CustomIcon" value="plantedBlueberry1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedBlueberry3_"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -1354,7 +1354,7 @@
 	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedBlueberry3Harvest"/>
+	<property name="CustomIcon" value="plantedBlueberry1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedBlueberry3_B"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -1403,7 +1403,7 @@
 	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="8" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedBlueberry3Harvest"/>
+	<property name="CustomIcon" value="plantedBlueberry1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedBlueberry3_BB"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -1452,7 +1452,7 @@
 	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedBlueberry3Harvest"/>
+	<property name="CustomIcon" value="plantedBlueberry1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedBlueberry3_BU"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -1501,7 +1501,7 @@
 	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedBlueberry3Harvest"/>
+	<property name="CustomIcon" value="plantedBlueberry1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedBlueberry3_BF"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -1550,7 +1550,7 @@
 	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="3" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedBlueberry3Harvest"/>
+	<property name="CustomIcon" value="plantedBlueberry1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedBlueberry3_BR"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -1599,7 +1599,7 @@
 	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedBlueberry3Harvest"/>
+	<property name="CustomIcon" value="plantedBlueberry1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedBlueberry3_BT"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -1648,7 +1648,7 @@
 	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedBlueberry3Harvest"/>
+	<property name="CustomIcon" value="plantedBlueberry1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedBlueberry3_U"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -1697,7 +1697,7 @@
 	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedBlueberry3Harvest"/>
+	<property name="CustomIcon" value="plantedBlueberry1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedBlueberry3_UF"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -1746,7 +1746,7 @@
 	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedBlueberry3Harvest"/>
+	<property name="CustomIcon" value="plantedBlueberry1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedBlueberry3_UE"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -1795,7 +1795,7 @@
 	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="1" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedBlueberry3Harvest"/>
+	<property name="CustomIcon" value="plantedBlueberry1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedBlueberry3_UR"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -1844,7 +1844,7 @@
 	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedBlueberry3Harvest"/>
+	<property name="CustomIcon" value="plantedBlueberry1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedBlueberry3_UT"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -1893,7 +1893,7 @@
 	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedBlueberry3Harvest"/>
+	<property name="CustomIcon" value="plantedBlueberry1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedBlueberry3_F"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -1942,7 +1942,7 @@
 	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedBlueberry3Harvest"/>
+	<property name="CustomIcon" value="plantedBlueberry1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedBlueberry3_FF"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -1991,7 +1991,7 @@
 	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedBlueberry3Harvest"/>
+	<property name="CustomIcon" value="plantedBlueberry1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedBlueberry3_FE"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -2040,7 +2040,7 @@
 	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="1" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedBlueberry3Harvest"/>
+	<property name="CustomIcon" value="plantedBlueberry1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedBlueberry3_FR"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -2089,7 +2089,7 @@
 	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedBlueberry3Harvest"/>
+	<property name="CustomIcon" value="plantedBlueberry1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedBlueberry3_FT"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -2138,7 +2138,7 @@
 	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedBlueberry3Harvest"/>
+	<property name="CustomIcon" value="plantedBlueberry1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedBlueberry3_E"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -2187,7 +2187,7 @@
 	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedBlueberry3Harvest"/>
+	<property name="CustomIcon" value="plantedBlueberry1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedBlueberry3_EE"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -2236,7 +2236,7 @@
 	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedBlueberry3Harvest"/>
+	<property name="CustomIcon" value="plantedBlueberry1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedBlueberry3_ET"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -2285,7 +2285,7 @@
 	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="1" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedBlueberry3Harvest"/>
+	<property name="CustomIcon" value="plantedBlueberry1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedBlueberry3_R"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -2334,7 +2334,7 @@
 	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="1" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedBlueberry3Harvest"/>
+	<property name="CustomIcon" value="plantedBlueberry1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedBlueberry3_RT"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -2383,7 +2383,7 @@
 	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedBlueberry3Harvest"/>
+	<property name="CustomIcon" value="plantedBlueberry1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedBlueberry3_T"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -2432,7 +2432,7 @@
 	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedBlueberry3Harvest"/>
+	<property name="CustomIcon" value="plantedBlueberry1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedBlueberry3_TT"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -2480,7 +2480,7 @@
 	<drop event="Harvest" name="resourceCropChrysanthemumPlant" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedChrysanthemum3Harvest"/>
+	<property name="CustomIcon" value="plantedChrysanthemum1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedChrysanthemum3_"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -2526,7 +2526,7 @@
 	<drop event="Harvest" name="resourceCropChrysanthemumPlant" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedChrysanthemum3Harvest"/>
+	<property name="CustomIcon" value="plantedChrysanthemum1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedChrysanthemum3_B"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -2572,7 +2572,7 @@
 	<drop event="Harvest" name="resourceCropChrysanthemumPlant" prob="0.5" count="8" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedChrysanthemum3Harvest"/>
+	<property name="CustomIcon" value="plantedChrysanthemum1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedChrysanthemum3_BB"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -2618,7 +2618,7 @@
 	<drop event="Harvest" name="resourceCropChrysanthemumPlant" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedChrysanthemum3Harvest"/>
+	<property name="CustomIcon" value="plantedChrysanthemum1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedChrysanthemum3_BU"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -2664,7 +2664,7 @@
 	<drop event="Harvest" name="resourceCropChrysanthemumPlant" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedChrysanthemum3Harvest"/>
+	<property name="CustomIcon" value="plantedChrysanthemum1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedChrysanthemum3_BF"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -2710,7 +2710,7 @@
 	<drop event="Harvest" name="resourceCropChrysanthemumPlant" prob="0.5" count="3" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedChrysanthemum3Harvest"/>
+	<property name="CustomIcon" value="plantedChrysanthemum1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedChrysanthemum3_BR"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -2756,7 +2756,7 @@
 	<drop event="Harvest" name="resourceCropChrysanthemumPlant" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedChrysanthemum3Harvest"/>
+	<property name="CustomIcon" value="plantedChrysanthemum1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedChrysanthemum3_BT"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -2802,7 +2802,7 @@
 	<drop event="Harvest" name="resourceCropChrysanthemumPlant" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedChrysanthemum3Harvest"/>
+	<property name="CustomIcon" value="plantedChrysanthemum1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedChrysanthemum3_U"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -2848,7 +2848,7 @@
 	<drop event="Harvest" name="resourceCropChrysanthemumPlant" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedChrysanthemum3Harvest"/>
+	<property name="CustomIcon" value="plantedChrysanthemum1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedChrysanthemum3_UF"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -2894,7 +2894,7 @@
 	<drop event="Harvest" name="resourceCropChrysanthemumPlant" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedChrysanthemum3Harvest"/>
+	<property name="CustomIcon" value="plantedChrysanthemum1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedChrysanthemum3_UE"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -2940,7 +2940,7 @@
 	<drop event="Harvest" name="resourceCropChrysanthemumPlant" prob="0.5" count="1" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedChrysanthemum3Harvest"/>
+	<property name="CustomIcon" value="plantedChrysanthemum1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedChrysanthemum3_UR"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -2986,7 +2986,7 @@
 	<drop event="Harvest" name="resourceCropChrysanthemumPlant" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedChrysanthemum3Harvest"/>
+	<property name="CustomIcon" value="plantedChrysanthemum1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedChrysanthemum3_UT"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -3032,7 +3032,7 @@
 	<drop event="Harvest" name="resourceCropChrysanthemumPlant" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedChrysanthemum3Harvest"/>
+	<property name="CustomIcon" value="plantedChrysanthemum1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedChrysanthemum3_F"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -3078,7 +3078,7 @@
 	<drop event="Harvest" name="resourceCropChrysanthemumPlant" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedChrysanthemum3Harvest"/>
+	<property name="CustomIcon" value="plantedChrysanthemum1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedChrysanthemum3_FF"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -3124,7 +3124,7 @@
 	<drop event="Harvest" name="resourceCropChrysanthemumPlant" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedChrysanthemum3Harvest"/>
+	<property name="CustomIcon" value="plantedChrysanthemum1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedChrysanthemum3_FE"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -3170,7 +3170,7 @@
 	<drop event="Harvest" name="resourceCropChrysanthemumPlant" prob="0.5" count="1" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedChrysanthemum3Harvest"/>
+	<property name="CustomIcon" value="plantedChrysanthemum1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedChrysanthemum3_FR"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -3216,7 +3216,7 @@
 	<drop event="Harvest" name="resourceCropChrysanthemumPlant" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedChrysanthemum3Harvest"/>
+	<property name="CustomIcon" value="plantedChrysanthemum1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedChrysanthemum3_FT"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -3262,7 +3262,7 @@
 	<drop event="Harvest" name="resourceCropChrysanthemumPlant" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedChrysanthemum3Harvest"/>
+	<property name="CustomIcon" value="plantedChrysanthemum1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedChrysanthemum3_E"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -3308,7 +3308,7 @@
 	<drop event="Harvest" name="resourceCropChrysanthemumPlant" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedChrysanthemum3Harvest"/>
+	<property name="CustomIcon" value="plantedChrysanthemum1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedChrysanthemum3_EE"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -3354,7 +3354,7 @@
 	<drop event="Harvest" name="resourceCropChrysanthemumPlant" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedChrysanthemum3Harvest"/>
+	<property name="CustomIcon" value="plantedChrysanthemum1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedChrysanthemum3_ET"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -3400,7 +3400,7 @@
 	<drop event="Harvest" name="resourceCropChrysanthemumPlant" prob="0.5" count="1" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedChrysanthemum3Harvest"/>
+	<property name="CustomIcon" value="plantedChrysanthemum1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedChrysanthemum3_R"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -3446,7 +3446,7 @@
 	<drop event="Harvest" name="resourceCropChrysanthemumPlant" prob="0.5" count="1" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedChrysanthemum3Harvest"/>
+	<property name="CustomIcon" value="plantedChrysanthemum1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedChrysanthemum3_RT"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -3492,7 +3492,7 @@
 	<drop event="Harvest" name="resourceCropChrysanthemumPlant" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedChrysanthemum3Harvest"/>
+	<property name="CustomIcon" value="plantedChrysanthemum1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedChrysanthemum3_T"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -3538,7 +3538,7 @@
 	<drop event="Harvest" name="resourceCropChrysanthemumPlant" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedChrysanthemum3Harvest"/>
+	<property name="CustomIcon" value="plantedChrysanthemum1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedChrysanthemum3_TT"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -3585,7 +3585,7 @@
 	<drop event="Harvest" name="resourceCropCoffeeBeans" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedCoffee3Harvest"/>
+	<property name="CustomIcon" value="plantedCoffee1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedCoffee3_"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -3633,7 +3633,7 @@
 	<drop event="Harvest" name="resourceCropCoffeeBeans" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedCoffee3Harvest"/>
+	<property name="CustomIcon" value="plantedCoffee1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedCoffee3_B"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -3681,7 +3681,7 @@
 	<drop event="Harvest" name="resourceCropCoffeeBeans" prob="0.5" count="8" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedCoffee3Harvest"/>
+	<property name="CustomIcon" value="plantedCoffee1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedCoffee3_BB"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -3729,7 +3729,7 @@
 	<drop event="Harvest" name="resourceCropCoffeeBeans" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedCoffee3Harvest"/>
+	<property name="CustomIcon" value="plantedCoffee1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedCoffee3_BU"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -3777,7 +3777,7 @@
 	<drop event="Harvest" name="resourceCropCoffeeBeans" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedCoffee3Harvest"/>
+	<property name="CustomIcon" value="plantedCoffee1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedCoffee3_BF"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -3825,7 +3825,7 @@
 	<drop event="Harvest" name="resourceCropCoffeeBeans" prob="0.5" count="3" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedCoffee3Harvest"/>
+	<property name="CustomIcon" value="plantedCoffee1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedCoffee3_BR"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -3873,7 +3873,7 @@
 	<drop event="Harvest" name="resourceCropCoffeeBeans" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedCoffee3Harvest"/>
+	<property name="CustomIcon" value="plantedCoffee1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedCoffee3_BT"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -3921,7 +3921,7 @@
 	<drop event="Harvest" name="resourceCropCoffeeBeans" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedCoffee3Harvest"/>
+	<property name="CustomIcon" value="plantedCoffee1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedCoffee3_U"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -3969,7 +3969,7 @@
 	<drop event="Harvest" name="resourceCropCoffeeBeans" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedCoffee3Harvest"/>
+	<property name="CustomIcon" value="plantedCoffee1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedCoffee3_UF"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -4017,7 +4017,7 @@
 	<drop event="Harvest" name="resourceCropCoffeeBeans" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedCoffee3Harvest"/>
+	<property name="CustomIcon" value="plantedCoffee1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedCoffee3_UE"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -4065,7 +4065,7 @@
 	<drop event="Harvest" name="resourceCropCoffeeBeans" prob="0.5" count="1" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedCoffee3Harvest"/>
+	<property name="CustomIcon" value="plantedCoffee1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedCoffee3_UR"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -4113,7 +4113,7 @@
 	<drop event="Harvest" name="resourceCropCoffeeBeans" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedCoffee3Harvest"/>
+	<property name="CustomIcon" value="plantedCoffee1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedCoffee3_UT"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -4161,7 +4161,7 @@
 	<drop event="Harvest" name="resourceCropCoffeeBeans" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedCoffee3Harvest"/>
+	<property name="CustomIcon" value="plantedCoffee1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedCoffee3_F"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -4209,7 +4209,7 @@
 	<drop event="Harvest" name="resourceCropCoffeeBeans" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedCoffee3Harvest"/>
+	<property name="CustomIcon" value="plantedCoffee1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedCoffee3_FF"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -4257,7 +4257,7 @@
 	<drop event="Harvest" name="resourceCropCoffeeBeans" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedCoffee3Harvest"/>
+	<property name="CustomIcon" value="plantedCoffee1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedCoffee3_FE"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -4305,7 +4305,7 @@
 	<drop event="Harvest" name="resourceCropCoffeeBeans" prob="0.5" count="1" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedCoffee3Harvest"/>
+	<property name="CustomIcon" value="plantedCoffee1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedCoffee3_FR"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -4353,7 +4353,7 @@
 	<drop event="Harvest" name="resourceCropCoffeeBeans" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedCoffee3Harvest"/>
+	<property name="CustomIcon" value="plantedCoffee1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedCoffee3_FT"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -4401,7 +4401,7 @@
 	<drop event="Harvest" name="resourceCropCoffeeBeans" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedCoffee3Harvest"/>
+	<property name="CustomIcon" value="plantedCoffee1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedCoffee3_E"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -4449,7 +4449,7 @@
 	<drop event="Harvest" name="resourceCropCoffeeBeans" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedCoffee3Harvest"/>
+	<property name="CustomIcon" value="plantedCoffee1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedCoffee3_EE"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -4497,7 +4497,7 @@
 	<drop event="Harvest" name="resourceCropCoffeeBeans" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedCoffee3Harvest"/>
+	<property name="CustomIcon" value="plantedCoffee1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedCoffee3_ET"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -4545,7 +4545,7 @@
 	<drop event="Harvest" name="resourceCropCoffeeBeans" prob="0.5" count="1" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedCoffee3Harvest"/>
+	<property name="CustomIcon" value="plantedCoffee1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedCoffee3_R"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -4593,7 +4593,7 @@
 	<drop event="Harvest" name="resourceCropCoffeeBeans" prob="0.5" count="1" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedCoffee3Harvest"/>
+	<property name="CustomIcon" value="plantedCoffee1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedCoffee3_RT"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -4641,7 +4641,7 @@
 	<drop event="Harvest" name="resourceCropCoffeeBeans" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedCoffee3Harvest"/>
+	<property name="CustomIcon" value="plantedCoffee1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedCoffee3_T"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -4689,7 +4689,7 @@
 	<drop event="Harvest" name="resourceCropCoffeeBeans" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedCoffee3Harvest"/>
+	<property name="CustomIcon" value="plantedCoffee1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedCoffee3_TT"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -4743,7 +4743,7 @@
 	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedCorn3Harvest"/>
+	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedCorn3_"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -4797,7 +4797,7 @@
 	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedCorn3Harvest"/>
+	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedCorn3_B"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -4851,7 +4851,7 @@
 	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="8" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedCorn3Harvest"/>
+	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedCorn3_BB"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -4905,7 +4905,7 @@
 	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedCorn3Harvest"/>
+	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedCorn3_BU"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -4959,7 +4959,7 @@
 	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedCorn3Harvest"/>
+	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedCorn3_BF"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -5013,7 +5013,7 @@
 	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="3" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedCorn3Harvest"/>
+	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedCorn3_BR"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -5067,7 +5067,7 @@
 	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedCorn3Harvest"/>
+	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedCorn3_BT"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -5121,7 +5121,7 @@
 	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedCorn3Harvest"/>
+	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedCorn3_U"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -5175,7 +5175,7 @@
 	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedCorn3Harvest"/>
+	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedCorn3_UF"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -5229,7 +5229,7 @@
 	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedCorn3Harvest"/>
+	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedCorn3_UE"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -5283,7 +5283,7 @@
 	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="1" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedCorn3Harvest"/>
+	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedCorn3_UR"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -5337,7 +5337,7 @@
 	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedCorn3Harvest"/>
+	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedCorn3_UT"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -5391,7 +5391,7 @@
 	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedCorn3Harvest"/>
+	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedCorn3_F"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -5445,7 +5445,7 @@
 	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedCorn3Harvest"/>
+	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedCorn3_FF"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -5499,7 +5499,7 @@
 	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedCorn3Harvest"/>
+	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedCorn3_FE"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -5553,7 +5553,7 @@
 	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="1" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedCorn3Harvest"/>
+	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedCorn3_FR"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -5607,7 +5607,7 @@
 	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedCorn3Harvest"/>
+	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedCorn3_FT"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -5661,7 +5661,7 @@
 	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedCorn3Harvest"/>
+	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedCorn3_E"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -5715,7 +5715,7 @@
 	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedCorn3Harvest"/>
+	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedCorn3_EE"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -5769,7 +5769,7 @@
 	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedCorn3Harvest"/>
+	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedCorn3_ET"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -5823,7 +5823,7 @@
 	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="1" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedCorn3Harvest"/>
+	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedCorn3_R"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -5877,7 +5877,7 @@
 	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="1" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedCorn3Harvest"/>
+	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedCorn3_RT"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -5931,7 +5931,7 @@
 	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedCorn3Harvest"/>
+	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedCorn3_T"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -5985,7 +5985,7 @@
 	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedCorn3Harvest"/>
+	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedCorn3_TT"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -6032,7 +6032,7 @@
 	<drop event="Harvest" name="resourceCropCottonPlant" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedCotton3Harvest"/>
+	<property name="CustomIcon" value="plantedCotton1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedCotton3_"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -6079,7 +6079,7 @@
 	<drop event="Harvest" name="resourceCropCottonPlant" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedCotton3Harvest"/>
+	<property name="CustomIcon" value="plantedCotton1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedCotton3_B"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -6126,7 +6126,7 @@
 	<drop event="Harvest" name="resourceCropCottonPlant" prob="0.5" count="8" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedCotton3Harvest"/>
+	<property name="CustomIcon" value="plantedCotton1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedCotton3_BB"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -6173,7 +6173,7 @@
 	<drop event="Harvest" name="resourceCropCottonPlant" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedCotton3Harvest"/>
+	<property name="CustomIcon" value="plantedCotton1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedCotton3_BU"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -6220,7 +6220,7 @@
 	<drop event="Harvest" name="resourceCropCottonPlant" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedCotton3Harvest"/>
+	<property name="CustomIcon" value="plantedCotton1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedCotton3_BF"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -6267,7 +6267,7 @@
 	<drop event="Harvest" name="resourceCropCottonPlant" prob="0.5" count="3" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedCotton3Harvest"/>
+	<property name="CustomIcon" value="plantedCotton1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedCotton3_BR"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -6314,7 +6314,7 @@
 	<drop event="Harvest" name="resourceCropCottonPlant" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedCotton3Harvest"/>
+	<property name="CustomIcon" value="plantedCotton1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedCotton3_BT"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -6361,7 +6361,7 @@
 	<drop event="Harvest" name="resourceCropCottonPlant" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedCotton3Harvest"/>
+	<property name="CustomIcon" value="plantedCotton1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedCotton3_U"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -6408,7 +6408,7 @@
 	<drop event="Harvest" name="resourceCropCottonPlant" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedCotton3Harvest"/>
+	<property name="CustomIcon" value="plantedCotton1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedCotton3_UF"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -6455,7 +6455,7 @@
 	<drop event="Harvest" name="resourceCropCottonPlant" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedCotton3Harvest"/>
+	<property name="CustomIcon" value="plantedCotton1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedCotton3_UE"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -6502,7 +6502,7 @@
 	<drop event="Harvest" name="resourceCropCottonPlant" prob="0.5" count="1" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedCotton3Harvest"/>
+	<property name="CustomIcon" value="plantedCotton1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedCotton3_UR"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -6549,7 +6549,7 @@
 	<drop event="Harvest" name="resourceCropCottonPlant" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedCotton3Harvest"/>
+	<property name="CustomIcon" value="plantedCotton1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedCotton3_UT"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -6596,7 +6596,7 @@
 	<drop event="Harvest" name="resourceCropCottonPlant" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedCotton3Harvest"/>
+	<property name="CustomIcon" value="plantedCotton1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedCotton3_F"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -6643,7 +6643,7 @@
 	<drop event="Harvest" name="resourceCropCottonPlant" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedCotton3Harvest"/>
+	<property name="CustomIcon" value="plantedCotton1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedCotton3_FF"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -6690,7 +6690,7 @@
 	<drop event="Harvest" name="resourceCropCottonPlant" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedCotton3Harvest"/>
+	<property name="CustomIcon" value="plantedCotton1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedCotton3_FE"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -6737,7 +6737,7 @@
 	<drop event="Harvest" name="resourceCropCottonPlant" prob="0.5" count="1" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedCotton3Harvest"/>
+	<property name="CustomIcon" value="plantedCotton1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedCotton3_FR"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -6784,7 +6784,7 @@
 	<drop event="Harvest" name="resourceCropCottonPlant" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedCotton3Harvest"/>
+	<property name="CustomIcon" value="plantedCotton1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedCotton3_FT"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -6831,7 +6831,7 @@
 	<drop event="Harvest" name="resourceCropCottonPlant" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedCotton3Harvest"/>
+	<property name="CustomIcon" value="plantedCotton1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedCotton3_E"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -6878,7 +6878,7 @@
 	<drop event="Harvest" name="resourceCropCottonPlant" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedCotton3Harvest"/>
+	<property name="CustomIcon" value="plantedCotton1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedCotton3_EE"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -6925,7 +6925,7 @@
 	<drop event="Harvest" name="resourceCropCottonPlant" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedCotton3Harvest"/>
+	<property name="CustomIcon" value="plantedCotton1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedCotton3_ET"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -6972,7 +6972,7 @@
 	<drop event="Harvest" name="resourceCropCottonPlant" prob="0.5" count="1" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedCotton3Harvest"/>
+	<property name="CustomIcon" value="plantedCotton1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedCotton3_R"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -7019,7 +7019,7 @@
 	<drop event="Harvest" name="resourceCropCottonPlant" prob="0.5" count="1" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedCotton3Harvest"/>
+	<property name="CustomIcon" value="plantedCotton1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedCotton3_RT"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -7066,7 +7066,7 @@
 	<drop event="Harvest" name="resourceCropCottonPlant" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedCotton3Harvest"/>
+	<property name="CustomIcon" value="plantedCotton1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedCotton3_T"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -7113,7 +7113,7 @@
 	<drop event="Harvest" name="resourceCropCottonPlant" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedCotton3Harvest"/>
+	<property name="CustomIcon" value="plantedCotton1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedCotton3_TT"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -7160,7 +7160,7 @@
 	<drop event="Harvest" name="resourceCropGoldenrodPlant" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedGoldenrod3HarvestPlayer"/>
+	<property name="CustomIcon" value="plantedGoldenrod1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedGoldenrod3_"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -7207,7 +7207,7 @@
 	<drop event="Harvest" name="resourceCropGoldenrodPlant" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedGoldenrod3HarvestPlayer"/>
+	<property name="CustomIcon" value="plantedGoldenrod1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedGoldenrod3_B"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -7254,7 +7254,7 @@
 	<drop event="Harvest" name="resourceCropGoldenrodPlant" prob="0.5" count="8" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedGoldenrod3HarvestPlayer"/>
+	<property name="CustomIcon" value="plantedGoldenrod1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedGoldenrod3_BB"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -7301,7 +7301,7 @@
 	<drop event="Harvest" name="resourceCropGoldenrodPlant" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedGoldenrod3HarvestPlayer"/>
+	<property name="CustomIcon" value="plantedGoldenrod1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedGoldenrod3_BU"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -7348,7 +7348,7 @@
 	<drop event="Harvest" name="resourceCropGoldenrodPlant" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedGoldenrod3HarvestPlayer"/>
+	<property name="CustomIcon" value="plantedGoldenrod1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedGoldenrod3_BF"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -7395,7 +7395,7 @@
 	<drop event="Harvest" name="resourceCropGoldenrodPlant" prob="0.5" count="3" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedGoldenrod3HarvestPlayer"/>
+	<property name="CustomIcon" value="plantedGoldenrod1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedGoldenrod3_BR"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -7442,7 +7442,7 @@
 	<drop event="Harvest" name="resourceCropGoldenrodPlant" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedGoldenrod3HarvestPlayer"/>
+	<property name="CustomIcon" value="plantedGoldenrod1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedGoldenrod3_BT"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -7489,7 +7489,7 @@
 	<drop event="Harvest" name="resourceCropGoldenrodPlant" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedGoldenrod3HarvestPlayer"/>
+	<property name="CustomIcon" value="plantedGoldenrod1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedGoldenrod3_U"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -7536,7 +7536,7 @@
 	<drop event="Harvest" name="resourceCropGoldenrodPlant" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedGoldenrod3HarvestPlayer"/>
+	<property name="CustomIcon" value="plantedGoldenrod1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedGoldenrod3_UF"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -7583,7 +7583,7 @@
 	<drop event="Harvest" name="resourceCropGoldenrodPlant" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedGoldenrod3HarvestPlayer"/>
+	<property name="CustomIcon" value="plantedGoldenrod1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedGoldenrod3_UE"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -7630,7 +7630,7 @@
 	<drop event="Harvest" name="resourceCropGoldenrodPlant" prob="0.5" count="1" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedGoldenrod3HarvestPlayer"/>
+	<property name="CustomIcon" value="plantedGoldenrod1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedGoldenrod3_UR"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -7677,7 +7677,7 @@
 	<drop event="Harvest" name="resourceCropGoldenrodPlant" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedGoldenrod3HarvestPlayer"/>
+	<property name="CustomIcon" value="plantedGoldenrod1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedGoldenrod3_UT"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -7724,7 +7724,7 @@
 	<drop event="Harvest" name="resourceCropGoldenrodPlant" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedGoldenrod3HarvestPlayer"/>
+	<property name="CustomIcon" value="plantedGoldenrod1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedGoldenrod3_F"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -7771,7 +7771,7 @@
 	<drop event="Harvest" name="resourceCropGoldenrodPlant" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedGoldenrod3HarvestPlayer"/>
+	<property name="CustomIcon" value="plantedGoldenrod1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedGoldenrod3_FF"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -7818,7 +7818,7 @@
 	<drop event="Harvest" name="resourceCropGoldenrodPlant" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedGoldenrod3HarvestPlayer"/>
+	<property name="CustomIcon" value="plantedGoldenrod1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedGoldenrod3_FE"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -7865,7 +7865,7 @@
 	<drop event="Harvest" name="resourceCropGoldenrodPlant" prob="0.5" count="1" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedGoldenrod3HarvestPlayer"/>
+	<property name="CustomIcon" value="plantedGoldenrod1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedGoldenrod3_FR"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -7912,7 +7912,7 @@
 	<drop event="Harvest" name="resourceCropGoldenrodPlant" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedGoldenrod3HarvestPlayer"/>
+	<property name="CustomIcon" value="plantedGoldenrod1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedGoldenrod3_FT"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -7959,7 +7959,7 @@
 	<drop event="Harvest" name="resourceCropGoldenrodPlant" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedGoldenrod3HarvestPlayer"/>
+	<property name="CustomIcon" value="plantedGoldenrod1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedGoldenrod3_E"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -8006,7 +8006,7 @@
 	<drop event="Harvest" name="resourceCropGoldenrodPlant" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedGoldenrod3HarvestPlayer"/>
+	<property name="CustomIcon" value="plantedGoldenrod1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedGoldenrod3_EE"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -8053,7 +8053,7 @@
 	<drop event="Harvest" name="resourceCropGoldenrodPlant" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedGoldenrod3HarvestPlayer"/>
+	<property name="CustomIcon" value="plantedGoldenrod1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedGoldenrod3_ET"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -8100,7 +8100,7 @@
 	<drop event="Harvest" name="resourceCropGoldenrodPlant" prob="0.5" count="1" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedGoldenrod3HarvestPlayer"/>
+	<property name="CustomIcon" value="plantedGoldenrod1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedGoldenrod3_R"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -8147,7 +8147,7 @@
 	<drop event="Harvest" name="resourceCropGoldenrodPlant" prob="0.5" count="1" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedGoldenrod3HarvestPlayer"/>
+	<property name="CustomIcon" value="plantedGoldenrod1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedGoldenrod3_RT"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -8194,7 +8194,7 @@
 	<drop event="Harvest" name="resourceCropGoldenrodPlant" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedGoldenrod3HarvestPlayer"/>
+	<property name="CustomIcon" value="plantedGoldenrod1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedGoldenrod3_T"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -8241,7 +8241,7 @@
 	<drop event="Harvest" name="resourceCropGoldenrodPlant" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedGoldenrod3HarvestPlayer"/>
+	<property name="CustomIcon" value="plantedGoldenrod1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedGoldenrod3_TT"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -8283,7 +8283,7 @@
 </block>
 <block name="plantedGraceCorn2_" stage="2" traits="">
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIconTint" value="00ff80"/>
+	<property name="CustomIconTint" value="00ff9f"/>
 	<property name="Extends" value="plantedGraceCorn1_"/>
 	<property name="PlantGrowing.Next" value="plantedGraceCorn3_"/>
 </block>
@@ -8294,8 +8294,8 @@
 	<drop event="Harvest" name="foodCropGraceCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedGraceCorn3Harvest"/>
-	<property name="CustomIconTint" value="ff9f9f"/>
+	<property name="CustomIcon" value="plantedCorn1"/>
+	<property name="CustomIconTint" value="ff8f9f"/>
 	<property name="DescriptionKey" value="plantedGraceCorn3_"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
@@ -8337,7 +8337,7 @@
 </block>
 <block name="plantedGraceCorn2_B" stage="2" traits="B">
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIconTint" value="00ff80"/>
+	<property name="CustomIconTint" value="00ff9f"/>
 	<property name="Extends" value="plantedGraceCorn1_B"/>
 	<property name="PlantGrowing.Next" value="plantedGraceCorn3_B"/>
 </block>
@@ -8348,8 +8348,8 @@
 	<drop event="Harvest" name="foodCropGraceCorn" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedGraceCorn3Harvest"/>
-	<property name="CustomIconTint" value="ff9f9f"/>
+	<property name="CustomIcon" value="plantedCorn1"/>
+	<property name="CustomIconTint" value="ff8f9f"/>
 	<property name="DescriptionKey" value="plantedGraceCorn3_B"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
@@ -8391,7 +8391,7 @@
 </block>
 <block name="plantedGraceCorn2_BB" stage="2" traits="BB">
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIconTint" value="00ff80"/>
+	<property name="CustomIconTint" value="00ff9f"/>
 	<property name="Extends" value="plantedGraceCorn1_BB"/>
 	<property name="PlantGrowing.Next" value="plantedGraceCorn3_BB"/>
 </block>
@@ -8402,8 +8402,8 @@
 	<drop event="Harvest" name="foodCropGraceCorn" prob="0.5" count="8" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedGraceCorn3Harvest"/>
-	<property name="CustomIconTint" value="ff9f9f"/>
+	<property name="CustomIcon" value="plantedCorn1"/>
+	<property name="CustomIconTint" value="ff8f9f"/>
 	<property name="DescriptionKey" value="plantedGraceCorn3_BB"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
@@ -8445,7 +8445,7 @@
 </block>
 <block name="plantedGraceCorn2_BU" stage="2" traits="BU">
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIconTint" value="00ff80"/>
+	<property name="CustomIconTint" value="00ff9f"/>
 	<property name="Extends" value="plantedGraceCorn1_BU"/>
 	<property name="PlantGrowing.Next" value="plantedGraceCorn3_BU"/>
 </block>
@@ -8456,8 +8456,8 @@
 	<drop event="Harvest" name="foodCropGraceCorn" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedGraceCorn3Harvest"/>
-	<property name="CustomIconTint" value="ff9f9f"/>
+	<property name="CustomIcon" value="plantedCorn1"/>
+	<property name="CustomIconTint" value="ff8f9f"/>
 	<property name="DescriptionKey" value="plantedGraceCorn3_BU"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
@@ -8499,7 +8499,7 @@
 </block>
 <block name="plantedGraceCorn2_BF" stage="2" traits="BF">
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIconTint" value="00ff80"/>
+	<property name="CustomIconTint" value="00ff9f"/>
 	<property name="Extends" value="plantedGraceCorn1_BF"/>
 	<property name="PlantGrowing.Next" value="plantedGraceCorn3_BF"/>
 </block>
@@ -8510,8 +8510,8 @@
 	<drop event="Harvest" name="foodCropGraceCorn" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedGraceCorn3Harvest"/>
-	<property name="CustomIconTint" value="ff9f9f"/>
+	<property name="CustomIcon" value="plantedCorn1"/>
+	<property name="CustomIconTint" value="ff8f9f"/>
 	<property name="DescriptionKey" value="plantedGraceCorn3_BF"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
@@ -8553,7 +8553,7 @@
 </block>
 <block name="plantedGraceCorn2_BR" stage="2" traits="BR">
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIconTint" value="00ff80"/>
+	<property name="CustomIconTint" value="00ff9f"/>
 	<property name="Extends" value="plantedGraceCorn1_BR"/>
 	<property name="PlantGrowing.Next" value="plantedGraceCorn3_BR"/>
 </block>
@@ -8564,8 +8564,8 @@
 	<drop event="Harvest" name="foodCropGraceCorn" prob="0.5" count="3" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedGraceCorn3Harvest"/>
-	<property name="CustomIconTint" value="ff9f9f"/>
+	<property name="CustomIcon" value="plantedCorn1"/>
+	<property name="CustomIconTint" value="ff8f9f"/>
 	<property name="DescriptionKey" value="plantedGraceCorn3_BR"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
@@ -8607,7 +8607,7 @@
 </block>
 <block name="plantedGraceCorn2_BT" stage="2" traits="BT">
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIconTint" value="00ff80"/>
+	<property name="CustomIconTint" value="00ff9f"/>
 	<property name="Extends" value="plantedGraceCorn1_BT"/>
 	<property name="PlantGrowing.Next" value="plantedGraceCorn3_BT"/>
 </block>
@@ -8618,8 +8618,8 @@
 	<drop event="Harvest" name="foodCropGraceCorn" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedGraceCorn3Harvest"/>
-	<property name="CustomIconTint" value="ff9f9f"/>
+	<property name="CustomIcon" value="plantedCorn1"/>
+	<property name="CustomIconTint" value="ff8f9f"/>
 	<property name="DescriptionKey" value="plantedGraceCorn3_BT"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
@@ -8661,7 +8661,7 @@
 </block>
 <block name="plantedGraceCorn2_U" stage="2" traits="U">
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIconTint" value="00ff80"/>
+	<property name="CustomIconTint" value="00ff9f"/>
 	<property name="Extends" value="plantedGraceCorn1_U"/>
 	<property name="PlantGrowing.Next" value="plantedGraceCorn3_U"/>
 </block>
@@ -8672,8 +8672,8 @@
 	<drop event="Harvest" name="foodCropGraceCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedGraceCorn3Harvest"/>
-	<property name="CustomIconTint" value="ff9f9f"/>
+	<property name="CustomIcon" value="plantedCorn1"/>
+	<property name="CustomIconTint" value="ff8f9f"/>
 	<property name="DescriptionKey" value="plantedGraceCorn3_U"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
@@ -8715,7 +8715,7 @@
 </block>
 <block name="plantedGraceCorn2_UF" stage="2" traits="UF">
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIconTint" value="00ff80"/>
+	<property name="CustomIconTint" value="00ff9f"/>
 	<property name="Extends" value="plantedGraceCorn1_UF"/>
 	<property name="PlantGrowing.Next" value="plantedGraceCorn3_UF"/>
 </block>
@@ -8726,8 +8726,8 @@
 	<drop event="Harvest" name="foodCropGraceCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedGraceCorn3Harvest"/>
-	<property name="CustomIconTint" value="ff9f9f"/>
+	<property name="CustomIcon" value="plantedCorn1"/>
+	<property name="CustomIconTint" value="ff8f9f"/>
 	<property name="DescriptionKey" value="plantedGraceCorn3_UF"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
@@ -8769,7 +8769,7 @@
 </block>
 <block name="plantedGraceCorn2_UE" stage="2" traits="UE">
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIconTint" value="00ff80"/>
+	<property name="CustomIconTint" value="00ff9f"/>
 	<property name="Extends" value="plantedGraceCorn1_UE"/>
 	<property name="PlantGrowing.Next" value="plantedGraceCorn3_UE"/>
 </block>
@@ -8780,8 +8780,8 @@
 	<drop event="Harvest" name="foodCropGraceCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedGraceCorn3Harvest"/>
-	<property name="CustomIconTint" value="ff9f9f"/>
+	<property name="CustomIcon" value="plantedCorn1"/>
+	<property name="CustomIconTint" value="ff8f9f"/>
 	<property name="DescriptionKey" value="plantedGraceCorn3_UE"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
@@ -8823,7 +8823,7 @@
 </block>
 <block name="plantedGraceCorn2_UR" stage="2" traits="UR">
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIconTint" value="00ff80"/>
+	<property name="CustomIconTint" value="00ff9f"/>
 	<property name="Extends" value="plantedGraceCorn1_UR"/>
 	<property name="PlantGrowing.Next" value="plantedGraceCorn3_UR"/>
 </block>
@@ -8834,8 +8834,8 @@
 	<drop event="Harvest" name="foodCropGraceCorn" prob="0.5" count="1" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedGraceCorn3Harvest"/>
-	<property name="CustomIconTint" value="ff9f9f"/>
+	<property name="CustomIcon" value="plantedCorn1"/>
+	<property name="CustomIconTint" value="ff8f9f"/>
 	<property name="DescriptionKey" value="plantedGraceCorn3_UR"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
@@ -8877,7 +8877,7 @@
 </block>
 <block name="plantedGraceCorn2_UT" stage="2" traits="UT">
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIconTint" value="00ff80"/>
+	<property name="CustomIconTint" value="00ff9f"/>
 	<property name="Extends" value="plantedGraceCorn1_UT"/>
 	<property name="PlantGrowing.Next" value="plantedGraceCorn3_UT"/>
 </block>
@@ -8888,8 +8888,8 @@
 	<drop event="Harvest" name="foodCropGraceCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedGraceCorn3Harvest"/>
-	<property name="CustomIconTint" value="ff9f9f"/>
+	<property name="CustomIcon" value="plantedCorn1"/>
+	<property name="CustomIconTint" value="ff8f9f"/>
 	<property name="DescriptionKey" value="plantedGraceCorn3_UT"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
@@ -8931,7 +8931,7 @@
 </block>
 <block name="plantedGraceCorn2_F" stage="2" traits="F">
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIconTint" value="00ff80"/>
+	<property name="CustomIconTint" value="00ff9f"/>
 	<property name="Extends" value="plantedGraceCorn1_F"/>
 	<property name="PlantGrowing.Next" value="plantedGraceCorn3_F"/>
 </block>
@@ -8942,8 +8942,8 @@
 	<drop event="Harvest" name="foodCropGraceCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedGraceCorn3Harvest"/>
-	<property name="CustomIconTint" value="ff9f9f"/>
+	<property name="CustomIcon" value="plantedCorn1"/>
+	<property name="CustomIconTint" value="ff8f9f"/>
 	<property name="DescriptionKey" value="plantedGraceCorn3_F"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
@@ -8985,7 +8985,7 @@
 </block>
 <block name="plantedGraceCorn2_FF" stage="2" traits="FF">
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIconTint" value="00ff80"/>
+	<property name="CustomIconTint" value="00ff9f"/>
 	<property name="Extends" value="plantedGraceCorn1_FF"/>
 	<property name="PlantGrowing.Next" value="plantedGraceCorn3_FF"/>
 </block>
@@ -8996,8 +8996,8 @@
 	<drop event="Harvest" name="foodCropGraceCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedGraceCorn3Harvest"/>
-	<property name="CustomIconTint" value="ff9f9f"/>
+	<property name="CustomIcon" value="plantedCorn1"/>
+	<property name="CustomIconTint" value="ff8f9f"/>
 	<property name="DescriptionKey" value="plantedGraceCorn3_FF"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
@@ -9039,7 +9039,7 @@
 </block>
 <block name="plantedGraceCorn2_FE" stage="2" traits="FE">
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIconTint" value="00ff80"/>
+	<property name="CustomIconTint" value="00ff9f"/>
 	<property name="Extends" value="plantedGraceCorn1_FE"/>
 	<property name="PlantGrowing.Next" value="plantedGraceCorn3_FE"/>
 </block>
@@ -9050,8 +9050,8 @@
 	<drop event="Harvest" name="foodCropGraceCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedGraceCorn3Harvest"/>
-	<property name="CustomIconTint" value="ff9f9f"/>
+	<property name="CustomIcon" value="plantedCorn1"/>
+	<property name="CustomIconTint" value="ff8f9f"/>
 	<property name="DescriptionKey" value="plantedGraceCorn3_FE"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
@@ -9093,7 +9093,7 @@
 </block>
 <block name="plantedGraceCorn2_FR" stage="2" traits="FR">
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIconTint" value="00ff80"/>
+	<property name="CustomIconTint" value="00ff9f"/>
 	<property name="Extends" value="plantedGraceCorn1_FR"/>
 	<property name="PlantGrowing.Next" value="plantedGraceCorn3_FR"/>
 </block>
@@ -9104,8 +9104,8 @@
 	<drop event="Harvest" name="foodCropGraceCorn" prob="0.5" count="1" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedGraceCorn3Harvest"/>
-	<property name="CustomIconTint" value="ff9f9f"/>
+	<property name="CustomIcon" value="plantedCorn1"/>
+	<property name="CustomIconTint" value="ff8f9f"/>
 	<property name="DescriptionKey" value="plantedGraceCorn3_FR"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
@@ -9147,7 +9147,7 @@
 </block>
 <block name="plantedGraceCorn2_FT" stage="2" traits="FT">
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIconTint" value="00ff80"/>
+	<property name="CustomIconTint" value="00ff9f"/>
 	<property name="Extends" value="plantedGraceCorn1_FT"/>
 	<property name="PlantGrowing.Next" value="plantedGraceCorn3_FT"/>
 </block>
@@ -9158,8 +9158,8 @@
 	<drop event="Harvest" name="foodCropGraceCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedGraceCorn3Harvest"/>
-	<property name="CustomIconTint" value="ff9f9f"/>
+	<property name="CustomIcon" value="plantedCorn1"/>
+	<property name="CustomIconTint" value="ff8f9f"/>
 	<property name="DescriptionKey" value="plantedGraceCorn3_FT"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
@@ -9201,7 +9201,7 @@
 </block>
 <block name="plantedGraceCorn2_E" stage="2" traits="E">
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIconTint" value="00ff80"/>
+	<property name="CustomIconTint" value="00ff9f"/>
 	<property name="Extends" value="plantedGraceCorn1_E"/>
 	<property name="PlantGrowing.Next" value="plantedGraceCorn3_E"/>
 </block>
@@ -9212,8 +9212,8 @@
 	<drop event="Harvest" name="foodCropGraceCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedGraceCorn3Harvest"/>
-	<property name="CustomIconTint" value="ff9f9f"/>
+	<property name="CustomIcon" value="plantedCorn1"/>
+	<property name="CustomIconTint" value="ff8f9f"/>
 	<property name="DescriptionKey" value="plantedGraceCorn3_E"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
@@ -9255,7 +9255,7 @@
 </block>
 <block name="plantedGraceCorn2_EE" stage="2" traits="EE">
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIconTint" value="00ff80"/>
+	<property name="CustomIconTint" value="00ff9f"/>
 	<property name="Extends" value="plantedGraceCorn1_EE"/>
 	<property name="PlantGrowing.Next" value="plantedGraceCorn3_EE"/>
 </block>
@@ -9266,8 +9266,8 @@
 	<drop event="Harvest" name="foodCropGraceCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedGraceCorn3Harvest"/>
-	<property name="CustomIconTint" value="ff9f9f"/>
+	<property name="CustomIcon" value="plantedCorn1"/>
+	<property name="CustomIconTint" value="ff8f9f"/>
 	<property name="DescriptionKey" value="plantedGraceCorn3_EE"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
@@ -9309,7 +9309,7 @@
 </block>
 <block name="plantedGraceCorn2_ET" stage="2" traits="ET">
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIconTint" value="00ff80"/>
+	<property name="CustomIconTint" value="00ff9f"/>
 	<property name="Extends" value="plantedGraceCorn1_ET"/>
 	<property name="PlantGrowing.Next" value="plantedGraceCorn3_ET"/>
 </block>
@@ -9320,8 +9320,8 @@
 	<drop event="Harvest" name="foodCropGraceCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedGraceCorn3Harvest"/>
-	<property name="CustomIconTint" value="ff9f9f"/>
+	<property name="CustomIcon" value="plantedCorn1"/>
+	<property name="CustomIconTint" value="ff8f9f"/>
 	<property name="DescriptionKey" value="plantedGraceCorn3_ET"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
@@ -9363,7 +9363,7 @@
 </block>
 <block name="plantedGraceCorn2_R" stage="2" traits="R">
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIconTint" value="00ff80"/>
+	<property name="CustomIconTint" value="00ff9f"/>
 	<property name="Extends" value="plantedGraceCorn1_R"/>
 	<property name="PlantGrowing.Next" value="plantedGraceCorn3_R"/>
 </block>
@@ -9374,8 +9374,8 @@
 	<drop event="Harvest" name="foodCropGraceCorn" prob="0.5" count="1" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedGraceCorn3Harvest"/>
-	<property name="CustomIconTint" value="ff9f9f"/>
+	<property name="CustomIcon" value="plantedCorn1"/>
+	<property name="CustomIconTint" value="ff8f9f"/>
 	<property name="DescriptionKey" value="plantedGraceCorn3_R"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
@@ -9417,7 +9417,7 @@
 </block>
 <block name="plantedGraceCorn2_RT" stage="2" traits="RT">
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIconTint" value="00ff80"/>
+	<property name="CustomIconTint" value="00ff9f"/>
 	<property name="Extends" value="plantedGraceCorn1_RT"/>
 	<property name="PlantGrowing.Next" value="plantedGraceCorn3_RT"/>
 </block>
@@ -9428,8 +9428,8 @@
 	<drop event="Harvest" name="foodCropGraceCorn" prob="0.5" count="1" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedGraceCorn3Harvest"/>
-	<property name="CustomIconTint" value="ff9f9f"/>
+	<property name="CustomIcon" value="plantedCorn1"/>
+	<property name="CustomIconTint" value="ff8f9f"/>
 	<property name="DescriptionKey" value="plantedGraceCorn3_RT"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
@@ -9471,7 +9471,7 @@
 </block>
 <block name="plantedGraceCorn2_T" stage="2" traits="T">
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIconTint" value="00ff80"/>
+	<property name="CustomIconTint" value="00ff9f"/>
 	<property name="Extends" value="plantedGraceCorn1_T"/>
 	<property name="PlantGrowing.Next" value="plantedGraceCorn3_T"/>
 </block>
@@ -9482,8 +9482,8 @@
 	<drop event="Harvest" name="foodCropGraceCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedGraceCorn3Harvest"/>
-	<property name="CustomIconTint" value="ff9f9f"/>
+	<property name="CustomIcon" value="plantedCorn1"/>
+	<property name="CustomIconTint" value="ff8f9f"/>
 	<property name="DescriptionKey" value="plantedGraceCorn3_T"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
@@ -9525,7 +9525,7 @@
 </block>
 <block name="plantedGraceCorn2_TT" stage="2" traits="TT">
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIconTint" value="00ff80"/>
+	<property name="CustomIconTint" value="00ff9f"/>
 	<property name="Extends" value="plantedGraceCorn1_TT"/>
 	<property name="PlantGrowing.Next" value="plantedGraceCorn3_TT"/>
 </block>
@@ -9536,8 +9536,8 @@
 	<drop event="Harvest" name="foodCropGraceCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedGraceCorn3Harvest"/>
-	<property name="CustomIconTint" value="ff9f9f"/>
+	<property name="CustomIcon" value="plantedCorn1"/>
+	<property name="CustomIconTint" value="ff8f9f"/>
 	<property name="DescriptionKey" value="plantedGraceCorn3_TT"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
@@ -9584,7 +9584,7 @@
 	<drop event="Harvest" name="resourceCropHopsFlower" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedHop3Harvest"/>
+	<property name="CustomIcon" value="plantedHop1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedHop3_"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -9632,7 +9632,7 @@
 	<drop event="Harvest" name="resourceCropHopsFlower" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedHop3Harvest"/>
+	<property name="CustomIcon" value="plantedHop1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedHop3_B"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -9680,7 +9680,7 @@
 	<drop event="Harvest" name="resourceCropHopsFlower" prob="0.5" count="8" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedHop3Harvest"/>
+	<property name="CustomIcon" value="plantedHop1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedHop3_BB"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -9728,7 +9728,7 @@
 	<drop event="Harvest" name="resourceCropHopsFlower" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedHop3Harvest"/>
+	<property name="CustomIcon" value="plantedHop1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedHop3_BU"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -9776,7 +9776,7 @@
 	<drop event="Harvest" name="resourceCropHopsFlower" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedHop3Harvest"/>
+	<property name="CustomIcon" value="plantedHop1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedHop3_BF"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -9824,7 +9824,7 @@
 	<drop event="Harvest" name="resourceCropHopsFlower" prob="0.5" count="3" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedHop3Harvest"/>
+	<property name="CustomIcon" value="plantedHop1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedHop3_BR"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -9872,7 +9872,7 @@
 	<drop event="Harvest" name="resourceCropHopsFlower" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedHop3Harvest"/>
+	<property name="CustomIcon" value="plantedHop1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedHop3_BT"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -9920,7 +9920,7 @@
 	<drop event="Harvest" name="resourceCropHopsFlower" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedHop3Harvest"/>
+	<property name="CustomIcon" value="plantedHop1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedHop3_U"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -9968,7 +9968,7 @@
 	<drop event="Harvest" name="resourceCropHopsFlower" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedHop3Harvest"/>
+	<property name="CustomIcon" value="plantedHop1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedHop3_UF"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -10016,7 +10016,7 @@
 	<drop event="Harvest" name="resourceCropHopsFlower" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedHop3Harvest"/>
+	<property name="CustomIcon" value="plantedHop1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedHop3_UE"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -10064,7 +10064,7 @@
 	<drop event="Harvest" name="resourceCropHopsFlower" prob="0.5" count="1" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedHop3Harvest"/>
+	<property name="CustomIcon" value="plantedHop1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedHop3_UR"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -10112,7 +10112,7 @@
 	<drop event="Harvest" name="resourceCropHopsFlower" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedHop3Harvest"/>
+	<property name="CustomIcon" value="plantedHop1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedHop3_UT"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -10160,7 +10160,7 @@
 	<drop event="Harvest" name="resourceCropHopsFlower" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedHop3Harvest"/>
+	<property name="CustomIcon" value="plantedHop1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedHop3_F"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -10208,7 +10208,7 @@
 	<drop event="Harvest" name="resourceCropHopsFlower" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedHop3Harvest"/>
+	<property name="CustomIcon" value="plantedHop1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedHop3_FF"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -10256,7 +10256,7 @@
 	<drop event="Harvest" name="resourceCropHopsFlower" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedHop3Harvest"/>
+	<property name="CustomIcon" value="plantedHop1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedHop3_FE"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -10304,7 +10304,7 @@
 	<drop event="Harvest" name="resourceCropHopsFlower" prob="0.5" count="1" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedHop3Harvest"/>
+	<property name="CustomIcon" value="plantedHop1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedHop3_FR"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -10352,7 +10352,7 @@
 	<drop event="Harvest" name="resourceCropHopsFlower" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedHop3Harvest"/>
+	<property name="CustomIcon" value="plantedHop1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedHop3_FT"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -10400,7 +10400,7 @@
 	<drop event="Harvest" name="resourceCropHopsFlower" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedHop3Harvest"/>
+	<property name="CustomIcon" value="plantedHop1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedHop3_E"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -10448,7 +10448,7 @@
 	<drop event="Harvest" name="resourceCropHopsFlower" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedHop3Harvest"/>
+	<property name="CustomIcon" value="plantedHop1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedHop3_EE"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -10496,7 +10496,7 @@
 	<drop event="Harvest" name="resourceCropHopsFlower" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedHop3Harvest"/>
+	<property name="CustomIcon" value="plantedHop1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedHop3_ET"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -10544,7 +10544,7 @@
 	<drop event="Harvest" name="resourceCropHopsFlower" prob="0.5" count="1" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedHop3Harvest"/>
+	<property name="CustomIcon" value="plantedHop1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedHop3_R"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -10592,7 +10592,7 @@
 	<drop event="Harvest" name="resourceCropHopsFlower" prob="0.5" count="1" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedHop3Harvest"/>
+	<property name="CustomIcon" value="plantedHop1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedHop3_RT"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -10640,7 +10640,7 @@
 	<drop event="Harvest" name="resourceCropHopsFlower" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedHop3Harvest"/>
+	<property name="CustomIcon" value="plantedHop1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedHop3_T"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -10688,7 +10688,7 @@
 	<drop event="Harvest" name="resourceCropHopsFlower" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedHop3Harvest"/>
+	<property name="CustomIcon" value="plantedHop1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedHop3_TT"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -10752,7 +10752,7 @@
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CropsGrown.BonusHarvestDivisor" value="16"/>
-	<property name="CustomIcon" value="plantedMushroom3Harvest"/>
+	<property name="CustomIcon" value="plantedMushroom1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedMushroom3_"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -10811,7 +10811,7 @@
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CropsGrown.BonusHarvestDivisor" value="16"/>
-	<property name="CustomIcon" value="plantedMushroom3Harvest"/>
+	<property name="CustomIcon" value="plantedMushroom1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedMushroom3_B"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -10870,7 +10870,7 @@
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CropsGrown.BonusHarvestDivisor" value="16"/>
-	<property name="CustomIcon" value="plantedMushroom3Harvest"/>
+	<property name="CustomIcon" value="plantedMushroom1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedMushroom3_BB"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -10929,7 +10929,7 @@
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CropsGrown.BonusHarvestDivisor" value="16"/>
-	<property name="CustomIcon" value="plantedMushroom3Harvest"/>
+	<property name="CustomIcon" value="plantedMushroom1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedMushroom3_BF"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -10988,7 +10988,7 @@
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CropsGrown.BonusHarvestDivisor" value="16"/>
-	<property name="CustomIcon" value="plantedMushroom3Harvest"/>
+	<property name="CustomIcon" value="plantedMushroom1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedMushroom3_BR"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -11047,7 +11047,7 @@
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CropsGrown.BonusHarvestDivisor" value="16"/>
-	<property name="CustomIcon" value="plantedMushroom3Harvest"/>
+	<property name="CustomIcon" value="plantedMushroom1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedMushroom3_BT"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -11106,7 +11106,7 @@
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CropsGrown.BonusHarvestDivisor" value="16"/>
-	<property name="CustomIcon" value="plantedMushroom3Harvest"/>
+	<property name="CustomIcon" value="plantedMushroom1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedMushroom3_F"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -11165,7 +11165,7 @@
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CropsGrown.BonusHarvestDivisor" value="16"/>
-	<property name="CustomIcon" value="plantedMushroom3Harvest"/>
+	<property name="CustomIcon" value="plantedMushroom1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedMushroom3_FF"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -11224,7 +11224,7 @@
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CropsGrown.BonusHarvestDivisor" value="16"/>
-	<property name="CustomIcon" value="plantedMushroom3Harvest"/>
+	<property name="CustomIcon" value="plantedMushroom1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedMushroom3_FE"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -11283,7 +11283,7 @@
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CropsGrown.BonusHarvestDivisor" value="16"/>
-	<property name="CustomIcon" value="plantedMushroom3Harvest"/>
+	<property name="CustomIcon" value="plantedMushroom1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedMushroom3_FR"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -11342,7 +11342,7 @@
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CropsGrown.BonusHarvestDivisor" value="16"/>
-	<property name="CustomIcon" value="plantedMushroom3Harvest"/>
+	<property name="CustomIcon" value="plantedMushroom1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedMushroom3_FT"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -11401,7 +11401,7 @@
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CropsGrown.BonusHarvestDivisor" value="16"/>
-	<property name="CustomIcon" value="plantedMushroom3Harvest"/>
+	<property name="CustomIcon" value="plantedMushroom1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedMushroom3_E"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -11460,7 +11460,7 @@
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CropsGrown.BonusHarvestDivisor" value="16"/>
-	<property name="CustomIcon" value="plantedMushroom3Harvest"/>
+	<property name="CustomIcon" value="plantedMushroom1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedMushroom3_EE"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -11519,7 +11519,7 @@
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CropsGrown.BonusHarvestDivisor" value="16"/>
-	<property name="CustomIcon" value="plantedMushroom3Harvest"/>
+	<property name="CustomIcon" value="plantedMushroom1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedMushroom3_ET"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -11578,7 +11578,7 @@
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CropsGrown.BonusHarvestDivisor" value="16"/>
-	<property name="CustomIcon" value="plantedMushroom3Harvest"/>
+	<property name="CustomIcon" value="plantedMushroom1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedMushroom3_R"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -11637,7 +11637,7 @@
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CropsGrown.BonusHarvestDivisor" value="16"/>
-	<property name="CustomIcon" value="plantedMushroom3Harvest"/>
+	<property name="CustomIcon" value="plantedMushroom1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedMushroom3_RT"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -11696,7 +11696,7 @@
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CropsGrown.BonusHarvestDivisor" value="16"/>
-	<property name="CustomIcon" value="plantedMushroom3Harvest"/>
+	<property name="CustomIcon" value="plantedMushroom1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedMushroom3_T"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -11755,7 +11755,7 @@
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CropsGrown.BonusHarvestDivisor" value="16"/>
-	<property name="CustomIcon" value="plantedMushroom3Harvest"/>
+	<property name="CustomIcon" value="plantedMushroom1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedMushroom3_TT"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -11799,7 +11799,7 @@
 	<drop event="Harvest" name="foodCropPotato" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedPotato3Harvest"/>
+	<property name="CustomIcon" value="plantedPotato1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedPotato3_Desc"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -11849,7 +11849,7 @@
 	<drop event="Harvest" name="foodCropPotato" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedPotato3Harvest"/>
+	<property name="CustomIcon" value="plantedPotato1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedPotato3_BDesc"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -11899,7 +11899,7 @@
 	<drop event="Harvest" name="foodCropPotato" prob="0.5" count="8" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedPotato3Harvest"/>
+	<property name="CustomIcon" value="plantedPotato1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedPotato3_BBDesc"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -11949,7 +11949,7 @@
 	<drop event="Harvest" name="foodCropPotato" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedPotato3Harvest"/>
+	<property name="CustomIcon" value="plantedPotato1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedPotato3_BUDesc"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -11999,7 +11999,7 @@
 	<drop event="Harvest" name="foodCropPotato" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedPotato3Harvest"/>
+	<property name="CustomIcon" value="plantedPotato1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedPotato3_BFDesc"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -12049,7 +12049,7 @@
 	<drop event="Harvest" name="foodCropPotato" prob="0.5" count="3" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedPotato3Harvest"/>
+	<property name="CustomIcon" value="plantedPotato1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedPotato3_BRDesc"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -12099,7 +12099,7 @@
 	<drop event="Harvest" name="foodCropPotato" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedPotato3Harvest"/>
+	<property name="CustomIcon" value="plantedPotato1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedPotato3_BTDesc"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -12149,7 +12149,7 @@
 	<drop event="Harvest" name="foodCropPotato" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedPotato3Harvest"/>
+	<property name="CustomIcon" value="plantedPotato1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedPotato3_UDesc"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -12199,7 +12199,7 @@
 	<drop event="Harvest" name="foodCropPotato" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedPotato3Harvest"/>
+	<property name="CustomIcon" value="plantedPotato1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedPotato3_UFDesc"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -12249,7 +12249,7 @@
 	<drop event="Harvest" name="foodCropPotato" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedPotato3Harvest"/>
+	<property name="CustomIcon" value="plantedPotato1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedPotato3_UEDesc"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -12299,7 +12299,7 @@
 	<drop event="Harvest" name="foodCropPotato" prob="0.5" count="1" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedPotato3Harvest"/>
+	<property name="CustomIcon" value="plantedPotato1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedPotato3_URDesc"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -12349,7 +12349,7 @@
 	<drop event="Harvest" name="foodCropPotato" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedPotato3Harvest"/>
+	<property name="CustomIcon" value="plantedPotato1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedPotato3_UTDesc"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -12399,7 +12399,7 @@
 	<drop event="Harvest" name="foodCropPotato" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedPotato3Harvest"/>
+	<property name="CustomIcon" value="plantedPotato1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedPotato3_FDesc"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -12449,7 +12449,7 @@
 	<drop event="Harvest" name="foodCropPotato" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedPotato3Harvest"/>
+	<property name="CustomIcon" value="plantedPotato1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedPotato3_FFDesc"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -12499,7 +12499,7 @@
 	<drop event="Harvest" name="foodCropPotato" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedPotato3Harvest"/>
+	<property name="CustomIcon" value="plantedPotato1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedPotato3_FEDesc"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -12549,7 +12549,7 @@
 	<drop event="Harvest" name="foodCropPotato" prob="0.5" count="1" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedPotato3Harvest"/>
+	<property name="CustomIcon" value="plantedPotato1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedPotato3_FRDesc"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -12599,7 +12599,7 @@
 	<drop event="Harvest" name="foodCropPotato" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedPotato3Harvest"/>
+	<property name="CustomIcon" value="plantedPotato1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedPotato3_FTDesc"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -12649,7 +12649,7 @@
 	<drop event="Harvest" name="foodCropPotato" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedPotato3Harvest"/>
+	<property name="CustomIcon" value="plantedPotato1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedPotato3_EDesc"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -12699,7 +12699,7 @@
 	<drop event="Harvest" name="foodCropPotato" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedPotato3Harvest"/>
+	<property name="CustomIcon" value="plantedPotato1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedPotato3_EEDesc"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -12749,7 +12749,7 @@
 	<drop event="Harvest" name="foodCropPotato" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedPotato3Harvest"/>
+	<property name="CustomIcon" value="plantedPotato1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedPotato3_ETDesc"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -12799,7 +12799,7 @@
 	<drop event="Harvest" name="foodCropPotato" prob="0.5" count="1" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedPotato3Harvest"/>
+	<property name="CustomIcon" value="plantedPotato1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedPotato3_RDesc"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -12849,7 +12849,7 @@
 	<drop event="Harvest" name="foodCropPotato" prob="0.5" count="1" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedPotato3Harvest"/>
+	<property name="CustomIcon" value="plantedPotato1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedPotato3_RTDesc"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -12899,7 +12899,7 @@
 	<drop event="Harvest" name="foodCropPotato" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedPotato3Harvest"/>
+	<property name="CustomIcon" value="plantedPotato1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedPotato3_TDesc"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -12949,7 +12949,7 @@
 	<drop event="Harvest" name="foodCropPotato" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedPotato3Harvest"/>
+	<property name="CustomIcon" value="plantedPotato1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedPotato3_TTDesc"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -13000,7 +13000,7 @@
 	<drop event="Harvest" name="foodCropPumpkin" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedPumpkin3Harvest"/>
+	<property name="CustomIcon" value="plantedPumpkin1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedPumpkin3_"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -13053,7 +13053,7 @@
 	<drop event="Harvest" name="foodCropPumpkin" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedPumpkin3Harvest"/>
+	<property name="CustomIcon" value="plantedPumpkin1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedPumpkin3_B"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -13106,7 +13106,7 @@
 	<drop event="Harvest" name="foodCropPumpkin" prob="0.5" count="8" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedPumpkin3Harvest"/>
+	<property name="CustomIcon" value="plantedPumpkin1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedPumpkin3_BB"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -13159,7 +13159,7 @@
 	<drop event="Harvest" name="foodCropPumpkin" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedPumpkin3Harvest"/>
+	<property name="CustomIcon" value="plantedPumpkin1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedPumpkin3_BU"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -13212,7 +13212,7 @@
 	<drop event="Harvest" name="foodCropPumpkin" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedPumpkin3Harvest"/>
+	<property name="CustomIcon" value="plantedPumpkin1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedPumpkin3_BF"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -13265,7 +13265,7 @@
 	<drop event="Harvest" name="foodCropPumpkin" prob="0.5" count="3" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedPumpkin3Harvest"/>
+	<property name="CustomIcon" value="plantedPumpkin1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedPumpkin3_BR"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -13318,7 +13318,7 @@
 	<drop event="Harvest" name="foodCropPumpkin" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedPumpkin3Harvest"/>
+	<property name="CustomIcon" value="plantedPumpkin1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedPumpkin3_BT"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -13371,7 +13371,7 @@
 	<drop event="Harvest" name="foodCropPumpkin" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedPumpkin3Harvest"/>
+	<property name="CustomIcon" value="plantedPumpkin1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedPumpkin3_U"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -13424,7 +13424,7 @@
 	<drop event="Harvest" name="foodCropPumpkin" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedPumpkin3Harvest"/>
+	<property name="CustomIcon" value="plantedPumpkin1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedPumpkin3_UF"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -13477,7 +13477,7 @@
 	<drop event="Harvest" name="foodCropPumpkin" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedPumpkin3Harvest"/>
+	<property name="CustomIcon" value="plantedPumpkin1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedPumpkin3_UE"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -13530,7 +13530,7 @@
 	<drop event="Harvest" name="foodCropPumpkin" prob="0.5" count="1" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedPumpkin3Harvest"/>
+	<property name="CustomIcon" value="plantedPumpkin1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedPumpkin3_UR"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -13583,7 +13583,7 @@
 	<drop event="Harvest" name="foodCropPumpkin" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedPumpkin3Harvest"/>
+	<property name="CustomIcon" value="plantedPumpkin1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedPumpkin3_UT"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -13636,7 +13636,7 @@
 	<drop event="Harvest" name="foodCropPumpkin" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedPumpkin3Harvest"/>
+	<property name="CustomIcon" value="plantedPumpkin1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedPumpkin3_F"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -13689,7 +13689,7 @@
 	<drop event="Harvest" name="foodCropPumpkin" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedPumpkin3Harvest"/>
+	<property name="CustomIcon" value="plantedPumpkin1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedPumpkin3_FF"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -13742,7 +13742,7 @@
 	<drop event="Harvest" name="foodCropPumpkin" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedPumpkin3Harvest"/>
+	<property name="CustomIcon" value="plantedPumpkin1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedPumpkin3_FE"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -13795,7 +13795,7 @@
 	<drop event="Harvest" name="foodCropPumpkin" prob="0.5" count="1" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedPumpkin3Harvest"/>
+	<property name="CustomIcon" value="plantedPumpkin1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedPumpkin3_FR"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -13848,7 +13848,7 @@
 	<drop event="Harvest" name="foodCropPumpkin" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedPumpkin3Harvest"/>
+	<property name="CustomIcon" value="plantedPumpkin1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedPumpkin3_FT"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -13901,7 +13901,7 @@
 	<drop event="Harvest" name="foodCropPumpkin" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedPumpkin3Harvest"/>
+	<property name="CustomIcon" value="plantedPumpkin1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedPumpkin3_E"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -13954,7 +13954,7 @@
 	<drop event="Harvest" name="foodCropPumpkin" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedPumpkin3Harvest"/>
+	<property name="CustomIcon" value="plantedPumpkin1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedPumpkin3_EE"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -14007,7 +14007,7 @@
 	<drop event="Harvest" name="foodCropPumpkin" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedPumpkin3Harvest"/>
+	<property name="CustomIcon" value="plantedPumpkin1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedPumpkin3_ET"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -14060,7 +14060,7 @@
 	<drop event="Harvest" name="foodCropPumpkin" prob="0.5" count="1" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedPumpkin3Harvest"/>
+	<property name="CustomIcon" value="plantedPumpkin1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedPumpkin3_R"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -14113,7 +14113,7 @@
 	<drop event="Harvest" name="foodCropPumpkin" prob="0.5" count="1" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedPumpkin3Harvest"/>
+	<property name="CustomIcon" value="plantedPumpkin1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedPumpkin3_RT"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -14166,7 +14166,7 @@
 	<drop event="Harvest" name="foodCropPumpkin" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedPumpkin3Harvest"/>
+	<property name="CustomIcon" value="plantedPumpkin1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedPumpkin3_T"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -14219,7 +14219,7 @@
 	<drop event="Harvest" name="foodCropPumpkin" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedPumpkin3Harvest"/>
+	<property name="CustomIcon" value="plantedPumpkin1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedPumpkin3_TT"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -14272,7 +14272,7 @@
 	<drop event="Harvest" name="foodCropYuccaFruit" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedYucca3Harvest"/>
+	<property name="CustomIcon" value="plantedYucca1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedYucca3_"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -14322,7 +14322,7 @@
 	<drop event="Harvest" name="foodCropYuccaFruit" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedYucca3Harvest"/>
+	<property name="CustomIcon" value="plantedYucca1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedYucca3_B"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -14372,7 +14372,7 @@
 	<drop event="Harvest" name="foodCropYuccaFruit" prob="0.5" count="8" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedYucca3Harvest"/>
+	<property name="CustomIcon" value="plantedYucca1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedYucca3_BB"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -14422,7 +14422,7 @@
 	<drop event="Harvest" name="foodCropYuccaFruit" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedYucca3Harvest"/>
+	<property name="CustomIcon" value="plantedYucca1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedYucca3_BU"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -14472,7 +14472,7 @@
 	<drop event="Harvest" name="foodCropYuccaFruit" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedYucca3Harvest"/>
+	<property name="CustomIcon" value="plantedYucca1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedYucca3_BF"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -14522,7 +14522,7 @@
 	<drop event="Harvest" name="foodCropYuccaFruit" prob="0.5" count="3" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedYucca3Harvest"/>
+	<property name="CustomIcon" value="plantedYucca1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedYucca3_BR"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -14572,7 +14572,7 @@
 	<drop event="Harvest" name="foodCropYuccaFruit" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedYucca3Harvest"/>
+	<property name="CustomIcon" value="plantedYucca1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedYucca3_BT"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -14622,7 +14622,7 @@
 	<drop event="Harvest" name="foodCropYuccaFruit" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedYucca3Harvest"/>
+	<property name="CustomIcon" value="plantedYucca1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedYucca3_U"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -14672,7 +14672,7 @@
 	<drop event="Harvest" name="foodCropYuccaFruit" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedYucca3Harvest"/>
+	<property name="CustomIcon" value="plantedYucca1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedYucca3_UF"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -14722,7 +14722,7 @@
 	<drop event="Harvest" name="foodCropYuccaFruit" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedYucca3Harvest"/>
+	<property name="CustomIcon" value="plantedYucca1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedYucca3_UE"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -14772,7 +14772,7 @@
 	<drop event="Harvest" name="foodCropYuccaFruit" prob="0.5" count="1" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedYucca3Harvest"/>
+	<property name="CustomIcon" value="plantedYucca1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedYucca3_UR"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -14822,7 +14822,7 @@
 	<drop event="Harvest" name="foodCropYuccaFruit" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedYucca3Harvest"/>
+	<property name="CustomIcon" value="plantedYucca1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedYucca3_UT"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -14872,7 +14872,7 @@
 	<drop event="Harvest" name="foodCropYuccaFruit" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedYucca3Harvest"/>
+	<property name="CustomIcon" value="plantedYucca1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedYucca3_F"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -14922,7 +14922,7 @@
 	<drop event="Harvest" name="foodCropYuccaFruit" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedYucca3Harvest"/>
+	<property name="CustomIcon" value="plantedYucca1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedYucca3_FF"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -14972,7 +14972,7 @@
 	<drop event="Harvest" name="foodCropYuccaFruit" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedYucca3Harvest"/>
+	<property name="CustomIcon" value="plantedYucca1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedYucca3_FE"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -15022,7 +15022,7 @@
 	<drop event="Harvest" name="foodCropYuccaFruit" prob="0.5" count="1" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedYucca3Harvest"/>
+	<property name="CustomIcon" value="plantedYucca1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedYucca3_FR"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -15072,7 +15072,7 @@
 	<drop event="Harvest" name="foodCropYuccaFruit" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedYucca3Harvest"/>
+	<property name="CustomIcon" value="plantedYucca1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedYucca3_FT"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -15122,7 +15122,7 @@
 	<drop event="Harvest" name="foodCropYuccaFruit" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedYucca3Harvest"/>
+	<property name="CustomIcon" value="plantedYucca1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedYucca3_E"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -15172,7 +15172,7 @@
 	<drop event="Harvest" name="foodCropYuccaFruit" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedYucca3Harvest"/>
+	<property name="CustomIcon" value="plantedYucca1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedYucca3_EE"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -15222,7 +15222,7 @@
 	<drop event="Harvest" name="foodCropYuccaFruit" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedYucca3Harvest"/>
+	<property name="CustomIcon" value="plantedYucca1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedYucca3_ET"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -15272,7 +15272,7 @@
 	<drop event="Harvest" name="foodCropYuccaFruit" prob="0.5" count="1" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedYucca3Harvest"/>
+	<property name="CustomIcon" value="plantedYucca1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedYucca3_R"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -15322,7 +15322,7 @@
 	<drop event="Harvest" name="foodCropYuccaFruit" prob="0.5" count="1" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedYucca3Harvest"/>
+	<property name="CustomIcon" value="plantedYucca1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedYucca3_RT"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -15372,7 +15372,7 @@
 	<drop event="Harvest" name="foodCropYuccaFruit" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedYucca3Harvest"/>
+	<property name="CustomIcon" value="plantedYucca1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedYucca3_T"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -15422,7 +15422,7 @@
 	<drop event="Harvest" name="foodCropYuccaFruit" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedYucca3Harvest"/>
+	<property name="CustomIcon" value="plantedYucca1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedYucca3_TT"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->

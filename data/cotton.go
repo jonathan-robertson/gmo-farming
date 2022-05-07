@@ -101,7 +101,7 @@ func (p *Cotton) WriteStage3(c chan string, traits string) {
 	<drop event="Harvest" name="resourceCropCottonPlant" prob="0.5" count="%d" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedCotton3Harvest"/>
+	<property name="CustomIcon" value="plantedCotton1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedCotton3_%s"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->

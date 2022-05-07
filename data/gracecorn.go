@@ -93,7 +93,7 @@ func (p *GraceCorn) WriteStage1(c chan string, target, traits string) {
 func (*GraceCorn) WriteStage2(c chan string, traits string) {
 	c <- fmt.Sprintf(`<block name="plantedGraceCorn2_%s" stage="2" traits="%s">
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIconTint" value="00ff80"/>
+	<property name="CustomIconTint" value="00ff9f"/>
 	<property name="Extends" value="plantedGraceCorn1_%s"/>
 	<property name="PlantGrowing.Next" value="plantedGraceCorn3_%s"/>
 </block>`, traits, traits, traits, traits)
@@ -107,8 +107,8 @@ func (p *GraceCorn) WriteStage3(c chan string, traits string) {
 	<drop event="Harvest" name="foodCropGraceCorn" prob="0.5" count="%d" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedGraceCorn3Harvest"/>
-	<property name="CustomIconTint" value="ff9f9f"/>
+	<property name="CustomIcon" value="plantedCorn1"/>
+	<property name="CustomIconTint" value="ff8f9f"/>
 	<property name="DescriptionKey" value="plantedGraceCorn3_%s"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>

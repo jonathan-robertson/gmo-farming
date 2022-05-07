@@ -101,7 +101,7 @@ func (p *Blueberry) WriteStage3(c chan string, traits string) {
 	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="%d" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedBlueberry3Harvest"/>
+	<property name="CustomIcon" value="plantedBlueberry1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedBlueberry3_%s"/>
 	<property name="DisplayInfo" value="Name"/>

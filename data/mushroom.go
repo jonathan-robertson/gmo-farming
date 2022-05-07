@@ -120,7 +120,7 @@ func (p *Mushroom) WriteStage3(c chan string, traits string) {
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CropsGrown.BonusHarvestDivisor" value="16"/>
-	<property name="CustomIcon" value="plantedMushroom3Harvest"/>
+	<property name="CustomIcon" value="plantedMushroom1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedMushroom3_%s"/>
 	<property name="DisplayType" value="blockMulti"/>
