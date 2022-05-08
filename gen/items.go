@@ -5,8 +5,8 @@ import (
 	"fmt"
 )
 
-func WriteItems(target string) error {
-	if target != "Vanilla" { // only run this for vanilla target
+func WritePlantSchematics(target string) error {
+	if target != "Vanilla" {
 		return nil
 	}
 
@@ -29,15 +29,15 @@ func produceItems(c chan string) {
 	defer close(c)
 	c <- `<config><append xpath="/items">`
 	for _, plant := range data.Plants {
-		produceSchematic(c, plant, "")
+		produceSchematic(c, plant)
 		for i1 := 0; i1 < len(data.Traits); i1++ {
 			if plant.IsCompatibleWith(data.Traits[i1]) {
-				produceSchematic(c, plant, fmt.Sprintf("%c", data.Traits[i1].Code))
+				produceSchematic(c, plant, data.Traits[i1])
 			}
 			for i2 := i1; i2 < len(data.Traits); i2++ {
 				if data.Traits[i1].IsCompatibleWith(data.Traits[i2]) {
 					if plant.IsCompatibleWith(data.Traits[i1]) && plant.IsCompatibleWith(data.Traits[i2]) {
-						produceSchematic(c, plant, fmt.Sprintf("%c%c", data.Traits[i1].Code, data.Traits[i2].Code))
+						produceSchematic(c, plant, data.Traits[i1], data.Traits[i2])
 					}
 				}
 			}
@@ -46,22 +46,43 @@ func produceItems(c chan string) {
 	c <- `</append></config>`
 }
 
-func produceSchematic(c chan string, p data.Plant, traits string) {
+func produceSchematic(c chan string, p data.Plant, traits ...data.Trait) {
 	var iconName string
 	if p.GetName() == "GraceCorn" {
 		iconName = `plantedCorn1"/><property name="CustomIconTint" value="ff9f9f`
 	} else {
 		iconName = fmt.Sprintf(`planted%s1`, p.GetName())
 	}
+
+	var traitsStr, group, unlocks, unlockedBy string
+	switch len(traits) {
+	case 0:
+		traitsStr = ""
+		group = "SeedExperiments"
+		unlocks = fmt.Sprintf(`planted%s1_`, p.GetName())
+		unlockedBy = "perkLivingOffTheLand"
+	case 1:
+		traitsStr = string(traits[0].Code)
+		group = "SeedTraitResearch"
+		unlocks = fmt.Sprintf(`planted%s1_%c`, p.GetName(), traits[0].Code)
+		unlockedBy = fmt.Sprintf(`planted%s1_schematic`, p.GetName())
+	case 2:
+		traitsStr = string(traits[0].Code) + string(traits[1].Code)
+		group = "SeedTraitResearch"
+		unlocks = fmt.Sprintf(`planted%s1_%c%c`, p.GetName(), traits[0].Code, traits[1].Code)
+		unlockedBy = fmt.Sprintf(`planted%s1_%cschematic`, p.GetName(), traits[0].Code)
+	}
+
 	c <- fmt.Sprintf(`<item name="%s">
 	<property name="Extends" value="schematicNoQualityRecipeMaster"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="%s"/>
-	<property name="Group" value="SeedEnhancementResearch"/>
-	<property name="Unlocks" value="planted%s1_%s"/>
+	<property name="Group" value="%s"/>
+	<property name="Unlocks" value="%s"/>
+	<property name="UnlockedBy" value="%s"/>
 	<effect_group tiered="false">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="planted%s1_%s" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="%s" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
 	</effect_group>
-</item>`, p.GetSchematicName(traits), iconName, p.GetName(), traits, p.GetName(), traits)
+</item>`, p.GetSchematicName(traitsStr), iconName, group, unlocks, unlockedBy, unlocks)
 }

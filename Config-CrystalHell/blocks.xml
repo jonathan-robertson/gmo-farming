@@ -60,7 +60,7 @@
 	<property name="CustomIcon" value="plantedAloe1"/>
 	<property name="DescriptionKey" value="plantedAloe1_Desc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="Food/Cooking"/>
+	<property name="Group" value="SeedEnhancements"/>
 	<property name="Material" value="Mcorn"/>
 	<property name="Model" value="Entities/Plants/plant_aloe1_Prefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
@@ -111,7 +111,7 @@
 	<property name="CustomIcon" value="plantedAloe1"/>
 	<property name="DescriptionKey" value="plantedAloe1_BDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/>
 	<property name="Model" value="Entities/Plants/plant_aloe1_Prefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
@@ -162,7 +162,7 @@
 	<property name="CustomIcon" value="plantedAloe1"/>
 	<property name="DescriptionKey" value="plantedAloe1_BBDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/>
 	<property name="Model" value="Entities/Plants/plant_aloe1_Prefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
@@ -213,7 +213,7 @@
 	<property name="CustomIcon" value="plantedAloe1"/>
 	<property name="DescriptionKey" value="plantedAloe1_BUDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/>
 	<property name="Model" value="Entities/Plants/plant_aloe1_Prefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
@@ -264,7 +264,7 @@
 	<property name="CustomIcon" value="plantedAloe1"/>
 	<property name="DescriptionKey" value="plantedAloe1_BFDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/>
 	<property name="Model" value="Entities/Plants/plant_aloe1_Prefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
@@ -315,7 +315,7 @@
 	<property name="CustomIcon" value="plantedAloe1"/>
 	<property name="DescriptionKey" value="plantedAloe1_BRDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/>
 	<property name="Model" value="Entities/Plants/plant_aloe1_Prefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
@@ -366,7 +366,7 @@
 	<property name="CustomIcon" value="plantedAloe1"/>
 	<property name="DescriptionKey" value="plantedAloe1_BTDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/>
 	<property name="Model" value="Entities/Plants/plant_aloe1_Prefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
@@ -417,7 +417,7 @@
 	<property name="CustomIcon" value="plantedAloe1"/>
 	<property name="DescriptionKey" value="plantedAloe1_UDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/>
 	<property name="Model" value="Entities/Plants/plant_aloe1_Prefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
@@ -468,7 +468,7 @@
 	<property name="CustomIcon" value="plantedAloe1"/>
 	<property name="DescriptionKey" value="plantedAloe1_UFDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/>
 	<property name="Model" value="Entities/Plants/plant_aloe1_Prefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
@@ -519,7 +519,7 @@
 	<property name="CustomIcon" value="plantedAloe1"/>
 	<property name="DescriptionKey" value="plantedAloe1_UEDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/>
 	<property name="Model" value="Entities/Plants/plant_aloe1_Prefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
@@ -570,7 +570,7 @@
 	<property name="CustomIcon" value="plantedAloe1"/>
 	<property name="DescriptionKey" value="plantedAloe1_URDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/>
 	<property name="Model" value="Entities/Plants/plant_aloe1_Prefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
@@ -621,7 +621,7 @@
 	<property name="CustomIcon" value="plantedAloe1"/>
 	<property name="DescriptionKey" value="plantedAloe1_UTDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/>
 	<property name="Model" value="Entities/Plants/plant_aloe1_Prefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
@@ -672,7 +672,7 @@
 	<property name="CustomIcon" value="plantedAloe1"/>
 	<property name="DescriptionKey" value="plantedAloe1_FDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/>
 	<property name="Model" value="Entities/Plants/plant_aloe1_Prefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
@@ -723,7 +723,7 @@
 	<property name="CustomIcon" value="plantedAloe1"/>
 	<property name="DescriptionKey" value="plantedAloe1_FFDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/>
 	<property name="Model" value="Entities/Plants/plant_aloe1_Prefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
@@ -774,7 +774,7 @@
 	<property name="CustomIcon" value="plantedAloe1"/>
 	<property name="DescriptionKey" value="plantedAloe1_FEDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/>
 	<property name="Model" value="Entities/Plants/plant_aloe1_Prefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
@@ -825,7 +825,7 @@
 	<property name="CustomIcon" value="plantedAloe1"/>
 	<property name="DescriptionKey" value="plantedAloe1_FRDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/>
 	<property name="Model" value="Entities/Plants/plant_aloe1_Prefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
@@ -876,7 +876,7 @@
 	<property name="CustomIcon" value="plantedAloe1"/>
 	<property name="DescriptionKey" value="plantedAloe1_FTDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/>
 	<property name="Model" value="Entities/Plants/plant_aloe1_Prefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
@@ -927,7 +927,7 @@
 	<property name="CustomIcon" value="plantedAloe1"/>
 	<property name="DescriptionKey" value="plantedAloe1_EDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/>
 	<property name="Model" value="Entities/Plants/plant_aloe1_Prefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
@@ -978,7 +978,7 @@
 	<property name="CustomIcon" value="plantedAloe1"/>
 	<property name="DescriptionKey" value="plantedAloe1_EEDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/>
 	<property name="Model" value="Entities/Plants/plant_aloe1_Prefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
@@ -1029,7 +1029,7 @@
 	<property name="CustomIcon" value="plantedAloe1"/>
 	<property name="DescriptionKey" value="plantedAloe1_ETDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/>
 	<property name="Model" value="Entities/Plants/plant_aloe1_Prefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
@@ -1080,7 +1080,7 @@
 	<property name="CustomIcon" value="plantedAloe1"/>
 	<property name="DescriptionKey" value="plantedAloe1_RDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/>
 	<property name="Model" value="Entities/Plants/plant_aloe1_Prefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
@@ -1131,7 +1131,7 @@
 	<property name="CustomIcon" value="plantedAloe1"/>
 	<property name="DescriptionKey" value="plantedAloe1_RTDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/>
 	<property name="Model" value="Entities/Plants/plant_aloe1_Prefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
@@ -1182,7 +1182,7 @@
 	<property name="CustomIcon" value="plantedAloe1"/>
 	<property name="DescriptionKey" value="plantedAloe1_TDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/>
 	<property name="Model" value="Entities/Plants/plant_aloe1_Prefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
@@ -1233,7 +1233,7 @@
 	<property name="CustomIcon" value="plantedAloe1"/>
 	<property name="DescriptionKey" value="plantedAloe1_TTDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/>
 	<property name="Model" value="Entities/Plants/plant_aloe1_Prefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
@@ -1284,7 +1284,7 @@
 	<property name="CustomIcon" value="plantedBlueberry1"/>
 	<property name="DescriptionKey" value="plantedBlueberry1_Desc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="Food/Cooking"/>
+	<property name="Group" value="SeedEnhancements"/>
 	<property name="Model" value="Entities/Plants/blueberry_plant_sproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedBlueberry2_"/>
@@ -1333,7 +1333,7 @@
 	<property name="CustomIcon" value="plantedBlueberry1"/>
 	<property name="DescriptionKey" value="plantedBlueberry1_BDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Model" value="Entities/Plants/blueberry_plant_sproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedBlueberry2_B"/>
@@ -1382,7 +1382,7 @@
 	<property name="CustomIcon" value="plantedBlueberry1"/>
 	<property name="DescriptionKey" value="plantedBlueberry1_BBDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Model" value="Entities/Plants/blueberry_plant_sproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedBlueberry2_BB"/>
@@ -1431,7 +1431,7 @@
 	<property name="CustomIcon" value="plantedBlueberry1"/>
 	<property name="DescriptionKey" value="plantedBlueberry1_BUDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Model" value="Entities/Plants/blueberry_plant_sproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedBlueberry2_BU"/>
@@ -1480,7 +1480,7 @@
 	<property name="CustomIcon" value="plantedBlueberry1"/>
 	<property name="DescriptionKey" value="plantedBlueberry1_BFDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Model" value="Entities/Plants/blueberry_plant_sproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedBlueberry2_BF"/>
@@ -1529,7 +1529,7 @@
 	<property name="CustomIcon" value="plantedBlueberry1"/>
 	<property name="DescriptionKey" value="plantedBlueberry1_BRDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Model" value="Entities/Plants/blueberry_plant_sproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedBlueberry2_BR"/>
@@ -1578,7 +1578,7 @@
 	<property name="CustomIcon" value="plantedBlueberry1"/>
 	<property name="DescriptionKey" value="plantedBlueberry1_BTDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Model" value="Entities/Plants/blueberry_plant_sproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedBlueberry2_BT"/>
@@ -1627,7 +1627,7 @@
 	<property name="CustomIcon" value="plantedBlueberry1"/>
 	<property name="DescriptionKey" value="plantedBlueberry1_UDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Model" value="Entities/Plants/blueberry_plant_sproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedBlueberry2_U"/>
@@ -1676,7 +1676,7 @@
 	<property name="CustomIcon" value="plantedBlueberry1"/>
 	<property name="DescriptionKey" value="plantedBlueberry1_UFDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Model" value="Entities/Plants/blueberry_plant_sproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedBlueberry2_UF"/>
@@ -1725,7 +1725,7 @@
 	<property name="CustomIcon" value="plantedBlueberry1"/>
 	<property name="DescriptionKey" value="plantedBlueberry1_UEDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Model" value="Entities/Plants/blueberry_plant_sproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedBlueberry2_UE"/>
@@ -1774,7 +1774,7 @@
 	<property name="CustomIcon" value="plantedBlueberry1"/>
 	<property name="DescriptionKey" value="plantedBlueberry1_URDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Model" value="Entities/Plants/blueberry_plant_sproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedBlueberry2_UR"/>
@@ -1823,7 +1823,7 @@
 	<property name="CustomIcon" value="plantedBlueberry1"/>
 	<property name="DescriptionKey" value="plantedBlueberry1_UTDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Model" value="Entities/Plants/blueberry_plant_sproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedBlueberry2_UT"/>
@@ -1872,7 +1872,7 @@
 	<property name="CustomIcon" value="plantedBlueberry1"/>
 	<property name="DescriptionKey" value="plantedBlueberry1_FDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Model" value="Entities/Plants/blueberry_plant_sproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedBlueberry2_F"/>
@@ -1921,7 +1921,7 @@
 	<property name="CustomIcon" value="plantedBlueberry1"/>
 	<property name="DescriptionKey" value="plantedBlueberry1_FFDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Model" value="Entities/Plants/blueberry_plant_sproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedBlueberry2_FF"/>
@@ -1970,7 +1970,7 @@
 	<property name="CustomIcon" value="plantedBlueberry1"/>
 	<property name="DescriptionKey" value="plantedBlueberry1_FEDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Model" value="Entities/Plants/blueberry_plant_sproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedBlueberry2_FE"/>
@@ -2019,7 +2019,7 @@
 	<property name="CustomIcon" value="plantedBlueberry1"/>
 	<property name="DescriptionKey" value="plantedBlueberry1_FRDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Model" value="Entities/Plants/blueberry_plant_sproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedBlueberry2_FR"/>
@@ -2068,7 +2068,7 @@
 	<property name="CustomIcon" value="plantedBlueberry1"/>
 	<property name="DescriptionKey" value="plantedBlueberry1_FTDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Model" value="Entities/Plants/blueberry_plant_sproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedBlueberry2_FT"/>
@@ -2117,7 +2117,7 @@
 	<property name="CustomIcon" value="plantedBlueberry1"/>
 	<property name="DescriptionKey" value="plantedBlueberry1_EDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Model" value="Entities/Plants/blueberry_plant_sproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedBlueberry2_E"/>
@@ -2166,7 +2166,7 @@
 	<property name="CustomIcon" value="plantedBlueberry1"/>
 	<property name="DescriptionKey" value="plantedBlueberry1_EEDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Model" value="Entities/Plants/blueberry_plant_sproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedBlueberry2_EE"/>
@@ -2215,7 +2215,7 @@
 	<property name="CustomIcon" value="plantedBlueberry1"/>
 	<property name="DescriptionKey" value="plantedBlueberry1_ETDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Model" value="Entities/Plants/blueberry_plant_sproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedBlueberry2_ET"/>
@@ -2264,7 +2264,7 @@
 	<property name="CustomIcon" value="plantedBlueberry1"/>
 	<property name="DescriptionKey" value="plantedBlueberry1_RDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Model" value="Entities/Plants/blueberry_plant_sproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedBlueberry2_R"/>
@@ -2313,7 +2313,7 @@
 	<property name="CustomIcon" value="plantedBlueberry1"/>
 	<property name="DescriptionKey" value="plantedBlueberry1_RTDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Model" value="Entities/Plants/blueberry_plant_sproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedBlueberry2_RT"/>
@@ -2362,7 +2362,7 @@
 	<property name="CustomIcon" value="plantedBlueberry1"/>
 	<property name="DescriptionKey" value="plantedBlueberry1_TDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Model" value="Entities/Plants/blueberry_plant_sproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedBlueberry2_T"/>
@@ -2411,7 +2411,7 @@
 	<property name="CustomIcon" value="plantedBlueberry1"/>
 	<property name="DescriptionKey" value="plantedBlueberry1_TTDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Model" value="Entities/Plants/blueberry_plant_sproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedBlueberry2_TT"/>
@@ -2460,7 +2460,7 @@
 	<property name="CustomIcon" value="plantedChrysanthemum1"/>
 	<property name="DescriptionKey" value="plantedChrysanthemum1_Desc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="Food/Cooking"/>
+	<property name="Group" value="SeedEnhancements"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedChrysanthemum2_"/>
 	<property name="Texture" value="550"/>
@@ -2506,7 +2506,7 @@
 	<property name="CustomIcon" value="plantedChrysanthemum1"/>
 	<property name="DescriptionKey" value="plantedChrysanthemum1_BDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedChrysanthemum2_B"/>
 	<property name="Texture" value="550"/>
@@ -2552,7 +2552,7 @@
 	<property name="CustomIcon" value="plantedChrysanthemum1"/>
 	<property name="DescriptionKey" value="plantedChrysanthemum1_BBDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedChrysanthemum2_BB"/>
 	<property name="Texture" value="550"/>
@@ -2598,7 +2598,7 @@
 	<property name="CustomIcon" value="plantedChrysanthemum1"/>
 	<property name="DescriptionKey" value="plantedChrysanthemum1_BUDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedChrysanthemum2_BU"/>
 	<property name="Texture" value="550"/>
@@ -2644,7 +2644,7 @@
 	<property name="CustomIcon" value="plantedChrysanthemum1"/>
 	<property name="DescriptionKey" value="plantedChrysanthemum1_BFDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedChrysanthemum2_BF"/>
 	<property name="Texture" value="550"/>
@@ -2690,7 +2690,7 @@
 	<property name="CustomIcon" value="plantedChrysanthemum1"/>
 	<property name="DescriptionKey" value="plantedChrysanthemum1_BRDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedChrysanthemum2_BR"/>
 	<property name="Texture" value="550"/>
@@ -2736,7 +2736,7 @@
 	<property name="CustomIcon" value="plantedChrysanthemum1"/>
 	<property name="DescriptionKey" value="plantedChrysanthemum1_BTDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedChrysanthemum2_BT"/>
 	<property name="Texture" value="550"/>
@@ -2782,7 +2782,7 @@
 	<property name="CustomIcon" value="plantedChrysanthemum1"/>
 	<property name="DescriptionKey" value="plantedChrysanthemum1_UDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedChrysanthemum2_U"/>
 	<property name="Texture" value="550"/>
@@ -2828,7 +2828,7 @@
 	<property name="CustomIcon" value="plantedChrysanthemum1"/>
 	<property name="DescriptionKey" value="plantedChrysanthemum1_UFDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedChrysanthemum2_UF"/>
 	<property name="Texture" value="550"/>
@@ -2874,7 +2874,7 @@
 	<property name="CustomIcon" value="plantedChrysanthemum1"/>
 	<property name="DescriptionKey" value="plantedChrysanthemum1_UEDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedChrysanthemum2_UE"/>
 	<property name="Texture" value="550"/>
@@ -2920,7 +2920,7 @@
 	<property name="CustomIcon" value="plantedChrysanthemum1"/>
 	<property name="DescriptionKey" value="plantedChrysanthemum1_URDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedChrysanthemum2_UR"/>
 	<property name="Texture" value="550"/>
@@ -2966,7 +2966,7 @@
 	<property name="CustomIcon" value="plantedChrysanthemum1"/>
 	<property name="DescriptionKey" value="plantedChrysanthemum1_UTDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedChrysanthemum2_UT"/>
 	<property name="Texture" value="550"/>
@@ -3012,7 +3012,7 @@
 	<property name="CustomIcon" value="plantedChrysanthemum1"/>
 	<property name="DescriptionKey" value="plantedChrysanthemum1_FDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedChrysanthemum2_F"/>
 	<property name="Texture" value="550"/>
@@ -3058,7 +3058,7 @@
 	<property name="CustomIcon" value="plantedChrysanthemum1"/>
 	<property name="DescriptionKey" value="plantedChrysanthemum1_FFDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedChrysanthemum2_FF"/>
 	<property name="Texture" value="550"/>
@@ -3104,7 +3104,7 @@
 	<property name="CustomIcon" value="plantedChrysanthemum1"/>
 	<property name="DescriptionKey" value="plantedChrysanthemum1_FEDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedChrysanthemum2_FE"/>
 	<property name="Texture" value="550"/>
@@ -3150,7 +3150,7 @@
 	<property name="CustomIcon" value="plantedChrysanthemum1"/>
 	<property name="DescriptionKey" value="plantedChrysanthemum1_FRDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedChrysanthemum2_FR"/>
 	<property name="Texture" value="550"/>
@@ -3196,7 +3196,7 @@
 	<property name="CustomIcon" value="plantedChrysanthemum1"/>
 	<property name="DescriptionKey" value="plantedChrysanthemum1_FTDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedChrysanthemum2_FT"/>
 	<property name="Texture" value="550"/>
@@ -3242,7 +3242,7 @@
 	<property name="CustomIcon" value="plantedChrysanthemum1"/>
 	<property name="DescriptionKey" value="plantedChrysanthemum1_EDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedChrysanthemum2_E"/>
 	<property name="Texture" value="550"/>
@@ -3288,7 +3288,7 @@
 	<property name="CustomIcon" value="plantedChrysanthemum1"/>
 	<property name="DescriptionKey" value="plantedChrysanthemum1_EEDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedChrysanthemum2_EE"/>
 	<property name="Texture" value="550"/>
@@ -3334,7 +3334,7 @@
 	<property name="CustomIcon" value="plantedChrysanthemum1"/>
 	<property name="DescriptionKey" value="plantedChrysanthemum1_ETDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedChrysanthemum2_ET"/>
 	<property name="Texture" value="550"/>
@@ -3380,7 +3380,7 @@
 	<property name="CustomIcon" value="plantedChrysanthemum1"/>
 	<property name="DescriptionKey" value="plantedChrysanthemum1_RDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedChrysanthemum2_R"/>
 	<property name="Texture" value="550"/>
@@ -3426,7 +3426,7 @@
 	<property name="CustomIcon" value="plantedChrysanthemum1"/>
 	<property name="DescriptionKey" value="plantedChrysanthemum1_RTDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedChrysanthemum2_RT"/>
 	<property name="Texture" value="550"/>
@@ -3472,7 +3472,7 @@
 	<property name="CustomIcon" value="plantedChrysanthemum1"/>
 	<property name="DescriptionKey" value="plantedChrysanthemum1_TDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedChrysanthemum2_T"/>
 	<property name="Texture" value="550"/>
@@ -3518,7 +3518,7 @@
 	<property name="CustomIcon" value="plantedChrysanthemum1"/>
 	<property name="DescriptionKey" value="plantedChrysanthemum1_TTDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedChrysanthemum2_TT"/>
 	<property name="Texture" value="550"/>
@@ -3565,7 +3565,7 @@
 	<property name="CustomIcon" value="plantedCoffee1"/>
 	<property name="DescriptionKey" value="plantedCoffee1_Desc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="Food/Cooking"/>
+	<property name="Group" value="SeedEnhancements"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedCoffee2_"/>
 	<property name="Texture" value="393"/>
@@ -3613,7 +3613,7 @@
 	<property name="CustomIcon" value="plantedCoffee1"/>
 	<property name="DescriptionKey" value="plantedCoffee1_BDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedCoffee2_B"/>
 	<property name="Texture" value="393"/>
@@ -3661,7 +3661,7 @@
 	<property name="CustomIcon" value="plantedCoffee1"/>
 	<property name="DescriptionKey" value="plantedCoffee1_BBDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedCoffee2_BB"/>
 	<property name="Texture" value="393"/>
@@ -3709,7 +3709,7 @@
 	<property name="CustomIcon" value="plantedCoffee1"/>
 	<property name="DescriptionKey" value="plantedCoffee1_BUDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedCoffee2_BU"/>
 	<property name="Texture" value="393"/>
@@ -3757,7 +3757,7 @@
 	<property name="CustomIcon" value="plantedCoffee1"/>
 	<property name="DescriptionKey" value="plantedCoffee1_BFDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedCoffee2_BF"/>
 	<property name="Texture" value="393"/>
@@ -3805,7 +3805,7 @@
 	<property name="CustomIcon" value="plantedCoffee1"/>
 	<property name="DescriptionKey" value="plantedCoffee1_BRDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedCoffee2_BR"/>
 	<property name="Texture" value="393"/>
@@ -3853,7 +3853,7 @@
 	<property name="CustomIcon" value="plantedCoffee1"/>
 	<property name="DescriptionKey" value="plantedCoffee1_BTDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedCoffee2_BT"/>
 	<property name="Texture" value="393"/>
@@ -3901,7 +3901,7 @@
 	<property name="CustomIcon" value="plantedCoffee1"/>
 	<property name="DescriptionKey" value="plantedCoffee1_UDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedCoffee2_U"/>
 	<property name="Texture" value="393"/>
@@ -3949,7 +3949,7 @@
 	<property name="CustomIcon" value="plantedCoffee1"/>
 	<property name="DescriptionKey" value="plantedCoffee1_UFDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedCoffee2_UF"/>
 	<property name="Texture" value="393"/>
@@ -3997,7 +3997,7 @@
 	<property name="CustomIcon" value="plantedCoffee1"/>
 	<property name="DescriptionKey" value="plantedCoffee1_UEDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedCoffee2_UE"/>
 	<property name="Texture" value="393"/>
@@ -4045,7 +4045,7 @@
 	<property name="CustomIcon" value="plantedCoffee1"/>
 	<property name="DescriptionKey" value="plantedCoffee1_URDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedCoffee2_UR"/>
 	<property name="Texture" value="393"/>
@@ -4093,7 +4093,7 @@
 	<property name="CustomIcon" value="plantedCoffee1"/>
 	<property name="DescriptionKey" value="plantedCoffee1_UTDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedCoffee2_UT"/>
 	<property name="Texture" value="393"/>
@@ -4141,7 +4141,7 @@
 	<property name="CustomIcon" value="plantedCoffee1"/>
 	<property name="DescriptionKey" value="plantedCoffee1_FDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedCoffee2_F"/>
 	<property name="Texture" value="393"/>
@@ -4189,7 +4189,7 @@
 	<property name="CustomIcon" value="plantedCoffee1"/>
 	<property name="DescriptionKey" value="plantedCoffee1_FFDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedCoffee2_FF"/>
 	<property name="Texture" value="393"/>
@@ -4237,7 +4237,7 @@
 	<property name="CustomIcon" value="plantedCoffee1"/>
 	<property name="DescriptionKey" value="plantedCoffee1_FEDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedCoffee2_FE"/>
 	<property name="Texture" value="393"/>
@@ -4285,7 +4285,7 @@
 	<property name="CustomIcon" value="plantedCoffee1"/>
 	<property name="DescriptionKey" value="plantedCoffee1_FRDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedCoffee2_FR"/>
 	<property name="Texture" value="393"/>
@@ -4333,7 +4333,7 @@
 	<property name="CustomIcon" value="plantedCoffee1"/>
 	<property name="DescriptionKey" value="plantedCoffee1_FTDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedCoffee2_FT"/>
 	<property name="Texture" value="393"/>
@@ -4381,7 +4381,7 @@
 	<property name="CustomIcon" value="plantedCoffee1"/>
 	<property name="DescriptionKey" value="plantedCoffee1_EDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedCoffee2_E"/>
 	<property name="Texture" value="393"/>
@@ -4429,7 +4429,7 @@
 	<property name="CustomIcon" value="plantedCoffee1"/>
 	<property name="DescriptionKey" value="plantedCoffee1_EEDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedCoffee2_EE"/>
 	<property name="Texture" value="393"/>
@@ -4477,7 +4477,7 @@
 	<property name="CustomIcon" value="plantedCoffee1"/>
 	<property name="DescriptionKey" value="plantedCoffee1_ETDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedCoffee2_ET"/>
 	<property name="Texture" value="393"/>
@@ -4525,7 +4525,7 @@
 	<property name="CustomIcon" value="plantedCoffee1"/>
 	<property name="DescriptionKey" value="plantedCoffee1_RDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedCoffee2_R"/>
 	<property name="Texture" value="393"/>
@@ -4573,7 +4573,7 @@
 	<property name="CustomIcon" value="plantedCoffee1"/>
 	<property name="DescriptionKey" value="plantedCoffee1_RTDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedCoffee2_RT"/>
 	<property name="Texture" value="393"/>
@@ -4621,7 +4621,7 @@
 	<property name="CustomIcon" value="plantedCoffee1"/>
 	<property name="DescriptionKey" value="plantedCoffee1_TDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedCoffee2_T"/>
 	<property name="Texture" value="393"/>
@@ -4669,7 +4669,7 @@
 	<property name="CustomIcon" value="plantedCoffee1"/>
 	<property name="DescriptionKey" value="plantedCoffee1_TTDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedCoffee2_TT"/>
 	<property name="Texture" value="393"/>
@@ -4716,7 +4716,7 @@
 	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="DescriptionKey" value="plantedCorn1_Desc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="Food/Cooking"/>
+	<property name="Group" value="SeedEnhancements"/>
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -4770,7 +4770,7 @@
 	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="DescriptionKey" value="plantedCorn1_BDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -4824,7 +4824,7 @@
 	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="DescriptionKey" value="plantedCorn1_BBDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -4878,7 +4878,7 @@
 	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="DescriptionKey" value="plantedCorn1_BUDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -4932,7 +4932,7 @@
 	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="DescriptionKey" value="plantedCorn1_BFDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -4986,7 +4986,7 @@
 	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="DescriptionKey" value="plantedCorn1_BRDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -5040,7 +5040,7 @@
 	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="DescriptionKey" value="plantedCorn1_BTDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -5094,7 +5094,7 @@
 	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="DescriptionKey" value="plantedCorn1_UDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -5148,7 +5148,7 @@
 	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="DescriptionKey" value="plantedCorn1_UFDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -5202,7 +5202,7 @@
 	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="DescriptionKey" value="plantedCorn1_UEDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -5256,7 +5256,7 @@
 	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="DescriptionKey" value="plantedCorn1_URDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -5310,7 +5310,7 @@
 	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="DescriptionKey" value="plantedCorn1_UTDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -5364,7 +5364,7 @@
 	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="DescriptionKey" value="plantedCorn1_FDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -5418,7 +5418,7 @@
 	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="DescriptionKey" value="plantedCorn1_FFDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -5472,7 +5472,7 @@
 	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="DescriptionKey" value="plantedCorn1_FEDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -5526,7 +5526,7 @@
 	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="DescriptionKey" value="plantedCorn1_FRDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -5580,7 +5580,7 @@
 	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="DescriptionKey" value="plantedCorn1_FTDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -5634,7 +5634,7 @@
 	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="DescriptionKey" value="plantedCorn1_EDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -5688,7 +5688,7 @@
 	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="DescriptionKey" value="plantedCorn1_EEDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -5742,7 +5742,7 @@
 	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="DescriptionKey" value="plantedCorn1_ETDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -5796,7 +5796,7 @@
 	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="DescriptionKey" value="plantedCorn1_RDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -5850,7 +5850,7 @@
 	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="DescriptionKey" value="plantedCorn1_RTDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -5904,7 +5904,7 @@
 	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="DescriptionKey" value="plantedCorn1_TDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -5958,7 +5958,7 @@
 	<property name="CustomIcon" value="plantedCorn1"/>
 	<property name="DescriptionKey" value="plantedCorn1_TTDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -6012,7 +6012,7 @@
 	<property name="CustomIcon" value="plantedCotton1"/>
 	<property name="DescriptionKey" value="plantedCotton1_Desc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="Food/Cooking"/>
+	<property name="Group" value="SeedEnhancements"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedCotton2_"/>
 	<property name="Texture" value="392"/>
@@ -6059,7 +6059,7 @@
 	<property name="CustomIcon" value="plantedCotton1"/>
 	<property name="DescriptionKey" value="plantedCotton1_BDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedCotton2_B"/>
 	<property name="Texture" value="392"/>
@@ -6106,7 +6106,7 @@
 	<property name="CustomIcon" value="plantedCotton1"/>
 	<property name="DescriptionKey" value="plantedCotton1_BBDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedCotton2_BB"/>
 	<property name="Texture" value="392"/>
@@ -6153,7 +6153,7 @@
 	<property name="CustomIcon" value="plantedCotton1"/>
 	<property name="DescriptionKey" value="plantedCotton1_BUDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedCotton2_BU"/>
 	<property name="Texture" value="392"/>
@@ -6200,7 +6200,7 @@
 	<property name="CustomIcon" value="plantedCotton1"/>
 	<property name="DescriptionKey" value="plantedCotton1_BFDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedCotton2_BF"/>
 	<property name="Texture" value="392"/>
@@ -6247,7 +6247,7 @@
 	<property name="CustomIcon" value="plantedCotton1"/>
 	<property name="DescriptionKey" value="plantedCotton1_BRDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedCotton2_BR"/>
 	<property name="Texture" value="392"/>
@@ -6294,7 +6294,7 @@
 	<property name="CustomIcon" value="plantedCotton1"/>
 	<property name="DescriptionKey" value="plantedCotton1_BTDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedCotton2_BT"/>
 	<property name="Texture" value="392"/>
@@ -6341,7 +6341,7 @@
 	<property name="CustomIcon" value="plantedCotton1"/>
 	<property name="DescriptionKey" value="plantedCotton1_UDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedCotton2_U"/>
 	<property name="Texture" value="392"/>
@@ -6388,7 +6388,7 @@
 	<property name="CustomIcon" value="plantedCotton1"/>
 	<property name="DescriptionKey" value="plantedCotton1_UFDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedCotton2_UF"/>
 	<property name="Texture" value="392"/>
@@ -6435,7 +6435,7 @@
 	<property name="CustomIcon" value="plantedCotton1"/>
 	<property name="DescriptionKey" value="plantedCotton1_UEDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedCotton2_UE"/>
 	<property name="Texture" value="392"/>
@@ -6482,7 +6482,7 @@
 	<property name="CustomIcon" value="plantedCotton1"/>
 	<property name="DescriptionKey" value="plantedCotton1_URDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedCotton2_UR"/>
 	<property name="Texture" value="392"/>
@@ -6529,7 +6529,7 @@
 	<property name="CustomIcon" value="plantedCotton1"/>
 	<property name="DescriptionKey" value="plantedCotton1_UTDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedCotton2_UT"/>
 	<property name="Texture" value="392"/>
@@ -6576,7 +6576,7 @@
 	<property name="CustomIcon" value="plantedCotton1"/>
 	<property name="DescriptionKey" value="plantedCotton1_FDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedCotton2_F"/>
 	<property name="Texture" value="392"/>
@@ -6623,7 +6623,7 @@
 	<property name="CustomIcon" value="plantedCotton1"/>
 	<property name="DescriptionKey" value="plantedCotton1_FFDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedCotton2_FF"/>
 	<property name="Texture" value="392"/>
@@ -6670,7 +6670,7 @@
 	<property name="CustomIcon" value="plantedCotton1"/>
 	<property name="DescriptionKey" value="plantedCotton1_FEDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedCotton2_FE"/>
 	<property name="Texture" value="392"/>
@@ -6717,7 +6717,7 @@
 	<property name="CustomIcon" value="plantedCotton1"/>
 	<property name="DescriptionKey" value="plantedCotton1_FRDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedCotton2_FR"/>
 	<property name="Texture" value="392"/>
@@ -6764,7 +6764,7 @@
 	<property name="CustomIcon" value="plantedCotton1"/>
 	<property name="DescriptionKey" value="plantedCotton1_FTDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedCotton2_FT"/>
 	<property name="Texture" value="392"/>
@@ -6811,7 +6811,7 @@
 	<property name="CustomIcon" value="plantedCotton1"/>
 	<property name="DescriptionKey" value="plantedCotton1_EDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedCotton2_E"/>
 	<property name="Texture" value="392"/>
@@ -6858,7 +6858,7 @@
 	<property name="CustomIcon" value="plantedCotton1"/>
 	<property name="DescriptionKey" value="plantedCotton1_EEDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedCotton2_EE"/>
 	<property name="Texture" value="392"/>
@@ -6905,7 +6905,7 @@
 	<property name="CustomIcon" value="plantedCotton1"/>
 	<property name="DescriptionKey" value="plantedCotton1_ETDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedCotton2_ET"/>
 	<property name="Texture" value="392"/>
@@ -6952,7 +6952,7 @@
 	<property name="CustomIcon" value="plantedCotton1"/>
 	<property name="DescriptionKey" value="plantedCotton1_RDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedCotton2_R"/>
 	<property name="Texture" value="392"/>
@@ -6999,7 +6999,7 @@
 	<property name="CustomIcon" value="plantedCotton1"/>
 	<property name="DescriptionKey" value="plantedCotton1_RTDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedCotton2_RT"/>
 	<property name="Texture" value="392"/>
@@ -7046,7 +7046,7 @@
 	<property name="CustomIcon" value="plantedCotton1"/>
 	<property name="DescriptionKey" value="plantedCotton1_TDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedCotton2_T"/>
 	<property name="Texture" value="392"/>
@@ -7093,7 +7093,7 @@
 	<property name="CustomIcon" value="plantedCotton1"/>
 	<property name="DescriptionKey" value="plantedCotton1_TTDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedCotton2_TT"/>
 	<property name="Texture" value="392"/>
@@ -7140,7 +7140,7 @@
 	<property name="CustomIcon" value="plantedGoldenrod1"/>
 	<property name="DescriptionKey" value="plantedGoldenrod1_Desc"/>
 	<property name="Extends" value="cropsGrowingMaster"/>
-	<property name="Group" value="Food/Cooking"/>
+	<property name="Group" value="SeedEnhancements"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedGoldenrod2_"/>
 	<property name="Texture" value="401"/>
@@ -7187,7 +7187,7 @@
 	<property name="CustomIcon" value="plantedGoldenrod1"/>
 	<property name="DescriptionKey" value="plantedGoldenrod1_BDesc"/>
 	<property name="Extends" value="cropsGrowingMaster"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedGoldenrod2_B"/>
 	<property name="Texture" value="401"/>
@@ -7234,7 +7234,7 @@
 	<property name="CustomIcon" value="plantedGoldenrod1"/>
 	<property name="DescriptionKey" value="plantedGoldenrod1_BBDesc"/>
 	<property name="Extends" value="cropsGrowingMaster"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedGoldenrod2_BB"/>
 	<property name="Texture" value="401"/>
@@ -7281,7 +7281,7 @@
 	<property name="CustomIcon" value="plantedGoldenrod1"/>
 	<property name="DescriptionKey" value="plantedGoldenrod1_BUDesc"/>
 	<property name="Extends" value="cropsGrowingMaster"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedGoldenrod2_BU"/>
 	<property name="Texture" value="401"/>
@@ -7328,7 +7328,7 @@
 	<property name="CustomIcon" value="plantedGoldenrod1"/>
 	<property name="DescriptionKey" value="plantedGoldenrod1_BFDesc"/>
 	<property name="Extends" value="cropsGrowingMaster"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedGoldenrod2_BF"/>
 	<property name="Texture" value="401"/>
@@ -7375,7 +7375,7 @@
 	<property name="CustomIcon" value="plantedGoldenrod1"/>
 	<property name="DescriptionKey" value="plantedGoldenrod1_BRDesc"/>
 	<property name="Extends" value="cropsGrowingMaster"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedGoldenrod2_BR"/>
 	<property name="Texture" value="401"/>
@@ -7422,7 +7422,7 @@
 	<property name="CustomIcon" value="plantedGoldenrod1"/>
 	<property name="DescriptionKey" value="plantedGoldenrod1_BTDesc"/>
 	<property name="Extends" value="cropsGrowingMaster"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedGoldenrod2_BT"/>
 	<property name="Texture" value="401"/>
@@ -7469,7 +7469,7 @@
 	<property name="CustomIcon" value="plantedGoldenrod1"/>
 	<property name="DescriptionKey" value="plantedGoldenrod1_UDesc"/>
 	<property name="Extends" value="cropsGrowingMaster"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedGoldenrod2_U"/>
 	<property name="Texture" value="401"/>
@@ -7516,7 +7516,7 @@
 	<property name="CustomIcon" value="plantedGoldenrod1"/>
 	<property name="DescriptionKey" value="plantedGoldenrod1_UFDesc"/>
 	<property name="Extends" value="cropsGrowingMaster"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedGoldenrod2_UF"/>
 	<property name="Texture" value="401"/>
@@ -7563,7 +7563,7 @@
 	<property name="CustomIcon" value="plantedGoldenrod1"/>
 	<property name="DescriptionKey" value="plantedGoldenrod1_UEDesc"/>
 	<property name="Extends" value="cropsGrowingMaster"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedGoldenrod2_UE"/>
 	<property name="Texture" value="401"/>
@@ -7610,7 +7610,7 @@
 	<property name="CustomIcon" value="plantedGoldenrod1"/>
 	<property name="DescriptionKey" value="plantedGoldenrod1_URDesc"/>
 	<property name="Extends" value="cropsGrowingMaster"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedGoldenrod2_UR"/>
 	<property name="Texture" value="401"/>
@@ -7657,7 +7657,7 @@
 	<property name="CustomIcon" value="plantedGoldenrod1"/>
 	<property name="DescriptionKey" value="plantedGoldenrod1_UTDesc"/>
 	<property name="Extends" value="cropsGrowingMaster"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedGoldenrod2_UT"/>
 	<property name="Texture" value="401"/>
@@ -7704,7 +7704,7 @@
 	<property name="CustomIcon" value="plantedGoldenrod1"/>
 	<property name="DescriptionKey" value="plantedGoldenrod1_FDesc"/>
 	<property name="Extends" value="cropsGrowingMaster"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedGoldenrod2_F"/>
 	<property name="Texture" value="401"/>
@@ -7751,7 +7751,7 @@
 	<property name="CustomIcon" value="plantedGoldenrod1"/>
 	<property name="DescriptionKey" value="plantedGoldenrod1_FFDesc"/>
 	<property name="Extends" value="cropsGrowingMaster"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedGoldenrod2_FF"/>
 	<property name="Texture" value="401"/>
@@ -7798,7 +7798,7 @@
 	<property name="CustomIcon" value="plantedGoldenrod1"/>
 	<property name="DescriptionKey" value="plantedGoldenrod1_FEDesc"/>
 	<property name="Extends" value="cropsGrowingMaster"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedGoldenrod2_FE"/>
 	<property name="Texture" value="401"/>
@@ -7845,7 +7845,7 @@
 	<property name="CustomIcon" value="plantedGoldenrod1"/>
 	<property name="DescriptionKey" value="plantedGoldenrod1_FRDesc"/>
 	<property name="Extends" value="cropsGrowingMaster"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedGoldenrod2_FR"/>
 	<property name="Texture" value="401"/>
@@ -7892,7 +7892,7 @@
 	<property name="CustomIcon" value="plantedGoldenrod1"/>
 	<property name="DescriptionKey" value="plantedGoldenrod1_FTDesc"/>
 	<property name="Extends" value="cropsGrowingMaster"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedGoldenrod2_FT"/>
 	<property name="Texture" value="401"/>
@@ -7939,7 +7939,7 @@
 	<property name="CustomIcon" value="plantedGoldenrod1"/>
 	<property name="DescriptionKey" value="plantedGoldenrod1_EDesc"/>
 	<property name="Extends" value="cropsGrowingMaster"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedGoldenrod2_E"/>
 	<property name="Texture" value="401"/>
@@ -7986,7 +7986,7 @@
 	<property name="CustomIcon" value="plantedGoldenrod1"/>
 	<property name="DescriptionKey" value="plantedGoldenrod1_EEDesc"/>
 	<property name="Extends" value="cropsGrowingMaster"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedGoldenrod2_EE"/>
 	<property name="Texture" value="401"/>
@@ -8033,7 +8033,7 @@
 	<property name="CustomIcon" value="plantedGoldenrod1"/>
 	<property name="DescriptionKey" value="plantedGoldenrod1_ETDesc"/>
 	<property name="Extends" value="cropsGrowingMaster"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedGoldenrod2_ET"/>
 	<property name="Texture" value="401"/>
@@ -8080,7 +8080,7 @@
 	<property name="CustomIcon" value="plantedGoldenrod1"/>
 	<property name="DescriptionKey" value="plantedGoldenrod1_RDesc"/>
 	<property name="Extends" value="cropsGrowingMaster"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedGoldenrod2_R"/>
 	<property name="Texture" value="401"/>
@@ -8127,7 +8127,7 @@
 	<property name="CustomIcon" value="plantedGoldenrod1"/>
 	<property name="DescriptionKey" value="plantedGoldenrod1_RTDesc"/>
 	<property name="Extends" value="cropsGrowingMaster"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedGoldenrod2_RT"/>
 	<property name="Texture" value="401"/>
@@ -8174,7 +8174,7 @@
 	<property name="CustomIcon" value="plantedGoldenrod1"/>
 	<property name="DescriptionKey" value="plantedGoldenrod1_TDesc"/>
 	<property name="Extends" value="cropsGrowingMaster"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedGoldenrod2_T"/>
 	<property name="Texture" value="401"/>
@@ -8221,7 +8221,7 @@
 	<property name="CustomIcon" value="plantedGoldenrod1"/>
 	<property name="DescriptionKey" value="plantedGoldenrod1_TTDesc"/>
 	<property name="Extends" value="cropsGrowingMaster"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedGoldenrod2_TT"/>
 	<property name="Texture" value="401"/>
@@ -8269,7 +8269,7 @@
 	<property name="CustomIconTint" value="ff9f9f"/>
 	<property name="DescriptionKey" value="plantedGraceCorn1_Desc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="Food/Cooking"/>
+	<property name="Group" value="SeedEnhancements"/>
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -8323,7 +8323,7 @@
 	<property name="CustomIconTint" value="ff9f9f"/>
 	<property name="DescriptionKey" value="plantedGraceCorn1_BDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -8377,7 +8377,7 @@
 	<property name="CustomIconTint" value="ff9f9f"/>
 	<property name="DescriptionKey" value="plantedGraceCorn1_BBDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -8431,7 +8431,7 @@
 	<property name="CustomIconTint" value="ff9f9f"/>
 	<property name="DescriptionKey" value="plantedGraceCorn1_BUDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -8485,7 +8485,7 @@
 	<property name="CustomIconTint" value="ff9f9f"/>
 	<property name="DescriptionKey" value="plantedGraceCorn1_BFDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -8539,7 +8539,7 @@
 	<property name="CustomIconTint" value="ff9f9f"/>
 	<property name="DescriptionKey" value="plantedGraceCorn1_BRDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -8593,7 +8593,7 @@
 	<property name="CustomIconTint" value="ff9f9f"/>
 	<property name="DescriptionKey" value="plantedGraceCorn1_BTDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -8647,7 +8647,7 @@
 	<property name="CustomIconTint" value="ff9f9f"/>
 	<property name="DescriptionKey" value="plantedGraceCorn1_UDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -8701,7 +8701,7 @@
 	<property name="CustomIconTint" value="ff9f9f"/>
 	<property name="DescriptionKey" value="plantedGraceCorn1_UFDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -8755,7 +8755,7 @@
 	<property name="CustomIconTint" value="ff9f9f"/>
 	<property name="DescriptionKey" value="plantedGraceCorn1_UEDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -8809,7 +8809,7 @@
 	<property name="CustomIconTint" value="ff9f9f"/>
 	<property name="DescriptionKey" value="plantedGraceCorn1_URDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -8863,7 +8863,7 @@
 	<property name="CustomIconTint" value="ff9f9f"/>
 	<property name="DescriptionKey" value="plantedGraceCorn1_UTDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -8917,7 +8917,7 @@
 	<property name="CustomIconTint" value="ff9f9f"/>
 	<property name="DescriptionKey" value="plantedGraceCorn1_FDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -8971,7 +8971,7 @@
 	<property name="CustomIconTint" value="ff9f9f"/>
 	<property name="DescriptionKey" value="plantedGraceCorn1_FFDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -9025,7 +9025,7 @@
 	<property name="CustomIconTint" value="ff9f9f"/>
 	<property name="DescriptionKey" value="plantedGraceCorn1_FEDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -9079,7 +9079,7 @@
 	<property name="CustomIconTint" value="ff9f9f"/>
 	<property name="DescriptionKey" value="plantedGraceCorn1_FRDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -9133,7 +9133,7 @@
 	<property name="CustomIconTint" value="ff9f9f"/>
 	<property name="DescriptionKey" value="plantedGraceCorn1_FTDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -9187,7 +9187,7 @@
 	<property name="CustomIconTint" value="ff9f9f"/>
 	<property name="DescriptionKey" value="plantedGraceCorn1_EDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -9241,7 +9241,7 @@
 	<property name="CustomIconTint" value="ff9f9f"/>
 	<property name="DescriptionKey" value="plantedGraceCorn1_EEDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -9295,7 +9295,7 @@
 	<property name="CustomIconTint" value="ff9f9f"/>
 	<property name="DescriptionKey" value="plantedGraceCorn1_ETDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -9349,7 +9349,7 @@
 	<property name="CustomIconTint" value="ff9f9f"/>
 	<property name="DescriptionKey" value="plantedGraceCorn1_RDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -9403,7 +9403,7 @@
 	<property name="CustomIconTint" value="ff9f9f"/>
 	<property name="DescriptionKey" value="plantedGraceCorn1_RTDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -9457,7 +9457,7 @@
 	<property name="CustomIconTint" value="ff9f9f"/>
 	<property name="DescriptionKey" value="plantedGraceCorn1_TDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -9511,7 +9511,7 @@
 	<property name="CustomIconTint" value="ff9f9f"/>
 	<property name="DescriptionKey" value="plantedGraceCorn1_TTDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/> <!-- mostly for the particle effect -->
 	<property name="Mesh" value="cutoutmoveable"/>
 	<property name="Model" value="corn_sprout_shape"/>
@@ -9564,7 +9564,7 @@
 	<property name="CustomIcon" value="plantedHop1"/>
 	<property name="DescriptionKey" value="plantedHop1_Desc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="Food/Cooking"/>
+	<property name="Group" value="SeedEnhancements"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedHop2_"/>
 	<property name="Texture" value="447"/>
@@ -9612,7 +9612,7 @@
 	<property name="CustomIcon" value="plantedHop1"/>
 	<property name="DescriptionKey" value="plantedHop1_BDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedHop2_B"/>
 	<property name="Texture" value="447"/>
@@ -9660,7 +9660,7 @@
 	<property name="CustomIcon" value="plantedHop1"/>
 	<property name="DescriptionKey" value="plantedHop1_BBDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedHop2_BB"/>
 	<property name="Texture" value="447"/>
@@ -9708,7 +9708,7 @@
 	<property name="CustomIcon" value="plantedHop1"/>
 	<property name="DescriptionKey" value="plantedHop1_BUDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedHop2_BU"/>
 	<property name="Texture" value="447"/>
@@ -9756,7 +9756,7 @@
 	<property name="CustomIcon" value="plantedHop1"/>
 	<property name="DescriptionKey" value="plantedHop1_BFDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedHop2_BF"/>
 	<property name="Texture" value="447"/>
@@ -9804,7 +9804,7 @@
 	<property name="CustomIcon" value="plantedHop1"/>
 	<property name="DescriptionKey" value="plantedHop1_BRDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedHop2_BR"/>
 	<property name="Texture" value="447"/>
@@ -9852,7 +9852,7 @@
 	<property name="CustomIcon" value="plantedHop1"/>
 	<property name="DescriptionKey" value="plantedHop1_BTDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedHop2_BT"/>
 	<property name="Texture" value="447"/>
@@ -9900,7 +9900,7 @@
 	<property name="CustomIcon" value="plantedHop1"/>
 	<property name="DescriptionKey" value="plantedHop1_UDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedHop2_U"/>
 	<property name="Texture" value="447"/>
@@ -9948,7 +9948,7 @@
 	<property name="CustomIcon" value="plantedHop1"/>
 	<property name="DescriptionKey" value="plantedHop1_UFDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedHop2_UF"/>
 	<property name="Texture" value="447"/>
@@ -9996,7 +9996,7 @@
 	<property name="CustomIcon" value="plantedHop1"/>
 	<property name="DescriptionKey" value="plantedHop1_UEDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedHop2_UE"/>
 	<property name="Texture" value="447"/>
@@ -10044,7 +10044,7 @@
 	<property name="CustomIcon" value="plantedHop1"/>
 	<property name="DescriptionKey" value="plantedHop1_URDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedHop2_UR"/>
 	<property name="Texture" value="447"/>
@@ -10092,7 +10092,7 @@
 	<property name="CustomIcon" value="plantedHop1"/>
 	<property name="DescriptionKey" value="plantedHop1_UTDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedHop2_UT"/>
 	<property name="Texture" value="447"/>
@@ -10140,7 +10140,7 @@
 	<property name="CustomIcon" value="plantedHop1"/>
 	<property name="DescriptionKey" value="plantedHop1_FDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedHop2_F"/>
 	<property name="Texture" value="447"/>
@@ -10188,7 +10188,7 @@
 	<property name="CustomIcon" value="plantedHop1"/>
 	<property name="DescriptionKey" value="plantedHop1_FFDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedHop2_FF"/>
 	<property name="Texture" value="447"/>
@@ -10236,7 +10236,7 @@
 	<property name="CustomIcon" value="plantedHop1"/>
 	<property name="DescriptionKey" value="plantedHop1_FEDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedHop2_FE"/>
 	<property name="Texture" value="447"/>
@@ -10284,7 +10284,7 @@
 	<property name="CustomIcon" value="plantedHop1"/>
 	<property name="DescriptionKey" value="plantedHop1_FRDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedHop2_FR"/>
 	<property name="Texture" value="447"/>
@@ -10332,7 +10332,7 @@
 	<property name="CustomIcon" value="plantedHop1"/>
 	<property name="DescriptionKey" value="plantedHop1_FTDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedHop2_FT"/>
 	<property name="Texture" value="447"/>
@@ -10380,7 +10380,7 @@
 	<property name="CustomIcon" value="plantedHop1"/>
 	<property name="DescriptionKey" value="plantedHop1_EDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedHop2_E"/>
 	<property name="Texture" value="447"/>
@@ -10428,7 +10428,7 @@
 	<property name="CustomIcon" value="plantedHop1"/>
 	<property name="DescriptionKey" value="plantedHop1_EEDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedHop2_EE"/>
 	<property name="Texture" value="447"/>
@@ -10476,7 +10476,7 @@
 	<property name="CustomIcon" value="plantedHop1"/>
 	<property name="DescriptionKey" value="plantedHop1_ETDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedHop2_ET"/>
 	<property name="Texture" value="447"/>
@@ -10524,7 +10524,7 @@
 	<property name="CustomIcon" value="plantedHop1"/>
 	<property name="DescriptionKey" value="plantedHop1_RDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedHop2_R"/>
 	<property name="Texture" value="447"/>
@@ -10572,7 +10572,7 @@
 	<property name="CustomIcon" value="plantedHop1"/>
 	<property name="DescriptionKey" value="plantedHop1_RTDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedHop2_RT"/>
 	<property name="Texture" value="447"/>
@@ -10620,7 +10620,7 @@
 	<property name="CustomIcon" value="plantedHop1"/>
 	<property name="DescriptionKey" value="plantedHop1_TDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedHop2_T"/>
 	<property name="Texture" value="447"/>
@@ -10668,7 +10668,7 @@
 	<property name="CustomIcon" value="plantedHop1"/>
 	<property name="DescriptionKey" value="plantedHop1_TTDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedHop2_TT"/>
 	<property name="Texture" value="447"/>
@@ -10720,7 +10720,7 @@
 	<property name="EconomicBundleSize" value="5"/>
 	<property name="EconomicValue" value="12"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
-	<property name="Group" value="Food/Cooking"/>
+	<property name="Group" value="SeedEnhancements"/>
 	<property name="HandleFace" value="Bottom"/>
 	<property name="HarvestOverdamage" value="false"/>
 	<property name="LightOpacity" value="0"/>
@@ -10779,7 +10779,7 @@
 	<property name="EconomicBundleSize" value="5"/>
 	<property name="EconomicValue" value="12"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="HandleFace" value="Bottom"/>
 	<property name="HarvestOverdamage" value="false"/>
 	<property name="LightOpacity" value="0"/>
@@ -10838,7 +10838,7 @@
 	<property name="EconomicBundleSize" value="5"/>
 	<property name="EconomicValue" value="12"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="HandleFace" value="Bottom"/>
 	<property name="HarvestOverdamage" value="false"/>
 	<property name="LightOpacity" value="0"/>
@@ -10897,7 +10897,7 @@
 	<property name="EconomicBundleSize" value="5"/>
 	<property name="EconomicValue" value="12"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="HandleFace" value="Bottom"/>
 	<property name="HarvestOverdamage" value="false"/>
 	<property name="LightOpacity" value="0"/>
@@ -10956,7 +10956,7 @@
 	<property name="EconomicBundleSize" value="5"/>
 	<property name="EconomicValue" value="12"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="HandleFace" value="Bottom"/>
 	<property name="HarvestOverdamage" value="false"/>
 	<property name="LightOpacity" value="0"/>
@@ -11015,7 +11015,7 @@
 	<property name="EconomicBundleSize" value="5"/>
 	<property name="EconomicValue" value="12"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="HandleFace" value="Bottom"/>
 	<property name="HarvestOverdamage" value="false"/>
 	<property name="LightOpacity" value="0"/>
@@ -11074,7 +11074,7 @@
 	<property name="EconomicBundleSize" value="5"/>
 	<property name="EconomicValue" value="12"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="HandleFace" value="Bottom"/>
 	<property name="HarvestOverdamage" value="false"/>
 	<property name="LightOpacity" value="0"/>
@@ -11133,7 +11133,7 @@
 	<property name="EconomicBundleSize" value="5"/>
 	<property name="EconomicValue" value="12"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="HandleFace" value="Bottom"/>
 	<property name="HarvestOverdamage" value="false"/>
 	<property name="LightOpacity" value="0"/>
@@ -11192,7 +11192,7 @@
 	<property name="EconomicBundleSize" value="5"/>
 	<property name="EconomicValue" value="12"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="HandleFace" value="Bottom"/>
 	<property name="HarvestOverdamage" value="false"/>
 	<property name="LightOpacity" value="0"/>
@@ -11251,7 +11251,7 @@
 	<property name="EconomicBundleSize" value="5"/>
 	<property name="EconomicValue" value="12"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="HandleFace" value="Bottom"/>
 	<property name="HarvestOverdamage" value="false"/>
 	<property name="LightOpacity" value="0"/>
@@ -11310,7 +11310,7 @@
 	<property name="EconomicBundleSize" value="5"/>
 	<property name="EconomicValue" value="12"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="HandleFace" value="Bottom"/>
 	<property name="HarvestOverdamage" value="false"/>
 	<property name="LightOpacity" value="0"/>
@@ -11369,7 +11369,7 @@
 	<property name="EconomicBundleSize" value="5"/>
 	<property name="EconomicValue" value="12"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="HandleFace" value="Bottom"/>
 	<property name="HarvestOverdamage" value="false"/>
 	<property name="LightOpacity" value="0"/>
@@ -11428,7 +11428,7 @@
 	<property name="EconomicBundleSize" value="5"/>
 	<property name="EconomicValue" value="12"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="HandleFace" value="Bottom"/>
 	<property name="HarvestOverdamage" value="false"/>
 	<property name="LightOpacity" value="0"/>
@@ -11487,7 +11487,7 @@
 	<property name="EconomicBundleSize" value="5"/>
 	<property name="EconomicValue" value="12"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="HandleFace" value="Bottom"/>
 	<property name="HarvestOverdamage" value="false"/>
 	<property name="LightOpacity" value="0"/>
@@ -11546,7 +11546,7 @@
 	<property name="EconomicBundleSize" value="5"/>
 	<property name="EconomicValue" value="12"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="HandleFace" value="Bottom"/>
 	<property name="HarvestOverdamage" value="false"/>
 	<property name="LightOpacity" value="0"/>
@@ -11605,7 +11605,7 @@
 	<property name="EconomicBundleSize" value="5"/>
 	<property name="EconomicValue" value="12"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="HandleFace" value="Bottom"/>
 	<property name="HarvestOverdamage" value="false"/>
 	<property name="LightOpacity" value="0"/>
@@ -11664,7 +11664,7 @@
 	<property name="EconomicBundleSize" value="5"/>
 	<property name="EconomicValue" value="12"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="HandleFace" value="Bottom"/>
 	<property name="HarvestOverdamage" value="false"/>
 	<property name="LightOpacity" value="0"/>
@@ -11723,7 +11723,7 @@
 	<property name="EconomicBundleSize" value="5"/>
 	<property name="EconomicValue" value="12"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="HandleFace" value="Bottom"/>
 	<property name="HarvestOverdamage" value="false"/>
 	<property name="LightOpacity" value="0"/>
@@ -11778,7 +11778,7 @@
 	<property name="CustomIcon" value="plantedPotato1"/>
 	<property name="DescriptionKey" value="plantedPotato1_Desc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="Food/Cooking"/>
+	<property name="Group" value="SeedEnhancements"/>
 	<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedPotato2_"/>
@@ -11828,7 +11828,7 @@
 	<property name="CustomIcon" value="plantedPotato1"/>
 	<property name="DescriptionKey" value="plantedPotato1_BDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedPotato2_B"/>
@@ -11878,7 +11878,7 @@
 	<property name="CustomIcon" value="plantedPotato1"/>
 	<property name="DescriptionKey" value="plantedPotato1_BBDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedPotato2_BB"/>
@@ -11928,7 +11928,7 @@
 	<property name="CustomIcon" value="plantedPotato1"/>
 	<property name="DescriptionKey" value="plantedPotato1_BUDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedPotato2_BU"/>
@@ -11978,7 +11978,7 @@
 	<property name="CustomIcon" value="plantedPotato1"/>
 	<property name="DescriptionKey" value="plantedPotato1_BFDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedPotato2_BF"/>
@@ -12028,7 +12028,7 @@
 	<property name="CustomIcon" value="plantedPotato1"/>
 	<property name="DescriptionKey" value="plantedPotato1_BRDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedPotato2_BR"/>
@@ -12078,7 +12078,7 @@
 	<property name="CustomIcon" value="plantedPotato1"/>
 	<property name="DescriptionKey" value="plantedPotato1_BTDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedPotato2_BT"/>
@@ -12128,7 +12128,7 @@
 	<property name="CustomIcon" value="plantedPotato1"/>
 	<property name="DescriptionKey" value="plantedPotato1_UDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedPotato2_U"/>
@@ -12178,7 +12178,7 @@
 	<property name="CustomIcon" value="plantedPotato1"/>
 	<property name="DescriptionKey" value="plantedPotato1_UFDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedPotato2_UF"/>
@@ -12228,7 +12228,7 @@
 	<property name="CustomIcon" value="plantedPotato1"/>
 	<property name="DescriptionKey" value="plantedPotato1_UEDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedPotato2_UE"/>
@@ -12278,7 +12278,7 @@
 	<property name="CustomIcon" value="plantedPotato1"/>
 	<property name="DescriptionKey" value="plantedPotato1_URDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedPotato2_UR"/>
@@ -12328,7 +12328,7 @@
 	<property name="CustomIcon" value="plantedPotato1"/>
 	<property name="DescriptionKey" value="plantedPotato1_UTDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedPotato2_UT"/>
@@ -12378,7 +12378,7 @@
 	<property name="CustomIcon" value="plantedPotato1"/>
 	<property name="DescriptionKey" value="plantedPotato1_FDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedPotato2_F"/>
@@ -12428,7 +12428,7 @@
 	<property name="CustomIcon" value="plantedPotato1"/>
 	<property name="DescriptionKey" value="plantedPotato1_FFDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedPotato2_FF"/>
@@ -12478,7 +12478,7 @@
 	<property name="CustomIcon" value="plantedPotato1"/>
 	<property name="DescriptionKey" value="plantedPotato1_FEDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedPotato2_FE"/>
@@ -12528,7 +12528,7 @@
 	<property name="CustomIcon" value="plantedPotato1"/>
 	<property name="DescriptionKey" value="plantedPotato1_FRDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedPotato2_FR"/>
@@ -12578,7 +12578,7 @@
 	<property name="CustomIcon" value="plantedPotato1"/>
 	<property name="DescriptionKey" value="plantedPotato1_FTDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedPotato2_FT"/>
@@ -12628,7 +12628,7 @@
 	<property name="CustomIcon" value="plantedPotato1"/>
 	<property name="DescriptionKey" value="plantedPotato1_EDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedPotato2_E"/>
@@ -12678,7 +12678,7 @@
 	<property name="CustomIcon" value="plantedPotato1"/>
 	<property name="DescriptionKey" value="plantedPotato1_EEDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedPotato2_EE"/>
@@ -12728,7 +12728,7 @@
 	<property name="CustomIcon" value="plantedPotato1"/>
 	<property name="DescriptionKey" value="plantedPotato1_ETDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedPotato2_ET"/>
@@ -12778,7 +12778,7 @@
 	<property name="CustomIcon" value="plantedPotato1"/>
 	<property name="DescriptionKey" value="plantedPotato1_RDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedPotato2_R"/>
@@ -12828,7 +12828,7 @@
 	<property name="CustomIcon" value="plantedPotato1"/>
 	<property name="DescriptionKey" value="plantedPotato1_RTDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedPotato2_RT"/>
@@ -12878,7 +12878,7 @@
 	<property name="CustomIcon" value="plantedPotato1"/>
 	<property name="DescriptionKey" value="plantedPotato1_TDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedPotato2_T"/>
@@ -12928,7 +12928,7 @@
 	<property name="CustomIcon" value="plantedPotato1"/>
 	<property name="DescriptionKey" value="plantedPotato1_TTDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedPotato2_TT"/>
@@ -12978,7 +12978,7 @@
 	<property name="CustomIcon" value="plantedPumpkin1"/>
 	<property name="DescriptionKey" value="plantedPumpkin1_Desc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="Food/Cooking"/>
+	<property name="Group" value="SeedEnhancements"/>
 	<property name="Material" value="Mcorn"/>
 	<property name="Model" value="Entities/Plants/pumpkinSproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
@@ -13031,7 +13031,7 @@
 	<property name="CustomIcon" value="plantedPumpkin1"/>
 	<property name="DescriptionKey" value="plantedPumpkin1_BDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/>
 	<property name="Model" value="Entities/Plants/pumpkinSproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
@@ -13084,7 +13084,7 @@
 	<property name="CustomIcon" value="plantedPumpkin1"/>
 	<property name="DescriptionKey" value="plantedPumpkin1_BBDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/>
 	<property name="Model" value="Entities/Plants/pumpkinSproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
@@ -13137,7 +13137,7 @@
 	<property name="CustomIcon" value="plantedPumpkin1"/>
 	<property name="DescriptionKey" value="plantedPumpkin1_BUDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/>
 	<property name="Model" value="Entities/Plants/pumpkinSproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
@@ -13190,7 +13190,7 @@
 	<property name="CustomIcon" value="plantedPumpkin1"/>
 	<property name="DescriptionKey" value="plantedPumpkin1_BFDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/>
 	<property name="Model" value="Entities/Plants/pumpkinSproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
@@ -13243,7 +13243,7 @@
 	<property name="CustomIcon" value="plantedPumpkin1"/>
 	<property name="DescriptionKey" value="plantedPumpkin1_BRDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/>
 	<property name="Model" value="Entities/Plants/pumpkinSproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
@@ -13296,7 +13296,7 @@
 	<property name="CustomIcon" value="plantedPumpkin1"/>
 	<property name="DescriptionKey" value="plantedPumpkin1_BTDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/>
 	<property name="Model" value="Entities/Plants/pumpkinSproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
@@ -13349,7 +13349,7 @@
 	<property name="CustomIcon" value="plantedPumpkin1"/>
 	<property name="DescriptionKey" value="plantedPumpkin1_UDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/>
 	<property name="Model" value="Entities/Plants/pumpkinSproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
@@ -13402,7 +13402,7 @@
 	<property name="CustomIcon" value="plantedPumpkin1"/>
 	<property name="DescriptionKey" value="plantedPumpkin1_UFDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/>
 	<property name="Model" value="Entities/Plants/pumpkinSproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
@@ -13455,7 +13455,7 @@
 	<property name="CustomIcon" value="plantedPumpkin1"/>
 	<property name="DescriptionKey" value="plantedPumpkin1_UEDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/>
 	<property name="Model" value="Entities/Plants/pumpkinSproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
@@ -13508,7 +13508,7 @@
 	<property name="CustomIcon" value="plantedPumpkin1"/>
 	<property name="DescriptionKey" value="plantedPumpkin1_URDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/>
 	<property name="Model" value="Entities/Plants/pumpkinSproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
@@ -13561,7 +13561,7 @@
 	<property name="CustomIcon" value="plantedPumpkin1"/>
 	<property name="DescriptionKey" value="plantedPumpkin1_UTDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/>
 	<property name="Model" value="Entities/Plants/pumpkinSproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
@@ -13614,7 +13614,7 @@
 	<property name="CustomIcon" value="plantedPumpkin1"/>
 	<property name="DescriptionKey" value="plantedPumpkin1_FDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/>
 	<property name="Model" value="Entities/Plants/pumpkinSproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
@@ -13667,7 +13667,7 @@
 	<property name="CustomIcon" value="plantedPumpkin1"/>
 	<property name="DescriptionKey" value="plantedPumpkin1_FFDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/>
 	<property name="Model" value="Entities/Plants/pumpkinSproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
@@ -13720,7 +13720,7 @@
 	<property name="CustomIcon" value="plantedPumpkin1"/>
 	<property name="DescriptionKey" value="plantedPumpkin1_FEDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/>
 	<property name="Model" value="Entities/Plants/pumpkinSproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
@@ -13773,7 +13773,7 @@
 	<property name="CustomIcon" value="plantedPumpkin1"/>
 	<property name="DescriptionKey" value="plantedPumpkin1_FRDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/>
 	<property name="Model" value="Entities/Plants/pumpkinSproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
@@ -13826,7 +13826,7 @@
 	<property name="CustomIcon" value="plantedPumpkin1"/>
 	<property name="DescriptionKey" value="plantedPumpkin1_FTDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/>
 	<property name="Model" value="Entities/Plants/pumpkinSproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
@@ -13879,7 +13879,7 @@
 	<property name="CustomIcon" value="plantedPumpkin1"/>
 	<property name="DescriptionKey" value="plantedPumpkin1_EDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/>
 	<property name="Model" value="Entities/Plants/pumpkinSproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
@@ -13932,7 +13932,7 @@
 	<property name="CustomIcon" value="plantedPumpkin1"/>
 	<property name="DescriptionKey" value="plantedPumpkin1_EEDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/>
 	<property name="Model" value="Entities/Plants/pumpkinSproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
@@ -13985,7 +13985,7 @@
 	<property name="CustomIcon" value="plantedPumpkin1"/>
 	<property name="DescriptionKey" value="plantedPumpkin1_ETDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/>
 	<property name="Model" value="Entities/Plants/pumpkinSproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
@@ -14038,7 +14038,7 @@
 	<property name="CustomIcon" value="plantedPumpkin1"/>
 	<property name="DescriptionKey" value="plantedPumpkin1_RDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/>
 	<property name="Model" value="Entities/Plants/pumpkinSproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
@@ -14091,7 +14091,7 @@
 	<property name="CustomIcon" value="plantedPumpkin1"/>
 	<property name="DescriptionKey" value="plantedPumpkin1_RTDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/>
 	<property name="Model" value="Entities/Plants/pumpkinSproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
@@ -14144,7 +14144,7 @@
 	<property name="CustomIcon" value="plantedPumpkin1"/>
 	<property name="DescriptionKey" value="plantedPumpkin1_TDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/>
 	<property name="Model" value="Entities/Plants/pumpkinSproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
@@ -14197,7 +14197,7 @@
 	<property name="CustomIcon" value="plantedPumpkin1"/>
 	<property name="DescriptionKey" value="plantedPumpkin1_TTDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/>
 	<property name="Model" value="Entities/Plants/pumpkinSproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
@@ -14250,7 +14250,7 @@
 	<property name="CustomIcon" value="plantedYucca1"/>
 	<property name="DescriptionKey" value="plantedYucca1_Desc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="Food/Cooking"/>
+	<property name="Group" value="SeedEnhancements"/>
 	<property name="Material" value="Mcorn"/>
 	<property name="Model" value="Entities/Plants/plant_yucca_sproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
@@ -14300,7 +14300,7 @@
 	<property name="CustomIcon" value="plantedYucca1"/>
 	<property name="DescriptionKey" value="plantedYucca1_BDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/>
 	<property name="Model" value="Entities/Plants/plant_yucca_sproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
@@ -14350,7 +14350,7 @@
 	<property name="CustomIcon" value="plantedYucca1"/>
 	<property name="DescriptionKey" value="plantedYucca1_BBDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/>
 	<property name="Model" value="Entities/Plants/plant_yucca_sproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
@@ -14400,7 +14400,7 @@
 	<property name="CustomIcon" value="plantedYucca1"/>
 	<property name="DescriptionKey" value="plantedYucca1_BUDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/>
 	<property name="Model" value="Entities/Plants/plant_yucca_sproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
@@ -14450,7 +14450,7 @@
 	<property name="CustomIcon" value="plantedYucca1"/>
 	<property name="DescriptionKey" value="plantedYucca1_BFDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/>
 	<property name="Model" value="Entities/Plants/plant_yucca_sproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
@@ -14500,7 +14500,7 @@
 	<property name="CustomIcon" value="plantedYucca1"/>
 	<property name="DescriptionKey" value="plantedYucca1_BRDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/>
 	<property name="Model" value="Entities/Plants/plant_yucca_sproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
@@ -14550,7 +14550,7 @@
 	<property name="CustomIcon" value="plantedYucca1"/>
 	<property name="DescriptionKey" value="plantedYucca1_BTDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/>
 	<property name="Model" value="Entities/Plants/plant_yucca_sproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
@@ -14600,7 +14600,7 @@
 	<property name="CustomIcon" value="plantedYucca1"/>
 	<property name="DescriptionKey" value="plantedYucca1_UDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/>
 	<property name="Model" value="Entities/Plants/plant_yucca_sproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
@@ -14650,7 +14650,7 @@
 	<property name="CustomIcon" value="plantedYucca1"/>
 	<property name="DescriptionKey" value="plantedYucca1_UFDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/>
 	<property name="Model" value="Entities/Plants/plant_yucca_sproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
@@ -14700,7 +14700,7 @@
 	<property name="CustomIcon" value="plantedYucca1"/>
 	<property name="DescriptionKey" value="plantedYucca1_UEDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/>
 	<property name="Model" value="Entities/Plants/plant_yucca_sproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
@@ -14750,7 +14750,7 @@
 	<property name="CustomIcon" value="plantedYucca1"/>
 	<property name="DescriptionKey" value="plantedYucca1_URDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/>
 	<property name="Model" value="Entities/Plants/plant_yucca_sproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
@@ -14800,7 +14800,7 @@
 	<property name="CustomIcon" value="plantedYucca1"/>
 	<property name="DescriptionKey" value="plantedYucca1_UTDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/>
 	<property name="Model" value="Entities/Plants/plant_yucca_sproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
@@ -14850,7 +14850,7 @@
 	<property name="CustomIcon" value="plantedYucca1"/>
 	<property name="DescriptionKey" value="plantedYucca1_FDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/>
 	<property name="Model" value="Entities/Plants/plant_yucca_sproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
@@ -14900,7 +14900,7 @@
 	<property name="CustomIcon" value="plantedYucca1"/>
 	<property name="DescriptionKey" value="plantedYucca1_FFDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/>
 	<property name="Model" value="Entities/Plants/plant_yucca_sproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
@@ -14950,7 +14950,7 @@
 	<property name="CustomIcon" value="plantedYucca1"/>
 	<property name="DescriptionKey" value="plantedYucca1_FEDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/>
 	<property name="Model" value="Entities/Plants/plant_yucca_sproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
@@ -15000,7 +15000,7 @@
 	<property name="CustomIcon" value="plantedYucca1"/>
 	<property name="DescriptionKey" value="plantedYucca1_FRDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/>
 	<property name="Model" value="Entities/Plants/plant_yucca_sproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
@@ -15050,7 +15050,7 @@
 	<property name="CustomIcon" value="plantedYucca1"/>
 	<property name="DescriptionKey" value="plantedYucca1_FTDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/>
 	<property name="Model" value="Entities/Plants/plant_yucca_sproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
@@ -15100,7 +15100,7 @@
 	<property name="CustomIcon" value="plantedYucca1"/>
 	<property name="DescriptionKey" value="plantedYucca1_EDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/>
 	<property name="Model" value="Entities/Plants/plant_yucca_sproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
@@ -15150,7 +15150,7 @@
 	<property name="CustomIcon" value="plantedYucca1"/>
 	<property name="DescriptionKey" value="plantedYucca1_EEDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/>
 	<property name="Model" value="Entities/Plants/plant_yucca_sproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
@@ -15200,7 +15200,7 @@
 	<property name="CustomIcon" value="plantedYucca1"/>
 	<property name="DescriptionKey" value="plantedYucca1_ETDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/>
 	<property name="Model" value="Entities/Plants/plant_yucca_sproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
@@ -15250,7 +15250,7 @@
 	<property name="CustomIcon" value="plantedYucca1"/>
 	<property name="DescriptionKey" value="plantedYucca1_RDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/>
 	<property name="Model" value="Entities/Plants/plant_yucca_sproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
@@ -15300,7 +15300,7 @@
 	<property name="CustomIcon" value="plantedYucca1"/>
 	<property name="DescriptionKey" value="plantedYucca1_RTDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/>
 	<property name="Model" value="Entities/Plants/plant_yucca_sproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
@@ -15350,7 +15350,7 @@
 	<property name="CustomIcon" value="plantedYucca1"/>
 	<property name="DescriptionKey" value="plantedYucca1_TDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/>
 	<property name="Model" value="Entities/Plants/plant_yucca_sproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
@@ -15400,7 +15400,7 @@
 	<property name="CustomIcon" value="plantedYucca1"/>
 	<property name="DescriptionKey" value="plantedYucca1_TTDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
-	<property name="Group" value="SeedEnhancement"/>
+	<property name="Group" value="SeedTraits"/>
 	<property name="Material" value="Mcorn"/>
 	<property name="Model" value="Entities/Plants/plant_yucca_sproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>

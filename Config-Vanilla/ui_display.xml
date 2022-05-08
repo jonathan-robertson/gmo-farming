@@ -1,0 +1,8 @@
+<config><append xpath="/ui_display_info/crafting_category_display">
+    <crafting_category_list display_type="hotbox">
+        <crafting_category name="SeedExperiments" icon="ui_game_symbol_infection" display_name="lblCategorySeedExperiments" />
+        <crafting_category name="SeedEnhancements" icon="ui_game_symbol_crops" display_name="lblCategorySeedEnhancements" />
+        <crafting_category name="SeedTraitResearch" icon="ui_game_symbol_book" display_name="lblCategorySeedTraitResearch" />
+        <crafting_category name="SeedTraits" icon="ui_game_symbol_add" display_name="lblCategorySeedTraits" />
+    </crafting_category_list>
+</append></config>

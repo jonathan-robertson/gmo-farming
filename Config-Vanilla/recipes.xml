@@ -4,7 +4,7 @@
 	<ingredient name="resourceMechanicalParts" count="8"/>
 	<ingredient name="resourceWood" count="25"/>
 </recipe>
-<recipe name="plantedAloe1_" count="1" craft_time="900" traits="" tags="learnable">
+<recipe name="plantedAloe1_" count="1" craft_time="900" traits="" craft_area="hotbox" tags="learnable">
     <ingredient name="plantedAloe1" count="1"/>
     <ingredient name="foodRottingFlesh" count="1"/>
     <ingredient name="resourceCloth" count="1"/>
@@ -177,7 +177,7 @@
     <ingredient name="resourceScrapIron" count="10"/>
     <ingredient name="resourceNail" count="10"/>
 </recipe>
-<recipe name="plantedBlueberry1_" count="1" craft_time="900" traits="" tags="learnable">
+<recipe name="plantedBlueberry1_" count="1" craft_time="900" traits="" craft_area="hotbox" tags="learnable">
     <ingredient name="plantedBlueberry1" count="1"/>
     <ingredient name="foodRottingFlesh" count="1"/>
     <ingredient name="resourceCloth" count="1"/>
@@ -350,7 +350,7 @@
     <ingredient name="resourceScrapIron" count="10"/>
     <ingredient name="resourceNail" count="10"/>
 </recipe>
-<recipe name="plantedChrysanthemum1_" count="1" craft_time="900" traits="" tags="learnable">
+<recipe name="plantedChrysanthemum1_" count="1" craft_time="900" traits="" craft_area="hotbox" tags="learnable">
     <ingredient name="plantedChrysanthemum1" count="1"/>
     <ingredient name="foodRottingFlesh" count="1"/>
     <ingredient name="resourceCloth" count="1"/>
@@ -523,7 +523,7 @@
     <ingredient name="resourceScrapIron" count="10"/>
     <ingredient name="resourceNail" count="10"/>
 </recipe>
-<recipe name="plantedCoffee1_" count="1" craft_time="900" traits="" tags="learnable">
+<recipe name="plantedCoffee1_" count="1" craft_time="900" traits="" craft_area="hotbox" tags="learnable">
     <ingredient name="plantedCoffee1" count="1"/>
     <ingredient name="foodRottingFlesh" count="1"/>
     <ingredient name="resourceCloth" count="1"/>
@@ -696,7 +696,7 @@
     <ingredient name="resourceScrapIron" count="10"/>
     <ingredient name="resourceNail" count="10"/>
 </recipe>
-<recipe name="plantedCorn1_" count="1" craft_time="900" traits="" tags="learnable">
+<recipe name="plantedCorn1_" count="1" craft_time="900" traits="" craft_area="hotbox" tags="learnable">
     <ingredient name="plantedCorn1" count="1"/>
     <ingredient name="foodRottingFlesh" count="1"/>
     <ingredient name="resourceCloth" count="1"/>
@@ -869,7 +869,7 @@
     <ingredient name="resourceScrapIron" count="10"/>
     <ingredient name="resourceNail" count="10"/>
 </recipe>
-<recipe name="plantedCotton1_" count="1" craft_time="900" traits="" tags="learnable">
+<recipe name="plantedCotton1_" count="1" craft_time="900" traits="" craft_area="hotbox" tags="learnable">
     <ingredient name="plantedCotton1" count="1"/>
     <ingredient name="foodRottingFlesh" count="1"/>
     <ingredient name="resourceCloth" count="1"/>
@@ -1042,7 +1042,7 @@
     <ingredient name="resourceScrapIron" count="10"/>
     <ingredient name="resourceNail" count="10"/>
 </recipe>
-<recipe name="plantedGoldenrod1_" count="1" craft_time="900" traits="" tags="learnable">
+<recipe name="plantedGoldenrod1_" count="1" craft_time="900" traits="" craft_area="hotbox" tags="learnable">
     <ingredient name="plantedGoldenrod1" count="1"/>
     <ingredient name="foodRottingFlesh" count="1"/>
     <ingredient name="resourceCloth" count="1"/>
@@ -1215,7 +1215,7 @@
     <ingredient name="resourceScrapIron" count="10"/>
     <ingredient name="resourceNail" count="10"/>
 </recipe>
-<recipe name="plantedGraceCorn1_" count="1" craft_time="900" traits="" tags="learnable">
+<recipe name="plantedGraceCorn1_" count="1" craft_time="900" traits="" craft_area="hotbox" tags="learnable">
     <ingredient name="plantedGraceCorn1" count="1"/>
     <ingredient name="foodRottingFlesh" count="1"/>
     <ingredient name="resourceCloth" count="1"/>
@@ -1388,7 +1388,7 @@
     <ingredient name="resourceScrapIron" count="10"/>
     <ingredient name="resourceNail" count="10"/>
 </recipe>
-<recipe name="plantedHop1_" count="1" craft_time="900" traits="" tags="learnable">
+<recipe name="plantedHop1_" count="1" craft_time="900" traits="" craft_area="hotbox" tags="learnable">
     <ingredient name="plantedHop1" count="1"/>
     <ingredient name="foodRottingFlesh" count="1"/>
     <ingredient name="resourceCloth" count="1"/>
@@ -1561,7 +1561,7 @@
     <ingredient name="resourceScrapIron" count="10"/>
     <ingredient name="resourceNail" count="10"/>
 </recipe>
-<recipe name="plantedMushroom1_" count="1" craft_time="900" traits="" tags="learnable">
+<recipe name="plantedMushroom1_" count="1" craft_time="900" traits="" craft_area="hotbox" tags="learnable">
     <ingredient name="plantedMushroom1" count="1"/>
     <ingredient name="foodRottingFlesh" count="1"/>
     <ingredient name="resourceCloth" count="1"/>
@@ -1686,7 +1686,7 @@
     <ingredient name="resourceScrapIron" count="10"/>
     <ingredient name="resourceNail" count="10"/>
 </recipe>
-<recipe name="plantedPotato1_" count="1" craft_time="900" traits="" tags="learnable">
+<recipe name="plantedPotato1_" count="1" craft_time="900" traits="" craft_area="hotbox" tags="learnable">
     <ingredient name="plantedPotato1" count="1"/>
     <ingredient name="foodRottingFlesh" count="1"/>
     <ingredient name="resourceCloth" count="1"/>
@@ -1859,7 +1859,7 @@
     <ingredient name="resourceScrapIron" count="10"/>
     <ingredient name="resourceNail" count="10"/>
 </recipe>
-<recipe name="plantedPumpkin1_" count="1" craft_time="900" traits="" tags="learnable">
+<recipe name="plantedPumpkin1_" count="1" craft_time="900" traits="" craft_area="hotbox" tags="learnable">
     <ingredient name="plantedPumpkin1" count="1"/>
     <ingredient name="foodRottingFlesh" count="1"/>
     <ingredient name="resourceCloth" count="1"/>
@@ -2032,7 +2032,7 @@
     <ingredient name="resourceScrapIron" count="10"/>
     <ingredient name="resourceNail" count="10"/>
 </recipe>
-<recipe name="plantedYucca1_" count="1" craft_time="900" traits="" tags="learnable">
+<recipe name="plantedYucca1_" count="1" craft_time="900" traits="" craft_area="hotbox" tags="learnable">
     <ingredient name="plantedYucca1" count="1"/>
     <ingredient name="foodRottingFlesh" count="1"/>
     <ingredient name="resourceCloth" count="1"/>

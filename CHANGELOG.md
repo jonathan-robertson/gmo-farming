@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [TODO]
 
+- add seed description to schematic?
 - update schematics to unlock trait combos when used
 - reconsider whether renewable trait should decrease yield
 
@@ -20,6 +21,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - add recipes to make schematics
 - fix aloe display name
 - add localization for schematics
+- add unlock source for each schematic item/recipe
+- adjust crafting categories
 
 ## [0.4.1] - 2022-05-06
 

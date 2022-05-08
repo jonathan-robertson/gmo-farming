@@ -80,8 +80,8 @@ func getDefaultSeedDescription() string {
 
 func getCraftingGroup(traits string) string {
 	if traits == "" {
-		return "Food/Cooking"
+		return "SeedEnhancements"
 	} else {
-		return "SeedEnhancement"
+		return "SeedTraits"
 	}
 }

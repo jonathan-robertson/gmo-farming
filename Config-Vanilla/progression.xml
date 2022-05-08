@@ -1,0 +1,4 @@
+<config><append xpath="/progression/perks/perk[@name='perkLivingOffTheLand']/effect_group">
+    <passive_effect name="RecipeTagUnlocked" operation="base_set" level="3" value="1" tags="hotbox" />
+    <passive_effect name="RecipeTagUnlocked" operation="base_set" level="3" value="1" tags="plantedAloe1_schematic,plantedBlueberry1_schematic,plantedChrysanthemum1_schematic,plantedCoffee1_schematic,plantedCorn1_schematic,plantedCotton1_schematic,plantedGoldenrod1_schematic,plantedGraceCorn1_schematic,plantedHop1_schematic,plantedMushroom1_schematic,plantedPotato1_schematic,plantedPumpkin1_schematic,plantedYucca1_schematic" />
+</append></config>

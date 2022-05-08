@@ -80,7 +80,7 @@ func produceHotBoxRecipe(c chan string) {
 func producePlantRecipe(c chan string, target string, plant data.Plant, optionalTags string, traits ...data.Trait) {
 	switch len(traits) {
 	case 0:
-		c <- fmt.Sprintf(`<recipe name="planted%s1_" count="1" craft_time="%d" traits=""%s>
+		c <- fmt.Sprintf(`<recipe name="planted%s1_" count="1" craft_time="%d" traits="" craft_area="hotbox"%s>
     <ingredient name="planted%s1" count="1"/>
     <ingredient name="foodRottingFlesh" count="1"/>
     <ingredient name="resourceCloth" count="1"/>
