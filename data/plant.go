@@ -56,6 +56,10 @@ func calculateBonusYield(count int, traits string) int {
 	return calculateCropYield(count, traits)
 }
 
+func calculatePlantTier(traits string) (tier int) {
+	return len(traits) + 1
+}
+
 func optionallyAddRenewable(traits string, plant Plant) string {
 	if strings.ContainsRune(traits, 'R') {
 		return fmt.Sprintf(`<property name="DowngradeBlock" value="planted%s1_%s" />`,
@@ -79,9 +83,5 @@ func getDefaultSeedDescription() string {
 }
 
 func getCraftingGroup(traits string) string {
-	if traits == "" {
-		return "SeedEnhancements"
-	} else {
-		return "SeedTraits"
-	}
+	return fmt.Sprintf("Tier%dSeeds", len(traits) + 1)
 }

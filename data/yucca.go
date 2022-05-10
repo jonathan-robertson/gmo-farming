@@ -16,12 +16,12 @@ type Yucca struct {
 
 func CreateYucca() *Yucca {
 	return &Yucca{
-		Name:               "Yucca",
-		DisplayName:        "Yucca",
-		PreferredConsumer:  "",
-		CropYield:          2,
-		BonusYield:         1,
-		CraftTime:          2,
+		Name:              "Yucca",
+		DisplayName:       "Yucca",
+		PreferredConsumer: "",
+		CropYield:         2,
+		BonusYield:        1,
+		CraftTime:         2,
 	}
 }
 
@@ -95,7 +95,7 @@ func (*Yucca) WriteStage2(c chan string, traits string) {
 }
 
 func (p *Yucca) WriteStage3(c chan string, traits string) {
-	c <- fmt.Sprintf(`<block name="plantedYucca3_%s" stage="3" traits="%s">
+	c <- fmt.Sprintf(`<block name="plantedYucca3_%s" stage="3" traits="%s" tags="T%dPlant">
 	<drop event="Destroy" name="plantedYucca1_%s" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
 	<drop event="Harvest" name="foodCropYuccaFruit" count="%d" tag="cropHarvest"/>
@@ -126,6 +126,7 @@ func (p *Yucca) WriteStage3(c chan string, traits string) {
 </block>`,
 		traits,
 		traits,
+		calculatePlantTier(traits),
 		traits,
 		calculateCropYield(p.CropYield, traits),
 		calculateBonusYield(p.BonusYield, traits),

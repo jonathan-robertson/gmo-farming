@@ -8,7 +8,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [TODO]
 
 - add seed description to schematic?
-- update schematics to unlock trait combos when used
 - reconsider whether renewable trait should decrease yield
 
 ## [0.5.0] - ?
@@ -23,6 +22,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - add localization for schematics
 - add unlock source for each schematic item/recipe
 - adjust crafting categories
+- restructure generator's architecture
 
 ## [0.4.1] - 2022-05-06
 

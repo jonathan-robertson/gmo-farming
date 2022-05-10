@@ -5,48 +5,38 @@ import (
 	"fmt"
 )
 
-func WritePlantBlocks(target string) error {
-	file, err := getFile(fmt.Sprintf("Config-%s/blocks.xml", target))
-	if err != nil {
-		return err
-	}
-	defer file.Close()
-	c := make(chan string, 10)
-	go producePlantBlocks(c, target)
-	for line := range c {
-		if _, err = file.WriteString(line + "\n"); err != nil {
-			return err
-		}
-	}
-	return nil
+type VanillaBlocks struct{}
+
+func (*VanillaBlocks) GetPath() string {
+	return "Config-Vanilla/blocks.xml"
 }
 
-func producePlantBlocks(c chan string, target string) {
+func (p *VanillaBlocks) Produce(c chan string) {
 	defer close(c)
 	c <- `<config>`
 	c <- `<append xpath="/blocks">`
-	produceWorkstationHotBox(c)
+	p.produceWorkstationHotBox(c)
 	for _, plant := range data.Plants {
-		plant.WriteBlockStages(c, target, "")
-		for i1 := 0; i1 < len(data.Traits); i1++ {
-			if plant.IsCompatibleWith(data.Traits[i1]) {
-				plant.WriteBlockStages(c, target, fmt.Sprintf("%c", data.Traits[i1].Code))
-			}
-			for i2 := i1; i2 < len(data.Traits); i2++ {
-				if data.Traits[i1].IsCompatibleWith(data.Traits[i2]) {
-					if plant.IsCompatibleWith(data.Traits[i1]) && plant.IsCompatibleWith(data.Traits[i2]) {
-						plant.WriteBlockStages(c, target, fmt.Sprintf("%c%c", data.Traits[i1].Code, data.Traits[i2].Code))
+		plant.WriteBlockStages(c, p.getTarget(), "")
+		for _, trait1 := range data.Traits {
+			if plant.IsCompatibleWith(trait1) {
+				plant.WriteBlockStages(c, p.getTarget(), fmt.Sprintf("%c", trait1.Code))
+				for _, trait2 := range data.Traits {
+					if trait1.IsCompatibleWith(trait2) {
+						if plant.IsCompatibleWith(trait1) && plant.IsCompatibleWith(trait2) {
+							plant.WriteBlockStages(c, p.getTarget(), fmt.Sprintf("%c%c", trait1.Code, trait2.Code))
+						}
 					}
 				}
 			}
 		}
 	}
 	c <- `</append>`
-	produceBlockModifications(c)
+	p.produceBlockModifications(c)
 	c <- `</config>`
 }
 
-func produceWorkstationHotBox(c chan string) {
+func (*VanillaBlocks) produceWorkstationHotBox(c chan string) {
 	c <- `<block name="hotbox">
 	<property name="Extends" value="workbench"/>
 	<property class="Workstation">
@@ -103,7 +93,7 @@ func produceWorkstationHotBox(c chan string) {
 </block>`
 }
 
-func produceBlockModifications(c chan string) {
+func (*VanillaBlocks) produceBlockModifications(c chan string) {
 	// [U] Underground
 	c <- `    <append xpath="/blocks/block[contains(@traits, 'U') and @stage='1']">
         <property name="PlantGrowing.LightLevelGrow" value="0" />
@@ -152,4 +142,8 @@ func produceBlockModifications(c chan string) {
 	c <- `    <append xpath="/blocks/block[contains(@traits, 'TT') and @stage='3']">
         <property name="BuffsWhenWalkedOn" value="triggerInjuryCriticalThorns"/>
     </append>`
+}
+
+func (p *VanillaBlocks) getTarget() string {
+	return "Vanilla"
 }
