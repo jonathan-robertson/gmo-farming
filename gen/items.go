@@ -54,35 +54,50 @@ func produceSchematic(c chan string, p data.Plant, traits ...data.Trait) {
 		iconName = fmt.Sprintf(`planted%s1`, p.GetName())
 	}
 
-	var traitsStr, group, unlocks, unlockedBy string
+	var traitsStr, group, unlockedBy string
+	var unlocks []string
 	switch len(traits) {
 	case 0:
 		traitsStr = ""
 		group = "SeedExperiments"
-		unlocks = fmt.Sprintf(`planted%s1_`, p.GetName())
 		unlockedBy = "perkLivingOffTheLand"
+		unlocks = append(unlocks, fmt.Sprintf(`planted%s1_`, p.GetName()))
+		for _, trait := range data.Traits {
+			if p.IsCompatibleWith(trait) {
+				unlocks = append(unlocks, fmt.Sprintf(`planted%s1_%c`, p.GetName(), trait.Code))
+			}
+		}
 	case 1:
 		traitsStr = string(traits[0].Code)
 		group = "SeedTraitResearch"
-		unlocks = fmt.Sprintf(`planted%s1_%c`, p.GetName(), traits[0].Code)
 		unlockedBy = fmt.Sprintf(`planted%s1_schematic`, p.GetName())
+		unlocks = append(unlocks, fmt.Sprintf(`planted%s1_%c`, p.GetName(), traits[0].Code))
+		for _, trait := range data.Traits {
+			if p.IsCompatibleWith(trait) && traits[0].IsCompatibleWith(trait) {
+				unlocks = append(unlocks, fmt.Sprintf(`planted%s1_%c%c`, p.GetName(), traits[0].Code, trait.Code))
+			}
+		}
 	case 2:
 		traitsStr = string(traits[0].Code) + string(traits[1].Code)
 		group = "SeedTraitResearch"
-		unlocks = fmt.Sprintf(`planted%s1_%c%c`, p.GetName(), traits[0].Code, traits[1].Code)
 		unlockedBy = fmt.Sprintf(`planted%s1_%cschematic`, p.GetName(), traits[0].Code)
+		unlocks = append(unlocks, fmt.Sprintf(`planted%s1_%c%c`, p.GetName(), traits[0].Code, traits[1].Code))
 	}
 
 	c <- fmt.Sprintf(`<item name="%s">
-	<property name="Extends" value="schematicNoQualityRecipeMaster"/>
-	<property name="CreativeMode" value="Player"/>
-	<property name="CustomIcon" value="%s"/>
-	<property name="Group" value="%s"/>
-	<property name="Unlocks" value="%s"/>
-	<property name="UnlockedBy" value="%s"/>
-	<effect_group tiered="false">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="%s" operation="set" value="1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+    <property name="Extends" value="schematicNoQualityRecipeMaster"/>
+    <property name="CreativeMode" value="Player"/>
+    <property name="CustomIcon" value="%s"/>
+    <property name="Group" value="%s"/>
+    <property name="UnlockedBy" value="%s"/>`, p.GetSchematicName(traitsStr), iconName, group, unlockedBy)
+	for _, unlock := range unlocks {
+		c <- fmt.Sprintf(`    <property name="Unlocks" value="%s"/>`, unlock)
+	}
+	c <- `    <effect_group tiered="false">`
+	for _, unlock := range unlocks {
+		c <- fmt.Sprintf(`    <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="%s" operation="set" value="1"/>`, unlock)
+	}
+	c <- `		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
 	</effect_group>
-</item>`, p.GetSchematicName(traitsStr), iconName, group, unlocks, unlockedBy, unlocks)
+</item>`
 }
