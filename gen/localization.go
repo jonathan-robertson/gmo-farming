@@ -70,6 +70,10 @@ func ProduceHotBoxLocalization(c chan string) {
 	c <- `hotboxTip_title,Journal Tip,,Hot Box`
 	c <- `perkLivingOffTheLandRank3Desc,progression,perk For,Farmer`
 	c <- `perkLivingOffTheLandRank3LongDesc,progression,perk For,Triple the harvest of wild or planted crops. Craft Hot Boxes and Enhanced Seeds that you'll be able to research special traits for.`
+	c <- `perkLivingOffTheLandRank4Desc,progression,perk For,Mad Scientist`
+	c <- `perkLivingOffTheLandRank4LongDesc,progression,perk For,Craft a Trait into enhanced seeds.\n\nTraits can be used to add a wide variety of properties to a seed; ranging from increasing crop yield to allowing plants to grow without sunlight.`
+	c <- `perkLivingOffTheLandRank5Desc,progression,perk For,Agricultural Genius`
+	c <- `perkLivingOffTheLandRank5LongDesc,progression,perk For,Craft a second Trait into enhanced seeds.\n\nDouble the Traits,\nDouble the fun!`
 	c <- `lblCategorySeedEnhancements,UI,Tooltip,Seed Enhancements`
 	c <- `lblCategorySeedExperiments,UI,Tooltip,Seed Experiments`
 	c <- `lblCategorySeedTraits,UI,Tooltip,Seed Traits`
