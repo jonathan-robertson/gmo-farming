@@ -10,13 +10,11 @@ func main() {
 	for _, producer := range []gen.Producer{
 		&gen.CrystalHellBlocks{},
 		&gen.CrystalHellLocalization{},
-		&gen.CrystalHellLocalization{},
 		&gen.CrystalHellProgression{},
 		&gen.CrystalHellRecipes{},
 		&gen.CrystalHellUiDisplay{},
 		&gen.VanillaBlocks{},
 		&gen.VanillaItems{},
-		&gen.VanillaLocalization{},
 		&gen.VanillaLocalization{},
 		&gen.VanillaProgression{},
 		&gen.VanillaRecipes{},
