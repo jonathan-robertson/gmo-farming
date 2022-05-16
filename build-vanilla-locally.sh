@@ -1,5 +1,4 @@
-rm -rf Config-Vanilla/*
-rm -rf Config-CrystalHell/*
+#!/bin/sh
 rm -rf Config
 mkdir Config
 go run .
