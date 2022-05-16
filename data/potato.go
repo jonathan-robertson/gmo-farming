@@ -22,7 +22,6 @@ func CreatePotato() *Potato {
 		CropYield:          2,
 		BonusYield:         1,
 		CraftTime:          2,
-		incompatibleTraits: []rune{'S'},
 	}
 }
 
@@ -49,6 +48,10 @@ func (p *Potato) GetPreferredConsumer() string {
 	return p.PreferredConsumer
 }
 
+func (p *Potato) GetSchematicName(traits string) string {
+	return fmt.Sprintf("plantedPotato1_%sschematic", traits)
+}
+
 func (p *Potato) IsCompatibleWith(t Trait) bool {
 	for _, incompatibleTrait := range p.incompatibleTraits {
 		if incompatibleTrait == t.Code {
@@ -58,26 +61,26 @@ func (p *Potato) IsCompatibleWith(t Trait) bool {
 	return true
 }
 
-func (p *Potato) WriteBlockStages(c chan string, traits string) {
-	p.WriteStage1(c, traits)
+func (p *Potato) WriteBlockStages(c chan string, target, traits string) {
+	p.WriteStage1(c, target, traits)
 	p.WriteStage2(c, traits)
 	p.WriteStage3(c, traits)
 }
 
-// TODO: <property name="UnlockedBy" value="perkLivingOffTheLand,plantedPotato1Schematic"/>
-func (*Potato) WriteStage1(c chan string, traits string) {
+func (p *Potato) WriteStage1(c chan string, target, traits string) {
 	c <- fmt.Sprintf(`<block name="plantedPotato1_%s" stage="1" traits="%s">
 	<drop event="Destroy" name="plantedPotato1_%s" count="1"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="plantedPotato1"/>
-	<property name="DescriptionKey" value="plantedPotato1_%s"/>
+	<property name="DescriptionKey" value="plantedPotato1_%sDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="Group" value="%s"/>
 	<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedPotato2_%s"/>
 	<property name="Shape" value="ModelEntity"/>
-</block>`, traits, traits, traits, traits, getCraftingGroup(traits), traits)
+	%s
+</block>`, traits, traits, traits, traits, getCraftingGroup(traits), traits, optionallyAddUnlock(p, target, traits))
 }
 
 func (*Potato) WriteStage2(c chan string, traits string) {
@@ -91,16 +94,16 @@ func (*Potato) WriteStage2(c chan string, traits string) {
 }
 
 func (p *Potato) WriteStage3(c chan string, traits string) {
-	c <- fmt.Sprintf(`<block name="plantedPotato3_%s" stage="3" traits="%s">
+	c <- fmt.Sprintf(`<block name="plantedPotato3_%s" stage="3" traits="%s" tags="T%dPlant">
 	<drop event="Destroy" name="plantedPotato1_%s" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
 	<drop event="Harvest" name="foodCropPotato" count="%d" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropPotato" prob="0.5" count="%d" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedPotato3Harvest"/>
+	<property name="CustomIcon" value="plantedPotato1"/>
 	<property name="CustomIconTint" value="ff8000"/>
-	<property name="DescriptionKey" value="plantedPotato3_%s"/>
+	<property name="DescriptionKey" value="plantedPotato3_%sDesc"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="Extends" value="cropsHarvestableMaster"/>
@@ -123,6 +126,7 @@ func (p *Potato) WriteStage3(c chan string, traits string) {
 </block>`,
 		traits,
 		traits,
+		calculatePlantTier(traits),
 		traits,
 		calculateCropYield(p.CropYield, traits),
 		calculateBonusYield(p.BonusYield, traits),

@@ -22,7 +22,6 @@ func CreateCoffee() *Coffee {
 		CropYield:          2,
 		BonusYield:         1,
 		CraftTime:          2,
-		incompatibleTraits: []rune{'S'},
 	}
 }
 
@@ -49,6 +48,10 @@ func (p *Coffee) GetPreferredConsumer() string {
 	return p.PreferredConsumer
 }
 
+func (p *Coffee) GetSchematicName(traits string) string {
+	return fmt.Sprintf("plantedCoffee1_%sschematic", traits)
+}
+
 func (p *Coffee) IsCompatibleWith(t Trait) bool {
 	for _, incompatibleTrait := range p.incompatibleTraits {
 		if incompatibleTrait == t.Code {
@@ -58,14 +61,13 @@ func (p *Coffee) IsCompatibleWith(t Trait) bool {
 	return true
 }
 
-func (p *Coffee) WriteBlockStages(c chan string, traits string) {
-	p.WriteStage1(c, traits)
+func (p *Coffee) WriteBlockStages(c chan string, target, traits string) {
+	p.WriteStage1(c, target, traits)
 	p.WriteStage2(c, traits)
 	p.WriteStage3(c, traits)
 }
 
-// TODO: <property name="UnlockedBy" value="perkLivingOffTheLand,plantedCoffee1Schematic"/>
-func (*Coffee) WriteStage1(c chan string, traits string) {
+func (p *Coffee) WriteStage1(c chan string, target, traits string) {
 	c <- fmt.Sprintf(`<block name="plantedCoffee1_%s" stage="1" traits="%s">
 	<drop event="Destroy" name="plantedCoffee1_%s" count="1"/>
 	<property name="CraftingIngredientTime" value="5"/>
@@ -77,7 +79,8 @@ func (*Coffee) WriteStage1(c chan string, traits string) {
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedCoffee2_%s"/>
 	<property name="Texture" value="393"/>
-</block>`, traits, traits, traits, traits, getCraftingGroup(traits), traits)
+	%s
+</block>`, traits, traits, traits, traits, getCraftingGroup(traits), traits, optionallyAddUnlock(p, target, traits))
 }
 
 func (*Coffee) WriteStage2(c chan string, traits string) {
@@ -91,14 +94,14 @@ func (*Coffee) WriteStage2(c chan string, traits string) {
 }
 
 func (p *Coffee) WriteStage3(c chan string, traits string) {
-	c <- fmt.Sprintf(`<block name="plantedCoffee3_%s" stage="3" traits="%s">
+	c <- fmt.Sprintf(`<block name="plantedCoffee3_%s" stage="3" traits="%s" tags="T%dPlant">
 	<drop event="Destroy" name="plantedCoffee1_%s" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
 	<drop event="Harvest" name="resourceCropCoffeeBeans" count="%d" tag="cropHarvest"/>
 	<drop event="Harvest" name="resourceCropCoffeeBeans" prob="0.5" count="%d" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedCoffee3Harvest"/>
+	<property name="CustomIcon" value="plantedCoffee1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedCoffee3_%s"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -121,6 +124,7 @@ func (p *Coffee) WriteStage3(c chan string, traits string) {
 </block>`,
 		traits,
 		traits,
+		calculatePlantTier(traits),
 		traits,
 		calculateCropYield(p.CropYield, traits),
 		calculateBonusYield(p.BonusYield, traits),

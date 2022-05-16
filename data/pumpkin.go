@@ -22,7 +22,6 @@ func CreatePumpkin() *Pumpkin {
 		CropYield:          2,
 		BonusYield:         1,
 		CraftTime:          2,
-		incompatibleTraits: []rune{'S'},
 	}
 }
 
@@ -49,6 +48,10 @@ func (p *Pumpkin) GetPreferredConsumer() string {
 	return p.PreferredConsumer
 }
 
+func (p *Pumpkin) GetSchematicName(traits string) string {
+	return fmt.Sprintf("plantedPumpkin1_%sschematic", traits)
+}
+
 func (p *Pumpkin) IsCompatibleWith(t Trait) bool {
 	for _, incompatibleTrait := range p.incompatibleTraits {
 		if incompatibleTrait == t.Code {
@@ -58,19 +61,18 @@ func (p *Pumpkin) IsCompatibleWith(t Trait) bool {
 	return true
 }
 
-func (p *Pumpkin) WriteBlockStages(c chan string, traits string) {
-	p.WriteStage1(c, traits)
+func (p *Pumpkin) WriteBlockStages(c chan string, target, traits string) {
+	p.WriteStage1(c, target, traits)
 	p.WriteStage2(c, traits)
 	p.WriteStage3(c, traits)
 }
 
-// TODO: <property name="UnlockedBy" value="perkLivingOffTheLand,plantedPumpkin1Schematic"/>
-func (*Pumpkin) WriteStage1(c chan string, traits string) {
+func (p *Pumpkin) WriteStage1(c chan string, target, traits string) {
 	c <- fmt.Sprintf(`<block name="plantedPumpkin1_%s" stage="1" traits="%s">
 	<drop event="Destroy" name="plantedPumpkin1_%s" count="1"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="plantedPumpkin1"/>
-	<property name="DescriptionKey" value="plantedPumpkin1_%s"/>
+	<property name="DescriptionKey" value="plantedPumpkin1_%sDesc"/>
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
 	<property name="Group" value="%s"/>
 	<property name="Material" value="Mcorn"/>
@@ -78,7 +80,8 @@ func (*Pumpkin) WriteStage1(c chan string, traits string) {
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedPumpkin2_%s"/>
 	<property name="Shape" value="ModelEntity"/>
-</block>`, traits, traits, traits, traits, getCraftingGroup(traits), traits)
+	%s
+</block>`, traits, traits, traits, traits, getCraftingGroup(traits), traits, optionallyAddUnlock(p, target, traits))
 }
 
 func (*Pumpkin) WriteStage2(c chan string, traits string) {
@@ -92,14 +95,14 @@ func (*Pumpkin) WriteStage2(c chan string, traits string) {
 }
 
 func (p *Pumpkin) WriteStage3(c chan string, traits string) {
-	c <- fmt.Sprintf(`<block name="plantedPumpkin3_%s" stage="3" traits="%s">
+	c <- fmt.Sprintf(`<block name="plantedPumpkin3_%s" stage="3" traits="%s" tags="T%dPlant">
 	<drop event="Destroy" name="plantedPumpkin1_%s" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
 	<drop event="Harvest" name="foodCropPumpkin" count="%d" tag="cropHarvest"/>
 	<drop event="Harvest" name="foodCropPumpkin" prob="0.5" count="%d" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedPumpkin3Harvest"/>
+	<property name="CustomIcon" value="plantedPumpkin1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedPumpkin3_%s"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -126,6 +129,7 @@ func (p *Pumpkin) WriteStage3(c chan string, traits string) {
 </block>`,
 		traits,
 		traits,
+		calculatePlantTier(traits),
 		traits,
 		calculateCropYield(p.CropYield, traits),
 		calculateBonusYield(p.BonusYield, traits),

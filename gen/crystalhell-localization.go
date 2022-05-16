@@ -5,37 +5,25 @@ import (
 	"fmt"
 )
 
-func WritePlantLocalization(target string) error {
-	file, err := getFile(fmt.Sprintf("Config-%s/Localization.txt", target))
-	if err != nil {
-		return err
-	}
-	defer file.Close()
-	c := make(chan string, 10)
-	go producePlantLocalization(c, target)
-	for line := range c {
-		if _, err = file.WriteString(line + "\n"); err != nil {
-			return err
-		}
-	}
-	return nil
+type CrystalHellLocalization struct{}
+
+func (*CrystalHellLocalization) GetPath() string {
+	return "Config-CrystalHell/Localization.txt"
 }
 
-func producePlantLocalization(c chan string, target string) {
+func (p *CrystalHellLocalization) Produce(c chan string) {
 	defer close(c)
 	c <- "Key,File,Type,english"
-	ProduceHotBoxLocalization(c)
-	ProduceThornyBuffLocalization(c)
+	p.produceHotBoxLocalization(c)
+	p.produceThornyBuffLocalization(c)
 	for _, plant := range data.Plants {
-		ProduceLocalization(c, plant)
-		for i1 := 0; i1 < len(data.Traits); i1++ {
-			if plant.IsCompatibleWith(data.Traits[i1]) {
-				ProduceLocalization(c, plant, data.Traits[i1])
-			}
-			for i2 := i1; i2 < len(data.Traits); i2++ {
-				if data.Traits[i1].IsCompatibleWith(data.Traits[i2]) {
-					if plant.IsCompatibleWith(data.Traits[i1]) && plant.IsCompatibleWith(data.Traits[i2]) {
-						ProduceLocalization(c, plant, data.Traits[i1], data.Traits[i2])
+		p.producePlantLocalization(c, plant)
+		for _, trait1 := range data.Traits {
+			if plant.IsCompatibleWith(trait1) {
+				p.producePlantLocalization(c, plant, trait1)
+				for _, trait2 := range data.Traits {
+					if trait1.IsCompatibleWith(trait2) && plant.IsCompatibleWith(trait2) {
+						p.producePlantLocalization(c, plant, trait1, trait2)
 					}
 				}
 			}
@@ -43,7 +31,32 @@ func producePlantLocalization(c chan string, target string) {
 	}
 }
 
-func ProduceLocalization(c chan string, plant data.Plant, traits ...data.Trait) {
+func (*CrystalHellLocalization) produceHotBoxLocalization(c chan string) {
+	c <- `hotbox,blocks,Workstation,Hot Box`
+	c <- `hotboxDesc,blocks,Workstation,"The Hot Box is a simple workstation that allows enhanced seeds to absorb various materials and take on new traits."`
+	c <- `hotboxTip,Journal Tip,,"The Hot Box is a simple workstation that allows enhanced seeds to absorb various materials and take on new traits."`
+	c <- `hotboxTip_title,Journal Tip,,Hot Box`
+
+	c <- `perkLivingOffTheLandRank3Desc,progression,perk For,Farmer`
+	c <- `perkLivingOffTheLandRank3LongDesc,progression,perk For,Triple the harvest of wild or planted crops. Craft Hot Boxes and Enhanced Seeds that you'll be able to research special traits for.`
+	c <- `perkLivingOffTheLandRank4Desc,progression,perk For,Mad Scientist`
+	c <- `perkLivingOffTheLandRank4LongDesc,progression,perk For,Craft a Trait into enhanced seeds.\n\nTraits can be used to add a wide variety of properties to a seed; ranging from increasing crop yield to allowing plants to grow without sunlight.`
+	c <- `perkLivingOffTheLandRank5Desc,progression,perk For,Agricultural Genius`
+	c <- `perkLivingOffTheLandRank5LongDesc,progression,perk For,Craft a second Trait into enhanced seeds.\n\nDouble the Traits,\nDouble the fun!`
+
+	c <- `lblCategoryTier1Seeds,UI,Tooltip,Tier 1 Seed Enhancements`
+	c <- `lblCategoryTier2Seeds,UI,Tooltip,Tier 2 Seed Enhancements`
+	c <- `lblCategoryTier3Seeds,UI,Tooltip,Tier 3 Seed Enhancements`
+}
+
+func (*CrystalHellLocalization) produceThornyBuffLocalization(c chan string) {
+	c <- `buffInjuryThornsName,buffs,Buff,Thorns`
+	c <- `buffInjuryCriticalThornsName,buffs,Buff,Critical Thorns`
+	c <- `buffInjuryThornsDesc,buffs,Buff,"Your skin is pierced by the thorny barbs of an aggressively engineered plant.\n\nStep away from the plant to avoid further injury."`
+	c <- `buffInjuryThornsTooltip,buffs,Buff,The thorns on this plant are cutting into your skin.`
+}
+
+func (*CrystalHellLocalization) producePlantLocalization(c chan string, plant data.Plant, traits ...data.Trait) {
 	switch len(traits) {
 	case 0:
 		c <- fmt.Sprintf(`planted%s1_,blocks,Farming,"%s (Seed, Enhanced)"`,
@@ -105,21 +118,4 @@ func ProduceLocalization(c chan string, plant data.Plant, traits ...data.Trait) 
 				getHotBoxRequirementTip())
 		}
 	}
-}
-
-func ProduceHotBoxLocalization(c chan string) {
-	c <- `hotbox,blocks,Workstation,Hot Box`
-	c <- `hotboxDesc,blocks,Workstation,The Hot Box is a simple workstation that allows enhanced seeds to absorb various materials and take on new traits.`
-	c <- `hotboxTip,Journal Tip,,"The Hot Box is a simple workstation that allows enhanced seeds to absorb various materials and take on new traits."`
-	c <- `hotboxTip_title,Journal Tip,,Hot Box`
-	c <- `perkLivingOffTheLandRank3Desc,progression,perk For,Farmer`
-	c <- `perkLivingOffTheLandRank3LongDesc,progression,perk For,Triple the harvest of wild or planted crops. Craft Hot Boxes and Enhanced Seeds that you'll be able to research and add special traits to.`
-	c <- `lblCategorySeedEnhancement,UI,Tooltip,Seed Enhancement`
-}
-
-func ProduceThornyBuffLocalization(c chan string) {
-	c <- `buffInjuryThornsName,buffs,Buff,Thorns`
-	c <- `buffInjuryCriticalThornsName,buffs,Buff,Critical Thorns`
-	c <- `buffInjuryThornsDesc,buffs,Buff,"Your skin is pierced by the thorny barbs of an aggressively engineered plant.\n\nStep away from the plant to avoid further injury."`
-	c <- `buffInjuryThornsTooltip,buffs,Buff,The thorns on this plant are cutting into your skin.`
 }

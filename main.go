@@ -7,23 +7,22 @@ import (
 )
 
 func main() {
-	for _, target := range []string{"Vanilla", "CrystalHell"} {
-		if err := generateFiles(target); err != nil {
+	for _, producer := range []gen.Producer{
+		&gen.CrystalHellBlocks{},
+		&gen.CrystalHellLocalization{},
+		&gen.CrystalHellProgression{},
+		&gen.CrystalHellRecipes{},
+		&gen.CrystalHellUiDisplay{},
+		&gen.VanillaBlocks{},
+		&gen.VanillaItems{},
+		&gen.VanillaLocalization{},
+		&gen.VanillaProgression{},
+		&gen.VanillaRecipes{},
+		&gen.VanillaUiDisplay{},
+	} {
+		if err := gen.Write(producer); err != nil {
 			fmt.Printf("ERROR: %v\n", err)
 			os.Exit(1)
 		}
 	}
-}
-
-func generateFiles(target string) error {
-	if err := gen.WritePlantBlocks(target); err != nil {
-		return err
-	}
-	if err := gen.WritePlantRecipes(target); err != nil {
-		return err
-	}
-	if err := gen.WritePlantLocalization(target); err != nil {
-		return err
-	}
-	return nil
 }

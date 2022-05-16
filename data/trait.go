@@ -22,7 +22,7 @@ var Traits []Trait = []Trait{
 		{"foodRottingFlesh", 5},
 		{"medicalBloodBag", 2},
 	}},
-	{Code: 'U', Name: "Underground", IncompatibleTraits: []rune{'U', 'S'}, Ingredients: []Ingredient{
+	{Code: 'U', Name: "Underground", IncompatibleTraits: []rune{'U'}, Ingredients: []Ingredient{
 		{"plantedMushroom1", 1},
 	}},
 	{Code: 'F', Name: "Fast Growth", DoubleName: "Rapid Growth", Ingredients: []Ingredient{
@@ -35,16 +35,11 @@ var Traits []Trait = []Trait{
 	}},
 	{Code: 'R', Name: "Renewable", IncompatibleTraits: []rune{'R', 'E'}, Ingredients: []Ingredient{
 		{"drinkJarPureMineralWater", 10},
-	}}, // TODO: compatible with S or not?
+	}},
 	{Code: 'T', Name: "Thorny", DoubleName: "Extra Thorny", Ingredients: []Ingredient{
 		{"resourceScrapIron", 10},
 		{"resourceNail", 10},
 	}},
-	/* TODO
-	{Code: 'S', Name: "Sweet", DoubleName: "Super Sweet", IncompatibleTraits: []rune{'U'}, Ingredients: []Ingredient{
-		{"resourceTestosteroneExtract", 2},
-	}}, // TODO: compatible with R or not?
-	*/
 }
 
 func (t *Trait) IsCompatibleWith(other Trait) bool {
@@ -70,10 +65,6 @@ func (t *Trait) GetDoubleTraitDescription(preferredConsumer string) string {
 	case 'T':
 		return fmt.Sprintf(`%s: integrates with many sharp, metal thorns. Touching them will cause one to receive damage and bleed.`,
 			t.DoubleName)
-	case 'S':
-		return fmt.Sprintf(`%s: produces a super sweet aroma upon reaching maturity, providing the high likelihood of attracting an animal.\n- %s are especially attracted to this type of plant.`,
-			t.DoubleName,
-			preferredConsumer)
 	}
 	return ""
 }
@@ -98,10 +89,6 @@ func (t *Trait) GetTraitDescription(preferredConsumer string) string {
 	case 'T':
 		return fmt.Sprintf(`%s: integrates with sharp, metal thorns. Touching them will cause one to bleed.`,
 			t.Name)
-	case 'S':
-		return fmt.Sprintf(`%s: produces a sweet aroma upon reaching maturity, providing the possibility of attracting an animal.\n- %s are especially attracted to this type of plant.`,
-			t.Name,
-			preferredConsumer)
 	}
 	return ""
 }

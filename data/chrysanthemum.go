@@ -49,6 +49,10 @@ func (p *Chrysanthemum) GetPreferredConsumer() string {
 	return p.PreferredConsumer
 }
 
+func (p *Chrysanthemum) GetSchematicName(traits string) string {
+	return fmt.Sprintf("plantedChrysanthemum1_%sschematic", traits)
+}
+
 func (p *Chrysanthemum) IsCompatibleWith(t Trait) bool {
 	for _, incompatibleTrait := range p.incompatibleTraits {
 		if incompatibleTrait == t.Code {
@@ -58,14 +62,13 @@ func (p *Chrysanthemum) IsCompatibleWith(t Trait) bool {
 	return true
 }
 
-func (p *Chrysanthemum) WriteBlockStages(c chan string, traits string) {
-	p.WriteStage1(c, traits)
+func (p *Chrysanthemum) WriteBlockStages(c chan string, target, traits string) {
+	p.WriteStage1(c, target, traits)
 	p.WriteStage2(c, traits)
 	p.WriteStage3(c, traits)
 }
 
-// TODO: <property name="UnlockedBy" value="perkLivingOffTheLand,plantedChrysanthemum1Schematic"/>
-func (*Chrysanthemum) WriteStage1(c chan string, traits string) {
+func (p *Chrysanthemum) WriteStage1(c chan string, target, traits string) {
 	c <- fmt.Sprintf(`<block name="plantedChrysanthemum1_%s" stage="1" traits="%s">
 	<drop event="Destroy" name="plantedChrysanthemum1_%s" count="1"/>
 	<property name="CreativeMode" value="Player"/>
@@ -76,7 +79,8 @@ func (*Chrysanthemum) WriteStage1(c chan string, traits string) {
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedChrysanthemum2_%s"/>
 	<property name="Texture" value="550"/>
-</block>`, traits, traits, traits, traits, getCraftingGroup(traits), traits)
+	%s
+</block>`, traits, traits, traits, traits, getCraftingGroup(traits), traits, optionallyAddUnlock(p, target, traits))
 }
 
 func (*Chrysanthemum) WriteStage2(c chan string, traits string) {
@@ -90,14 +94,14 @@ func (*Chrysanthemum) WriteStage2(c chan string, traits string) {
 }
 
 func (p *Chrysanthemum) WriteStage3(c chan string, traits string) {
-	c <- fmt.Sprintf(`<block name="plantedChrysanthemum3_%s" stage="3" traits="%s">
+	c <- fmt.Sprintf(`<block name="plantedChrysanthemum3_%s" stage="3" traits="%s" tags="T%dPlant">
 	<drop event="Destroy" name="plantedChrysanthemum1_%s" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
 	<drop event="Harvest" name="resourceCropChrysanthemumPlant" count="%d" tag="cropHarvest"/>
 	<drop event="Harvest" name="resourceCropChrysanthemumPlant" prob="0.5" count="%d" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedChrysanthemum3Harvest"/>
+	<property name="CustomIcon" value="plantedChrysanthemum1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedChrysanthemum3_%s"/>
 	<property name="DisplayInfo" value="Name"/>
@@ -119,6 +123,7 @@ func (p *Chrysanthemum) WriteStage3(c chan string, traits string) {
 </block>`,
 		traits,
 		traits,
+		calculatePlantTier(traits),
 		traits,
 		calculateCropYield(p.CropYield, traits),
 		calculateBonusYield(p.BonusYield, traits),

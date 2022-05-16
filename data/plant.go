@@ -11,8 +11,9 @@ type Plant interface {
 	GetDisplayName() string
 	GetName() string
 	GetPreferredConsumer() string
+	GetSchematicName(string) string
 	IsCompatibleWith(Trait) bool
-	WriteBlockStages(chan string, string)
+	WriteBlockStages(chan string, string, string)
 }
 
 var Plants []Plant = []Plant{
@@ -55,6 +56,10 @@ func calculateBonusYield(count int, traits string) int {
 	return calculateCropYield(count, traits)
 }
 
+func calculatePlantTier(traits string) (tier int) {
+	return len(traits) + 1
+}
+
 func optionallyAddRenewable(traits string, plant Plant) string {
 	if strings.ContainsRune(traits, 'R') {
 		return fmt.Sprintf(`<property name="DowngradeBlock" value="planted%s1_%s" />`,
@@ -64,14 +69,19 @@ func optionallyAddRenewable(traits string, plant Plant) string {
 	return ""
 }
 
+func optionallyAddUnlock(plant Plant, target, traits string) string {
+	switch target {
+	case "Vanilla":
+		return fmt.Sprintf(`<property name="UnlockedBy" value="%s"/>`, plant.GetSchematicName(traits))
+	default:
+		return ""
+	}
+}
+
 func getDefaultSeedDescription() string {
 	return `Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.`
 }
 
 func getCraftingGroup(traits string) string {
-	if traits == "" {
-		return "Food/Cooking"
-	} else {
-		return "SeedEnhancement"
-	}
+	return fmt.Sprintf("Tier%dSeeds", len(traits) + 1)
 }

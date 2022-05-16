@@ -22,7 +22,6 @@ func CreateCotton() *Cotton {
 		CropYield:          2,
 		BonusYield:         1,
 		CraftTime:          2,
-		incompatibleTraits: []rune{'S'},
 	}
 }
 
@@ -49,6 +48,10 @@ func (p *Cotton) GetPreferredConsumer() string {
 	return p.PreferredConsumer
 }
 
+func (p *Cotton) GetSchematicName(traits string) string {
+	return fmt.Sprintf("plantedCotton1_%sschematic", traits)
+}
+
 func (p *Cotton) IsCompatibleWith(t Trait) bool {
 	for _, incompatibleTrait := range p.incompatibleTraits {
 		if incompatibleTrait == t.Code {
@@ -58,14 +61,13 @@ func (p *Cotton) IsCompatibleWith(t Trait) bool {
 	return true
 }
 
-func (p *Cotton) WriteBlockStages(c chan string, traits string) {
-	p.WriteStage1(c, traits)
+func (p *Cotton) WriteBlockStages(c chan string, target, traits string) {
+	p.WriteStage1(c, target, traits)
 	p.WriteStage2(c, traits)
 	p.WriteStage3(c, traits)
 }
 
-// TODO: <property name="UnlockedBy" value="perkLivingOffTheLand,plantedCotton1Schematic"/>
-func (*Cotton) WriteStage1(c chan string, traits string) {
+func (p *Cotton) WriteStage1(c chan string, target, traits string) {
 	c <- fmt.Sprintf(`<block name="plantedCotton1_%s" stage="1" traits="%s">
 	<drop event="Destroy" name="plantedCotton1_%s" count="1"/>
 	<property name="CreativeMode" value="Player"/>
@@ -76,7 +78,8 @@ func (*Cotton) WriteStage1(c chan string, traits string) {
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedCotton2_%s"/>
 	<property name="Texture" value="392"/>
-</block>`, traits, traits, traits, traits, getCraftingGroup(traits), traits)
+	%s
+</block>`, traits, traits, traits, traits, getCraftingGroup(traits), traits, optionallyAddUnlock(p, target, traits))
 }
 
 func (*Cotton) WriteStage2(c chan string, traits string) {
@@ -90,14 +93,14 @@ func (*Cotton) WriteStage2(c chan string, traits string) {
 }
 
 func (p *Cotton) WriteStage3(c chan string, traits string) {
-	c <- fmt.Sprintf(`<block name="plantedCotton3_%s" stage="3" traits="%s">
+	c <- fmt.Sprintf(`<block name="plantedCotton3_%s" stage="3" traits="%s" tags="T%dPlant">
 	<drop event="Destroy" name="plantedCotton1_%s" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
 	<drop event="Harvest" name="resourceCropCottonPlant" count="%d" tag="cropHarvest"/>
 	<drop event="Harvest" name="resourceCropCottonPlant" prob="0.5" count="%d" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="plantedCotton3Harvest"/>
+	<property name="CustomIcon" value="plantedCotton1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedCotton3_%s"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
@@ -120,6 +123,7 @@ func (p *Cotton) WriteStage3(c chan string, traits string) {
 </block>`,
 		traits,
 		traits,
+		calculatePlantTier(traits),
 		traits,
 		calculateCropYield(p.CropYield, traits),
 		calculateBonusYield(p.BonusYield, traits),

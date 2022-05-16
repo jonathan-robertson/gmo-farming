@@ -51,6 +51,10 @@ func (p *Mushroom) GetPreferredConsumer() string {
 	return p.PreferredConsumer
 }
 
+func (p *Mushroom) GetSchematicName(traits string) string {
+	return fmt.Sprintf("plantedMushroom1_%sschematic", traits)
+}
+
 func (p *Mushroom) IsCompatibleWith(t Trait) bool {
 	for _, incompatibleTrait := range p.incompatibleTraits {
 		if incompatibleTrait == t.Code {
@@ -60,14 +64,14 @@ func (p *Mushroom) IsCompatibleWith(t Trait) bool {
 	return true
 }
 
-func (p *Mushroom) WriteBlockStages(c chan string, traits string) {
-	p.WriteStage1(c, traits)
+func (p *Mushroom) WriteBlockStages(c chan string, target, traits string) {
+	p.WriteStage1(c, target, traits)
 	p.WriteStage2(c, traits)
 	p.WriteStage3(c, traits)
 }
 
-// TODO: <property name="UnlockedBy" value="perkLivingOffTheLand,plantedMushroom1Schematic"/>
-func (*Mushroom) WriteStage1(c chan string, traits string) {
+// TODO: return to mushroom... seems like overkill - why not extend naturally?
+func (p *Mushroom) WriteStage1(c chan string, target, traits string) {
 	c <- fmt.Sprintf(`<block name="plantedMushroom1_%s" stage="1" traits="%s">
 	<drop event="Destroy" name="plantedMushroom1_%s" count="1"/>
 	<property name="Collide" value="melee"/>
@@ -92,8 +96,8 @@ func (*Mushroom) WriteStage1(c chan string, traits string) {
 	<property name="PlantGrowing.Next" value="plantedMushroom2_%s"/>
 	<property name="Shape" value="Ext3dModel"/>
 	<property name="Texture" value="293"/>
-	<property name="UnlockedBy" value="perkLivingOffTheLand"/>
-</block>`, traits, traits, traits, traits, getCraftingGroup(traits), traits)
+	%s
+</block>`, traits, traits, traits, traits, getCraftingGroup(traits), traits, optionallyAddUnlock(p, target, traits))
 }
 
 func (*Mushroom) WriteStage2(c chan string, traits string) {
@@ -108,7 +112,7 @@ func (*Mushroom) WriteStage2(c chan string, traits string) {
 }
 
 func (p *Mushroom) WriteStage3(c chan string, traits string) {
-	c <- fmt.Sprintf(`<block name="plantedMushroom3_%s" stage="3" traits="%s">
+	c <- fmt.Sprintf(`<block name="plantedMushroom3_%s" stage="3" traits="%s" tags="T%dPlant">
 	<drop event="Destroy" name="plantedMushroom1_%s" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
 	<drop event="Harvest" name="foodCropMushrooms" count="%d" tag="cropHarvest"/>
@@ -116,7 +120,7 @@ func (p *Mushroom) WriteStage3(c chan string, traits string) {
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CropsGrown.BonusHarvestDivisor" value="16"/>
-	<property name="CustomIcon" value="plantedMushroom3Harvest"/>
+	<property name="CustomIcon" value="plantedMushroom1"/>
 	<property name="CustomIconTint" value="ff8000"/>
 	<property name="DescriptionKey" value="plantedMushroom3_%s"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -135,6 +139,7 @@ func (p *Mushroom) WriteStage3(c chan string, traits string) {
 </block>`,
 		traits,
 		traits,
+		calculatePlantTier(traits),
 		traits,
 		calculateCropYield(p.CropYield, traits),
 		calculateBonusYield(p.BonusYield, traits),

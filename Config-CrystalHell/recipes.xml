@@ -4,7 +4,7 @@
 	<ingredient name="resourceMechanicalParts" count="8"/>
 	<ingredient name="resourceWood" count="25"/>
 </recipe>
-<recipe name="plantedAloe1_" count="1" craft_time="900" traits="">
+<recipe name="plantedAloe1_" count="1" craft_time="900" traits="" craft_area="hotbox">
     <ingredient name="plantedAloe1" count="1"/>
     <ingredient name="foodRottingFlesh" count="1"/>
     <ingredient name="resourceCloth" count="1"/>
@@ -61,6 +61,15 @@
     <ingredient name="plantedAloe1_" count="1"/>
     <ingredient name="plantedMushroom1" count="1"/>
 </recipe>
+<recipe name="plantedAloe1_UB" count="1" craft_time="2" traits="UB" craft_area="hotbox">
+    <ingredient name="plantedAloe1_U" count="1"/>
+    <ingredient name="foodRottingFlesh" count="5"/>
+    <ingredient name="medicalBloodBag" count="2"/>
+</recipe>
+<recipe name="plantedAloe1_UB" count="1" craft_time="2" traits="UB" craft_area="hotbox">
+    <ingredient name="plantedAloe1_B" count="1"/>
+    <ingredient name="plantedMushroom1" count="1"/>
+</recipe>
 <recipe name="plantedAloe1_UF" count="1" craft_time="2" traits="UF" craft_area="hotbox">
     <ingredient name="plantedAloe1_U" count="1"/>
     <ingredient name="drinkCanMegaCrush" count="2"/>
@@ -100,6 +109,23 @@
     <ingredient name="plantedAloe1_" count="1"/>
     <ingredient name="drinkCanMegaCrush" count="2"/>
 </recipe>
+<recipe name="plantedAloe1_FB" count="1" craft_time="2" traits="FB" craft_area="hotbox">
+    <ingredient name="plantedAloe1_F" count="1"/>
+    <ingredient name="foodRottingFlesh" count="5"/>
+    <ingredient name="medicalBloodBag" count="2"/>
+</recipe>
+<recipe name="plantedAloe1_FB" count="1" craft_time="2" traits="FB" craft_area="hotbox">
+    <ingredient name="plantedAloe1_B" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="2"/>
+</recipe>
+<recipe name="plantedAloe1_FU" count="1" craft_time="2" traits="FU" craft_area="hotbox">
+    <ingredient name="plantedAloe1_F" count="1"/>
+    <ingredient name="plantedMushroom1" count="1"/>
+</recipe>
+<recipe name="plantedAloe1_FU" count="1" craft_time="2" traits="FU" craft_area="hotbox">
+    <ingredient name="plantedAloe1_U" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="2"/>
+</recipe>
 <recipe name="plantedAloe1_FF" count="1" craft_time="2" traits="FF" craft_area="hotbox">
     <ingredient name="plantedAloe1_F" count="1"/>
     <ingredient name="drinkCanMegaCrush" count="2"/>
@@ -137,6 +163,26 @@
     <ingredient name="resourceGunPowder" count="4"/>
     <ingredient name="resourceDuctTape" count="1"/>
 </recipe>
+<recipe name="plantedAloe1_EU" count="1" craft_time="2" traits="EU" craft_area="hotbox">
+    <ingredient name="plantedAloe1_E" count="1"/>
+    <ingredient name="plantedMushroom1" count="1"/>
+</recipe>
+<recipe name="plantedAloe1_EU" count="1" craft_time="2" traits="EU" craft_area="hotbox">
+    <ingredient name="plantedAloe1_U" count="1"/>
+    <ingredient name="resourceScrapIron" count="4"/>
+    <ingredient name="resourceGunPowder" count="4"/>
+    <ingredient name="resourceDuctTape" count="1"/>
+</recipe>
+<recipe name="plantedAloe1_EF" count="1" craft_time="2" traits="EF" craft_area="hotbox">
+    <ingredient name="plantedAloe1_E" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="2"/>
+</recipe>
+<recipe name="plantedAloe1_EF" count="1" craft_time="2" traits="EF" craft_area="hotbox">
+    <ingredient name="plantedAloe1_F" count="1"/>
+    <ingredient name="resourceScrapIron" count="4"/>
+    <ingredient name="resourceGunPowder" count="4"/>
+    <ingredient name="resourceDuctTape" count="1"/>
+</recipe>
 <recipe name="plantedAloe1_EE" count="1" craft_time="2" traits="EE" craft_area="hotbox">
     <ingredient name="plantedAloe1_E" count="1"/>
     <ingredient name="resourceScrapIron" count="4"/>
@@ -158,6 +204,31 @@
     <ingredient name="plantedAloe1_" count="1"/>
     <ingredient name="drinkJarPureMineralWater" count="10"/>
 </recipe>
+<recipe name="plantedAloe1_RB" count="1" craft_time="2" traits="RB" craft_area="hotbox">
+    <ingredient name="plantedAloe1_R" count="1"/>
+    <ingredient name="foodRottingFlesh" count="5"/>
+    <ingredient name="medicalBloodBag" count="2"/>
+</recipe>
+<recipe name="plantedAloe1_RB" count="1" craft_time="2" traits="RB" craft_area="hotbox">
+    <ingredient name="plantedAloe1_B" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="10"/>
+</recipe>
+<recipe name="plantedAloe1_RU" count="1" craft_time="2" traits="RU" craft_area="hotbox">
+    <ingredient name="plantedAloe1_R" count="1"/>
+    <ingredient name="plantedMushroom1" count="1"/>
+</recipe>
+<recipe name="plantedAloe1_RU" count="1" craft_time="2" traits="RU" craft_area="hotbox">
+    <ingredient name="plantedAloe1_U" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="10"/>
+</recipe>
+<recipe name="plantedAloe1_RF" count="1" craft_time="2" traits="RF" craft_area="hotbox">
+    <ingredient name="plantedAloe1_R" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="2"/>
+</recipe>
+<recipe name="plantedAloe1_RF" count="1" craft_time="2" traits="RF" craft_area="hotbox">
+    <ingredient name="plantedAloe1_F" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="10"/>
+</recipe>
 <recipe name="plantedAloe1_RT" count="1" craft_time="2" traits="RT" craft_area="hotbox">
     <ingredient name="plantedAloe1_R" count="1"/>
     <ingredient name="resourceScrapIron" count="10"/>
@@ -172,12 +243,60 @@
     <ingredient name="resourceScrapIron" count="10"/>
     <ingredient name="resourceNail" count="10"/>
 </recipe>
+<recipe name="plantedAloe1_TB" count="1" craft_time="2" traits="TB" craft_area="hotbox">
+    <ingredient name="plantedAloe1_T" count="1"/>
+    <ingredient name="foodRottingFlesh" count="5"/>
+    <ingredient name="medicalBloodBag" count="2"/>
+</recipe>
+<recipe name="plantedAloe1_TB" count="1" craft_time="2" traits="TB" craft_area="hotbox">
+    <ingredient name="plantedAloe1_B" count="1"/>
+    <ingredient name="resourceScrapIron" count="10"/>
+    <ingredient name="resourceNail" count="10"/>
+</recipe>
+<recipe name="plantedAloe1_TU" count="1" craft_time="2" traits="TU" craft_area="hotbox">
+    <ingredient name="plantedAloe1_T" count="1"/>
+    <ingredient name="plantedMushroom1" count="1"/>
+</recipe>
+<recipe name="plantedAloe1_TU" count="1" craft_time="2" traits="TU" craft_area="hotbox">
+    <ingredient name="plantedAloe1_U" count="1"/>
+    <ingredient name="resourceScrapIron" count="10"/>
+    <ingredient name="resourceNail" count="10"/>
+</recipe>
+<recipe name="plantedAloe1_TF" count="1" craft_time="2" traits="TF" craft_area="hotbox">
+    <ingredient name="plantedAloe1_T" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="2"/>
+</recipe>
+<recipe name="plantedAloe1_TF" count="1" craft_time="2" traits="TF" craft_area="hotbox">
+    <ingredient name="plantedAloe1_F" count="1"/>
+    <ingredient name="resourceScrapIron" count="10"/>
+    <ingredient name="resourceNail" count="10"/>
+</recipe>
+<recipe name="plantedAloe1_TE" count="1" craft_time="2" traits="TE" craft_area="hotbox">
+    <ingredient name="plantedAloe1_T" count="1"/>
+    <ingredient name="resourceScrapIron" count="4"/>
+    <ingredient name="resourceGunPowder" count="4"/>
+    <ingredient name="resourceDuctTape" count="1"/>
+</recipe>
+<recipe name="plantedAloe1_TE" count="1" craft_time="2" traits="TE" craft_area="hotbox">
+    <ingredient name="plantedAloe1_E" count="1"/>
+    <ingredient name="resourceScrapIron" count="10"/>
+    <ingredient name="resourceNail" count="10"/>
+</recipe>
+<recipe name="plantedAloe1_TR" count="1" craft_time="2" traits="TR" craft_area="hotbox">
+    <ingredient name="plantedAloe1_T" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="10"/>
+</recipe>
+<recipe name="plantedAloe1_TR" count="1" craft_time="2" traits="TR" craft_area="hotbox">
+    <ingredient name="plantedAloe1_R" count="1"/>
+    <ingredient name="resourceScrapIron" count="10"/>
+    <ingredient name="resourceNail" count="10"/>
+</recipe>
 <recipe name="plantedAloe1_TT" count="1" craft_time="2" traits="TT" craft_area="hotbox">
     <ingredient name="plantedAloe1_T" count="1"/>
     <ingredient name="resourceScrapIron" count="10"/>
     <ingredient name="resourceNail" count="10"/>
 </recipe>
-<recipe name="plantedBlueberry1_" count="1" craft_time="900" traits="">
+<recipe name="plantedBlueberry1_" count="1" craft_time="900" traits="" craft_area="hotbox">
     <ingredient name="plantedBlueberry1" count="1"/>
     <ingredient name="foodRottingFlesh" count="1"/>
     <ingredient name="resourceCloth" count="1"/>
@@ -234,6 +353,15 @@
     <ingredient name="plantedBlueberry1_" count="1"/>
     <ingredient name="plantedMushroom1" count="1"/>
 </recipe>
+<recipe name="plantedBlueberry1_UB" count="1" craft_time="2" traits="UB" craft_area="hotbox">
+    <ingredient name="plantedBlueberry1_U" count="1"/>
+    <ingredient name="foodRottingFlesh" count="5"/>
+    <ingredient name="medicalBloodBag" count="2"/>
+</recipe>
+<recipe name="plantedBlueberry1_UB" count="1" craft_time="2" traits="UB" craft_area="hotbox">
+    <ingredient name="plantedBlueberry1_B" count="1"/>
+    <ingredient name="plantedMushroom1" count="1"/>
+</recipe>
 <recipe name="plantedBlueberry1_UF" count="1" craft_time="2" traits="UF" craft_area="hotbox">
     <ingredient name="plantedBlueberry1_U" count="1"/>
     <ingredient name="drinkCanMegaCrush" count="2"/>
@@ -273,6 +401,23 @@
     <ingredient name="plantedBlueberry1_" count="1"/>
     <ingredient name="drinkCanMegaCrush" count="2"/>
 </recipe>
+<recipe name="plantedBlueberry1_FB" count="1" craft_time="2" traits="FB" craft_area="hotbox">
+    <ingredient name="plantedBlueberry1_F" count="1"/>
+    <ingredient name="foodRottingFlesh" count="5"/>
+    <ingredient name="medicalBloodBag" count="2"/>
+</recipe>
+<recipe name="plantedBlueberry1_FB" count="1" craft_time="2" traits="FB" craft_area="hotbox">
+    <ingredient name="plantedBlueberry1_B" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="2"/>
+</recipe>
+<recipe name="plantedBlueberry1_FU" count="1" craft_time="2" traits="FU" craft_area="hotbox">
+    <ingredient name="plantedBlueberry1_F" count="1"/>
+    <ingredient name="plantedMushroom1" count="1"/>
+</recipe>
+<recipe name="plantedBlueberry1_FU" count="1" craft_time="2" traits="FU" craft_area="hotbox">
+    <ingredient name="plantedBlueberry1_U" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="2"/>
+</recipe>
 <recipe name="plantedBlueberry1_FF" count="1" craft_time="2" traits="FF" craft_area="hotbox">
     <ingredient name="plantedBlueberry1_F" count="1"/>
     <ingredient name="drinkCanMegaCrush" count="2"/>
@@ -310,6 +455,26 @@
     <ingredient name="resourceGunPowder" count="4"/>
     <ingredient name="resourceDuctTape" count="1"/>
 </recipe>
+<recipe name="plantedBlueberry1_EU" count="1" craft_time="2" traits="EU" craft_area="hotbox">
+    <ingredient name="plantedBlueberry1_E" count="1"/>
+    <ingredient name="plantedMushroom1" count="1"/>
+</recipe>
+<recipe name="plantedBlueberry1_EU" count="1" craft_time="2" traits="EU" craft_area="hotbox">
+    <ingredient name="plantedBlueberry1_U" count="1"/>
+    <ingredient name="resourceScrapIron" count="4"/>
+    <ingredient name="resourceGunPowder" count="4"/>
+    <ingredient name="resourceDuctTape" count="1"/>
+</recipe>
+<recipe name="plantedBlueberry1_EF" count="1" craft_time="2" traits="EF" craft_area="hotbox">
+    <ingredient name="plantedBlueberry1_E" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="2"/>
+</recipe>
+<recipe name="plantedBlueberry1_EF" count="1" craft_time="2" traits="EF" craft_area="hotbox">
+    <ingredient name="plantedBlueberry1_F" count="1"/>
+    <ingredient name="resourceScrapIron" count="4"/>
+    <ingredient name="resourceGunPowder" count="4"/>
+    <ingredient name="resourceDuctTape" count="1"/>
+</recipe>
 <recipe name="plantedBlueberry1_EE" count="1" craft_time="2" traits="EE" craft_area="hotbox">
     <ingredient name="plantedBlueberry1_E" count="1"/>
     <ingredient name="resourceScrapIron" count="4"/>
@@ -331,6 +496,31 @@
     <ingredient name="plantedBlueberry1_" count="1"/>
     <ingredient name="drinkJarPureMineralWater" count="10"/>
 </recipe>
+<recipe name="plantedBlueberry1_RB" count="1" craft_time="2" traits="RB" craft_area="hotbox">
+    <ingredient name="plantedBlueberry1_R" count="1"/>
+    <ingredient name="foodRottingFlesh" count="5"/>
+    <ingredient name="medicalBloodBag" count="2"/>
+</recipe>
+<recipe name="plantedBlueberry1_RB" count="1" craft_time="2" traits="RB" craft_area="hotbox">
+    <ingredient name="plantedBlueberry1_B" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="10"/>
+</recipe>
+<recipe name="plantedBlueberry1_RU" count="1" craft_time="2" traits="RU" craft_area="hotbox">
+    <ingredient name="plantedBlueberry1_R" count="1"/>
+    <ingredient name="plantedMushroom1" count="1"/>
+</recipe>
+<recipe name="plantedBlueberry1_RU" count="1" craft_time="2" traits="RU" craft_area="hotbox">
+    <ingredient name="plantedBlueberry1_U" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="10"/>
+</recipe>
+<recipe name="plantedBlueberry1_RF" count="1" craft_time="2" traits="RF" craft_area="hotbox">
+    <ingredient name="plantedBlueberry1_R" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="2"/>
+</recipe>
+<recipe name="plantedBlueberry1_RF" count="1" craft_time="2" traits="RF" craft_area="hotbox">
+    <ingredient name="plantedBlueberry1_F" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="10"/>
+</recipe>
 <recipe name="plantedBlueberry1_RT" count="1" craft_time="2" traits="RT" craft_area="hotbox">
     <ingredient name="plantedBlueberry1_R" count="1"/>
     <ingredient name="resourceScrapIron" count="10"/>
@@ -345,12 +535,60 @@
     <ingredient name="resourceScrapIron" count="10"/>
     <ingredient name="resourceNail" count="10"/>
 </recipe>
+<recipe name="plantedBlueberry1_TB" count="1" craft_time="2" traits="TB" craft_area="hotbox">
+    <ingredient name="plantedBlueberry1_T" count="1"/>
+    <ingredient name="foodRottingFlesh" count="5"/>
+    <ingredient name="medicalBloodBag" count="2"/>
+</recipe>
+<recipe name="plantedBlueberry1_TB" count="1" craft_time="2" traits="TB" craft_area="hotbox">
+    <ingredient name="plantedBlueberry1_B" count="1"/>
+    <ingredient name="resourceScrapIron" count="10"/>
+    <ingredient name="resourceNail" count="10"/>
+</recipe>
+<recipe name="plantedBlueberry1_TU" count="1" craft_time="2" traits="TU" craft_area="hotbox">
+    <ingredient name="plantedBlueberry1_T" count="1"/>
+    <ingredient name="plantedMushroom1" count="1"/>
+</recipe>
+<recipe name="plantedBlueberry1_TU" count="1" craft_time="2" traits="TU" craft_area="hotbox">
+    <ingredient name="plantedBlueberry1_U" count="1"/>
+    <ingredient name="resourceScrapIron" count="10"/>
+    <ingredient name="resourceNail" count="10"/>
+</recipe>
+<recipe name="plantedBlueberry1_TF" count="1" craft_time="2" traits="TF" craft_area="hotbox">
+    <ingredient name="plantedBlueberry1_T" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="2"/>
+</recipe>
+<recipe name="plantedBlueberry1_TF" count="1" craft_time="2" traits="TF" craft_area="hotbox">
+    <ingredient name="plantedBlueberry1_F" count="1"/>
+    <ingredient name="resourceScrapIron" count="10"/>
+    <ingredient name="resourceNail" count="10"/>
+</recipe>
+<recipe name="plantedBlueberry1_TE" count="1" craft_time="2" traits="TE" craft_area="hotbox">
+    <ingredient name="plantedBlueberry1_T" count="1"/>
+    <ingredient name="resourceScrapIron" count="4"/>
+    <ingredient name="resourceGunPowder" count="4"/>
+    <ingredient name="resourceDuctTape" count="1"/>
+</recipe>
+<recipe name="plantedBlueberry1_TE" count="1" craft_time="2" traits="TE" craft_area="hotbox">
+    <ingredient name="plantedBlueberry1_E" count="1"/>
+    <ingredient name="resourceScrapIron" count="10"/>
+    <ingredient name="resourceNail" count="10"/>
+</recipe>
+<recipe name="plantedBlueberry1_TR" count="1" craft_time="2" traits="TR" craft_area="hotbox">
+    <ingredient name="plantedBlueberry1_T" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="10"/>
+</recipe>
+<recipe name="plantedBlueberry1_TR" count="1" craft_time="2" traits="TR" craft_area="hotbox">
+    <ingredient name="plantedBlueberry1_R" count="1"/>
+    <ingredient name="resourceScrapIron" count="10"/>
+    <ingredient name="resourceNail" count="10"/>
+</recipe>
 <recipe name="plantedBlueberry1_TT" count="1" craft_time="2" traits="TT" craft_area="hotbox">
     <ingredient name="plantedBlueberry1_T" count="1"/>
     <ingredient name="resourceScrapIron" count="10"/>
     <ingredient name="resourceNail" count="10"/>
 </recipe>
-<recipe name="plantedChrysanthemum1_" count="1" craft_time="900" traits="">
+<recipe name="plantedChrysanthemum1_" count="1" craft_time="900" traits="" craft_area="hotbox">
     <ingredient name="plantedChrysanthemum1" count="1"/>
     <ingredient name="foodRottingFlesh" count="1"/>
     <ingredient name="resourceCloth" count="1"/>
@@ -407,6 +645,15 @@
     <ingredient name="plantedChrysanthemum1_" count="1"/>
     <ingredient name="plantedMushroom1" count="1"/>
 </recipe>
+<recipe name="plantedChrysanthemum1_UB" count="1" craft_time="2" traits="UB" craft_area="hotbox">
+    <ingredient name="plantedChrysanthemum1_U" count="1"/>
+    <ingredient name="foodRottingFlesh" count="5"/>
+    <ingredient name="medicalBloodBag" count="2"/>
+</recipe>
+<recipe name="plantedChrysanthemum1_UB" count="1" craft_time="2" traits="UB" craft_area="hotbox">
+    <ingredient name="plantedChrysanthemum1_B" count="1"/>
+    <ingredient name="plantedMushroom1" count="1"/>
+</recipe>
 <recipe name="plantedChrysanthemum1_UF" count="1" craft_time="2" traits="UF" craft_area="hotbox">
     <ingredient name="plantedChrysanthemum1_U" count="1"/>
     <ingredient name="drinkCanMegaCrush" count="2"/>
@@ -446,6 +693,23 @@
     <ingredient name="plantedChrysanthemum1_" count="1"/>
     <ingredient name="drinkCanMegaCrush" count="2"/>
 </recipe>
+<recipe name="plantedChrysanthemum1_FB" count="1" craft_time="2" traits="FB" craft_area="hotbox">
+    <ingredient name="plantedChrysanthemum1_F" count="1"/>
+    <ingredient name="foodRottingFlesh" count="5"/>
+    <ingredient name="medicalBloodBag" count="2"/>
+</recipe>
+<recipe name="plantedChrysanthemum1_FB" count="1" craft_time="2" traits="FB" craft_area="hotbox">
+    <ingredient name="plantedChrysanthemum1_B" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="2"/>
+</recipe>
+<recipe name="plantedChrysanthemum1_FU" count="1" craft_time="2" traits="FU" craft_area="hotbox">
+    <ingredient name="plantedChrysanthemum1_F" count="1"/>
+    <ingredient name="plantedMushroom1" count="1"/>
+</recipe>
+<recipe name="plantedChrysanthemum1_FU" count="1" craft_time="2" traits="FU" craft_area="hotbox">
+    <ingredient name="plantedChrysanthemum1_U" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="2"/>
+</recipe>
 <recipe name="plantedChrysanthemum1_FF" count="1" craft_time="2" traits="FF" craft_area="hotbox">
     <ingredient name="plantedChrysanthemum1_F" count="1"/>
     <ingredient name="drinkCanMegaCrush" count="2"/>
@@ -483,6 +747,26 @@
     <ingredient name="resourceGunPowder" count="4"/>
     <ingredient name="resourceDuctTape" count="1"/>
 </recipe>
+<recipe name="plantedChrysanthemum1_EU" count="1" craft_time="2" traits="EU" craft_area="hotbox">
+    <ingredient name="plantedChrysanthemum1_E" count="1"/>
+    <ingredient name="plantedMushroom1" count="1"/>
+</recipe>
+<recipe name="plantedChrysanthemum1_EU" count="1" craft_time="2" traits="EU" craft_area="hotbox">
+    <ingredient name="plantedChrysanthemum1_U" count="1"/>
+    <ingredient name="resourceScrapIron" count="4"/>
+    <ingredient name="resourceGunPowder" count="4"/>
+    <ingredient name="resourceDuctTape" count="1"/>
+</recipe>
+<recipe name="plantedChrysanthemum1_EF" count="1" craft_time="2" traits="EF" craft_area="hotbox">
+    <ingredient name="plantedChrysanthemum1_E" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="2"/>
+</recipe>
+<recipe name="plantedChrysanthemum1_EF" count="1" craft_time="2" traits="EF" craft_area="hotbox">
+    <ingredient name="plantedChrysanthemum1_F" count="1"/>
+    <ingredient name="resourceScrapIron" count="4"/>
+    <ingredient name="resourceGunPowder" count="4"/>
+    <ingredient name="resourceDuctTape" count="1"/>
+</recipe>
 <recipe name="plantedChrysanthemum1_EE" count="1" craft_time="2" traits="EE" craft_area="hotbox">
     <ingredient name="plantedChrysanthemum1_E" count="1"/>
     <ingredient name="resourceScrapIron" count="4"/>
@@ -504,6 +788,31 @@
     <ingredient name="plantedChrysanthemum1_" count="1"/>
     <ingredient name="drinkJarPureMineralWater" count="10"/>
 </recipe>
+<recipe name="plantedChrysanthemum1_RB" count="1" craft_time="2" traits="RB" craft_area="hotbox">
+    <ingredient name="plantedChrysanthemum1_R" count="1"/>
+    <ingredient name="foodRottingFlesh" count="5"/>
+    <ingredient name="medicalBloodBag" count="2"/>
+</recipe>
+<recipe name="plantedChrysanthemum1_RB" count="1" craft_time="2" traits="RB" craft_area="hotbox">
+    <ingredient name="plantedChrysanthemum1_B" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="10"/>
+</recipe>
+<recipe name="plantedChrysanthemum1_RU" count="1" craft_time="2" traits="RU" craft_area="hotbox">
+    <ingredient name="plantedChrysanthemum1_R" count="1"/>
+    <ingredient name="plantedMushroom1" count="1"/>
+</recipe>
+<recipe name="plantedChrysanthemum1_RU" count="1" craft_time="2" traits="RU" craft_area="hotbox">
+    <ingredient name="plantedChrysanthemum1_U" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="10"/>
+</recipe>
+<recipe name="plantedChrysanthemum1_RF" count="1" craft_time="2" traits="RF" craft_area="hotbox">
+    <ingredient name="plantedChrysanthemum1_R" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="2"/>
+</recipe>
+<recipe name="plantedChrysanthemum1_RF" count="1" craft_time="2" traits="RF" craft_area="hotbox">
+    <ingredient name="plantedChrysanthemum1_F" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="10"/>
+</recipe>
 <recipe name="plantedChrysanthemum1_RT" count="1" craft_time="2" traits="RT" craft_area="hotbox">
     <ingredient name="plantedChrysanthemum1_R" count="1"/>
     <ingredient name="resourceScrapIron" count="10"/>
@@ -518,12 +827,60 @@
     <ingredient name="resourceScrapIron" count="10"/>
     <ingredient name="resourceNail" count="10"/>
 </recipe>
+<recipe name="plantedChrysanthemum1_TB" count="1" craft_time="2" traits="TB" craft_area="hotbox">
+    <ingredient name="plantedChrysanthemum1_T" count="1"/>
+    <ingredient name="foodRottingFlesh" count="5"/>
+    <ingredient name="medicalBloodBag" count="2"/>
+</recipe>
+<recipe name="plantedChrysanthemum1_TB" count="1" craft_time="2" traits="TB" craft_area="hotbox">
+    <ingredient name="plantedChrysanthemum1_B" count="1"/>
+    <ingredient name="resourceScrapIron" count="10"/>
+    <ingredient name="resourceNail" count="10"/>
+</recipe>
+<recipe name="plantedChrysanthemum1_TU" count="1" craft_time="2" traits="TU" craft_area="hotbox">
+    <ingredient name="plantedChrysanthemum1_T" count="1"/>
+    <ingredient name="plantedMushroom1" count="1"/>
+</recipe>
+<recipe name="plantedChrysanthemum1_TU" count="1" craft_time="2" traits="TU" craft_area="hotbox">
+    <ingredient name="plantedChrysanthemum1_U" count="1"/>
+    <ingredient name="resourceScrapIron" count="10"/>
+    <ingredient name="resourceNail" count="10"/>
+</recipe>
+<recipe name="plantedChrysanthemum1_TF" count="1" craft_time="2" traits="TF" craft_area="hotbox">
+    <ingredient name="plantedChrysanthemum1_T" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="2"/>
+</recipe>
+<recipe name="plantedChrysanthemum1_TF" count="1" craft_time="2" traits="TF" craft_area="hotbox">
+    <ingredient name="plantedChrysanthemum1_F" count="1"/>
+    <ingredient name="resourceScrapIron" count="10"/>
+    <ingredient name="resourceNail" count="10"/>
+</recipe>
+<recipe name="plantedChrysanthemum1_TE" count="1" craft_time="2" traits="TE" craft_area="hotbox">
+    <ingredient name="plantedChrysanthemum1_T" count="1"/>
+    <ingredient name="resourceScrapIron" count="4"/>
+    <ingredient name="resourceGunPowder" count="4"/>
+    <ingredient name="resourceDuctTape" count="1"/>
+</recipe>
+<recipe name="plantedChrysanthemum1_TE" count="1" craft_time="2" traits="TE" craft_area="hotbox">
+    <ingredient name="plantedChrysanthemum1_E" count="1"/>
+    <ingredient name="resourceScrapIron" count="10"/>
+    <ingredient name="resourceNail" count="10"/>
+</recipe>
+<recipe name="plantedChrysanthemum1_TR" count="1" craft_time="2" traits="TR" craft_area="hotbox">
+    <ingredient name="plantedChrysanthemum1_T" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="10"/>
+</recipe>
+<recipe name="plantedChrysanthemum1_TR" count="1" craft_time="2" traits="TR" craft_area="hotbox">
+    <ingredient name="plantedChrysanthemum1_R" count="1"/>
+    <ingredient name="resourceScrapIron" count="10"/>
+    <ingredient name="resourceNail" count="10"/>
+</recipe>
 <recipe name="plantedChrysanthemum1_TT" count="1" craft_time="2" traits="TT" craft_area="hotbox">
     <ingredient name="plantedChrysanthemum1_T" count="1"/>
     <ingredient name="resourceScrapIron" count="10"/>
     <ingredient name="resourceNail" count="10"/>
 </recipe>
-<recipe name="plantedCoffee1_" count="1" craft_time="900" traits="">
+<recipe name="plantedCoffee1_" count="1" craft_time="900" traits="" craft_area="hotbox">
     <ingredient name="plantedCoffee1" count="1"/>
     <ingredient name="foodRottingFlesh" count="1"/>
     <ingredient name="resourceCloth" count="1"/>
@@ -580,6 +937,15 @@
     <ingredient name="plantedCoffee1_" count="1"/>
     <ingredient name="plantedMushroom1" count="1"/>
 </recipe>
+<recipe name="plantedCoffee1_UB" count="1" craft_time="2" traits="UB" craft_area="hotbox">
+    <ingredient name="plantedCoffee1_U" count="1"/>
+    <ingredient name="foodRottingFlesh" count="5"/>
+    <ingredient name="medicalBloodBag" count="2"/>
+</recipe>
+<recipe name="plantedCoffee1_UB" count="1" craft_time="2" traits="UB" craft_area="hotbox">
+    <ingredient name="plantedCoffee1_B" count="1"/>
+    <ingredient name="plantedMushroom1" count="1"/>
+</recipe>
 <recipe name="plantedCoffee1_UF" count="1" craft_time="2" traits="UF" craft_area="hotbox">
     <ingredient name="plantedCoffee1_U" count="1"/>
     <ingredient name="drinkCanMegaCrush" count="2"/>
@@ -619,6 +985,23 @@
     <ingredient name="plantedCoffee1_" count="1"/>
     <ingredient name="drinkCanMegaCrush" count="2"/>
 </recipe>
+<recipe name="plantedCoffee1_FB" count="1" craft_time="2" traits="FB" craft_area="hotbox">
+    <ingredient name="plantedCoffee1_F" count="1"/>
+    <ingredient name="foodRottingFlesh" count="5"/>
+    <ingredient name="medicalBloodBag" count="2"/>
+</recipe>
+<recipe name="plantedCoffee1_FB" count="1" craft_time="2" traits="FB" craft_area="hotbox">
+    <ingredient name="plantedCoffee1_B" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="2"/>
+</recipe>
+<recipe name="plantedCoffee1_FU" count="1" craft_time="2" traits="FU" craft_area="hotbox">
+    <ingredient name="plantedCoffee1_F" count="1"/>
+    <ingredient name="plantedMushroom1" count="1"/>
+</recipe>
+<recipe name="plantedCoffee1_FU" count="1" craft_time="2" traits="FU" craft_area="hotbox">
+    <ingredient name="plantedCoffee1_U" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="2"/>
+</recipe>
 <recipe name="plantedCoffee1_FF" count="1" craft_time="2" traits="FF" craft_area="hotbox">
     <ingredient name="plantedCoffee1_F" count="1"/>
     <ingredient name="drinkCanMegaCrush" count="2"/>
@@ -656,6 +1039,26 @@
     <ingredient name="resourceGunPowder" count="4"/>
     <ingredient name="resourceDuctTape" count="1"/>
 </recipe>
+<recipe name="plantedCoffee1_EU" count="1" craft_time="2" traits="EU" craft_area="hotbox">
+    <ingredient name="plantedCoffee1_E" count="1"/>
+    <ingredient name="plantedMushroom1" count="1"/>
+</recipe>
+<recipe name="plantedCoffee1_EU" count="1" craft_time="2" traits="EU" craft_area="hotbox">
+    <ingredient name="plantedCoffee1_U" count="1"/>
+    <ingredient name="resourceScrapIron" count="4"/>
+    <ingredient name="resourceGunPowder" count="4"/>
+    <ingredient name="resourceDuctTape" count="1"/>
+</recipe>
+<recipe name="plantedCoffee1_EF" count="1" craft_time="2" traits="EF" craft_area="hotbox">
+    <ingredient name="plantedCoffee1_E" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="2"/>
+</recipe>
+<recipe name="plantedCoffee1_EF" count="1" craft_time="2" traits="EF" craft_area="hotbox">
+    <ingredient name="plantedCoffee1_F" count="1"/>
+    <ingredient name="resourceScrapIron" count="4"/>
+    <ingredient name="resourceGunPowder" count="4"/>
+    <ingredient name="resourceDuctTape" count="1"/>
+</recipe>
 <recipe name="plantedCoffee1_EE" count="1" craft_time="2" traits="EE" craft_area="hotbox">
     <ingredient name="plantedCoffee1_E" count="1"/>
     <ingredient name="resourceScrapIron" count="4"/>
@@ -677,6 +1080,31 @@
     <ingredient name="plantedCoffee1_" count="1"/>
     <ingredient name="drinkJarPureMineralWater" count="10"/>
 </recipe>
+<recipe name="plantedCoffee1_RB" count="1" craft_time="2" traits="RB" craft_area="hotbox">
+    <ingredient name="plantedCoffee1_R" count="1"/>
+    <ingredient name="foodRottingFlesh" count="5"/>
+    <ingredient name="medicalBloodBag" count="2"/>
+</recipe>
+<recipe name="plantedCoffee1_RB" count="1" craft_time="2" traits="RB" craft_area="hotbox">
+    <ingredient name="plantedCoffee1_B" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="10"/>
+</recipe>
+<recipe name="plantedCoffee1_RU" count="1" craft_time="2" traits="RU" craft_area="hotbox">
+    <ingredient name="plantedCoffee1_R" count="1"/>
+    <ingredient name="plantedMushroom1" count="1"/>
+</recipe>
+<recipe name="plantedCoffee1_RU" count="1" craft_time="2" traits="RU" craft_area="hotbox">
+    <ingredient name="plantedCoffee1_U" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="10"/>
+</recipe>
+<recipe name="plantedCoffee1_RF" count="1" craft_time="2" traits="RF" craft_area="hotbox">
+    <ingredient name="plantedCoffee1_R" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="2"/>
+</recipe>
+<recipe name="plantedCoffee1_RF" count="1" craft_time="2" traits="RF" craft_area="hotbox">
+    <ingredient name="plantedCoffee1_F" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="10"/>
+</recipe>
 <recipe name="plantedCoffee1_RT" count="1" craft_time="2" traits="RT" craft_area="hotbox">
     <ingredient name="plantedCoffee1_R" count="1"/>
     <ingredient name="resourceScrapIron" count="10"/>
@@ -691,12 +1119,60 @@
     <ingredient name="resourceScrapIron" count="10"/>
     <ingredient name="resourceNail" count="10"/>
 </recipe>
+<recipe name="plantedCoffee1_TB" count="1" craft_time="2" traits="TB" craft_area="hotbox">
+    <ingredient name="plantedCoffee1_T" count="1"/>
+    <ingredient name="foodRottingFlesh" count="5"/>
+    <ingredient name="medicalBloodBag" count="2"/>
+</recipe>
+<recipe name="plantedCoffee1_TB" count="1" craft_time="2" traits="TB" craft_area="hotbox">
+    <ingredient name="plantedCoffee1_B" count="1"/>
+    <ingredient name="resourceScrapIron" count="10"/>
+    <ingredient name="resourceNail" count="10"/>
+</recipe>
+<recipe name="plantedCoffee1_TU" count="1" craft_time="2" traits="TU" craft_area="hotbox">
+    <ingredient name="plantedCoffee1_T" count="1"/>
+    <ingredient name="plantedMushroom1" count="1"/>
+</recipe>
+<recipe name="plantedCoffee1_TU" count="1" craft_time="2" traits="TU" craft_area="hotbox">
+    <ingredient name="plantedCoffee1_U" count="1"/>
+    <ingredient name="resourceScrapIron" count="10"/>
+    <ingredient name="resourceNail" count="10"/>
+</recipe>
+<recipe name="plantedCoffee1_TF" count="1" craft_time="2" traits="TF" craft_area="hotbox">
+    <ingredient name="plantedCoffee1_T" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="2"/>
+</recipe>
+<recipe name="plantedCoffee1_TF" count="1" craft_time="2" traits="TF" craft_area="hotbox">
+    <ingredient name="plantedCoffee1_F" count="1"/>
+    <ingredient name="resourceScrapIron" count="10"/>
+    <ingredient name="resourceNail" count="10"/>
+</recipe>
+<recipe name="plantedCoffee1_TE" count="1" craft_time="2" traits="TE" craft_area="hotbox">
+    <ingredient name="plantedCoffee1_T" count="1"/>
+    <ingredient name="resourceScrapIron" count="4"/>
+    <ingredient name="resourceGunPowder" count="4"/>
+    <ingredient name="resourceDuctTape" count="1"/>
+</recipe>
+<recipe name="plantedCoffee1_TE" count="1" craft_time="2" traits="TE" craft_area="hotbox">
+    <ingredient name="plantedCoffee1_E" count="1"/>
+    <ingredient name="resourceScrapIron" count="10"/>
+    <ingredient name="resourceNail" count="10"/>
+</recipe>
+<recipe name="plantedCoffee1_TR" count="1" craft_time="2" traits="TR" craft_area="hotbox">
+    <ingredient name="plantedCoffee1_T" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="10"/>
+</recipe>
+<recipe name="plantedCoffee1_TR" count="1" craft_time="2" traits="TR" craft_area="hotbox">
+    <ingredient name="plantedCoffee1_R" count="1"/>
+    <ingredient name="resourceScrapIron" count="10"/>
+    <ingredient name="resourceNail" count="10"/>
+</recipe>
 <recipe name="plantedCoffee1_TT" count="1" craft_time="2" traits="TT" craft_area="hotbox">
     <ingredient name="plantedCoffee1_T" count="1"/>
     <ingredient name="resourceScrapIron" count="10"/>
     <ingredient name="resourceNail" count="10"/>
 </recipe>
-<recipe name="plantedCorn1_" count="1" craft_time="900" traits="">
+<recipe name="plantedCorn1_" count="1" craft_time="900" traits="" craft_area="hotbox">
     <ingredient name="plantedCorn1" count="1"/>
     <ingredient name="foodRottingFlesh" count="1"/>
     <ingredient name="resourceCloth" count="1"/>
@@ -753,6 +1229,15 @@
     <ingredient name="plantedCorn1_" count="1"/>
     <ingredient name="plantedMushroom1" count="1"/>
 </recipe>
+<recipe name="plantedCorn1_UB" count="1" craft_time="2" traits="UB" craft_area="hotbox">
+    <ingredient name="plantedCorn1_U" count="1"/>
+    <ingredient name="foodRottingFlesh" count="5"/>
+    <ingredient name="medicalBloodBag" count="2"/>
+</recipe>
+<recipe name="plantedCorn1_UB" count="1" craft_time="2" traits="UB" craft_area="hotbox">
+    <ingredient name="plantedCorn1_B" count="1"/>
+    <ingredient name="plantedMushroom1" count="1"/>
+</recipe>
 <recipe name="plantedCorn1_UF" count="1" craft_time="2" traits="UF" craft_area="hotbox">
     <ingredient name="plantedCorn1_U" count="1"/>
     <ingredient name="drinkCanMegaCrush" count="2"/>
@@ -792,6 +1277,23 @@
     <ingredient name="plantedCorn1_" count="1"/>
     <ingredient name="drinkCanMegaCrush" count="2"/>
 </recipe>
+<recipe name="plantedCorn1_FB" count="1" craft_time="2" traits="FB" craft_area="hotbox">
+    <ingredient name="plantedCorn1_F" count="1"/>
+    <ingredient name="foodRottingFlesh" count="5"/>
+    <ingredient name="medicalBloodBag" count="2"/>
+</recipe>
+<recipe name="plantedCorn1_FB" count="1" craft_time="2" traits="FB" craft_area="hotbox">
+    <ingredient name="plantedCorn1_B" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="2"/>
+</recipe>
+<recipe name="plantedCorn1_FU" count="1" craft_time="2" traits="FU" craft_area="hotbox">
+    <ingredient name="plantedCorn1_F" count="1"/>
+    <ingredient name="plantedMushroom1" count="1"/>
+</recipe>
+<recipe name="plantedCorn1_FU" count="1" craft_time="2" traits="FU" craft_area="hotbox">
+    <ingredient name="plantedCorn1_U" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="2"/>
+</recipe>
 <recipe name="plantedCorn1_FF" count="1" craft_time="2" traits="FF" craft_area="hotbox">
     <ingredient name="plantedCorn1_F" count="1"/>
     <ingredient name="drinkCanMegaCrush" count="2"/>
@@ -829,6 +1331,26 @@
     <ingredient name="resourceGunPowder" count="4"/>
     <ingredient name="resourceDuctTape" count="1"/>
 </recipe>
+<recipe name="plantedCorn1_EU" count="1" craft_time="2" traits="EU" craft_area="hotbox">
+    <ingredient name="plantedCorn1_E" count="1"/>
+    <ingredient name="plantedMushroom1" count="1"/>
+</recipe>
+<recipe name="plantedCorn1_EU" count="1" craft_time="2" traits="EU" craft_area="hotbox">
+    <ingredient name="plantedCorn1_U" count="1"/>
+    <ingredient name="resourceScrapIron" count="4"/>
+    <ingredient name="resourceGunPowder" count="4"/>
+    <ingredient name="resourceDuctTape" count="1"/>
+</recipe>
+<recipe name="plantedCorn1_EF" count="1" craft_time="2" traits="EF" craft_area="hotbox">
+    <ingredient name="plantedCorn1_E" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="2"/>
+</recipe>
+<recipe name="plantedCorn1_EF" count="1" craft_time="2" traits="EF" craft_area="hotbox">
+    <ingredient name="plantedCorn1_F" count="1"/>
+    <ingredient name="resourceScrapIron" count="4"/>
+    <ingredient name="resourceGunPowder" count="4"/>
+    <ingredient name="resourceDuctTape" count="1"/>
+</recipe>
 <recipe name="plantedCorn1_EE" count="1" craft_time="2" traits="EE" craft_area="hotbox">
     <ingredient name="plantedCorn1_E" count="1"/>
     <ingredient name="resourceScrapIron" count="4"/>
@@ -850,6 +1372,31 @@
     <ingredient name="plantedCorn1_" count="1"/>
     <ingredient name="drinkJarPureMineralWater" count="10"/>
 </recipe>
+<recipe name="plantedCorn1_RB" count="1" craft_time="2" traits="RB" craft_area="hotbox">
+    <ingredient name="plantedCorn1_R" count="1"/>
+    <ingredient name="foodRottingFlesh" count="5"/>
+    <ingredient name="medicalBloodBag" count="2"/>
+</recipe>
+<recipe name="plantedCorn1_RB" count="1" craft_time="2" traits="RB" craft_area="hotbox">
+    <ingredient name="plantedCorn1_B" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="10"/>
+</recipe>
+<recipe name="plantedCorn1_RU" count="1" craft_time="2" traits="RU" craft_area="hotbox">
+    <ingredient name="plantedCorn1_R" count="1"/>
+    <ingredient name="plantedMushroom1" count="1"/>
+</recipe>
+<recipe name="plantedCorn1_RU" count="1" craft_time="2" traits="RU" craft_area="hotbox">
+    <ingredient name="plantedCorn1_U" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="10"/>
+</recipe>
+<recipe name="plantedCorn1_RF" count="1" craft_time="2" traits="RF" craft_area="hotbox">
+    <ingredient name="plantedCorn1_R" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="2"/>
+</recipe>
+<recipe name="plantedCorn1_RF" count="1" craft_time="2" traits="RF" craft_area="hotbox">
+    <ingredient name="plantedCorn1_F" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="10"/>
+</recipe>
 <recipe name="plantedCorn1_RT" count="1" craft_time="2" traits="RT" craft_area="hotbox">
     <ingredient name="plantedCorn1_R" count="1"/>
     <ingredient name="resourceScrapIron" count="10"/>
@@ -864,12 +1411,60 @@
     <ingredient name="resourceScrapIron" count="10"/>
     <ingredient name="resourceNail" count="10"/>
 </recipe>
+<recipe name="plantedCorn1_TB" count="1" craft_time="2" traits="TB" craft_area="hotbox">
+    <ingredient name="plantedCorn1_T" count="1"/>
+    <ingredient name="foodRottingFlesh" count="5"/>
+    <ingredient name="medicalBloodBag" count="2"/>
+</recipe>
+<recipe name="plantedCorn1_TB" count="1" craft_time="2" traits="TB" craft_area="hotbox">
+    <ingredient name="plantedCorn1_B" count="1"/>
+    <ingredient name="resourceScrapIron" count="10"/>
+    <ingredient name="resourceNail" count="10"/>
+</recipe>
+<recipe name="plantedCorn1_TU" count="1" craft_time="2" traits="TU" craft_area="hotbox">
+    <ingredient name="plantedCorn1_T" count="1"/>
+    <ingredient name="plantedMushroom1" count="1"/>
+</recipe>
+<recipe name="plantedCorn1_TU" count="1" craft_time="2" traits="TU" craft_area="hotbox">
+    <ingredient name="plantedCorn1_U" count="1"/>
+    <ingredient name="resourceScrapIron" count="10"/>
+    <ingredient name="resourceNail" count="10"/>
+</recipe>
+<recipe name="plantedCorn1_TF" count="1" craft_time="2" traits="TF" craft_area="hotbox">
+    <ingredient name="plantedCorn1_T" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="2"/>
+</recipe>
+<recipe name="plantedCorn1_TF" count="1" craft_time="2" traits="TF" craft_area="hotbox">
+    <ingredient name="plantedCorn1_F" count="1"/>
+    <ingredient name="resourceScrapIron" count="10"/>
+    <ingredient name="resourceNail" count="10"/>
+</recipe>
+<recipe name="plantedCorn1_TE" count="1" craft_time="2" traits="TE" craft_area="hotbox">
+    <ingredient name="plantedCorn1_T" count="1"/>
+    <ingredient name="resourceScrapIron" count="4"/>
+    <ingredient name="resourceGunPowder" count="4"/>
+    <ingredient name="resourceDuctTape" count="1"/>
+</recipe>
+<recipe name="plantedCorn1_TE" count="1" craft_time="2" traits="TE" craft_area="hotbox">
+    <ingredient name="plantedCorn1_E" count="1"/>
+    <ingredient name="resourceScrapIron" count="10"/>
+    <ingredient name="resourceNail" count="10"/>
+</recipe>
+<recipe name="plantedCorn1_TR" count="1" craft_time="2" traits="TR" craft_area="hotbox">
+    <ingredient name="plantedCorn1_T" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="10"/>
+</recipe>
+<recipe name="plantedCorn1_TR" count="1" craft_time="2" traits="TR" craft_area="hotbox">
+    <ingredient name="plantedCorn1_R" count="1"/>
+    <ingredient name="resourceScrapIron" count="10"/>
+    <ingredient name="resourceNail" count="10"/>
+</recipe>
 <recipe name="plantedCorn1_TT" count="1" craft_time="2" traits="TT" craft_area="hotbox">
     <ingredient name="plantedCorn1_T" count="1"/>
     <ingredient name="resourceScrapIron" count="10"/>
     <ingredient name="resourceNail" count="10"/>
 </recipe>
-<recipe name="plantedCotton1_" count="1" craft_time="900" traits="">
+<recipe name="plantedCotton1_" count="1" craft_time="900" traits="" craft_area="hotbox">
     <ingredient name="plantedCotton1" count="1"/>
     <ingredient name="foodRottingFlesh" count="1"/>
     <ingredient name="resourceCloth" count="1"/>
@@ -926,6 +1521,15 @@
     <ingredient name="plantedCotton1_" count="1"/>
     <ingredient name="plantedMushroom1" count="1"/>
 </recipe>
+<recipe name="plantedCotton1_UB" count="1" craft_time="2" traits="UB" craft_area="hotbox">
+    <ingredient name="plantedCotton1_U" count="1"/>
+    <ingredient name="foodRottingFlesh" count="5"/>
+    <ingredient name="medicalBloodBag" count="2"/>
+</recipe>
+<recipe name="plantedCotton1_UB" count="1" craft_time="2" traits="UB" craft_area="hotbox">
+    <ingredient name="plantedCotton1_B" count="1"/>
+    <ingredient name="plantedMushroom1" count="1"/>
+</recipe>
 <recipe name="plantedCotton1_UF" count="1" craft_time="2" traits="UF" craft_area="hotbox">
     <ingredient name="plantedCotton1_U" count="1"/>
     <ingredient name="drinkCanMegaCrush" count="2"/>
@@ -965,6 +1569,23 @@
     <ingredient name="plantedCotton1_" count="1"/>
     <ingredient name="drinkCanMegaCrush" count="2"/>
 </recipe>
+<recipe name="plantedCotton1_FB" count="1" craft_time="2" traits="FB" craft_area="hotbox">
+    <ingredient name="plantedCotton1_F" count="1"/>
+    <ingredient name="foodRottingFlesh" count="5"/>
+    <ingredient name="medicalBloodBag" count="2"/>
+</recipe>
+<recipe name="plantedCotton1_FB" count="1" craft_time="2" traits="FB" craft_area="hotbox">
+    <ingredient name="plantedCotton1_B" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="2"/>
+</recipe>
+<recipe name="plantedCotton1_FU" count="1" craft_time="2" traits="FU" craft_area="hotbox">
+    <ingredient name="plantedCotton1_F" count="1"/>
+    <ingredient name="plantedMushroom1" count="1"/>
+</recipe>
+<recipe name="plantedCotton1_FU" count="1" craft_time="2" traits="FU" craft_area="hotbox">
+    <ingredient name="plantedCotton1_U" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="2"/>
+</recipe>
 <recipe name="plantedCotton1_FF" count="1" craft_time="2" traits="FF" craft_area="hotbox">
     <ingredient name="plantedCotton1_F" count="1"/>
     <ingredient name="drinkCanMegaCrush" count="2"/>
@@ -1002,6 +1623,26 @@
     <ingredient name="resourceGunPowder" count="4"/>
     <ingredient name="resourceDuctTape" count="1"/>
 </recipe>
+<recipe name="plantedCotton1_EU" count="1" craft_time="2" traits="EU" craft_area="hotbox">
+    <ingredient name="plantedCotton1_E" count="1"/>
+    <ingredient name="plantedMushroom1" count="1"/>
+</recipe>
+<recipe name="plantedCotton1_EU" count="1" craft_time="2" traits="EU" craft_area="hotbox">
+    <ingredient name="plantedCotton1_U" count="1"/>
+    <ingredient name="resourceScrapIron" count="4"/>
+    <ingredient name="resourceGunPowder" count="4"/>
+    <ingredient name="resourceDuctTape" count="1"/>
+</recipe>
+<recipe name="plantedCotton1_EF" count="1" craft_time="2" traits="EF" craft_area="hotbox">
+    <ingredient name="plantedCotton1_E" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="2"/>
+</recipe>
+<recipe name="plantedCotton1_EF" count="1" craft_time="2" traits="EF" craft_area="hotbox">
+    <ingredient name="plantedCotton1_F" count="1"/>
+    <ingredient name="resourceScrapIron" count="4"/>
+    <ingredient name="resourceGunPowder" count="4"/>
+    <ingredient name="resourceDuctTape" count="1"/>
+</recipe>
 <recipe name="plantedCotton1_EE" count="1" craft_time="2" traits="EE" craft_area="hotbox">
     <ingredient name="plantedCotton1_E" count="1"/>
     <ingredient name="resourceScrapIron" count="4"/>
@@ -1023,6 +1664,31 @@
     <ingredient name="plantedCotton1_" count="1"/>
     <ingredient name="drinkJarPureMineralWater" count="10"/>
 </recipe>
+<recipe name="plantedCotton1_RB" count="1" craft_time="2" traits="RB" craft_area="hotbox">
+    <ingredient name="plantedCotton1_R" count="1"/>
+    <ingredient name="foodRottingFlesh" count="5"/>
+    <ingredient name="medicalBloodBag" count="2"/>
+</recipe>
+<recipe name="plantedCotton1_RB" count="1" craft_time="2" traits="RB" craft_area="hotbox">
+    <ingredient name="plantedCotton1_B" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="10"/>
+</recipe>
+<recipe name="plantedCotton1_RU" count="1" craft_time="2" traits="RU" craft_area="hotbox">
+    <ingredient name="plantedCotton1_R" count="1"/>
+    <ingredient name="plantedMushroom1" count="1"/>
+</recipe>
+<recipe name="plantedCotton1_RU" count="1" craft_time="2" traits="RU" craft_area="hotbox">
+    <ingredient name="plantedCotton1_U" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="10"/>
+</recipe>
+<recipe name="plantedCotton1_RF" count="1" craft_time="2" traits="RF" craft_area="hotbox">
+    <ingredient name="plantedCotton1_R" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="2"/>
+</recipe>
+<recipe name="plantedCotton1_RF" count="1" craft_time="2" traits="RF" craft_area="hotbox">
+    <ingredient name="plantedCotton1_F" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="10"/>
+</recipe>
 <recipe name="plantedCotton1_RT" count="1" craft_time="2" traits="RT" craft_area="hotbox">
     <ingredient name="plantedCotton1_R" count="1"/>
     <ingredient name="resourceScrapIron" count="10"/>
@@ -1037,12 +1703,60 @@
     <ingredient name="resourceScrapIron" count="10"/>
     <ingredient name="resourceNail" count="10"/>
 </recipe>
+<recipe name="plantedCotton1_TB" count="1" craft_time="2" traits="TB" craft_area="hotbox">
+    <ingredient name="plantedCotton1_T" count="1"/>
+    <ingredient name="foodRottingFlesh" count="5"/>
+    <ingredient name="medicalBloodBag" count="2"/>
+</recipe>
+<recipe name="plantedCotton1_TB" count="1" craft_time="2" traits="TB" craft_area="hotbox">
+    <ingredient name="plantedCotton1_B" count="1"/>
+    <ingredient name="resourceScrapIron" count="10"/>
+    <ingredient name="resourceNail" count="10"/>
+</recipe>
+<recipe name="plantedCotton1_TU" count="1" craft_time="2" traits="TU" craft_area="hotbox">
+    <ingredient name="plantedCotton1_T" count="1"/>
+    <ingredient name="plantedMushroom1" count="1"/>
+</recipe>
+<recipe name="plantedCotton1_TU" count="1" craft_time="2" traits="TU" craft_area="hotbox">
+    <ingredient name="plantedCotton1_U" count="1"/>
+    <ingredient name="resourceScrapIron" count="10"/>
+    <ingredient name="resourceNail" count="10"/>
+</recipe>
+<recipe name="plantedCotton1_TF" count="1" craft_time="2" traits="TF" craft_area="hotbox">
+    <ingredient name="plantedCotton1_T" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="2"/>
+</recipe>
+<recipe name="plantedCotton1_TF" count="1" craft_time="2" traits="TF" craft_area="hotbox">
+    <ingredient name="plantedCotton1_F" count="1"/>
+    <ingredient name="resourceScrapIron" count="10"/>
+    <ingredient name="resourceNail" count="10"/>
+</recipe>
+<recipe name="plantedCotton1_TE" count="1" craft_time="2" traits="TE" craft_area="hotbox">
+    <ingredient name="plantedCotton1_T" count="1"/>
+    <ingredient name="resourceScrapIron" count="4"/>
+    <ingredient name="resourceGunPowder" count="4"/>
+    <ingredient name="resourceDuctTape" count="1"/>
+</recipe>
+<recipe name="plantedCotton1_TE" count="1" craft_time="2" traits="TE" craft_area="hotbox">
+    <ingredient name="plantedCotton1_E" count="1"/>
+    <ingredient name="resourceScrapIron" count="10"/>
+    <ingredient name="resourceNail" count="10"/>
+</recipe>
+<recipe name="plantedCotton1_TR" count="1" craft_time="2" traits="TR" craft_area="hotbox">
+    <ingredient name="plantedCotton1_T" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="10"/>
+</recipe>
+<recipe name="plantedCotton1_TR" count="1" craft_time="2" traits="TR" craft_area="hotbox">
+    <ingredient name="plantedCotton1_R" count="1"/>
+    <ingredient name="resourceScrapIron" count="10"/>
+    <ingredient name="resourceNail" count="10"/>
+</recipe>
 <recipe name="plantedCotton1_TT" count="1" craft_time="2" traits="TT" craft_area="hotbox">
     <ingredient name="plantedCotton1_T" count="1"/>
     <ingredient name="resourceScrapIron" count="10"/>
     <ingredient name="resourceNail" count="10"/>
 </recipe>
-<recipe name="plantedGoldenrod1_" count="1" craft_time="900" traits="">
+<recipe name="plantedGoldenrod1_" count="1" craft_time="900" traits="" craft_area="hotbox">
     <ingredient name="plantedGoldenrod1" count="1"/>
     <ingredient name="foodRottingFlesh" count="1"/>
     <ingredient name="resourceCloth" count="1"/>
@@ -1099,6 +1813,15 @@
     <ingredient name="plantedGoldenrod1_" count="1"/>
     <ingredient name="plantedMushroom1" count="1"/>
 </recipe>
+<recipe name="plantedGoldenrod1_UB" count="1" craft_time="2" traits="UB" craft_area="hotbox">
+    <ingredient name="plantedGoldenrod1_U" count="1"/>
+    <ingredient name="foodRottingFlesh" count="5"/>
+    <ingredient name="medicalBloodBag" count="2"/>
+</recipe>
+<recipe name="plantedGoldenrod1_UB" count="1" craft_time="2" traits="UB" craft_area="hotbox">
+    <ingredient name="plantedGoldenrod1_B" count="1"/>
+    <ingredient name="plantedMushroom1" count="1"/>
+</recipe>
 <recipe name="plantedGoldenrod1_UF" count="1" craft_time="2" traits="UF" craft_area="hotbox">
     <ingredient name="plantedGoldenrod1_U" count="1"/>
     <ingredient name="drinkCanMegaCrush" count="2"/>
@@ -1138,6 +1861,23 @@
     <ingredient name="plantedGoldenrod1_" count="1"/>
     <ingredient name="drinkCanMegaCrush" count="2"/>
 </recipe>
+<recipe name="plantedGoldenrod1_FB" count="1" craft_time="2" traits="FB" craft_area="hotbox">
+    <ingredient name="plantedGoldenrod1_F" count="1"/>
+    <ingredient name="foodRottingFlesh" count="5"/>
+    <ingredient name="medicalBloodBag" count="2"/>
+</recipe>
+<recipe name="plantedGoldenrod1_FB" count="1" craft_time="2" traits="FB" craft_area="hotbox">
+    <ingredient name="plantedGoldenrod1_B" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="2"/>
+</recipe>
+<recipe name="plantedGoldenrod1_FU" count="1" craft_time="2" traits="FU" craft_area="hotbox">
+    <ingredient name="plantedGoldenrod1_F" count="1"/>
+    <ingredient name="plantedMushroom1" count="1"/>
+</recipe>
+<recipe name="plantedGoldenrod1_FU" count="1" craft_time="2" traits="FU" craft_area="hotbox">
+    <ingredient name="plantedGoldenrod1_U" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="2"/>
+</recipe>
 <recipe name="plantedGoldenrod1_FF" count="1" craft_time="2" traits="FF" craft_area="hotbox">
     <ingredient name="plantedGoldenrod1_F" count="1"/>
     <ingredient name="drinkCanMegaCrush" count="2"/>
@@ -1175,6 +1915,26 @@
     <ingredient name="resourceGunPowder" count="4"/>
     <ingredient name="resourceDuctTape" count="1"/>
 </recipe>
+<recipe name="plantedGoldenrod1_EU" count="1" craft_time="2" traits="EU" craft_area="hotbox">
+    <ingredient name="plantedGoldenrod1_E" count="1"/>
+    <ingredient name="plantedMushroom1" count="1"/>
+</recipe>
+<recipe name="plantedGoldenrod1_EU" count="1" craft_time="2" traits="EU" craft_area="hotbox">
+    <ingredient name="plantedGoldenrod1_U" count="1"/>
+    <ingredient name="resourceScrapIron" count="4"/>
+    <ingredient name="resourceGunPowder" count="4"/>
+    <ingredient name="resourceDuctTape" count="1"/>
+</recipe>
+<recipe name="plantedGoldenrod1_EF" count="1" craft_time="2" traits="EF" craft_area="hotbox">
+    <ingredient name="plantedGoldenrod1_E" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="2"/>
+</recipe>
+<recipe name="plantedGoldenrod1_EF" count="1" craft_time="2" traits="EF" craft_area="hotbox">
+    <ingredient name="plantedGoldenrod1_F" count="1"/>
+    <ingredient name="resourceScrapIron" count="4"/>
+    <ingredient name="resourceGunPowder" count="4"/>
+    <ingredient name="resourceDuctTape" count="1"/>
+</recipe>
 <recipe name="plantedGoldenrod1_EE" count="1" craft_time="2" traits="EE" craft_area="hotbox">
     <ingredient name="plantedGoldenrod1_E" count="1"/>
     <ingredient name="resourceScrapIron" count="4"/>
@@ -1196,6 +1956,31 @@
     <ingredient name="plantedGoldenrod1_" count="1"/>
     <ingredient name="drinkJarPureMineralWater" count="10"/>
 </recipe>
+<recipe name="plantedGoldenrod1_RB" count="1" craft_time="2" traits="RB" craft_area="hotbox">
+    <ingredient name="plantedGoldenrod1_R" count="1"/>
+    <ingredient name="foodRottingFlesh" count="5"/>
+    <ingredient name="medicalBloodBag" count="2"/>
+</recipe>
+<recipe name="plantedGoldenrod1_RB" count="1" craft_time="2" traits="RB" craft_area="hotbox">
+    <ingredient name="plantedGoldenrod1_B" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="10"/>
+</recipe>
+<recipe name="plantedGoldenrod1_RU" count="1" craft_time="2" traits="RU" craft_area="hotbox">
+    <ingredient name="plantedGoldenrod1_R" count="1"/>
+    <ingredient name="plantedMushroom1" count="1"/>
+</recipe>
+<recipe name="plantedGoldenrod1_RU" count="1" craft_time="2" traits="RU" craft_area="hotbox">
+    <ingredient name="plantedGoldenrod1_U" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="10"/>
+</recipe>
+<recipe name="plantedGoldenrod1_RF" count="1" craft_time="2" traits="RF" craft_area="hotbox">
+    <ingredient name="plantedGoldenrod1_R" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="2"/>
+</recipe>
+<recipe name="plantedGoldenrod1_RF" count="1" craft_time="2" traits="RF" craft_area="hotbox">
+    <ingredient name="plantedGoldenrod1_F" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="10"/>
+</recipe>
 <recipe name="plantedGoldenrod1_RT" count="1" craft_time="2" traits="RT" craft_area="hotbox">
     <ingredient name="plantedGoldenrod1_R" count="1"/>
     <ingredient name="resourceScrapIron" count="10"/>
@@ -1210,12 +1995,60 @@
     <ingredient name="resourceScrapIron" count="10"/>
     <ingredient name="resourceNail" count="10"/>
 </recipe>
+<recipe name="plantedGoldenrod1_TB" count="1" craft_time="2" traits="TB" craft_area="hotbox">
+    <ingredient name="plantedGoldenrod1_T" count="1"/>
+    <ingredient name="foodRottingFlesh" count="5"/>
+    <ingredient name="medicalBloodBag" count="2"/>
+</recipe>
+<recipe name="plantedGoldenrod1_TB" count="1" craft_time="2" traits="TB" craft_area="hotbox">
+    <ingredient name="plantedGoldenrod1_B" count="1"/>
+    <ingredient name="resourceScrapIron" count="10"/>
+    <ingredient name="resourceNail" count="10"/>
+</recipe>
+<recipe name="plantedGoldenrod1_TU" count="1" craft_time="2" traits="TU" craft_area="hotbox">
+    <ingredient name="plantedGoldenrod1_T" count="1"/>
+    <ingredient name="plantedMushroom1" count="1"/>
+</recipe>
+<recipe name="plantedGoldenrod1_TU" count="1" craft_time="2" traits="TU" craft_area="hotbox">
+    <ingredient name="plantedGoldenrod1_U" count="1"/>
+    <ingredient name="resourceScrapIron" count="10"/>
+    <ingredient name="resourceNail" count="10"/>
+</recipe>
+<recipe name="plantedGoldenrod1_TF" count="1" craft_time="2" traits="TF" craft_area="hotbox">
+    <ingredient name="plantedGoldenrod1_T" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="2"/>
+</recipe>
+<recipe name="plantedGoldenrod1_TF" count="1" craft_time="2" traits="TF" craft_area="hotbox">
+    <ingredient name="plantedGoldenrod1_F" count="1"/>
+    <ingredient name="resourceScrapIron" count="10"/>
+    <ingredient name="resourceNail" count="10"/>
+</recipe>
+<recipe name="plantedGoldenrod1_TE" count="1" craft_time="2" traits="TE" craft_area="hotbox">
+    <ingredient name="plantedGoldenrod1_T" count="1"/>
+    <ingredient name="resourceScrapIron" count="4"/>
+    <ingredient name="resourceGunPowder" count="4"/>
+    <ingredient name="resourceDuctTape" count="1"/>
+</recipe>
+<recipe name="plantedGoldenrod1_TE" count="1" craft_time="2" traits="TE" craft_area="hotbox">
+    <ingredient name="plantedGoldenrod1_E" count="1"/>
+    <ingredient name="resourceScrapIron" count="10"/>
+    <ingredient name="resourceNail" count="10"/>
+</recipe>
+<recipe name="plantedGoldenrod1_TR" count="1" craft_time="2" traits="TR" craft_area="hotbox">
+    <ingredient name="plantedGoldenrod1_T" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="10"/>
+</recipe>
+<recipe name="plantedGoldenrod1_TR" count="1" craft_time="2" traits="TR" craft_area="hotbox">
+    <ingredient name="plantedGoldenrod1_R" count="1"/>
+    <ingredient name="resourceScrapIron" count="10"/>
+    <ingredient name="resourceNail" count="10"/>
+</recipe>
 <recipe name="plantedGoldenrod1_TT" count="1" craft_time="2" traits="TT" craft_area="hotbox">
     <ingredient name="plantedGoldenrod1_T" count="1"/>
     <ingredient name="resourceScrapIron" count="10"/>
     <ingredient name="resourceNail" count="10"/>
 </recipe>
-<recipe name="plantedGraceCorn1_" count="1" craft_time="900" traits="">
+<recipe name="plantedGraceCorn1_" count="1" craft_time="900" traits="" craft_area="hotbox">
     <ingredient name="plantedGraceCorn1" count="1"/>
     <ingredient name="foodRottingFlesh" count="1"/>
     <ingredient name="resourceCloth" count="1"/>
@@ -1272,6 +2105,15 @@
     <ingredient name="plantedGraceCorn1_" count="1"/>
     <ingredient name="plantedMushroom1" count="1"/>
 </recipe>
+<recipe name="plantedGraceCorn1_UB" count="1" craft_time="2" traits="UB" craft_area="hotbox">
+    <ingredient name="plantedGraceCorn1_U" count="1"/>
+    <ingredient name="foodRottingFlesh" count="5"/>
+    <ingredient name="medicalBloodBag" count="2"/>
+</recipe>
+<recipe name="plantedGraceCorn1_UB" count="1" craft_time="2" traits="UB" craft_area="hotbox">
+    <ingredient name="plantedGraceCorn1_B" count="1"/>
+    <ingredient name="plantedMushroom1" count="1"/>
+</recipe>
 <recipe name="plantedGraceCorn1_UF" count="1" craft_time="2" traits="UF" craft_area="hotbox">
     <ingredient name="plantedGraceCorn1_U" count="1"/>
     <ingredient name="drinkCanMegaCrush" count="2"/>
@@ -1311,6 +2153,23 @@
     <ingredient name="plantedGraceCorn1_" count="1"/>
     <ingredient name="drinkCanMegaCrush" count="2"/>
 </recipe>
+<recipe name="plantedGraceCorn1_FB" count="1" craft_time="2" traits="FB" craft_area="hotbox">
+    <ingredient name="plantedGraceCorn1_F" count="1"/>
+    <ingredient name="foodRottingFlesh" count="5"/>
+    <ingredient name="medicalBloodBag" count="2"/>
+</recipe>
+<recipe name="plantedGraceCorn1_FB" count="1" craft_time="2" traits="FB" craft_area="hotbox">
+    <ingredient name="plantedGraceCorn1_B" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="2"/>
+</recipe>
+<recipe name="plantedGraceCorn1_FU" count="1" craft_time="2" traits="FU" craft_area="hotbox">
+    <ingredient name="plantedGraceCorn1_F" count="1"/>
+    <ingredient name="plantedMushroom1" count="1"/>
+</recipe>
+<recipe name="plantedGraceCorn1_FU" count="1" craft_time="2" traits="FU" craft_area="hotbox">
+    <ingredient name="plantedGraceCorn1_U" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="2"/>
+</recipe>
 <recipe name="plantedGraceCorn1_FF" count="1" craft_time="2" traits="FF" craft_area="hotbox">
     <ingredient name="plantedGraceCorn1_F" count="1"/>
     <ingredient name="drinkCanMegaCrush" count="2"/>
@@ -1348,6 +2207,26 @@
     <ingredient name="resourceGunPowder" count="4"/>
     <ingredient name="resourceDuctTape" count="1"/>
 </recipe>
+<recipe name="plantedGraceCorn1_EU" count="1" craft_time="2" traits="EU" craft_area="hotbox">
+    <ingredient name="plantedGraceCorn1_E" count="1"/>
+    <ingredient name="plantedMushroom1" count="1"/>
+</recipe>
+<recipe name="plantedGraceCorn1_EU" count="1" craft_time="2" traits="EU" craft_area="hotbox">
+    <ingredient name="plantedGraceCorn1_U" count="1"/>
+    <ingredient name="resourceScrapIron" count="4"/>
+    <ingredient name="resourceGunPowder" count="4"/>
+    <ingredient name="resourceDuctTape" count="1"/>
+</recipe>
+<recipe name="plantedGraceCorn1_EF" count="1" craft_time="2" traits="EF" craft_area="hotbox">
+    <ingredient name="plantedGraceCorn1_E" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="2"/>
+</recipe>
+<recipe name="plantedGraceCorn1_EF" count="1" craft_time="2" traits="EF" craft_area="hotbox">
+    <ingredient name="plantedGraceCorn1_F" count="1"/>
+    <ingredient name="resourceScrapIron" count="4"/>
+    <ingredient name="resourceGunPowder" count="4"/>
+    <ingredient name="resourceDuctTape" count="1"/>
+</recipe>
 <recipe name="plantedGraceCorn1_EE" count="1" craft_time="2" traits="EE" craft_area="hotbox">
     <ingredient name="plantedGraceCorn1_E" count="1"/>
     <ingredient name="resourceScrapIron" count="4"/>
@@ -1369,6 +2248,31 @@
     <ingredient name="plantedGraceCorn1_" count="1"/>
     <ingredient name="drinkJarPureMineralWater" count="10"/>
 </recipe>
+<recipe name="plantedGraceCorn1_RB" count="1" craft_time="2" traits="RB" craft_area="hotbox">
+    <ingredient name="plantedGraceCorn1_R" count="1"/>
+    <ingredient name="foodRottingFlesh" count="5"/>
+    <ingredient name="medicalBloodBag" count="2"/>
+</recipe>
+<recipe name="plantedGraceCorn1_RB" count="1" craft_time="2" traits="RB" craft_area="hotbox">
+    <ingredient name="plantedGraceCorn1_B" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="10"/>
+</recipe>
+<recipe name="plantedGraceCorn1_RU" count="1" craft_time="2" traits="RU" craft_area="hotbox">
+    <ingredient name="plantedGraceCorn1_R" count="1"/>
+    <ingredient name="plantedMushroom1" count="1"/>
+</recipe>
+<recipe name="plantedGraceCorn1_RU" count="1" craft_time="2" traits="RU" craft_area="hotbox">
+    <ingredient name="plantedGraceCorn1_U" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="10"/>
+</recipe>
+<recipe name="plantedGraceCorn1_RF" count="1" craft_time="2" traits="RF" craft_area="hotbox">
+    <ingredient name="plantedGraceCorn1_R" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="2"/>
+</recipe>
+<recipe name="plantedGraceCorn1_RF" count="1" craft_time="2" traits="RF" craft_area="hotbox">
+    <ingredient name="plantedGraceCorn1_F" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="10"/>
+</recipe>
 <recipe name="plantedGraceCorn1_RT" count="1" craft_time="2" traits="RT" craft_area="hotbox">
     <ingredient name="plantedGraceCorn1_R" count="1"/>
     <ingredient name="resourceScrapIron" count="10"/>
@@ -1383,12 +2287,60 @@
     <ingredient name="resourceScrapIron" count="10"/>
     <ingredient name="resourceNail" count="10"/>
 </recipe>
+<recipe name="plantedGraceCorn1_TB" count="1" craft_time="2" traits="TB" craft_area="hotbox">
+    <ingredient name="plantedGraceCorn1_T" count="1"/>
+    <ingredient name="foodRottingFlesh" count="5"/>
+    <ingredient name="medicalBloodBag" count="2"/>
+</recipe>
+<recipe name="plantedGraceCorn1_TB" count="1" craft_time="2" traits="TB" craft_area="hotbox">
+    <ingredient name="plantedGraceCorn1_B" count="1"/>
+    <ingredient name="resourceScrapIron" count="10"/>
+    <ingredient name="resourceNail" count="10"/>
+</recipe>
+<recipe name="plantedGraceCorn1_TU" count="1" craft_time="2" traits="TU" craft_area="hotbox">
+    <ingredient name="plantedGraceCorn1_T" count="1"/>
+    <ingredient name="plantedMushroom1" count="1"/>
+</recipe>
+<recipe name="plantedGraceCorn1_TU" count="1" craft_time="2" traits="TU" craft_area="hotbox">
+    <ingredient name="plantedGraceCorn1_U" count="1"/>
+    <ingredient name="resourceScrapIron" count="10"/>
+    <ingredient name="resourceNail" count="10"/>
+</recipe>
+<recipe name="plantedGraceCorn1_TF" count="1" craft_time="2" traits="TF" craft_area="hotbox">
+    <ingredient name="plantedGraceCorn1_T" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="2"/>
+</recipe>
+<recipe name="plantedGraceCorn1_TF" count="1" craft_time="2" traits="TF" craft_area="hotbox">
+    <ingredient name="plantedGraceCorn1_F" count="1"/>
+    <ingredient name="resourceScrapIron" count="10"/>
+    <ingredient name="resourceNail" count="10"/>
+</recipe>
+<recipe name="plantedGraceCorn1_TE" count="1" craft_time="2" traits="TE" craft_area="hotbox">
+    <ingredient name="plantedGraceCorn1_T" count="1"/>
+    <ingredient name="resourceScrapIron" count="4"/>
+    <ingredient name="resourceGunPowder" count="4"/>
+    <ingredient name="resourceDuctTape" count="1"/>
+</recipe>
+<recipe name="plantedGraceCorn1_TE" count="1" craft_time="2" traits="TE" craft_area="hotbox">
+    <ingredient name="plantedGraceCorn1_E" count="1"/>
+    <ingredient name="resourceScrapIron" count="10"/>
+    <ingredient name="resourceNail" count="10"/>
+</recipe>
+<recipe name="plantedGraceCorn1_TR" count="1" craft_time="2" traits="TR" craft_area="hotbox">
+    <ingredient name="plantedGraceCorn1_T" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="10"/>
+</recipe>
+<recipe name="plantedGraceCorn1_TR" count="1" craft_time="2" traits="TR" craft_area="hotbox">
+    <ingredient name="plantedGraceCorn1_R" count="1"/>
+    <ingredient name="resourceScrapIron" count="10"/>
+    <ingredient name="resourceNail" count="10"/>
+</recipe>
 <recipe name="plantedGraceCorn1_TT" count="1" craft_time="2" traits="TT" craft_area="hotbox">
     <ingredient name="plantedGraceCorn1_T" count="1"/>
     <ingredient name="resourceScrapIron" count="10"/>
     <ingredient name="resourceNail" count="10"/>
 </recipe>
-<recipe name="plantedHop1_" count="1" craft_time="900" traits="">
+<recipe name="plantedHop1_" count="1" craft_time="900" traits="" craft_area="hotbox">
     <ingredient name="plantedHop1" count="1"/>
     <ingredient name="foodRottingFlesh" count="1"/>
     <ingredient name="resourceCloth" count="1"/>
@@ -1445,6 +2397,15 @@
     <ingredient name="plantedHop1_" count="1"/>
     <ingredient name="plantedMushroom1" count="1"/>
 </recipe>
+<recipe name="plantedHop1_UB" count="1" craft_time="2" traits="UB" craft_area="hotbox">
+    <ingredient name="plantedHop1_U" count="1"/>
+    <ingredient name="foodRottingFlesh" count="5"/>
+    <ingredient name="medicalBloodBag" count="2"/>
+</recipe>
+<recipe name="plantedHop1_UB" count="1" craft_time="2" traits="UB" craft_area="hotbox">
+    <ingredient name="plantedHop1_B" count="1"/>
+    <ingredient name="plantedMushroom1" count="1"/>
+</recipe>
 <recipe name="plantedHop1_UF" count="1" craft_time="2" traits="UF" craft_area="hotbox">
     <ingredient name="plantedHop1_U" count="1"/>
     <ingredient name="drinkCanMegaCrush" count="2"/>
@@ -1484,6 +2445,23 @@
     <ingredient name="plantedHop1_" count="1"/>
     <ingredient name="drinkCanMegaCrush" count="2"/>
 </recipe>
+<recipe name="plantedHop1_FB" count="1" craft_time="2" traits="FB" craft_area="hotbox">
+    <ingredient name="plantedHop1_F" count="1"/>
+    <ingredient name="foodRottingFlesh" count="5"/>
+    <ingredient name="medicalBloodBag" count="2"/>
+</recipe>
+<recipe name="plantedHop1_FB" count="1" craft_time="2" traits="FB" craft_area="hotbox">
+    <ingredient name="plantedHop1_B" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="2"/>
+</recipe>
+<recipe name="plantedHop1_FU" count="1" craft_time="2" traits="FU" craft_area="hotbox">
+    <ingredient name="plantedHop1_F" count="1"/>
+    <ingredient name="plantedMushroom1" count="1"/>
+</recipe>
+<recipe name="plantedHop1_FU" count="1" craft_time="2" traits="FU" craft_area="hotbox">
+    <ingredient name="plantedHop1_U" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="2"/>
+</recipe>
 <recipe name="plantedHop1_FF" count="1" craft_time="2" traits="FF" craft_area="hotbox">
     <ingredient name="plantedHop1_F" count="1"/>
     <ingredient name="drinkCanMegaCrush" count="2"/>
@@ -1521,6 +2499,26 @@
     <ingredient name="resourceGunPowder" count="4"/>
     <ingredient name="resourceDuctTape" count="1"/>
 </recipe>
+<recipe name="plantedHop1_EU" count="1" craft_time="2" traits="EU" craft_area="hotbox">
+    <ingredient name="plantedHop1_E" count="1"/>
+    <ingredient name="plantedMushroom1" count="1"/>
+</recipe>
+<recipe name="plantedHop1_EU" count="1" craft_time="2" traits="EU" craft_area="hotbox">
+    <ingredient name="plantedHop1_U" count="1"/>
+    <ingredient name="resourceScrapIron" count="4"/>
+    <ingredient name="resourceGunPowder" count="4"/>
+    <ingredient name="resourceDuctTape" count="1"/>
+</recipe>
+<recipe name="plantedHop1_EF" count="1" craft_time="2" traits="EF" craft_area="hotbox">
+    <ingredient name="plantedHop1_E" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="2"/>
+</recipe>
+<recipe name="plantedHop1_EF" count="1" craft_time="2" traits="EF" craft_area="hotbox">
+    <ingredient name="plantedHop1_F" count="1"/>
+    <ingredient name="resourceScrapIron" count="4"/>
+    <ingredient name="resourceGunPowder" count="4"/>
+    <ingredient name="resourceDuctTape" count="1"/>
+</recipe>
 <recipe name="plantedHop1_EE" count="1" craft_time="2" traits="EE" craft_area="hotbox">
     <ingredient name="plantedHop1_E" count="1"/>
     <ingredient name="resourceScrapIron" count="4"/>
@@ -1542,6 +2540,31 @@
     <ingredient name="plantedHop1_" count="1"/>
     <ingredient name="drinkJarPureMineralWater" count="10"/>
 </recipe>
+<recipe name="plantedHop1_RB" count="1" craft_time="2" traits="RB" craft_area="hotbox">
+    <ingredient name="plantedHop1_R" count="1"/>
+    <ingredient name="foodRottingFlesh" count="5"/>
+    <ingredient name="medicalBloodBag" count="2"/>
+</recipe>
+<recipe name="plantedHop1_RB" count="1" craft_time="2" traits="RB" craft_area="hotbox">
+    <ingredient name="plantedHop1_B" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="10"/>
+</recipe>
+<recipe name="plantedHop1_RU" count="1" craft_time="2" traits="RU" craft_area="hotbox">
+    <ingredient name="plantedHop1_R" count="1"/>
+    <ingredient name="plantedMushroom1" count="1"/>
+</recipe>
+<recipe name="plantedHop1_RU" count="1" craft_time="2" traits="RU" craft_area="hotbox">
+    <ingredient name="plantedHop1_U" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="10"/>
+</recipe>
+<recipe name="plantedHop1_RF" count="1" craft_time="2" traits="RF" craft_area="hotbox">
+    <ingredient name="plantedHop1_R" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="2"/>
+</recipe>
+<recipe name="plantedHop1_RF" count="1" craft_time="2" traits="RF" craft_area="hotbox">
+    <ingredient name="plantedHop1_F" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="10"/>
+</recipe>
 <recipe name="plantedHop1_RT" count="1" craft_time="2" traits="RT" craft_area="hotbox">
     <ingredient name="plantedHop1_R" count="1"/>
     <ingredient name="resourceScrapIron" count="10"/>
@@ -1556,12 +2579,60 @@
     <ingredient name="resourceScrapIron" count="10"/>
     <ingredient name="resourceNail" count="10"/>
 </recipe>
+<recipe name="plantedHop1_TB" count="1" craft_time="2" traits="TB" craft_area="hotbox">
+    <ingredient name="plantedHop1_T" count="1"/>
+    <ingredient name="foodRottingFlesh" count="5"/>
+    <ingredient name="medicalBloodBag" count="2"/>
+</recipe>
+<recipe name="plantedHop1_TB" count="1" craft_time="2" traits="TB" craft_area="hotbox">
+    <ingredient name="plantedHop1_B" count="1"/>
+    <ingredient name="resourceScrapIron" count="10"/>
+    <ingredient name="resourceNail" count="10"/>
+</recipe>
+<recipe name="plantedHop1_TU" count="1" craft_time="2" traits="TU" craft_area="hotbox">
+    <ingredient name="plantedHop1_T" count="1"/>
+    <ingredient name="plantedMushroom1" count="1"/>
+</recipe>
+<recipe name="plantedHop1_TU" count="1" craft_time="2" traits="TU" craft_area="hotbox">
+    <ingredient name="plantedHop1_U" count="1"/>
+    <ingredient name="resourceScrapIron" count="10"/>
+    <ingredient name="resourceNail" count="10"/>
+</recipe>
+<recipe name="plantedHop1_TF" count="1" craft_time="2" traits="TF" craft_area="hotbox">
+    <ingredient name="plantedHop1_T" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="2"/>
+</recipe>
+<recipe name="plantedHop1_TF" count="1" craft_time="2" traits="TF" craft_area="hotbox">
+    <ingredient name="plantedHop1_F" count="1"/>
+    <ingredient name="resourceScrapIron" count="10"/>
+    <ingredient name="resourceNail" count="10"/>
+</recipe>
+<recipe name="plantedHop1_TE" count="1" craft_time="2" traits="TE" craft_area="hotbox">
+    <ingredient name="plantedHop1_T" count="1"/>
+    <ingredient name="resourceScrapIron" count="4"/>
+    <ingredient name="resourceGunPowder" count="4"/>
+    <ingredient name="resourceDuctTape" count="1"/>
+</recipe>
+<recipe name="plantedHop1_TE" count="1" craft_time="2" traits="TE" craft_area="hotbox">
+    <ingredient name="plantedHop1_E" count="1"/>
+    <ingredient name="resourceScrapIron" count="10"/>
+    <ingredient name="resourceNail" count="10"/>
+</recipe>
+<recipe name="plantedHop1_TR" count="1" craft_time="2" traits="TR" craft_area="hotbox">
+    <ingredient name="plantedHop1_T" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="10"/>
+</recipe>
+<recipe name="plantedHop1_TR" count="1" craft_time="2" traits="TR" craft_area="hotbox">
+    <ingredient name="plantedHop1_R" count="1"/>
+    <ingredient name="resourceScrapIron" count="10"/>
+    <ingredient name="resourceNail" count="10"/>
+</recipe>
 <recipe name="plantedHop1_TT" count="1" craft_time="2" traits="TT" craft_area="hotbox">
     <ingredient name="plantedHop1_T" count="1"/>
     <ingredient name="resourceScrapIron" count="10"/>
     <ingredient name="resourceNail" count="10"/>
 </recipe>
-<recipe name="plantedMushroom1_" count="1" craft_time="900" traits="">
+<recipe name="plantedMushroom1_" count="1" craft_time="900" traits="" craft_area="hotbox">
     <ingredient name="plantedMushroom1" count="1"/>
     <ingredient name="foodRottingFlesh" count="1"/>
     <ingredient name="resourceCloth" count="1"/>
@@ -1609,6 +2680,15 @@
     <ingredient name="plantedMushroom1_" count="1"/>
     <ingredient name="drinkCanMegaCrush" count="2"/>
 </recipe>
+<recipe name="plantedMushroom1_FB" count="1" craft_time="2" traits="FB" craft_area="hotbox">
+    <ingredient name="plantedMushroom1_F" count="1"/>
+    <ingredient name="foodRottingFlesh" count="5"/>
+    <ingredient name="medicalBloodBag" count="2"/>
+</recipe>
+<recipe name="plantedMushroom1_FB" count="1" craft_time="2" traits="FB" craft_area="hotbox">
+    <ingredient name="plantedMushroom1_B" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="2"/>
+</recipe>
 <recipe name="plantedMushroom1_FF" count="1" craft_time="2" traits="FF" craft_area="hotbox">
     <ingredient name="plantedMushroom1_F" count="1"/>
     <ingredient name="drinkCanMegaCrush" count="2"/>
@@ -1646,6 +2726,16 @@
     <ingredient name="resourceGunPowder" count="4"/>
     <ingredient name="resourceDuctTape" count="1"/>
 </recipe>
+<recipe name="plantedMushroom1_EF" count="1" craft_time="2" traits="EF" craft_area="hotbox">
+    <ingredient name="plantedMushroom1_E" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="2"/>
+</recipe>
+<recipe name="plantedMushroom1_EF" count="1" craft_time="2" traits="EF" craft_area="hotbox">
+    <ingredient name="plantedMushroom1_F" count="1"/>
+    <ingredient name="resourceScrapIron" count="4"/>
+    <ingredient name="resourceGunPowder" count="4"/>
+    <ingredient name="resourceDuctTape" count="1"/>
+</recipe>
 <recipe name="plantedMushroom1_EE" count="1" craft_time="2" traits="EE" craft_area="hotbox">
     <ingredient name="plantedMushroom1_E" count="1"/>
     <ingredient name="resourceScrapIron" count="4"/>
@@ -1667,6 +2757,23 @@
     <ingredient name="plantedMushroom1_" count="1"/>
     <ingredient name="drinkJarPureMineralWater" count="10"/>
 </recipe>
+<recipe name="plantedMushroom1_RB" count="1" craft_time="2" traits="RB" craft_area="hotbox">
+    <ingredient name="plantedMushroom1_R" count="1"/>
+    <ingredient name="foodRottingFlesh" count="5"/>
+    <ingredient name="medicalBloodBag" count="2"/>
+</recipe>
+<recipe name="plantedMushroom1_RB" count="1" craft_time="2" traits="RB" craft_area="hotbox">
+    <ingredient name="plantedMushroom1_B" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="10"/>
+</recipe>
+<recipe name="plantedMushroom1_RF" count="1" craft_time="2" traits="RF" craft_area="hotbox">
+    <ingredient name="plantedMushroom1_R" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="2"/>
+</recipe>
+<recipe name="plantedMushroom1_RF" count="1" craft_time="2" traits="RF" craft_area="hotbox">
+    <ingredient name="plantedMushroom1_F" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="10"/>
+</recipe>
 <recipe name="plantedMushroom1_RT" count="1" craft_time="2" traits="RT" craft_area="hotbox">
     <ingredient name="plantedMushroom1_R" count="1"/>
     <ingredient name="resourceScrapIron" count="10"/>
@@ -1681,12 +2788,51 @@
     <ingredient name="resourceScrapIron" count="10"/>
     <ingredient name="resourceNail" count="10"/>
 </recipe>
+<recipe name="plantedMushroom1_TB" count="1" craft_time="2" traits="TB" craft_area="hotbox">
+    <ingredient name="plantedMushroom1_T" count="1"/>
+    <ingredient name="foodRottingFlesh" count="5"/>
+    <ingredient name="medicalBloodBag" count="2"/>
+</recipe>
+<recipe name="plantedMushroom1_TB" count="1" craft_time="2" traits="TB" craft_area="hotbox">
+    <ingredient name="plantedMushroom1_B" count="1"/>
+    <ingredient name="resourceScrapIron" count="10"/>
+    <ingredient name="resourceNail" count="10"/>
+</recipe>
+<recipe name="plantedMushroom1_TF" count="1" craft_time="2" traits="TF" craft_area="hotbox">
+    <ingredient name="plantedMushroom1_T" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="2"/>
+</recipe>
+<recipe name="plantedMushroom1_TF" count="1" craft_time="2" traits="TF" craft_area="hotbox">
+    <ingredient name="plantedMushroom1_F" count="1"/>
+    <ingredient name="resourceScrapIron" count="10"/>
+    <ingredient name="resourceNail" count="10"/>
+</recipe>
+<recipe name="plantedMushroom1_TE" count="1" craft_time="2" traits="TE" craft_area="hotbox">
+    <ingredient name="plantedMushroom1_T" count="1"/>
+    <ingredient name="resourceScrapIron" count="4"/>
+    <ingredient name="resourceGunPowder" count="4"/>
+    <ingredient name="resourceDuctTape" count="1"/>
+</recipe>
+<recipe name="plantedMushroom1_TE" count="1" craft_time="2" traits="TE" craft_area="hotbox">
+    <ingredient name="plantedMushroom1_E" count="1"/>
+    <ingredient name="resourceScrapIron" count="10"/>
+    <ingredient name="resourceNail" count="10"/>
+</recipe>
+<recipe name="plantedMushroom1_TR" count="1" craft_time="2" traits="TR" craft_area="hotbox">
+    <ingredient name="plantedMushroom1_T" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="10"/>
+</recipe>
+<recipe name="plantedMushroom1_TR" count="1" craft_time="2" traits="TR" craft_area="hotbox">
+    <ingredient name="plantedMushroom1_R" count="1"/>
+    <ingredient name="resourceScrapIron" count="10"/>
+    <ingredient name="resourceNail" count="10"/>
+</recipe>
 <recipe name="plantedMushroom1_TT" count="1" craft_time="2" traits="TT" craft_area="hotbox">
     <ingredient name="plantedMushroom1_T" count="1"/>
     <ingredient name="resourceScrapIron" count="10"/>
     <ingredient name="resourceNail" count="10"/>
 </recipe>
-<recipe name="plantedPotato1_" count="1" craft_time="900" traits="">
+<recipe name="plantedPotato1_" count="1" craft_time="900" traits="" craft_area="hotbox">
     <ingredient name="plantedPotato1" count="1"/>
     <ingredient name="foodRottingFlesh" count="1"/>
     <ingredient name="resourceCloth" count="1"/>
@@ -1743,6 +2889,15 @@
     <ingredient name="plantedPotato1_" count="1"/>
     <ingredient name="plantedMushroom1" count="1"/>
 </recipe>
+<recipe name="plantedPotato1_UB" count="1" craft_time="2" traits="UB" craft_area="hotbox">
+    <ingredient name="plantedPotato1_U" count="1"/>
+    <ingredient name="foodRottingFlesh" count="5"/>
+    <ingredient name="medicalBloodBag" count="2"/>
+</recipe>
+<recipe name="plantedPotato1_UB" count="1" craft_time="2" traits="UB" craft_area="hotbox">
+    <ingredient name="plantedPotato1_B" count="1"/>
+    <ingredient name="plantedMushroom1" count="1"/>
+</recipe>
 <recipe name="plantedPotato1_UF" count="1" craft_time="2" traits="UF" craft_area="hotbox">
     <ingredient name="plantedPotato1_U" count="1"/>
     <ingredient name="drinkCanMegaCrush" count="2"/>
@@ -1782,6 +2937,23 @@
     <ingredient name="plantedPotato1_" count="1"/>
     <ingredient name="drinkCanMegaCrush" count="2"/>
 </recipe>
+<recipe name="plantedPotato1_FB" count="1" craft_time="2" traits="FB" craft_area="hotbox">
+    <ingredient name="plantedPotato1_F" count="1"/>
+    <ingredient name="foodRottingFlesh" count="5"/>
+    <ingredient name="medicalBloodBag" count="2"/>
+</recipe>
+<recipe name="plantedPotato1_FB" count="1" craft_time="2" traits="FB" craft_area="hotbox">
+    <ingredient name="plantedPotato1_B" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="2"/>
+</recipe>
+<recipe name="plantedPotato1_FU" count="1" craft_time="2" traits="FU" craft_area="hotbox">
+    <ingredient name="plantedPotato1_F" count="1"/>
+    <ingredient name="plantedMushroom1" count="1"/>
+</recipe>
+<recipe name="plantedPotato1_FU" count="1" craft_time="2" traits="FU" craft_area="hotbox">
+    <ingredient name="plantedPotato1_U" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="2"/>
+</recipe>
 <recipe name="plantedPotato1_FF" count="1" craft_time="2" traits="FF" craft_area="hotbox">
     <ingredient name="plantedPotato1_F" count="1"/>
     <ingredient name="drinkCanMegaCrush" count="2"/>
@@ -1819,6 +2991,26 @@
     <ingredient name="resourceGunPowder" count="4"/>
     <ingredient name="resourceDuctTape" count="1"/>
 </recipe>
+<recipe name="plantedPotato1_EU" count="1" craft_time="2" traits="EU" craft_area="hotbox">
+    <ingredient name="plantedPotato1_E" count="1"/>
+    <ingredient name="plantedMushroom1" count="1"/>
+</recipe>
+<recipe name="plantedPotato1_EU" count="1" craft_time="2" traits="EU" craft_area="hotbox">
+    <ingredient name="plantedPotato1_U" count="1"/>
+    <ingredient name="resourceScrapIron" count="4"/>
+    <ingredient name="resourceGunPowder" count="4"/>
+    <ingredient name="resourceDuctTape" count="1"/>
+</recipe>
+<recipe name="plantedPotato1_EF" count="1" craft_time="2" traits="EF" craft_area="hotbox">
+    <ingredient name="plantedPotato1_E" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="2"/>
+</recipe>
+<recipe name="plantedPotato1_EF" count="1" craft_time="2" traits="EF" craft_area="hotbox">
+    <ingredient name="plantedPotato1_F" count="1"/>
+    <ingredient name="resourceScrapIron" count="4"/>
+    <ingredient name="resourceGunPowder" count="4"/>
+    <ingredient name="resourceDuctTape" count="1"/>
+</recipe>
 <recipe name="plantedPotato1_EE" count="1" craft_time="2" traits="EE" craft_area="hotbox">
     <ingredient name="plantedPotato1_E" count="1"/>
     <ingredient name="resourceScrapIron" count="4"/>
@@ -1840,6 +3032,31 @@
     <ingredient name="plantedPotato1_" count="1"/>
     <ingredient name="drinkJarPureMineralWater" count="10"/>
 </recipe>
+<recipe name="plantedPotato1_RB" count="1" craft_time="2" traits="RB" craft_area="hotbox">
+    <ingredient name="plantedPotato1_R" count="1"/>
+    <ingredient name="foodRottingFlesh" count="5"/>
+    <ingredient name="medicalBloodBag" count="2"/>
+</recipe>
+<recipe name="plantedPotato1_RB" count="1" craft_time="2" traits="RB" craft_area="hotbox">
+    <ingredient name="plantedPotato1_B" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="10"/>
+</recipe>
+<recipe name="plantedPotato1_RU" count="1" craft_time="2" traits="RU" craft_area="hotbox">
+    <ingredient name="plantedPotato1_R" count="1"/>
+    <ingredient name="plantedMushroom1" count="1"/>
+</recipe>
+<recipe name="plantedPotato1_RU" count="1" craft_time="2" traits="RU" craft_area="hotbox">
+    <ingredient name="plantedPotato1_U" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="10"/>
+</recipe>
+<recipe name="plantedPotato1_RF" count="1" craft_time="2" traits="RF" craft_area="hotbox">
+    <ingredient name="plantedPotato1_R" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="2"/>
+</recipe>
+<recipe name="plantedPotato1_RF" count="1" craft_time="2" traits="RF" craft_area="hotbox">
+    <ingredient name="plantedPotato1_F" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="10"/>
+</recipe>
 <recipe name="plantedPotato1_RT" count="1" craft_time="2" traits="RT" craft_area="hotbox">
     <ingredient name="plantedPotato1_R" count="1"/>
     <ingredient name="resourceScrapIron" count="10"/>
@@ -1854,12 +3071,60 @@
     <ingredient name="resourceScrapIron" count="10"/>
     <ingredient name="resourceNail" count="10"/>
 </recipe>
+<recipe name="plantedPotato1_TB" count="1" craft_time="2" traits="TB" craft_area="hotbox">
+    <ingredient name="plantedPotato1_T" count="1"/>
+    <ingredient name="foodRottingFlesh" count="5"/>
+    <ingredient name="medicalBloodBag" count="2"/>
+</recipe>
+<recipe name="plantedPotato1_TB" count="1" craft_time="2" traits="TB" craft_area="hotbox">
+    <ingredient name="plantedPotato1_B" count="1"/>
+    <ingredient name="resourceScrapIron" count="10"/>
+    <ingredient name="resourceNail" count="10"/>
+</recipe>
+<recipe name="plantedPotato1_TU" count="1" craft_time="2" traits="TU" craft_area="hotbox">
+    <ingredient name="plantedPotato1_T" count="1"/>
+    <ingredient name="plantedMushroom1" count="1"/>
+</recipe>
+<recipe name="plantedPotato1_TU" count="1" craft_time="2" traits="TU" craft_area="hotbox">
+    <ingredient name="plantedPotato1_U" count="1"/>
+    <ingredient name="resourceScrapIron" count="10"/>
+    <ingredient name="resourceNail" count="10"/>
+</recipe>
+<recipe name="plantedPotato1_TF" count="1" craft_time="2" traits="TF" craft_area="hotbox">
+    <ingredient name="plantedPotato1_T" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="2"/>
+</recipe>
+<recipe name="plantedPotato1_TF" count="1" craft_time="2" traits="TF" craft_area="hotbox">
+    <ingredient name="plantedPotato1_F" count="1"/>
+    <ingredient name="resourceScrapIron" count="10"/>
+    <ingredient name="resourceNail" count="10"/>
+</recipe>
+<recipe name="plantedPotato1_TE" count="1" craft_time="2" traits="TE" craft_area="hotbox">
+    <ingredient name="plantedPotato1_T" count="1"/>
+    <ingredient name="resourceScrapIron" count="4"/>
+    <ingredient name="resourceGunPowder" count="4"/>
+    <ingredient name="resourceDuctTape" count="1"/>
+</recipe>
+<recipe name="plantedPotato1_TE" count="1" craft_time="2" traits="TE" craft_area="hotbox">
+    <ingredient name="plantedPotato1_E" count="1"/>
+    <ingredient name="resourceScrapIron" count="10"/>
+    <ingredient name="resourceNail" count="10"/>
+</recipe>
+<recipe name="plantedPotato1_TR" count="1" craft_time="2" traits="TR" craft_area="hotbox">
+    <ingredient name="plantedPotato1_T" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="10"/>
+</recipe>
+<recipe name="plantedPotato1_TR" count="1" craft_time="2" traits="TR" craft_area="hotbox">
+    <ingredient name="plantedPotato1_R" count="1"/>
+    <ingredient name="resourceScrapIron" count="10"/>
+    <ingredient name="resourceNail" count="10"/>
+</recipe>
 <recipe name="plantedPotato1_TT" count="1" craft_time="2" traits="TT" craft_area="hotbox">
     <ingredient name="plantedPotato1_T" count="1"/>
     <ingredient name="resourceScrapIron" count="10"/>
     <ingredient name="resourceNail" count="10"/>
 </recipe>
-<recipe name="plantedPumpkin1_" count="1" craft_time="900" traits="">
+<recipe name="plantedPumpkin1_" count="1" craft_time="900" traits="" craft_area="hotbox">
     <ingredient name="plantedPumpkin1" count="1"/>
     <ingredient name="foodRottingFlesh" count="1"/>
     <ingredient name="resourceCloth" count="1"/>
@@ -1916,6 +3181,15 @@
     <ingredient name="plantedPumpkin1_" count="1"/>
     <ingredient name="plantedMushroom1" count="1"/>
 </recipe>
+<recipe name="plantedPumpkin1_UB" count="1" craft_time="2" traits="UB" craft_area="hotbox">
+    <ingredient name="plantedPumpkin1_U" count="1"/>
+    <ingredient name="foodRottingFlesh" count="5"/>
+    <ingredient name="medicalBloodBag" count="2"/>
+</recipe>
+<recipe name="plantedPumpkin1_UB" count="1" craft_time="2" traits="UB" craft_area="hotbox">
+    <ingredient name="plantedPumpkin1_B" count="1"/>
+    <ingredient name="plantedMushroom1" count="1"/>
+</recipe>
 <recipe name="plantedPumpkin1_UF" count="1" craft_time="2" traits="UF" craft_area="hotbox">
     <ingredient name="plantedPumpkin1_U" count="1"/>
     <ingredient name="drinkCanMegaCrush" count="2"/>
@@ -1955,6 +3229,23 @@
     <ingredient name="plantedPumpkin1_" count="1"/>
     <ingredient name="drinkCanMegaCrush" count="2"/>
 </recipe>
+<recipe name="plantedPumpkin1_FB" count="1" craft_time="2" traits="FB" craft_area="hotbox">
+    <ingredient name="plantedPumpkin1_F" count="1"/>
+    <ingredient name="foodRottingFlesh" count="5"/>
+    <ingredient name="medicalBloodBag" count="2"/>
+</recipe>
+<recipe name="plantedPumpkin1_FB" count="1" craft_time="2" traits="FB" craft_area="hotbox">
+    <ingredient name="plantedPumpkin1_B" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="2"/>
+</recipe>
+<recipe name="plantedPumpkin1_FU" count="1" craft_time="2" traits="FU" craft_area="hotbox">
+    <ingredient name="plantedPumpkin1_F" count="1"/>
+    <ingredient name="plantedMushroom1" count="1"/>
+</recipe>
+<recipe name="plantedPumpkin1_FU" count="1" craft_time="2" traits="FU" craft_area="hotbox">
+    <ingredient name="plantedPumpkin1_U" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="2"/>
+</recipe>
 <recipe name="plantedPumpkin1_FF" count="1" craft_time="2" traits="FF" craft_area="hotbox">
     <ingredient name="plantedPumpkin1_F" count="1"/>
     <ingredient name="drinkCanMegaCrush" count="2"/>
@@ -1992,6 +3283,26 @@
     <ingredient name="resourceGunPowder" count="4"/>
     <ingredient name="resourceDuctTape" count="1"/>
 </recipe>
+<recipe name="plantedPumpkin1_EU" count="1" craft_time="2" traits="EU" craft_area="hotbox">
+    <ingredient name="plantedPumpkin1_E" count="1"/>
+    <ingredient name="plantedMushroom1" count="1"/>
+</recipe>
+<recipe name="plantedPumpkin1_EU" count="1" craft_time="2" traits="EU" craft_area="hotbox">
+    <ingredient name="plantedPumpkin1_U" count="1"/>
+    <ingredient name="resourceScrapIron" count="4"/>
+    <ingredient name="resourceGunPowder" count="4"/>
+    <ingredient name="resourceDuctTape" count="1"/>
+</recipe>
+<recipe name="plantedPumpkin1_EF" count="1" craft_time="2" traits="EF" craft_area="hotbox">
+    <ingredient name="plantedPumpkin1_E" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="2"/>
+</recipe>
+<recipe name="plantedPumpkin1_EF" count="1" craft_time="2" traits="EF" craft_area="hotbox">
+    <ingredient name="plantedPumpkin1_F" count="1"/>
+    <ingredient name="resourceScrapIron" count="4"/>
+    <ingredient name="resourceGunPowder" count="4"/>
+    <ingredient name="resourceDuctTape" count="1"/>
+</recipe>
 <recipe name="plantedPumpkin1_EE" count="1" craft_time="2" traits="EE" craft_area="hotbox">
     <ingredient name="plantedPumpkin1_E" count="1"/>
     <ingredient name="resourceScrapIron" count="4"/>
@@ -2013,6 +3324,31 @@
     <ingredient name="plantedPumpkin1_" count="1"/>
     <ingredient name="drinkJarPureMineralWater" count="10"/>
 </recipe>
+<recipe name="plantedPumpkin1_RB" count="1" craft_time="2" traits="RB" craft_area="hotbox">
+    <ingredient name="plantedPumpkin1_R" count="1"/>
+    <ingredient name="foodRottingFlesh" count="5"/>
+    <ingredient name="medicalBloodBag" count="2"/>
+</recipe>
+<recipe name="plantedPumpkin1_RB" count="1" craft_time="2" traits="RB" craft_area="hotbox">
+    <ingredient name="plantedPumpkin1_B" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="10"/>
+</recipe>
+<recipe name="plantedPumpkin1_RU" count="1" craft_time="2" traits="RU" craft_area="hotbox">
+    <ingredient name="plantedPumpkin1_R" count="1"/>
+    <ingredient name="plantedMushroom1" count="1"/>
+</recipe>
+<recipe name="plantedPumpkin1_RU" count="1" craft_time="2" traits="RU" craft_area="hotbox">
+    <ingredient name="plantedPumpkin1_U" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="10"/>
+</recipe>
+<recipe name="plantedPumpkin1_RF" count="1" craft_time="2" traits="RF" craft_area="hotbox">
+    <ingredient name="plantedPumpkin1_R" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="2"/>
+</recipe>
+<recipe name="plantedPumpkin1_RF" count="1" craft_time="2" traits="RF" craft_area="hotbox">
+    <ingredient name="plantedPumpkin1_F" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="10"/>
+</recipe>
 <recipe name="plantedPumpkin1_RT" count="1" craft_time="2" traits="RT" craft_area="hotbox">
     <ingredient name="plantedPumpkin1_R" count="1"/>
     <ingredient name="resourceScrapIron" count="10"/>
@@ -2027,12 +3363,60 @@
     <ingredient name="resourceScrapIron" count="10"/>
     <ingredient name="resourceNail" count="10"/>
 </recipe>
+<recipe name="plantedPumpkin1_TB" count="1" craft_time="2" traits="TB" craft_area="hotbox">
+    <ingredient name="plantedPumpkin1_T" count="1"/>
+    <ingredient name="foodRottingFlesh" count="5"/>
+    <ingredient name="medicalBloodBag" count="2"/>
+</recipe>
+<recipe name="plantedPumpkin1_TB" count="1" craft_time="2" traits="TB" craft_area="hotbox">
+    <ingredient name="plantedPumpkin1_B" count="1"/>
+    <ingredient name="resourceScrapIron" count="10"/>
+    <ingredient name="resourceNail" count="10"/>
+</recipe>
+<recipe name="plantedPumpkin1_TU" count="1" craft_time="2" traits="TU" craft_area="hotbox">
+    <ingredient name="plantedPumpkin1_T" count="1"/>
+    <ingredient name="plantedMushroom1" count="1"/>
+</recipe>
+<recipe name="plantedPumpkin1_TU" count="1" craft_time="2" traits="TU" craft_area="hotbox">
+    <ingredient name="plantedPumpkin1_U" count="1"/>
+    <ingredient name="resourceScrapIron" count="10"/>
+    <ingredient name="resourceNail" count="10"/>
+</recipe>
+<recipe name="plantedPumpkin1_TF" count="1" craft_time="2" traits="TF" craft_area="hotbox">
+    <ingredient name="plantedPumpkin1_T" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="2"/>
+</recipe>
+<recipe name="plantedPumpkin1_TF" count="1" craft_time="2" traits="TF" craft_area="hotbox">
+    <ingredient name="plantedPumpkin1_F" count="1"/>
+    <ingredient name="resourceScrapIron" count="10"/>
+    <ingredient name="resourceNail" count="10"/>
+</recipe>
+<recipe name="plantedPumpkin1_TE" count="1" craft_time="2" traits="TE" craft_area="hotbox">
+    <ingredient name="plantedPumpkin1_T" count="1"/>
+    <ingredient name="resourceScrapIron" count="4"/>
+    <ingredient name="resourceGunPowder" count="4"/>
+    <ingredient name="resourceDuctTape" count="1"/>
+</recipe>
+<recipe name="plantedPumpkin1_TE" count="1" craft_time="2" traits="TE" craft_area="hotbox">
+    <ingredient name="plantedPumpkin1_E" count="1"/>
+    <ingredient name="resourceScrapIron" count="10"/>
+    <ingredient name="resourceNail" count="10"/>
+</recipe>
+<recipe name="plantedPumpkin1_TR" count="1" craft_time="2" traits="TR" craft_area="hotbox">
+    <ingredient name="plantedPumpkin1_T" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="10"/>
+</recipe>
+<recipe name="plantedPumpkin1_TR" count="1" craft_time="2" traits="TR" craft_area="hotbox">
+    <ingredient name="plantedPumpkin1_R" count="1"/>
+    <ingredient name="resourceScrapIron" count="10"/>
+    <ingredient name="resourceNail" count="10"/>
+</recipe>
 <recipe name="plantedPumpkin1_TT" count="1" craft_time="2" traits="TT" craft_area="hotbox">
     <ingredient name="plantedPumpkin1_T" count="1"/>
     <ingredient name="resourceScrapIron" count="10"/>
     <ingredient name="resourceNail" count="10"/>
 </recipe>
-<recipe name="plantedYucca1_" count="1" craft_time="900" traits="">
+<recipe name="plantedYucca1_" count="1" craft_time="900" traits="" craft_area="hotbox">
     <ingredient name="plantedYucca1" count="1"/>
     <ingredient name="foodRottingFlesh" count="1"/>
     <ingredient name="resourceCloth" count="1"/>
@@ -2089,6 +3473,15 @@
     <ingredient name="plantedYucca1_" count="1"/>
     <ingredient name="plantedMushroom1" count="1"/>
 </recipe>
+<recipe name="plantedYucca1_UB" count="1" craft_time="2" traits="UB" craft_area="hotbox">
+    <ingredient name="plantedYucca1_U" count="1"/>
+    <ingredient name="foodRottingFlesh" count="5"/>
+    <ingredient name="medicalBloodBag" count="2"/>
+</recipe>
+<recipe name="plantedYucca1_UB" count="1" craft_time="2" traits="UB" craft_area="hotbox">
+    <ingredient name="plantedYucca1_B" count="1"/>
+    <ingredient name="plantedMushroom1" count="1"/>
+</recipe>
 <recipe name="plantedYucca1_UF" count="1" craft_time="2" traits="UF" craft_area="hotbox">
     <ingredient name="plantedYucca1_U" count="1"/>
     <ingredient name="drinkCanMegaCrush" count="2"/>
@@ -2128,6 +3521,23 @@
     <ingredient name="plantedYucca1_" count="1"/>
     <ingredient name="drinkCanMegaCrush" count="2"/>
 </recipe>
+<recipe name="plantedYucca1_FB" count="1" craft_time="2" traits="FB" craft_area="hotbox">
+    <ingredient name="plantedYucca1_F" count="1"/>
+    <ingredient name="foodRottingFlesh" count="5"/>
+    <ingredient name="medicalBloodBag" count="2"/>
+</recipe>
+<recipe name="plantedYucca1_FB" count="1" craft_time="2" traits="FB" craft_area="hotbox">
+    <ingredient name="plantedYucca1_B" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="2"/>
+</recipe>
+<recipe name="plantedYucca1_FU" count="1" craft_time="2" traits="FU" craft_area="hotbox">
+    <ingredient name="plantedYucca1_F" count="1"/>
+    <ingredient name="plantedMushroom1" count="1"/>
+</recipe>
+<recipe name="plantedYucca1_FU" count="1" craft_time="2" traits="FU" craft_area="hotbox">
+    <ingredient name="plantedYucca1_U" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="2"/>
+</recipe>
 <recipe name="plantedYucca1_FF" count="1" craft_time="2" traits="FF" craft_area="hotbox">
     <ingredient name="plantedYucca1_F" count="1"/>
     <ingredient name="drinkCanMegaCrush" count="2"/>
@@ -2165,6 +3575,26 @@
     <ingredient name="resourceGunPowder" count="4"/>
     <ingredient name="resourceDuctTape" count="1"/>
 </recipe>
+<recipe name="plantedYucca1_EU" count="1" craft_time="2" traits="EU" craft_area="hotbox">
+    <ingredient name="plantedYucca1_E" count="1"/>
+    <ingredient name="plantedMushroom1" count="1"/>
+</recipe>
+<recipe name="plantedYucca1_EU" count="1" craft_time="2" traits="EU" craft_area="hotbox">
+    <ingredient name="plantedYucca1_U" count="1"/>
+    <ingredient name="resourceScrapIron" count="4"/>
+    <ingredient name="resourceGunPowder" count="4"/>
+    <ingredient name="resourceDuctTape" count="1"/>
+</recipe>
+<recipe name="plantedYucca1_EF" count="1" craft_time="2" traits="EF" craft_area="hotbox">
+    <ingredient name="plantedYucca1_E" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="2"/>
+</recipe>
+<recipe name="plantedYucca1_EF" count="1" craft_time="2" traits="EF" craft_area="hotbox">
+    <ingredient name="plantedYucca1_F" count="1"/>
+    <ingredient name="resourceScrapIron" count="4"/>
+    <ingredient name="resourceGunPowder" count="4"/>
+    <ingredient name="resourceDuctTape" count="1"/>
+</recipe>
 <recipe name="plantedYucca1_EE" count="1" craft_time="2" traits="EE" craft_area="hotbox">
     <ingredient name="plantedYucca1_E" count="1"/>
     <ingredient name="resourceScrapIron" count="4"/>
@@ -2186,6 +3616,31 @@
     <ingredient name="plantedYucca1_" count="1"/>
     <ingredient name="drinkJarPureMineralWater" count="10"/>
 </recipe>
+<recipe name="plantedYucca1_RB" count="1" craft_time="2" traits="RB" craft_area="hotbox">
+    <ingredient name="plantedYucca1_R" count="1"/>
+    <ingredient name="foodRottingFlesh" count="5"/>
+    <ingredient name="medicalBloodBag" count="2"/>
+</recipe>
+<recipe name="plantedYucca1_RB" count="1" craft_time="2" traits="RB" craft_area="hotbox">
+    <ingredient name="plantedYucca1_B" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="10"/>
+</recipe>
+<recipe name="plantedYucca1_RU" count="1" craft_time="2" traits="RU" craft_area="hotbox">
+    <ingredient name="plantedYucca1_R" count="1"/>
+    <ingredient name="plantedMushroom1" count="1"/>
+</recipe>
+<recipe name="plantedYucca1_RU" count="1" craft_time="2" traits="RU" craft_area="hotbox">
+    <ingredient name="plantedYucca1_U" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="10"/>
+</recipe>
+<recipe name="plantedYucca1_RF" count="1" craft_time="2" traits="RF" craft_area="hotbox">
+    <ingredient name="plantedYucca1_R" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="2"/>
+</recipe>
+<recipe name="plantedYucca1_RF" count="1" craft_time="2" traits="RF" craft_area="hotbox">
+    <ingredient name="plantedYucca1_F" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="10"/>
+</recipe>
 <recipe name="plantedYucca1_RT" count="1" craft_time="2" traits="RT" craft_area="hotbox">
     <ingredient name="plantedYucca1_R" count="1"/>
     <ingredient name="resourceScrapIron" count="10"/>
@@ -2197,6 +3652,54 @@
 </recipe>
 <recipe name="plantedYucca1_T" count="1" craft_time="2" traits="T" craft_area="hotbox">
     <ingredient name="plantedYucca1_" count="1"/>
+    <ingredient name="resourceScrapIron" count="10"/>
+    <ingredient name="resourceNail" count="10"/>
+</recipe>
+<recipe name="plantedYucca1_TB" count="1" craft_time="2" traits="TB" craft_area="hotbox">
+    <ingredient name="plantedYucca1_T" count="1"/>
+    <ingredient name="foodRottingFlesh" count="5"/>
+    <ingredient name="medicalBloodBag" count="2"/>
+</recipe>
+<recipe name="plantedYucca1_TB" count="1" craft_time="2" traits="TB" craft_area="hotbox">
+    <ingredient name="plantedYucca1_B" count="1"/>
+    <ingredient name="resourceScrapIron" count="10"/>
+    <ingredient name="resourceNail" count="10"/>
+</recipe>
+<recipe name="plantedYucca1_TU" count="1" craft_time="2" traits="TU" craft_area="hotbox">
+    <ingredient name="plantedYucca1_T" count="1"/>
+    <ingredient name="plantedMushroom1" count="1"/>
+</recipe>
+<recipe name="plantedYucca1_TU" count="1" craft_time="2" traits="TU" craft_area="hotbox">
+    <ingredient name="plantedYucca1_U" count="1"/>
+    <ingredient name="resourceScrapIron" count="10"/>
+    <ingredient name="resourceNail" count="10"/>
+</recipe>
+<recipe name="plantedYucca1_TF" count="1" craft_time="2" traits="TF" craft_area="hotbox">
+    <ingredient name="plantedYucca1_T" count="1"/>
+    <ingredient name="drinkCanMegaCrush" count="2"/>
+</recipe>
+<recipe name="plantedYucca1_TF" count="1" craft_time="2" traits="TF" craft_area="hotbox">
+    <ingredient name="plantedYucca1_F" count="1"/>
+    <ingredient name="resourceScrapIron" count="10"/>
+    <ingredient name="resourceNail" count="10"/>
+</recipe>
+<recipe name="plantedYucca1_TE" count="1" craft_time="2" traits="TE" craft_area="hotbox">
+    <ingredient name="plantedYucca1_T" count="1"/>
+    <ingredient name="resourceScrapIron" count="4"/>
+    <ingredient name="resourceGunPowder" count="4"/>
+    <ingredient name="resourceDuctTape" count="1"/>
+</recipe>
+<recipe name="plantedYucca1_TE" count="1" craft_time="2" traits="TE" craft_area="hotbox">
+    <ingredient name="plantedYucca1_E" count="1"/>
+    <ingredient name="resourceScrapIron" count="10"/>
+    <ingredient name="resourceNail" count="10"/>
+</recipe>
+<recipe name="plantedYucca1_TR" count="1" craft_time="2" traits="TR" craft_area="hotbox">
+    <ingredient name="plantedYucca1_T" count="1"/>
+    <ingredient name="drinkJarPureMineralWater" count="10"/>
+</recipe>
+<recipe name="plantedYucca1_TR" count="1" craft_time="2" traits="TR" craft_area="hotbox">
+    <ingredient name="plantedYucca1_R" count="1"/>
     <ingredient name="resourceScrapIron" count="10"/>
     <ingredient name="resourceNail" count="10"/>
 </recipe>
