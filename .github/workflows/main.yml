@@ -14,6 +14,16 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v2
+      - name: Setup Go
+        uses: actions/setup-go@v2
+        with:
+          go-version: "1.18.1"
+      - name: Install dependencies
+        run: |
+          go version
+          go get -u golang.org/x/lint/golint
+      - name: Run program
+        run: go run .
       - name: prepare data
         run: |
           # Edit this line if you want to include additonal files
