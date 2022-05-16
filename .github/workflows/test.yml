@@ -19,10 +19,12 @@ jobs:
         run: |
           go version
           go get -u golang.org/x/lint/golint
+          go install golang.org/x/lint/golint
+      - name: Run testing
+        run: go test -v ./...
       - name: Run build
         run: go build .
       - name: Run vet
-        run: |
-          go vet .
-      - name: Run testing
-        run: go test -v ./...
+        run: go vet .
+      - name: Run linter
+        run: golint ./...
