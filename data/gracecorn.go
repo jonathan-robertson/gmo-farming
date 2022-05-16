@@ -16,12 +16,12 @@ type GraceCorn struct {
 
 func CreateGraceCorn() *GraceCorn {
 	return &GraceCorn{
-		Name:               "GraceCorn",
-		DisplayName:        "Super Corn",
-		PreferredConsumer:  "",
-		CropYield:          2,
-		BonusYield:         1,
-		CraftTime:          2,
+		Name:              "GraceCorn",
+		DisplayName:       "Super Corn",
+		PreferredConsumer: "",
+		CropYield:         2,
+		BonusYield:        1,
+		CraftTime:         2,
 	}
 }
 

@@ -16,12 +16,12 @@ type Coffee struct {
 
 func CreateCoffee() *Coffee {
 	return &Coffee{
-		Name:               "Coffee",
-		DisplayName:        "Coffee",
-		PreferredConsumer:  "",
-		CropYield:          2,
-		BonusYield:         1,
-		CraftTime:          2,
+		Name:              "Coffee",
+		DisplayName:       "Coffee",
+		PreferredConsumer: "",
+		CropYield:         2,
+		BonusYield:        1,
+		CraftTime:         2,
 	}
 }
 

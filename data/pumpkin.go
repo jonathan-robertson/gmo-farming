@@ -16,12 +16,12 @@ type Pumpkin struct {
 
 func CreatePumpkin() *Pumpkin {
 	return &Pumpkin{
-		Name:               "Pumpkin",
-		DisplayName:        "Pumpkin",
-		PreferredConsumer:  "",
-		CropYield:          2,
-		BonusYield:         1,
-		CraftTime:          2,
+		Name:              "Pumpkin",
+		DisplayName:       "Pumpkin",
+		PreferredConsumer: "",
+		CropYield:         2,
+		BonusYield:        1,
+		CraftTime:         2,
 	}
 }
 

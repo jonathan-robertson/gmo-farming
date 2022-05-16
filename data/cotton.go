@@ -16,12 +16,12 @@ type Cotton struct {
 
 func CreateCotton() *Cotton {
 	return &Cotton{
-		Name:               "Cotton",
-		DisplayName:        "Cotton",
-		PreferredConsumer:  "",
-		CropYield:          2,
-		BonusYield:         1,
-		CraftTime:          2,
+		Name:              "Cotton",
+		DisplayName:       "Cotton",
+		PreferredConsumer: "",
+		CropYield:         2,
+		BonusYield:        1,
+		CraftTime:         2,
 	}
 }
 

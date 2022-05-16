@@ -16,12 +16,12 @@ type Potato struct {
 
 func CreatePotato() *Potato {
 	return &Potato{
-		Name:               "Potato",
-		DisplayName:        "Potato",
-		PreferredConsumer:  "",
-		CropYield:          2,
-		BonusYield:         1,
-		CraftTime:          2,
+		Name:              "Potato",
+		DisplayName:       "Potato",
+		PreferredConsumer: "",
+		CropYield:         2,
+		BonusYield:        1,
+		CraftTime:         2,
 	}
 }
 

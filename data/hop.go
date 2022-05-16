@@ -16,12 +16,12 @@ type Hop struct {
 
 func CreateHop() *Hop {
 	return &Hop{
-		Name:               "Hop",
-		DisplayName:        "Hop",
-		PreferredConsumer:  "",
-		CropYield:          2,
-		BonusYield:         1,
-		CraftTime:          2,
+		Name:              "Hop",
+		DisplayName:       "Hop",
+		PreferredConsumer: "",
+		CropYield:         2,
+		BonusYield:        1,
+		CraftTime:         2,
 	}
 }
 
