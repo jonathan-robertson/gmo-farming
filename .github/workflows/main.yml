@@ -51,7 +51,7 @@ jobs:
           tag: ${{ env.version }}
           commit: main
           name: ${{ github.event.pull_request.title }}
-          body: "## Summary\n${{ github.event.pull_request.body }}"
+          body: "${{ github.event.pull_request.body }}"
           generateReleaseNotes: true
           artifacts: "${{ github.event.repository.name }}.zip, ${{ github.event.repository.name }}-crystal-hell.zip"
           prerelease: ${{ env.prerelease }}
