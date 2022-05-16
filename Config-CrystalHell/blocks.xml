@@ -333,8 +333,8 @@
 <block name="plantedAloe3_BR" stage="3" traits="BR" tags="T3Plant">
 	<drop event="Destroy" name="plantedAloe1_BR" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="resourceCropAloeLeaf" count="6" tag="cropHarvest"/>
-	<drop event="Harvest" name="resourceCropAloeLeaf" prob="0.5" count="3" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="resourceCropAloeLeaf" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropAloeLeaf" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedAloe1"/>
@@ -639,8 +639,8 @@
 <block name="plantedAloe3_UR" stage="3" traits="UR" tags="T3Plant">
 	<drop event="Destroy" name="plantedAloe1_UR" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="resourceCropAloeLeaf" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="resourceCropAloeLeaf" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="resourceCropAloeLeaf" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropAloeLeaf" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedAloe1"/>
@@ -996,8 +996,8 @@
 <block name="plantedAloe3_FR" stage="3" traits="FR" tags="T3Plant">
 	<drop event="Destroy" name="plantedAloe1_FR" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="resourceCropAloeLeaf" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="resourceCropAloeLeaf" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="resourceCropAloeLeaf" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropAloeLeaf" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedAloe1"/>
@@ -1353,8 +1353,8 @@
 <block name="plantedAloe3_R" stage="3" traits="R" tags="T2Plant">
 	<drop event="Destroy" name="plantedAloe1_R" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="resourceCropAloeLeaf" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="resourceCropAloeLeaf" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="resourceCropAloeLeaf" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropAloeLeaf" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedAloe1"/>
@@ -1404,8 +1404,8 @@
 <block name="plantedAloe3_RB" stage="3" traits="RB" tags="T3Plant">
 	<drop event="Destroy" name="plantedAloe1_RB" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="resourceCropAloeLeaf" count="6" tag="cropHarvest"/>
-	<drop event="Harvest" name="resourceCropAloeLeaf" prob="0.5" count="3" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="resourceCropAloeLeaf" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropAloeLeaf" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedAloe1"/>
@@ -1455,8 +1455,8 @@
 <block name="plantedAloe3_RU" stage="3" traits="RU" tags="T3Plant">
 	<drop event="Destroy" name="plantedAloe1_RU" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="resourceCropAloeLeaf" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="resourceCropAloeLeaf" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="resourceCropAloeLeaf" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropAloeLeaf" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedAloe1"/>
@@ -1506,8 +1506,8 @@
 <block name="plantedAloe3_RF" stage="3" traits="RF" tags="T3Plant">
 	<drop event="Destroy" name="plantedAloe1_RF" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="resourceCropAloeLeaf" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="resourceCropAloeLeaf" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="resourceCropAloeLeaf" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropAloeLeaf" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedAloe1"/>
@@ -1557,8 +1557,8 @@
 <block name="plantedAloe3_RT" stage="3" traits="RT" tags="T3Plant">
 	<drop event="Destroy" name="plantedAloe1_RT" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="resourceCropAloeLeaf" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="resourceCropAloeLeaf" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="resourceCropAloeLeaf" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropAloeLeaf" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedAloe1"/>
@@ -1863,8 +1863,8 @@
 <block name="plantedAloe3_TR" stage="3" traits="TR" tags="T3Plant">
 	<drop event="Destroy" name="plantedAloe1_TR" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="resourceCropAloeLeaf" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="resourceCropAloeLeaf" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="resourceCropAloeLeaf" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropAloeLeaf" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedAloe1"/>
@@ -2209,8 +2209,8 @@
 <block name="plantedBlueberry3_BR" stage="3" traits="BR" tags="T3Plant">
 	<drop event="Destroy" name="plantedBlueberry1_BR" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropBlueberries" count="6" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="3" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropBlueberries" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedBlueberry1"/>
@@ -2503,8 +2503,8 @@
 <block name="plantedBlueberry3_UR" stage="3" traits="UR" tags="T3Plant">
 	<drop event="Destroy" name="plantedBlueberry1_UR" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropBlueberries" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropBlueberries" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedBlueberry1"/>
@@ -2846,8 +2846,8 @@
 <block name="plantedBlueberry3_FR" stage="3" traits="FR" tags="T3Plant">
 	<drop event="Destroy" name="plantedBlueberry1_FR" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropBlueberries" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropBlueberries" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedBlueberry1"/>
@@ -3189,8 +3189,8 @@
 <block name="plantedBlueberry3_R" stage="3" traits="R" tags="T2Plant">
 	<drop event="Destroy" name="plantedBlueberry1_R" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropBlueberries" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropBlueberries" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedBlueberry1"/>
@@ -3238,8 +3238,8 @@
 <block name="plantedBlueberry3_RB" stage="3" traits="RB" tags="T3Plant">
 	<drop event="Destroy" name="plantedBlueberry1_RB" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropBlueberries" count="6" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="3" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropBlueberries" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedBlueberry1"/>
@@ -3287,8 +3287,8 @@
 <block name="plantedBlueberry3_RU" stage="3" traits="RU" tags="T3Plant">
 	<drop event="Destroy" name="plantedBlueberry1_RU" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropBlueberries" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropBlueberries" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedBlueberry1"/>
@@ -3336,8 +3336,8 @@
 <block name="plantedBlueberry3_RF" stage="3" traits="RF" tags="T3Plant">
 	<drop event="Destroy" name="plantedBlueberry1_RF" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropBlueberries" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropBlueberries" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedBlueberry1"/>
@@ -3385,8 +3385,8 @@
 <block name="plantedBlueberry3_RT" stage="3" traits="RT" tags="T3Plant">
 	<drop event="Destroy" name="plantedBlueberry1_RT" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropBlueberries" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropBlueberries" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedBlueberry1"/>
@@ -3679,8 +3679,8 @@
 <block name="plantedBlueberry3_TR" stage="3" traits="TR" tags="T3Plant">
 	<drop event="Destroy" name="plantedBlueberry1_TR" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropBlueberries" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropBlueberries" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedBlueberry1"/>
@@ -4006,8 +4006,8 @@
 <block name="plantedChrysanthemum3_BR" stage="3" traits="BR" tags="T3Plant">
 	<drop event="Destroy" name="plantedChrysanthemum1_BR" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="resourceCropChrysanthemumPlant" count="6" tag="cropHarvest"/>
-	<drop event="Harvest" name="resourceCropChrysanthemumPlant" prob="0.5" count="3" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="resourceCropChrysanthemumPlant" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropChrysanthemumPlant" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedChrysanthemum1"/>
@@ -4282,8 +4282,8 @@
 <block name="plantedChrysanthemum3_UR" stage="3" traits="UR" tags="T3Plant">
 	<drop event="Destroy" name="plantedChrysanthemum1_UR" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="resourceCropChrysanthemumPlant" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="resourceCropChrysanthemumPlant" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="resourceCropChrysanthemumPlant" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropChrysanthemumPlant" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedChrysanthemum1"/>
@@ -4604,8 +4604,8 @@
 <block name="plantedChrysanthemum3_FR" stage="3" traits="FR" tags="T3Plant">
 	<drop event="Destroy" name="plantedChrysanthemum1_FR" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="resourceCropChrysanthemumPlant" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="resourceCropChrysanthemumPlant" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="resourceCropChrysanthemumPlant" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropChrysanthemumPlant" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedChrysanthemum1"/>
@@ -4926,8 +4926,8 @@
 <block name="plantedChrysanthemum3_R" stage="3" traits="R" tags="T2Plant">
 	<drop event="Destroy" name="plantedChrysanthemum1_R" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="resourceCropChrysanthemumPlant" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="resourceCropChrysanthemumPlant" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="resourceCropChrysanthemumPlant" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropChrysanthemumPlant" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedChrysanthemum1"/>
@@ -4972,8 +4972,8 @@
 <block name="plantedChrysanthemum3_RB" stage="3" traits="RB" tags="T3Plant">
 	<drop event="Destroy" name="plantedChrysanthemum1_RB" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="resourceCropChrysanthemumPlant" count="6" tag="cropHarvest"/>
-	<drop event="Harvest" name="resourceCropChrysanthemumPlant" prob="0.5" count="3" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="resourceCropChrysanthemumPlant" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropChrysanthemumPlant" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedChrysanthemum1"/>
@@ -5018,8 +5018,8 @@
 <block name="plantedChrysanthemum3_RU" stage="3" traits="RU" tags="T3Plant">
 	<drop event="Destroy" name="plantedChrysanthemum1_RU" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="resourceCropChrysanthemumPlant" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="resourceCropChrysanthemumPlant" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="resourceCropChrysanthemumPlant" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropChrysanthemumPlant" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedChrysanthemum1"/>
@@ -5064,8 +5064,8 @@
 <block name="plantedChrysanthemum3_RF" stage="3" traits="RF" tags="T3Plant">
 	<drop event="Destroy" name="plantedChrysanthemum1_RF" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="resourceCropChrysanthemumPlant" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="resourceCropChrysanthemumPlant" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="resourceCropChrysanthemumPlant" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropChrysanthemumPlant" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedChrysanthemum1"/>
@@ -5110,8 +5110,8 @@
 <block name="plantedChrysanthemum3_RT" stage="3" traits="RT" tags="T3Plant">
 	<drop event="Destroy" name="plantedChrysanthemum1_RT" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="resourceCropChrysanthemumPlant" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="resourceCropChrysanthemumPlant" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="resourceCropChrysanthemumPlant" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropChrysanthemumPlant" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedChrysanthemum1"/>
@@ -5386,8 +5386,8 @@
 <block name="plantedChrysanthemum3_TR" stage="3" traits="TR" tags="T3Plant">
 	<drop event="Destroy" name="plantedChrysanthemum1_TR" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="resourceCropChrysanthemumPlant" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="resourceCropChrysanthemumPlant" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="resourceCropChrysanthemumPlant" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropChrysanthemumPlant" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedChrysanthemum1"/>
@@ -5719,8 +5719,8 @@
 <block name="plantedCoffee3_BR" stage="3" traits="BR" tags="T3Plant">
 	<drop event="Destroy" name="plantedCoffee1_BR" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="resourceCropCoffeeBeans" count="6" tag="cropHarvest"/>
-	<drop event="Harvest" name="resourceCropCoffeeBeans" prob="0.5" count="3" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="resourceCropCoffeeBeans" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropCoffeeBeans" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedCoffee1"/>
@@ -6007,8 +6007,8 @@
 <block name="plantedCoffee3_UR" stage="3" traits="UR" tags="T3Plant">
 	<drop event="Destroy" name="plantedCoffee1_UR" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="resourceCropCoffeeBeans" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="resourceCropCoffeeBeans" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="resourceCropCoffeeBeans" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropCoffeeBeans" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedCoffee1"/>
@@ -6343,8 +6343,8 @@
 <block name="plantedCoffee3_FR" stage="3" traits="FR" tags="T3Plant">
 	<drop event="Destroy" name="plantedCoffee1_FR" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="resourceCropCoffeeBeans" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="resourceCropCoffeeBeans" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="resourceCropCoffeeBeans" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropCoffeeBeans" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedCoffee1"/>
@@ -6679,8 +6679,8 @@
 <block name="plantedCoffee3_R" stage="3" traits="R" tags="T2Plant">
 	<drop event="Destroy" name="plantedCoffee1_R" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="resourceCropCoffeeBeans" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="resourceCropCoffeeBeans" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="resourceCropCoffeeBeans" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropCoffeeBeans" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedCoffee1"/>
@@ -6727,8 +6727,8 @@
 <block name="plantedCoffee3_RB" stage="3" traits="RB" tags="T3Plant">
 	<drop event="Destroy" name="plantedCoffee1_RB" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="resourceCropCoffeeBeans" count="6" tag="cropHarvest"/>
-	<drop event="Harvest" name="resourceCropCoffeeBeans" prob="0.5" count="3" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="resourceCropCoffeeBeans" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropCoffeeBeans" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedCoffee1"/>
@@ -6775,8 +6775,8 @@
 <block name="plantedCoffee3_RU" stage="3" traits="RU" tags="T3Plant">
 	<drop event="Destroy" name="plantedCoffee1_RU" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="resourceCropCoffeeBeans" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="resourceCropCoffeeBeans" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="resourceCropCoffeeBeans" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropCoffeeBeans" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedCoffee1"/>
@@ -6823,8 +6823,8 @@
 <block name="plantedCoffee3_RF" stage="3" traits="RF" tags="T3Plant">
 	<drop event="Destroy" name="plantedCoffee1_RF" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="resourceCropCoffeeBeans" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="resourceCropCoffeeBeans" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="resourceCropCoffeeBeans" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropCoffeeBeans" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedCoffee1"/>
@@ -6871,8 +6871,8 @@
 <block name="plantedCoffee3_RT" stage="3" traits="RT" tags="T3Plant">
 	<drop event="Destroy" name="plantedCoffee1_RT" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="resourceCropCoffeeBeans" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="resourceCropCoffeeBeans" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="resourceCropCoffeeBeans" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropCoffeeBeans" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedCoffee1"/>
@@ -7159,8 +7159,8 @@
 <block name="plantedCoffee3_TR" stage="3" traits="TR" tags="T3Plant">
 	<drop event="Destroy" name="plantedCoffee1_TR" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="resourceCropCoffeeBeans" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="resourceCropCoffeeBeans" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="resourceCropCoffeeBeans" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropCoffeeBeans" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedCoffee1"/>
@@ -7531,8 +7531,8 @@
 <block name="plantedCorn3_BR" stage="3" traits="BR" tags="T3Plant">
 	<drop event="Destroy" name="plantedCorn1_BR" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropCorn" count="6" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="3" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropCorn" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedCorn1"/>
@@ -7855,8 +7855,8 @@
 <block name="plantedCorn3_UR" stage="3" traits="UR" tags="T3Plant">
 	<drop event="Destroy" name="plantedCorn1_UR" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropCorn" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropCorn" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedCorn1"/>
@@ -8233,8 +8233,8 @@
 <block name="plantedCorn3_FR" stage="3" traits="FR" tags="T3Plant">
 	<drop event="Destroy" name="plantedCorn1_FR" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropCorn" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropCorn" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedCorn1"/>
@@ -8611,8 +8611,8 @@
 <block name="plantedCorn3_R" stage="3" traits="R" tags="T2Plant">
 	<drop event="Destroy" name="plantedCorn1_R" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropCorn" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropCorn" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedCorn1"/>
@@ -8665,8 +8665,8 @@
 <block name="plantedCorn3_RB" stage="3" traits="RB" tags="T3Plant">
 	<drop event="Destroy" name="plantedCorn1_RB" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropCorn" count="6" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="3" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropCorn" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedCorn1"/>
@@ -8719,8 +8719,8 @@
 <block name="plantedCorn3_RU" stage="3" traits="RU" tags="T3Plant">
 	<drop event="Destroy" name="plantedCorn1_RU" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropCorn" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropCorn" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedCorn1"/>
@@ -8773,8 +8773,8 @@
 <block name="plantedCorn3_RF" stage="3" traits="RF" tags="T3Plant">
 	<drop event="Destroy" name="plantedCorn1_RF" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropCorn" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropCorn" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedCorn1"/>
@@ -8827,8 +8827,8 @@
 <block name="plantedCorn3_RT" stage="3" traits="RT" tags="T3Plant">
 	<drop event="Destroy" name="plantedCorn1_RT" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropCorn" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropCorn" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedCorn1"/>
@@ -9151,8 +9151,8 @@
 <block name="plantedCorn3_TR" stage="3" traits="TR" tags="T3Plant">
 	<drop event="Destroy" name="plantedCorn1_TR" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropCorn" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropCorn" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedCorn1"/>
@@ -9487,8 +9487,8 @@
 <block name="plantedCotton3_BR" stage="3" traits="BR" tags="T3Plant">
 	<drop event="Destroy" name="plantedCotton1_BR" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="resourceCropCottonPlant" count="6" tag="cropHarvest"/>
-	<drop event="Harvest" name="resourceCropCottonPlant" prob="0.5" count="3" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="resourceCropCottonPlant" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropCottonPlant" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedCotton1"/>
@@ -9769,8 +9769,8 @@
 <block name="plantedCotton3_UR" stage="3" traits="UR" tags="T3Plant">
 	<drop event="Destroy" name="plantedCotton1_UR" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="resourceCropCottonPlant" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="resourceCropCottonPlant" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="resourceCropCottonPlant" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropCottonPlant" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedCotton1"/>
@@ -10098,8 +10098,8 @@
 <block name="plantedCotton3_FR" stage="3" traits="FR" tags="T3Plant">
 	<drop event="Destroy" name="plantedCotton1_FR" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="resourceCropCottonPlant" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="resourceCropCottonPlant" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="resourceCropCottonPlant" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropCottonPlant" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedCotton1"/>
@@ -10427,8 +10427,8 @@
 <block name="plantedCotton3_R" stage="3" traits="R" tags="T2Plant">
 	<drop event="Destroy" name="plantedCotton1_R" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="resourceCropCottonPlant" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="resourceCropCottonPlant" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="resourceCropCottonPlant" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropCottonPlant" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedCotton1"/>
@@ -10474,8 +10474,8 @@
 <block name="plantedCotton3_RB" stage="3" traits="RB" tags="T3Plant">
 	<drop event="Destroy" name="plantedCotton1_RB" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="resourceCropCottonPlant" count="6" tag="cropHarvest"/>
-	<drop event="Harvest" name="resourceCropCottonPlant" prob="0.5" count="3" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="resourceCropCottonPlant" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropCottonPlant" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedCotton1"/>
@@ -10521,8 +10521,8 @@
 <block name="plantedCotton3_RU" stage="3" traits="RU" tags="T3Plant">
 	<drop event="Destroy" name="plantedCotton1_RU" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="resourceCropCottonPlant" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="resourceCropCottonPlant" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="resourceCropCottonPlant" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropCottonPlant" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedCotton1"/>
@@ -10568,8 +10568,8 @@
 <block name="plantedCotton3_RF" stage="3" traits="RF" tags="T3Plant">
 	<drop event="Destroy" name="plantedCotton1_RF" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="resourceCropCottonPlant" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="resourceCropCottonPlant" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="resourceCropCottonPlant" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropCottonPlant" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedCotton1"/>
@@ -10615,8 +10615,8 @@
 <block name="plantedCotton3_RT" stage="3" traits="RT" tags="T3Plant">
 	<drop event="Destroy" name="plantedCotton1_RT" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="resourceCropCottonPlant" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="resourceCropCottonPlant" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="resourceCropCottonPlant" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropCottonPlant" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedCotton1"/>
@@ -10897,8 +10897,8 @@
 <block name="plantedCotton3_TR" stage="3" traits="TR" tags="T3Plant">
 	<drop event="Destroy" name="plantedCotton1_TR" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="resourceCropCottonPlant" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="resourceCropCottonPlant" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="resourceCropCottonPlant" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropCottonPlant" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedCotton1"/>
@@ -11226,8 +11226,8 @@
 <block name="plantedGoldenrod3_BR" stage="3" traits="BR" tags="T3Plant">
 	<drop event="Destroy" name="plantedGoldenrod1_BR" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="resourceCropGoldenrodPlant" count="6" tag="cropHarvest"/>
-	<drop event="Harvest" name="resourceCropGoldenrodPlant" prob="0.5" count="3" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="resourceCropGoldenrodPlant" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropGoldenrodPlant" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedGoldenrod1"/>
@@ -11508,8 +11508,8 @@
 <block name="plantedGoldenrod3_UR" stage="3" traits="UR" tags="T3Plant">
 	<drop event="Destroy" name="plantedGoldenrod1_UR" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="resourceCropGoldenrodPlant" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="resourceCropGoldenrodPlant" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="resourceCropGoldenrodPlant" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropGoldenrodPlant" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedGoldenrod1"/>
@@ -11837,8 +11837,8 @@
 <block name="plantedGoldenrod3_FR" stage="3" traits="FR" tags="T3Plant">
 	<drop event="Destroy" name="plantedGoldenrod1_FR" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="resourceCropGoldenrodPlant" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="resourceCropGoldenrodPlant" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="resourceCropGoldenrodPlant" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropGoldenrodPlant" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedGoldenrod1"/>
@@ -12166,8 +12166,8 @@
 <block name="plantedGoldenrod3_R" stage="3" traits="R" tags="T2Plant">
 	<drop event="Destroy" name="plantedGoldenrod1_R" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="resourceCropGoldenrodPlant" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="resourceCropGoldenrodPlant" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="resourceCropGoldenrodPlant" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropGoldenrodPlant" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedGoldenrod1"/>
@@ -12213,8 +12213,8 @@
 <block name="plantedGoldenrod3_RB" stage="3" traits="RB" tags="T3Plant">
 	<drop event="Destroy" name="plantedGoldenrod1_RB" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="resourceCropGoldenrodPlant" count="6" tag="cropHarvest"/>
-	<drop event="Harvest" name="resourceCropGoldenrodPlant" prob="0.5" count="3" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="resourceCropGoldenrodPlant" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropGoldenrodPlant" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedGoldenrod1"/>
@@ -12260,8 +12260,8 @@
 <block name="plantedGoldenrod3_RU" stage="3" traits="RU" tags="T3Plant">
 	<drop event="Destroy" name="plantedGoldenrod1_RU" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="resourceCropGoldenrodPlant" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="resourceCropGoldenrodPlant" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="resourceCropGoldenrodPlant" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropGoldenrodPlant" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedGoldenrod1"/>
@@ -12307,8 +12307,8 @@
 <block name="plantedGoldenrod3_RF" stage="3" traits="RF" tags="T3Plant">
 	<drop event="Destroy" name="plantedGoldenrod1_RF" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="resourceCropGoldenrodPlant" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="resourceCropGoldenrodPlant" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="resourceCropGoldenrodPlant" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropGoldenrodPlant" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedGoldenrod1"/>
@@ -12354,8 +12354,8 @@
 <block name="plantedGoldenrod3_RT" stage="3" traits="RT" tags="T3Plant">
 	<drop event="Destroy" name="plantedGoldenrod1_RT" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="resourceCropGoldenrodPlant" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="resourceCropGoldenrodPlant" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="resourceCropGoldenrodPlant" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropGoldenrodPlant" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedGoldenrod1"/>
@@ -12636,8 +12636,8 @@
 <block name="plantedGoldenrod3_TR" stage="3" traits="TR" tags="T3Plant">
 	<drop event="Destroy" name="plantedGoldenrod1_TR" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="resourceCropGoldenrodPlant" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="resourceCropGoldenrodPlant" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="resourceCropGoldenrodPlant" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropGoldenrodPlant" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedGoldenrod1"/>
@@ -13006,8 +13006,8 @@
 <block name="plantedGraceCorn3_BR" stage="3" traits="BR" tags="T3Plant">
 	<drop event="Destroy" name="plantedGraceCorn1_BR" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropGraceCorn" count="6" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropGraceCorn" prob="0.5" count="3" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropGraceCorn" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropGraceCorn" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedCorn1"/>
@@ -13330,8 +13330,8 @@
 <block name="plantedGraceCorn3_UR" stage="3" traits="UR" tags="T3Plant">
 	<drop event="Destroy" name="plantedGraceCorn1_UR" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropGraceCorn" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropGraceCorn" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropGraceCorn" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropGraceCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedCorn1"/>
@@ -13708,8 +13708,8 @@
 <block name="plantedGraceCorn3_FR" stage="3" traits="FR" tags="T3Plant">
 	<drop event="Destroy" name="plantedGraceCorn1_FR" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropGraceCorn" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropGraceCorn" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropGraceCorn" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropGraceCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedCorn1"/>
@@ -14086,8 +14086,8 @@
 <block name="plantedGraceCorn3_R" stage="3" traits="R" tags="T2Plant">
 	<drop event="Destroy" name="plantedGraceCorn1_R" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropGraceCorn" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropGraceCorn" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropGraceCorn" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropGraceCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedCorn1"/>
@@ -14140,8 +14140,8 @@
 <block name="plantedGraceCorn3_RB" stage="3" traits="RB" tags="T3Plant">
 	<drop event="Destroy" name="plantedGraceCorn1_RB" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropGraceCorn" count="6" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropGraceCorn" prob="0.5" count="3" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropGraceCorn" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropGraceCorn" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedCorn1"/>
@@ -14194,8 +14194,8 @@
 <block name="plantedGraceCorn3_RU" stage="3" traits="RU" tags="T3Plant">
 	<drop event="Destroy" name="plantedGraceCorn1_RU" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropGraceCorn" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropGraceCorn" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropGraceCorn" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropGraceCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedCorn1"/>
@@ -14248,8 +14248,8 @@
 <block name="plantedGraceCorn3_RF" stage="3" traits="RF" tags="T3Plant">
 	<drop event="Destroy" name="plantedGraceCorn1_RF" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropGraceCorn" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropGraceCorn" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropGraceCorn" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropGraceCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedCorn1"/>
@@ -14302,8 +14302,8 @@
 <block name="plantedGraceCorn3_RT" stage="3" traits="RT" tags="T3Plant">
 	<drop event="Destroy" name="plantedGraceCorn1_RT" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropGraceCorn" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropGraceCorn" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropGraceCorn" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropGraceCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedCorn1"/>
@@ -14626,8 +14626,8 @@
 <block name="plantedGraceCorn3_TR" stage="3" traits="TR" tags="T3Plant">
 	<drop event="Destroy" name="plantedGraceCorn1_TR" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropGraceCorn" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropGraceCorn" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropGraceCorn" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropGraceCorn" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedCorn1"/>
@@ -14968,8 +14968,8 @@
 <block name="plantedHop3_BR" stage="3" traits="BR" tags="T3Plant">
 	<drop event="Destroy" name="plantedHop1_BR" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="resourceCropHopsFlower" count="6" tag="cropHarvest"/>
-	<drop event="Harvest" name="resourceCropHopsFlower" prob="0.5" count="3" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="resourceCropHopsFlower" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropHopsFlower" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedHop1"/>
@@ -15256,8 +15256,8 @@
 <block name="plantedHop3_UR" stage="3" traits="UR" tags="T3Plant">
 	<drop event="Destroy" name="plantedHop1_UR" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="resourceCropHopsFlower" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="resourceCropHopsFlower" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="resourceCropHopsFlower" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropHopsFlower" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedHop1"/>
@@ -15592,8 +15592,8 @@
 <block name="plantedHop3_FR" stage="3" traits="FR" tags="T3Plant">
 	<drop event="Destroy" name="plantedHop1_FR" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="resourceCropHopsFlower" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="resourceCropHopsFlower" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="resourceCropHopsFlower" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropHopsFlower" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedHop1"/>
@@ -15928,8 +15928,8 @@
 <block name="plantedHop3_R" stage="3" traits="R" tags="T2Plant">
 	<drop event="Destroy" name="plantedHop1_R" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="resourceCropHopsFlower" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="resourceCropHopsFlower" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="resourceCropHopsFlower" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropHopsFlower" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedHop1"/>
@@ -15976,8 +15976,8 @@
 <block name="plantedHop3_RB" stage="3" traits="RB" tags="T3Plant">
 	<drop event="Destroy" name="plantedHop1_RB" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="resourceCropHopsFlower" count="6" tag="cropHarvest"/>
-	<drop event="Harvest" name="resourceCropHopsFlower" prob="0.5" count="3" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="resourceCropHopsFlower" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropHopsFlower" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedHop1"/>
@@ -16024,8 +16024,8 @@
 <block name="plantedHop3_RU" stage="3" traits="RU" tags="T3Plant">
 	<drop event="Destroy" name="plantedHop1_RU" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="resourceCropHopsFlower" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="resourceCropHopsFlower" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="resourceCropHopsFlower" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropHopsFlower" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedHop1"/>
@@ -16072,8 +16072,8 @@
 <block name="plantedHop3_RF" stage="3" traits="RF" tags="T3Plant">
 	<drop event="Destroy" name="plantedHop1_RF" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="resourceCropHopsFlower" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="resourceCropHopsFlower" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="resourceCropHopsFlower" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropHopsFlower" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedHop1"/>
@@ -16120,8 +16120,8 @@
 <block name="plantedHop3_RT" stage="3" traits="RT" tags="T3Plant">
 	<drop event="Destroy" name="plantedHop1_RT" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="resourceCropHopsFlower" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="resourceCropHopsFlower" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="resourceCropHopsFlower" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropHopsFlower" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedHop1"/>
@@ -16408,8 +16408,8 @@
 <block name="plantedHop3_TR" stage="3" traits="TR" tags="T3Plant">
 	<drop event="Destroy" name="plantedHop1_TR" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="resourceCropHopsFlower" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="resourceCropHopsFlower" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="resourceCropHopsFlower" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropHopsFlower" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedHop1"/>
@@ -16755,8 +16755,8 @@
 <block name="plantedMushroom3_BR" stage="3" traits="BR" tags="T3Plant">
 	<drop event="Destroy" name="plantedMushroom1_BR" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropMushrooms" count="6" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="3" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CropsGrown.BonusHarvestDivisor" value="16"/>
@@ -17109,8 +17109,8 @@
 <block name="plantedMushroom3_FR" stage="3" traits="FR" tags="T3Plant">
 	<drop event="Destroy" name="plantedMushroom1_FR" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropMushrooms" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CropsGrown.BonusHarvestDivisor" value="16"/>
@@ -17463,8 +17463,8 @@
 <block name="plantedMushroom3_R" stage="3" traits="R" tags="T2Plant">
 	<drop event="Destroy" name="plantedMushroom1_R" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropMushrooms" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CropsGrown.BonusHarvestDivisor" value="16"/>
@@ -17522,8 +17522,8 @@
 <block name="plantedMushroom3_RB" stage="3" traits="RB" tags="T3Plant">
 	<drop event="Destroy" name="plantedMushroom1_RB" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropMushrooms" count="6" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="3" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CropsGrown.BonusHarvestDivisor" value="16"/>
@@ -17581,8 +17581,8 @@
 <block name="plantedMushroom3_RF" stage="3" traits="RF" tags="T3Plant">
 	<drop event="Destroy" name="plantedMushroom1_RF" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropMushrooms" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CropsGrown.BonusHarvestDivisor" value="16"/>
@@ -17640,8 +17640,8 @@
 <block name="plantedMushroom3_RT" stage="3" traits="RT" tags="T3Plant">
 	<drop event="Destroy" name="plantedMushroom1_RT" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropMushrooms" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CropsGrown.BonusHarvestDivisor" value="16"/>
@@ -17935,8 +17935,8 @@
 <block name="plantedMushroom3_TR" stage="3" traits="TR" tags="T3Plant">
 	<drop event="Destroy" name="plantedMushroom1_TR" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropMushrooms" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CropsGrown.BonusHarvestDivisor" value="16"/>
@@ -18289,8 +18289,8 @@
 <block name="plantedPotato3_BR" stage="3" traits="BR" tags="T3Plant">
 	<drop event="Destroy" name="plantedPotato1_BR" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropPotato" count="6" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropPotato" prob="0.5" count="3" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropPotato" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropPotato" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedPotato1"/>
@@ -18589,8 +18589,8 @@
 <block name="plantedPotato3_UR" stage="3" traits="UR" tags="T3Plant">
 	<drop event="Destroy" name="plantedPotato1_UR" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropPotato" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropPotato" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropPotato" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropPotato" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedPotato1"/>
@@ -18939,8 +18939,8 @@
 <block name="plantedPotato3_FR" stage="3" traits="FR" tags="T3Plant">
 	<drop event="Destroy" name="plantedPotato1_FR" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropPotato" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropPotato" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropPotato" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropPotato" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedPotato1"/>
@@ -19289,8 +19289,8 @@
 <block name="plantedPotato3_R" stage="3" traits="R" tags="T2Plant">
 	<drop event="Destroy" name="plantedPotato1_R" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropPotato" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropPotato" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropPotato" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropPotato" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedPotato1"/>
@@ -19339,8 +19339,8 @@
 <block name="plantedPotato3_RB" stage="3" traits="RB" tags="T3Plant">
 	<drop event="Destroy" name="plantedPotato1_RB" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropPotato" count="6" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropPotato" prob="0.5" count="3" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropPotato" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropPotato" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedPotato1"/>
@@ -19389,8 +19389,8 @@
 <block name="plantedPotato3_RU" stage="3" traits="RU" tags="T3Plant">
 	<drop event="Destroy" name="plantedPotato1_RU" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropPotato" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropPotato" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropPotato" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropPotato" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedPotato1"/>
@@ -19439,8 +19439,8 @@
 <block name="plantedPotato3_RF" stage="3" traits="RF" tags="T3Plant">
 	<drop event="Destroy" name="plantedPotato1_RF" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropPotato" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropPotato" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropPotato" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropPotato" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedPotato1"/>
@@ -19489,8 +19489,8 @@
 <block name="plantedPotato3_RT" stage="3" traits="RT" tags="T3Plant">
 	<drop event="Destroy" name="plantedPotato1_RT" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropPotato" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropPotato" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropPotato" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropPotato" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedPotato1"/>
@@ -19789,8 +19789,8 @@
 <block name="plantedPotato3_TR" stage="3" traits="TR" tags="T3Plant">
 	<drop event="Destroy" name="plantedPotato1_TR" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropPotato" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropPotato" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropPotato" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropPotato" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedPotato1"/>
@@ -20155,8 +20155,8 @@
 <block name="plantedPumpkin3_BR" stage="3" traits="BR" tags="T3Plant">
 	<drop event="Destroy" name="plantedPumpkin1_BR" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropPumpkin" count="6" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropPumpkin" prob="0.5" count="3" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropPumpkin" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropPumpkin" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedPumpkin1"/>
@@ -20473,8 +20473,8 @@
 <block name="plantedPumpkin3_UR" stage="3" traits="UR" tags="T3Plant">
 	<drop event="Destroy" name="plantedPumpkin1_UR" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropPumpkin" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropPumpkin" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropPumpkin" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropPumpkin" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedPumpkin1"/>
@@ -20844,8 +20844,8 @@
 <block name="plantedPumpkin3_FR" stage="3" traits="FR" tags="T3Plant">
 	<drop event="Destroy" name="plantedPumpkin1_FR" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropPumpkin" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropPumpkin" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropPumpkin" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropPumpkin" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedPumpkin1"/>
@@ -21215,8 +21215,8 @@
 <block name="plantedPumpkin3_R" stage="3" traits="R" tags="T2Plant">
 	<drop event="Destroy" name="plantedPumpkin1_R" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropPumpkin" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropPumpkin" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropPumpkin" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropPumpkin" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedPumpkin1"/>
@@ -21268,8 +21268,8 @@
 <block name="plantedPumpkin3_RB" stage="3" traits="RB" tags="T3Plant">
 	<drop event="Destroy" name="plantedPumpkin1_RB" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropPumpkin" count="6" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropPumpkin" prob="0.5" count="3" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropPumpkin" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropPumpkin" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedPumpkin1"/>
@@ -21321,8 +21321,8 @@
 <block name="plantedPumpkin3_RU" stage="3" traits="RU" tags="T3Plant">
 	<drop event="Destroy" name="plantedPumpkin1_RU" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropPumpkin" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropPumpkin" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropPumpkin" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropPumpkin" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedPumpkin1"/>
@@ -21374,8 +21374,8 @@
 <block name="plantedPumpkin3_RF" stage="3" traits="RF" tags="T3Plant">
 	<drop event="Destroy" name="plantedPumpkin1_RF" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropPumpkin" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropPumpkin" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropPumpkin" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropPumpkin" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedPumpkin1"/>
@@ -21427,8 +21427,8 @@
 <block name="plantedPumpkin3_RT" stage="3" traits="RT" tags="T3Plant">
 	<drop event="Destroy" name="plantedPumpkin1_RT" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropPumpkin" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropPumpkin" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropPumpkin" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropPumpkin" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedPumpkin1"/>
@@ -21745,8 +21745,8 @@
 <block name="plantedPumpkin3_TR" stage="3" traits="TR" tags="T3Plant">
 	<drop event="Destroy" name="plantedPumpkin1_TR" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropPumpkin" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropPumpkin" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropPumpkin" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropPumpkin" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedPumpkin1"/>
@@ -22101,8 +22101,8 @@
 <block name="plantedYucca3_BR" stage="3" traits="BR" tags="T3Plant">
 	<drop event="Destroy" name="plantedYucca1_BR" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropYuccaFruit" count="6" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropYuccaFruit" prob="0.5" count="3" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropYuccaFruit" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropYuccaFruit" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedYucca1"/>
@@ -22401,8 +22401,8 @@
 <block name="plantedYucca3_UR" stage="3" traits="UR" tags="T3Plant">
 	<drop event="Destroy" name="plantedYucca1_UR" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropYuccaFruit" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropYuccaFruit" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropYuccaFruit" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropYuccaFruit" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedYucca1"/>
@@ -22751,8 +22751,8 @@
 <block name="plantedYucca3_FR" stage="3" traits="FR" tags="T3Plant">
 	<drop event="Destroy" name="plantedYucca1_FR" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropYuccaFruit" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropYuccaFruit" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropYuccaFruit" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropYuccaFruit" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedYucca1"/>
@@ -23101,8 +23101,8 @@
 <block name="plantedYucca3_R" stage="3" traits="R" tags="T2Plant">
 	<drop event="Destroy" name="plantedYucca1_R" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropYuccaFruit" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropYuccaFruit" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropYuccaFruit" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropYuccaFruit" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedYucca1"/>
@@ -23151,8 +23151,8 @@
 <block name="plantedYucca3_RB" stage="3" traits="RB" tags="T3Plant">
 	<drop event="Destroy" name="plantedYucca1_RB" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropYuccaFruit" count="6" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropYuccaFruit" prob="0.5" count="3" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropYuccaFruit" count="8" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropYuccaFruit" prob="0.5" count="4" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedYucca1"/>
@@ -23201,8 +23201,8 @@
 <block name="plantedYucca3_RU" stage="3" traits="RU" tags="T3Plant">
 	<drop event="Destroy" name="plantedYucca1_RU" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropYuccaFruit" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropYuccaFruit" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropYuccaFruit" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropYuccaFruit" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedYucca1"/>
@@ -23251,8 +23251,8 @@
 <block name="plantedYucca3_RF" stage="3" traits="RF" tags="T3Plant">
 	<drop event="Destroy" name="plantedYucca1_RF" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropYuccaFruit" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropYuccaFruit" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropYuccaFruit" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropYuccaFruit" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedYucca1"/>
@@ -23301,8 +23301,8 @@
 <block name="plantedYucca3_RT" stage="3" traits="RT" tags="T3Plant">
 	<drop event="Destroy" name="plantedYucca1_RT" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropYuccaFruit" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropYuccaFruit" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropYuccaFruit" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropYuccaFruit" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedYucca1"/>
@@ -23601,8 +23601,8 @@
 <block name="plantedYucca3_TR" stage="3" traits="TR" tags="T3Plant">
 	<drop event="Destroy" name="plantedYucca1_TR" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
-	<drop event="Harvest" name="foodCropYuccaFruit" count="3" tag="cropHarvest"/>
-	<drop event="Harvest" name="foodCropYuccaFruit" prob="0.5" count="1" tag="bonusCropHarvest"/>
+	<drop event="Harvest" name="foodCropYuccaFruit" count="4" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropYuccaFruit" prob="0.5" count="2" tag="bonusCropHarvest"/>
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedYucca1"/>

@@ -44,11 +44,6 @@ func calculateCropYield(count int, traits string) int {
 		count = int(float64(count) * 2)
 	}
 
-	// [R] Renewable
-	if strings.Contains(traits, "R") {
-		count = int(float64(count) * .75)
-	}
-
 	return count
 }
 
@@ -83,5 +78,5 @@ func getDefaultSeedDescription() string {
 }
 
 func getCraftingGroup(traits string) string {
-	return fmt.Sprintf("Tier%dSeeds", len(traits) + 1)
+	return fmt.Sprintf("Tier%dSeeds", len(traits)+1)
 }
