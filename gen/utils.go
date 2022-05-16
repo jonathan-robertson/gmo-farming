@@ -5,6 +5,7 @@ import (
 	"os"
 )
 
+// Write is used to set up the underlying file that the given producer will produce strings to
 func Write(producer Producer) error {
 	file, err := getFile(producer.GetPath(), producer.GetFilename())
 	if err != nil {

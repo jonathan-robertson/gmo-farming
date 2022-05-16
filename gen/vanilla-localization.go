@@ -5,16 +5,20 @@ import (
 	"fmt"
 )
 
+// VanillaLocalization is responsible for producing content for Localization.txt
 type VanillaLocalization struct{}
 
+// GetPath returns file path for this producer
 func (*VanillaLocalization) GetPath() string {
 	return "Config-Vanilla"
 }
 
+// GetFilename returns filename for this producer
 func (*VanillaLocalization) GetFilename() string {
 	return "Localization.txt"
 }
 
+// Produce xml data to the provided channel
 func (p *VanillaLocalization) Produce(c chan string) {
 	defer close(c)
 	c <- "Key,File,Type,english"
@@ -93,7 +97,7 @@ func (*VanillaLocalization) producePlantLocalization(c chan string, plant data.P
 			traits[0].Code,
 			plant.GetDescription(),
 			getEnhancedSeedEffectDescription(),
-			traits[0].GetTraitDescription(plant.GetPreferredConsumer()),
+			traits[0].GetTraitDescription(),
 			getHotBoxRequirementTip())
 	case 2:
 		if traits[0].Code == traits[1].Code {
@@ -109,7 +113,7 @@ func (*VanillaLocalization) producePlantLocalization(c chan string, plant data.P
 				traits[1].Code,
 				plant.GetDescription(),
 				getEnhancedSeedEffectDescription(),
-				traits[0].GetDoubleTraitDescription(plant.GetPreferredConsumer()),
+				traits[0].GetDoubleTraitDescription(),
 				getHotBoxRequirementTip())
 		} else {
 			c <- fmt.Sprintf(`planted%s1_%c%c,blocks,Farming,"%s (Seed, %s, %s)"`,
@@ -124,8 +128,8 @@ func (*VanillaLocalization) producePlantLocalization(c chan string, plant data.P
 				traits[1].Code,
 				plant.GetDescription(),
 				getEnhancedSeedEffectDescription(),
-				traits[0].GetTraitDescription(plant.GetPreferredConsumer()),
-				traits[1].GetTraitDescription(plant.GetPreferredConsumer()),
+				traits[0].GetTraitDescription(),
+				traits[1].GetTraitDescription(),
 				getHotBoxRequirementTip())
 		}
 	}

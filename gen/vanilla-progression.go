@@ -6,16 +6,20 @@ import (
 	"strings"
 )
 
+// VanillaProgression is responsible for producing content for progression.xml
 type VanillaProgression struct{}
 
+// GetPath returns file path for this producer
 func (*VanillaProgression) GetPath() string {
 	return "Config-Vanilla"
 }
 
+// GetFilename returns filename for this producer
 func (*VanillaProgression) GetFilename() string {
 	return "progression.xml"
 }
 
+// Produce xml data to the provided channel
 func (p *VanillaProgression) Produce(c chan string) {
 	defer close(c)
 	c <- `<config>`

@@ -4,10 +4,10 @@ import (
 	"fmt"
 )
 
+// Mushroom is a type of plant
 type Mushroom struct {
 	Name               string
 	DisplayName        string
-	PreferredConsumer  string
 	Description        string
 	CropYield          int
 	BonusYield         int
@@ -15,23 +15,12 @@ type Mushroom struct {
 	incompatibleTraits []rune
 }
 
-func CreateMushroom() *Mushroom {
-	return &Mushroom{
-		Name:               "Mushroom",
-		DisplayName:        "Mushroom Spores",
-		Description:        `Mushroom spores can be planted on all surfaces and walls and will grow without sunlight.`,
-		PreferredConsumer:  "Boars",
-		CropYield:          2,
-		BonusYield:         1,
-		CraftTime:          2,
-		incompatibleTraits: []rune{'U'},
-	}
-}
-
+// GetCraftTime returns the time required to craft this seed
 func (p *Mushroom) GetCraftTime() int {
 	return p.CraftTime
 }
 
+// GetDescription returns the seed description for this plant
 func (p *Mushroom) GetDescription() string {
 	if p.Description == "" {
 		return getDefaultSeedDescription()
@@ -39,22 +28,22 @@ func (p *Mushroom) GetDescription() string {
 	return p.Description
 }
 
+// GetDisplayName returns the display name
 func (p *Mushroom) GetDisplayName() string {
 	return p.DisplayName
 }
 
+// GetName returns the name of this plant
 func (p *Mushroom) GetName() string {
 	return p.Name
 }
 
-func (p *Mushroom) GetPreferredConsumer() string {
-	return p.PreferredConsumer
-}
-
+// GetSchematicName returns the schematic name for this plant, given the provided traits
 func (p *Mushroom) GetSchematicName(traits string) string {
 	return fmt.Sprintf("plantedMushroom1_%sschematic", traits)
 }
 
+// IsCompatibleWith checks for trait compatibility with this plant
 func (p *Mushroom) IsCompatibleWith(t Trait) bool {
 	for _, incompatibleTrait := range p.incompatibleTraits {
 		if incompatibleTrait == t.Code {
@@ -64,14 +53,15 @@ func (p *Mushroom) IsCompatibleWith(t Trait) bool {
 	return true
 }
 
+// WriteBlockStages produces each of the 3 block stages for this plant
 func (p *Mushroom) WriteBlockStages(c chan string, target, traits string) {
-	p.WriteStage1(c, target, traits)
-	p.WriteStage2(c, traits)
-	p.WriteStage3(c, traits)
+	p.writeStage1(c, target, traits)
+	p.writeStage2(c, traits)
+	p.writeStage3(c, traits)
 }
 
 // TODO: return to mushroom... seems like overkill - why not extend naturally?
-func (p *Mushroom) WriteStage1(c chan string, target, traits string) {
+func (p *Mushroom) writeStage1(c chan string, target, traits string) {
 	c <- fmt.Sprintf(`<block name="plantedMushroom1_%s" stage="1" traits="%s">
 	<drop event="Destroy" name="plantedMushroom1_%s" count="1"/>
 	<property name="Collide" value="melee"/>
@@ -100,7 +90,7 @@ func (p *Mushroom) WriteStage1(c chan string, target, traits string) {
 </block>`, traits, traits, traits, traits, getCraftingGroup(traits), traits, optionallyAddUnlock(p, target, traits))
 }
 
-func (*Mushroom) WriteStage2(c chan string, traits string) {
+func (*Mushroom) writeStage2(c chan string, traits string) {
 	c <- fmt.Sprintf(`<block name="plantedMushroom2_%s" stage="2" traits="%s">
 	<property name="Collide" value="melee"/>
 	<property name="CreativeMode" value="Dev"/>
@@ -111,7 +101,7 @@ func (*Mushroom) WriteStage2(c chan string, traits string) {
 </block>`, traits, traits, traits, traits)
 }
 
-func (p *Mushroom) WriteStage3(c chan string, traits string) {
+func (p *Mushroom) writeStage3(c chan string, traits string) {
 	c <- fmt.Sprintf(`<block name="plantedMushroom3_%s" stage="3" traits="%s" tags="T%dPlant">
 	<drop event="Destroy" name="plantedMushroom1_%s" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>

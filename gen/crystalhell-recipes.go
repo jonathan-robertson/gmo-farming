@@ -5,16 +5,20 @@ import (
 	"fmt"
 )
 
+// CrystalHellRecipes is responsible for producing content for recipes.xml
 type CrystalHellRecipes struct{}
 
+// GetPath returns file path for this producer
 func (*CrystalHellRecipes) GetPath() string {
 	return "Config-CrystalHell"
 }
 
+// GetFilename returns filename for this producer
 func (*CrystalHellRecipes) GetFilename() string {
 	return "recipes.xml"
 }
 
+// Produce xml data to the provided channel
 func (p *CrystalHellRecipes) Produce(c chan string) {
 	defer close(c)
 	c <- `<config><append xpath="/recipes">`

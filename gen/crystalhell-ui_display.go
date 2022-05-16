@@ -1,16 +1,20 @@
 package gen
 
-type CrystalHellUiDisplay struct{}
+// CrystalHellUIDisplay is responsible for producing content for ui_display.xml
+type CrystalHellUIDisplay struct{}
 
-func (*CrystalHellUiDisplay) GetPath() string {
+// GetPath returns file path for this producer
+func (*CrystalHellUIDisplay) GetPath() string {
 	return "Config-CrystalHell"
 }
 
-func (*CrystalHellUiDisplay) GetFilename() string {
+// GetFilename returns filename for this producer
+func (*CrystalHellUIDisplay) GetFilename() string {
 	return "ui_display.xml"
 }
 
-func (*CrystalHellUiDisplay) Produce(c chan string) {
+// Produce xml data to the provided channel
+func (*CrystalHellUIDisplay) Produce(c chan string) {
 	defer close(c)
 	c <- `<config><append xpath="/ui_display_info/crafting_category_display">
         <crafting_category_list display_type="hotbox">

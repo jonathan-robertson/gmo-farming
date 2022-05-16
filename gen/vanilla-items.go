@@ -5,16 +5,20 @@ import (
 	"fmt"
 )
 
+// VanillaItems is responsible for producing content for items.xml
 type VanillaItems struct{}
 
+// GetPath returns file path for this producer
 func (p *VanillaItems) GetPath() string {
 	return "Config-Vanilla"
 }
 
+// GetFilename returns filename for this producer
 func (p *VanillaItems) GetFilename() string {
 	return "items.xml"
 }
 
+// Produce xml data to the provided channel
 func (p *VanillaItems) Produce(c chan string) {
 	defer close(c)
 	c <- `<config><append xpath="/items">`

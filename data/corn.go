@@ -4,33 +4,24 @@ import (
 	"fmt"
 )
 
+// Corn is a type of plant
 type Corn struct {
 	Name               string
 	NamePlural         string
 	DisplayName        string
 	Description        string
-	PreferredConsumer  string
 	CropYield          int
 	BonusYield         int
 	CraftTime          int
 	incompatibleTraits []rune
 }
 
-func CreateCorn() *Corn {
-	return &Corn{
-		Name:              "Corn",
-		DisplayName:       "Corn",
-		PreferredConsumer: "Chickens",
-		CropYield:         2,
-		BonusYield:        1,
-		CraftTime:         2,
-	}
-}
-
+// GetCraftTime returns the time required to craft this seed
 func (p *Corn) GetCraftTime() int {
 	return p.CraftTime
 }
 
+// GetDescription returns the seed description for this plant
 func (p *Corn) GetDescription() string {
 	if p.Description == "" {
 		return getDefaultSeedDescription()
@@ -38,22 +29,22 @@ func (p *Corn) GetDescription() string {
 	return p.Description
 }
 
+// GetDisplayName returns the display name
 func (p *Corn) GetDisplayName() string {
 	return p.DisplayName
 }
 
+// GetName returns the name of this plant
 func (p *Corn) GetName() string {
 	return p.Name
 }
 
-func (p *Corn) GetPreferredConsumer() string {
-	return p.PreferredConsumer
-}
-
+// GetSchematicName returns the schematic name for this plant, given the provided traits
 func (p *Corn) GetSchematicName(traits string) string {
 	return fmt.Sprintf("plantedCorn1_%sschematic", traits)
 }
 
+// IsCompatibleWith checks for trait compatibility with this plant
 func (p *Corn) IsCompatibleWith(t Trait) bool {
 	for _, incompatibleTrait := range p.incompatibleTraits {
 		if incompatibleTrait == t.Code {
@@ -63,13 +54,14 @@ func (p *Corn) IsCompatibleWith(t Trait) bool {
 	return true
 }
 
+// WriteBlockStages produces each of the 3 block stages for this plant
 func (p *Corn) WriteBlockStages(c chan string, target, traits string) {
-	p.WriteStage1(c, target, traits)
-	p.WriteStage2(c, traits)
-	p.WriteStage3(c, traits)
+	p.writeStage1(c, target, traits)
+	p.writeStage2(c, traits)
+	p.writeStage3(c, traits)
 }
 
-func (p *Corn) WriteStage1(c chan string, target, traits string) {
+func (p *Corn) writeStage1(c chan string, target, traits string) {
 	c <- fmt.Sprintf(`<block name="plantedCorn1_%s" stage="1" traits="%s">
 	<drop event="Destroy" name="plantedCorn1_%s" count="1"/>
 	<property name="CreativeMode" value="Player"/>
@@ -90,7 +82,7 @@ func (p *Corn) WriteStage1(c chan string, target, traits string) {
 </block>`, traits, traits, traits, traits, getCraftingGroup(traits), traits, optionallyAddUnlock(p, target, traits))
 }
 
-func (*Corn) WriteStage2(c chan string, traits string) {
+func (*Corn) writeStage2(c chan string, traits string) {
 	c <- fmt.Sprintf(`<block name="plantedCorn2_%s" stage="2" traits="%s">
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIconTint" value="00ff80"/>
@@ -101,7 +93,7 @@ func (*Corn) WriteStage2(c chan string, traits string) {
 </block>`, traits, traits, traits, traits)
 }
 
-func (p *Corn) WriteStage3(c chan string, traits string) {
+func (p *Corn) writeStage3(c chan string, traits string) {
 	c <- fmt.Sprintf(`<block name="plantedCorn3_%s" stage="3" traits="%s" tags="T%dPlant">
 	<drop event="Destroy" name="plantedCorn1_%s" count="1" prob="0.5"/>
 	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>

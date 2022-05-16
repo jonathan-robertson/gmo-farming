@@ -5,16 +5,20 @@ import (
 	"fmt"
 )
 
+// VanillaBlocks is responsible for producing content for blocks.xml
 type VanillaBlocks struct{}
 
+// GetPath returns file path for this producer
 func (*VanillaBlocks) GetPath() string {
 	return "Config-Vanilla"
 }
 
+// GetFilename returns filename for this producer
 func (*VanillaBlocks) GetFilename() string {
 	return "blocks.xml"
 }
 
+// Produce xml data to the provided channel
 func (p *VanillaBlocks) Produce(c chan string) {
 	defer close(c)
 	c <- `<config>`

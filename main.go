@@ -12,13 +12,13 @@ func main() {
 		&gen.CrystalHellLocalization{},
 		&gen.CrystalHellProgression{},
 		&gen.CrystalHellRecipes{},
-		&gen.CrystalHellUiDisplay{},
+		&gen.CrystalHellUIDisplay{},
 		&gen.VanillaBlocks{},
 		&gen.VanillaItems{},
 		&gen.VanillaLocalization{},
 		&gen.VanillaProgression{},
 		&gen.VanillaRecipes{},
-		&gen.VanillaUiDisplay{},
+		&gen.VanillaUIDisplay{},
 	} {
 		if err := gen.Write(producer); err != nil {
 			fmt.Printf("ERROR: %v\n", err)

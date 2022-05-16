@@ -6,16 +6,20 @@ import (
 	"strings"
 )
 
+// CrystalHellProgression is responsible for producing content for progression.xml
 type CrystalHellProgression struct{}
 
+// GetPath returns file path for this producer
 func (*CrystalHellProgression) GetPath() string {
 	return "Config-CrystalHell"
 }
 
+// GetFilename returns filename for this producer
 func (*CrystalHellProgression) GetFilename() string {
 	return "progression.xml"
 }
 
+// Produce xml data to the provided channel
 func (p *CrystalHellProgression) Produce(c chan string) {
 	defer close(c)
 	c <- `<config>`
