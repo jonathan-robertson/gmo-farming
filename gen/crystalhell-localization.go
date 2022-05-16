@@ -8,7 +8,11 @@ import (
 type CrystalHellLocalization struct{}
 
 func (*CrystalHellLocalization) GetPath() string {
-	return "Config-CrystalHell/Localization.txt"
+	return "Config-CrystalHell"
+}
+
+func (*CrystalHellLocalization) GetFilename() string {
+	return "Localization.txt"
 }
 
 func (p *CrystalHellLocalization) Produce(c chan string) {

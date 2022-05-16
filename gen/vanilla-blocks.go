@@ -8,7 +8,11 @@ import (
 type VanillaBlocks struct{}
 
 func (*VanillaBlocks) GetPath() string {
-	return "Config-Vanilla/blocks.xml"
+	return "Config-Vanilla"
+}
+
+func (*VanillaBlocks) GetFilename() string {
+	return "blocks.xml"
 }
 
 func (p *VanillaBlocks) Produce(c chan string) {

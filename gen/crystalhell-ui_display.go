@@ -3,7 +3,11 @@ package gen
 type CrystalHellUiDisplay struct{}
 
 func (*CrystalHellUiDisplay) GetPath() string {
-	return "Config-CrystalHell/ui_display.xml"
+	return "Config-CrystalHell"
+}
+
+func (*CrystalHellUiDisplay) GetFilename() string {
+	return "ui_display.xml"
 }
 
 func (*CrystalHellUiDisplay) Produce(c chan string) {

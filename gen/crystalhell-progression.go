@@ -9,7 +9,11 @@ import (
 type CrystalHellProgression struct{}
 
 func (*CrystalHellProgression) GetPath() string {
-	return "Config-CrystalHell/progression.xml"
+	return "Config-CrystalHell"
+}
+
+func (*CrystalHellProgression) GetFilename() string {
+	return "progression.xml"
 }
 
 func (p *CrystalHellProgression) Produce(c chan string) {

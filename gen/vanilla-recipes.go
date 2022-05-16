@@ -8,7 +8,11 @@ import (
 type VanillaRecipes struct{}
 
 func (*VanillaRecipes) GetPath() string {
-	return "Config-Vanilla/recipes.xml"
+	return "Config-Vanilla"
+}
+
+func (*VanillaRecipes) GetFilename() string {
+	return "recipes.xml"
 }
 
 func (p *VanillaRecipes) Produce(c chan string) {

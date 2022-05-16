@@ -3,7 +3,11 @@ package gen
 type VanillaUiDisplay struct{}
 
 func (*VanillaUiDisplay) GetPath() string {
-	return "Config-Vanilla/ui_display.xml"
+	return "Config-Vanilla"
+}
+
+func (*VanillaUiDisplay) GetFilename() string {
+	return "ui_display.xml"
 }
 
 func (*VanillaUiDisplay) Produce(c chan string) {

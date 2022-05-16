@@ -8,7 +8,11 @@ import (
 type VanillaItems struct{}
 
 func (p *VanillaItems) GetPath() string {
-	return "Config-Vanilla/items.xml"
+	return "Config-Vanilla"
+}
+
+func (p *VanillaItems) GetFilename() string {
+	return "items.xml"
 }
 
 func (p *VanillaItems) Produce(c chan string) {

@@ -8,7 +8,11 @@ import (
 type CrystalHellRecipes struct{}
 
 func (*CrystalHellRecipes) GetPath() string {
-	return "Config-CrystalHell/recipes.xml"
+	return "Config-CrystalHell"
+}
+
+func (*CrystalHellRecipes) GetFilename() string {
+	return "recipes.xml"
 }
 
 func (p *CrystalHellRecipes) Produce(c chan string) {

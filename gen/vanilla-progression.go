@@ -9,7 +9,11 @@ import (
 type VanillaProgression struct{}
 
 func (*VanillaProgression) GetPath() string {
-	return "Config-Vanilla/progression.xml"
+	return "Config-Vanilla"
+}
+
+func (*VanillaProgression) GetFilename() string {
+	return "progression.xml"
 }
 
 func (p *VanillaProgression) Produce(c chan string) {

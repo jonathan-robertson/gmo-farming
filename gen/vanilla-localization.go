@@ -8,7 +8,11 @@ import (
 type VanillaLocalization struct{}
 
 func (*VanillaLocalization) GetPath() string {
-	return "Config-Vanilla/Localization.txt"
+	return "Config-Vanilla"
+}
+
+func (*VanillaLocalization) GetFilename() string {
+	return "Localization.txt"
 }
 
 func (p *VanillaLocalization) Produce(c chan string) {
