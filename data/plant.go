@@ -147,7 +147,7 @@ func optionallyAddRenewable(traits string, plant Plant) string {
 
 func optionallyAddUnlock(plant Plant, target, traits string) string {
 	switch target {
-	case "Vanilla":
+	case "Researcher":
 		return fmt.Sprintf(`<property name="UnlockedBy" value="%s"/>`, plant.GetSchematicName(traits))
 	default:
 		return ""

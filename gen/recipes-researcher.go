@@ -5,21 +5,21 @@ import (
 	"fmt"
 )
 
-// VanillaRecipes is responsible for producing content for recipes.xml
-type VanillaRecipes struct{}
+// ResearcherRecipes is responsible for producing content for recipes.xml
+type ResearcherRecipes struct{}
 
 // GetPath returns file path for this producer
-func (*VanillaRecipes) GetPath() string {
-	return "Config-Vanilla"
+func (*ResearcherRecipes) GetPath() string {
+	return "Config-Researcher"
 }
 
 // GetFilename returns filename for this producer
-func (*VanillaRecipes) GetFilename() string {
+func (*ResearcherRecipes) GetFilename() string {
 	return "recipes.xml"
 }
 
 // Produce xml data to the provided channel
-func (p *VanillaRecipes) Produce(c chan string) {
+func (p *ResearcherRecipes) Produce(c chan string) {
 	defer close(c)
 	c <- `<config><append xpath="/recipes">`
 	p.produceHotBoxRecipe(c)
@@ -42,7 +42,7 @@ func (p *VanillaRecipes) Produce(c chan string) {
 	c <- `</append></config>`
 }
 
-func (*VanillaRecipes) produceHotBoxRecipe(c chan string) {
+func (*ResearcherRecipes) produceHotBoxRecipe(c chan string) {
 	c <- `<recipe name="hotbox" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
 	<ingredient name="resourceForgedIron" count="50"/>
 	<ingredient name="resourceMechanicalParts" count="8"/>
@@ -50,7 +50,7 @@ func (*VanillaRecipes) produceHotBoxRecipe(c chan string) {
 </recipe>`
 }
 
-func (p *VanillaRecipes) producePlantRecipe(c chan string, plant data.Plant, traits ...data.Trait) {
+func (p *ResearcherRecipes) producePlantRecipe(c chan string, plant data.Plant, traits ...data.Trait) {
 	switch len(traits) {
 	case 0:
 		enhancedSeedCraftTime := plant.GetCraftTime() * 450
@@ -106,7 +106,7 @@ func (p *VanillaRecipes) producePlantRecipe(c chan string, plant data.Plant, tra
 	}
 }
 
-func (*VanillaRecipes) producePlantIngredients(c chan string, trait data.Trait) {
+func (*ResearcherRecipes) producePlantIngredients(c chan string, trait data.Trait) {
 	for _, ingredient := range trait.Ingredients {
 		c <- fmt.Sprintf(`    <ingredient name="%s" count="%d"/>`,
 			ingredient.Name,
@@ -114,7 +114,7 @@ func (*VanillaRecipes) producePlantIngredients(c chan string, trait data.Trait) 
 	}
 }
 
-func (p *VanillaRecipes) produceSchematicsRecipe(c chan string, plant data.Plant, traits ...data.Trait) {
+func (p *ResearcherRecipes) produceSchematicsRecipe(c chan string, plant data.Plant, traits ...data.Trait) {
 	switch len(traits) {
 	case 0:
 		c <- fmt.Sprintf(`<recipe name="%s" count="1" craft_time="10" traits="" craft_area="hotbox" tags="learnable">
@@ -155,7 +155,7 @@ func (p *VanillaRecipes) produceSchematicsRecipe(c chan string, plant data.Plant
 	}
 }
 
-func (*VanillaRecipes) produceSchematicIngredients(c chan string, trait data.Trait) {
+func (*ResearcherRecipes) produceSchematicIngredients(c chan string, trait data.Trait) {
 	for _, ingredient := range trait.Ingredients {
 		c <- fmt.Sprintf(`    <ingredient name="%s" count="%d"/>`,
 			ingredient.Name,

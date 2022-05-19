@@ -1,20 +1,20 @@
 package gen
 
-// VanillaUIDisplay is responsible for producing content for ui_display.xml
-type VanillaUIDisplay struct{}
+// ResearcherUIDisplay is responsible for producing content for ui_display.xml
+type ResearcherUIDisplay struct{}
 
 // GetPath returns file path for this producer
-func (*VanillaUIDisplay) GetPath() string {
-	return "Config-Vanilla"
+func (*ResearcherUIDisplay) GetPath() string {
+	return "Config-Researcher"
 }
 
 // GetFilename returns filename for this producer
-func (*VanillaUIDisplay) GetFilename() string {
+func (*ResearcherUIDisplay) GetFilename() string {
 	return "ui_display.xml"
 }
 
 // Produce xml data to the provided channel
-func (*VanillaUIDisplay) Produce(c chan string) {
+func (*ResearcherUIDisplay) Produce(c chan string) {
 	defer close(c)
 	c <- `<config><append xpath="/ui_display_info/crafting_category_display">
         <crafting_category_list display_type="hotbox">

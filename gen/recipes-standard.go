@@ -5,21 +5,21 @@ import (
 	"fmt"
 )
 
-// CrystalHellRecipes is responsible for producing content for recipes.xml
-type CrystalHellRecipes struct{}
+// StandardRecipes is responsible for producing content for recipes.xml
+type StandardRecipes struct{}
 
 // GetPath returns file path for this producer
-func (*CrystalHellRecipes) GetPath() string {
-	return "Config-CrystalHell"
+func (*StandardRecipes) GetPath() string {
+	return "Config-Standard"
 }
 
 // GetFilename returns filename for this producer
-func (*CrystalHellRecipes) GetFilename() string {
+func (*StandardRecipes) GetFilename() string {
 	return "recipes.xml"
 }
 
 // Produce xml data to the provided channel
-func (p *CrystalHellRecipes) Produce(c chan string) {
+func (p *StandardRecipes) Produce(c chan string) {
 	defer close(c)
 	c <- `<config><append xpath="/recipes">`
 	p.produceHotBoxRecipe(c)
@@ -40,7 +40,7 @@ func (p *CrystalHellRecipes) Produce(c chan string) {
 
 }
 
-func (*CrystalHellRecipes) produceHotBoxRecipe(c chan string) {
+func (*StandardRecipes) produceHotBoxRecipe(c chan string) {
 	c <- `<recipe name="hotbox" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
 	<ingredient name="resourceForgedIron" count="50"/>
 	<ingredient name="resourceMechanicalParts" count="8"/>
@@ -48,7 +48,7 @@ func (*CrystalHellRecipes) produceHotBoxRecipe(c chan string) {
 </recipe>`
 }
 
-func (p *CrystalHellRecipes) producePlantRecipe(c chan string, plant data.Plant, traits ...data.Trait) {
+func (p *StandardRecipes) producePlantRecipe(c chan string, plant data.Plant, traits ...data.Trait) {
 	switch len(traits) {
 	case 0:
 		enhancedSeedCraftTime := plant.GetCraftTime() * 450
@@ -104,7 +104,7 @@ func (p *CrystalHellRecipes) producePlantRecipe(c chan string, plant data.Plant,
 	}
 }
 
-func (p *CrystalHellRecipes) producePlantIngredients(c chan string, trait data.Trait) {
+func (p *StandardRecipes) producePlantIngredients(c chan string, trait data.Trait) {
 	for _, ingredient := range trait.Ingredients {
 		c <- fmt.Sprintf(`    <ingredient name="%s" count="%d"/>`,
 			ingredient.Name,

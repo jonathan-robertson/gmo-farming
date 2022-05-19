@@ -5,21 +5,21 @@ import (
 	"fmt"
 )
 
-// VanillaBlocks is responsible for producing content for blocks.xml
-type VanillaBlocks struct{}
+// StandardBlocks is responsible for producing content for blocks.xml
+type StandardBlocks struct{}
 
 // GetPath returns file path for this producer
-func (*VanillaBlocks) GetPath() string {
-	return "Config-Vanilla"
+func (*StandardBlocks) GetPath() string {
+	return "Config-Standard"
 }
 
 // GetFilename returns filename for this producer
-func (*VanillaBlocks) GetFilename() string {
+func (*StandardBlocks) GetFilename() string {
 	return "blocks.xml"
 }
 
 // Produce xml data to the provided channel
-func (p *VanillaBlocks) Produce(c chan string) {
+func (p *StandardBlocks) Produce(c chan string) {
 	defer close(c)
 	c <- `<config>`
 	c <- `<append xpath="/blocks">`
@@ -30,10 +30,8 @@ func (p *VanillaBlocks) Produce(c chan string) {
 			if plant.IsCompatibleWith(trait1) {
 				plant.WriteBlockStages(c, p.getTarget(), fmt.Sprintf("%c", trait1.Code))
 				for _, trait2 := range data.Traits {
-					if trait1.IsCompatibleWith(trait2) {
-						if plant.IsCompatibleWith(trait1) && plant.IsCompatibleWith(trait2) {
-							plant.WriteBlockStages(c, p.getTarget(), fmt.Sprintf("%c%c", trait1.Code, trait2.Code))
-						}
+					if trait1.IsCompatibleWith(trait2) && plant.IsCompatibleWith(trait2) {
+						plant.WriteBlockStages(c, p.getTarget(), fmt.Sprintf("%c%c", trait1.Code, trait2.Code))
 					}
 				}
 			}
@@ -44,7 +42,7 @@ func (p *VanillaBlocks) Produce(c chan string) {
 	c <- `</config>`
 }
 
-func (*VanillaBlocks) produceWorkstationHotBox(c chan string) {
+func (*StandardBlocks) produceWorkstationHotBox(c chan string) {
 	c <- `<block name="hotbox">
 	<property name="Extends" value="workbench"/>
 	<property class="Workstation">
@@ -101,7 +99,7 @@ func (*VanillaBlocks) produceWorkstationHotBox(c chan string) {
 </block>`
 }
 
-func (*VanillaBlocks) produceBlockModifications(c chan string) {
+func (*StandardBlocks) produceBlockModifications(c chan string) {
 	// [U] Underground
 	c <- `    <append xpath="/blocks/block[contains(@traits, 'U') and @stage='1']">
         <property name="PlantGrowing.LightLevelGrow" value="0" />
@@ -152,6 +150,6 @@ func (*VanillaBlocks) produceBlockModifications(c chan string) {
     </append>`
 }
 
-func (p *VanillaBlocks) getTarget() string {
-	return "Vanilla"
+func (p *StandardBlocks) getTarget() string {
+	return "Standard"
 }

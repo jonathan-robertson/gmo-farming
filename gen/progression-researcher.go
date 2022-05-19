@@ -6,21 +6,21 @@ import (
 	"strings"
 )
 
-// CrystalHellProgression is responsible for producing content for progression.xml
-type CrystalHellProgression struct{}
+// ResearcherProgression is responsible for producing content for progression.xml
+type ResearcherProgression struct{}
 
 // GetPath returns file path for this producer
-func (*CrystalHellProgression) GetPath() string {
-	return "Config-CrystalHell"
+func (*ResearcherProgression) GetPath() string {
+	return "Config-Researcher"
 }
 
 // GetFilename returns filename for this producer
-func (*CrystalHellProgression) GetFilename() string {
+func (*ResearcherProgression) GetFilename() string {
 	return "progression.xml"
 }
 
 // Produce xml data to the provided channel
-func (p *CrystalHellProgression) Produce(c chan string) {
+func (p *ResearcherProgression) Produce(c chan string) {
 	defer close(c)
 	c <- `<config>`
 	c <- `<set xpath="/progression/perks/perk[@name='perkLivingOffTheLand']/@max_level">5</set>`
@@ -36,31 +36,31 @@ func (p *CrystalHellProgression) Produce(c chan string) {
 	c <- `</config>`
 }
 
-func (*CrystalHellProgression) getTraitTagsEnhanced() (tags []string) {
+func (*ResearcherProgression) getTraitTagsEnhanced() (tags []string) {
 	for _, plant := range data.Plants {
-		tags = append(tags, fmt.Sprintf("planted%s1_", plant.GetName()))
+		tags = append(tags, plant.GetSchematicName(""))
 	}
 	return
 }
 
-func (*CrystalHellProgression) getTraitTagsSingles() (tags []string) {
+func (*ResearcherProgression) getTraitTagsSingles() (tags []string) {
 	for _, plant := range data.Plants {
 		for _, trait := range data.Traits {
 			if plant.IsCompatibleWith(trait) {
-				tags = append(tags, fmt.Sprintf("planted%s1_%c", plant.GetName(), trait.Code))
+				tags = append(tags, plant.GetSchematicName(string(trait.Code)))
 			}
 		}
 	}
 	return
 }
 
-func (*CrystalHellProgression) getTraitTagsDoubles() (tags []string) {
+func (*ResearcherProgression) getTraitTagsDoubles() (tags []string) {
 	for _, plant := range data.Plants {
 		for _, first := range data.Traits {
 			if plant.IsCompatibleWith(first) {
 				for _, second := range data.Traits {
 					if first.IsCompatibleWith(second) && plant.IsCompatibleWith(second) {
-						tags = append(tags, fmt.Sprintf("planted%s1_%c%c", plant.GetName(), first.Code, second.Code))
+						tags = append(tags, plant.GetSchematicName(string(first.Code)+string(second.Code)))
 					}
 				}
 			}

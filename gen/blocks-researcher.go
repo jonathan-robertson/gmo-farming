@@ -5,21 +5,21 @@ import (
 	"fmt"
 )
 
-// CrystalHellBlocks is responsible for producing content for blocks.xml
-type CrystalHellBlocks struct{}
+// ResearcherBlocks is responsible for producing content for blocks.xml
+type ResearcherBlocks struct{}
 
 // GetPath returns file path for this producer
-func (*CrystalHellBlocks) GetPath() string {
-	return "Config-CrystalHell"
+func (*ResearcherBlocks) GetPath() string {
+	return "Config-Researcher"
 }
 
 // GetFilename returns filename for this producer
-func (*CrystalHellBlocks) GetFilename() string {
+func (*ResearcherBlocks) GetFilename() string {
 	return "blocks.xml"
 }
 
 // Produce xml data to the provided channel
-func (p *CrystalHellBlocks) Produce(c chan string) {
+func (p *ResearcherBlocks) Produce(c chan string) {
 	defer close(c)
 	c <- `<config>`
 	c <- `<append xpath="/blocks">`
@@ -30,8 +30,10 @@ func (p *CrystalHellBlocks) Produce(c chan string) {
 			if plant.IsCompatibleWith(trait1) {
 				plant.WriteBlockStages(c, p.getTarget(), fmt.Sprintf("%c", trait1.Code))
 				for _, trait2 := range data.Traits {
-					if trait1.IsCompatibleWith(trait2) && plant.IsCompatibleWith(trait2) {
-						plant.WriteBlockStages(c, p.getTarget(), fmt.Sprintf("%c%c", trait1.Code, trait2.Code))
+					if trait1.IsCompatibleWith(trait2) {
+						if plant.IsCompatibleWith(trait1) && plant.IsCompatibleWith(trait2) {
+							plant.WriteBlockStages(c, p.getTarget(), fmt.Sprintf("%c%c", trait1.Code, trait2.Code))
+						}
 					}
 				}
 			}
@@ -42,7 +44,7 @@ func (p *CrystalHellBlocks) Produce(c chan string) {
 	c <- `</config>`
 }
 
-func (*CrystalHellBlocks) produceWorkstationHotBox(c chan string) {
+func (*ResearcherBlocks) produceWorkstationHotBox(c chan string) {
 	c <- `<block name="hotbox">
 	<property name="Extends" value="workbench"/>
 	<property class="Workstation">
@@ -99,7 +101,7 @@ func (*CrystalHellBlocks) produceWorkstationHotBox(c chan string) {
 </block>`
 }
 
-func (*CrystalHellBlocks) produceBlockModifications(c chan string) {
+func (*ResearcherBlocks) produceBlockModifications(c chan string) {
 	// [U] Underground
 	c <- `    <append xpath="/blocks/block[contains(@traits, 'U') and @stage='1']">
         <property name="PlantGrowing.LightLevelGrow" value="0" />
@@ -150,6 +152,6 @@ func (*CrystalHellBlocks) produceBlockModifications(c chan string) {
     </append>`
 }
 
-func (p *CrystalHellBlocks) getTarget() string {
-	return "CrystalHell"
+func (p *ResearcherBlocks) getTarget() string {
+	return "Researcher"
 }
