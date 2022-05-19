@@ -53,14 +53,22 @@ func (*VanillaRecipes) produceHotBoxRecipe(c chan string) {
 func (p *VanillaRecipes) producePlantRecipe(c chan string, plant data.Plant, traits ...data.Trait) {
 	switch len(traits) {
 	case 0:
-		c <- fmt.Sprintf(`<recipe name="planted%s1_" count="1" craft_time="%d" traits="" craft_area="hotbox" tags="learnable">
+		enhancedSeedCraftTime := plant.GetCraftTime() * 450
+		c <- fmt.Sprintf(`<recipe name="planted%s1_" count="1" craft_time="%d" traits="" tags="learnable">
     <ingredient name="planted%s1" count="1"/>
     <ingredient name="foodRottingFlesh" count="1"/>
     <ingredient name="resourceCloth" count="1"/>
     <ingredient name="resourceYuccaFibers" count="2"/>
 </recipe>`,
 			plant.GetName(),
-			plant.GetCraftTime()*450,
+			enhancedSeedCraftTime,
+			plant.GetName())
+		c <- fmt.Sprintf(`<recipe name="planted%s1_" count="1" craft_time="%d" traits="" craft_area="hotbox" tags="learnable">
+    <ingredient name="planted%s1" count="1"/>
+    <ingredient name="foodRottingFlesh" count="1"/>
+</recipe>`,
+			plant.GetName(),
+			enhancedSeedCraftTime,
 			plant.GetName())
 	case 1:
 		c <- fmt.Sprintf(`<recipe name="planted%s1_%c" count="1" craft_time="%d" traits="%c" craft_area="hotbox" tags="learnable">

@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [0.7.0] - ?
 
 - remove seed return chance during harvest
+- add recipe for enhanced seed crafting by hand
 
 ## [0.6.0] - 2022-05-19
 
