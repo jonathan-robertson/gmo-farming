@@ -1,11 +1,13 @@
 package gen
 
 import (
+	"fmt"
 	"os"
 )
 
+// Write is used to set up the underlying file that the given producer will produce strings to
 func Write(producer Producer) error {
-	file, err := getFile(producer.GetPath())
+	file, err := getFile(producer.GetPath(), producer.GetFilename())
 	if err != nil {
 		return err
 	}
@@ -20,9 +22,11 @@ func Write(producer Producer) error {
 	return nil
 }
 
-func getFile(filename string) (*os.File, error) {
-	os.Remove(filename)
-	return os.OpenFile(filename, os.O_APPEND|os.O_WRONLY|os.O_CREATE, 0755)
+func getFile(path, filename string) (*os.File, error) {
+	if err := os.MkdirAll(path, 0755); err != nil {
+		return nil, err
+	}
+	return os.OpenFile(fmt.Sprintf("%s%c%s", path, os.PathSeparator, filename), os.O_APPEND|os.O_WRONLY|os.O_CREATE, 0755)
 }
 
 func getEnhancedSeedEffectDescription() string {

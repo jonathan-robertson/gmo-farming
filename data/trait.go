@@ -4,6 +4,8 @@ import (
 	"fmt"
 )
 
+// Trait is a collection of data representing a special skill or
+// attribute that can be applied to Plants
 type Trait struct {
 	Code               rune
 	Name               string
@@ -12,11 +14,13 @@ type Trait struct {
 	Ingredients        []Ingredient
 }
 
+// Ingredient represents the name and quantity of item needed to craft something
 type Ingredient struct {
 	Name  string
 	Count int
 }
 
+// Traits is a collection of all Trait types
 var Traits []Trait = []Trait{
 	{Code: 'B', Name: "Bonus", DoubleName: "Bountiful Bonus", IncompatibleTraits: []rune{'E'}, Ingredients: []Ingredient{
 		{"foodRottingFlesh", 5},
@@ -42,6 +46,7 @@ var Traits []Trait = []Trait{
 	}},
 }
 
+// IsCompatibleWith determines if one trait is compatible with another
 func (t *Trait) IsCompatibleWith(other Trait) bool {
 	for _, r := range t.IncompatibleTraits {
 		if r == other.Code {
@@ -51,7 +56,8 @@ func (t *Trait) IsCompatibleWith(other Trait) bool {
 	return true
 }
 
-func (t *Trait) GetDoubleTraitDescription(preferredConsumer string) string {
+// GetDoubleTraitDescription returns the description for a trait that's doubled
+func (t *Trait) GetDoubleTraitDescription() string {
 	switch t.Code {
 	case 'B':
 		return fmt.Sprintf(`%s: further quadruples crop yield.`,
@@ -69,7 +75,8 @@ func (t *Trait) GetDoubleTraitDescription(preferredConsumer string) string {
 	return ""
 }
 
-func (t *Trait) GetTraitDescription(preferredConsumer string) string {
+// GetTraitDescription returns the description for a trait
+func (t *Trait) GetTraitDescription() string {
 	switch t.Code {
 	case 'B':
 		return fmt.Sprintf(`%s: further doubles crop yield.`,

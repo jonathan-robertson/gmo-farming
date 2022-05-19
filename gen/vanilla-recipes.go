@@ -5,12 +5,20 @@ import (
 	"fmt"
 )
 
+// VanillaRecipes is responsible for producing content for recipes.xml
 type VanillaRecipes struct{}
 
+// GetPath returns file path for this producer
 func (*VanillaRecipes) GetPath() string {
-	return "Config-Vanilla/recipes.xml"
+	return "Config-Vanilla"
 }
 
+// GetFilename returns filename for this producer
+func (*VanillaRecipes) GetFilename() string {
+	return "recipes.xml"
+}
+
+// Produce xml data to the provided channel
 func (p *VanillaRecipes) Produce(c chan string) {
 	defer close(c)
 	c <- `<config><append xpath="/recipes">`
@@ -104,6 +112,7 @@ func (p *VanillaRecipes) produceSchematicsRecipe(c chan string, plant data.Plant
 		c <- fmt.Sprintf(`<recipe name="%s" count="1" craft_time="10" traits="" craft_area="hotbox" tags="learnable">
     <ingredient name="resourcePaper" count="10"/>
     <ingredient name="planted%s1" count="100"/>
+	<ingredient name="foodRottingFlesh" count="100"/>
 </recipe>`,
 			plant.GetSchematicName(""),
 			plant.GetName())

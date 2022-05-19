@@ -5,12 +5,20 @@ import (
 	"fmt"
 )
 
+// CrystalHellLocalization is responsible for producing content for Localization.txt
 type CrystalHellLocalization struct{}
 
+// GetPath returns file path for this producer
 func (*CrystalHellLocalization) GetPath() string {
-	return "Config-CrystalHell/Localization.txt"
+	return "Config-CrystalHell"
 }
 
+// GetFilename returns filename for this producer
+func (*CrystalHellLocalization) GetFilename() string {
+	return "Localization.txt"
+}
+
+// Produce xml data to the provided channel
 func (p *CrystalHellLocalization) Produce(c chan string) {
 	defer close(c)
 	c <- "Key,File,Type,english"
@@ -82,7 +90,7 @@ func (*CrystalHellLocalization) producePlantLocalization(c chan string, plant da
 			traits[0].Code,
 			plant.GetDescription(),
 			getEnhancedSeedEffectDescription(),
-			traits[0].GetTraitDescription(plant.GetPreferredConsumer()),
+			traits[0].GetTraitDescription(),
 			getHotBoxRequirementTip())
 	case 2:
 		if traits[0].Code == traits[1].Code {
@@ -98,7 +106,7 @@ func (*CrystalHellLocalization) producePlantLocalization(c chan string, plant da
 				traits[1].Code,
 				plant.GetDescription(),
 				getEnhancedSeedEffectDescription(),
-				traits[0].GetDoubleTraitDescription(plant.GetPreferredConsumer()),
+				traits[0].GetDoubleTraitDescription(),
 				getHotBoxRequirementTip())
 		} else {
 			c <- fmt.Sprintf(`planted%s1_%c%c,blocks,Farming,"%s (Seed, %s, %s)"`,
@@ -113,8 +121,8 @@ func (*CrystalHellLocalization) producePlantLocalization(c chan string, plant da
 				traits[1].Code,
 				plant.GetDescription(),
 				getEnhancedSeedEffectDescription(),
-				traits[0].GetTraitDescription(plant.GetPreferredConsumer()),
-				traits[1].GetTraitDescription(plant.GetPreferredConsumer()),
+				traits[0].GetTraitDescription(),
+				traits[1].GetTraitDescription(),
 				getHotBoxRequirementTip())
 		}
 	}

@@ -5,12 +5,20 @@ import (
 	"fmt"
 )
 
+// CrystalHellBlocks is responsible for producing content for blocks.xml
 type CrystalHellBlocks struct{}
 
+// GetPath returns file path for this producer
 func (*CrystalHellBlocks) GetPath() string {
-	return "Config-CrystalHell/blocks.xml"
+	return "Config-CrystalHell"
 }
 
+// GetFilename returns filename for this producer
+func (*CrystalHellBlocks) GetFilename() string {
+	return "blocks.xml"
+}
+
+// Produce xml data to the provided channel
 func (p *CrystalHellBlocks) Produce(c chan string) {
 	defer close(c)
 	c <- `<config>`
