@@ -25,12 +25,12 @@ func (p *ResearcherProgression) Produce(c chan string) {
 	c <- `<config>`
 	c <- `<set xpath="/progression/perks/perk[@name='perkLivingOffTheLand']/@max_level">5</set>`
 	c <- `<append xpath="/progression/perks/perk[@name='perkLivingOffTheLand']/effect_group">
-    <passive_effect name="RecipeTagUnlocked" operation="base_set" level="3" value="1" tags="hotbox" />`
-	c <- fmt.Sprintf(`<passive_effect name="RecipeTagUnlocked" operation="base_set" level="3" value="1" tags="%s" />`,
+    <passive_effect name="RecipeTagUnlocked" operation="base_set" level="3,5" value="1" tags="hotbox" />`
+	c <- fmt.Sprintf(`<passive_effect name="RecipeTagUnlocked" operation="base_set" level="3,5" value="1" tags="%s" />`,
 		strings.Join(p.getTraitTagsEnhanced(), ","))
-	c <- fmt.Sprintf(`<passive_effect name="RecipeTagUnlocked" operation="base_set" level="4" value="1" tags="%s" />`,
+	c <- fmt.Sprintf(`<passive_effect name="RecipeTagUnlocked" operation="base_set" level="4,5" value="1" tags="%s" />`,
 		strings.Join(p.getTraitTagsSingles(), ","))
-	c <- fmt.Sprintf(`<passive_effect name="RecipeTagUnlocked" operation="base_set" level="5" value="1" tags="%s" />`,
+	c <- fmt.Sprintf(`<passive_effect name="RecipeTagUnlocked" operation="base_set" level="5,5" value="1" tags="%s" />`,
 		strings.Join(p.getTraitTagsDoubles(), ","))
 	c <- `</append>`
 	c <- `</config>`

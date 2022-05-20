@@ -43,10 +43,12 @@ func (p *ResearcherRecipes) Produce(c chan string) {
 }
 
 func (*ResearcherRecipes) produceHotBoxRecipe(c chan string) {
-	c <- `<recipe name="hotbox" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
-	<ingredient name="resourceForgedIron" count="50"/>
-	<ingredient name="resourceMechanicalParts" count="8"/>
-	<ingredient name="resourceWood" count="25"/>
+	c <- `<recipe name="hotbox" count="1" craft_time="240" craft_area="workbench" tags="learnable,workbenchCrafting">
+    <ingredient name="resourceForgedIron" count="50"/>
+    <ingredient name="resourceMechanicalParts" count="8"/>
+    <ingredient name="resourceWood" count="25"/>
+    <ingredient name="resourcePotassiumNitratePowder" count="10"/>
+    <ingredient name="resourceClayLump" count="50"/>
 </recipe>`
 }
 
@@ -63,7 +65,7 @@ func (p *ResearcherRecipes) producePlantRecipe(c chan string, plant data.Plant, 
 			plant.GetName(),
 			enhancedSeedCraftTime,
 			plant.GetName())
-		c <- fmt.Sprintf(`<recipe name="planted%s1_" count="1" craft_time="%d" traits="" craft_area="hotbox" tags="learnable">
+		c <- fmt.Sprintf(`<recipe name="planted%s1_" count="1" craft_time="%d" traits="" tags="learnable" craft_area="hotbox">
     <ingredient name="planted%s1" count="1"/>
     <ingredient name="foodRottingFlesh" count="1"/>
 </recipe>`,
@@ -71,7 +73,7 @@ func (p *ResearcherRecipes) producePlantRecipe(c chan string, plant data.Plant, 
 			enhancedSeedCraftTime,
 			plant.GetName())
 	case 1:
-		c <- fmt.Sprintf(`<recipe name="planted%s1_%c" count="1" craft_time="%d" traits="%c" craft_area="hotbox" tags="learnable">
+		c <- fmt.Sprintf(`<recipe name="planted%s1_%c" count="1" craft_time="%d" traits="%c" tags="learnable" craft_area="hotbox">
     <ingredient name="planted%s1_" count="1"/>`,
 			plant.GetName(),
 			traits[0].Code,
@@ -81,7 +83,7 @@ func (p *ResearcherRecipes) producePlantRecipe(c chan string, plant data.Plant, 
 		p.producePlantIngredients(c, traits[0])
 		c <- `</recipe>`
 	case 2: // support bi-directional recipes
-		signature := fmt.Sprintf(`<recipe name="planted%s1_%c%c" count="1" craft_time="%d" traits="%c%c" craft_area="hotbox" tags="learnable">`,
+		signature := fmt.Sprintf(`<recipe name="planted%s1_%c%c" count="1" craft_time="%d" traits="%c%c" tags="learnable" craft_area="hotbox">`,
 			plant.GetName(),
 			traits[0].Code, traits[1].Code,
 			plant.GetCraftTime(),

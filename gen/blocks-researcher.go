@@ -79,15 +79,16 @@ func (*ResearcherBlocks) produceWorkstationHotBox(c chan string) {
 	<property name="DescriptionKey" value="hotboxDesc"/>
 
 	<!-- recipe/unlock -->
-	<property name="UnlockedBy" value="perkAdvancedEngineering,workbenchSchematic"/>
-	<!-- TODO: use these ingredients for the recipe since they'll drop (thanks, workbench)
-		<drop event="Harvest" name="resourceScrapIron" count="200" tag="allHarvest"/>
-		<drop event="Harvest" name="resourceWood" count="20" tag="allHarvest"/>
-		<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
-		<drop event="Harvest" name="resourceForgedIron" count="10" tag="salvageHarvest"/>
-		<drop event="Harvest" name="resourceMechanicalParts" count="8" tag="salvageHarvest"/>
-		<drop event="Harvest" name="resourceWood" count="20" tag="salvageHarvest"/>
-	-->
+	<property name="UnlockedBy" value="perkLivingOffTheLand"/>
+	
+	<!-- salvage -->
+	<drop event="Harvest" name="resourceForgedIron" count="10" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceMechanicalParts" count="1" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceWood" count="10" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourcePotassiumNitratePowder" count="2" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceClayLump" count="10" tag="salvageHarvest"/>
+
+	<!-- purchase price -->
 	<property name="EconomicValue" value="2000"/>
 
 	<!-- TODO: Heat -->
@@ -97,7 +98,7 @@ func (*ResearcherBlocks) produceWorkstationHotBox(c chan string) {
 
 	<!-- TODO: Other -->
 	<property name="TakeDelay" value="5"/>
-	<property name="WorkstationIcon" value="ui_game_symbol_workbench"/>
+	<property name="WorkstationIcon" value="ui_game_symbol_crops"/>
 </block>`
 }
 

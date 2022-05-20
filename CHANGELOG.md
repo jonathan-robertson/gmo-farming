@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - add recipe for enhanced seed crafting by hand
 - rename vanilla->researcher, crystal-hell->standard
 - fix file generation
+- fix schematic recipe unlocks, update hotbox recipe
 
 ## [0.6.0] - 2022-05-19
 
