@@ -23,10 +23,14 @@ func Write(producer Producer) error {
 }
 
 func getFile(path, filename string) (*os.File, error) {
+	pathAndFilename := fmt.Sprintf("%s%c%s", path, os.PathSeparator, filename)
+	if err := os.Remove(pathAndFilename); err != nil {
+		return nil, err
+	}
 	if err := os.MkdirAll(path, 0755); err != nil {
 		return nil, err
 	}
-	return os.OpenFile(fmt.Sprintf("%s%c%s", path, os.PathSeparator, filename), os.O_APPEND|os.O_WRONLY|os.O_CREATE, 0755)
+	return os.OpenFile(pathAndFilename, os.O_APPEND|os.O_WRONLY|os.O_CREATE, 0755)
 }
 
 func getEnhancedSeedEffectDescription() string {
