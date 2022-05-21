@@ -69,7 +69,7 @@ func (t *Trait) GetDoubleTraitDescription() string {
 		return fmt.Sprintf(`%s: triggers a concealed explosive with a large payload when stepped on, struck with a melee weapon, or hit with an arrow.\n- Due to the flexible nature of plants, the detonator will not trigger if struck with bullets or other explosives.`,
 			t.DoubleName)
 	case 'T':
-		return fmt.Sprintf(`%s: integrates with many sharp, metal thorns. Touching them will cause one to receive damage and bleed.`,
+		return fmt.Sprintf(`%s: integrates with many sharp, metal thorns. Touching them will cause one to bleed profusely.`,
 			t.DoubleName)
 	}
 	return ""
