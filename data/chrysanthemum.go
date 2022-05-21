@@ -70,8 +70,8 @@ func (p *Chrysanthemum) writeStage1(c chan string, target, traits string) {
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedChrysanthemum2_%s"/>
 	<property name="Texture" value="550"/>
-	%s
-</block>`, traits, traits, traits, traits, getCraftingGroup(traits), traits, optionallyAddUnlock(p, target, traits))
+	<property name="UnlockedBy" value="%s"/>
+</block>`, traits, traits, traits, traits, getCraftingGroup(traits), traits, getUnlock(p, target, traits))
 }
 
 func (*Chrysanthemum) writeStage2(c chan string, traits string) {

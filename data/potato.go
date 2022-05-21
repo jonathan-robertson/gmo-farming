@@ -71,8 +71,8 @@ func (p *Potato) writeStage1(c chan string, target, traits string) {
 	<property name="PlaceAsRandomRotation" value="true"/>
 	<property name="PlantGrowing.Next" value="plantedPotato2_%s"/>
 	<property name="Shape" value="ModelEntity"/>
-	%s
-</block>`, traits, traits, traits, traits, getCraftingGroup(traits), traits, optionallyAddUnlock(p, target, traits))
+	<property name="UnlockedBy" value="%s"/>
+</block>`, traits, traits, traits, traits, getCraftingGroup(traits), traits, getUnlock(p, target, traits))
 }
 
 func (*Potato) writeStage2(c chan string, traits string) {

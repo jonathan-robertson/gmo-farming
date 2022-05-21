@@ -78,8 +78,8 @@ func (p *Corn) writeStage1(c chan string, target, traits string) {
 	<property name="PlantGrowing.Next" value="plantedCorn2_%s"/>
 	<property name="Shape" value="New"/>
 	<property name="Texture" value="529"/>
-	%s
-</block>`, traits, traits, traits, traits, getCraftingGroup(traits), traits, optionallyAddUnlock(p, target, traits))
+	<property name="UnlockedBy" value="%s"/>
+</block>`, traits, traits, traits, traits, getCraftingGroup(traits), traits, getUnlock(p, target, traits))
 }
 
 func (*Corn) writeStage2(c chan string, traits string) {

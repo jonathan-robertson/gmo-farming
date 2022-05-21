@@ -77,8 +77,8 @@ func (p *GraceCorn) writeStage1(c chan string, target, traits string) {
 	<property name="PlantGrowing.Next" value="plantedGraceCorn2_%s"/>
 	<property name="Shape" value="New"/>
 	<property name="Texture" value="529"/>
-	%s
-</block>`, traits, traits, traits, traits, getCraftingGroup(traits), traits, optionallyAddUnlock(p, target, traits))
+	<property name="UnlockedBy" value="%s"/>
+</block>`, traits, traits, traits, traits, getCraftingGroup(traits), traits, getUnlock(p, target, traits))
 }
 
 func (*GraceCorn) writeStage2(c chan string, traits string) {

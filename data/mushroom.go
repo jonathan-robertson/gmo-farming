@@ -86,8 +86,8 @@ func (p *Mushroom) writeStage1(c chan string, target, traits string) {
 	<property name="PlantGrowing.Next" value="plantedMushroom2_%s"/>
 	<property name="Shape" value="Ext3dModel"/>
 	<property name="Texture" value="293"/>
-	%s
-</block>`, traits, traits, traits, traits, getCraftingGroup(traits), traits, optionallyAddUnlock(p, target, traits))
+	<property name="UnlockedBy" value="%s"/>
+</block>`, traits, traits, traits, traits, getCraftingGroup(traits), traits, getUnlock(p, target, traits))
 }
 
 func (*Mushroom) writeStage2(c chan string, traits string) {
