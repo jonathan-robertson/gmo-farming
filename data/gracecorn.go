@@ -88,7 +88,9 @@ func (*GraceCorn) writeStage2(c chan string, traits string) {
 	<property name="Extends" value="plantedGraceCorn1_%s"/>
 	<property name="DescriptionKey" value="plantedGraceCorn2"/>
 	<property name="DisplayInfo" value="Description"/>
+	<property name="Model" value="corn_growth_shape"/>
 	<property name="PlantGrowing.Next" value="plantedGraceCorn3_%s"/>
+	<property name="Texture" value="529"/>
 </block>`, traits, traits, traits, traits)
 }
 
