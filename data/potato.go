@@ -95,7 +95,7 @@ func (p *Potato) writeStage3(c chan string, traits string) {
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedPotato1"/>
 	<property name="CustomIconTint" value="ff8000"/>
-	<property name="DescriptionKey" value="plantedPotato3_%sDesc"/>
+	<property name="DescriptionKey" value="plantedPotato3_%s"/>
 	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="Extends" value="cropsHarvestableMaster"/>
