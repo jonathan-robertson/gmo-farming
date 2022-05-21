@@ -46,47 +46,47 @@ func (p *ResearcherBlocks) Produce(c chan string) {
 
 func (*ResearcherBlocks) produceWorkstationHotBox(c chan string) {
 	c <- `<block name="hotbox">
-	<property name="Extends" value="workbench"/>
-	<property class="Workstation">
-		<property name="Modules" value="output"/>
-		<property name="CraftingAreaRecipes" value="hotbox"/>
-	</property>
-	
-	<property name="ModelOffset" value="1,0,1"/>
-	<property name="MultiBlockDim" value="1,1,1"/>
-	<property name="StabilitySupport" value="true"/>
-	<property name="IsTerrainDecoration" value="false"/>
-	<property name="DisplayType" value="blockMulti"/>
-	
-	<!-- from farmPlotRaised shape -->
-	<property name="Path" value="solid"/>  <!-- This is a hint for the AI; see XML.txt -->
-	<property name="Shape" value="New"/>
-	<property name="Model" value="farm_plot_raised"/>
-	<property name="CustomIcon" value="shapeFarmPlotRaised"/>
-	<property name="ImposterExchange" value="imposterBlock"/>
-	<property name="UseGlobalUV" value="G,L,L,L,L,L"/>
+    <property name="Extends" value="workbench"/>
+    <property class="Workstation">
+        <property name="Modules" value="output"/>
+        <property name="CraftingAreaRecipes" value="hotbox"/>
+    </property>
+    
+    <property name="ModelOffset" value="1,0,1"/>
+    <property name="MultiBlockDim" value="1,1,1"/>
+    <property name="StabilitySupport" value="true"/>
+    <property name="IsTerrainDecoration" value="false"/>
+    <property name="DisplayType" value="blockMulti"/>
+    
+    <!-- from farmPlotRaised shape -->
+    <property name="Path" value="solid"/>  <!-- This is a hint for the AI; see XML.txt -->
+    <property name="Shape" value="New"/>
+    <property name="Model" value="farm_plot_raised"/>
+    <property name="CustomIcon" value="shapeFarmPlotRaised"/>
+    <property name="ImposterExchange" value="imposterBlock"/>
+    <property name="UseGlobalUV" value="G,L,L,L,L,L"/>
 
-	<!-- from corrugatedMetalShapes -->
-	<property name="Texture" value="194"/>
-	<property name="UiBackgroundTexture" value="194"/>
+    <!-- from corrugatedMetalShapes -->
+    <property name="Texture" value="194"/>
+    <property name="UiBackgroundTexture" value="194"/>
 
-	<!-- audio -->
-	<property name="OpenSound" value="drone_storage_open"/>
-	<property name="CloseSound" value="drone_storage_close"/>
-	
-	<!-- Localization -->
-	<property name="WorkstationJournalTip" value="hotboxTip"/>
-	<property name="DescriptionKey" value="hotboxDesc"/>
+    <!-- audio -->
+    <property name="OpenSound" value="drone_storage_open"/>
+    <property name="CloseSound" value="drone_storage_close"/>
+    
+    <!-- Localization -->
+    <property name="WorkstationJournalTip" value="hotboxTip"/>
+    <property name="DescriptionKey" value="hotboxDesc"/>
 
-	<!-- recipe/unlock -->
-	<property name="UnlockedBy" value="perkLivingOffTheLand"/>
-	
-	<!-- salvage -->
-	<drop event="Harvest" name="resourceForgedIron" count="10" tag="salvageHarvest"/>
-	<drop event="Harvest" name="resourceMechanicalParts" count="1" tag="salvageHarvest"/>
-	<drop event="Harvest" name="resourceWood" count="10" tag="salvageHarvest"/>
-	<drop event="Harvest" name="resourcePotassiumNitratePowder" count="2" tag="salvageHarvest"/>
-	<drop event="Harvest" name="resourceClayLump" count="10" tag="salvageHarvest"/>
+    <!-- recipe/unlock -->
+    <property name="UnlockedBy" value="perkLivingOffTheLand"/>
+    
+    <!-- salvage -->
+    <drop event="Harvest" name="resourceForgedIron" count="10" tag="salvageHarvest"/>
+    <drop event="Harvest" name="resourceMechanicalParts" count="1" tag="salvageHarvest"/>
+    <drop event="Harvest" name="resourceWood" count="10" tag="salvageHarvest"/>
+    <drop event="Harvest" name="resourcePotassiumNitratePowder" count="2" tag="salvageHarvest"/>
+    <drop event="Harvest" name="resourceClayLump" count="10" tag="salvageHarvest"/>
 
     <!-- repair -->
     <property class="RepairItems">
@@ -97,17 +97,17 @@ func (*ResearcherBlocks) produceWorkstationHotBox(c chan string) {
         <property name="resourceClayLump" value="50" />
     </property>
 
-	<!-- purchase price -->
-	<property name="EconomicValue" value="2000"/>
+    <!-- purchase price -->
+    <property name="EconomicValue" value="2000"/>
 
-	<!-- TODO: Heat -->
-	<property name="HeatMapStrength" value="2"/>
-	<property name="HeatMapTime" value="5000"/>
-	<property name="HeatMapFrequency" value="1000"/>
+    <!-- TODO: Heat -->
+    <property name="HeatMapStrength" value="2"/>
+    <property name="HeatMapTime" value="5000"/>
+    <property name="HeatMapFrequency" value="1000"/>
 
-	<!-- TODO: Other -->
-	<property name="TakeDelay" value="5"/>
-	<property name="WorkstationIcon" value="ui_game_symbol_crops"/>
+    <!-- TODO: Other -->
+    <property name="TakeDelay" value="5"/>
+    <property name="WorkstationIcon" value="ui_game_symbol_crops"/>
 </block>`
 }
 
@@ -131,7 +131,7 @@ func (*ResearcherBlocks) produceBlockModifications(c chan string) {
         <property name="Class" value="Mine" /> <!-- a mine destroyed by an *explosion* only has a 33 percent chance to detonate -->
         <property name="Tags" value="Mine" />
         <property name="Collide" value="movement,melee,arrow" />
-		<property name="MaxDamage" value="1" /> <!-- reduced from 4 -->
+        <property name="MaxDamage" value="1" /> <!-- reduced from 4 -->
         <property name="TriggerDelay" value="0.1" /> <!-- reduced from 0.5 -->
         <property name="TriggerSound" value="landmine_trigger" />
         <property name="Explosion.ParticleIndex" value="11" />
@@ -144,7 +144,7 @@ func (*ResearcherBlocks) produceBlockModifications(c chan string) {
         <property name="Class" value="Mine" /> <!-- a mine destroyed by an *explosion* only has a 33 percent chance to detonate -->
         <property name="Tags" value="Mine" />
         <property name="Collide" value="movement,melee,arrow" />
-		<property name="MaxDamage" value="1" /> <!-- reduced from 4 -->
+        <property name="MaxDamage" value="1" /> <!-- reduced from 4 -->
         <property name="TriggerDelay" value="0.1" /> <!-- reduced from 0.5 -->
         <property name="TriggerSound" value="landmine_trigger" />
         <property name="Explosion.ParticleIndex" value="11" />

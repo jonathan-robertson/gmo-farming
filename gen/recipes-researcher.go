@@ -122,7 +122,7 @@ func (p *ResearcherRecipes) produceSchematicsRecipe(c chan string, plant data.Pl
 		c <- fmt.Sprintf(`<recipe name="%s" count="1" craft_time="10" traits="" craft_area="hotbox" tags="learnable">
     <ingredient name="resourcePaper" count="10"/>
     <ingredient name="planted%s1" count="100"/>
-	<ingredient name="foodRottingFlesh" count="100"/>
+    <ingredient name="foodRottingFlesh" count="100"/>
 </recipe>`,
 			plant.GetSchematicName(""),
 			plant.GetName())

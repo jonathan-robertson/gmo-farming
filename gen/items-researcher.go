@@ -71,9 +71,9 @@ func (p *ResearcherItems) produceSchematic(c chan string, plant data.Plant, trai
     <property name="Group" value="%s"/>
     <property name="UnlockedBy" value="perkLivingOffTheLand"/>
     <property name="Unlocks" value="%s"/>
-	<effect_group>
+    <effect_group>
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="%s" operation="set" value="1"/>
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>	
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>    
     </effect_group>
 </item>`,
 		plant.GetSchematicName(traitsStr), iconName, group, unlocks, unlocks)
