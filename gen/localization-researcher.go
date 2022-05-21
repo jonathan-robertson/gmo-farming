@@ -56,11 +56,11 @@ func (*ResearcherLocalization) produceHotBoxLocalization(c chan string) {
 	c <- `perkLivingOffTheLandRank5LongDesc,progression,perk For,"Craft a second Trait into enhanced seeds.\n\nDouble the Traits,\nDouble the fun!"`
 
 	c <- `lblCategoryTier1SeedResearch,UI,Tooltip,Seed Enhancement Research`
-	c <- `lblCategoryTier1Seeds,UI,Tooltip,Enhance Seed`
-	c <- `lblCategoryTier2SeedResearch,UI,Tooltip,Seed Trait Research`
-	c <- `lblCategoryTier2Seeds,UI,Tooltip,Add Seed Trait`
-	c <- `lblCategoryTier3SeedResearch,UI,Tooltip,Advanced Seed Trait Research`
-	c <- `lblCategoryTier3Seeds,UI,Tooltip,Add Another Seed Trait`
+	c <- `lblCategoryTier1Seeds,UI,Tooltip,Seed Enhancement`
+	c <- `lblCategoryTier2SeedResearch,UI,Tooltip,First Trait Research`
+	c <- `lblCategoryTier2Seeds,UI,Tooltip,First Trait`
+	c <- `lblCategoryTier3SeedResearch,UI,Tooltip,Second Trait Research`
+	c <- `lblCategoryTier3Seeds,UI,Tooltip,Second Trait`
 
 }
 

@@ -52,9 +52,9 @@ func (*StandardLocalization) produceHotBoxLocalization(c chan string) {
 	c <- `perkLivingOffTheLandRank5Desc,progression,perk For,Agricultural Genius`
 	c <- `perkLivingOffTheLandRank5LongDesc,progression,perk For,Craft a second Trait into enhanced seeds.\n\nDouble the Traits,\nDouble the fun!`
 
-	c <- `lblCategoryTier1Seeds,UI,Tooltip,Tier 1 Seed Enhancements`
-	c <- `lblCategoryTier2Seeds,UI,Tooltip,Tier 2 Seed Enhancements`
-	c <- `lblCategoryTier3Seeds,UI,Tooltip,Tier 3 Seed Enhancements`
+	c <- `lblCategoryTier1Seeds,UI,Tooltip,Seed Enhancement`
+	c <- `lblCategoryTier2Seeds,UI,Tooltip,First Trait`
+	c <- `lblCategoryTier3Seeds,UI,Tooltip,Second Trait`
 }
 
 func (*StandardLocalization) produceThornyBuffLocalization(c chan string) {
