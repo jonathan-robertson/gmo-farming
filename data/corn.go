@@ -87,6 +87,8 @@ func (*Corn) writeStage2(c chan string, traits string) {
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIconTint" value="00ff80"/>
 	<property name="Extends" value="plantedCorn1_%s"/>
+	<property name="DescriptionKey" value="plantedCorn2"/>
+	<property name="DisplayInfo" value="Description"/>
 	<property name="Model" value="corn_growth_shape"/>
 	<property name="PlantGrowing.Next" value="plantedCorn3_%s"/>
 	<property name="Texture" value="529"/>

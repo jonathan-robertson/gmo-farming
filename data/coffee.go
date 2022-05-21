@@ -80,6 +80,8 @@ func (*Coffee) writeStage2(c chan string, traits string) {
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIconTint" value="00ff80"/>
 	<property name="Extends" value="plantedCoffee1_%s"/>
+	<property name="DescriptionKey" value="plantedCoffee2"/>
+	<property name="DisplayInfo" value="Description"/>
 	<property name="PlantGrowing.Next" value="plantedCoffee3_%s"/>
 	<property name="Texture" value="394"/>
 </block>`, traits, traits, traits, traits)

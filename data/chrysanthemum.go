@@ -79,6 +79,8 @@ func (*Chrysanthemum) writeStage2(c chan string, traits string) {
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIconTint" value="00ff80"/>
 	<property name="Extends" value="plantedChrysanthemum1_%s"/>
+	<property name="DescriptionKey" value="plantedChrysanthemum2"/>
+	<property name="DisplayInfo" value="Description"/>
 	<property name="PlantGrowing.Next" value="plantedChrysanthemum3_%s"/>
 	<property name="Texture" value="551"/>
 </block>`, traits, traits, traits, traits)

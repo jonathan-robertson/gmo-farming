@@ -81,6 +81,8 @@ func (*Yucca) writeStage2(c chan string, traits string) {
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIconTint" value="00ff80"/>
 	<property name="Extends" value="plantedYucca1_%s"/>
+	<property name="DescriptionKey" value="plantedYucca2"/>
+	<property name="DisplayInfo" value="Description"/>
 	<property name="Model" value="Entities/Plants/plant_yucca_growthPrefab"/>
 	<property name="PlantGrowing.Next" value="plantedYucca3_%s"/>
 </block>`, traits, traits, traits, traits)

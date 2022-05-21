@@ -79,6 +79,8 @@ func (*Goldenrod) writeStage2(c chan string, traits string) {
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIconTint" value="00ff80"/>
 	<property name="Extends" value="plantedGoldenrod1_%s"/>
+	<property name="DescriptionKey" value="plantedGoldenrod2"/>
+	<property name="DisplayInfo" value="Description"/>
 	<property name="PlantGrowing.Next" value="plantedGoldenrod3_%s"/>
 	<property name="Texture" value="402"/>
 </block>`, traits, traits, traits, traits)

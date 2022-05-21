@@ -81,6 +81,8 @@ func (*Aloe) writeStage2(c chan string, traits string) {
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIconTint" value="00ff80"/>
 	<property name="Extends" value="plantedAloe1_%s"/>
+	<property name="DescriptionKey" value="plantedAloe2"/>
+	<property name="DisplayInfo" value="Description"/>
 	<property name="Model" value="Entities/Plants/plant_aloe2_Prefab"/>
 	<property name="PlantGrowing.Next" value="plantedAloe3_%s"/>
 </block>`, traits, traits, traits, traits)

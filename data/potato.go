@@ -80,6 +80,8 @@ func (*Potato) writeStage2(c chan string, traits string) {
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIconTint" value="00ff80"/>
 	<property name="Extends" value="plantedPotato1_%s"/>
+	<property name="DescriptionKey" value="plantedPotato2"/>
+	<property name="DisplayInfo" value="Description"/>
 	<property name="Model" value="Entities/Plants/potato_plant_growthPrefab"/>
 	<property name="PlantGrowing.Next" value="plantedPotato3_%s"/>
 </block>`, traits, traits, traits, traits)

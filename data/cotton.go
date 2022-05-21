@@ -79,6 +79,8 @@ func (*Cotton) writeStage2(c chan string, traits string) {
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIconTint" value="00ff80"/>
 	<property name="Extends" value="plantedCotton1_%s"/>
+	<property name="DescriptionKey" value="plantedCotton2"/>
+	<property name="DisplayInfo" value="Description"/>
 	<property name="PlantGrowing.Next" value="plantedCotton3_%s"/>
 	<property name="Texture" value="20"/>
 </block>`, traits, traits, traits, traits)

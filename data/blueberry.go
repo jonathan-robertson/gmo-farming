@@ -80,6 +80,8 @@ func (*Blueberry) writeStage2(c chan string, traits string) {
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIconTint" value="00ff80"/>
 	<property name="Extends" value="plantedBlueberry1_%s"/>
+	<property name="DescriptionKey" value="plantedBlueberry2"/>
+	<property name="DisplayInfo" value="Description"/>
 	<property name="Model" value="Entities/Plants/blueberry_plant_growthPrefab"/>
 	<property name="PlantGrowing.Next" value="plantedBlueberry3_%s"/>
 </block>`, traits, traits, traits, traits)

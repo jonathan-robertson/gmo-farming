@@ -96,6 +96,8 @@ func (*Mushroom) writeStage2(c chan string, traits string) {
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIconTint" value="00ff80"/>
 	<property name="Extends" value="plantedMushroom1_%s"/>
+	<property name="DescriptionKey" value="plantedMushroom2"/>
+	<property name="DisplayInfo" value="Description"/>
 	<property name="Model" value="OutdoorDecor/mushroom_growth" param1="main_mesh"/>
 	<property name="PlantGrowing.Next" value="plantedMushroom3_%s"/>
 </block>`, traits, traits, traits, traits)

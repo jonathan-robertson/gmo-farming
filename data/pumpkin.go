@@ -81,6 +81,8 @@ func (*Pumpkin) writeStage2(c chan string, traits string) {
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIconTint" value="00ff80"/>
 	<property name="Extends" value="plantedPumpkin1_%s"/>
+	<property name="DescriptionKey" value="plantedPumpkin2"/>
+	<property name="DisplayInfo" value="Description"/>
 	<property name="Model" value="Entities/Plants/pumpkinGrowthPrefab"/>
 	<property name="PlantGrowing.Next" value="plantedPumpkin3_%s"/>
 </block>`, traits, traits, traits, traits)
