@@ -94,8 +94,8 @@ func (p *Chrysanthemum) writeStage3(c chan string, traits string) {
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedChrysanthemum1"/>
 	<property name="CustomIconTint" value="ff8000"/>
-	<property name="DescriptionKey" value="plantedChrysanthemum3_%s"/>
-	<property name="DisplayInfo" value="Name"/>
+	<property name="DescriptionKey" value="plantedChrysanthemum3HarvestDesc"/>
+	<property name="DisplayInfo" value="Description"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="FilterTags" value="MC_helpers,SC_helperOutdoor"/>
 	<property name="ImposterDontBlock" value="true"/>
@@ -117,6 +117,5 @@ func (p *Chrysanthemum) writeStage3(c chan string, traits string) {
 		calculatePlantTier(traits),
 		calculateCropYield(p.CropYield, traits),
 		calculateBonusYield(p.BonusYield, traits),
-		traits,
 		optionallyAddRenewable(traits, p))
 }

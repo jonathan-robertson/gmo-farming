@@ -95,8 +95,8 @@ func (p *Potato) writeStage3(c chan string, traits string) {
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedPotato1"/>
 	<property name="CustomIconTint" value="ff8000"/>
-	<property name="DescriptionKey" value="plantedPotato3_%s"/>
-	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DescriptionKey" value="plantedPotato3HarvestDesc"/>
+	<property name="DisplayInfo" value="Description"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="Extends" value="cropsHarvestableMaster"/>
 	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
@@ -121,6 +121,5 @@ func (p *Potato) writeStage3(c chan string, traits string) {
 		calculatePlantTier(traits),
 		calculateCropYield(p.CropYield, traits),
 		calculateBonusYield(p.BonusYield, traits),
-		traits,
 		optionallyAddRenewable(traits, p))
 }

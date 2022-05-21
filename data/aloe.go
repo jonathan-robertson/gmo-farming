@@ -96,8 +96,8 @@ func (p *Aloe) writeStage3(c chan string, traits string) {
 	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="plantedAloe1"/>
 	<property name="CustomIconTint" value="ff8000"/>
-	<property name="DescriptionKey" value="plantedAloe3_%s"/>
-	<property name="DisplayInfo" value="Description"/> <!-- also valid: "Name" -->
+	<property name="DescriptionKey" value="plantedAloe3HarvestDesc"/>
+	<property name="DisplayInfo" value="Description"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
 	<property name="Group" value="Food/Cooking,Science"/>
@@ -122,6 +122,5 @@ func (p *Aloe) writeStage3(c chan string, traits string) {
 		calculatePlantTier(traits),
 		calculateCropYield(p.CropYield, traits),
 		calculateBonusYield(p.BonusYield, traits),
-		traits,
 		optionallyAddRenewable(traits, p))
 }

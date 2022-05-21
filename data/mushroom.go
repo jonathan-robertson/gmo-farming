@@ -112,7 +112,8 @@ func (p *Mushroom) writeStage3(c chan string, traits string) {
 	<property name="CropsGrown.BonusHarvestDivisor" value="16"/>
 	<property name="CustomIcon" value="plantedMushroom1"/>
 	<property name="CustomIconTint" value="ff8000"/>
-	<property name="DescriptionKey" value="plantedMushroom3_%s"/>
+	<property name="DescriptionKey" value="plantedMushroom3HarvestDesc"/>
+	<property name="DisplayInfo" value="Description"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
 	<property name="HarvestOverdamage" value="false"/>
@@ -132,6 +133,5 @@ func (p *Mushroom) writeStage3(c chan string, traits string) {
 		calculatePlantTier(traits),
 		calculateCropYield(p.CropYield, traits),
 		calculateBonusYield(p.BonusYield, traits),
-		traits,
 		optionallyAddRenewable(traits, p))
 }

@@ -13,6 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - fix file generation
 - fix schematic recipe unlocks, update hotbox recipe
 - fix standard recipe unlocks, update hotbox recipe
+- hide fully grown plant types
 
 ## [0.6.0] - 2022-05-19
 
