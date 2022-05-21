@@ -17,6 +17,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - hide growing plant types
 - fix gracecorn stage 2 model
 - set hotbox repair resources
+- resolve issue with explosive trait collision
 
 ## [0.6.0] - 2022-05-19
 

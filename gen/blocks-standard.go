@@ -128,7 +128,7 @@ func (*StandardBlocks) produceBlockModifications(c chan string) {
 	c <- `    <append xpath="/blocks/block[contains(@traits, 'E') and @stage='3' and not (@traits='EE')]">
         <property name="Class" value="Mine" /> <!-- a mine destroyed by an *explosion* only has a 33 percent chance to detonate -->
         <property name="Tags" value="Mine" />
-        <property name="Collide" value="movement,melee,arrow" />
+        <property name="Collide" value="melee,arrow" />
         <property name="MaxDamage" value="1" /> <!-- reduced from 4 -->
         <property name="TriggerDelay" value="0.1" /> <!-- reduced from 0.5 -->
         <property name="TriggerSound" value="landmine_trigger" />
@@ -141,7 +141,7 @@ func (*StandardBlocks) produceBlockModifications(c chan string) {
 	c <- `    <append xpath="/blocks/block[contains(@traits, 'EE') and @stage='3']">
         <property name="Class" value="Mine" /> <!-- a mine destroyed by an *explosion* only has a 33 percent chance to detonate -->
         <property name="Tags" value="Mine" />
-        <property name="Collide" value="movement,melee,arrow" />
+        <property name="Collide" value="melee,arrow" />
         <property name="MaxDamage" value="1" /> <!-- reduced from 4 -->
         <property name="TriggerDelay" value="0.1" /> <!-- reduced from 0.5 -->
         <property name="TriggerSound" value="landmine_trigger" />
