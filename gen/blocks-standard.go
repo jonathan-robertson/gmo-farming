@@ -86,6 +86,15 @@ func (*StandardBlocks) produceWorkstationHotBox(c chan string) {
 	<drop event="Harvest" name="resourcePotassiumNitratePowder" count="2" tag="salvageHarvest"/>
 	<drop event="Harvest" name="resourceClayLump" count="10" tag="salvageHarvest"/>
 
+    <!-- repair -->
+    <property class="RepairItems">
+        <property name="resourceForgedIron" value="50" />
+        <property name="resourceMechanicalParts" value="8" />
+        <property name="resourceWood" value="25" />
+        <property name="resourcePotassiumNitratePowder" value="10" />
+        <property name="resourceClayLump" value="50" />
+    </property>
+
 	<!-- purchase price -->
 	<property name="EconomicValue" value="2000"/>
 

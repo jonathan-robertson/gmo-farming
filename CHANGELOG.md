@@ -16,6 +16,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - hide fully grown plant types
 - hide growing plant types
 - fix gracecorn stage 2 model
+- set hotbox repair resources
 
 ## [0.6.0] - 2022-05-19
 
