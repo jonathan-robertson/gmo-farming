@@ -141,7 +141,7 @@ func (p *ResearcherRecipes) produceSchematicsRecipe(c chan string, plant data.Pl
 			traits[0].Code, traits[1].Code)
 		c <- fmt.Sprintf(`%s
     <ingredient name="resourcePaper" count="10"/>
-    <ingredient name="planted%s1_%c" count="1"/>`,
+    <ingredient name="planted%s1_%c" count="10"/>`,
 			signature, plant.GetName(), traits[0].Code)
 		p.produceSchematicIngredients(c, traits[1])
 		c <- `</recipe>`
@@ -150,7 +150,7 @@ func (p *ResearcherRecipes) produceSchematicsRecipe(c chan string, plant data.Pl
 		}
 		c <- fmt.Sprintf(`%s
     <ingredient name="resourcePaper" count="10"/>
-    <ingredient name="planted%s1_%c" count="1"/>`,
+    <ingredient name="planted%s1_%c" count="10"/>`,
 			signature, plant.GetName(), traits[1].Code)
 		p.produceSchematicIngredients(c, traits[0])
 		c <- `</recipe>`
