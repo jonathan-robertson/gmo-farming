@@ -41,10 +41,10 @@ Traits can also be combined (up to 2), though not all are compatible with one ot
 |   | B | E | F | R | T | U |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | B | ✅ | 🚫 | ✅ | ✅ | ✅ | ✅ |
-| E | 🚫 | ✅ | ✅ | 🚫 | ✅ | ✅ |
+| E | 🚫 | ✅ | ✅ | 🚫 | 🚫 | ✅ |
 | F | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | R | ✅ | 🚫 | ✅ | 🚫 | ✅ | ✅ |
-| T | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| T | ✅ | 🚫 | ✅ | ✅ | ✅ | ✅ |
 | U | ✅ | ✅ | ✅ | ✅ | ✅ | 🚫 |
 
 > *Note that Mushrooms cannot be given the Underground trait because they already have it.*
