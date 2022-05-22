@@ -6,6 +6,8 @@
 
 ![GMO Farming Image](https://github.com/jonathan-robertson/gmo-farming/raw/media/gmo-farming-social.jpg)
 
+[Standard Edition Introduction (YouTube)](https://youtu.be/Rlf7xDVKjIE) | [Researcher Edition Differences (YouTube)](https://youtu.be/4QvH_5q_P2g)
+
 ## Compatibility
 
 This modlet is compatible with Servers and Clients in all combinations; examine the chart below for details specific to your situation:
@@ -62,19 +64,19 @@ Extremely Explosive | triggers a concealed explosive ***with a large payload*** 
 Rapid Growth | reaches maturity in a ***quarter*** of the time
 Extra Thorny | integrates with ***many*** sharp, metal thorns. Touching them will cause one to bleed ***profusely***
 
-## 2 Different Themes to Choose From
+## 2 Editions to Choose From
 
-This modlet comes with 2 Themes: `Standard` and `Researcher`. The one you choose for your game or community should be carefully considered.
+This modlet comes with 2 Editions: `Standard` and `Researcher`. The one you choose for your game or community should be carefully considered.
 
-You can download the Theme you prefer from our [Latest Release](https://github.com/jonathan-robertson/gmo-farming/releases/latest) page by expanding the Assets link to see available downloads.
+You can download the Edition you prefer from our [Latest Release](https://github.com/jonathan-robertson/gmo-farming/releases/latest) page by expanding the Assets link to see available downloads.
 
 ### `Standard` Experience
 
-This Theme is the most vanilla-friendly experience you can expect from a mod like this:
+This Edition is the most vanilla-friendly experience you can expect from a mod like this:
 
 - players unlock content by leveling up in `Living off the Land`
 - each skill level the player adds after level 2 will unlock new content
-- primary focus of this Theme is to encourage use and expand the base game's content
+- primary focus of this Edition is to encourage use and expand the base game's content
 
 Fortitude Level Requirement | Living off the Land Level | Adjustment
 :---: | :---: | ---
@@ -84,11 +86,11 @@ Fortitude Level Requirement | Living off the Land Level | Adjustment
 
 ### `Researcher` Experience
 
-This Theme is more focused on player specialization and giving the player a new challenge to overcome.
+This Edition is more focused on player specialization and giving the player a new challenge to overcome.
 
 - instead of unlocking these new seed recipes by leveling up `Living off the Land`, the player unlock the *opportunity* to learn these new recipes by *researching* them (crafting schematics).
 - such research is time and resource intensive, requiring intentional effort in working towards the player's desired seeds and traits. Naturally, this will be a challenge and require a significant amount of farming.
-- primary focus of this Theme is to provide a difficulty barrier to crafting these new seeds. While the recipes to craft the seeds aren't complicated or challenging, researching them is and this requires players to invest the time if they want the benefit from these enhanced crops. This Theme is also an effort to prevent the GMO Farming mod from totally throwing the game out of whack with easy-to-craft super-crops
+- primary focus of this Edition is to provide a difficulty barrier to crafting these new seeds. While the recipes to craft the seeds aren't complicated or challenging, researching them is and this requires players to invest the time if they want the benefit from these enhanced crops. This Edition is also an effort to prevent the GMO Farming mod from totally throwing the game out of whack with easy-to-craft super-crops
 
 Fortitude Level Requirement | Living off the Land Level | Adjustment
 :---: | :---: | ---
