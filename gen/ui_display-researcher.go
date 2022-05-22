@@ -17,7 +17,7 @@ func (*ResearcherUIDisplay) GetFilename() string {
 func (*ResearcherUIDisplay) Produce(c chan string) {
 	defer close(c)
 	c <- `<config><append xpath="/ui_display_info/crafting_category_display">
-        <crafting_category_list display_type="hotbox">
+    <crafting_category_list display_type="hotbox">
         <crafting_category name="Tier1SeedResearch" icon="ui_game_symbol_book" display_name="lblCategoryTier1SeedResearch" />
         <crafting_category name="Tier1Seeds" icon="ui_game_symbol_crops" display_name="lblCategoryTier1Seeds" />
         <crafting_category name="Tier2SeedResearch" icon="ui_game_symbol_book" display_name="lblCategoryTier2SeedResearch" />
