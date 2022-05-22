@@ -21,6 +21,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - update readme
 - make Thorny and Explosive traits incompatible
 - fix perk level descriptions, add [MOD] indicator
+- fix bonus trait; support for higher lotl levels
 
 ## [0.6.0] - 2022-05-19
 

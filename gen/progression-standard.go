@@ -24,6 +24,10 @@ func (p *StandardProgression) Produce(c chan string) {
 	defer close(c)
 	c <- `<config>`
 	c <- `<set xpath="/progression/perks/perk[@name='perkLivingOffTheLand']/@max_level">5</set>`
+	c <- `<set xpath="/progression/perks/perk[@name='perkLivingOffTheLand']/effect_group/passive_effect[@name='HarvestCount' and @tags='cropHarvest,wildCropsHarvest']/@level">1,2,3,4,5</set>`
+	c <- `<set xpath="/progression/perks/perk[@name='perkLivingOffTheLand']/effect_group/passive_effect[@name='HarvestCount' and @tags='cropHarvest,wildCropsHarvest']/@value">1,1,2,2,2</set>`
+	c <- `<set xpath="/progression/perks/perk[@name='perkLivingOffTheLand']/effect_group/passive_effect[@name='HarvestCount' and @tags='bonusCropHarvest']/@level">2,3,4,5</set>`
+	c <- `<set xpath="/progression/perks/perk[@name='perkLivingOffTheLand']/effect_group/passive_effect[@name='HarvestCount' and @tags='bonusCropHarvest']/@value">1,1,1,1</set>`
 	c <- `<append xpath="/progression/perks/perk[@name='perkLivingOffTheLand']/effect_group">
     <passive_effect name="RecipeTagUnlocked" operation="base_set" level="3,5" value="1" tags="hotbox" />`
 	c <- fmt.Sprintf(`<passive_effect name="RecipeTagUnlocked" operation="base_set" level="3,5" value="1" tags="%s" />`,
