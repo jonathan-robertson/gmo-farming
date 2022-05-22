@@ -115,14 +115,14 @@ var Plants []Plant = []Plant{
 
 func calculateCropYield(count int, traits string) int {
 
-	// All Enhanced Seeds start wtih double resources
+	// All Enhanced Seeds start with double resources
 	count *= 2
 
 	// [B] Bonus
 	if strings.Contains(traits, "BB") {
 		count *= 4
 	} else if strings.Contains(traits, "B") {
-		count = int(float64(count) * 2)
+		count *= 2
 	}
 
 	return count
