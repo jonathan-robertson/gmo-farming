@@ -20,6 +20,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - resolve issue with explosive trait collision
 - update readme
 - make Thorny and Explosive traits incompatible
+- fix perk level descriptions, add [MOD] indicator
 
 ## [0.6.0] - 2022-05-19
 

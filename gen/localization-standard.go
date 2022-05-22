@@ -45,12 +45,15 @@ func (*StandardLocalization) produceHotBoxLocalization(c chan string) {
 	c <- `hotboxTip,Journal Tip,,"The Hot Box is a simple workstation that allows enhanced seeds to absorb various materials and take on new traits."`
 	c <- `hotboxTip_title,Journal Tip,,Hot Box`
 
-	c <- `perkLivingOffTheLandRank3Desc,progression,perk For,Farmer`
-	c <- `perkLivingOffTheLandRank3LongDesc,progression,perk For,Triple the harvest of wild or planted crops. Craft Hot Boxes and Enhanced Seeds that you'll be able to research special traits for.`
-	c <- `perkLivingOffTheLandRank4Desc,progression,perk For,Mad Scientist`
-	c <- `perkLivingOffTheLandRank4LongDesc,progression,perk For,Craft a Trait into enhanced seeds.\n\nTraits can be used to add a wide variety of properties to a seed; ranging from increasing crop yield to allowing plants to grow without sunlight.`
-	c <- `perkLivingOffTheLandRank5Desc,progression,perk For,Agricultural Genius`
-	c <- `perkLivingOffTheLandRank5LongDesc,progression,perk For,Craft a second Trait into enhanced seeds.\n\nDouble the Traits,\nDouble the fun!`
+	c <- `perkLivingOffTheLandName,progression,perk For,Living off the Land [FF8000][MOD]`
+	c <- `perkLivingOffTheLandDesc,progression,perk For,Specialize in harvesting more crops using your hands or a tool.\n\n[FF8000][MOD] This perk has 2 new skill levels and added unlocks for level 3.`
+
+	c <- `perkLivingOffTheLandRank3Desc,progression,perk For,Farmer [FF8000][MOD]`
+	c <- `perkLivingOffTheLandRank3LongDesc,progression,perk For,Triple the harvest of wild or planted crops.\n\nCraft Hot Boxes and Enhanced Seeds that you'll be able to add special traits to.`
+	c <- `perkLivingOffTheLandRank4Desc,progression,perk For,Mad Scientist [FF8000][MOD]`
+	c <- `perkLivingOffTheLandRank4LongDesc,progression,perk For,Add a new Trait to enhanced seeds.\n\nAdded Traits can provide a wide variety of properties to a seed; ranging from increasing crop yield to allowing plants to grow without sunlight.`
+	c <- `perkLivingOffTheLandRank5Desc,progression,perk For,Agricultural Genius [FF8000][MOD]`
+	c <- `perkLivingOffTheLandRank5LongDesc,progression,perk For,Add a Second Trait to enhanced seeds.\n\nAdded Traits can provide a wide variety of properties to a seed; ranging from increasing crop yield to allowing plants to grow without sunlight.`
 
 	c <- `lblCategoryTier1Seeds,UI,Tooltip,Seed Enhancement`
 	c <- `lblCategoryTier2Seeds,UI,Tooltip,First Trait`
