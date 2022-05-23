@@ -32,7 +32,7 @@ var Traits []Trait = []Trait{
 	{Code: 'F', Name: "Fast Growth", DoubleName: "Rapid Growth", Ingredients: []Ingredient{
 		{"drinkCanMegaCrush", 2},
 	}},
-	{Code: 'E', Name: "Explosive", DoubleName: "Extremely Explosive", IncompatibleTraits: []rune{'B', 'R'}, Ingredients: []Ingredient{
+	{Code: 'E', Name: "Explosive", DoubleName: "Extremely Explosive", IncompatibleTraits: []rune{'B', 'R', 'T'}, Ingredients: []Ingredient{
 		{"resourceScrapIron", 4},
 		{"resourceGunPowder", 4},
 		{"resourceDuctTape", 1},
@@ -40,7 +40,7 @@ var Traits []Trait = []Trait{
 	{Code: 'R', Name: "Renewable", IncompatibleTraits: []rune{'R', 'E'}, Ingredients: []Ingredient{
 		{"drinkJarPureMineralWater", 10},
 	}},
-	{Code: 'T', Name: "Thorny", DoubleName: "Extra Thorny", Ingredients: []Ingredient{
+	{Code: 'T', Name: "Thorny", DoubleName: "Extra Thorny", IncompatibleTraits: []rune{'E'}, Ingredients: []Ingredient{
 		{"resourceScrapIron", 10},
 		{"resourceNail", 10},
 	}},
@@ -69,7 +69,7 @@ func (t *Trait) GetDoubleTraitDescription() string {
 		return fmt.Sprintf(`%s: triggers a concealed explosive with a large payload when stepped on, struck with a melee weapon, or hit with an arrow.\n- Due to the flexible nature of plants, the detonator will not trigger if struck with bullets or other explosives.`,
 			t.DoubleName)
 	case 'T':
-		return fmt.Sprintf(`%s: integrates with many sharp, metal thorns. Touching them will cause one to receive damage and bleed.`,
+		return fmt.Sprintf(`%s: integrates with many sharp, metal thorns. Touching them will cause one to bleed profusely.`,
 			t.DoubleName)
 	}
 	return ""
@@ -82,7 +82,7 @@ func (t *Trait) GetTraitDescription() string {
 		return fmt.Sprintf(`%s: further doubles crop yield.`,
 			t.Name)
 	case 'U':
-		return fmt.Sprintf(`%s: fused with mushroom dna, alowing growth without the need for sunlight.`,
+		return fmt.Sprintf(`%s: fused with mushroom dna, allowing growth without the need for sunlight.`,
 			t.Name)
 	case 'F':
 		return fmt.Sprintf(`%s: reaches maturity in half the time.`,

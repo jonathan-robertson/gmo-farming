@@ -5,21 +5,21 @@ import (
 	"fmt"
 )
 
-// CrystalHellRecipes is responsible for producing content for recipes.xml
-type CrystalHellRecipes struct{}
+// StandardRecipes is responsible for producing content for recipes.xml
+type StandardRecipes struct{}
 
 // GetPath returns file path for this producer
-func (*CrystalHellRecipes) GetPath() string {
-	return "Config-CrystalHell"
+func (*StandardRecipes) GetPath() string {
+	return "Config-Standard"
 }
 
 // GetFilename returns filename for this producer
-func (*CrystalHellRecipes) GetFilename() string {
+func (*StandardRecipes) GetFilename() string {
 	return "recipes.xml"
 }
 
 // Produce xml data to the provided channel
-func (p *CrystalHellRecipes) Produce(c chan string) {
+func (p *StandardRecipes) Produce(c chan string) {
 	defer close(c)
 	c <- `<config><append xpath="/recipes">`
 	p.produceHotBoxRecipe(c)
@@ -40,28 +40,38 @@ func (p *CrystalHellRecipes) Produce(c chan string) {
 
 }
 
-func (*CrystalHellRecipes) produceHotBoxRecipe(c chan string) {
-	c <- `<recipe name="hotbox" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
-	<ingredient name="resourceForgedIron" count="50"/>
-	<ingredient name="resourceMechanicalParts" count="8"/>
-	<ingredient name="resourceWood" count="25"/>
+func (*StandardRecipes) produceHotBoxRecipe(c chan string) {
+	c <- `<recipe name="hotbox" count="1" craft_time="240" craft_area="workbench" tags="learnable,workbenchCrafting">
+    <ingredient name="resourceForgedIron" count="50"/>
+    <ingredient name="resourceMechanicalParts" count="8"/>
+    <ingredient name="resourceWood" count="25"/>
+    <ingredient name="resourcePotassiumNitratePowder" count="10"/>
+    <ingredient name="resourceClayLump" count="50"/>
 </recipe>`
 }
 
-func (p *CrystalHellRecipes) producePlantRecipe(c chan string, plant data.Plant, traits ...data.Trait) {
+func (p *StandardRecipes) producePlantRecipe(c chan string, plant data.Plant, traits ...data.Trait) {
 	switch len(traits) {
 	case 0:
-		c <- fmt.Sprintf(`<recipe name="planted%s1_" count="1" craft_time="%d" traits="" craft_area="hotbox">
+		enhancedSeedCraftTime := plant.GetCraftTime() * 450
+		c <- fmt.Sprintf(`<recipe name="planted%s1_" count="1" craft_time="%d" traits="" tags="learnable">
     <ingredient name="planted%s1" count="1"/>
     <ingredient name="foodRottingFlesh" count="1"/>
     <ingredient name="resourceCloth" count="1"/>
     <ingredient name="resourceYuccaFibers" count="2"/>
 </recipe>`,
 			plant.GetName(),
-			plant.GetCraftTime()*450,
+			enhancedSeedCraftTime,
+			plant.GetName())
+		c <- fmt.Sprintf(`<recipe name="planted%s1_" count="1" craft_time="%d" traits="" tags="learnable" craft_area="hotbox">
+    <ingredient name="planted%s1" count="1"/>
+    <ingredient name="foodRottingFlesh" count="1"/>
+</recipe>`,
+			plant.GetName(),
+			enhancedSeedCraftTime,
 			plant.GetName())
 	case 1:
-		c <- fmt.Sprintf(`<recipe name="planted%s1_%c" count="1" craft_time="%d" traits="%c" craft_area="hotbox">
+		c <- fmt.Sprintf(`<recipe name="planted%s1_%c" count="1" craft_time="%d" traits="%c" tags="learnable" craft_area="hotbox">
     <ingredient name="planted%s1_" count="1"/>`,
 			plant.GetName(),
 			traits[0].Code,
@@ -71,7 +81,7 @@ func (p *CrystalHellRecipes) producePlantRecipe(c chan string, plant data.Plant,
 		p.producePlantIngredients(c, traits[0])
 		c <- `</recipe>`
 	case 2: // support bi-directional recipes
-		signature := fmt.Sprintf(`<recipe name="planted%s1_%c%c" count="1" craft_time="%d" traits="%c%c" craft_area="hotbox">`,
+		signature := fmt.Sprintf(`<recipe name="planted%s1_%c%c" count="1" craft_time="%d" traits="%c%c" tags="learnable" craft_area="hotbox">`,
 			plant.GetName(),
 			traits[0].Code, traits[1].Code,
 			plant.GetCraftTime(),
@@ -96,7 +106,7 @@ func (p *CrystalHellRecipes) producePlantRecipe(c chan string, plant data.Plant,
 	}
 }
 
-func (p *CrystalHellRecipes) producePlantIngredients(c chan string, trait data.Trait) {
+func (p *StandardRecipes) producePlantIngredients(c chan string, trait data.Trait) {
 	for _, ingredient := range trait.Ingredients {
 		c <- fmt.Sprintf(`    <ingredient name="%s" count="%d"/>`,
 			ingredient.Name,

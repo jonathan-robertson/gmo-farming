@@ -115,14 +115,14 @@ var Plants []Plant = []Plant{
 
 func calculateCropYield(count int, traits string) int {
 
-	// All Enhanced Seeds start wtih double resources
+	// All Enhanced Seeds start with double resources
 	count *= 2
 
 	// [B] Bonus
 	if strings.Contains(traits, "BB") {
 		count *= 4
 	} else if strings.Contains(traits, "B") {
-		count = int(float64(count) * 2)
+		count *= 2
 	}
 
 	return count
@@ -145,17 +145,17 @@ func optionallyAddRenewable(traits string, plant Plant) string {
 	return ""
 }
 
-func optionallyAddUnlock(plant Plant, target, traits string) string {
+func getUnlock(plant Plant, target, traits string) string {
 	switch target {
-	case "Vanilla":
-		return fmt.Sprintf(`<property name="UnlockedBy" value="%s"/>`, plant.GetSchematicName(traits))
+	case "Researcher":
+		return plant.GetSchematicName(traits)
 	default:
-		return ""
+		return "perkLivingOffTheLand"
 	}
 }
 
 func getDefaultSeedDescription() string {
-	return `Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.`
+	return `Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.`
 }
 
 func getCraftingGroup(traits string) string {

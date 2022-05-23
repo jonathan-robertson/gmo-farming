@@ -8,17 +8,17 @@ import (
 
 func main() {
 	for _, producer := range []gen.Producer{
-		&gen.CrystalHellBlocks{},
-		&gen.CrystalHellLocalization{},
-		&gen.CrystalHellProgression{},
-		&gen.CrystalHellRecipes{},
-		&gen.CrystalHellUIDisplay{},
-		&gen.VanillaBlocks{},
-		&gen.VanillaItems{},
-		&gen.VanillaLocalization{},
-		&gen.VanillaProgression{},
-		&gen.VanillaRecipes{},
-		&gen.VanillaUIDisplay{},
+		&gen.ResearcherBlocks{},
+		&gen.ResearcherItems{},
+		&gen.ResearcherLocalization{},
+		&gen.ResearcherProgression{},
+		&gen.ResearcherRecipes{},
+		&gen.ResearcherUIDisplay{},
+		&gen.StandardBlocks{},
+		&gen.StandardLocalization{},
+		&gen.StandardProgression{},
+		&gen.StandardRecipes{},
+		&gen.StandardUIDisplay{},
 	} {
 		if err := gen.Write(producer); err != nil {
 			fmt.Printf("ERROR: %v\n", err)

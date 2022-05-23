@@ -5,21 +5,21 @@ import (
 	"fmt"
 )
 
-// VanillaBlocks is responsible for producing content for blocks.xml
-type VanillaBlocks struct{}
+// ResearcherBlocks is responsible for producing content for blocks.xml
+type ResearcherBlocks struct{}
 
 // GetPath returns file path for this producer
-func (*VanillaBlocks) GetPath() string {
-	return "Config-Vanilla"
+func (*ResearcherBlocks) GetPath() string {
+	return "Config-Researcher"
 }
 
 // GetFilename returns filename for this producer
-func (*VanillaBlocks) GetFilename() string {
+func (*ResearcherBlocks) GetFilename() string {
 	return "blocks.xml"
 }
 
 // Produce xml data to the provided channel
-func (p *VanillaBlocks) Produce(c chan string) {
+func (p *ResearcherBlocks) Produce(c chan string) {
 	defer close(c)
 	c <- `<config>`
 	c <- `<append xpath="/blocks">`
@@ -44,64 +44,74 @@ func (p *VanillaBlocks) Produce(c chan string) {
 	c <- `</config>`
 }
 
-func (*VanillaBlocks) produceWorkstationHotBox(c chan string) {
+func (*ResearcherBlocks) produceWorkstationHotBox(c chan string) {
 	c <- `<block name="hotbox">
-	<property name="Extends" value="workbench"/>
-	<property class="Workstation">
-		<property name="Modules" value="output"/>
-		<property name="CraftingAreaRecipes" value="hotbox"/>
-	</property>
-	
-	<property name="ModelOffset" value="1,0,1"/>
-	<property name="MultiBlockDim" value="1,1,1"/>
-	<property name="StabilitySupport" value="true"/>
-	<property name="IsTerrainDecoration" value="false"/>
-	<property name="DisplayType" value="blockMulti"/>
-	
-	<!-- from farmPlotRaised shape -->
-	<property name="Path" value="solid"/>  <!-- This is a hint for the AI; see XML.txt -->
-	<property name="Shape" value="New"/>
-	<property name="Model" value="farm_plot_raised"/>
-	<property name="CustomIcon" value="shapeFarmPlotRaised"/>
-	<property name="ImposterExchange" value="imposterBlock"/>
-	<property name="UseGlobalUV" value="G,L,L,L,L,L"/>
+    <property name="Extends" value="workbench"/>
+    <property class="Workstation">
+        <property name="Modules" value="output"/>
+        <property name="CraftingAreaRecipes" value="hotbox"/>
+    </property>
+    
+    <property name="ModelOffset" value="1,0,1"/>
+    <property name="MultiBlockDim" value="1,1,1"/>
+    <property name="StabilitySupport" value="true"/>
+    <property name="IsTerrainDecoration" value="false"/>
+    <property name="DisplayType" value="blockMulti"/>
+    
+    <!-- from farmPlotRaised shape -->
+    <property name="Path" value="solid"/>  <!-- This is a hint for the AI; see XML.txt -->
+    <property name="Shape" value="New"/>
+    <property name="Model" value="farm_plot_raised"/>
+    <property name="CustomIcon" value="shapeFarmPlotRaised"/>
+    <property name="ImposterExchange" value="imposterBlock"/>
+    <property name="UseGlobalUV" value="G,L,L,L,L,L"/>
 
-	<!-- from corrugatedMetalShapes -->
-	<property name="Texture" value="194"/>
-	<property name="UiBackgroundTexture" value="194"/>
+    <!-- from corrugatedMetalShapes -->
+    <property name="Texture" value="194"/>
+    <property name="UiBackgroundTexture" value="194"/>
 
-	<!-- audio -->
-	<property name="OpenSound" value="drone_storage_open"/>
-	<property name="CloseSound" value="drone_storage_close"/>
-	
-	<!-- Localization -->
-	<property name="WorkstationJournalTip" value="hotboxTip"/>
-	<property name="DescriptionKey" value="hotboxDesc"/>
+    <!-- audio -->
+    <property name="OpenSound" value="drone_storage_open"/>
+    <property name="CloseSound" value="drone_storage_close"/>
+    
+    <!-- Localization -->
+    <property name="WorkstationJournalTip" value="hotboxTip"/>
+    <property name="DescriptionKey" value="hotboxDesc"/>
 
-	<!-- recipe/unlock -->
-	<property name="UnlockedBy" value="perkAdvancedEngineering,workbenchSchematic"/>
-	<!-- TODO: use these ingredients for the recipe since they'll drop (thanks, workbench)
-		<drop event="Harvest" name="resourceScrapIron" count="200" tag="allHarvest"/>
-		<drop event="Harvest" name="resourceWood" count="20" tag="allHarvest"/>
-		<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
-		<drop event="Harvest" name="resourceForgedIron" count="10" tag="salvageHarvest"/>
-		<drop event="Harvest" name="resourceMechanicalParts" count="8" tag="salvageHarvest"/>
-		<drop event="Harvest" name="resourceWood" count="20" tag="salvageHarvest"/>
-	-->
-	<property name="EconomicValue" value="2000"/>
+    <!-- recipe/unlock -->
+    <property name="UnlockedBy" value="perkLivingOffTheLand"/>
+    
+    <!-- salvage -->
+    <drop event="Harvest" name="resourceForgedIron" count="10" tag="salvageHarvest"/>
+    <drop event="Harvest" name="resourceMechanicalParts" count="1" tag="salvageHarvest"/>
+    <drop event="Harvest" name="resourceWood" count="10" tag="salvageHarvest"/>
+    <drop event="Harvest" name="resourcePotassiumNitratePowder" count="2" tag="salvageHarvest"/>
+    <drop event="Harvest" name="resourceClayLump" count="10" tag="salvageHarvest"/>
 
-	<!-- TODO: Heat -->
-	<property name="HeatMapStrength" value="2"/>
-	<property name="HeatMapTime" value="5000"/>
-	<property name="HeatMapFrequency" value="1000"/>
+    <!-- repair -->
+    <property class="RepairItems">
+        <property name="resourceForgedIron" value="50" />
+        <property name="resourceMechanicalParts" value="8" />
+        <property name="resourceWood" value="25" />
+        <property name="resourcePotassiumNitratePowder" value="10" />
+        <property name="resourceClayLump" value="50" />
+    </property>
 
-	<!-- TODO: Other -->
-	<property name="TakeDelay" value="5"/>
-	<property name="WorkstationIcon" value="ui_game_symbol_workbench"/>
+    <!-- purchase price -->
+    <property name="EconomicValue" value="2000"/>
+
+    <!-- TODO: Heat -->
+    <property name="HeatMapStrength" value="2"/>
+    <property name="HeatMapTime" value="5000"/>
+    <property name="HeatMapFrequency" value="1000"/>
+
+    <!-- TODO: Other -->
+    <property name="TakeDelay" value="5"/>
+    <property name="WorkstationIcon" value="ui_game_symbol_crops"/>
 </block>`
 }
 
-func (*VanillaBlocks) produceBlockModifications(c chan string) {
+func (*ResearcherBlocks) produceBlockModifications(c chan string) {
 	// [U] Underground
 	c <- `    <append xpath="/blocks/block[contains(@traits, 'U') and @stage='1']">
         <property name="PlantGrowing.LightLevelGrow" value="0" />
@@ -120,8 +130,8 @@ func (*VanillaBlocks) produceBlockModifications(c chan string) {
 	c <- `    <append xpath="/blocks/block[contains(@traits, 'E') and @stage='3' and not (@traits='EE')]">
         <property name="Class" value="Mine" /> <!-- a mine destroyed by an *explosion* only has a 33 percent chance to detonate -->
         <property name="Tags" value="Mine" />
-        <property name="Collide" value="movement,melee,arrow" />
-		<property name="MaxDamage" value="1" /> <!-- reduced from 4 -->
+        <property name="Collide" value="melee,arrow" />
+        <property name="MaxDamage" value="1" /> <!-- reduced from 4 -->
         <property name="TriggerDelay" value="0.1" /> <!-- reduced from 0.5 -->
         <property name="TriggerSound" value="landmine_trigger" />
         <property name="Explosion.ParticleIndex" value="11" />
@@ -133,8 +143,8 @@ func (*VanillaBlocks) produceBlockModifications(c chan string) {
 	c <- `    <append xpath="/blocks/block[contains(@traits, 'EE') and @stage='3']">
         <property name="Class" value="Mine" /> <!-- a mine destroyed by an *explosion* only has a 33 percent chance to detonate -->
         <property name="Tags" value="Mine" />
-        <property name="Collide" value="movement,melee,arrow" />
-		<property name="MaxDamage" value="1" /> <!-- reduced from 4 -->
+        <property name="Collide" value="melee,arrow" />
+        <property name="MaxDamage" value="1" /> <!-- reduced from 4 -->
         <property name="TriggerDelay" value="0.1" /> <!-- reduced from 0.5 -->
         <property name="TriggerSound" value="landmine_trigger" />
         <property name="Explosion.ParticleIndex" value="11" />
@@ -152,6 +162,6 @@ func (*VanillaBlocks) produceBlockModifications(c chan string) {
     </append>`
 }
 
-func (p *VanillaBlocks) getTarget() string {
-	return "Vanilla"
+func (p *ResearcherBlocks) getTarget() string {
+	return "Researcher"
 }

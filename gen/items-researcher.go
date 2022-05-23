@@ -5,21 +5,21 @@ import (
 	"fmt"
 )
 
-// VanillaItems is responsible for producing content for items.xml
-type VanillaItems struct{}
+// ResearcherItems is responsible for producing content for items.xml
+type ResearcherItems struct{}
 
 // GetPath returns file path for this producer
-func (p *VanillaItems) GetPath() string {
-	return "Config-Vanilla"
+func (p *ResearcherItems) GetPath() string {
+	return "Config-Researcher"
 }
 
 // GetFilename returns filename for this producer
-func (p *VanillaItems) GetFilename() string {
+func (p *ResearcherItems) GetFilename() string {
 	return "items.xml"
 }
 
 // Produce xml data to the provided channel
-func (p *VanillaItems) Produce(c chan string) {
+func (p *ResearcherItems) Produce(c chan string) {
 	defer close(c)
 	c <- `<config><append xpath="/items">`
 	for _, plant := range data.Plants {
@@ -40,7 +40,7 @@ func (p *VanillaItems) Produce(c chan string) {
 	c <- `</append></config>`
 }
 
-func (p *VanillaItems) produceSchematic(c chan string, plant data.Plant, traits ...data.Trait) {
+func (p *ResearcherItems) produceSchematic(c chan string, plant data.Plant, traits ...data.Trait) {
 	var iconName string
 	if plant.GetName() == "GraceCorn" {
 		iconName = `plantedCorn1"/><property name="CustomIconTint" value="ff9f9f`
@@ -71,9 +71,9 @@ func (p *VanillaItems) produceSchematic(c chan string, plant data.Plant, traits 
     <property name="Group" value="%s"/>
     <property name="UnlockedBy" value="perkLivingOffTheLand"/>
     <property name="Unlocks" value="%s"/>
-	<effect_group>
+    <effect_group>
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="%s" operation="set" value="1"/>
-        <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>	
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>    
     </effect_group>
 </item>`,
 		plant.GetSchematicName(traitsStr), iconName, group, unlocks, unlocks)
