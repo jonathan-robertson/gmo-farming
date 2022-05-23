@@ -7,22 +7,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [1.0.0] - 2022-05-22
 
-- remove seed return chance during harvest
 - add recipe for enhanced seed crafting by hand
-- rename vanilla->researcher, crystal-hell->standard
+- fix bonus trait; support for higher lotl levels
 - fix file generation
+- fix gracecorn stage 2 model
+- fix perk level descriptions, add [MOD] indicator
+- fix researcher 2nd trait seed ingredient count
 - fix schematic recipe unlocks, update hotbox recipe
 - fix standard recipe unlocks, update hotbox recipe
+- fix xml file clean/build process
 - hide fully grown plant types
 - hide growing plant types
-- fix gracecorn stage 2 model
-- set hotbox repair resources
-- resolve issue with explosive trait collision
-- update readme
 - make Thorny and Explosive traits incompatible
-- fix perk level descriptions, add [MOD] indicator
-- fix bonus trait; support for higher lotl levels
-- fix researcher 2nd trait seed ingredient count
+- remove seed return chance during harvest
+- rename vanilla->researcher, crystal-hell->standard
+- resolve issue with explosive trait collision
+- set hotbox repair resources
+- update readme
 
 ## [0.6.0] - 2022-05-19
 

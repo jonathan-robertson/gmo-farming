@@ -24,9 +24,7 @@ func Write(producer Producer) error {
 
 func getFile(path, filename string) (*os.File, error) {
 	pathAndFilename := fmt.Sprintf("%s%c%s", path, os.PathSeparator, filename)
-	if err := os.Remove(pathAndFilename); err != nil {
-		return nil, err
-	}
+	os.Remove(pathAndFilename) // ignore error; deleting if present only
 	if err := os.MkdirAll(path, 0755); err != nil {
 		return nil, err
 	}
