@@ -161,3 +161,16 @@ func getDefaultSeedDescription() string {
 func getCraftingGroup(traits string) string {
 	return fmt.Sprintf("Tier%dSeeds", len(traits)+1)
 }
+
+func getItemTypeIcon(traits string) string {
+	switch len(traits) {
+	case 0:
+		return "block_upgrade"
+	case 1:
+		return "add"
+	case 2:
+		return "healing_factor"
+	default:
+		return ""
+	}
+}

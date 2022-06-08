@@ -64,6 +64,7 @@ func (p *Potato) writeStage1(c chan string, target, traits string) {
     <drop event="Destroy" name="plantedPotato1_%s" count="1"/>
     <property name="CreativeMode" value="Player"/>
     <property name="CustomIcon" value="plantedPotato1"/>
+    <property name="ItemTypeIcon" value="%s"/>
     <property name="DescriptionKey" value="plantedPotato1_%sDesc"/>
     <property name="Extends" value="cropsGrowingMaster" param1="CustomIcon"/>
     <property name="Group" value="%s"/>
@@ -72,7 +73,7 @@ func (p *Potato) writeStage1(c chan string, target, traits string) {
     <property name="PlantGrowing.Next" value="plantedPotato2_%s"/>
     <property name="Shape" value="ModelEntity"/>
     <property name="UnlockedBy" value="%s"/>
-</block>`, traits, traits, traits, traits, getCraftingGroup(traits), traits, getUnlock(p, target, traits))
+</block>`, traits, traits, traits, getItemTypeIcon(traits), traits, getCraftingGroup(traits), traits, getUnlock(p, target, traits))
 }
 
 func (*Potato) writeStage2(c chan string, traits string) {
@@ -96,6 +97,7 @@ func (p *Potato) writeStage3(c chan string, traits string) {
     <property name="Collide" value="melee"/>
     <property name="CreativeMode" value="Dev"/>
     <property name="CustomIcon" value="plantedPotato1"/>
+    <property name="ItemTypeIcon" value="%s"/>
     <property name="CustomIconTint" value="ff8000"/>
     <property name="DescriptionKey" value="plantedPotato3HarvestDesc"/>
     <property name="DisplayInfo" value="Description"/>
@@ -123,5 +125,6 @@ func (p *Potato) writeStage3(c chan string, traits string) {
 		calculatePlantTier(traits),
 		calculateCropYield(p.CropYield, traits),
 		calculateBonusYield(p.BonusYield, traits),
+		getItemTypeIcon(traits),
 		optionallyAddRenewable(traits, p))
 }
