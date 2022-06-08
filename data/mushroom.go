@@ -67,6 +67,7 @@ func (p *Mushroom) writeStage1(c chan string, target, traits string) {
     <property name="Collide" value="melee"/>
     <property name="CreativeMode" value="Player"/>
     <property name="CustomIcon" value="plantedMushroom1"/>
+    <property name="ItemTypeIcon" value="%s"/>
     <property name="DescriptionKey" value="plantedMushroom1_%sDesc"/>
     <property name="DisplayInfo" value="Name"/>
     <property name="EconomicBundleSize" value="5"/>
@@ -87,7 +88,7 @@ func (p *Mushroom) writeStage1(c chan string, target, traits string) {
     <property name="Shape" value="Ext3dModel"/>
     <property name="Texture" value="293"/>
     <property name="UnlockedBy" value="%s"/>
-</block>`, traits, traits, traits, traits, getCraftingGroup(traits), traits, getUnlock(p, target, traits))
+</block>`, traits, traits, traits, getItemTypeIcon(traits), traits, getCraftingGroup(traits), traits, getUnlock(p, target, traits))
 }
 
 func (*Mushroom) writeStage2(c chan string, traits string) {
@@ -113,6 +114,7 @@ func (p *Mushroom) writeStage3(c chan string, traits string) {
     <property name="CreativeMode" value="Dev"/>
     <property name="CropsGrown.BonusHarvestDivisor" value="16"/>
     <property name="CustomIcon" value="plantedMushroom1"/>
+    <property name="ItemTypeIcon" value="%s"/>
     <property name="CustomIconTint" value="ff8000"/>
     <property name="DescriptionKey" value="plantedMushroom3HarvestDesc"/>
     <property name="DisplayInfo" value="Description"/>
@@ -135,5 +137,6 @@ func (p *Mushroom) writeStage3(c chan string, traits string) {
 		calculatePlantTier(traits),
 		calculateCropYield(p.CropYield, traits),
 		calculateBonusYield(p.BonusYield, traits),
+		getItemTypeIcon(traits),
 		optionallyAddRenewable(traits, p))
 }
