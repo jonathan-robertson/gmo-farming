@@ -90,7 +90,6 @@ func (*Blueberry) writeStage2(c chan string, traits string) {
 
 func (p *Blueberry) writeStage3(c chan string, traits string) {
 	c <- fmt.Sprintf(`<block name="plantedBlueberry3_%s" stage="3" traits="%s" tags="T%dPlant">
-    <drop event="Destroy" count="0" />
     <drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
     <drop event="Harvest" name="foodCropBlueberries" count="%d" tag="cropHarvest"/>
     <drop event="Harvest" name="foodCropBlueberries" prob="0.5" count="%d" tag="bonusCropHarvest"/>
@@ -125,5 +124,5 @@ func (p *Blueberry) writeStage3(c chan string, traits string) {
 		calculateCropYield(p.CropYield, traits),
 		calculateBonusYield(p.BonusYield, traits),
 		getItemTypeIcon(traits),
-		optionallyAddRenewable(traits, p))
+		getRenewableAndDropTags(traits, p))
 }
