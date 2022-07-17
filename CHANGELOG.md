@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [1.1.1] - 2022-07-17
 
 - fix loss of bonus crop after LivingOffTheLand 3
+- add 50% chance to recover enhanced/trait seeds
 
 ## [1.1.0] - 2022-06-07
 

@@ -90,7 +90,7 @@ func (*Potato) writeStage2(c chan string, traits string) {
 
 func (p *Potato) writeStage3(c chan string, traits string) {
 	c <- fmt.Sprintf(`<block name="plantedPotato3_%s" stage="3" traits="%s" tags="T%dPlant">
-    <drop event="Destroy" count="0" />
+    <drop event="Destroy" count="plantedPotato1_%s" count="1" prob="0.5"/>
     <drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
     <drop event="Harvest" name="foodCropPotato" count="%d" tag="cropHarvest"/>
     <drop event="Harvest" name="foodCropPotato" prob="0.5" count="%d" tag="bonusCropHarvest"/>
@@ -123,6 +123,7 @@ func (p *Potato) writeStage3(c chan string, traits string) {
 		traits,
 		traits,
 		calculatePlantTier(traits),
+		traits,
 		calculateCropYield(p.CropYield, traits),
 		calculateBonusYield(p.BonusYield, traits),
 		getItemTypeIcon(traits),
