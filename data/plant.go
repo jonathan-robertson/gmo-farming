@@ -155,7 +155,7 @@ func getUnlock(plant Plant, target, traits string) string {
 }
 
 func getDefaultSeedDescription() string {
-	return `Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50%% chance to get a seed back for replanting.`
+	return `Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.`
 }
 
 func getCraftingGroup(traits string) string {
