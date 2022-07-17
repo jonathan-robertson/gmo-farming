@@ -136,13 +136,16 @@ func calculatePlantTier(traits string) (tier int) {
 	return len(traits) + 1
 }
 
-func optionallyAddRenewable(traits string, plant Plant) string {
+func getRenewableAndDropTags(traits string, plant Plant) string {
 	if strings.ContainsRune(traits, 'R') {
-		return fmt.Sprintf(`<property name="DowngradeBlock" value="planted%s1_%s" />`,
+		return fmt.Sprintf(`<property name="DowngradeBlock" value="planted%s1_%s" />
+    <drop event="Destroy" count="0" />`,
 			plant.GetName(),
 			traits)
 	}
-	return ""
+	return fmt.Sprintf(`<drop event="Destroy" name="planted%s1_%s" count="1" prob="0.5"/>`,
+		plant.GetName(),
+		traits)
 }
 
 func getUnlock(plant Plant, target, traits string) string {
@@ -155,7 +158,7 @@ func getUnlock(plant Plant, target, traits string) string {
 }
 
 func getDefaultSeedDescription() string {
-	return `Plant these seeds on a craftable Farm Plot block to grow plants for you to harvest.\n\nWhen harvested, there is a 50% chance to get a seed back for replanting.`
+	return `Plant these seeds on a craftable Farm Plot block; when harvested, there is a 50% chance to get a seed back.`
 }
 
 func getCraftingGroup(traits string) string {
