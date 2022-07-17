@@ -1,6 +1,7 @@
 package gen
 
 import (
+	"data"
 	"fmt"
 	"os"
 )
@@ -31,8 +32,24 @@ func getFile(path, filename string) (*os.File, error) {
 	return os.OpenFile(pathAndFilename, os.O_APPEND|os.O_WRONLY|os.O_CREATE, 0755)
 }
 
+func getSeedReturnDescription(traits []data.Trait) string {
+	if containsRenewable(traits) {
+		return ` Because this plant is renewable, it never produces seeds.`
+	}
+	return ` When harvested, there is a 50% chance to get a seed back.`
+}
+
+func containsRenewable(traits []data.Trait) bool {
+	for _, trait := range traits {
+		if trait.Code == 'R' {
+			return true
+		}
+	}
+	return false
+}
+
 func getEnhancedSeedEffectDescription() string {
-	return `All Enhanced Seeds yield twice the standard number of crops.`
+	return ` All Enhanced Seeds yield twice the standard number of crops.`
 }
 
 func getInitialEnhancementCraftingTip() string {

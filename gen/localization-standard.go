@@ -76,10 +76,11 @@ func (*StandardLocalization) producePlantLocalization(c chan string, plant data.
 			plant.GetName(), plant.GetDisplayName())
 		c <- fmt.Sprintf(`planted%s3_,blocks,Farming,"%s (Enhanced)"`,
 			plant.GetName(), plant.GetDisplayName())
-		c <- fmt.Sprintf(`planted%s1_Desc,blocks,Farming,"%s\n\n%s\n\n%s"`,
+		c <- fmt.Sprintf(`planted%s1_Desc,blocks,Farming,"%s%s%s\n\n%s"`,
 			plant.GetName(),
 			plant.GetDescription(),
 			getEnhancedSeedEffectDescription(),
+			getSeedReturnDescription(traits),
 			getInitialEnhancementCraftingTip())
 	case 1:
 		c <- fmt.Sprintf(`planted%s1_%c,blocks,Farming,"%s (Seed, %s)"`,
@@ -88,11 +89,12 @@ func (*StandardLocalization) producePlantLocalization(c chan string, plant data.
 			plant.GetName(), traits[0].Code, plant.GetDisplayName(), traits[0].Name)
 		c <- fmt.Sprintf(`planted%s3_%c,blocks,Farming,"%s (%s)"`,
 			plant.GetName(), traits[0].Code, plant.GetDisplayName(), traits[0].Name)
-		c <- fmt.Sprintf(`planted%s1_%cDesc,blocks,Farming,"%s\n\n%s\n\n%s\n\n%s"`,
+		c <- fmt.Sprintf(`planted%s1_%cDesc,blocks,Farming,"%s%s%s\n\n%s\n\n%s"`,
 			plant.GetName(),
 			traits[0].Code,
 			plant.GetDescription(),
 			getEnhancedSeedEffectDescription(),
+			getSeedReturnDescription(traits),
 			traits[0].GetTraitDescription(),
 			getHotBoxRequirementTip())
 	case 2:
@@ -103,12 +105,13 @@ func (*StandardLocalization) producePlantLocalization(c chan string, plant data.
 				plant.GetName(), traits[0].Code, traits[1].Code, plant.GetDisplayName(), traits[0].DoubleName)
 			c <- fmt.Sprintf(`planted%s3_%c%c,blocks,Farming,"%s (%s)"`,
 				plant.GetName(), traits[0].Code, traits[1].Code, plant.GetDisplayName(), traits[0].DoubleName)
-			c <- fmt.Sprintf(`planted%s1_%c%cDesc,blocks,Farming,"%s\n\n%s\n\n%s\n\n%s"`,
+			c <- fmt.Sprintf(`planted%s1_%c%cDesc,blocks,Farming,"%s%s%s\n\n%s\n\n%s"`,
 				plant.GetName(),
 				traits[0].Code,
 				traits[1].Code,
 				plant.GetDescription(),
 				getEnhancedSeedEffectDescription(),
+				getSeedReturnDescription(traits),
 				traits[0].GetDoubleTraitDescription(),
 				getHotBoxRequirementTip())
 		} else {
@@ -118,12 +121,13 @@ func (*StandardLocalization) producePlantLocalization(c chan string, plant data.
 				plant.GetName(), traits[0].Code, traits[1].Code, plant.GetDisplayName(), traits[0].Name, traits[1].Name)
 			c <- fmt.Sprintf(`planted%s3_%c%c,blocks,Farming,"%s (%s, %s)"`,
 				plant.GetName(), traits[0].Code, traits[1].Code, plant.GetDisplayName(), traits[0].Name, traits[1].Name)
-			c <- fmt.Sprintf(`planted%s1_%c%cDesc,blocks,Farming,"%s\n\n%s\n\n%s\n\n%s\n\n%s"`,
+			c <- fmt.Sprintf(`planted%s1_%c%cDesc,blocks,Farming,"%s%s%s\n\n%s\n\n%s\n\n%s"`,
 				plant.GetName(),
 				traits[0].Code,
 				traits[1].Code,
 				plant.GetDescription(),
 				getEnhancedSeedEffectDescription(),
+				getSeedReturnDescription(traits),
 				traits[0].GetTraitDescription(),
 				traits[1].GetTraitDescription(),
 				getHotBoxRequirementTip())
