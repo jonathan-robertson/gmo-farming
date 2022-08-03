@@ -1,6 +1,6 @@
 # GMO Farming
 
-[![Tested with A20.5 b2](https://img.shields.io/badge/A20.5%20b2-tested-blue.svg)](https://7daystodie.com/) [![Automated Release](https://github.com/jonathan-robertson/gmo-farming/actions/workflows/main.yml/badge.svg)](https://github.com/jonathan-robertson/gmo-farming/actions/workflows/main.yml)
+## [![🧪 Tested On](https://img.shields.io/badge/🧪%20Tested%20On-A20.5%20b2-blue.svg)](https://7daystodie.com/) [![🧰 Automated Tests](https://github.com/jonathan-robertson/gmo-farming/actions/workflows/tests.yml/badge.svg)](https://github.com/jonathan-robertson/gmo-farming/actions/workflows/tests.yml) [![📦 Automated Release](https://github.com/jonathan-robertson/gmo-farming/actions/workflows/release.yml/badge.svg)](https://github.com/jonathan-robertson/gmo-farming/actions/workflows/release.yml)
 
 7 Days to Die Modlet: Genetically modify seeds to grow plants with new properties
 
