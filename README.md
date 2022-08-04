@@ -8,17 +8,6 @@
 
 [Standard Edition Introduction (YouTube)](https://youtu.be/Rlf7xDVKjIE) | [Researcher Edition Differences (YouTube)](https://youtu.be/4QvH_5q_P2g)
 
-## Compatibility
-
-This modlet is compatible with Servers and Clients in all combinations; examine the chart below for details specific to your situation:
-
-Environment | Compatible? | Details
-:---: | :---: | ---
-Dedicated Server | Yes | This mod is meant for dedicated servers only
-EAC | Yes | You can leave EAC enabled on your server and client
-P2P | Yes | Peer-to-peer multiplayer games only require the **host** to install this mod
-Local | Yes | Installing this mod on the client is fully supported for local games
-
 ## Features
 
 *Have you ever wanted to customize your seeds so they can meet your personal needs?*
@@ -97,6 +86,17 @@ Fortitude Level Requirement | Living off the Land Level | Adjustment
 5 | 3 | In addition to the existing boost to crop yield, learn to craft a Hot Box (workstation) and Seed Enhancement ***Schematics***
 7 | 4 | Learn the ***schematics*** to add one trait into an Enhanced Seed
 10 | 5 | Learn the ***schematics*** to add a second trait into a seed that already has its first trait
+
+## Compatibility
+
+This modlet is compatible with Servers and Clients in all combinations; examine the chart below for details specific to your situation:
+
+Environment | Compatible? | Details
+:---: | :---: | ---
+Dedicated Server | Yes | This mod is meant for dedicated servers only
+EAC | Yes | You can leave EAC enabled on your server and client
+P2P | Yes | Peer-to-peer multiplayer games only require the **host** to install this mod
+Local | Yes | Installing this mod on the client is fully supported for local games
 
 ## Recognition
 
