@@ -1,0 +1,45 @@
+name: 🚀 Deploy Standard
+
+on: 
+  workflow_dispatch:
+    inputs:
+      logLevel:
+        description: 'Log level'     
+        required: true
+        default: 'warning'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup Go
+        uses: actions/setup-go@v2
+        with:
+          go-version: "1.18.2"
+      - name: Install dependencies
+        run: |
+          go version
+          go get -u golang.org/x/lint/golint
+      - name: Run program
+        run: go run .
+      - name: prepare data
+        run: |
+          # Edit this line if you want to include additional files
+          # q stands for quiet, r stands for recursive (to include all files and sub-folders in Config)
+
+          mkdir -p deploy/Config
+          cp -r Config-Shared/* deploy/Config/
+          cp -r Config-Standard/* deploy/Config/
+          cp ModInfo.xml README.md LICENSE CHANGELOG.md deploy/
+      - name: ✈ Upload files
+        uses: sebastianpopp/ftp-action@releases/v2
+        with:
+          host: ${{ secrets.FTP_SERVER }}
+          user: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          localDir: "./deploy"
+          remoteDir: "./sdtd/bin/Mods/${{ github.event.repository.name }}"
+          options: "--delete --asci"

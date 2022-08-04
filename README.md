@@ -1,23 +1,12 @@
 # GMO Farming
 
-[![Tested with A20.5 b2](https://img.shields.io/badge/A20.5%20b2-tested-blue.svg)](https://7daystodie.com/) [![Automated Release](https://github.com/jonathan-robertson/gmo-farming/actions/workflows/main.yml/badge.svg)](https://github.com/jonathan-robertson/gmo-farming/actions/workflows/main.yml)
+## [![🧪 Tested On](https://img.shields.io/badge/🧪%20Tested%20On-A20.5%20b2-blue.svg)](https://7daystodie.com/) [![🧰 Automated Tests](https://github.com/jonathan-robertson/gmo-farming/actions/workflows/tests.yml/badge.svg)](https://github.com/jonathan-robertson/gmo-farming/actions/workflows/tests.yml) [![📦 Automated Release](https://github.com/jonathan-robertson/gmo-farming/actions/workflows/release.yml/badge.svg)](https://github.com/jonathan-robertson/gmo-farming/actions/workflows/release.yml)
 
 7 Days to Die Modlet: Genetically modify seeds to grow plants with new properties
 
 ![GMO Farming Image](https://github.com/jonathan-robertson/gmo-farming/raw/media/gmo-farming-social.jpg)
 
 [Standard Edition Introduction (YouTube)](https://youtu.be/Rlf7xDVKjIE) | [Researcher Edition Differences (YouTube)](https://youtu.be/4QvH_5q_P2g)
-
-## Compatibility
-
-This modlet is compatible with Servers and Clients in all combinations; examine the chart below for details specific to your situation:
-
-Environment | Compatible? | Details
-:---: | :---: | ---
-Dedicated Server | Yes | This mod is meant for dedicated servers only
-EAC | Yes | You can leave EAC enabled on your server and client
-P2P | Yes | Peer-to-peer multiplayer games only require the **host** to install this mod
-Local | Yes | Installing this mod on the client is fully supported for local games
 
 ## Features
 
@@ -97,6 +86,17 @@ Fortitude Level Requirement | Living off the Land Level | Adjustment
 5 | 3 | In addition to the existing boost to crop yield, learn to craft a Hot Box (workstation) and Seed Enhancement ***Schematics***
 7 | 4 | Learn the ***schematics*** to add one trait into an Enhanced Seed
 10 | 5 | Learn the ***schematics*** to add a second trait into a seed that already has its first trait
+
+## Compatibility
+
+This modlet is compatible with Servers and Clients in all combinations; examine the chart below for details specific to your situation:
+
+Environment | Compatible? | Details
+:---: | :---: | ---
+Dedicated Server | Yes | This mod is meant for dedicated servers only
+EAC | Yes | You can leave EAC enabled on your server and client
+P2P | Yes | Peer-to-peer multiplayer games only require the **host** to install this mod
+Local | Yes | Installing this mod on the client is fully supported for local games
 
 ## Recognition
 

@@ -1,4 +1,4 @@
-name: Automated Release
+name: 📦 Automated Release
 
 on:
   pull_request:
@@ -31,7 +31,7 @@ jobs:
           mkdir Config
           cp -r Config-Shared/* Config
           cp -r Config-Standard/* Config
-          zip -qr "${{ github.event.repository.name }}.zip" Config ModInfo.xml README.md LICENSE CHANGELOG.md
+          zip -qr "${{ github.event.repository.name }}-standard.zip" Config ModInfo.xml README.md LICENSE CHANGELOG.md
           rm -rf Config/*
           cp -r Config-Shared/* Config
           cp -r Config-Researcher/* Config
@@ -53,7 +53,7 @@ jobs:
           name: ${{ github.event.pull_request.title }}
           body: "${{ github.event.pull_request.body }}"
           generateReleaseNotes: true
-          artifacts: "${{ github.event.repository.name }}.zip, ${{ github.event.repository.name }}-researcher.zip"
+          artifacts: "${{ github.event.repository.name }}-standard.zip, ${{ github.event.repository.name }}-researcher.zip"
           prerelease: ${{ env.prerelease }}
           # if you'd like to review the generated release before publishing it, enable draft mode
           # draft: true
