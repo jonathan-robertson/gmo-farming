@@ -7,24 +7,25 @@ on:
     types: [closed]
 
 jobs:
-  build:
+  release:
     if: ${{ github.event.pull_request.merged }}
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v2
-      - name: Setup Go
+      - name: 🚚 Get latest code
+        uses: actions/checkout@v2
+      - name: ⚙️ Setup Go
         uses: actions/setup-go@v2
         with:
           go-version: "1.18.2"
-      - name: Install dependencies
+      - name: 🛠️ Install dependencies
         run: |
           go version
           go get -u golang.org/x/lint/golint
       - name: Run program
         run: go run .
-      - name: prepare data
+      - name: 📦 Package data
         run: |
           # Edit this line if you want to include additonal files
           # q stands for quiet, r stands for recursive (to include all files and subfolders in Config)
@@ -46,14 +47,15 @@ jobs:
           # echo "title: ${{ github.event.pull_request.title }}"
           # echo "version: $version"
           # echo "prerelease: $prerelease"
-      - uses: ncipollo/release-action@v1
+      - name: 📢 Post Release
+        uses: ncipollo/release-action@v1
         with:
           tag: ${{ env.version }}
           commit: main
           name: ${{ github.event.pull_request.title }}
-          body: "${{ github.event.pull_request.body }}"
+          body: ${{ github.event.pull_request.body }}
           generateReleaseNotes: true
-          artifacts: "${{ github.event.repository.name }}-standard.zip, ${{ github.event.repository.name }}-researcher.zip"
+          artifacts: "${{ github.event.repository.name }}.zip"
           prerelease: ${{ env.prerelease }}
           # if you'd like to review the generated release before publishing it, enable draft mode
           # draft: true
