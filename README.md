@@ -1,10 +1,24 @@
 # GMO Farming
 
-## [![🧪 Tested On](https://img.shields.io/badge/🧪%20Tested%20On-A20.5%20b2-blue.svg)](https://7daystodie.com/) [![🧰 Automated Tests](https://github.com/jonathan-robertson/gmo-farming/actions/workflows/tests.yml/badge.svg)](https://github.com/jonathan-robertson/gmo-farming/actions/workflows/tests.yml) [![📦 Automated Release](https://github.com/jonathan-robertson/gmo-farming/actions/workflows/release.yml/badge.svg)](https://github.com/jonathan-robertson/gmo-farming/actions/workflows/release.yml)
-
-7 Days to Die Modlet: Genetically modify seeds to grow plants with new properties
+[![🧪 Tested On](https://img.shields.io/badge/🧪%20Tested%20On-A20.6%20b9-blue.svg)](https://7daystodie.com/) [![🧰 Automated Tests](https://github.com/jonathan-robertson/gmo-farming/actions/workflows/tests.yml/badge.svg)](https://github.com/jonathan-robertson/gmo-farming/actions/workflows/tests.yml) [![📦 Automated Release](https://github.com/jonathan-robertson/gmo-farming/actions/workflows/release.yml/badge.svg)](https://github.com/jonathan-robertson/gmo-farming/actions/workflows/release.yml)
 
 ![GMO Farming Image](https://github.com/jonathan-robertson/gmo-farming/raw/media/gmo-farming-social.jpg)
+
+- [GMO Farming](#gmo-farming)
+  - [Summary](#summary)
+  - [Features](#features)
+    - [Seed Enhancement](#seed-enhancement)
+      - [Trait Compatibility Matrix](#trait-compatibility-matrix)
+    - [Effects of Trait Combination](#effects-of-trait-combination)
+  - [2 Editions to Choose From](#2-editions-to-choose-from)
+    - [`Standard` Experience](#standard-experience)
+    - [`Researcher` Experience](#researcher-experience)
+  - [Compatibility](#compatibility)
+  - [Recognition](#recognition)
+
+## Summary
+
+7 Days to Die Modlet: Genetically modify seeds to grow plants with new properties
 
 [Standard Edition Introduction (YouTube)](https://youtu.be/Rlf7xDVKjIE) | [Researcher Edition Differences (YouTube)](https://youtu.be/4QvH_5q_P2g)
 
@@ -61,6 +75,8 @@ You can download the Edition you prefer from our [Latest Release](https://github
 
 ### `Standard` Experience
 
+[Standard Edition Introduction (YouTube)](https://youtu.be/Rlf7xDVKjIE)
+
 This Edition is the most vanilla-friendly experience you can expect from a mod like this:
 
 - players unlock content by leveling up in `Living off the Land`
@@ -74,6 +90,8 @@ Fortitude Level Requirement | Living off the Land Level | Adjustment
 10 | 5 | Learn to add a second trait into a seed that already has its first trait
 
 ### `Researcher` Experience
+
+[Researcher Edition Differences (YouTube)](https://youtu.be/4QvH_5q_P2g)
 
 This Edition is more focused on player specialization and giving the player a new challenge to overcome.
 
