@@ -20,6 +20,40 @@ gen | go [gen](./gen) package responsible for generating xml files
 - `build-researcher-locally.sh` is a shell script that allows one to build and prepare a local copy of this mod with the Researcher Theme (helpful for local testing).
 - `build-standard-locally.sh` is the same kind of shell script, but for the Standard Theme rather than Researcher.
 
+## Tools
+
+I love git hooks! They make my life much easier and can be set up by using `vi .git/hooks/pre-commit` and 
+
+### pre-commit
+
+1. edit/create this file with `vi .git/hooks/pre-commit`
+2. paste the following and save/quit with `:x`
+3. give executable permissions to the file with `chmod +x .git/hooks/pre-commit`
+
+```sh
+#!/bin/sh
+go test -v ./...
+gofmt -w .
+go vet .
+go build
+go clean
+```
+
+### pre-push
+
+1. edit/create this file with `vi .git/hooks/pre-push`
+2. paste the following and save/quit with `:x`
+3. give executable permissions to the file with `chmod +x .git/hooks/pre-push`
+
+```sh
+#!/bin/sh
+go test -v ./...
+gofmt -w .
+go vet .
+go build
+go clean
+```
+
 ## Learn Go
 
 If you don't already know Go, you can learn it [over here](https://go.dev/learn/).
