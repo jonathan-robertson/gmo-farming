@@ -69,7 +69,6 @@ func (p *ResearcherItems) produceSchematic(c chan string, plant data.Plant, trai
     <property name="CreativeMode" value="Player"/>
     <property name="CustomIcon" value="%s"/>
     <property name="Group" value="%s"/>
-    <property name="UnlockedBy" value="perkLivingOffTheLand"/>
     <property name="Unlocks" value="%s"/>
     <effect_group>
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="%s" operation="set" value="1"/>

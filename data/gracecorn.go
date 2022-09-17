@@ -77,8 +77,7 @@ func (p *GraceCorn) writeStage1(c chan string, target, traits string) {
     <property name="PlaceAsRandomRotation" value="true"/>
     <property name="PlantGrowing.Next" value="plantedGraceCorn2_%s"/>
     <property name="Shape" value="New"/>
-    <property name="Texture" value="529"/>
-    <property name="UnlockedBy" value="%s"/>
+    <property name="Texture" value="529"/>%s
 </block>`, traits, traits, traits, getItemTypeIcon(traits), traits, getCraftingGroup(traits), traits, getUnlock(p, target, traits))
 }
 
@@ -122,8 +121,7 @@ func (p *GraceCorn) writeStage3(c chan string, traits string) {
     <property name="Shape" value="New"/>
     <property name="SortOrder1" value="a090"/>
     <property name="SortOrder2" value="0002"/>
-    <property name="Texture" value="529"/>
-    %s
+    <property name="Texture" value="529"/>%s
 </block>`,
 		traits,
 		traits,

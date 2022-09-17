@@ -78,8 +78,7 @@ func (p *Corn) writeStage1(c chan string, target, traits string) {
     <property name="PlaceAsRandomRotation" value="true"/>
     <property name="PlantGrowing.Next" value="plantedCorn2_%s"/>
     <property name="Shape" value="New"/>
-    <property name="Texture" value="529"/>
-    <property name="UnlockedBy" value="%s"/>
+    <property name="Texture" value="529"/>%s
 </block>`, traits, traits, traits, getItemTypeIcon(traits), traits, getCraftingGroup(traits), traits, getUnlock(p, target, traits))
 }
 

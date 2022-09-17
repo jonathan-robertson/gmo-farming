@@ -77,17 +77,9 @@ You can download the Edition you prefer from our [Latest Release](https://github
 
 [Standard Edition Introduction (YouTube)](https://youtu.be/Rlf7xDVKjIE)
 
-This Edition is the most vanilla-friendly experience you can expect from a mod like this:
+This Edition is the most vanilla-friendly experience you can expect from a mod like this.
 
-- players unlock content by leveling up in `Living off the Land`
-- each skill level the player adds after level 2 will unlock new content
-- primary focus of this Edition is to encourage use and expand the base game's content
-
-Fortitude Level Requirement | Living off the Land Level | Adjustment
-:---: | :---: | ---
-5 | 3 | In addition to the existing boost to crop yield, learn to craft a Hot Box (workstation) and Seed Enhancement
-7 | 4 | Learn to add one trait into an Enhanced Seed
-10 | 5 | Learn to add a second trait into a seed that already has its first trait
+The primary focus of this Edition is to encourage use and expand the base game's content: just craft the `Hot Box` to get started.
 
 ### `Researcher` Experience
 
@@ -95,15 +87,9 @@ Fortitude Level Requirement | Living off the Land Level | Adjustment
 
 This Edition is more focused on player specialization and giving the player a new challenge to overcome.
 
-- instead of unlocking these new seed recipes by leveling up `Living off the Land`, the player unlock the *opportunity* to learn these new recipes by *researching* them (crafting schematics).
+- instead of having immediate access to the new seed recipes, the player needs to *researching* the recipes by crafting schematics.
 - such research is time and resource intensive, requiring intentional effort in working towards the player's desired seeds and traits. Naturally, this will be a challenge and require a significant amount of farming.
-- primary focus of this Edition is to provide a difficulty barrier to crafting these new seeds. While the recipes to craft the seeds aren't complicated or challenging, researching them is and this requires players to invest the time if they want the benefit from these enhanced crops. This Edition is also an effort to prevent the GMO Farming mod from totally throwing the game out of whack with easy-to-craft super-crops
-
-Fortitude Level Requirement | Living off the Land Level | Adjustment
-:---: | :---: | ---
-5 | 3 | In addition to the existing boost to crop yield, learn to craft a Hot Box (workstation) and Seed Enhancement ***Schematics***
-7 | 4 | Learn the ***schematics*** to add one trait into an Enhanced Seed
-10 | 5 | Learn the ***schematics*** to add a second trait into a seed that already has its first trait
+- primary focus of this Edition is to provide a difficulty barrier to crafting these new seeds. While the recipes to craft the seeds aren't complicated or challenging, researching them is and this requires players to invest the time if they want the benefit from these enhanced crops. This Edition is an effort to prevent the GMO Farming mod from totally throwing the game out of whack with easy-to-craft super-crops
 
 ## Compatibility
 

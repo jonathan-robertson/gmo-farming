@@ -86,8 +86,7 @@ func (p *Mushroom) writeStage1(c chan string, target, traits string) {
     <property name="PlantGrowing.LightLevelStay" value="0"/>
     <property name="PlantGrowing.Next" value="plantedMushroom2_%s"/>
     <property name="Shape" value="Ext3dModel"/>
-    <property name="Texture" value="293"/>
-    <property name="UnlockedBy" value="%s"/>
+    <property name="Texture" value="293"/>%s
 </block>`, traits, traits, traits, getItemTypeIcon(traits), traits, getCraftingGroup(traits), traits, getUnlock(p, target, traits))
 }
 
@@ -128,8 +127,7 @@ func (p *Mushroom) writeStage3(c chan string, traits string) {
     <property name="PlantGrowing.FertileLevel" value="0"/>
     <property name="Shape" value="Ext3dModel"/>
     <property name="Texture" value="293"/>
-    <property name="VehicleHitScale" value=".1"/>
-    %s
+    <property name="VehicleHitScale" value=".1"/>%s
 </block>`,
 		traits,
 		traits,

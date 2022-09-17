@@ -75,9 +75,6 @@ func (*StandardBlocks) produceWorkstationHotBox(c chan string) {
     <!-- Localization -->
     <property name="WorkstationJournalTip" value="hotboxTip"/>
     <property name="DescriptionKey" value="hotboxDesc"/>
-
-    <!-- recipe/unlock -->
-    <property name="UnlockedBy" value="perkLivingOffTheLand"/>
     
     <!-- salvage -->
     <drop event="Harvest" name="resourceForgedIron" count="10" tag="salvageHarvest"/>

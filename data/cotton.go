@@ -70,8 +70,7 @@ func (p *Cotton) writeStage1(c chan string, target, traits string) {
     <property name="Group" value="%s"/>
     <property name="PlaceAsRandomRotation" value="true"/>
     <property name="PlantGrowing.Next" value="plantedCotton2_%s"/>
-    <property name="Texture" value="392"/>
-    <property name="UnlockedBy" value="%s"/>
+    <property name="Texture" value="392"/>%s
 </block>`, traits, traits, traits, getItemTypeIcon(traits), traits, getCraftingGroup(traits), traits, getUnlock(p, target, traits))
 }
 
@@ -113,8 +112,7 @@ func (p *Cotton) writeStage3(c chan string, traits string) {
     <property name="Shape" value="BillboardPlant"/>
     <property name="SortOrder1" value="a090"/>
     <property name="SortOrder2" value="0002"/>
-    <property name="Texture" value="363"/>
-    %s
+    <property name="Texture" value="363"/>%s
 </block>`,
 		traits,
 		traits,
