@@ -69,8 +69,8 @@ func (*StandardBlocks) produceWorkstationHotBox(c chan string) {
     <property name="UiBackgroundTexture" value="194"/>
 
     <!-- audio -->
-    <property name="OpenSound" value="drone_storage_open"/>
-    <property name="CloseSound" value="drone_storage_close"/>
+    <property name="OpenSound" value="vehicle_storage_open"/>
+    <property name="CloseSound" value="vehicle_storage_close"/>
     
     <!-- Localization -->
     <property name="WorkstationJournalTip" value="hotboxTip"/>
