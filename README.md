@@ -28,16 +28,16 @@
 
 ### Seed Enhancement
 
-With the help of a new workstation (the Hot Box), you'll expose seeds to abnormally high levels of the zombie virus, doubling their crop yield and making them capable of taking on various special traits.
+Craft the **Hot Box** (a new workstation) to modify seeds with a variety of special traits!
 
 Trait Name | Description
 :---: | ---
-Bonus | further doubles crop yield (4x yield over unmodified crops)
-Explosive | triggers a concealed explosive [comparable to cooking pot mine] when stepped on, struck with a melee weapon, or hit with an arrow. Due to the flexible nature of plants, the detonator will not trigger if struck with bullets or other explosives
-Fast | reaches maturity in half the time
-Renewable | clean, healthy water allows this plant to spread out its roots and bolster its nutrition absorption and allowing it to produce crops endlessly
-Thorny | integrates with sharp, metal thorns. Touching them will cause one to bleed
-Underground | fused with mushroom dna, allowing growth without the need for sunlight
+Bonus | further doubles crop yield (4x yield over unmodified crops).
+Explosive | triggers a concealed explosive [comparable to cooking pot mine] when stepped on, struck with a melee weapon, or hit with an arrow. *Due to the flexible nature of plants, the detonator will not trigger if struck with bullets or other explosives*.
+Fast | plant reaches maturity in half the time.
+Renewable | clean, fresh water allows this plant to spread out its roots and produce crops endlessly.
+Thorny | integrates with sharp, metal thorns. Touching them will cause one to bleed.
+Underground | fused with mushroom dna, allowing growth without the need for sunlight.
 
 #### Trait Compatibility Matrix
 

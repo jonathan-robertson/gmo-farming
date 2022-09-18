@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [2.0.0] - 2022-09-17
 
+- add journal entry explaining gmo farming
 - remove requirement on living off the land
 
 ## [1.2.3] - 2022-09-17

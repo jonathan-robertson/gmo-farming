@@ -22,6 +22,7 @@ func (*StandardLocalization) GetFilename() string {
 func (p *StandardLocalization) Produce(c chan string) {
 	defer close(c)
 	c <- "Key,File,Type,english"
+	p.produceJournalTipsLocalization(c)
 	p.produceHotBoxLocalization(c)
 	p.produceThornyBuffLocalization(c)
 	for _, plant := range data.Plants {
@@ -37,6 +38,11 @@ func (p *StandardLocalization) Produce(c chan string) {
 			}
 		}
 	}
+}
+
+func (*StandardLocalization) produceJournalTipsLocalization(c chan string) {
+	c <- `gmoJournalTip_title,Journal Tip,,"GMO Farming [ff8000][MOD]"`
+	c <- `gmoJournalTip,Journal Tip,,"Craft the [ff8000]Hot Box[ffffff] to modify seeds with a variety of special traits: [007fff]many of which can be combined[ffffff] and [007fff]a few can even be doubled-up to maximize their effects[ffffff]!\n\n[00ff80]Bonus[ffffff]: further doubles crop yield (4x yield over unmodified crops)\n\n[00ff80]Explosive[ffffff]: [ff007f]triggers a concealed explosive when stepped on, struck with a melee weapon, or hit with an arrow[ffffff]. Due to the flexible nature of plants, the detonator will not trigger if struck with bullets or other explosives.\n\n[00ff80]Fast[ffffff]: plant reaches maturity in half the time.\n\n[00ff80]Renewable[ffffff]: clean, fresh water allows this plant to spread out its roots and produce crops endlessly.\n\n[00ff80]Thorny[ffffff]: integrates with sharp, metal thorns. [ff007f]Touching them will cause one to bleed[ffffff].\n\n[00ff80]Underground[ffffff]: fused with mushroom dna, allowing growth without the need for sunlight."`
 }
 
 func (*StandardLocalization) produceHotBoxLocalization(c chan string) {
