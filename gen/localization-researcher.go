@@ -22,6 +22,7 @@ func (*ResearcherLocalization) GetFilename() string {
 func (p *ResearcherLocalization) Produce(c chan string) {
 	defer close(c)
 	c <- "Key,File,Type,english"
+	p.produceJournalTipsLocalization(c)
 	p.produceHotBoxLocalization(c)
 	p.produceThornyBuffLocalization(c)
 	for _, plant := range data.Plants {
@@ -42,21 +43,16 @@ func (p *ResearcherLocalization) Produce(c chan string) {
 	}
 }
 
+func (*ResearcherLocalization) produceJournalTipsLocalization(c chan string) {
+	c <- `gmoJournalTip_title,Journal Tip,,"GMO Farming [ff8000][MOD]"`
+	c <- `gmoJournalTip,Journal Tip,,"Craft the [ff8000]Hot Box[ffffff] to modify seeds with a variety of special traits: [007fff]many of which can be combined[ffffff] and [007fff]a few can even be doubled-up to maximize their effects[ffffff]!\n\n[00ff80]Bonus[ffffff]: further doubles crop yield (4x yield over unmodified crops)\n\n[00ff80]Explosive[ffffff]: [ff007f]triggers a concealed explosive when stepped on, struck with a melee weapon, or hit with an arrow[ffffff]. Due to the flexible nature of plants, the detonator will not trigger if struck with bullets or other explosives.\n\n[00ff80]Fast[ffffff]: plant reaches maturity in half the time.\n\n[00ff80]Renewable[ffffff]: clean, fresh water allows this plant to spread out its roots and produce crops endlessly.\n\n[00ff80]Thorny[ffffff]: integrates with sharp, metal thorns. [ff007f]Touching them will cause one to bleed[ffffff].\n\n[00ff80]Underground[ffffff]: fused with mushroom dna, allowing growth without the need for sunlight."`
+}
+
 func (*ResearcherLocalization) produceHotBoxLocalization(c chan string) {
 	c <- `hotbox,blocks,Workstation,Hot Box`
 	c <- `hotboxDesc,blocks,Workstation,"The Hot Box is a simple workstation that allows enhanced seeds to absorb various materials and take on new traits."`
 	c <- `hotboxTip,Journal Tip,,"The Hot Box is a simple workstation that allows enhanced seeds to absorb various materials and take on new traits."`
 	c <- `hotboxTip_title,Journal Tip,,Hot Box`
-
-	c <- `perkLivingOffTheLandName,progression,perk For,Living off the Land [FF8000][MOD]`
-	c <- `perkLivingOffTheLandDesc,progression,perk For,Specialize in harvesting more crops using your hands or a tool.\n\n[FF8000][MOD] This perk has 2 new skill levels and added unlocks for level 3.`
-
-	c <- `perkLivingOffTheLandRank3Desc,progression,perk For,Farmer [FF8000][MOD]`
-	c <- `perkLivingOffTheLandRank3LongDesc,progression,perk For,Triple the harvest of wild or planted crops.\n\nCraft Hot Boxes and Enhanced Seeds that you'll be able to research special traits for.`
-	c <- `perkLivingOffTheLandRank4Desc,progression,perk For,Mad Scientist [FF8000][MOD]`
-	c <- `perkLivingOffTheLandRank4LongDesc,progression,perk For,Add a new Trait to enhanced seeds.\n\nAdded Traits can provide a wide variety of properties to a seed; ranging from increasing crop yield to allowing plants to grow without sunlight.`
-	c <- `perkLivingOffTheLandRank5Desc,progression,perk For,Agricultural Genius [FF8000][MOD]`
-	c <- `perkLivingOffTheLandRank5LongDesc,progression,perk For,Add a Second Trait to enhanced seeds.\n\nAdded Traits can provide a wide variety of properties to a seed; ranging from increasing crop yield to allowing plants to grow without sunlight.`
 
 	c <- `lblCategoryTier1SeedResearch,UI,Tooltip,Seed Enhancement Research`
 	c <- `lblCategoryTier1Seeds,UI,Tooltip,Seed Enhancement`

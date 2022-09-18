@@ -138,7 +138,8 @@ func calculatePlantTier(traits string) (tier int) {
 
 func getRenewableAndDropTags(traits string, plant Plant) string {
 	if strings.ContainsRune(traits, 'R') {
-		return fmt.Sprintf(`<property name="DowngradeBlock" value="planted%s1_%s" />
+		return fmt.Sprintf(`
+    <property name="DowngradeBlock" value="planted%s1_%s" />
     <drop event="Destroy" count="0" />`,
 			plant.GetName(),
 			traits)
@@ -151,9 +152,10 @@ func getRenewableAndDropTags(traits string, plant Plant) string {
 func getUnlock(plant Plant, target, traits string) string {
 	switch target {
 	case "Researcher":
-		return plant.GetSchematicName(traits)
+		return fmt.Sprintf(`
+    <property name="UnlockedBy" value="%s"/>`, plant.GetSchematicName(traits))
 	default:
-		return "perkLivingOffTheLand"
+		return ""
 	}
 }
 

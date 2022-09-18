@@ -11,12 +11,10 @@ func main() {
 		&gen.ResearcherBlocks{},
 		&gen.ResearcherItems{},
 		&gen.ResearcherLocalization{},
-		&gen.ResearcherProgression{},
 		&gen.ResearcherRecipes{},
 		&gen.ResearcherUIDisplay{},
 		&gen.StandardBlocks{},
 		&gen.StandardLocalization{},
-		&gen.StandardProgression{},
 		&gen.StandardRecipes{},
 		&gen.StandardUIDisplay{},
 	} {

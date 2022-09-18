@@ -43,7 +43,7 @@ func (p *ResearcherRecipes) Produce(c chan string) {
 }
 
 func (*ResearcherRecipes) produceHotBoxRecipe(c chan string) {
-	c <- `<recipe name="hotbox" count="1" craft_time="240" craft_area="workbench" tags="learnable,workbenchCrafting">
+	c <- `<recipe name="hotbox" count="1" craft_time="240" craft_area="workbench" tags="workbenchCrafting">
     <ingredient name="resourceForgedIron" count="50"/>
     <ingredient name="resourceMechanicalParts" count="8"/>
     <ingredient name="resourceWood" count="25"/>
@@ -119,7 +119,7 @@ func (*ResearcherRecipes) producePlantIngredients(c chan string, trait data.Trai
 func (p *ResearcherRecipes) produceSchematicsRecipe(c chan string, plant data.Plant, traits ...data.Trait) {
 	switch len(traits) {
 	case 0:
-		c <- fmt.Sprintf(`<recipe name="%s" count="1" craft_time="10" traits="" craft_area="hotbox" tags="learnable">
+		c <- fmt.Sprintf(`<recipe name="%s" count="1" craft_time="10" traits="" craft_area="hotbox">
     <ingredient name="resourcePaper" count="10"/>
     <ingredient name="planted%s1" count="100"/>
     <ingredient name="foodRottingFlesh" count="100"/>
@@ -127,7 +127,7 @@ func (p *ResearcherRecipes) produceSchematicsRecipe(c chan string, plant data.Pl
 			plant.GetSchematicName(""),
 			plant.GetName())
 	case 1:
-		c <- fmt.Sprintf(`<recipe name="%s" count="1" craft_time="10" traits="%c" craft_area="hotbox" tags="learnable">
+		c <- fmt.Sprintf(`<recipe name="%s" count="1" craft_time="10" traits="%c" craft_area="hotbox">
     <ingredient name="resourcePaper" count="10"/>
     <ingredient name="planted%s1_" count="10"/>`,
 			plant.GetSchematicName(string(traits[0].Code)),
@@ -136,7 +136,7 @@ func (p *ResearcherRecipes) produceSchematicsRecipe(c chan string, plant data.Pl
 		p.produceSchematicIngredients(c, traits[0])
 		c <- `</recipe>`
 	case 2: // support bi-directional recipes
-		signature := fmt.Sprintf(`<recipe name="%s" count="1" craft_time="10" traits="%c%c" craft_area="hotbox" tags="learnable">`,
+		signature := fmt.Sprintf(`<recipe name="%s" count="1" craft_time="10" traits="%c%c" craft_area="hotbox">`,
 			plant.GetSchematicName(string(traits[0].Code)+string(traits[1].Code)),
 			traits[0].Code, traits[1].Code)
 		c <- fmt.Sprintf(`%s

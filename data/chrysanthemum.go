@@ -70,8 +70,7 @@ func (p *Chrysanthemum) writeStage1(c chan string, target, traits string) {
     <property name="Group" value="%s"/>
     <property name="PlaceAsRandomRotation" value="true"/>
     <property name="PlantGrowing.Next" value="plantedChrysanthemum2_%s"/>
-    <property name="Texture" value="550"/>
-    <property name="UnlockedBy" value="%s"/>
+    <property name="Texture" value="550"/>%s
 </block>`, traits, traits, traits, getItemTypeIcon(traits), traits, getCraftingGroup(traits), traits, getUnlock(p, target, traits))
 }
 
@@ -112,8 +111,7 @@ func (p *Chrysanthemum) writeStage3(c chan string, traits string) {
     <property name="Shape" value="BillboardPlant"/>
     <property name="SortOrder1" value="a090"/>
     <property name="SortOrder2" value="0002"/>
-    <property name="Texture" value="244"/>
-    %s
+    <property name="Texture" value="244"/>%s
 </block>`,
 		traits,
 		traits,

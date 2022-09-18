@@ -71,8 +71,7 @@ func (p *Coffee) writeStage1(c chan string, target, traits string) {
     <property name="Group" value="%s"/>
     <property name="PlaceAsRandomRotation" value="true"/>
     <property name="PlantGrowing.Next" value="plantedCoffee2_%s"/>
-    <property name="Texture" value="393"/>
-    <property name="UnlockedBy" value="%s"/>
+    <property name="Texture" value="393"/>%s
 </block>`, traits, traits, traits, getItemTypeIcon(traits), traits, getCraftingGroup(traits), traits, getUnlock(p, target, traits))
 }
 
@@ -114,8 +113,7 @@ func (p *Coffee) writeStage3(c chan string, traits string) {
     <property name="Shape" value="BillboardPlant"/>
     <property name="SortOrder1" value="a090"/>
     <property name="SortOrder2" value="0002"/>
-    <property name="Texture" value="395"/>
-    %s
+    <property name="Texture" value="395"/>%s
 </block>`,
 		traits,
 		traits,

@@ -71,8 +71,7 @@ func (p *Potato) writeStage1(c chan string, target, traits string) {
     <property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
     <property name="PlaceAsRandomRotation" value="true"/>
     <property name="PlantGrowing.Next" value="plantedPotato2_%s"/>
-    <property name="Shape" value="ModelEntity"/>
-    <property name="UnlockedBy" value="%s"/>
+    <property name="Shape" value="ModelEntity"/>%s
 </block>`, traits, traits, traits, getItemTypeIcon(traits), traits, getCraftingGroup(traits), traits, getUnlock(p, target, traits))
 }
 
@@ -116,8 +115,7 @@ func (p *Potato) writeStage3(c chan string, traits string) {
     <property name="Shape" value="ModelEntity"/>
     <property name="SortOrder1" value="a090"/>
     <property name="SortOrder2" value="0002"/>
-    <property name="Texture" value="395"/>
-    %s
+    <property name="Texture" value="395"/>%s
 </block>`,
 		traits,
 		traits,
