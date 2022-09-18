@@ -3,7 +3,7 @@
         <Name value="GMO Farming" />
         <Description value="Genetically modify seeds to grow plants with new properties" />
         <Author value="Jonathan Robertson (Kanaverum) and Shavick" />
-        <Version value="1.2.2" />
+        <Version value="1.2.3" />
         <Website value="https://github.com/jonathan-robertson/gmo-farming" />
     </ModInfo>
 </xml>
