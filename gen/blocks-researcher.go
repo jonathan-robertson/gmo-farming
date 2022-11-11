@@ -100,14 +100,14 @@ func (*ResearcherBlocks) produceWorkstationHotBox(c chan string) {
     </property>
 
     <!-- purchase price -->
-    <property name="EconomicValue" value="2000"/>
+    <property name="EconomicValue" value="750"/>
 
-    <!-- TODO: Heat -->
+    <!-- heat -->
     <property name="HeatMapStrength" value="2"/>
     <property name="HeatMapTime" value="5000"/>
     <property name="HeatMapFrequency" value="1000"/>
 
-    <!-- TODO: Other -->
+    <!-- other -->
     <property name="TakeDelay" value="5"/>
     <property name="WorkstationIcon" value="ui_game_symbol_crops"/>
 </block>`
