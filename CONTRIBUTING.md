@@ -2,7 +2,7 @@
 
 This modlet is truly massive due to all the plant traits and supported combinations of them.
 
-Becuase of this, we relied on Go to generate the necessary xpath files to make this modlet work as envisioned.
+Because of this, we relied on Go to generate the necessary xpath files to make this modlet work as envisioned.
 
 ## Code Structure
 

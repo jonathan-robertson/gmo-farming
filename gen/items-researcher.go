@@ -6,10 +6,15 @@ import (
 )
 
 // ResearcherItems is responsible for producing content for items.xml
-type ResearcherItems struct{}
+type ResearcherItems struct {
+	Path string
+}
 
 // GetPath returns file path for this producer
-func (p *ResearcherItems) GetPath() string {
+func (r *ResearcherItems) GetPath() string {
+	if r.Path != "" {
+		return r.Path
+	}
 	return "Config-Researcher"
 }
 

@@ -13,6 +13,14 @@ func main() {
 		&gen.ResearcherLocalization{},
 		&gen.ResearcherRecipes{},
 		&gen.ResearcherUIDisplay{},
+
+		&gen.ResearcherBlocks{Path: "Config-Researcher-Rewards"},
+		&gen.ResearcherItems{Path: "Config-Researcher-Rewards"},
+		&gen.ResearcherRewardsLocalization{Path: "Config-Researcher-Rewards"},
+		&gen.ResearcherRecipes{Path: "Config-Researcher-Rewards"},
+		&gen.ResearcherUIDisplay{Path: "Config-Researcher-Rewards"},
+		&gen.ResearcherRewardsLoot{},
+
 		&gen.StandardBlocks{},
 		&gen.StandardLocalization{},
 		&gen.StandardRecipes{},

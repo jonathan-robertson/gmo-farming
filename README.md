@@ -13,6 +13,7 @@
   - [2 Editions to Choose From](#2-editions-to-choose-from)
     - [`Standard` Experience](#standard-experience)
     - [`Researcher` Experience](#researcher-experience)
+    - [`Researcher Loot` Experience](#researcher-loot-experience)
   - [Compatibility](#compatibility)
   - [Recognition](#recognition)
 
@@ -90,6 +91,18 @@ This Edition is more focused on player specialization and giving the player a ne
 - instead of having immediate access to the new seed recipes, the player needs to *researching* the recipes by crafting schematics.
 - such research is time and resource intensive, requiring intentional effort in working towards the player's desired seeds and traits. Naturally, this will be a challenge and require a significant amount of farming.
 - primary focus of this Edition is to provide a difficulty barrier to crafting these new seeds. While the recipes to craft the seeds aren't complicated or challenging, researching them is and this requires players to invest the time if they want the benefit from these enhanced crops. This Edition is an effort to prevent the GMO Farming mod from totally throwing the game out of whack with easy-to-craft super-crops
+
+### `Researcher Loot` Experience
+
+This Edition is the same as Researcher with one major change: players will be able to find schematics in quest loot.
+
+Tier | Enhanced Chance | Single Trait Chance | Double Trait Chance
+:---: | :---: | :---: | :---:
+1 | 0% | 0% | 0%
+2 | 1% | 0% | 0%
+3 | 5% | 1% | 0%
+4 | 15% | 5% | 1%
+5 | 25% | 15% | 5%
 
 ## Compatibility
 
