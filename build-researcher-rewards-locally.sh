@@ -3,4 +3,4 @@ rm -rf Config
 mkdir Config
 go run .
 cp -r Config-Shared/* Config
-cp -r Config-Researcher-Loot/* Config
+cp -r Config-Researcher-Rewards/* Config

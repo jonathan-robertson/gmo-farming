@@ -50,13 +50,13 @@ func (p *ResearcherLocalization) Produce(c chan string) {
 
 func (*ResearcherLocalization) produceJournalTipsLocalization(c chan string) {
 	c <- `gmoJournalTip_title,Journal Tip,,"GMO Farming [ff8000][MOD]"`
-	c <- `gmoJournalTip,Journal Tip,,"Craft the [ff8000]Hot Box[-] to modify seeds with a variety of special traits: [007fff]many of which can be combined[-] and [007fff]a few can even be doubled-up to maximize their effects[-]!\n\n[00ff80]Bonus[-]: further doubles crop yield (4x yield over unmodified crops)\n\n[00ff80]Explosive[-]: [ff007f]triggers a concealed explosive when stepped on, struck with a melee weapon, or hit with an arrow[-]. Due to the flexible nature of plants, the detonator will not trigger if struck with bullets or other explosives.\n\n[00ff80]Fast[-]: plant reaches maturity in half the time.\n\n[00ff80]Renewable[-]: clean, fresh water allows this plant to spread out its roots and produce crops endlessly.\n\n[00ff80]Thorny[-]: integrates with sharp, metal thorns. [ff007f]Touching them will cause one to bleed[-].\n\n[00ff80]Underground[-]: fused with mushroom dna, allowing growth without the need for sunlight."`
+	c <- `gmoJournalTip,Journal Tip,,"Craft the [ff8000]Hot Box[-] to research and improve your seeds with a variety of special traits!\n\n[00ff80]Bonus[-]: further doubles crop yield (4x yield over unmodified crops)\n\n[00ff80]Explosive[-]: [ff007f]triggers a concealed explosive when stepped on, struck with a melee weapon, or hit with an arrow[-]. Due to the flexible nature of plants, the detonator will not trigger if struck with bullets or other explosives.\n\n[00ff80]Fast[-]: plant reaches maturity in half the time.\n\n[00ff80]Renewable[-]: clean, fresh water allows this plant to spread out its roots and produce crops endlessly.\n\n[00ff80]Thorny[-]: integrates with sharp, metal thorns. [ff007f]Touching them will cause one to bleed[-].\n\n[00ff80]Underground[-]: fused with mushroom dna, allowing growth without the need for sunlight."`
 }
 
 func (*ResearcherLocalization) produceHotBoxLocalization(c chan string) {
 	c <- `hotbox,blocks,Workstation,Hot Box`
 	c <- `hotboxDesc,blocks,Workstation,"The Hot Box is a simple workstation that allows enhanced seeds to absorb various materials and take on new traits."`
-	c <- `hotboxTip,Journal Tip,,"The Hot Box is a simple workstation that allows enhanced seeds to absorb various materials and take on new traits."`
+	c <- `hotboxTip,Journal Tip,,"The Hot Box is a simple workstation that allows enhanced seeds to absorb various materials and take on new traits.\n\nLearning how to enhance these seeds will require extensive research and materials... but the payoff is worth it."`
 	c <- `hotboxTip_title,Journal Tip,,Hot Box`
 
 	c <- `lblCategoryTier1SeedResearch,UI,Tooltip,Seed Enhancement Research`

@@ -8,8 +8,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [2.1.0] - 2022-11-11
 
 - add hotbox to traders' regular inventory
-- add new researcher-loot edition
+- add new researcher-rewards edition
 - add researcher schematics to quest loot
+- update hot box description and gmo tooltip
 
 ## [2.0.0] - 2022-09-17
 

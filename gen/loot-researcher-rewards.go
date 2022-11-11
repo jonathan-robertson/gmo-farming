@@ -6,52 +6,25 @@ import (
 )
 
 // ResearcherItems is responsible for producing content for items.xml
-type ResearcherLoot struct{}
+type ResearcherRewardsLoot struct{}
 
 // GetPath returns file path for this producer
-func (p *ResearcherLoot) GetPath() string {
-	return "Config-Researcher-Loot"
+func (p *ResearcherRewardsLoot) GetPath() string {
+	return "Config-Researcher-Rewards"
 }
 
 // GetFilename returns filename for this producer
-func (p *ResearcherLoot) GetFilename() string {
+func (p *ResearcherRewardsLoot) GetFilename() string {
 	return "loot.xml"
 }
 
-/*
-groupReinforcedChestT1
-groupReinforcedChestT2
-groupReinforcedChestT3
-groupHardenedChestT4
-groupHardenedChestT5
-
-/lootcontainers/lootgroup[@name='groupReinforcedChestT1']
-/lootcontainers/lootgroup[@name='groupReinforcedChestT2']
-/lootcontainers/lootgroup[@name='groupReinforcedChestT3']
-/lootcontainers/lootgroup[@name='groupHardenedChestT4']
-/lootcontainers/lootgroup[@name='groupHardenedChestT5']
-
-    <setattribute xpath="/lootcontainers/lootcontainer[@name='reinforcedChestT1' or @name='reinforcedChestT2' or @name='reinforcedChestT3' or @name='hardenedChestT4' or @name='hardenedChestT5']" name="destroy_on_close">true</setattribute>
-    <setattribute xpath="/lootcontainers/lootcontainer[@name='reinforcedChestT1']" name="buff">triggerRewardSeekerT1</setattribute>
-    <setattribute xpath="/lootcontainers/lootcontainer[@name='reinforcedChestT2']" name="buff">triggerRewardSeekerT2</setattribute>
-    <setattribute xpath="/lootcontainers/lootcontainer[@name='reinforcedChestT3']" name="buff">triggerRewardSeekerT3</setattribute>
-    <setattribute xpath="/lootcontainers/lootcontainer[@name='hardenedChestT4']" name="buff">triggerRewardSeekerT4</setattribute>
-    <setattribute xpath="/lootcontainers/lootcontainer[@name='hardenedChestT5']" name="buff">triggerRewardSeekerT5</setattribute>
-*/
-
 // Produce xml data to the provided channel
-func (p *ResearcherLoot) Produce(c chan string) {
+func (p *ResearcherRewardsLoot) Produce(c chan string) {
 	defer close(c)
 	c <- `<config><insertBefore xpath="/lootcontainers/lootgroup[1]">`
 	p.ProduceEnhancedSeedSchematics(c)
 	p.ProduceSingleTraitSeedSchematics(c)
 	p.ProduceDoubleTraitSeedSchematics(c)
-	/*
-		<item name="resourcePaper" count="10" prob="0.8"/>
-		<item group="enhancedSeedSchematics"/>
-		<item group="singleTraitSeedSchematics"/>
-		<item group="doubleTraitSeedSchematics"/>
-	*/
 	c <- `
 		<lootgroup name="groupReinforcedChestT2_GMO" count="all">
 			<item group="enhancedSeedSchematics" prob=".01" force_prob="true"/>
@@ -87,7 +60,7 @@ func (p *ResearcherLoot) Produce(c chan string) {
 </config>`
 }
 
-func (p *ResearcherLoot) ProduceEnhancedSeedSchematics(c chan string) {
+func (p *ResearcherRewardsLoot) ProduceEnhancedSeedSchematics(c chan string) {
 	c <- `<lootgroup name="enhancedSeedSchematics">`
 	for _, plant := range data.Plants {
 		p.produceSchematic(c, plant)
@@ -95,7 +68,7 @@ func (p *ResearcherLoot) ProduceEnhancedSeedSchematics(c chan string) {
 	c <- `</lootgroup>`
 }
 
-func (p *ResearcherLoot) ProduceSingleTraitSeedSchematics(c chan string) {
+func (p *ResearcherRewardsLoot) ProduceSingleTraitSeedSchematics(c chan string) {
 	c <- `<lootgroup name="singleTraitSeedSchematics">`
 	for _, plant := range data.Plants {
 		for _, trait1 := range data.Traits {
@@ -107,7 +80,7 @@ func (p *ResearcherLoot) ProduceSingleTraitSeedSchematics(c chan string) {
 	c <- `</lootgroup>`
 }
 
-func (p *ResearcherLoot) ProduceDoubleTraitSeedSchematics(c chan string) {
+func (p *ResearcherRewardsLoot) ProduceDoubleTraitSeedSchematics(c chan string) {
 	c <- `<lootgroup name="doubleTraitSeedSchematics">`
 	for _, plant := range data.Plants {
 		for _, trait1 := range data.Traits {
@@ -125,7 +98,7 @@ func (p *ResearcherLoot) ProduceDoubleTraitSeedSchematics(c chan string) {
 	c <- `</lootgroup>`
 }
 
-func (p *ResearcherLoot) produceSchematic(c chan string, plant data.Plant, traits ...data.Trait) {
+func (p *ResearcherRewardsLoot) produceSchematic(c chan string, plant data.Plant, traits ...data.Trait) {
 	var traitsStr string
 	switch len(traits) {
 	case 0:
