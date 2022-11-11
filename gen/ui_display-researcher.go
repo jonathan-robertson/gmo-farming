@@ -1,10 +1,15 @@
 package gen
 
 // ResearcherUIDisplay is responsible for producing content for ui_display.xml
-type ResearcherUIDisplay struct{}
+type ResearcherUIDisplay struct {
+	Path string
+}
 
 // GetPath returns file path for this producer
-func (*ResearcherUIDisplay) GetPath() string {
+func (r *ResearcherUIDisplay) GetPath() string {
+	if r.Path != "" {
+		return r.Path
+	}
 	return "Config-Researcher"
 }
 

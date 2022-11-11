@@ -6,10 +6,15 @@ import (
 )
 
 // ResearcherLocalization is responsible for producing content for Localization.txt
-type ResearcherLocalization struct{}
+type ResearcherLocalization struct {
+	Path string
+}
 
 // GetPath returns file path for this producer
-func (*ResearcherLocalization) GetPath() string {
+func (r *ResearcherLocalization) GetPath() string {
+	if r.Path != "" {
+		return r.Path
+	}
 	return "Config-Researcher"
 }
 

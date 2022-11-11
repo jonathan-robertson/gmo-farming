@@ -6,10 +6,15 @@ import (
 )
 
 // ResearcherBlocks is responsible for producing content for blocks.xml
-type ResearcherBlocks struct{}
+type ResearcherBlocks struct {
+	Path string
+}
 
 // GetPath returns file path for this producer
-func (*ResearcherBlocks) GetPath() string {
+func (r *ResearcherBlocks) GetPath() string {
+	if r.Path != "" {
+		return r.Path
+	}
 	return "Config-Researcher"
 }
 

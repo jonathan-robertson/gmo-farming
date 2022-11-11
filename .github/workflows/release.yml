@@ -27,7 +27,7 @@ jobs:
         run: go run .
       - name: 📦 Package data
         run: |
-          # Edit this line if you want to include additonal files
+          # Edit this line if you want to include additional files
           # q stands for quiet, r stands for recursive (to include all files and subfolders in Config)
           mkdir Config
           cp -r Config-Shared/* Config
@@ -37,6 +37,10 @@ jobs:
           cp -r Config-Shared/* Config
           cp -r Config-Researcher/* Config
           zip -qr "${{ github.event.repository.name }}-researcher.zip" Config ModInfo.xml README.md LICENSE CHANGELOG.md
+          rm -rf Config/*
+          cp -r Config-Shared/* Config
+          cp -r Config-Researcher-Loot/* Config
+          zip -qr "${{ github.event.repository.name }}-researcher-loot.zip" Config ModInfo.xml README.md LICENSE CHANGELOG.md
 
           version=$(sed -n '/Version/{s/.*<Version value=\"\(.*\)\"[ ]*\/>.*/\1/;p}' ModInfo.xml)
           echo "version=$version" >> $GITHUB_ENV
@@ -55,7 +59,7 @@ jobs:
           name: ${{ github.event.pull_request.title }}
           body: ${{ github.event.pull_request.body }}
           generateReleaseNotes: true
-          artifacts: "${{ github.event.repository.name }}-standard.zip, ${{ github.event.repository.name }}-researcher.zip"
+          artifacts: "${{ github.event.repository.name }}-standard.zip, ${{ github.event.repository.name }}-researcher.zip, ${{ github.event.repository.name }}-researcher-loot.zip"
           prerelease: ${{ env.prerelease }}
           # if you'd like to review the generated release before publishing it, enable draft mode
           # draft: true
