@@ -1,11 +1,12 @@
 # GMO Farming
 
-[![🧪 Tested On](https://img.shields.io/badge/🧪%20Tested%20On-A20.6%20b9-blue.svg)](https://7daystodie.com/) [![🧰 Automated Tests](https://github.com/jonathan-robertson/gmo-farming/actions/workflows/tests.yml/badge.svg)](https://github.com/jonathan-robertson/gmo-farming/actions/workflows/tests.yml) [![📦 Automated Release](https://github.com/jonathan-robertson/gmo-farming/actions/workflows/release.yml/badge.svg)](https://github.com/jonathan-robertson/gmo-farming/actions/workflows/release.yml)
+[![🧪 Tested On](https://img.shields.io/badge/🧪%20Tested%20On-A21%20b317-blue.svg)](https://7daystodie.com/) [![🧰 Automated Tests](https://github.com/jonathan-robertson/gmo-farming/actions/workflows/tests.yml/badge.svg)](https://github.com/jonathan-robertson/gmo-farming/actions/workflows/tests.yml) [![📦 Automated Release](https://github.com/jonathan-robertson/gmo-farming/actions/workflows/release.yml/badge.svg)](https://github.com/jonathan-robertson/gmo-farming/actions/workflows/release.yml)
 
 ![GMO Farming Image](https://github.com/jonathan-robertson/gmo-farming/raw/media/gmo-farming-social.jpg)
 
 - [GMO Farming](#gmo-farming)
   - [Summary](#summary)
+    - [Support](#support)
   - [Features](#features)
     - [Seed Enhancement](#seed-enhancement)
       - [Trait Compatibility Matrix](#trait-compatibility-matrix)
@@ -19,9 +20,13 @@
 
 ## Summary
 
-7 Days to Die Modlet: Genetically modify seeds to grow plants with new properties
+7 Days to Die Mod: Genetically modify seeds to grow plants with new properties.
 
 [Standard Edition Introduction (YouTube)](https://youtu.be/Rlf7xDVKjIE) | [Researcher Edition Differences (YouTube)](https://youtu.be/4QvH_5q_P2g)
+
+### Support
+
+🗪 If you would like support for this mod, please feel free to reach out via [Discord](https://discord.gg/tRJHSB9Uk7).
 
 ## Features
 
@@ -29,7 +34,7 @@
 
 ### Seed Enhancement
 
-Craft the **Hot Box** (a new workstation) to modify seeds with a variety of special traits!
+The **Hot Box** (a new workstation) will allow you to modify seeds with a variety of special traits.
 
 Trait Name | Description
 :---: | ---
@@ -70,7 +75,7 @@ Extra Thorny | integrates with ***many*** sharp, metal thorns. Touching them wil
 
 ## 2 Editions to Choose From
 
-This modlet comes with 2 Editions: `Standard` and `Researcher`. The one you choose for your game or community should be carefully considered.
+This mod comes with 2 Editions: `Standard` and `Researcher`. The one you choose for your game or community should be carefully considered.
 
 You can download the Edition you prefer from our [Latest Release](https://github.com/jonathan-robertson/gmo-farming/releases/latest) page by expanding the Assets link to see available downloads.
 
@@ -106,18 +111,15 @@ Tier | Enhanced Chance | Single Trait Chance | Double Trait Chance
 
 ## Compatibility
 
-This modlet is compatible with Servers and Clients in all combinations; examine the chart below for details specific to your situation:
-
-Environment | Compatible? | Details
-:---: | :---: | ---
-Dedicated Server | Yes | This mod is meant for dedicated servers only
-EAC | Yes | You can leave EAC enabled on your server and client
-P2P | Yes | Peer-to-peer multiplayer games only require the **host** to install this mod
-Local | Yes | Installing this mod on the client is fully supported for local games
+Environment | Compatible | Does EAC Need to be Disabled? | Details
+--- | :---: | :---: | ---
+Dedicated Server | Yes | No | This mod is meant for dedicated servers only
+Peer-to-Peer Hosting | Yes | No | Peer-to-peer multiplayer games only require the **host** to install this mod
+Single Player Game | Yes | No | Installing this mod on the client is fully supported for local games
 
 ## Recognition
 
-- Huge recognition for Shavick who spent a lot of time brainstorming and proving out this concept with me!
+- Huge recognition for `Shavick` who spent a lot of time brainstorming and proving out this concept with me!
   - His input into this project made most of its coolest ideas possible.
   - He plans to use this mod in his own Overhaul called Crystal Hell [(discord link)](https://discord.gg/xvSgfUJfsG); this mod is only a small piece if the awesome stuff they've got going on over there!
 - Obviously The Fun Pimps for making a fun game to play and mod :]
